@@ -1,0 +1,137 @@
+{
+  "expo": {
+    "name": "Shvar",
+    "slug": "shvar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "shvar",
+    "userInterfaceStyle": "automatic",
+    "description": "A private, local-first wallet for store credits and gift cards.",
+    "ios": {
+      "bundleIdentifier": "com.shvar.wallet",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.shvar.wallet",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A7A5C",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.RECEIVE_BOOT_COMPLETED"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "locales": {
+      "he": "./assets/locales/he.json",
+      "en": "./assets/locales/en.json"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "headers": {
+            "Cross-Origin-Embedder-Policy": "credentialless",
+            "Cross-Origin-Opener-Policy": "same-origin"
+          }
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0A7A5C",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 96,
+          "dark": {
+            "backgroundColor": "#0B0D10"
+          }
+        }
+      ],
+      "expo-sqlite",
+      [
+        "expo-secure-store",
+        {
+          "faceIDPermission": "Allow Shvar to use Face ID to unlock your wallet."
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow Shvar to use Face ID to unlock your wallet."
+        }
+      ],
+      [
+        "expo-sharing",
+        {
+          "ios": {
+            "enabled": true,
+            "activationRule": {
+              "supportsText": true,
+              "supportsWebUrlWithMaxCount": 1,
+              "supportsImageWithMaxCount": 1,
+              "supportsFileWithMaxCount": 1
+            }
+          },
+          "android": {
+            "enabled": true,
+            "singleShareMimeTypes": ["text/plain", "image/*", "application/pdf"]
+          }
+        }
+      ],
+      [
+        "expo-localization",
+        {
+          "supportedLocales": {
+            "ios": ["en", "he"],
+            "android": ["en", "he"]
+          }
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Shvar uses your location in the background to remind you when you are near a store where you have credit. Your location never leaves your device.",
+          "locationWhenInUsePermission": "Shvar uses your location to show stores near you where you have credit.",
+          "isIosBackgroundLocationEnabled": true,
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": false
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#0A7A5C"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Shvar needs access to your photos so you can add a receipt or gift card screenshot.",
+          "cameraPermission": "Shvar uses the camera to photograph receipts and gift cards.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-quick-actions",
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {}
+    }
+  }
+}

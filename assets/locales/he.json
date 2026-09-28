@@ -1,0 +1,13 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "שובר",
+    "NSCameraUsageDescription": "שובר משתמשת במצלמה כדי לצלם קבלות וכרטיסי מתנה.",
+    "NSPhotoLibraryUsageDescription": "שובר צריכה גישה לתמונות כדי להוסיף קבלה או צילום מסך של כרטיס מתנה.",
+    "NSFaceIDUsageDescription": "שובר משתמשת ב־Face ID כדי לפתוח את הארנק.",
+    "NSLocationWhenInUseUsageDescription": "שובר משתמשת במיקום כדי להציג חנויות קרובות שיש לך בהן זיכוי.",
+    "NSLocationAlwaysAndWhenInUseUsageDescription": "שובר משתמשת במיקום ברקע כדי להזכיר לך כשאת/ה ליד חנות שיש לך בה זיכוי. המיקום לא יוצא מהמכשיר."
+  },
+  "android": {
+    "app_name": "שובר"
+  }
+}
