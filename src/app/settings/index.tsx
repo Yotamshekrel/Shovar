@@ -4,6 +4,7 @@ import { ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ExpiryReminderSection } from '@/components/settings/ExpiryReminderSection';
+import { LocationSection } from '@/components/settings/LocationSection';
 import { SecretKeyRow } from '@/components/settings/SecretKeyRow';
 import { Chip, Divider, ListRow, Section, Segmented, Text } from '@/components/ui';
 import { env } from '@/config/env';
@@ -122,6 +123,8 @@ export default function SettingsScreen() {
       </Section>
 
       <ExpiryReminderSection />
+
+      <LocationSection />
 
       <Section title={t('settings.ai')} footer={t('settings.aiHint')}>
         <ListRow

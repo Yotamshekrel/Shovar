@@ -60,7 +60,9 @@ export function ExpiryReminderSection() {
               {DAY_OPTIONS.map((d) => (
                 <Chip
                   key={d}
-                  label={d === 0 ? t('settings.expiryDayOf') : t('settings.expiryDaysValue', { days: d })}
+                  label={
+                    d === 0 ? t('settings.expiryDayOf') : d === 1 ? t('settings.expiryOneDay') : t('settings.expiryDaysValue', { days: d })
+                  }
                   selected={settings.expiryReminderDays.includes(d)}
                   onPress={() => toggleDay(d)}
                 />

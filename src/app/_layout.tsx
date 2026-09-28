@@ -1,3 +1,6 @@
+// Background geofence task must be defined at start-up, before any UI mounts.
+import '@/location/geofenceTask';
+
 import { DarkTheme, DefaultTheme, Stack, ThemeProvider as NavThemeProvider } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';

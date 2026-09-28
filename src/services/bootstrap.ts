@@ -2,6 +2,7 @@ import { reloadAppAsync } from 'expo';
 import { I18nManager, Platform } from 'react-native';
 
 import { isRtlLanguage, resolveLanguage } from '@/i18n';
+import { startGeofenceSync } from '@/location/geofenceSync';
 import { configureNotifications, scheduleExpirySync } from '@/notifications/notifications';
 import { onItemsChanged, useItemsStore } from '@/state/items';
 import { SETTINGS_KEY, sanitizeSettings, useSettingsStore, type AppSettings } from '@/state/settings';
@@ -85,6 +86,7 @@ function startSideEffects(): void {
   sideEffectsStarted = true;
   configureNotifications().catch(() => {});
   onItemsChanged((items) => scheduleExpirySync(items));
+  startGeofenceSync(onItemsChanged);
   useSettingsStore.subscribe((state, prev) => {
     const a = state.settings;
     const b = prev.settings;

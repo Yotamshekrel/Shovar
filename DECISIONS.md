@@ -188,3 +188,39 @@ It is updated per milestone.
   expiry date is saved, or when turning reminders on in Settings — rather than
   at launch.
 - Tapping a reminder opens the card (cold start and while running).
+
+## M7 — Location-based reminders
+
+- **OS geofencing, not GPS tracking.** `expo-location` region monitoring
+  (`startGeofencingAsync`) + an `expo-task-manager` background task. No
+  continuous location updates and no Android foreground service — the OS wakes
+  the app only when a region boundary is crossed.
+- **Nearest-N with a refresh boundary.** A pure planner registers the nearest
+  store branches up to the platform limit (iOS 20 regions → 19 stores; Android
+  60 of its 100 to stay light) plus one extra "refresh" region centred on the
+  user. Its radius is half the distance to the furthest monitored branch
+  (clamped 1–5 km); leaving it wakes the app to re-plan around the new
+  position. The set is also re-planned when stores with credit change, when
+  location settings change, and on foreground (throttled to every 10 min).
+- **Store locations.** Google Places API (New) Text Search when a key is
+  configured (env or Settings/keychain), otherwise OpenStreetMap via Overpass
+  (free, no key; sends a descriptive User-Agent, falls back to a mirror).
+  Results are cached in SQLite per (store, ~11 km grid cell) for 30 days —
+  including "no results" — and at most 6 lookups run per refresh. Only the
+  store name and the cell centre are sent, never the user's exact position.
+  Cards can also be pinned to the current location ("I'm at this store now")
+  for small shops the map data doesn't know.
+- **Notification:** "You have ₪120 credit at Zara, 150m away." Cards for the
+  same store (any spelling) are summed per currency into one notification;
+  the distance comes from the last known position (no extra GPS fix in the
+  background), falling back to the geofence radius.
+- **Anti-spam:** opt-in (off by default), global toggle, per-card mute, and a
+  per-store cooldown (default 12 h, configurable 4–72 h) claimed atomically in
+  SQLite so two branches of the same chain can't double-notify.
+- **Permission flow:** an explainer screen before any prompt (what it does,
+  battery, privacy, why "Always"), then "While using" → "Always" → notification
+  permission. If "Always" is refused, Settings explains that reminders need it.
+- **Platform limits (documented in README):** Android does not relaunch a
+  force-stopped app for geofence events; iOS reports initial region state at
+  start-up (the cooldown absorbs it); both require a development/production
+  build — background location isn't available in Expo Go.
