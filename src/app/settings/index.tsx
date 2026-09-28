@@ -5,6 +5,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ExpiryReminderSection } from '@/components/settings/ExpiryReminderSection';
 import { LocationSection } from '@/components/settings/LocationSection';
+import { SecuritySection } from '@/components/settings/SecuritySection';
 import { SecretKeyRow } from '@/components/settings/SecretKeyRow';
 import { Chip, Divider, ListRow, Section, Segmented, Text } from '@/components/ui';
 import { env } from '@/config/env';
@@ -126,6 +127,8 @@ export default function SettingsScreen() {
 
       <LocationSection />
 
+      <SecuritySection />
+
       <Section title={t('settings.ai')} footer={t('settings.aiHint')}>
         <ListRow
           icon="sparkles-outline"
@@ -146,7 +149,7 @@ export default function SettingsScreen() {
         />
       </Section>
 
-      <Section title={t('settings.data')} footer={t('settings.privacy')}>
+      <Section title={t('settings.data')}>
         <ListRow icon="albums-outline" title={t('settings.loadDemo')} onPress={onLoadDemo} testID="settings-load-demo" />
         <Divider inset={60} />
         <ListRow icon="trash-outline" title={t('settings.deleteAll')} onPress={onDeleteAll} destructive testID="settings-delete-all" />

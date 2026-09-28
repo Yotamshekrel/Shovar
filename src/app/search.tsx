@@ -12,6 +12,7 @@ import type { Item } from '@/domain/types';
 import { useI18n } from '@/i18n';
 import { buildIndex, searchItems, type SearchResult } from '@/search/searchIndex';
 import { useItemsStore } from '@/state/items';
+import { textStart } from '@/theme/align';
 import { useTheme } from '@/theme/ThemeProvider';
 
 import { useNearbyCredit } from '@/location/useNearbyCredit';
@@ -23,7 +24,7 @@ import { useNearbyCredit } from '@/location/useNearbyCredit';
  */
 export default function SearchScreen() {
   const { colors, radii, typography } = useTheme();
-  const { t, locale, isRTL } = useI18n();
+  const { t, locale } = useI18n();
   const insets = useSafeAreaInsets();
   const items = useItemsStore((s) => s.items);
   const [query, setQuery] = useState('');
@@ -117,12 +118,7 @@ export default function SearchScreen() {
   return (
     <View style={[styles.flex, { backgroundColor: colors.background, paddingTop: insets.top + 8 }]}>
       <View style={styles.searchBar}>
-        <IconButton
-          icon={isRTL ? 'arrow-forward' : 'arrow-back'}
-          label={t('common.back')}
-          onPress={() => router.back()}
-          testID="search-back"
-        />
+        <IconButton icon="arrow-back" label={t('common.back')} onPress={() => router.back()} testID="search-back" />
         <View style={[styles.inputWrap, { backgroundColor: colors.surface, borderRadius: radii.lg, borderColor: colors.primary }]}>
           <Icon name="search" size={20} color={colors.textSecondary} />
           <TextInput
@@ -145,7 +141,7 @@ export default function SearchScreen() {
             style={[
               typography.body,
               styles.input,
-              { color: colors.text, textAlign: isRTL ? 'right' : 'left' },
+              { color: colors.text, textAlign: textStart },
               Platform.OS === 'web' ? ({ outlineStyle: 'none' } as object) : null,
             ]}
           />

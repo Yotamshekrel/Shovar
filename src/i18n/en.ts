@@ -275,6 +275,8 @@ export const en = {
   'settings.security': 'Security',
   'settings.biometric': 'Lock with Face ID / fingerprint',
   'settings.biometricUnavailable': 'Biometric unlock isn’t set up on this device.',
+  'settings.encryption': 'Codes and PINs are encrypted',
+  'settings.encryptionHint': 'AES-256 with a key kept in the device keychain / keystore.',
   'settings.ai': 'Receipt reading',
   'settings.aiEnabled': 'Read receipts with AI',
   'settings.aiHint': 'Receipt images are sent to the AI service only to extract details.',
@@ -331,6 +333,7 @@ export const en = {
   'onboarding.2.body': 'Shvar reads the store, amount, expiry and code for you. Just confirm.',
   'onboarding.3.title': 'Private by design',
   'onboarding.3.body': 'Everything stays on your phone. Codes are encrypted, and you can lock the app with Face ID or fingerprint.',
+  'onboarding.demo': 'Explore with demo cards',
   'onboarding.start': 'Get started',
 
   // Quick actions

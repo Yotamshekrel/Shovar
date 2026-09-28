@@ -1,4 +1,4 @@
-import { router } from 'expo-router';
+import { Redirect, router } from 'expo-router';
 import { useMemo } from 'react';
 import { FlatList, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -31,7 +31,7 @@ export default function HomeScreen() {
   const insets = useSafeAreaInsets();
   const items = useItemsStore((s) => s.items);
   const attachmentCounts = useItemsStore((s) => s.attachmentCounts);
-  const { sort } = useSettings();
+  const { sort, onboardingDone } = useSettings();
   const patchSettings = useSettingsStore((s) => s.patch);
   const { filter, setFilter } = useHomeFilter();
   useQuickActions();
@@ -135,6 +135,8 @@ export default function HomeScreen() {
       ) : null}
     </View>
   );
+
+  if (!onboardingDone) return <Redirect href="/onboarding" />;
 
   return (
     <View style={[styles.flex, { backgroundColor: colors.background }]}>

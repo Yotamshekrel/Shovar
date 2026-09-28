@@ -276,6 +276,8 @@ export const he: Record<StringKey, string> = {
   'settings.security': 'אבטחה',
   'settings.biometric': 'נעילה ב־Face ID / טביעת אצבע',
   'settings.biometricUnavailable': 'זיהוי ביומטרי לא מוגדר במכשיר.',
+  'settings.encryption': 'קודים וקודים סודיים מוצפנים',
+  'settings.encryptionHint': 'הצפנת AES-256 עם מפתח שנשמר במחזיק המפתחות של המכשיר.',
   'settings.ai': 'קריאת קבלות',
   'settings.aiEnabled': 'קריאת קבלות באמצעות AI',
   'settings.aiHint': 'תמונות קבלה נשלחות לשירות ה־AI רק לצורך חילוץ פרטים.',
@@ -330,6 +332,7 @@ export const he: Record<StringKey, string> = {
   'onboarding.2.body': 'שובר קורא בשבילך את החנות, הסכום, התוקף והקוד. רק לאשר.',
   'onboarding.3.title': 'פרטיות מובנית',
   'onboarding.3.body': 'הכול נשאר בטלפון. הקודים מוצפנים, ואפשר לנעול את האפליקציה ב־Face ID או בטביעת אצבע.',
+  'onboarding.demo': 'לנסות עם כרטיסים לדוגמה',
   'onboarding.start': 'מתחילים',
 
   // Quick actions

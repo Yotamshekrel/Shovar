@@ -1,5 +1,6 @@
 import { Text as RNText, type TextProps, type TextStyle } from 'react-native';
 
+import { textEnd, textStart } from '@/theme/align';
 import { useTheme } from '@/theme/ThemeProvider';
 import type { Palette, TypographyVariant } from '@/theme/tokens';
 
@@ -25,12 +26,12 @@ const toneKey: Record<TextTone, keyof Palette> = {
 };
 
 /**
- * Themed text. `align="start"` maps to textAlign "left", which React Native
- * flips automatically in RTL layouts.
+ * Themed text. `align` is logical (start/end), so it follows the layout
+ * direction in Hebrew (RTL) and English.
  */
 export function Text({ variant = 'body', tone = 'default', color, align = 'start', weight, style, ...rest }: AppTextProps) {
   const { colors, typography } = useTheme();
-  const textAlign: TextStyle['textAlign'] = align === 'center' ? 'center' : align === 'end' ? 'right' : 'left';
+  const textAlign: TextStyle['textAlign'] = align === 'center' ? 'center' : align === 'end' ? textEnd : textStart;
   return (
     <RNText
       maxFontSizeMultiplier={variant === 'display' || variant === 'title' ? 1.6 : 2}

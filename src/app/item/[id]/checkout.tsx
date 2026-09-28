@@ -1,6 +1,6 @@
 import * as Brightness from 'expo-brightness';
 import * as Clipboard from 'expo-clipboard';
-import { useKeepAwake } from 'expo-keep-awake';
+import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { Linking, Platform, Pressable, ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
@@ -16,10 +16,12 @@ import { unlockForSecrets } from '@/services/security';
 import { useItem, useItemsStore } from '@/state/items';
 import { useTheme } from '@/theme/ThemeProvider';
 
-/** Brightness boost while a code is on screen, restored afterwards. */
+/** Brightness boost + keep the screen awake while a code is on screen, restored afterwards. */
 function useBrightScreen() {
   useEffect(() => {
     if (Platform.OS === 'web') return;
+    const tag = 'shvar-checkout';
+    activateKeepAwakeAsync(tag).catch(() => {});
     let previous: number | null = null;
     let cancelled = false;
     (async () => {
@@ -32,6 +34,7 @@ function useBrightScreen() {
     })();
     return () => {
       cancelled = true;
+      deactivateKeepAwake(tag).catch(() => {});
       if (Platform.OS === 'android') Brightness.restoreSystemBrightnessAsync().catch(() => {});
       else if (previous != null) Brightness.setBrightnessAsync(previous).catch(() => {});
     };
@@ -51,7 +54,6 @@ export default function CheckoutScreen() {
   const [format, setFormat] = useState<BarcodeFormat>(item?.barcodeFormat ?? 'code128');
   const [copied, setCopied] = useState(false);
   const [showPin, setShowPin] = useState(false);
-  useKeepAwake();
   useBrightScreen();
 
   useEffect(() => {

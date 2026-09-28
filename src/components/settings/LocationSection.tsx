@@ -1,5 +1,5 @@
 import { router } from 'expo-router';
-import { useCallback, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Platform, StyleSheet, View } from 'react-native';
 
 import { Chip, Divider, ListRow, Section, Text } from '@/components/ui';
@@ -30,15 +30,22 @@ export function LocationSection() {
   const [status, setStatus] = useState<LocationStatus | null>(null);
   const [background, setBackground] = useState(true);
 
-  const loadStatus = useCallback(async () => {
-    const { kv } = await getServices();
-    setStatus(await kv.get<LocationStatus>(LOCATION_STATUS_KEY));
-    setBackground((await locationPermissions()).background);
-  }, []);
+  const [statusKey, setStatusKey] = useState(0);
+  const reloadStatus = () => setStatusKey((k) => k + 1);
 
   useEffect(() => {
-    loadStatus().catch(() => {});
-  }, [loadStatus, settings.locationEnabled]);
+    let alive = true;
+    (async () => {
+      const { kv } = await getServices();
+      const [st, perms] = await Promise.all([kv.get<LocationStatus>(LOCATION_STATUS_KEY), locationPermissions()]);
+      if (!alive) return;
+      setStatus(st);
+      setBackground(perms.background);
+    })().catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, [settings.locationEnabled, statusKey]);
 
   const toggle = async (on: boolean) => {
     if (on) {
@@ -108,7 +115,7 @@ export function LocationSection() {
             title={t('settings.locationRefresh')}
             onPress={async () => {
               await refreshGeofences('manual', { foreground: true });
-              await loadStatus();
+              reloadStatus();
             }}
           />
           <Divider inset={60} />

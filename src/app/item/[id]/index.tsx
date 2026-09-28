@@ -1,6 +1,6 @@
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useCallback, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Linking, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -36,18 +36,24 @@ export default function ItemDetailScreen() {
   const [events, setEvents] = useState<BalanceEvent[]>([]);
   const [attachments, setAttachments] = useState<Attachment[]>([]);
 
-  const load = useCallback(async () => {
-    const { items } = await getServices();
-    const [full, ev, att] = await Promise.all([items.getItem(id), items.listEvents(id), items.listAttachments(id)]);
-    setSecrets({ code: full?.code ?? null, pin: full?.pin ?? null });
-    setEvents(ev);
-    setAttachments(att);
-  }, [id]);
+  const [reloadKey, setReloadKey] = useState(0);
+  const reload = () => setReloadKey((k) => k + 1);
 
-  // Reload whenever the item changes (balance update, edit, ...).
+  // Reload secrets, history and files whenever the item changes (balance update, edit, ...).
   useEffect(() => {
-    load().catch((e) => console.warn(e));
-  }, [load, item?.updatedAt]);
+    let alive = true;
+    (async () => {
+      const { items } = await getServices();
+      const [full, ev, att] = await Promise.all([items.getItem(id), items.listEvents(id), items.listAttachments(id)]);
+      if (!alive) return;
+      setSecrets({ code: full?.code ?? null, pin: full?.pin ?? null });
+      setEvents(ev);
+      setAttachments(att);
+    })().catch((e) => console.warn(e));
+    return () => {
+      alive = false;
+    };
+  }, [id, item?.updatedAt, reloadKey]);
 
   if (!item) {
     return (
@@ -94,7 +100,7 @@ export default function ItemDetailScreen() {
     if (res.status !== 'picked') return;
     const saved = await persistAttachment(res.attachment);
     await store.addAttachment(item.id, saved);
-    await load();
+    reload();
   };
 
   const onPinLocation = async () => {
@@ -117,7 +123,7 @@ export default function ItemDetailScreen() {
     if (!ok) return;
     await store.removeAttachment(item.id, a.id);
     deleteAttachmentFile(a.fileName);
-    await load();
+    reload();
   };
 
   return (

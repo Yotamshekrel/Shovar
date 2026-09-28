@@ -1,7 +1,7 @@
 import { forwardRef, useState, type ReactNode } from 'react';
 import { Platform, StyleSheet, TextInput, View, type TextInputProps } from 'react-native';
 
-import { useI18n } from '@/i18n';
+import { textStart } from '@/theme/align';
 import { useTheme } from '@/theme/ThemeProvider';
 
 import { Icon } from './Icon';
@@ -23,7 +23,6 @@ export const TextField = forwardRef<TextInput, TextFieldProps>(function TextFiel
   ref,
 ) {
   const { colors, radii, typography } = useTheme();
-  const { isRTL } = useI18n();
   const [focused, setFocused] = useState(false);
   const borderColor = error ? colors.danger : focused ? colors.primary : highlighted ? colors.highlightBorder : colors.border;
 
@@ -72,7 +71,7 @@ export const TextField = forwardRef<TextInput, TextFieldProps>(function TextFiel
             typography.body,
             {
               color: colors.text,
-              textAlign: isRTL ? 'right' : 'left',
+              textAlign: textStart,
               paddingTop: multiline ? 12 : 0,
               fontFamily: mono ? 'monospace' : undefined,
               letterSpacing: mono ? 1 : undefined,

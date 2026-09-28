@@ -99,3 +99,67 @@ describe('share-sheet deep link routing', () => {
     expect(redirectSystemPath({ path: 'shvar://search', initial: true })).toBe('shvar://search');
   });
 });
+
+describe('decideShare', () => {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { decideShare } = require('@/links/shareDecision') as typeof import('@/links/shareDecision');
+
+  it('handles shared text/links immediately', () => {
+    expect(decideShare([{ shareType: 'text', value: 'Gift: https://buyme.co.il/g/1' }], [], true)).toEqual({
+      kind: 'text',
+      text: 'Gift: https://buyme.co.il/g/1',
+      url: 'https://buyme.co.il/g/1',
+    });
+    expect(decideShare([{ shareType: 'url', value: 'https://zara.com/gc' }], [], false)).toMatchObject({
+      kind: 'text',
+      url: 'https://zara.com/gc',
+    });
+  });
+
+  it('waits for file resolution, then imports images and PDFs', () => {
+    const shared = [{ shareType: 'image' as const, value: 'file:///x.jpg' }];
+    expect(decideShare(shared, [], true)).toEqual({ kind: 'wait' });
+    const resolved = [
+      {
+        ...shared[0],
+        contentType: 'image' as const,
+        contentUri: 'file:///x.jpg',
+        contentMimeType: 'image/jpeg',
+        contentSize: 10,
+        originalName: 'x.jpg',
+      },
+    ];
+    expect(decideShare(shared, resolved, false)).toMatchObject({
+      kind: 'file',
+      attachment: { uri: 'file:///x.jpg', mimeType: 'image/jpeg', kind: 'screenshot' },
+    });
+    const pdf = [
+      {
+        shareType: 'file' as const,
+        value: 'file:///r.pdf',
+        contentType: 'file' as const,
+        contentUri: 'file:///r.pdf',
+        contentMimeType: 'application/pdf',
+        contentSize: 1,
+        originalName: 'r.pdf',
+      },
+    ];
+    expect(decideShare(pdf, pdf, false)).toMatchObject({ kind: 'file', attachment: { kind: 'document' } });
+  });
+
+  it('rejects unsupported files and reports empty shares', () => {
+    const zip = [
+      {
+        shareType: 'file' as const,
+        value: 'file:///a.zip',
+        contentType: 'file' as const,
+        contentUri: 'file:///a.zip',
+        contentMimeType: 'application/zip',
+        contentSize: 1,
+        originalName: 'a.zip',
+      },
+    ];
+    expect(decideShare(zip, zip, false)).toEqual({ kind: 'unsupported' });
+    expect(decideShare([], [], false)).toEqual({ kind: 'nothing' });
+  });
+});

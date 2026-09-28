@@ -14,6 +14,8 @@ import { nearestCredit } from './nearest';
 import { formatDistance } from './nearbyAlert';
 import { PlacesCache } from './places/placesCache';
 
+const EMPTY: NearbyCredit[] = [];
+
 export interface NearbyCredit {
   item: Item;
   distanceM: number;
@@ -30,11 +32,10 @@ export function useNearbyCredit(limit = 3): NearbyCredit[] {
   const { lang } = useI18n();
   const [result, setResult] = useState<NearbyCredit[]>([]);
 
+  const enabled = Platform.OS !== 'web' && locationEnabled;
+
   useEffect(() => {
-    if (Platform.OS === 'web' || !locationEnabled) {
-      setResult([]);
-      return;
-    }
+    if (!enabled) return;
     let alive = true;
     (async () => {
       const perm = await Location.getForegroundPermissionsAsync();
@@ -50,7 +51,7 @@ export function useNearbyCredit(limit = 3): NearbyCredit[] {
     return () => {
       alive = false;
     };
-  }, [items, locationEnabled, lang, limit]);
+  }, [items, enabled, lang, limit]);
 
-  return result;
+  return enabled ? result : EMPTY;
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- A ~2 km walk ending at Azrieli Mall, Tel Aviv. Use with Xcode "Simulate Location"
+     or the Android emulator's Extended Controls → Location → Routes (import GPX). -->
+<gpx version="1.1" creator="Shvar" xmlns="http://www.topografix.com/GPX/1/1">
+  <wpt lat="32.0853" lon="34.7818"><name>Rabin Square</name><time>2026-01-01T10:00:00Z</time></wpt>
+  <wpt lat="32.0826" lon="34.7851"><time>2026-01-01T10:04:00Z</time></wpt>
+  <wpt lat="32.0799" lon="34.7880"><time>2026-01-01T10:08:00Z</time></wpt>
+  <wpt lat="32.0772" lon="34.7902"><time>2026-01-01T10:12:00Z</time></wpt>
+  <wpt lat="32.0752" lon="34.7915"><time>2026-01-01T10:15:00Z</time></wpt>
+  <wpt lat="32.0741" lon="34.7922"><name>Azrieli Mall</name><time>2026-01-01T10:17:00Z</time></wpt>
+</gpx>

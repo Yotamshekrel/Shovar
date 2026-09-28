@@ -1,5 +1,5 @@
 import { Image } from 'expo-image';
-import { useEffect, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import { ActivityIndicator, Animated, Easing, StyleSheet, View } from 'react-native';
 
 import { Button, Icon, Text } from '@/components/ui';
@@ -10,7 +10,7 @@ import { useTheme } from '@/theme/ThemeProvider';
 export function ReadingView({ uri, onCancel }: { uri: string | null; onCancel: () => void }) {
   const { colors, radii } = useTheme();
   const { t } = useI18n();
-  const sweep = useRef(new Animated.Value(0)).current;
+  const [sweep] = useState(() => new Animated.Value(0));
 
   useEffect(() => {
     const loop = Animated.loop(

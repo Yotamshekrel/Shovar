@@ -4,10 +4,11 @@ import '@/location/geofenceTask';
 import { DarkTheme, DefaultTheme, Stack, ThemeProvider as NavThemeProvider } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, Platform, StyleSheet, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
+import { LockGate } from '@/components/LockGate';
 import { Button, Text } from '@/components/ui';
 import { useI18n } from '@/i18n';
 import { initApp } from '@/services/bootstrap';
@@ -81,15 +82,19 @@ function Boot({ children }: { children: React.ReactNode }) {
   const { colors } = useTheme();
   const [state, setState] = useState<'loading' | 'ready' | Error>('loading');
 
-  const start = () => {
-    setState('loading');
+  const boot = useCallback(() => {
     initApp()
       .then(() => setState('ready'))
       .catch((e: unknown) => setState(e instanceof Error ? e : new Error(String(e))))
       .finally(() => SplashScreen.hideAsync().catch(() => {}));
-  };
+  }, []);
 
-  useEffect(start, []);
+  useEffect(boot, [boot]);
+
+  const retry = () => {
+    setState('loading');
+    boot();
+  };
 
   if (state === 'ready') return <>{children}</>;
   return (
@@ -104,7 +109,7 @@ function Boot({ children }: { children: React.ReactNode }) {
           <Text tone="secondary" align="center">
             {state.message}
           </Text>
-          <Button title="Try again" onPress={start} />
+          <Button title="Try again" onPress={retry} />
         </View>
       )}
     </View>
@@ -116,7 +121,9 @@ export default function RootLayout() {
     <GestureHandlerRootView style={styles.flex}>
       <ThemeProvider>
         <Boot>
-          <Navigator />
+          <LockGate>
+            <Navigator />
+          </LockGate>
         </Boot>
       </ThemeProvider>
     </GestureHandlerRootView>

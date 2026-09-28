@@ -224,3 +224,30 @@ It is updated per milestone.
   force-stopped app for geofence events; iOS reports initial region state at
   start-up (the cooldown absorbs it); both require a development/production
   build — background location isn't available in Expo Go.
+
+## M8 — Security, polish, tests, docs
+
+- **Biometric lock** (`expo-local-authentication`) is opt-in. When on, the
+  app starts locked, re-locks after 60 s in the background, covers its content
+  while inactive (app-switcher snapshot), and revealing/copying a code reuses
+  an unlock from the last 30 s instead of prompting again. Turning the lock off
+  requires authenticating. Device passcode is accepted as a fallback so users
+  are never locked out of their own wallet.
+- **Onboarding is three pages**, skippable, ending with "Get started" or
+  "Explore with demo cards". Permissions are never requested here — each one
+  is asked in context (camera on first scan, notifications when the first card
+  with an expiry is saved, location from the nearby-reminders explainer).
+- **RTL correctness:** text alignment is logical (`left` means *start* on
+  native, CSS `start`/`end` on web), directional icons flip with the layout,
+  and inputs no longer hard-code `right` for Hebrew (which on native would
+  have meant *end*, i.e. left).
+- **React Compiler lint rules** are enforced (`eslint-config-expo`): no
+  synchronous `setState` in effects, no refs read during render. Data loading
+  in effects uses cancellable async blocks; the share handler was split into a
+  pure `decideShare()` + a side-effect-only effect.
+- **App icon & splash** are generated from a single SVG (ticket with a
+  check mark on the brand green), including Android adaptive foreground,
+  background and monochrome layers.
+- **EAS profiles:** `development` (dev client, internal), `development-simulator`,
+  `preview` (internal APK), `production` (auto-increment), each mapped to an EAS
+  environment for the `EXPO_PUBLIC_*` variables.
