@@ -2,7 +2,8 @@ import { reloadAppAsync } from 'expo';
 import { I18nManager, Platform } from 'react-native';
 
 import { isRtlLanguage, resolveLanguage } from '@/i18n';
-import { useItemsStore } from '@/state/items';
+import { configureNotifications, scheduleExpirySync } from '@/notifications/notifications';
+import { onItemsChanged, useItemsStore } from '@/state/items';
 import { SETTINGS_KEY, sanitizeSettings, useSettingsStore, type AppSettings } from '@/state/settings';
 
 import { getServices } from './database';
@@ -73,9 +74,35 @@ export async function restartApp(reason = 'settings changed'): Promise<void> {
   await reloadAppAsync(reason);
 }
 
+let sideEffectsStarted = false;
+
+/**
+ * Keeps OS-level state (scheduled expiry reminders, geofences) in sync with the
+ * wallet and settings. Registered once, before the first items load.
+ */
+function startSideEffects(): void {
+  if (sideEffectsStarted) return;
+  sideEffectsStarted = true;
+  configureNotifications().catch(() => {});
+  onItemsChanged((items) => scheduleExpirySync(items));
+  useSettingsStore.subscribe((state, prev) => {
+    const a = state.settings;
+    const b = prev.settings;
+    if (
+      a.expiryRemindersEnabled !== b.expiryRemindersEnabled ||
+      a.reminderHour !== b.reminderHour ||
+      a.language !== b.language ||
+      a.expiryReminderDays.join(',') !== b.expiryReminderDays.join(',')
+    ) {
+      scheduleExpirySync();
+    }
+  });
+}
+
 export async function initApp(): Promise<AppSettings> {
   const settings = await loadSettings();
   await ensureLayoutDirection(settings);
+  startSideEffects();
   await useItemsStore.getState().refresh();
   return settings;
 }

@@ -6,6 +6,7 @@ import { ItemForm } from '@/components/form/ItemForm';
 import { Icon, Text } from '@/components/ui';
 import { emptyDraft } from '@/domain/types';
 import { useI18n } from '@/i18n';
+import { requestNotificationPermission, scheduleExpirySync } from '@/notifications/notifications';
 import { persistAttachment } from '@/services/attachments';
 import { useDraftStore } from '@/state/drafts';
 import { useItemsStore } from '@/state/items';
@@ -61,6 +62,8 @@ export default function NewItemScreen() {
           const attachments = isReview ? await Promise.all(pending!.attachments.map(persistAttachment)) : [];
           const item = await create(draft, attachments);
           setPending(null);
+          // Ask for notification permission in context: the first time a card with an expiry date is saved.
+          if (draft.expiryDate && settings.expiryRemindersEnabled) requestNotificationPermission().then((ok) => ok && scheduleExpirySync());
           router.dismissAll();
           router.push(`/item/${item.id}`);
         }}

@@ -259,6 +259,7 @@ export const he: Record<StringKey, string> = {
   'settings.expiryDaysValue': '{days} ימים לפני',
   'settings.expiryDayOf': 'ביום עצמו',
   'settings.reminderTime': 'בשעה',
+  'settings.notificationsDenied': 'ההתראות של שובר כבויות. אפשר להפעיל אותן בהגדרות המערכת.',
   'settings.location': 'תזכורות בקרבת מקום',
   'settings.locationEnabled': 'להזכיר ליד חנויות',
   'settings.locationHint': 'קבלת התראה כשעוברים ליד חנות שיש בה זיכוי.',

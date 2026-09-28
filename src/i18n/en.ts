@@ -258,6 +258,7 @@ export const en = {
   'settings.expiryDaysValue': '{days} days before',
   'settings.expiryDayOf': 'On the day',
   'settings.reminderTime': 'At',
+  'settings.notificationsDenied': 'Notifications are turned off for Shvar. Turn them on in system settings.',
   'settings.location': 'Nearby reminders',
   'settings.locationEnabled': 'Remind me near stores',
   'settings.locationHint': 'Get a notification when you pass a store where you have credit.',

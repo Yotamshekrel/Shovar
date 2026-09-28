@@ -169,3 +169,22 @@ It is updated per milestone.
   400 KB cap); many voucher pages are client-rendered or behind login, in which
   case the draft is prefilled from the URL and message alone.
 - Links default to **gift card** unless the text says credit.
+
+## M6 — Expiry reminders
+
+- **Local notifications only** (`expo-notifications`, DATE triggers); no push
+  server, nothing leaves the device.
+- **Pure planner + idempotent reconcile.** `planExpiryNotifications` computes
+  the desired set (default 14 and 3 days before, at 10:00 local, both
+  configurable, plus "on the day"); `diffSchedule` compares it with what the OS
+  has pending using a stable identifier (`expiry:<item>:<days>`) and a content
+  signature, so only changed reminders are cancelled/rescheduled. It re-runs
+  (debounced) whenever the wallet, reminder settings or language change.
+- **iOS 64-pending-notification limit:** only the soonest 50 reminders are
+  scheduled; the rest are picked up automatically on later syncs.
+- Past trigger times are skipped (no burst of stale reminders); used, expired,
+  zero-balance and deleted cards never get reminders.
+- **Permission is requested in context** — the first time a card with an
+  expiry date is saved, or when turning reminders on in Settings — rather than
+  at launch.
+- Tapping a reminder opens the card (cold start and while running).

@@ -9,6 +9,7 @@ import { formatMoney, sumByCurrency } from '@/domain/money';
 import { type FilterKey, type SortKey, filterItems, isActive, isExpiringSoon, sortItems } from '@/domain/status';
 import type { Item } from '@/domain/types';
 import { useI18n } from '@/i18n';
+import { useNotificationRouting } from '@/notifications/notifications';
 import { useQuickActions } from '@/services/quickActions';
 import { useItemsStore } from '@/state/items';
 import { useSettings, useSettingsStore } from '@/state/settings';
@@ -34,6 +35,7 @@ export default function HomeScreen() {
   const patchSettings = useSettingsStore((s) => s.patch);
   const { filter, setFilter } = useHomeFilter();
   useQuickActions();
+  useNotificationRouting();
 
   const active = useMemo(() => items.filter((i) => isActive(i)), [items]);
   const visible = useMemo(() => sortItems(filterItems(active, filter), sort, locale), [active, filter, sort, locale]);
