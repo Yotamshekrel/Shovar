@@ -149,3 +149,23 @@ It is updated per milestone.
 - **Tests** cover the normalizer, the heuristic parser on realistic Hebrew and
   English samples, the exact wire request (headers, beta, schema, PDF blocks)
   by running the real SDK against a local mock API, and the proxy end-to-end.
+
+## M5 — Gift card links + share sheet
+
+- **Share-into-app with `expo-sharing`** (SDK 57's built-in receive support:
+  an iOS share extension + Android `ACTION_SEND` filters for text, links,
+  images and PDFs). `+native-intent.ts` routes the incoming `expo-sharing` URL
+  to `/handle-share`, which decides: link or message containing a link → link
+  import; image/PDF → the receipt pipeline; plain text → the rule-based parser.
+  Payloads are cleared after handling so reopening the app doesn't re-import.
+  The iOS extension needs an App Group, so share-into-app requires a
+  development/production build (not Expo Go).
+- **Link analysis without an AI call.** Store priority: a specific store named
+  in the message/page ("שובר מתנה לקסטרו … BuyMe" → Castro) → the link's own
+  domain (zara.com → Zara) → the page title / `og:site_name` → the gift
+  platform (BuyMe, Tav Zahav, …) → the domain label (flagged for review).
+  Amount/expiry/code come from the message and page text (same parser as OCR)
+  or an `amount=` query parameter. The page fetch is best-effort (6 s timeout,
+  400 KB cap); many voucher pages are client-rendered or behind login, in which
+  case the draft is prefilled from the URL and message alone.
+- Links default to **gift card** unless the text says credit.
