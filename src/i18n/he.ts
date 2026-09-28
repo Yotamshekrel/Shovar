@@ -223,6 +223,7 @@ export const he: Record<StringKey, string> = {
   'scan.source.ai': 'AI',
   'scan.source.ocr': 'זיהוי טקסט במכשיר',
   'scan.source.text': 'טקסט',
+  'scan.source.link': 'הקישור',
   'scan.source.none': 'הזנה ידנית',
 
   // Link import

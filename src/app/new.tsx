@@ -32,7 +32,7 @@ export default function NewItemScreen() {
     [isReview],
   );
 
-  const sourceLabel = pending ? t(`scan.source.${pending.extractionSource === 'link' ? 'text' : pending.extractionSource}`) : '';
+  const sourceLabel = pending ? t(`scan.source.${pending.extractionSource}`) : '';
 
   return (
     <>

@@ -106,3 +106,46 @@ It is updated per milestone.
 - **Quick actions** (`expo-quick-actions`): "Find credit", "Scan receipt",
   "Add card", set dynamically with localized titles. A home-screen widget was
   left as a stretch goal (see README).
+
+## M4 — Receipt capture + automatic extraction
+
+- **Pipeline:** Claude vision (structured output) → on-device OCR + rule-based
+  parser → manual. Whatever happens, the user lands on the review screen with
+  the original image/PDF attached; nothing is saved without a tap on Save.
+- **Claude via the official TypeScript SDK** (`@anthropic-ai/sdk`) using
+  `expo/fetch`. One `messages.create` call per document with:
+  - the image (downscaled on-device to ≤1568 px JPEG — the size Claude uses
+    anyway — which cuts upload time) or the PDF as a `document` block;
+  - **structured outputs** (`output_config.format` = JSON schema) so the
+    response always parses. Every field is nullable and carries a per-field
+    confidence; the model is told to return null rather than guess;
+  - `effort: "low"` — extraction is simple and the user is waiting;
+  - model `claude-opus-5-5` by default (configurable with
+    `EXPO_PUBLIC_EXTRACTION_MODEL`);
+  - **server-side refusal fallback** (`fallbacks: "default"`, beta
+    `server-side-fallback-2026-07-01`) so a rare safety-classifier decline is
+    retried on Anthropic's recommended fallback model instead of failing.
+- **Where the key lives.** Keys are never hardcoded. In priority order: a key
+  the user pastes in Settings (device keychain via SecureStore) → a proxy URL
+  (`EXPO_PUBLIC_ANTHROPIC_BASE_URL`, `server/extraction-proxy.mjs` holds the
+  real key and enforces a client token, model allowlist and size limit) → a
+  dev-only `EXPO_PUBLIC_ANTHROPIC_API_KEY` (documented as bundled into the app).
+- **Review-time safety net.** The normalizer re-validates everything: currency
+  symbols → ISO codes, day-first date parsing, canonical brand names ("ZARA" →
+  "Zara", legal suffixes dropped), plausibility checks (issue date in the
+  future, expiry before issue, absurd amounts). Anything below 0.7 confidence
+  or failing a check is highlighted in amber until the user touches it.
+- **Consent.** The first AI read asks for consent and states that only the
+  image is sent, only for extraction. Declining turns AI reading off (re-enable
+  in Settings); the scan screen always shows the privacy notice.
+- **On-device fallback:** `expo-text-extractor` (ML Kit on Android, Apple
+  Vision on iOS), loaded with `requireOptionalNativeModule` so Expo Go (where it
+  doesn't exist) keeps working. ML Kit's on-device model reads Latin script
+  only, so Hebrew receipts rely on the AI path; the rule-based parser handles
+  Hebrew/English keywords (זיכוי, בתוקף עד, סה״כ, credit, valid until …), prefers
+  the credited amount over the receipt total, ignores dates/phones/times when
+  looking for money, and computes expiry from validity periods ("30 יום",
+  "valid for 12 months").
+- **Tests** cover the normalizer, the heuristic parser on realistic Hebrew and
+  English samples, the exact wire request (headers, beta, schema, PDF blocks)
+  by running the real SDK against a local mock API, and the proxy end-to-end.

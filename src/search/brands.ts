@@ -485,7 +485,7 @@ export const BRANDS: Brand[] = [
     id: 'giftcardcoil',
     name: 'GiftCard',
     nameHe: 'גיפטקארד',
-    aliases: ['gift card'],
+    aliases: [],
     category: 'gift_platform',
     domains: ['giftcard.co.il'],
     color: '#5A2D82',

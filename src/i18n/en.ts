@@ -222,6 +222,7 @@ export const en = {
   'scan.source.ai': 'AI',
   'scan.source.ocr': 'on-device OCR',
   'scan.source.text': 'text',
+  'scan.source.link': 'the link',
   'scan.source.none': 'manual entry',
 
   // Link import

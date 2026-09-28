@@ -5,12 +5,12 @@ import { Platform } from 'react-native';
 
 import { useI18n } from '@/i18n';
 
-type Href = '/search' | '/scan' | '/add';
+type Href = '/search' | '/scan?source=camera' | '/add';
 
 let initialHandled = false;
 
 function isHref(v: unknown): v is Href {
-  return v === '/search' || v === '/scan' || v === '/add';
+  return v === '/search' || v === '/scan?source=camera' || v === '/add';
 }
 
 /**
@@ -30,7 +30,12 @@ export function useQuickActions() {
         icon: Platform.OS === 'ios' ? 'symbol:magnifyingglass' : undefined,
         params: { href: '/search' },
       },
-      { id: 'scan', title: t('quick.scan'), icon: Platform.OS === 'ios' ? 'symbol:doc.viewfinder' : undefined, params: { href: '/scan' } },
+      {
+        id: 'scan',
+        title: t('quick.scan'),
+        icon: Platform.OS === 'ios' ? 'symbol:doc.viewfinder' : undefined,
+        params: { href: '/scan?source=camera' },
+      },
       { id: 'add', title: t('quick.add'), icon: Platform.OS === 'ios' ? 'symbol:plus.circle' : undefined, params: { href: '/add' } },
     ]).catch(() => {});
     // eslint-disable-next-line react-hooks/exhaustive-deps

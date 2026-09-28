@@ -3,7 +3,10 @@ import { router } from 'expo-router';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { SecretKeyRow } from '@/components/settings/SecretKeyRow';
 import { Chip, Divider, ListRow, Section, Segmented, Text } from '@/components/ui';
+import { env } from '@/config/env';
+import { USER_KEY_SECRET } from '@/extraction/aiConfig';
 import { SUPPORTED_CURRENCIES, currencySymbol } from '@/domain/money';
 import { isRtlLanguage, resolveLanguage, useI18n } from '@/i18n';
 import { applyLayoutDirection, restartApp } from '@/services/bootstrap';
@@ -115,6 +118,26 @@ export default function SettingsScreen() {
             ))}
           </View>
         </View>
+      </Section>
+
+      <Section title={t('settings.ai')} footer={t('settings.aiHint')}>
+        <ListRow
+          icon="sparkles-outline"
+          title={t('settings.aiEnabled')}
+          toggle={{
+            value: settings.aiExtractionEnabled,
+            onChange: (v) => patch({ aiExtractionEnabled: v, aiConsentGiven: v ? settings.aiConsentGiven : false }),
+          }}
+          testID="settings-ai-toggle"
+        />
+        <Divider inset={60} />
+        <SecretKeyRow
+          secretName={USER_KEY_SECRET}
+          title={t('settings.aiKey')}
+          hint={t('settings.aiKeyHint')}
+          envConfigured={!!(env.anthropicApiKey || env.anthropicBaseUrl)}
+          testID="settings-ai-key"
+        />
       </Section>
 
       <Section title={t('settings.data')} footer={t('settings.privacy')}>

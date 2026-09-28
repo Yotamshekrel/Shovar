@@ -3,6 +3,7 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.129.0",
     "@expo/vector-icons": "^15.0.2",
     "@noble/ciphers": "^2.4.0",
     "@react-native-community/datetimepicker": "9.1.0",
@@ -36,6 +37,7 @@
     "expo-symbols": "~57.0.3",
     "expo-system-ui": "~57.0.4",
     "expo-task-manager": "~57.0.20",
+    "expo-text-extractor": "^2.0.0",
     "expo-web-browser": "~57.0.3",
     "qrcode": "^1.5.4",
     "react": "19.2.3",
