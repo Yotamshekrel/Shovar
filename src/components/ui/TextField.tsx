@@ -1,5 +1,5 @@
 import { forwardRef, useState, type ReactNode } from 'react';
-import { StyleSheet, TextInput, View, type TextInputProps } from 'react-native';
+import { Platform, StyleSheet, TextInput, View, type TextInputProps } from 'react-native';
 
 import { useI18n } from '@/i18n';
 import { useTheme } from '@/theme/ThemeProvider';
@@ -77,6 +77,7 @@ export const TextField = forwardRef<TextInput, TextFieldProps>(function TextFiel
               fontFamily: mono ? 'monospace' : undefined,
               letterSpacing: mono ? 1 : undefined,
             },
+            Platform.OS === 'web' ? ({ outlineStyle: 'none' } as object) : null,
           ]}
         />
         {suffix ? <View style={styles.affix}>{suffix}</View> : null}

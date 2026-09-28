@@ -110,6 +110,9 @@ export const he: Record<StringKey, string> = {
   'form.attachments': 'קבצים מצורפים',
   'form.saved': 'נשמר',
   'form.pickDate': 'בחירת תאריך',
+  'form.in6Months': 'חצי שנה',
+  'form.in1Year': 'שנה',
+  'form.in2Years': 'שנתיים',
   'form.clear': 'ניקוי',
 
   // Categories

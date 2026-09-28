@@ -65,16 +65,18 @@ function hebrewWordSkeleton(word: string): string {
   return out;
 }
 
+// "C" (uppercase) is an internal marker for the tz/ts sound (Hebrew צ) so the
+// later c→k/s rule doesn't touch it.
 const LATIN_DIGRAPHS: [RegExp, string][] = [
+  [/ck/g, 'k'],
   [/sch/g, 's'],
-  [/tch/g, 'c'],
-  [/tz|ts/g, 'c'],
+  [/tch/g, 'C'],
+  [/tz|ts/g, 'C'],
   [/sh/g, 's'],
   [/ch|kh/g, 'k'],
   [/ph/g, 'p'],
   [/th/g, 't'],
   [/zh/g, 'z'],
-  [/ck/g, 'k'],
   [/qu/g, 'k'],
   [/x/g, 'ks'],
 ];
@@ -96,6 +98,9 @@ function latinWordSkeleton(word: string): string {
         break;
       case 'h':
         if (i === 0) out += 'h';
+        break;
+      case 'C':
+        out += 'c';
         break;
       case 'c':
         out += next === 'e' || next === 'i' || next === 'y' ? 's' : 'k';

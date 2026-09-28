@@ -108,6 +108,9 @@ export const en = {
   'form.attachments': 'Attachments',
   'form.saved': 'Saved',
   'form.pickDate': 'Pick a date',
+  'form.in6Months': '6 months',
+  'form.in1Year': '1 year',
+  'form.in2Years': '2 years',
   'form.clear': 'Clear',
 
   // Categories

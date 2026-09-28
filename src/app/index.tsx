@@ -106,19 +106,17 @@ export default function HomeScreen() {
       </Pressable>
 
       {active.length > 0 ? (
-        <View style={styles.chipsRow}>
-          <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.flex} contentContainerStyle={styles.chips}>
-            {FILTERS.map((f) => (
-              <Chip key={f} label={t(`home.filter.${f}`)} selected={filter === f} onPress={() => setFilter(f)} testID={`filter-${f}`} />
-            ))}
-          </ScrollView>
-          <Pressable onPress={cycleSort} accessibilityRole="button" hitSlop={8} style={styles.sortBtn} testID="sort-toggle">
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips} style={styles.chipsScroll}>
+          {FILTERS.map((f) => (
+            <Chip key={f} label={t(`home.filter.${f}`)} selected={filter === f} onPress={() => setFilter(f)} testID={`filter-${f}`} />
+          ))}
+          <Pressable onPress={cycleSort} accessibilityRole="button" accessibilityLabel={t('home.sortBy', { sort: t(`home.sort.${sort}`) })} hitSlop={8} style={styles.sortBtn} testID="sort-toggle">
             <Icon name="swap-vertical" size={16} color={colors.textSecondary} />
             <Text variant="caption" tone="secondary">
               {t(`home.sort.${sort}`)}
             </Text>
           </Pressable>
-        </View>
+        </ScrollView>
       ) : null}
     </View>
   );
@@ -177,8 +175,8 @@ const styles = StyleSheet.create({
   totalMeta: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: 10, marginTop: 6 },
   warnPill: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 4, borderRadius: 999 },
   search: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 16, height: 54, borderWidth: 1 },
-  chipsRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
-  chips: { gap: 8, paddingEnd: 8 },
+  chipsScroll: { marginHorizontal: -16 },
+  chips: { gap: 8, paddingHorizontal: 16, alignItems: 'center' },
   sortBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 6, paddingVertical: 8 },
   sep: { height: 12 },
   emptyFilter: { paddingVertical: 40 },
