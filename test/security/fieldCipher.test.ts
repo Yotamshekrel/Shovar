@@ -55,3 +55,47 @@ describe('base64/hex', () => {
     }
   });
 });
+
+describe('DataView BigInt polyfill (for engines without 64-bit DataView accessors)', () => {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { getBigUint64Polyfill, setBigUint64Polyfill, installDataViewBigIntPolyfills } = require('@/security/polyfills');
+
+  it('matches the native implementation byte-for-byte', () => {
+    const values = [
+      BigInt(0),
+      BigInt(1),
+      BigInt(96),
+      BigInt(2) ** BigInt(32),
+      BigInt(2) ** BigInt(53) + BigInt(7),
+      BigInt(2) ** BigInt(64) - BigInt(1),
+    ];
+    for (const v of values) {
+      for (const le of [true, false]) {
+        const a = new DataView(new ArrayBuffer(16));
+        const b = new DataView(new ArrayBuffer(16));
+        a.setBigUint64(4, v, le);
+        setBigUint64Polyfill.call(b, 4, v, le);
+        expect(Buffer.from(b.buffer).equals(Buffer.from(a.buffer))).toBe(true);
+        expect(getBigUint64Polyfill.call(b, 4, le)).toBe(a.getBigUint64(4, le));
+      }
+    }
+  });
+
+  it('lets AES-GCM work when the engine lacks setBigUint64', () => {
+    const fakeProto = Object.create(DataView.prototype);
+    Object.defineProperty(fakeProto, 'setBigUint64', { value: undefined, writable: true, configurable: true });
+    installDataViewBigIntPolyfills(fakeProto);
+    expect(fakeProto.setBigUint64).toBe(setBigUint64Polyfill);
+
+    const original = DataView.prototype.setBigUint64;
+    try {
+      // Simulate a missing native accessor, then install the polyfill for real.
+      Object.defineProperty(DataView.prototype, 'setBigUint64', { value: undefined, writable: true, configurable: true });
+      installDataViewBigIntPolyfills();
+      const c = createTestCipher();
+      expect(c.decrypt(c.encrypt('hermes-safe'))).toBe('hermes-safe');
+    } finally {
+      Object.defineProperty(DataView.prototype, 'setBigUint64', { value: original, writable: true, configurable: true });
+    }
+  });
+});

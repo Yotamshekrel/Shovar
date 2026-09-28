@@ -251,3 +251,13 @@ It is updated per milestone.
 - **EAS profiles:** `development` (dev client, internal), `development-simulator`,
   `preview` (internal APK), `production` (auto-increment), each mapped to an EAS
   environment for the `EXPO_PUBLIC_*` variables.
+- **Engine safety nets.** `@noble/ciphers` writes GCM length blocks with
+  `DataView#setBigUint64`; a tiny spec-equivalent polyfill (32-bit writes +
+  `BigInt`) is installed only if the JS engine lacks it, and is tested
+  byte-for-byte against the native implementation. `String#normalize` is used
+  defensively in search normalization. Native bundles are verified to compile
+  to Hermes bytecode (`npx expo export --platform ios --platform android`) and
+  config plugins with `npx expo prebuild`.
+- **Review fix:** editing unrelated fields on an archived card no longer moves
+  it back to the wallet — status is re-derived only when the expiry date or
+  balance actually changes.

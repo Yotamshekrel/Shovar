@@ -137,7 +137,7 @@ export function parseLooseDate(input: string | null | undefined, preferMonthFirs
   }
 
   // "31 Dec 2026", "31 בדצמבר 2026"
-  m = /(\d{1,2})\s+(?:ב)?([a-z֐-׿]+)\.?,?\s+(\d{2,4})/.exec(s);
+  m = /(\d{1,2})\s+(?:ב)?([a-z\u0590-\u05ff]+)\.?,?\s+(\d{2,4})/.exec(s);
   if (m && MONTHS[m[2]]) return build(Number(m[3]), MONTHS[m[2]], Number(m[1]));
 
   // "Dec 31, 2026"

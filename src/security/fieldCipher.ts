@@ -1,3 +1,6 @@
+// Must run before the cipher is used (see file for details).
+import './polyfills';
+
 import { gcm } from '@noble/ciphers/aes.js';
 import { bytesToUtf8, utf8ToBytes } from '@noble/ciphers/utils.js';
 

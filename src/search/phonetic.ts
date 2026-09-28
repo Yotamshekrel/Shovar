@@ -135,7 +135,7 @@ export function skeleton(input: string): string {
   if (!normalized) return '';
   const parts = normalized.split(' ').map((word) => {
     // Mixed-script words are rare; handle each char class separately.
-    if (/[א-ת]/.test(word)) return hebrewWordSkeleton(word.replace(/[a-z]/g, ''));
+    if (/[\u05d0-\u05ea]/.test(word)) return hebrewWordSkeleton(word.replace(/[a-z]/g, ''));
     return latinWordSkeleton(word);
   });
   return collapseRepeats(parts.join(''));

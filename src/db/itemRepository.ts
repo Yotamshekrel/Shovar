@@ -361,14 +361,17 @@ export class ItemRepository {
     const balanceChanged = patch.balanceMinor !== undefined && patch.balanceMinor !== current.balanceMinor;
     if (balanceChanged) set('balance_minor', patch.balanceMinor ?? null);
 
-    // Re-derive status when expiry or balance changed, unless explicitly set.
+    // Re-derive status only when the expiry date or balance actually changed (unless set explicitly).
+    // Editing e.g. notes on an archived card must not move it back to the wallet.
+    const expiryChanged = patch.expiryDate !== undefined && patch.expiryDate !== current.expiryDate;
     let nextStatus = patch.status;
-    if (nextStatus === undefined && (patch.expiryDate !== undefined || balanceChanged)) {
-      const expiry = patch.expiryDate !== undefined ? patch.expiryDate : current.expiryDate;
+    if (nextStatus === undefined && (expiryChanged || balanceChanged)) {
+      const expiry = expiryChanged ? patch.expiryDate! : current.expiryDate;
       const balance = balanceChanged ? (patch.balanceMinor ?? null) : current.balanceMinor;
       if (isPastExpiry(expiry)) nextStatus = 'expired';
       else if (balance === 0) nextStatus = 'used';
-      else if (current.status !== 'active') nextStatus = 'active';
+      else if (current.status === 'expired' && expiryChanged) nextStatus = 'active';
+      else if (current.status === 'used' && balanceChanged) nextStatus = 'active';
     }
     if (nextStatus !== undefined && nextStatus !== current.status) set('status', nextStatus);
 

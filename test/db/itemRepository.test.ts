@@ -161,6 +161,22 @@ describe('ItemRepository', () => {
     expect(updated.status).toBe('active');
   });
 
+  it('keeps archived cards archived when unrelated fields are edited', async () => {
+    const { repo } = await setup();
+    const voucher = await repo.createItem(emptyDraft({ storeName: 'Spa', expiryDate: addDays(todayIso(), 60) }));
+    await repo.markUsed(voucher.id);
+    // The edit form sends every field back, including the unchanged expiry date.
+    const edited = await repo.updateItem(voucher.id, { notes: 'Used on my birthday', expiryDate: voucher.expiryDate, balanceMinor: null });
+    expect(edited.status).toBe('used');
+
+    const credit = await repo.createItem(emptyDraft({ storeName: 'Fox', amountMinor: 5000 }));
+    await repo.recordUsage(credit.id, 5000);
+    const renamed = await repo.updateItem(credit.id, { storeName: 'FOX', balanceMinor: 0 });
+    expect(renamed.status).toBe('used');
+    // Topping the balance back up does reactivate it.
+    expect((await repo.updateItem(credit.id, { balanceMinor: 2000 })).status).toBe('active');
+  });
+
   it('soft-deletes items and their attachments, wiping secrets', async () => {
     const { repo, db } = await setup();
     const item = await repo.createItem(emptyDraft({ storeName: 'Zara', amountMinor: 100, code: 'C' }), [
