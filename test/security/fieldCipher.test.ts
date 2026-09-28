@@ -90,11 +90,13 @@ describe('DataView BigInt polyfill (for engines without 64-bit DataView accessor
     const original = DataView.prototype.setBigUint64;
     try {
       // Simulate a missing native accessor, then install the polyfill for real.
+      // eslint-disable-next-line no-extend-native -- deliberately simulating an engine without the method
       Object.defineProperty(DataView.prototype, 'setBigUint64', { value: undefined, writable: true, configurable: true });
       installDataViewBigIntPolyfills();
       const c = createTestCipher();
       expect(c.decrypt(c.encrypt('hermes-safe'))).toBe('hermes-safe');
     } finally {
+      // eslint-disable-next-line no-extend-native -- restoring the native method
       Object.defineProperty(DataView.prototype, 'setBigUint64', { value: original, writable: true, configurable: true });
     }
   });
