@@ -9,6 +9,7 @@ import { formatMoney, sumByCurrency } from '@/domain/money';
 import { type FilterKey, type SortKey, filterItems, isActive, isExpiringSoon, sortItems } from '@/domain/status';
 import type { Item } from '@/domain/types';
 import { useI18n } from '@/i18n';
+import { useQuickActions } from '@/services/quickActions';
 import { useItemsStore } from '@/state/items';
 import { useSettings, useSettingsStore } from '@/state/settings';
 import { useTheme } from '@/theme/ThemeProvider';
@@ -32,6 +33,7 @@ export default function HomeScreen() {
   const { sort } = useSettings();
   const patchSettings = useSettingsStore((s) => s.patch);
   const { filter, setFilter } = useHomeFilter();
+  useQuickActions();
 
   const active = useMemo(() => items.filter((i) => isActive(i)), [items]);
   const visible = useMemo(() => sortItems(filterItems(active, filter), sort, locale), [active, filter, sort, locale]);
@@ -76,7 +78,11 @@ export default function HomeScreen() {
             {active.length === 1 ? t('home.itemsCountOne') : t('home.itemsCount', { count: active.length })}
           </Text>
           {expiringCount > 0 ? (
-            <Pressable onPress={() => setFilter('expiring')} accessibilityRole="button" style={[styles.warnPill, { backgroundColor: colors.warningSoft }]}>
+            <Pressable
+              onPress={() => setFilter('expiring')}
+              accessibilityRole="button"
+              style={[styles.warnPill, { backgroundColor: colors.warningSoft }]}
+            >
               <Icon name="time-outline" size={14} color={colors.warning} />
               <Text variant="footnote" tone="warning" weight="600">
                 {t('home.expiringBanner', { count: expiringCount })}
@@ -110,7 +116,14 @@ export default function HomeScreen() {
           {FILTERS.map((f) => (
             <Chip key={f} label={t(`home.filter.${f}`)} selected={filter === f} onPress={() => setFilter(f)} testID={`filter-${f}`} />
           ))}
-          <Pressable onPress={cycleSort} accessibilityRole="button" accessibilityLabel={t('home.sortBy', { sort: t(`home.sort.${sort}`) })} hitSlop={8} style={styles.sortBtn} testID="sort-toggle">
+          <Pressable
+            onPress={cycleSort}
+            accessibilityRole="button"
+            accessibilityLabel={t('home.sortBy', { sort: t(`home.sort.${sort}`) })}
+            hitSlop={8}
+            style={styles.sortBtn}
+            testID="sort-toggle"
+          >
             <Icon name="swap-vertical" size={16} color={colors.textSecondary} />
             <Text variant="caption" tone="secondary">
               {t(`home.sort.${sort}`)}

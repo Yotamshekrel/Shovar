@@ -44,7 +44,12 @@ export function SecretRow({
 
   return (
     <View style={styles.row} testID={testID}>
-      <Pressable style={styles.texts} onPress={toggle} accessibilityRole="button" accessibilityLabel={`${label}: ${revealed ? value : t('detail.tapToReveal')}`}>
+      <Pressable
+        style={styles.texts}
+        onPress={toggle}
+        accessibilityRole="button"
+        accessibilityLabel={`${label}: ${revealed ? value : t('detail.tapToReveal')}`}
+      >
         <Text variant="caption" tone="secondary">
           {label}
         </Text>
@@ -52,7 +57,13 @@ export function SecretRow({
           {revealed ? value : maskSecret(value)}
         </Text>
       </Pressable>
-      <Pressable onPress={toggle} hitSlop={8} accessibilityRole="button" accessibilityLabel={revealed ? t('common.hide') : t('common.show')} style={styles.btn}>
+      <Pressable
+        onPress={toggle}
+        hitSlop={8}
+        accessibilityRole="button"
+        accessibilityLabel={revealed ? t('common.hide') : t('common.show')}
+        style={styles.btn}
+      >
         <Icon name={revealed ? 'eye-off-outline' : 'eye-outline'} size={20} color={colors.textSecondary} />
       </Pressable>
       <Pressable onPress={copy} hitSlop={8} accessibilityRole="button" accessibilityLabel={t('common.copy')} style={styles.btn}>

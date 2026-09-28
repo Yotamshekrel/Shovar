@@ -17,7 +17,7 @@ import { useTheme } from '@/theme/ThemeProvider';
  * receipt scan, link or share, highlighting low-confidence fields.
  */
 export default function NewItemScreen() {
-  const { review } = useLocalSearchParams<{ review?: string }>();
+  const { review, store } = useLocalSearchParams<{ review?: string; store?: string }>();
   const { t } = useI18n();
   const { colors } = useTheme();
   const settings = useSettings();
@@ -27,7 +27,7 @@ export default function NewItemScreen() {
   const isReview = review === '1' && !!pending;
 
   const initial = useMemo(
-    () => (isReview ? pending!.draft : emptyDraft({ currency: settings.defaultCurrency })),
+    () => (isReview ? pending!.draft : emptyDraft({ currency: settings.defaultCurrency, storeName: store ?? '' })),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [isReview],
   );
@@ -46,7 +46,11 @@ export default function NewItemScreen() {
         banner={
           isReview && (pending!.message || pending!.extractionSource !== 'none') ? (
             <View style={styles.banner}>
-              <Icon name={pending!.extractionSource === 'ai' ? 'sparkles-outline' : 'information-circle-outline'} size={16} color={colors.textSecondary} />
+              <Icon
+                name={pending!.extractionSource === 'ai' ? 'sparkles-outline' : 'information-circle-outline'}
+                size={16}
+                color={colors.textSecondary}
+              />
               <Text variant="footnote" tone="secondary" style={styles.flex}>
                 {pending!.message ?? t('scan.readVia', { source: sourceLabel })}
               </Text>

@@ -25,7 +25,19 @@ export interface ButtonProps {
 
 const HEIGHT: Record<ButtonSize, number> = { lg: 54, md: 46, sm: 36 };
 
-export function Button({ title, onPress, variant = 'primary', size = 'lg', icon, loading, disabled, fullWidth, style, accessibilityHint, testID }: ButtonProps) {
+export function Button({
+  title,
+  onPress,
+  variant = 'primary',
+  size = 'lg',
+  icon,
+  loading,
+  disabled,
+  fullWidth,
+  style,
+  accessibilityHint,
+  testID,
+}: ButtonProps) {
   const { colors, radii } = useTheme();
   const palette = {
     primary: { bg: colors.primary, pressed: colors.primaryPressed, fg: colors.textOnPrimary },

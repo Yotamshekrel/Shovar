@@ -91,7 +91,9 @@ export function Section({ title, children, footer }: { title?: string; children:
           {title.toUpperCase()}
         </Text>
       ) : null}
-      <View style={[styles.group, { backgroundColor: colors.surface, borderRadius: radii.lg, borderColor: colors.border }]}>{children}</View>
+      <View style={[styles.group, { backgroundColor: colors.surface, borderRadius: radii.lg, borderColor: colors.border }]}>
+        {children}
+      </View>
       {footer ? (
         <Text variant="footnote" tone="tertiary" style={styles.footer}>
           {footer}

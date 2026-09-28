@@ -4,7 +4,17 @@ import { StyleSheet, View } from 'react-native';
 import { Text } from '@/components/ui';
 import { readableOn, storeColor, storeInitials } from '@/theme/color';
 
-export function StoreAvatar({ name, logoUri, size = 40, inverted }: { name: string; logoUri?: string | null; size?: number; inverted?: boolean }) {
+export function StoreAvatar({
+  name,
+  logoUri,
+  size = 40,
+  inverted,
+}: {
+  name: string;
+  logoUri?: string | null;
+  size?: number;
+  inverted?: boolean;
+}) {
   const bg = storeColor(name);
   const background = inverted ? 'rgba(255,255,255,0.22)' : bg;
   const fg = inverted ? '#FFFFFF' : readableOn(bg);

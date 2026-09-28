@@ -56,13 +56,7 @@ export interface Item extends SyncMeta {
   pinnedLng: number | null;
 }
 
-export type BalanceEventType =
-  | 'created'
-  | 'usage'
-  | 'adjustment'
-  | 'marked_used'
-  | 'expired'
-  | 'reactivated';
+export type BalanceEventType = 'created' | 'usage' | 'adjustment' | 'marked_used' | 'expired' | 'reactivated';
 
 export interface BalanceEvent extends SyncMeta {
   itemId: string;

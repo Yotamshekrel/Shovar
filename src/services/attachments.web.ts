@@ -12,7 +12,14 @@ export function attachmentUri(fileName: string): string {
 }
 
 export async function persistAttachment(p: PendingAttachment): Promise<NewAttachment> {
-  return { fileName: p.uri, mimeType: p.mimeType, kind: p.kind, width: p.width ?? null, height: p.height ?? null, sizeBytes: p.sizeBytes ?? null };
+  return {
+    fileName: p.uri,
+    mimeType: p.mimeType,
+    kind: p.kind,
+    width: p.width ?? null,
+    height: p.height ?? null,
+    sizeBytes: p.sizeBytes ?? null,
+  };
 }
 
 export function deleteAttachmentFile(): void {}

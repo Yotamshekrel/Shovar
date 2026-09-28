@@ -171,7 +171,10 @@ describe('ItemRepository', () => {
     expect(await repo.listItems()).toHaveLength(0);
     expect(await repo.listItems({ includeDeleted: true })).toHaveLength(1);
     expect(await repo.listAttachments(item.id)).toHaveLength(0);
-    const raw = await db.get<{ code_enc: string | null; deleted_at: string | null }>('SELECT code_enc, deleted_at FROM items WHERE id = ?', [item.id]);
+    const raw = await db.get<{ code_enc: string | null; deleted_at: string | null }>(
+      'SELECT code_enc, deleted_at FROM items WHERE id = ?',
+      [item.id],
+    );
     expect(raw?.code_enc).toBeNull();
     expect(raw?.deleted_at).not.toBeNull();
   });

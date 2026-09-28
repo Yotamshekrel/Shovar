@@ -203,7 +203,8 @@ export const en = {
   'scan.camera': 'Take photo',
   'scan.gallery': 'Choose from gallery',
   'scan.file': 'Upload file (image or PDF)',
-  'scan.aiNotice': 'The image is sent to an AI service only to read the details, then discarded by the service. The original always stays on your device.',
+  'scan.aiNotice':
+    'The image is sent to an AI service only to read the details, then discarded by the service. The original always stays on your device.',
   'scan.aiDisabled': 'AI reading is off. Details will be read on-device where possible.',
   'scan.reading': 'Reading your receipt…',
   'scan.readingHint': 'This usually takes a few seconds',
@@ -212,7 +213,8 @@ export const en = {
   'scan.permissionPhotos': 'Photo access is needed to pick a receipt.',
   'scan.openSettings': 'Open settings',
   'scan.consentTitle': 'Read receipts with AI?',
-  'scan.consentBody': 'To fill in details automatically, the receipt image is sent to an AI service ({provider}). Nothing else is shared, and the original image stays on your device. You can turn this off in Settings.',
+  'scan.consentBody':
+    'To fill in details automatically, the receipt image is sent to an AI service ({provider}). Nothing else is shared, and the original image stays on your device. You can turn this off in Settings.',
   'scan.consentAccept': 'Allow',
   'scan.consentDecline': 'Not now',
   'scan.notConfigured': 'AI reading isn’t set up (no API key). Details will be read on-device where possible — see README.',
@@ -286,14 +288,16 @@ export const en = {
 
   // Location permission explainer
   'locationPerm.title': 'Never miss credit you already have',
-  'locationPerm.body': 'Shvar can remind you when you walk past a store where you have credit — for example “You have ₪120 at Zara, 150m away”.',
+  'locationPerm.body':
+    'Shvar can remind you when you walk past a store where you have credit — for example “You have ₪120 at Zara, 150m away”.',
   'locationPerm.point1': 'Uses the system’s low-power geofencing, not constant GPS tracking.',
   'locationPerm.point2': 'Your location never leaves the device. Store addresses are looked up by name only.',
   'locationPerm.point3': 'Choose “Allow all the time” / “Always” so reminders work when the app is closed.',
   'locationPerm.enable': 'Turn on nearby reminders',
   'locationPerm.notNow': 'Not now',
   'locationPerm.denied': 'Location permission was not granted. You can enable it in system settings.',
-  'locationPerm.backgroundDenied': 'Background location wasn’t allowed, so reminders only work while Shvar is open. Enable “Always” in settings for full reminders.',
+  'locationPerm.backgroundDenied':
+    'Background location wasn’t allowed, so reminders only work while Shvar is open. Enable “Always” in settings for full reminders.',
 
   // Notifications
   'notif.nearbyTitle': 'Credit nearby',

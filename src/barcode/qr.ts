@@ -2,7 +2,10 @@
 // Node/canvas renderers in the package entry point.
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const QR = require('qrcode/lib/core/qrcode') as {
-  create: (text: string, opts?: { errorCorrectionLevel?: 'L' | 'M' | 'Q' | 'H' }) => {
+  create: (
+    text: string,
+    opts?: { errorCorrectionLevel?: 'L' | 'M' | 'Q' | 'H' },
+  ) => {
     modules: { size: number; data: Uint8Array | boolean[] };
   };
 };

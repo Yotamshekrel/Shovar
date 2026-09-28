@@ -79,7 +79,12 @@ export default function ItemDetailScreen() {
   };
 
   const onMarkUsed = async () => {
-    const ok = await confirm({ title: t('detail.markUsed'), message: t('detail.markUsedConfirm'), confirmText: t('detail.markUsed'), cancelText: t('common.cancel') });
+    const ok = await confirm({
+      title: t('detail.markUsed'),
+      message: t('detail.markUsedConfirm'),
+      confirmText: t('detail.markUsed'),
+      cancelText: t('common.cancel'),
+    });
     if (ok) await store.markUsed(item.id);
   };
 
@@ -92,7 +97,12 @@ export default function ItemDetailScreen() {
   };
 
   const onRemoveAttachment = async (a: Attachment) => {
-    const ok = await confirm({ title: t('common.delete'), confirmText: t('common.delete'), cancelText: t('common.cancel'), destructive: true });
+    const ok = await confirm({
+      title: t('common.delete'),
+      confirmText: t('common.delete'),
+      cancelText: t('common.cancel'),
+      destructive: true,
+    });
     if (!ok) return;
     await store.removeAttachment(item.id, a.id);
     deleteAttachmentFile(a.fileName);
@@ -106,13 +116,21 @@ export default function ItemDetailScreen() {
           title: '',
           headerRight: () => (
             <View style={styles.headerActions}>
-              <IconButton icon="create-outline" label={t('common.edit')} onPress={() => router.push(`/item/${item.id}/edit`)} testID="detail-edit" />
+              <IconButton
+                icon="create-outline"
+                label={t('common.edit')}
+                onPress={() => router.push(`/item/${item.id}/edit`)}
+                testID="detail-edit"
+              />
               <IconButton icon="trash-outline" label={t('common.delete')} onPress={onDelete} testID="detail-delete" />
             </View>
           ),
         }}
       />
-      <ScrollView style={{ backgroundColor: colors.background }} contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + 32 }]}>
+      <ScrollView
+        style={{ backgroundColor: colors.background }}
+        contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + 32 }]}
+      >
         <LinearGradient
           colors={[shade(base, 0.12), shade(base, -0.2)]}
           start={{ x: 0, y: 0 }}
@@ -153,7 +171,13 @@ export default function ItemDetailScreen() {
 
         <View style={styles.actions}>
           {!archived && canCheckout ? (
-            <Button title={t('detail.useNow')} icon="barcode-outline" onPress={() => router.push(`/item/${item.id}/checkout`)} fullWidth testID="detail-checkout" />
+            <Button
+              title={t('detail.useNow')}
+              icon="barcode-outline"
+              onPress={() => router.push(`/item/${item.id}/checkout`)}
+              fullWidth
+              testID="detail-checkout"
+            />
           ) : null}
           {item.linkUrl ? (
             <Button
@@ -166,7 +190,14 @@ export default function ItemDetailScreen() {
             />
           ) : null}
           {archived ? (
-            <Button title={t('detail.reactivate')} icon="refresh" variant="secondary" onPress={() => store.reactivate(item.id)} fullWidth testID="detail-reactivate" />
+            <Button
+              title={t('detail.reactivate')}
+              icon="refresh"
+              variant="secondary"
+              onPress={() => store.reactivate(item.id)}
+              fullWidth
+              testID="detail-reactivate"
+            />
           ) : (
             <View style={styles.row}>
               {hasBalance ? (
@@ -180,21 +211,35 @@ export default function ItemDetailScreen() {
                   testID="detail-balance-update"
                 />
               ) : null}
-              <Button title={t('detail.markUsed')} icon="checkmark-done" variant="secondary" size="md" onPress={onMarkUsed} style={styles.flex} testID="detail-mark-used" />
+              <Button
+                title={t('detail.markUsed')}
+                icon="checkmark-done"
+                variant="secondary"
+                size="md"
+                onPress={onMarkUsed}
+                style={styles.flex}
+                testID="detail-mark-used"
+              />
             </View>
           )}
         </View>
 
         {secrets.code || secrets.pin ? (
           <Section>
-            {secrets.code ? <SecretRow label={t('detail.code')} value={secrets.code} onReveal={unlockForSecrets} testID="detail-code" /> : null}
+            {secrets.code ? (
+              <SecretRow label={t('detail.code')} value={secrets.code} onReveal={unlockForSecrets} testID="detail-code" />
+            ) : null}
             {secrets.code && secrets.pin ? <Divider inset={16} /> : null}
             {secrets.pin ? <SecretRow label={t('detail.pin')} value={secrets.pin} onReveal={unlockForSecrets} /> : null}
           </Section>
         ) : null}
 
         <Section>
-          <ListRow icon="calendar-outline" title={t('form.expiry')} value={item.expiryDate ? formatDate(item.expiryDate, locale) : t('expiry.none')} />
+          <ListRow
+            icon="calendar-outline"
+            title={t('form.expiry')}
+            value={item.expiryDate ? formatDate(item.expiryDate, locale) : t('expiry.none')}
+          />
           {item.purchaseDate ? (
             <>
               <Divider inset={60} />
@@ -204,7 +249,12 @@ export default function ItemDetailScreen() {
           {item.linkUrl ? (
             <>
               <Divider inset={60} />
-              <ListRow icon="link-outline" title={t('detail.link')} value={item.linkUrl.replace(/^https?:\/\//, '')} onPress={() => Linking.openURL(item.linkUrl!)} />
+              <ListRow
+                icon="link-outline"
+                title={t('detail.link')}
+                value={item.linkUrl.replace(/^https?:\/\//, '')}
+                onPress={() => Linking.openURL(item.linkUrl!)}
+              />
             </>
           ) : null}
           <Divider inset={60} />

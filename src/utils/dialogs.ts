@@ -1,7 +1,13 @@
 import { Alert, Platform } from 'react-native';
 
 /** Promise-based confirm dialog (native Alert; window.confirm on the web preview). */
-export function confirm(opts: { title: string; message?: string; confirmText: string; cancelText: string; destructive?: boolean }): Promise<boolean> {
+export function confirm(opts: {
+  title: string;
+  message?: string;
+  confirmText: string;
+  cancelText: string;
+  destructive?: boolean;
+}): Promise<boolean> {
   if (Platform.OS === 'web') {
     return Promise.resolve(typeof window !== 'undefined' ? window.confirm([opts.title, opts.message].filter(Boolean).join('\n\n')) : false);
   }

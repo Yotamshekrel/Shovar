@@ -187,7 +187,9 @@ export class ItemRepository {
   /** All non-deleted items. Secrets are decrypted only when asked for. */
   async listItems(opts: { withSecrets?: boolean; includeDeleted?: boolean } = {}): Promise<Item[]> {
     const rows = await this.db.all<ItemRow>(
-      opts.includeDeleted ? 'SELECT * FROM items ORDER BY created_at DESC' : 'SELECT * FROM items WHERE deleted_at IS NULL ORDER BY created_at DESC',
+      opts.includeDeleted
+        ? 'SELECT * FROM items ORDER BY created_at DESC'
+        : 'SELECT * FROM items WHERE deleted_at IS NULL ORDER BY created_at DESC',
     );
     return rows.map((r) => this.toItem(r, opts.withSecrets ?? false));
   }
@@ -435,10 +437,10 @@ export class ItemRepository {
     if (!current) throw new Error(`Item ${id} not found`);
     const at = this.now();
     await this.db.transaction(async (tx) => {
-      await tx.run("UPDATE items SET status = 'used', balance_minor = CASE WHEN balance_minor IS NULL THEN NULL ELSE 0 END, updated_at = ? WHERE id = ?", [
-        at,
-        id,
-      ]);
+      await tx.run(
+        "UPDATE items SET status = 'used', balance_minor = CASE WHEN balance_minor IS NULL THEN NULL ELSE 0 END, updated_at = ? WHERE id = ?",
+        [at, id],
+      );
       await this.insertEvent(tx, id, 'marked_used', -(current.balanceMinor ?? 0), current.balanceMinor == null ? null : 0, null, at);
     });
     return (await this.getItem(id))!;
@@ -449,7 +451,8 @@ export class ItemRepository {
     const current = await this.getItem(id, { withSecrets: false });
     if (!current) throw new Error(`Item ${id} not found`);
     const at = this.now();
-    const nextBalance = balanceMinor !== undefined ? balanceMinor : current.balanceMinor === 0 ? current.initialAmountMinor : current.balanceMinor;
+    const nextBalance =
+      balanceMinor !== undefined ? balanceMinor : current.balanceMinor === 0 ? current.initialAmountMinor : current.balanceMinor;
     await this.db.transaction(async (tx) => {
       await tx.run("UPDATE items SET status = 'active', balance_minor = ?, updated_at = ? WHERE id = ?", [nextBalance, at, id]);
       await this.insertEvent(tx, id, 'reactivated', (nextBalance ?? 0) - (current.balanceMinor ?? 0), nextBalance, null, at);

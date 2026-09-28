@@ -54,7 +54,13 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
   const [saving, setSaving] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [touched, setTouched] = useState<Set<keyof ItemFormValues>>(new Set());
-  const hasExtraValues = !!(initial.pin || initial.linkUrl || initial.notes || initial.purchaseDate || (initial.balanceMinor != null && initial.balanceMinor !== initial.amountMinor));
+  const hasExtraValues = !!(
+    initial.pin ||
+    initial.linkUrl ||
+    initial.notes ||
+    initial.purchaseDate ||
+    (initial.balanceMinor != null && initial.balanceMinor !== initial.amountMinor)
+  );
   const [showMore, setShowMore] = useState(mode === 'edit' || hasExtraValues);
   const storeRef = useRef<TextInput>(null);
   const [storeFocused, setStoreFocused] = useState(false);
@@ -119,7 +125,11 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
   const errorText = (k: keyof ItemFormValues) => (errors[k] ? t(errors[k]!) : null);
 
   return (
-    <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : undefined} keyboardVerticalOffset={Platform.OS === 'ios' ? 64 : 0}>
+    <KeyboardAvoidingView
+      style={styles.flex}
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      keyboardVerticalOffset={Platform.OS === 'ios' ? 64 : 0}
+    >
       <ScrollView
         style={styles.flex}
         contentContainerStyle={[styles.content, { paddingBottom: 24 }]}
@@ -139,7 +149,10 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
         {attachments.length > 0 ? (
           <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.thumbs}>
             {attachments.map((a) => (
-              <View key={a.uri} style={[styles.thumb, { borderRadius: radii.md, backgroundColor: colors.surfaceAlt, borderColor: colors.border }]}>
+              <View
+                key={a.uri}
+                style={[styles.thumb, { borderRadius: radii.md, backgroundColor: colors.surfaceAlt, borderColor: colors.border }]}
+              >
                 {a.mimeType.startsWith('image/') ? (
                   <Image source={{ uri: a.uri }} style={StyleSheet.absoluteFill} contentFit="cover" />
                 ) : (
@@ -177,7 +190,12 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
           {suggestions.length > 0 ? (
             <View style={styles.chipsWrap}>
               {suggestions.map((b) => (
-                <Chip key={b.id} label={b.nameHe ? `${b.name} · ${b.nameHe}` : b.name} icon="storefront-outline" onPress={() => chooseBrand(b.name, b.category)} />
+                <Chip
+                  key={b.id}
+                  label={b.nameHe ? `${b.name} · ${b.nameHe}` : b.name}
+                  icon="storefront-outline"
+                  onPress={() => chooseBrand(b.name, b.category)}
+                />
               ))}
             </View>
           ) : null}
@@ -206,7 +224,9 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
           {SUPPORTED_CURRENCIES.map((c) => (
             <Chip key={c} label={`${currencySymbol(c)} ${c}`} selected={values.currency === c} onPress={() => set('currency', c)} />
           ))}
-          {!SUPPORTED_CURRENCIES.includes(values.currency as (typeof SUPPORTED_CURRENCIES)[number]) ? <Chip label={values.currency} selected /> : null}
+          {!SUPPORTED_CURRENCIES.includes(values.currency as (typeof SUPPORTED_CURRENCIES)[number]) ? (
+            <Chip label={values.currency} selected />
+          ) : null}
         </View>
 
         <View style={styles.gapSm}>
@@ -219,11 +239,13 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
             placeholder={t('form.noExpiry')}
           />
           <View style={styles.chipsWrap}>
-            {([
-              [6, 'form.in6Months'],
-              [12, 'form.in1Year'],
-              [24, 'form.in2Years'],
-            ] as const).map(([m, key]) => (
+            {(
+              [
+                [6, 'form.in6Months'],
+                [12, 'form.in1Year'],
+                [24, 'form.in2Years'],
+              ] as const
+            ).map(([m, key]) => (
               <Chip
                 key={m}
                 label={t(key)}
@@ -247,12 +269,7 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
           mono
         />
 
-        <Pressable
-          accessibilityRole="button"
-          onPress={() => setShowMore((s) => !s)}
-          style={styles.moreToggle}
-          testID="toggle-more"
-        >
+        <Pressable accessibilityRole="button" onPress={() => setShowMore((s) => !s)} style={styles.moreToggle} testID="toggle-more">
           <Text variant="bodyStrong" tone="primary">
             {showMore ? t('form.lessDetails') : t('form.moreDetails')}
           </Text>
@@ -341,7 +358,12 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
           </Text>
         ) : null}
       </ScrollView>
-      <View style={[styles.footer, { paddingBottom: Math.max(insets.bottom, 12), borderTopColor: colors.border, backgroundColor: colors.background }]}>
+      <View
+        style={[
+          styles.footer,
+          { paddingBottom: Math.max(insets.bottom, 12), borderTopColor: colors.border, backgroundColor: colors.background },
+        ]}
+      >
         <Button testID="form-submit" title={submitLabel ?? t('common.save')} onPress={submit} loading={saving} fullWidth icon="checkmark" />
       </View>
     </KeyboardAvoidingView>

@@ -135,7 +135,12 @@ describe('status, filters and sorting', () => {
 
 describe('url utils', () => {
   it('parses and normalizes links', () => {
-    expect(parseUrl('https://www.BuyMe.co.il/x?a=1#f')).toMatchObject({ hostname: 'www.buyme.co.il', pathname: '/x', search: '?a=1', hash: '#f' });
+    expect(parseUrl('https://www.BuyMe.co.il/x?a=1#f')).toMatchObject({
+      hostname: 'www.buyme.co.il',
+      pathname: '/x',
+      search: '?a=1',
+      hash: '#f',
+    });
     expect(parseUrl('zara.com')?.href).toBe('https://zara.com/');
     expect(isValidHttpUrl('ftp://x.com')).toBe(false);
     expect(isValidHttpUrl('hello')).toBe(false);

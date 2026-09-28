@@ -73,7 +73,7 @@ export function DateField({ label, value, onChange, highlighted, placeholder, mi
       <Pressable
         testID={testID}
         accessibilityRole="button"
-        accessibilityLabel={`${label}: ${value ? formatDate(value, locale) : placeholder ?? t('form.pickDate')}`}
+        accessibilityLabel={`${label}: ${value ? formatDate(value, locale) : (placeholder ?? t('form.pickDate'))}`}
         onPress={open}
         style={[
           styles.field,
@@ -87,7 +87,7 @@ export function DateField({ label, value, onChange, highlighted, placeholder, mi
       >
         <Icon name="calendar-outline" size={18} color={colors.textSecondary} />
         <Text variant="body" tone={value ? 'default' : 'tertiary'} style={styles.flex}>
-          {value ? formatDate(value, locale) : placeholder ?? t('form.pickDate')}
+          {value ? formatDate(value, locale) : (placeholder ?? t('form.pickDate'))}
         </Text>
         {value ? (
           <Pressable accessibilityRole="button" accessibilityLabel={t('form.clear')} hitSlop={10} onPress={() => onChange(null)}>

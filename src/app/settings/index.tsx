@@ -29,7 +29,12 @@ export default function SettingsScreen() {
     if (before !== after) {
       const needsRestart = applyLayoutDirection({ ...settings, language });
       if (needsRestart) {
-        const ok = await confirm({ title: t('settings.restartTitle'), message: t('settings.restartBody'), confirmText: t('settings.restartNow'), cancelText: t('common.cancel') });
+        const ok = await confirm({
+          title: t('settings.restartTitle'),
+          message: t('settings.restartBody'),
+          confirmText: t('settings.restartNow'),
+          cancelText: t('common.cancel'),
+        });
         // Give the settings store a moment to persist before reloading.
         if (ok) setTimeout(() => restartApp('language changed'), 400);
       }
@@ -42,7 +47,13 @@ export default function SettingsScreen() {
   };
 
   const onDeleteAll = async () => {
-    const ok = await confirm({ title: t('settings.deleteAll'), message: t('settings.deleteAllConfirm'), confirmText: t('common.delete'), cancelText: t('common.cancel'), destructive: true });
+    const ok = await confirm({
+      title: t('settings.deleteAll'),
+      message: t('settings.deleteAllConfirm'),
+      confirmText: t('common.delete'),
+      cancelText: t('common.cancel'),
+      destructive: true,
+    });
     if (!ok) return;
     const { items, kv } = await getServices();
     await items.deleteAll();
@@ -54,7 +65,10 @@ export default function SettingsScreen() {
   };
 
   return (
-    <ScrollView style={{ backgroundColor: colors.background }} contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + 32 }]}>
+    <ScrollView
+      style={{ backgroundColor: colors.background }}
+      contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + 32 }]}
+    >
       <Section title={t('settings.general')}>
         <View style={styles.block}>
           <Text variant="caption" tone="secondary">
@@ -92,7 +106,12 @@ export default function SettingsScreen() {
           </Text>
           <View style={styles.chips}>
             {SUPPORTED_CURRENCIES.map((c) => (
-              <Chip key={c} label={`${currencySymbol(c)} ${c}`} selected={settings.defaultCurrency === c} onPress={() => patch({ defaultCurrency: c })} />
+              <Chip
+                key={c}
+                label={`${currencySymbol(c)} ${c}`}
+                selected={settings.defaultCurrency === c}
+                onPress={() => patch({ defaultCurrency: c })}
+              />
             ))}
           </View>
         </View>

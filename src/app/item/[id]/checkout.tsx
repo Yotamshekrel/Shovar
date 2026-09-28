@@ -105,7 +105,12 @@ export default function CheckoutScreen() {
           <>
             <View style={[styles.panel, { width: panelWidth }]}>
               {format !== 'text' ? <CodeDisplay code={secrets.code} format={format} width={panelWidth - 32} /> : null}
-              <Pressable onPress={copy} accessibilityRole="button" accessibilityLabel={`${t('common.copy')} ${secrets.code}`} testID="checkout-code">
+              <Pressable
+                onPress={copy}
+                accessibilityRole="button"
+                accessibilityLabel={`${t('common.copy')} ${secrets.code}`}
+                testID="checkout-code"
+              >
                 <Text
                   variant="mono"
                   align="center"
@@ -167,12 +172,24 @@ export default function CheckoutScreen() {
 
         {item.linkUrl ? (
           <View style={{ width: panelWidth }}>
-            <Button title={t('detail.openLink')} icon="open-outline" onPress={() => Linking.openURL(item.linkUrl!)} fullWidth variant={secrets?.code ? 'secondary' : 'primary'} />
+            <Button
+              title={t('detail.openLink')}
+              icon="open-outline"
+              onPress={() => Linking.openURL(item.linkUrl!)}
+              fullWidth
+              variant={secrets?.code ? 'secondary' : 'primary'}
+            />
           </View>
         ) : null}
         {item.balanceMinor != null ? (
           <View style={{ width: panelWidth }}>
-            <Button title={t('detail.logUsage')} icon="remove-circle-outline" variant="ghost" onPress={() => router.replace(`/item/${item.id}/balance`)} fullWidth />
+            <Button
+              title={t('detail.logUsage')}
+              icon="remove-circle-outline"
+              variant="ghost"
+              onPress={() => router.replace(`/item/${item.id}/balance`)}
+              fullWidth
+            />
           </View>
         ) : null}
       </ScrollView>
@@ -186,10 +203,26 @@ const styles = StyleSheet.create({
   titleCol: { flex: 1, gap: 2 },
   spacer: { width: 44 },
   content: { alignItems: 'center', gap: 18, paddingTop: 12, paddingHorizontal: 24 },
-  panel: { backgroundColor: '#FFFFFF', borderRadius: 24, padding: 16, gap: 14, alignItems: 'stretch', borderWidth: 1, borderColor: '#E1E4E9' },
+  panel: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 24,
+    padding: 16,
+    gap: 14,
+    alignItems: 'stretch',
+    borderWidth: 1,
+    borderColor: '#E1E4E9',
+  },
   bigCode: { fontSize: 34, lineHeight: 44, paddingVertical: 24 },
   copyHint: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 4 },
-  pinRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10, paddingTop: 8, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: '#E1E4E9' },
+  pinRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 10,
+    paddingTop: 8,
+    borderTopWidth: StyleSheet.hairlineWidth,
+    borderTopColor: '#E1E4E9',
+  },
   pin: { letterSpacing: 4, fontFamily: 'monospace' },
   brightNote: { flexDirection: 'row', alignItems: 'center', gap: 4 },
   noCode: { gap: 14, alignItems: 'center', paddingVertical: 40 },

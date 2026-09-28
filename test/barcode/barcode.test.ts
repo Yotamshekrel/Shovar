@@ -1,11 +1,4 @@
-import {
-  BarcodeFormat,
-  BinaryBitmap,
-  Code128Reader,
-  HybridBinarizer,
-  QRCodeReader,
-  RGBLuminanceSource,
-} from '@zxing/library';
+import { BarcodeFormat, BinaryBitmap, Code128Reader, HybridBinarizer, QRCodeReader, RGBLuminanceSource } from '@zxing/library';
 
 import { CODE128_PATTERNS, barcodePayload, canEncodeCode128, code128Values, encodeCode128 } from '@/barcode/code128';
 import { encodeQr } from '@/barcode/qr';

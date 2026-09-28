@@ -214,7 +214,8 @@ export const he: Record<StringKey, string> = {
   'scan.permissionPhotos': 'נדרשת גישה לתמונות כדי לבחור קבלה.',
   'scan.openSettings': 'פתיחת הגדרות',
   'scan.consentTitle': 'לקרוא קבלות באמצעות AI?',
-  'scan.consentBody': 'כדי למלא פרטים אוטומטית, תמונת הקבלה נשלחת לשירות AI ({provider}). שום דבר אחר לא משותף, והתמונה המקורית נשארת במכשיר. אפשר לכבות זאת בהגדרות.',
+  'scan.consentBody':
+    'כדי למלא פרטים אוטומטית, תמונת הקבלה נשלחת לשירות AI ({provider}). שום דבר אחר לא משותף, והתמונה המקורית נשארת במכשיר. אפשר לכבות זאת בהגדרות.',
   'scan.consentAccept': 'אישור',
   'scan.consentDecline': 'לא עכשיו',
   'scan.notConfigured': 'קריאה באמצעות AI לא הוגדרה (אין מפתח API). הפרטים ייקראו במכשיר כשאפשר — ראו README.',

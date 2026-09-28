@@ -74,17 +74,13 @@ export function formatMoney(minor: number | null | undefined, currency: string, 
 }
 
 /** Sums balances per currency (items can mix currencies). */
-export function sumByCurrency(
-  entries: { balanceMinor: number | null; currency: string }[],
-): { currency: string; totalMinor: number }[] {
+export function sumByCurrency(entries: { balanceMinor: number | null; currency: string }[]): { currency: string; totalMinor: number }[] {
   const totals = new Map<string, number>();
   for (const e of entries) {
     if (e.balanceMinor == null) continue;
     totals.set(e.currency, (totals.get(e.currency) ?? 0) + e.balanceMinor);
   }
-  return [...totals.entries()]
-    .map(([currency, totalMinor]) => ({ currency, totalMinor }))
-    .sort((a, b) => b.totalMinor - a.totalMinor);
+  return [...totals.entries()].map(([currency, totalMinor]) => ({ currency, totalMinor })).sort((a, b) => b.totalMinor - a.totalMinor);
 }
 
 /**

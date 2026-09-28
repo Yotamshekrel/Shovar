@@ -67,18 +67,43 @@ export function isPastExpiry(expiryIso: string | null | undefined, now: Date = n
 }
 
 const MONTHS: Record<string, number> = {
-  jan: 1, january: 1, ינואר: 1,
-  feb: 2, february: 2, פברואר: 2,
-  mar: 3, march: 3, מרץ: 3, מרס: 3,
-  apr: 4, april: 4, אפריל: 4,
-  may: 5, מאי: 5,
-  jun: 6, june: 6, יוני: 6,
-  jul: 7, july: 7, יולי: 7,
-  aug: 8, august: 8, אוגוסט: 8,
-  sep: 9, sept: 9, september: 9, ספטמבר: 9,
-  oct: 10, october: 10, אוקטובר: 10,
-  nov: 11, november: 11, נובמבר: 11,
-  dec: 12, december: 12, דצמבר: 12,
+  jan: 1,
+  january: 1,
+  ינואר: 1,
+  feb: 2,
+  february: 2,
+  פברואר: 2,
+  mar: 3,
+  march: 3,
+  מרץ: 3,
+  מרס: 3,
+  apr: 4,
+  april: 4,
+  אפריל: 4,
+  may: 5,
+  מאי: 5,
+  jun: 6,
+  june: 6,
+  יוני: 6,
+  jul: 7,
+  july: 7,
+  יולי: 7,
+  aug: 8,
+  august: 8,
+  אוגוסט: 8,
+  sep: 9,
+  sept: 9,
+  september: 9,
+  ספטמבר: 9,
+  oct: 10,
+  october: 10,
+  אוקטובר: 10,
+  nov: 11,
+  november: 11,
+  נובמבר: 11,
+  dec: 12,
+  december: 12,
+  דצמבר: 12,
 };
 
 function build(y: number, m: number, d: number): string | null {
@@ -140,7 +165,10 @@ export function formatDate(iso: string | null | undefined, locale = 'en', style:
   const key = `${locale}|${style}`;
   let f = dateFormatterCache.get(key);
   if (!f) {
-    f = new Intl.DateTimeFormat(locale, style === 'short' ? { day: 'numeric', month: 'short' } : { day: 'numeric', month: 'short', year: 'numeric' });
+    f = new Intl.DateTimeFormat(
+      locale,
+      style === 'short' ? { day: 'numeric', month: 'short' } : { day: 'numeric', month: 'short', year: 'numeric' },
+    );
     dateFormatterCache.set(key, f);
   }
   return f.format(d);

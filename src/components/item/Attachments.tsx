@@ -108,7 +108,14 @@ const styles = StyleSheet.create({
   doc: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 4 },
   add: { alignItems: 'center', justifyContent: 'center', borderStyle: 'dashed', borderWidth: 1.5, gap: 4, padding: 6 },
   viewer: { flex: 1, backgroundColor: '#000' },
-  viewerBar: { flexDirection: 'row', justifyContent: 'space-between', paddingHorizontal: 8, backgroundColor: '#FFFFFFEE', borderRadius: 999, margin: 8 },
+  viewerBar: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: 8,
+    backgroundColor: '#FFFFFFEE',
+    borderRadius: 999,
+    margin: 8,
+  },
   zoom: { flexGrow: 1, alignItems: 'center', justifyContent: 'center' },
   full: { width: '100%', height: '100%', minHeight: 500 },
 });
