@@ -250,6 +250,8 @@ npx eas-cli@latest build --profile preview --platform android    # internal APK
 npx eas-cli@latest build --profile production --platform all
 ```
 
+See [docs/RELEASE_PLAN.md](docs/RELEASE_PLAN.md) for the store-release checklist.
+
 Change `ios.bundleIdentifier` / `android.package` in `app.json` to your own
 identifiers before the first build.
 

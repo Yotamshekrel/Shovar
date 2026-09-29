@@ -72,6 +72,7 @@ function Navigator() {
           <Stack.Screen name="nearby" options={{ title: t('nearby.title') }} />
           <Stack.Screen name="archive" options={{ title: t('archive.title') }} />
           <Stack.Screen name="settings/index" options={{ title: t('settings.title') }} />
+          <Stack.Screen name="settings/legal" options={{ title: t('legal.title') }} />
           <Stack.Screen name="settings/location" options={{ presentation: 'modal', headerShown: false }} />
           <Stack.Screen name="onboarding" options={{ headerShown: false, gestureEnabled: false, animation: 'fade' }} />
         </Stack>
