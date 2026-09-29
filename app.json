@@ -13,7 +13,11 @@
       "supportsTablet": true,
       "infoPlist": {
         "CFBundleAllowMixedLocalizations": true,
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleLocalizations": [
+          "en",
+          "he"
+        ]
       }
     },
     "android": {
@@ -26,7 +30,12 @@
       },
       "permissions": [
         "android.permission.POST_NOTIFICATIONS",
-        "android.permission.RECEIVE_BOOT_COMPLETED"
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION"
       ],
       "predictiveBackGestureEnabled": false
     },
@@ -86,7 +95,11 @@
           },
           "android": {
             "enabled": true,
-            "singleShareMimeTypes": ["text/plain", "image/*", "application/pdf"]
+            "singleShareMimeTypes": [
+              "text/plain",
+              "image/*",
+              "application/pdf"
+            ]
           }
         }
       ],
@@ -94,8 +107,14 @@
         "expo-localization",
         {
           "supportedLocales": {
-            "ios": ["en", "he"],
-            "android": ["en", "he"]
+            "ios": [
+              "en",
+              "he"
+            ],
+            "android": [
+              "en",
+              "he"
+            ]
           }
         }
       ],
@@ -123,14 +142,42 @@
           "microphonePermission": false
         }
       ],
-      "expo-quick-actions"
+      "expo-quick-actions",
+      "@react-native-community/datetimepicker",
+      "./plugins/withIosSceneDelegate.js"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
     },
     "extra": {
-      "router": {}
-    }
+      "router": {
+        "headers": {
+          "Cross-Origin-Embedder-Policy": "credentialless",
+          "Cross-Origin-Opener-Policy": "same-origin"
+        }
+      },
+      "eas": {
+        "build": {
+          "experimental": {
+            "ios": {
+              "appExtensions": [
+                {
+                  "targetName": "expo-sharing-extension",
+                  "bundleIdentifier": "com.shvar.wallet.expo-sharing-extension",
+                  "entitlements": {
+                    "com.apple.security.application-groups": [
+                      "group.com.shvar.wallet"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "projectId": "dba292a8-29e5-4966-a929-2d1ddb0d61cd"
+      }
+    },
+    "owner": "yotamshekrel"
   }
 }
