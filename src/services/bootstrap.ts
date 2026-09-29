@@ -102,7 +102,11 @@ function startSideEffects(): void {
 }
 
 export async function initApp(): Promise<AppSettings> {
-  const settings = await loadSettings();
+  let settings = await loadSettings();
+  if (__DEV__ && Platform.OS === 'web') {
+    await (await import('./demoSeed')).seedDemoIfRequested();
+    settings = useSettingsStore.getState().settings;
+  }
   await ensureLayoutDirection(settings);
   startSideEffects();
   await useItemsStore.getState().refresh();

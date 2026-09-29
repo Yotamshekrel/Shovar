@@ -10,10 +10,10 @@
     "description": "A private, local-first wallet for store credits and gift cards.",
     "ios": {
       "bundleIdentifier": "com.shvar.wallet",
-      "supportsTablet": true,
+      "supportsTablet": false,
       "infoPlist": {
         "CFBundleAllowMixedLocalizations": true,
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": true
       },
       "privacyManifests": {
         "NSPrivacyTracking": false,
