@@ -27,7 +27,7 @@ export default function NearbyScreen() {
 
   useEffect(() => {
     let alive = true;
-    scanNearby().then((o) => alive && setOutcome(o));
+    scanNearby((partial) => alive && setOutcome(partial)).then((o) => alive && setOutcome(o));
     return () => {
       alive = false;
     };
