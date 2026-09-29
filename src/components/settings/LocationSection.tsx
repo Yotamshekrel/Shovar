@@ -3,22 +3,16 @@ import { useEffect, useState } from 'react';
 import { Platform, StyleSheet, View } from 'react-native';
 
 import { Chip, Divider, ListRow, Section, Text } from '@/components/ui';
-import { env } from '@/config/env';
 import { useI18n } from '@/i18n';
 import {
   LOCATION_STATUS_KEY,
   type LocationStatus,
-  PLACES_KEY_SECRET,
   locationPermissions,
   refreshGeofences,
-  sendTestNearbyReminder,
   stopGeofences,
 } from '@/location/locationService';
 import { getServices } from '@/services/database';
 import { useSettings, useSettingsStore } from '@/state/settings';
-import { notify } from '@/utils/dialogs';
-
-import { SecretKeyRow } from './SecretKeyRow';
 
 const RADII = [100, 150, 250, 400];
 const COOLDOWNS = [4, 12, 24, 72];
@@ -118,26 +112,8 @@ export function LocationSection() {
               reloadStatus();
             }}
           />
-          <Divider inset={60} />
-          <ListRow
-            icon="notifications-outline"
-            title={t('settings.locationTest')}
-            onPress={async () => {
-              const sent = await sendTestNearbyReminder();
-              if (!sent) notify(t('settings.locationTestNone'));
-            }}
-            testID="settings-location-test"
-          />
         </>
       ) : null}
-      <Divider inset={60} />
-      <SecretKeyRow
-        secretName={PLACES_KEY_SECRET}
-        title={t('settings.placesKey')}
-        hint={t('settings.placesKeyHint')}
-        envConfigured={!!env.googlePlacesApiKey}
-        onChange={() => refreshGeofences('places-key', { foreground: true })}
-      />
     </Section>
   );
 }
