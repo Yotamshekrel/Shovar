@@ -58,7 +58,7 @@ export default function LocationPermissionScreen() {
           <Icon name="location" size={40} color={colors.primary} />
           <View style={[styles.bubble, { backgroundColor: colors.surface, borderRadius: radii.lg }]}>
             <Text variant="footnote" tone="secondary">
-              Shvar
+              Shovar
             </Text>
             <Text variant="callout">
               {t('notif.nearbyBody', {

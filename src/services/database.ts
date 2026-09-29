@@ -1,7 +1,7 @@
 import * as Crypto from 'expo-crypto';
 
 import type { SqlDriver } from '@/db/driver';
-import { openExpoDriver } from '@/db/expoDriver';
+import { backupDatabase, openExpoDriver } from '@/db/expoDriver';
 import { ItemRepository } from '@/db/itemRepository';
 import { KvRepository } from '@/db/kvRepository';
 import { migrate } from '@/db/migrations';
@@ -22,7 +22,7 @@ let servicesPromise: Promise<Services> | null = null;
 export function getServices(): Promise<Services> {
   servicesPromise ??= (async () => {
     const db = await openExpoDriver();
-    await migrate(db);
+    await migrate(db, { onBeforeMigrate: (from) => backupDatabase(db, from) });
     const cipher = await getFieldCipher();
     return {
       db,

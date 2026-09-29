@@ -5,9 +5,10 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Button, Icon, type IconName, Text } from '@/components/ui';
 import { useI18n, type StringKey } from '@/i18n';
-import { loadDemoData } from '@/services/seed';
+import { authenticate, biometricsAvailable } from '@/services/security';
 import { useSettingsStore } from '@/state/settings';
 import { useTheme } from '@/theme/ThemeProvider';
+import { confirm } from '@/utils/dialogs';
 
 const PAGES: { icon: IconName; title: StringKey; body: StringKey }[] = [
   { icon: 'wallet-outline', title: 'onboarding.1.title', body: 'onboarding.1.body' },
@@ -24,20 +25,34 @@ export default function OnboardingScreen() {
   const patch = useSettingsStore((s) => s.patch);
   const listRef = useRef<FlatList>(null);
   const [page, setPage] = useState(0);
-  const [loadingDemo, setLoadingDemo] = useState(false);
+  const [finishing, setFinishing] = useState(false);
   const last = page === PAGES.length - 1;
 
-  const finish = async (withDemo = false) => {
-    if (withDemo) {
-      setLoadingDemo(true);
-      await loadDemoData().catch(() => {});
+  /** Skipping leaves the lock off; finishing the last page offers it. */
+  const finish = async (offerLock: boolean) => {
+    if (finishing) return;
+    setFinishing(true);
+    try {
+      if (offerLock && (await biometricsAvailable())) {
+        const wants = await confirm({
+          title: t('onboarding.lockTitle'),
+          message: t('onboarding.lockBody'),
+          confirmText: t('onboarding.lockYes'),
+          cancelText: t('onboarding.lockNo'),
+          icon: 'finger-print-outline',
+        });
+        // Prove it works before turning it on, so nobody gets locked out by accident.
+        if (wants && (await authenticate())) patch({ biometricLock: true });
+      }
+      patch({ onboardingDone: true });
+      router.replace('/');
+    } finally {
+      setFinishing(false);
     }
-    patch({ onboardingDone: true });
-    router.replace('/');
   };
 
   const next = () => {
-    if (last) finish();
+    if (last) finish(true);
     else listRef.current?.scrollToIndex({ index: page + 1, animated: true });
   };
 
@@ -50,7 +65,11 @@ export default function OnboardingScreen() {
   return (
     <View style={[styles.flex, { backgroundColor: colors.background, paddingTop: insets.top, paddingBottom: insets.bottom + 16 }]}>
       <View style={styles.skipRow}>
-        {!last ? <Button title={t('common.skip')} variant="ghost" size="sm" onPress={() => finish()} testID="onboarding-skip" /> : <View />}
+        {!last ? (
+          <Button title={t('common.skip')} variant="ghost" size="sm" onPress={() => finish(false)} testID="onboarding-skip" />
+        ) : (
+          <View />
+        )}
       </View>
       <FlatList
         ref={listRef}
@@ -85,17 +104,13 @@ export default function OnboardingScreen() {
         ))}
       </View>
       <View style={styles.actions}>
-        <Button title={last ? t('onboarding.start') : t('common.continue')} onPress={next} fullWidth testID="onboarding-next" />
-        {last ? (
-          <Button
-            title={t('onboarding.demo')}
-            variant="ghost"
-            onPress={() => finish(true)}
-            loading={loadingDemo}
-            fullWidth
-            testID="onboarding-demo"
-          />
-        ) : null}
+        <Button
+          title={last ? t('onboarding.start') : t('common.continue')}
+          onPress={next}
+          loading={finishing}
+          fullWidth
+          testID="onboarding-next"
+        />
       </View>
     </View>
   );

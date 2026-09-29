@@ -8,6 +8,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, Platform, StyleSheet, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
+import { DialogHost } from '@/components/DialogHost';
 import { LockGate } from '@/components/LockGate';
 import { Button, Text } from '@/components/ui';
 import { useI18n } from '@/i18n';
@@ -104,7 +105,7 @@ function Boot({ children }: { children: React.ReactNode }) {
       ) : (
         <View style={styles.errorBox}>
           <Text variant="headline" align="center">
-            Shvar couldn’t start
+            Shovar couldn’t start
           </Text>
           <Text tone="secondary" align="center">
             {state.message}
@@ -123,6 +124,7 @@ export default function RootLayout() {
         <Boot>
           <LockGate>
             <Navigator />
+            <DialogHost />
           </LockGate>
         </Boot>
       </ThemeProvider>

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Minimal Anthropic Messages proxy for Shvar's receipt extraction.
+ * Minimal Anthropic Messages proxy for Shovar's receipt extraction.
  *
  * The app sends normal Messages API requests (via the official SDK) to this
  * server instead of api.anthropic.com. The proxy injects the real API key from
@@ -82,4 +82,4 @@ createServer(async (req, res) => {
   } catch (e) {
     send(res, 502, { type: 'error', error: { type: 'api_error', message: `Upstream error: ${e.message}` } });
   }
-}).listen(PORT, () => console.log(`Shvar extraction proxy listening on :${PORT}`));
+}).listen(PORT, () => console.log(`Shovar extraction proxy listening on :${PORT}`));

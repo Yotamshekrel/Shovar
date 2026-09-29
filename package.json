@@ -1,12 +1,11 @@
 {
-  "name": "shvar",
+  "name": "shovar",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.129.0",
     "@expo/vector-icons": "^15.0.2",
     "@noble/ciphers": "^2.4.0",
-    "@react-native-community/datetimepicker": "9.1.0",
     "expo": "~57.0.25",
     "expo-brightness": "~57.0.2",
     "expo-clipboard": "~57.0.2",

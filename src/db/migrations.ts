@@ -105,12 +105,33 @@ CREATE TABLE IF NOT EXISTS location_alerts (
 
 export const LATEST_VERSION = MIGRATIONS[MIGRATIONS.length - 1].version;
 
-export async function migrate(db: SqlDriver): Promise<number> {
+export interface MigrateOptions {
+  /** Called once before any pending migration touches an existing (non-empty) database. */
+  onBeforeMigrate?: (from: number, to: number) => Promise<void>;
+}
+
+/**
+ * Brings the database to the latest schema without ever discarding data:
+ * migrations only add or transform, run inside a transaction, and a database
+ * written by a *newer* app version (e.g. after a downgrade) is left untouched.
+ */
+export async function migrate(db: SqlDriver, opts: MigrateOptions = {}): Promise<number> {
   await db.exec('PRAGMA foreign_keys = ON;');
   const row = await db.get<{ user_version: number }>('PRAGMA user_version;');
   let current = row?.user_version ?? 0;
-  for (const m of MIGRATIONS) {
-    if (m.version <= current) continue;
+  const latest = MIGRATIONS[MIGRATIONS.length - 1].version;
+  if (current > latest) return current;
+
+  const pending = MIGRATIONS.filter((m) => m.version > current);
+  if (pending.length > 0 && current > 0 && opts.onBeforeMigrate) {
+    try {
+      await opts.onBeforeMigrate(current, latest);
+    } catch (e) {
+      // A failed safety copy must not block the app, but it should be visible in logs.
+      console.warn('[db] pre-migration backup failed', e);
+    }
+  }
+  for (const m of pending) {
     await db.transaction(async (tx) => {
       await tx.exec(m.sql);
       await tx.exec(`PRAGMA user_version = ${m.version};`);

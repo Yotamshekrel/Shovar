@@ -24,6 +24,7 @@ export interface FieldCipher {
 const VERSION = 'v1';
 const NONCE_BYTES = 12;
 /** Associated data binds ciphertexts to this app/scheme. */
+// PERSISTENT: part of every stored ciphertext's authentication — never change.
 const AAD = utf8ToBytes('shvar:field:v1');
 
 export function createAesGcmCipher(key: Uint8Array, randomBytes: (n: number) => Uint8Array): FieldCipher {

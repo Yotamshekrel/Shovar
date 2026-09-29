@@ -73,7 +73,7 @@ export default function ItemDetailScreen() {
 
   const onDelete = async () => {
     const ok = await confirm({
-      title: t('detail.deleteConfirmTitle'),
+      title: t('detail.deleteConfirmTitle', { store: item.storeName }),
       message: t('detail.deleteConfirmBody'),
       confirmText: t('common.delete'),
       cancelText: t('common.cancel'),
@@ -316,6 +316,15 @@ export default function ItemDetailScreen() {
             <HistoryList events={events} currency={item.currency} />
           </Section>
         ) : null}
+
+        <Button
+          title={t('detail.deleteCard')}
+          icon="trash-outline"
+          variant="dangerGhost"
+          size="md"
+          onPress={onDelete}
+          testID="detail-delete-bottom"
+        />
 
         <Text variant="footnote" tone="tertiary" align="center">
           {t('detail.added', { date: formatDate(item.createdAt.slice(0, 10), locale) })}

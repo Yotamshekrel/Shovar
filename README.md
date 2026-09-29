@@ -1,6 +1,6 @@
-# Shvar (שובר) — a wallet for store credits & gift cards
+# Shovar (שובר) — a wallet for store credits & gift cards
 
-Shvar keeps every store credit, return note and gift card in one private,
+Shovar keeps every store credit, return note and gift card in one private,
 local-first wallet — so you always know what you have, where, and until when.
 
 - **Snap a receipt → confirm → done.** Claude vision reads the store, amount,
@@ -51,8 +51,9 @@ cp .env.example .env.local   # optional — see "Environment variables"
 npx expo start               # scan the QR code with Expo Go, or press i / a
 ```
 
-On first launch you'll see a three-page intro; choose **Explore with demo
-cards** to load sample data (also available later in *Settings → Data*).
+On first launch you'll see a three-page intro, and Shovar offers to protect the
+wallet with Face ID / fingerprint (it can be turned off any time in *Settings →
+Security*).
 
 For the full feature set (background geofencing, share-into-app, quick
 actions, on-device OCR), run a development build:
@@ -126,7 +127,7 @@ reading*. It's stored in the iOS Keychain / Android Keystore.
 **Option C — local development:** `EXPO_PUBLIC_ANTHROPIC_API_KEY=sk-ant-...`
 in `.env.local`. Don't ship a build like this.
 
-The first time a receipt is read with AI, Shvar asks for consent and explains
+The first time a receipt is read with AI, Shovar asks for consent and explains
 that only the image is sent, only to extract details. AI reading can be turned
 off in Settings at any time.
 
@@ -152,7 +153,7 @@ off in Settings at any time.
 
 Nearby reminders need a development build (see above) and are **opt-in**.
 
-1. Load demo cards (*Settings → Data → Load demo cards*) or add your own.
+1. Add a card or two (a store you can simulate being near).
 2. *Settings → Nearby reminders* → turn on → **Turn on nearby reminders** →
    allow location **"Always" / "Allow all the time"** and notifications.
 3. Give the app a store location. Either:
@@ -196,7 +197,7 @@ Tips:
 
 - **Share a gift card link:** in a development build, share a link (or a
   WhatsApp/email message containing one) from Safari/Chrome/WhatsApp →
-  *Shvar*. You land on the review screen with the store/amount prefilled.
+  *Shovar*. You land on the review screen with the store/amount prefilled.
   Sharing an image or PDF runs the receipt pipeline. On iOS the share
   extension uses an App Group (`group.com.shvar.wallet`); EAS sets up the
   capability automatically for your own bundle identifier.
@@ -251,6 +252,27 @@ npx eas-cli@latest build --profile production --platform all
 
 Change `ios.bundleIdentifier` / `android.package` in `app.json` to your own
 identifiers before the first build.
+
+---
+
+## Updating the app never deletes your data
+
+Cards, history and settings live in an on-device SQLite database, receipts in
+the app's documents folder, and the encryption key in the Keychain/Keystore —
+all of which survive app updates. To keep that true:
+
+- **Never change** the bundle identifier / Android package (`com.shvar.wallet`),
+  the database file name, the keychain key names or the Android signing key.
+  They are marked `PERSISTENT IDENTIFIER` in the code. (They keep the old
+  spelling on purpose; the app's visible name is *Shovar*.)
+- Schema changes are forward-only migrations that run in a transaction; before
+  one runs, the database is copied to `shvar.db.pre-v<N>.bak`. A database from a
+  newer version is left untouched if someone installs an older build.
+- Tests simulate an update (data, encrypted codes, history and settings all
+  survive a new migration, and failed migrations roll back).
+- A *new phone* is different from an update: the Keychain/Keystore key does not
+  move with an Android Auto Backup restore, so codes can't be decrypted there.
+  Cloud backup/sync is listed under next steps.
 
 ---
 

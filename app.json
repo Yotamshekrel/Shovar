@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Shvar",
-    "slug": "shvar",
+    "name": "Shovar",
+    "slug": "shovar",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "shvar",
+    "scheme": "shovar",
     "userInterfaceStyle": "automatic",
     "description": "A private, local-first wallet for store credits and gift cards.",
     "ios": {
@@ -63,13 +63,13 @@
       [
         "expo-secure-store",
         {
-          "faceIDPermission": "Allow Shvar to use Face ID to unlock your wallet."
+          "faceIDPermission": "Allow Shovar to use Face ID to unlock your wallet."
         }
       ],
       [
         "expo-local-authentication",
         {
-          "faceIDPermission": "Allow Shvar to use Face ID to unlock your wallet."
+          "faceIDPermission": "Allow Shovar to use Face ID to unlock your wallet."
         }
       ],
       [
@@ -102,8 +102,8 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Shvar uses your location in the background to remind you when you are near a store where you have credit. Your location never leaves your device.",
-          "locationWhenInUsePermission": "Shvar uses your location to show stores near you where you have credit.",
+          "locationAlwaysAndWhenInUsePermission": "Shovar uses your location in the background to remind you when you are near a store where you have credit. Your location never leaves your device.",
+          "locationWhenInUsePermission": "Shovar uses your location to show stores near you where you have credit.",
           "isIosBackgroundLocationEnabled": true,
           "isAndroidBackgroundLocationEnabled": true,
           "isAndroidForegroundServiceEnabled": false
@@ -118,13 +118,12 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "Shvar needs access to your photos so you can add a receipt or gift card screenshot.",
-          "cameraPermission": "Shvar uses the camera to photograph receipts and gift cards.",
+          "photosPermission": "Shovar needs access to your photos so you can add a receipt or gift card screenshot.",
+          "cameraPermission": "Shovar uses the camera to photograph receipts and gift cards.",
           "microphonePermission": false
         }
       ],
-      "expo-quick-actions",
-      "@react-native-community/datetimepicker"
+      "expo-quick-actions"
     ],
     "experiments": {
       "typedRoutes": true,

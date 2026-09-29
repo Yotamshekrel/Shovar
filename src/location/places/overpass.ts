@@ -4,7 +4,7 @@ import type { FetchLike, PlaceResult, PlacesProvider, StoreQuery } from './types
 /** Public Overpass instances, tried in order (the main one rate-limits busy IPs). */
 export const OVERPASS_ENDPOINTS = ['https://overpass-api.de/api/interpreter', 'https://overpass.private.coffee/api/interpreter'];
 /** overpass-api.de rejects requests without a descriptive User-Agent (HTTP 406). */
-const USER_AGENT = 'Shvar/1.0 (personal wallet app; store-credit reminders)';
+const USER_AGENT = 'Shovar/1.0 (personal wallet app; store-credit reminders)';
 
 interface OverpassElement {
   type: 'node' | 'way' | 'relation';

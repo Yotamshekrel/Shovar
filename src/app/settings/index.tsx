@@ -15,11 +15,10 @@ import { isRtlLanguage, resolveLanguage, useI18n } from '@/i18n';
 import { applyLayoutDirection, restartApp } from '@/services/bootstrap';
 import { deleteAllAttachmentFiles } from '@/services/attachments';
 import { getServices } from '@/services/database';
-import { loadDemoData } from '@/services/seed';
 import { useItemsStore } from '@/state/items';
 import { type LanguagePref, type ThemePref, DEFAULT_SETTINGS, useSettings, useSettingsStore } from '@/state/settings';
 import { useTheme } from '@/theme/ThemeProvider';
-import { confirm, notify } from '@/utils/dialogs';
+import { confirm } from '@/utils/dialogs';
 
 export default function SettingsScreen() {
   const { colors } = useTheme();
@@ -45,11 +44,6 @@ export default function SettingsScreen() {
         if (ok) setTimeout(() => restartApp('language changed'), 400);
       }
     }
-  };
-
-  const onLoadDemo = async () => {
-    const n = await loadDemoData();
-    notify(t('settings.loadDemoDone'), `+${n}`);
   };
 
   const onDeleteAll = async () => {
@@ -150,8 +144,6 @@ export default function SettingsScreen() {
       </Section>
 
       <Section title={t('settings.data')}>
-        <ListRow icon="albums-outline" title={t('settings.loadDemo')} onPress={onLoadDemo} testID="settings-load-demo" />
-        <Divider inset={60} />
         <ListRow icon="trash-outline" title={t('settings.deleteAll')} onPress={onDeleteAll} destructive testID="settings-delete-all" />
       </Section>
 

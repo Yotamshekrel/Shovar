@@ -59,7 +59,7 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
     initial.linkUrl ||
     initial.notes ||
     initial.purchaseDate ||
-    (initial.balanceMinor != null && initial.balanceMinor !== initial.amountMinor)
+    (mode === 'edit' && initial.balanceMinor != null && initial.balanceMinor !== initial.amountMinor)
   );
   const [showMore, setShowMore] = useState(mode === 'edit' || hasExtraValues);
   const storeRef = useRef<TextInput>(null);
@@ -92,7 +92,8 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
   const expiryBase = values.purchaseDate ?? todayIso();
 
   const submit = async () => {
-    const { errors: errs, draft } = validateItemForm(values);
+    // A new card starts with its full amount; the balance is only editable on existing cards.
+    const { errors: errs, draft } = validateItemForm(mode === 'edit' ? values : { ...values, balance: '' });
     setErrors(errs);
     if (!draft) {
       warningFeedback();
@@ -263,9 +264,11 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
           placeholder={t('form.codePlaceholder')}
           value={values.code}
           onChangeText={(v) => set('code', v)}
+          hint={t('form.codeHint')}
           highlighted={isLow('code')}
           autoCapitalize="characters"
           autoCorrect={false}
+          spellCheck={false}
           mono
         />
 
@@ -278,22 +281,23 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
 
         {showMore ? (
           <View style={styles.gap}>
-            <TextField
-              testID="field-balance"
-              label={t('form.balance')}
-              hint={mode === 'edit' ? undefined : t('form.balanceHint')}
-              placeholder={values.amount || '0'}
-              keyboardType="decimal-pad"
-              value={values.balance}
-              onChangeText={(v) => set('balance', v)}
-              error={errorText('balance')}
-              highlighted={isLow('balance')}
-              prefix={
-                <Text variant="bodyStrong" tone="secondary">
-                  {currencySymbol(values.currency)}
-                </Text>
-              }
-            />
+            {mode === 'edit' ? (
+              <TextField
+                testID="field-balance"
+                label={t('form.balance')}
+                placeholder={values.amount || '0'}
+                keyboardType="decimal-pad"
+                value={values.balance}
+                onChangeText={(v) => set('balance', v)}
+                error={errorText('balance')}
+                highlighted={isLow('balance')}
+                prefix={
+                  <Text variant="bodyStrong" tone="secondary">
+                    {currencySymbol(values.currency)}
+                  </Text>
+                }
+              />
+            ) : null}
             <TextField
               label={t('form.pin')}
               value={values.pin}
@@ -318,6 +322,7 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
             <DateField
               label={t('form.purchaseDate')}
               value={values.purchaseDate}
+              range="past"
               onChange={(v) => set('purchaseDate', v)}
               highlighted={isLow('purchaseDate')}
             />

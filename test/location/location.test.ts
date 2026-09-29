@@ -316,7 +316,7 @@ describe('places providers', () => {
     const seen: string[] = [];
     const fetchImpl = async (url: string, init?: RequestInit) => {
       seen.push(url);
-      expect((init?.headers as Record<string, string>)['User-Agent']).toMatch(/^Shvar\//);
+      expect((init?.headers as Record<string, string>)['User-Agent']).toMatch(/^Shovar\//);
       if (url.includes('primary')) return new Response('busy', { status: 429 });
       return new Response(JSON.stringify({ elements: [{ type: 'node', id: 9, lat: AZRIELI.lat, lon: AZRIELI.lng }] }), { status: 200 });
     };

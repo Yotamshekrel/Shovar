@@ -1,5 +1,5 @@
 /**
- * Core domain model for Shvar.
+ * Core domain model for Shovar.
  *
  * Money is always stored as integer minor units (agorot / cents) to avoid
  * floating point drift. Dates without a time component (expiry, purchase)

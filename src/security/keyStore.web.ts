@@ -9,6 +9,8 @@ import { createAesGcmCipher, type FieldCipher } from './fieldCipher';
  * the browser, so the key lives in localStorage. Do not ship the web build as
  * a production wallet.
  */
+// PERSISTENT IDENTIFIER — never rename: changing it would make the existing key
+// unreachable and every encrypted code/PIN unreadable after an app update.
 const DATA_KEY = 'shvar.dataKey.v1';
 let cached: Promise<FieldCipher> | null = null;
 

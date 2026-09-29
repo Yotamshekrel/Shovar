@@ -90,13 +90,13 @@ describe('share-sheet deep link routing', () => {
   const { redirectSystemPath } = require('@/app/+native-intent') as typeof import('@/app/+native-intent');
 
   it('routes expo-sharing URLs to the share handler', () => {
-    expect(redirectSystemPath({ path: 'shvar://expo-sharing?data=1', initial: true })).toBe('/handle-share');
+    expect(redirectSystemPath({ path: 'shovar://expo-sharing?data=1', initial: true })).toBe('/handle-share');
     expect(redirectSystemPath({ path: 'expo-sharing://share', initial: false })).toBe('/handle-share');
   });
 
   it('leaves other links untouched', () => {
     expect(redirectSystemPath({ path: '/item/abc', initial: false })).toBe('/item/abc');
-    expect(redirectSystemPath({ path: 'shvar://search', initial: true })).toBe('shvar://search');
+    expect(redirectSystemPath({ path: 'shovar://search', initial: true })).toBe('shovar://search');
   });
 });
 

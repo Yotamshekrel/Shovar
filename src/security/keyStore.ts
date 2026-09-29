@@ -11,6 +11,8 @@ import { createAesGcmCipher, type FieldCipher } from './fieldCipher';
  * (geofence events) open the app database while the device is locked, and
  * lets the key migrate with encrypted device backups.
  */
+// PERSISTENT IDENTIFIER — never rename: changing it would make the existing key
+// unreachable and every encrypted code/PIN unreadable after an app update.
 const DATA_KEY = 'shvar.dataKey.v1';
 const OPTIONS: SecureStore.SecureStoreOptions = {
   keychainAccessible: SecureStore.AFTER_FIRST_UNLOCK,

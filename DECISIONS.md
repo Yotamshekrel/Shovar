@@ -1,6 +1,6 @@
-# Shvar — Decisions & trade-offs
+# Shovar — Decisions & trade-offs
 
-This file records the key technical choices made while building Shvar, and why.
+This file records the key technical choices made while building Shovar, and why.
 It is updated per milestone.
 
 ## M1 — Foundation
@@ -261,3 +261,35 @@ It is updated per milestone.
 - **Review fix:** editing unrelated fields on an archived card no longer moves
   it back to the wallet — status is re-derived only when the expiry date or
   balance actually changes.
+
+## Round 2 — feedback improvements
+
+- **Autofill:** every `TextField` now opts out of system autofill
+  (`autoComplete="off"`, `textContentType="none"`, `importantForAutofill="no"`),
+  and the code field is labelled "Voucher code" with a hint that bank card
+  numbers don't belong there — the old "Code / card number" wording is what
+  invited credit-card suggestions.
+- **Field alignment bug:** the input's `paddingTop: 0` overrode its vertical
+  padding, pinning text to the top; single-line fields are now vertically
+  centered (`textAlignVertical: center`).
+- **Date entry: year → month → day.** The native calendar dialogs were replaced
+  by one cross-platform bottom sheet with large tap targets: year grid (this year
+  and ten more; issue dates look back six), month grid, day grid; breadcrumbs
+  and Back allow corrections. This also removed the `datetimepicker` native
+  dependency.
+- **Balance** is only editable when editing an existing card; a new or
+  scanned card starts at its full amount. Partial use is logged from the card.
+- **Onboarding** asks once, on "Get started", whether to protect the wallet with
+  Face ID / fingerprint, and only turns it on after a successful authentication
+  (so nobody is locked out by accident). Skip leaves it off. Settings still
+  toggles it.
+- **Dialogs:** confirms (delete, mark used…) use a themed in-app dialog instead of
+  the stock Android alert — icon, store name in the title, a red primary action.
+  The card screen also gets a "Delete card" button at the bottom.
+- **Demo cards removed** (settings, onboarding, seed code).
+- **Name:** "Shovar" everywhere users see it (app name, permissions, notifications,
+  docs); URL scheme and slug are `shovar`. Storage identifiers (bundle id, DB file,
+  keychain keys) deliberately keep their original spelling — see the next point.
+- **Update safety:** stable identifiers are documented in code; migrations take a
+  pre-migration copy of the database, ignore a newer-version database, and are
+  covered by upgrade tests.

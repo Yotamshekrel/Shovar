@@ -1,6 +1,6 @@
 export const en = {
   // General
-  'app.name': 'Shvar',
+  'app.name': 'Shovar',
   'common.save': 'Save',
   'common.cancel': 'Cancel',
   'common.done': 'Done',
@@ -46,7 +46,7 @@ export const en = {
   'home.sort.recent': 'Recent',
   'home.sortBy': 'Sort: {sort}',
   'home.empty.title': 'Your wallet is empty',
-  'home.empty.body': 'Add a store credit or gift card. Snap a receipt and Shvar fills in the details.',
+  'home.empty.body': 'Add a store credit or gift card. Snap a receipt and Shovar fills in the details.',
   'home.empty.cta': 'Add your first card',
   'home.emptyFilter': 'Nothing here right now.',
   'home.archive': 'Archive',
@@ -82,14 +82,14 @@ export const en = {
   'form.category': 'Category',
   'form.amount': 'Amount',
   'form.balance': 'Remaining balance',
-  'form.balanceHint': 'Leave empty if nothing was used yet',
   'form.currency': 'Currency',
   'form.expiry': 'Expiry date',
   'form.noExpiry': 'No expiry',
   'form.purchaseDate': 'Issue date',
-  'form.code': 'Code / card number',
-  'form.codePlaceholder': 'Voucher code or card number',
-  'form.pin': 'PIN',
+  'form.code': 'Voucher code',
+  'form.codePlaceholder': 'Code printed on the voucher',
+  'form.codeHint': 'Voucher or gift card codes only — never a bank card number.',
+  'form.pin': 'Voucher PIN',
   'form.link': 'Link',
   'form.linkPlaceholder': 'https://',
   'form.notes': 'Notes',
@@ -111,6 +111,9 @@ export const en = {
   'form.in6Months': '6 months',
   'form.in1Year': '1 year',
   'form.in2Years': '2 years',
+  'date.pickYear': 'Which year?',
+  'date.pickMonth': 'Which month?',
+  'date.pickDay': 'Which day?',
   'form.clear': 'Clear',
 
   // Categories
@@ -153,7 +156,8 @@ export const en = {
   'detail.pinLocation': 'I’m at this store now',
   'detail.pinLocationHint': 'Save your current location as this store’s branch',
   'detail.pinnedLocation': 'Location saved',
-  'detail.deleteConfirmTitle': 'Delete this card?',
+  'detail.deleteConfirmTitle': 'Delete {store}?',
+  'detail.deleteCard': 'Delete card',
   'detail.deleteConfirmBody': 'This removes it and its files from this device. This can’t be undone.',
   'detail.markUsedConfirm': 'Mark as fully used? It will move to the archive.',
   'detail.notFound': 'This card no longer exists.',
@@ -232,8 +236,8 @@ export const en = {
   'link.detect': 'Continue',
   'link.detecting': 'Looking at the link…',
   'link.invalid': 'That doesn’t look like a link.',
-  'link.hint': 'Tip: you can also share a link to Shvar straight from WhatsApp, email or your browser.',
-  'share.title': 'Shared with Shvar',
+  'link.hint': 'Tip: you can also share a link to Shovar straight from WhatsApp, email or your browser.',
+  'share.title': 'Shared with Shovar',
   'share.nothing': 'Nothing to import.',
   'share.unsupported': 'This type of content can’t be imported.',
 
@@ -259,7 +263,7 @@ export const en = {
   'settings.expiryOneDay': '1 day before',
   'settings.expiryDayOf': 'On the day',
   'settings.reminderTime': 'At',
-  'settings.notificationsDenied': 'Notifications are turned off for Shvar. Turn them on in system settings.',
+  'settings.notificationsDenied': 'Notifications are turned off for Shovar. Turn them on in system settings.',
   'settings.location': 'Nearby reminders',
   'settings.locationEnabled': 'Remind me near stores',
   'settings.locationHint': 'Get a notification when you pass a store where you have credit.',
@@ -287,8 +291,6 @@ export const en = {
   'settings.configured': 'Configured',
   'settings.notConfigured': 'Not configured',
   'settings.data': 'Data',
-  'settings.loadDemo': 'Load demo cards',
-  'settings.loadDemoDone': 'Demo cards added',
   'settings.deleteAll': 'Delete all data',
   'settings.deleteAllConfirm': 'Delete every card, receipt and setting on this device?',
   'settings.about': 'About',
@@ -298,7 +300,7 @@ export const en = {
   // Location permission explainer
   'locationPerm.title': 'Never miss credit you already have',
   'locationPerm.body':
-    'Shvar can remind you when you walk past a store where you have credit — for example “You have ₪120 at Zara, 150m away”.',
+    'Shovar can remind you when you walk past a store where you have credit — for example “You have ₪120 at Zara, 150m away”.',
   'locationPerm.point1': 'Uses the system’s low-power geofencing, not constant GPS tracking.',
   'locationPerm.point2': 'Your location never leaves the device. Store addresses are looked up by name only.',
   'locationPerm.point3': 'Choose “Allow all the time” / “Always” so reminders work when the app is closed.',
@@ -306,7 +308,7 @@ export const en = {
   'locationPerm.notNow': 'Not now',
   'locationPerm.denied': 'Location permission was not granted. You can enable it in system settings.',
   'locationPerm.backgroundDenied':
-    'Background location wasn’t allowed, so reminders only work while Shvar is open. Enable “Always” in settings for full reminders.',
+    'Background location wasn’t allowed, so reminders only work while Shovar is open. Enable “Always” in settings for full reminders.',
 
   // Notifications
   'notif.nearbyTitle': 'Credit nearby',
@@ -322,7 +324,7 @@ export const en = {
   'notif.km': '{km}km',
 
   // Lock
-  'lock.title': 'Shvar is locked',
+  'lock.title': 'Shovar is locked',
   'lock.unlock': 'Unlock',
   'lock.reason': 'Unlock your wallet',
 
@@ -330,10 +332,13 @@ export const en = {
   'onboarding.1.title': 'All your credits in one place',
   'onboarding.1.body': 'Store credits, gift cards and vouchers — with balances and expiry dates at a glance.',
   'onboarding.2.title': 'Snap a receipt, done',
-  'onboarding.2.body': 'Shvar reads the store, amount, expiry and code for you. Just confirm.',
+  'onboarding.2.body': 'Shovar reads the store, amount, expiry and code for you. Just confirm.',
   'onboarding.3.title': 'Private by design',
   'onboarding.3.body': 'Everything stays on your phone. Codes are encrypted, and you can lock the app with Face ID or fingerprint.',
-  'onboarding.demo': 'Explore with demo cards',
+  'onboarding.lockTitle': 'Protect Shovar with Face ID / fingerprint?',
+  'onboarding.lockBody': 'Your wallet will ask for it when you open the app. You can turn this off anytime in Settings.',
+  'onboarding.lockYes': 'Yes, protect it',
+  'onboarding.lockNo': 'Not now',
   'onboarding.start': 'Get started',
 
   // Quick actions

@@ -65,6 +65,11 @@ export const TextField = forwardRef<TextInput, TextFieldProps>(function TextFiel
           }}
           accessibilityLabel={label}
           accessibilityHint={error ?? hint}
+          // Shovar never stores bank cards: keep system autofill (credit-card, password
+          // and contact suggestions) out of every field unless a screen opts back in.
+          autoComplete="off"
+          textContentType="none"
+          importantForAutofill="no"
           {...rest}
           style={[
             styles.input,
@@ -72,7 +77,8 @@ export const TextField = forwardRef<TextInput, TextFieldProps>(function TextFiel
             {
               color: colors.text,
               textAlign: textStart,
-              paddingTop: multiline ? 12 : 0,
+              textAlignVertical: multiline ? 'top' : 'center',
+              paddingTop: multiline ? 12 : undefined,
               fontFamily: mono ? 'monospace' : undefined,
               letterSpacing: mono ? 1 : undefined,
             },

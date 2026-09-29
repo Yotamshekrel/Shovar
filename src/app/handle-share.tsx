@@ -16,7 +16,7 @@ import { getSettings } from '@/state/settings';
 import { useTheme } from '@/theme/ThemeProvider';
 
 /**
- * Receives content shared into Shvar from WhatsApp, email, a browser or the
+ * Receives content shared into Shovar from WhatsApp, email, a browser or the
  * photo gallery:
  *  - a link (or a message containing one) → link import,
  *  - an image or PDF → receipt extraction,
