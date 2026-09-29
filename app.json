@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Shovar",
-    "slug": "shovar",
+    "slug": "shvar",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -86,7 +86,11 @@
           },
           "android": {
             "enabled": true,
-            "singleShareMimeTypes": ["text/plain", "image/*", "application/pdf"]
+            "singleShareMimeTypes": [
+              "text/plain",
+              "image/*",
+              "application/pdf"
+            ]
           }
         }
       ],
@@ -94,8 +98,14 @@
         "expo-localization",
         {
           "supportedLocales": {
-            "ios": ["en", "he"],
-            "android": ["en", "he"]
+            "ios": [
+              "en",
+              "he"
+            ],
+            "android": [
+              "en",
+              "he"
+            ]
           }
         }
       ],
@@ -130,7 +140,11 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {}
-    }
+      "router": {},
+      "eas": {
+        "projectId": "dba292a8-29e5-4966-a929-2d1ddb0d61cd"
+      }
+    },
+    "owner": "yotamshekrel"
   }
 }

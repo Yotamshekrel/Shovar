@@ -128,7 +128,8 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
   return (
     <KeyboardAvoidingView
       style={styles.flex}
-      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      // Android is edge-to-edge (the OS no longer resizes the window), so it needs 'padding' too.
+      behavior="padding"
       keyboardVerticalOffset={Platform.OS === 'ios' ? 64 : 0}
     >
       <ScrollView

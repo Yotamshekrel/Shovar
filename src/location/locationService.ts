@@ -16,6 +16,7 @@ import { createGooglePlacesProvider } from './places/google';
 import { createOverpassProvider } from './places/overpass';
 import { PlacesCache } from './places/placesCache';
 import type { PlacesProvider } from './places/types';
+import { type NearbyStore, nearbyStores } from './nearest';
 import { storeQueries } from './storeQueries';
 
 export const GEOFENCE_TASK = 'shvar-geofence';
@@ -224,5 +225,47 @@ export async function pinCurrentLocation(): Promise<LatLng | null> {
     return { lat: fix.coords.latitude, lng: fix.coords.longitude };
   } catch {
     return null;
+  }
+}
+
+export type ScanOutcome =
+  | { status: 'ok'; stores: NearbyStore[]; storesWithCredit: number }
+  | { status: 'unsupported' | 'no-permission' | 'no-position' | 'no-items' | 'error' };
+
+/**
+ * "What's around me": asks for foreground location only, refreshes branch
+ * lookups for every store with credit (cached per ~11 km area) and returns
+ * the stores that have a branch within the scan radius, closest first.
+ */
+export async function scanNearby(): Promise<ScanOutcome> {
+  if (!supported) return { status: 'unsupported' };
+  try {
+    const perm = await Location.requestForegroundPermissionsAsync();
+    if (!perm.granted) return { status: 'no-permission' };
+    const { items: repo, db } = await getServices();
+    const active = (await repo.listActiveItems()).filter((i) => i.balanceMinor !== 0);
+    const groups = storeQueries(active);
+    if (groups.size === 0) return { status: 'no-items' };
+    const position = await currentPosition(true);
+    if (!position) return { status: 'no-position' };
+
+    const cache = new PlacesCache(db);
+    const cell = cellKey(position);
+    const provider = await placesProvider();
+    for (const q of groups.values()) {
+      if (await cache.isFresh(q.storeKey, cell)) continue;
+      try {
+        // Only the store name and the ~11 km cell center are sent — never the exact position.
+        await cache.save(q.storeKey, cell, provider.name, await provider.searchStore(q, cellCenter(cell), LOOKUP_RADIUS_M));
+      } catch (e) {
+        console.warn('[location] scan lookup failed', q.storeKey, e);
+      }
+    }
+    const places = await cache.placesFor([...groups.keys()]);
+    const relevant = active.filter((i) => groups.has(storeKeyOf(i.storeName)));
+    return { status: 'ok', stores: nearbyStores(relevant, places, position), storesWithCredit: groups.size };
+  } catch (e) {
+    console.warn('[location] scan failed', e);
+    return { status: 'error' };
   }
 }
