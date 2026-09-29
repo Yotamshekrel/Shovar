@@ -1,6 +1,6 @@
 import { router, useLocalSearchParams } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { KeyboardAvoidingView, Platform, StyleSheet, View } from 'react-native';
+import { KeyboardAvoidingView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Button, Segmented, Text, TextField } from '@/components/ui';
@@ -46,7 +46,7 @@ export default function BalanceSheet() {
   };
 
   return (
-    <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={styles.flex}>
+    <KeyboardAvoidingView behavior="padding" style={styles.flex}>
       <View style={[styles.wrap, { paddingBottom: Math.max(insets.bottom, 16) }]}>
         <Text variant="headline" accessibilityRole="header">
           {t('balance.title')}

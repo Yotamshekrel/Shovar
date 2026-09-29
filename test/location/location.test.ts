@@ -4,8 +4,10 @@ import { migrate } from '@/db/migrations';
 import type { Item } from '@/domain/types';
 import { cellCenter, cellKey, distanceMeters, isValidCoordinate, roundDistance } from '@/location/geo';
 import { REFRESH_REGION_ID, maxRegionsFor, parseStoreRegionId, planGeofences, storeRegionId } from '@/location/geofencePlanner';
-import { nearestCredit } from '@/location/nearest';
+import { nearbyStores, nearestCredit } from '@/location/nearest';
 import { eligibleItemsForStore, formatDistance, nearbyNotificationContent } from '@/location/nearbyAlert';
+import { createChainProvider } from '@/location/places/chain';
+import { createPhotonProvider } from '@/location/places/photon';
 import { createGooglePlacesProvider } from '@/location/places/google';
 import { buildOverpassQuery, createOverpassProvider } from '@/location/places/overpass';
 import { PlacesCache } from '@/location/places/placesCache';
@@ -334,5 +336,65 @@ describe('places providers', () => {
     await expect(
       createOverpassProvider(failing, ['https://a', 'https://b']).searchStore({ storeKey: 'x', names: ['x'] }, AZRIELI, 1000),
     ).rejects.toThrow('429');
+  });
+});
+
+describe('nearbyStores (what’s around me)', () => {
+  it('groups cards per store, uses the closest branch and drops far stores', () => {
+    const z1 = item('Zara', { balanceMinor: 5000 });
+    const z2 = item('Zara', { balanceMinor: 2000 });
+    const far = item('Castro', { balanceMinor: 1000 });
+    const places = [
+      { storeKey: storeKey('Zara'), address: 'Azrieli', ...AZRIELI },
+      { storeKey: storeKey('Zara'), address: 'Ramat Aviv', ...RAMAT_AVIV_MALL },
+      { storeKey: storeKey('Castro'), address: 'Jerusalem', ...JERUSALEM },
+    ];
+    const res = nearbyStores([z1, z2, far], places, DIZENGOFF_CENTER);
+    expect(res).toHaveLength(1);
+    expect(res[0].items).toHaveLength(2);
+    expect(res[0].address).toBe('Azrieli');
+    expect(res[0].distanceM).toBeLessThan(2000);
+  });
+});
+
+describe('photon provider + chain (fast lookup)', () => {
+  const photonBody = {
+    features: [
+      { geometry: { coordinates: [34.7740308, 32.0839341] }, properties: { osm_type: 'N', osm_id: 1, name: 'צומת ספרים', street: 'דיזנגוף', city: 'תל אביב–יפו' } },
+      { geometry: { coordinates: [34.7745, 32.08] }, properties: { osm_type: 'W', osm_id: 2, name: 'רחוב צומת', city: 'תל אביב' } },
+      { geometry: { coordinates: [35.2, 31.7] }, properties: { osm_type: 'N', osm_id: 3, name: 'צומת ספרים', city: 'ירושלים' } },
+    ],
+  };
+  const ok = (body: unknown) => async () => ({ ok: true, status: 200, json: async () => body }) as unknown as Response;
+
+  it('keeps only matching, in-radius branches and dedupes across spellings', async () => {
+    const calls: string[] = [];
+    const fetchImpl = async (url: string) => {
+      calls.push(url);
+      return ok(photonBody)();
+    };
+    const res = await createPhotonProvider(fetchImpl).searchStore(
+      { storeKey: 'brand:tzometsfarim', names: ['Tzomet Sfarim', 'צומת ספרים'] },
+      DIZENGOFF_CENTER,
+      6500,
+    );
+    expect(calls).toHaveLength(2); // Hebrew + Latin spelling in parallel
+    expect(res).toHaveLength(1);
+    expect(res[0].address).toBe('דיזנגוף, תל אביב–יפו');
+    const near = nearbyStores([item('צומת ספרים', { balanceMinor: 5000 })], res.map((p) => ({ storeKey: storeKey('צומת ספרים'), ...p })), DIZENGOFF_CENTER);
+    expect(near).toHaveLength(1);
+    expect(near[0].distanceM).toBeGreaterThan(900);
+    expect(near[0].distanceM).toBeLessThan(1000);
+  });
+
+  it('falls through to the next provider on error or timeout, but trusts an empty answer', async () => {
+    const q = { storeKey: 'x', names: ['x'] };
+    const failing = { name: 'osm' as const, searchStore: async () => { throw new Error('boom'); } };
+    const hanging = { name: 'osm' as const, searchStore: (_q: unknown, _c: unknown, _r: unknown, s?: AbortSignal) => new Promise<never>((_, rej) => s?.addEventListener('abort', () => rej(new Error('aborted')))) };
+    const good = { name: 'osm' as const, searchStore: async () => [{ id: 'osm:n/1', name: 'x', address: null, lat: 1, lng: 1, provider: 'osm' as const }] };
+    const empty = { name: 'osm' as const, searchStore: async () => [] };
+    expect(await createChainProvider([{ provider: failing, timeoutMs: 50 }, { provider: hanging, timeoutMs: 50 }, { provider: good, timeoutMs: 50 }]).searchStore(q, AZRIELI, 1000)).toHaveLength(1);
+    expect(await createChainProvider([{ provider: empty, timeoutMs: 50 }, { provider: good, timeoutMs: 50 }]).searchStore(q, AZRIELI, 1000)).toHaveLength(0);
+    await expect(createChainProvider([{ provider: failing, timeoutMs: 50 }]).searchStore(q, AZRIELI, 1000)).rejects.toThrow('boom');
   });
 });

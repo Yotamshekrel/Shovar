@@ -4,12 +4,15 @@ import { StyleSheet, View } from 'react-native';
 import { Button, ListRow, Text, TextField } from '@/components/ui';
 import { useI18n } from '@/i18n';
 import { getSecret, setSecret } from '@/security/keyStore';
+import { notify } from '@/utils/dialogs';
 
 /** Settings row for a user-provided API key kept in the device keychain (never in SQLite or logs). */
 export function SecretKeyRow({
   secretName,
   title,
   hint,
+  explainTitle,
+  explain,
   envConfigured,
   onChange,
   testID,
@@ -17,6 +20,9 @@ export function SecretKeyRow({
   secretName: string;
   title: string;
   hint: string;
+  /** Shown in a pop-up whenever the row is opened, explaining why the app can use this key. */
+  explainTitle: string;
+  explain: string;
   envConfigured: boolean;
   onChange?: () => void;
   testID?: string;
@@ -44,7 +50,10 @@ export function SecretKeyRow({
 
   return (
     <View>
-      <ListRow icon="key-outline" title={title} value={status} onPress={() => setEditing((e) => !e)} testID={testID} />
+      <ListRow icon="key-outline" title={title} value={status} onPress={() => {
+          if (!editing) notify(explainTitle, explain);
+          setEditing((e) => !e);
+        }} testID={testID} />
       {editing ? (
         <View style={styles.editor}>
           <Text variant="footnote" tone="secondary">
