@@ -1,0 +1,295 @@
+# Shovar — Decisions & trade-offs
+
+This file records the key technical choices made while building Shovar, and why.
+It is updated per milestone.
+
+## M1 — Foundation
+
+- **Expo SDK 57 + Expo Router, TypeScript strict.** Routes live in `src/app/`,
+  everything else in `src/` (domain, db, services, UI). Scaffolded from the
+  official `create-expo-app` default template and trimmed.
+- **Money as integer minor units** (`amountMinor`, agorot/cents). Avoids float
+  drift when logging partial usage. Formatting via `Intl.NumberFormat`, whole
+  amounts shown without decimals (₪120, not ₪120.00).
+- **Date-only values as `YYYY-MM-DD` strings** in local time. Expiry means "valid
+  through that day"; an item becomes expired the day after.
+- **SQLite via `expo-sqlite`, behind a tiny `SqlDriver` interface.** The same
+  repositories and migrations run in Jest against `sql.js` (real SQLite in wasm),
+  so the data layer is tested against real SQL semantics, not mocks.
+- **Forward-only migrations tracked with `PRAGMA user_version`.**
+- **Sync-ready schema.** Every table has a UUID `id`, `created_at`, `updated_at`
+  and a `deleted_at` tombstone (deletes are soft). A future sync/backup adapter
+  can page changes by `updated_at` and propagate deletions without a schema
+  rewrite. Secrets stay encrypted inside sync payloads (end-to-end by default).
+- **Field-level encryption for codes and PINs.** AES-256-GCM (`@noble/ciphers`,
+  audited, pure JS) with a random 96-bit nonce per value and a versioned payload
+  (`v1:…`). The 256-bit data key is generated on first launch and stored in the
+  iOS Keychain / Android Keystore via `expo-secure-store`
+  (`AFTER_FIRST_UNLOCK`, so background geofence tasks can still open the DB and
+  the key migrates with encrypted device backups). Only ciphertext is written to
+  SQLite; list queries don't decrypt at all. SQLCipher (whole-DB encryption)
+  was considered but it doesn't run in Expo Go and would complicate testing; it
+  can be enabled later with the `useSQLCipher` plugin flag.
+- **Balance history as an append-only `balance_events` table** (`created`,
+  `usage`, `adjustment`, `marked_used`, `expired`, `reactivated`), each with the
+  signed delta and resulting balance.
+- **Store keys.** Items carry a canonical `store_key`: known brands map to
+  `brand:<id>` (so "Zara", "ZARA" and "זארה" share a places cache and location
+  cooldown), otherwise `name:<normalized>`.
+- **State: `zustand`.** The whole active wallet (tens–hundreds of rows) is held
+  in memory, which makes search and filtering instant. Mutations go through the
+  repository and then refresh the store; side-effect modules (notifications,
+  geofences) subscribe to changes.
+- **Design system.** Own lightweight primitives (Text, Button, TextField, Chip,
+  Segmented, ListRow…) with light/dark palettes. Wallet-style gradient tiles use
+  the brand color when the store is known, otherwise a stable hashed color; text
+  color is chosen by WCAG contrast.
+- **i18n.** Own ~60-line i18n layer: English and Hebrew dictionaries, Hebrew is
+  type-checked for key parity (`Record<StringKey, string>`). Layout direction
+  follows the language via `I18nManager.forceRTL` + a one-time reload guarded
+  against reload loops (Expo Go resets RTL).
+- **Web is a development preview only.** It's used to render and screenshot
+  screens during development (expo-sqlite web + COOP/COEP headers in
+  `metro.config.js`). Native-only features degrade to no-ops on web and the web
+  key store is not hardware-backed.
+
+## M2 — Manual add / edit / detail / archive
+
+- **One "+" entry point** opens a native form sheet with three choices (scan,
+  link, manual). The scan option is visually primary because it's the most
+  common flow.
+- **Fast form.** Only the fields you need most are shown (type, store, amount +
+  currency, expiry with one-tap "6 months / 1 year / 2 years / no expiry",
+  code). Everything else is behind "More details". Store name offers known
+  brands in either script as you type. The Save button is sticky so it's always
+  one tap away.
+- **"Balance" vs "amount".** `initial_amount` is the face value; `balance` is
+  what's left. Logging usage ("I spent ₪40") or setting the remaining balance
+  both write a history event. Reaching zero moves the card to the archive;
+  "Move back to wallet" restores it.
+- **Archive = used or expired.** Expired is derived from the expiry date at
+  read time and also persisted by a sweep on refresh, so history records when
+  it happened.
+- **Tapping a gift card's link.** Tiles with a link get an "Open" pill that
+  opens the link directly; tapping anywhere else opens the details (where the
+  link is also the primary action when there is no code). This satisfies
+  "tapping the item opens the link" without losing access to details.
+- **Checkout view** renders the code as Code 128 (compact subset C for numeric
+  codes), QR, or large text, on a white quiet zone, with screen brightness
+  boosted and the screen kept awake. Bars are snapped to whole physical pixels.
+  Both encoders are verified in tests by decoding with ZXing.
+- **Attachments** are copied into the app's documents folder and stored by file
+  name only (iOS changes the absolute container path between updates). PDFs
+  open via the system share/"Open in…" sheet.
+
+## M3 — Instant search
+
+- **In-memory, layered fuzzy matcher** (no dependency), scoring each item's
+  names — store name, known brand spellings in Hebrew/English, and notes at a
+  lower weight:
+  1. exact / prefix / word-prefix / substring on normalized text
+     (case, niqqud, Hebrew final letters and punctuation folded),
+  2. typo tolerance with Damerau–Levenshtein (1 typo from 4 chars, 2 from 6,
+     3 from 9), also against a prefix for partially typed names,
+  3. **cross-script phonetic skeletons**: both Hebrew and Latin names are
+     reduced to consonant skeletons with ambiguous letters folded (p/f/פ,
+     v/w/ב, k/c/q/ח/כ/ק, tz/צ …), so "קסטרו" ↔ "Castro", "גולדה" ↔ "Golda" and
+     "מנגו" ↔ "Mango" match even for stores not in the brand dictionary.
+  Short skeletons (≤3 consonants) only match exactly or by prefix to avoid
+  false positives (e.g. "fox" must not match "Max Stock").
+- ~13 ms per keystroke for 1,000 cards in Node; typical wallets are far smaller.
+- **Search is its own route** (`/search`) that opens with a 150 ms fade and the
+  keyboard already up, so it can be deep-linked from the home-screen quick
+  action. Each result shows balance and expiry, and has a one-tap "use"
+  button that goes straight to the checkout code. Enter opens the top hit. No
+  results offers "Add a card for “…”" prefilled with the query.
+- **Quick actions** (`expo-quick-actions`): "Find credit", "Scan receipt",
+  "Add card", set dynamically with localized titles. A home-screen widget was
+  left as a stretch goal (see README).
+
+## M4 — Receipt capture + automatic extraction
+
+- **Pipeline:** Claude vision (structured output) → on-device OCR + rule-based
+  parser → manual. Whatever happens, the user lands on the review screen with
+  the original image/PDF attached; nothing is saved without a tap on Save.
+- **Claude via the official TypeScript SDK** (`@anthropic-ai/sdk`) using
+  `expo/fetch`. One `messages.create` call per document with:
+  - the image (downscaled on-device to ≤1568 px JPEG — the size Claude uses
+    anyway — which cuts upload time) or the PDF as a `document` block;
+  - **structured outputs** (`output_config.format` = JSON schema) so the
+    response always parses. Every field is nullable and carries a per-field
+    confidence; the model is told to return null rather than guess;
+  - `effort: "low"` — extraction is simple and the user is waiting;
+  - model `claude-opus-5-5` by default (configurable with
+    `EXPO_PUBLIC_EXTRACTION_MODEL`);
+  - **server-side refusal fallback** (`fallbacks: "default"`, beta
+    `server-side-fallback-2026-07-01`) so a rare safety-classifier decline is
+    retried on Anthropic's recommended fallback model instead of failing.
+- **Where the key lives.** Keys are never hardcoded. In priority order: a key
+  the user pastes in Settings (device keychain via SecureStore) → a proxy URL
+  (`EXPO_PUBLIC_ANTHROPIC_BASE_URL`, `server/extraction-proxy.mjs` holds the
+  real key and enforces a client token, model allowlist and size limit) → a
+  dev-only `EXPO_PUBLIC_ANTHROPIC_API_KEY` (documented as bundled into the app).
+- **Review-time safety net.** The normalizer re-validates everything: currency
+  symbols → ISO codes, day-first date parsing, canonical brand names ("ZARA" →
+  "Zara", legal suffixes dropped), plausibility checks (issue date in the
+  future, expiry before issue, absurd amounts). Anything below 0.7 confidence
+  or failing a check is highlighted in amber until the user touches it.
+- **Consent.** The first AI read asks for consent and states that only the
+  image is sent, only for extraction. Declining turns AI reading off (re-enable
+  in Settings); the scan screen always shows the privacy notice.
+- **On-device fallback:** `expo-text-extractor` (ML Kit on Android, Apple
+  Vision on iOS), loaded with `requireOptionalNativeModule` so Expo Go (where it
+  doesn't exist) keeps working. ML Kit's on-device model reads Latin script
+  only, so Hebrew receipts rely on the AI path; the rule-based parser handles
+  Hebrew/English keywords (זיכוי, בתוקף עד, סה״כ, credit, valid until …), prefers
+  the credited amount over the receipt total, ignores dates/phones/times when
+  looking for money, and computes expiry from validity periods ("30 יום",
+  "valid for 12 months").
+- **Tests** cover the normalizer, the heuristic parser on realistic Hebrew and
+  English samples, the exact wire request (headers, beta, schema, PDF blocks)
+  by running the real SDK against a local mock API, and the proxy end-to-end.
+
+## M5 — Gift card links + share sheet
+
+- **Share-into-app with `expo-sharing`** (SDK 57's built-in receive support:
+  an iOS share extension + Android `ACTION_SEND` filters for text, links,
+  images and PDFs). `+native-intent.ts` routes the incoming `expo-sharing` URL
+  to `/handle-share`, which decides: link or message containing a link → link
+  import; image/PDF → the receipt pipeline; plain text → the rule-based parser.
+  Payloads are cleared after handling so reopening the app doesn't re-import.
+  The iOS extension needs an App Group, so share-into-app requires a
+  development/production build (not Expo Go).
+- **Link analysis without an AI call.** Store priority: a specific store named
+  in the message/page ("שובר מתנה לקסטרו … BuyMe" → Castro) → the link's own
+  domain (zara.com → Zara) → the page title / `og:site_name` → the gift
+  platform (BuyMe, Tav Zahav, …) → the domain label (flagged for review).
+  Amount/expiry/code come from the message and page text (same parser as OCR)
+  or an `amount=` query parameter. The page fetch is best-effort (6 s timeout,
+  400 KB cap); many voucher pages are client-rendered or behind login, in which
+  case the draft is prefilled from the URL and message alone.
+- Links default to **gift card** unless the text says credit.
+
+## M6 — Expiry reminders
+
+- **Local notifications only** (`expo-notifications`, DATE triggers); no push
+  server, nothing leaves the device.
+- **Pure planner + idempotent reconcile.** `planExpiryNotifications` computes
+  the desired set (default 14 and 3 days before, at 10:00 local, both
+  configurable, plus "on the day"); `diffSchedule` compares it with what the OS
+  has pending using a stable identifier (`expiry:<item>:<days>`) and a content
+  signature, so only changed reminders are cancelled/rescheduled. It re-runs
+  (debounced) whenever the wallet, reminder settings or language change.
+- **iOS 64-pending-notification limit:** only the soonest 50 reminders are
+  scheduled; the rest are picked up automatically on later syncs.
+- Past trigger times are skipped (no burst of stale reminders); used, expired,
+  zero-balance and deleted cards never get reminders.
+- **Permission is requested in context** — the first time a card with an
+  expiry date is saved, or when turning reminders on in Settings — rather than
+  at launch.
+- Tapping a reminder opens the card (cold start and while running).
+
+## M7 — Location-based reminders
+
+- **OS geofencing, not GPS tracking.** `expo-location` region monitoring
+  (`startGeofencingAsync`) + an `expo-task-manager` background task. No
+  continuous location updates and no Android foreground service — the OS wakes
+  the app only when a region boundary is crossed.
+- **Nearest-N with a refresh boundary.** A pure planner registers the nearest
+  store branches up to the platform limit (iOS 20 regions → 19 stores; Android
+  60 of its 100 to stay light) plus one extra "refresh" region centred on the
+  user. Its radius is half the distance to the furthest monitored branch
+  (clamped 1–5 km); leaving it wakes the app to re-plan around the new
+  position. The set is also re-planned when stores with credit change, when
+  location settings change, and on foreground (throttled to every 10 min).
+- **Store locations.** Google Places API (New) Text Search when a key is
+  configured (env or Settings/keychain), otherwise OpenStreetMap via Overpass
+  (free, no key; sends a descriptive User-Agent, falls back to a mirror).
+  Results are cached in SQLite per (store, ~11 km grid cell) for 30 days —
+  including "no results" — and at most 6 lookups run per refresh. Only the
+  store name and the cell centre are sent, never the user's exact position.
+  Cards can also be pinned to the current location ("I'm at this store now")
+  for small shops the map data doesn't know.
+- **Notification:** "You have ₪120 credit at Zara, 150m away." Cards for the
+  same store (any spelling) are summed per currency into one notification;
+  the distance comes from the last known position (no extra GPS fix in the
+  background), falling back to the geofence radius.
+- **Anti-spam:** opt-in (off by default), global toggle, per-card mute, and a
+  per-store cooldown (default 12 h, configurable 4–72 h) claimed atomically in
+  SQLite so two branches of the same chain can't double-notify.
+- **Permission flow:** an explainer screen before any prompt (what it does,
+  battery, privacy, why "Always"), then "While using" → "Always" → notification
+  permission. If "Always" is refused, Settings explains that reminders need it.
+- **Platform limits (documented in README):** Android does not relaunch a
+  force-stopped app for geofence events; iOS reports initial region state at
+  start-up (the cooldown absorbs it); both require a development/production
+  build — background location isn't available in Expo Go.
+
+## M8 — Security, polish, tests, docs
+
+- **Biometric lock** (`expo-local-authentication`) is opt-in. When on, the
+  app starts locked, re-locks after 60 s in the background, covers its content
+  while inactive (app-switcher snapshot), and revealing/copying a code reuses
+  an unlock from the last 30 s instead of prompting again. Turning the lock off
+  requires authenticating. Device passcode is accepted as a fallback so users
+  are never locked out of their own wallet.
+- **Onboarding is three pages**, skippable, ending with "Get started" or
+  "Explore with demo cards". Permissions are never requested here — each one
+  is asked in context (camera on first scan, notifications when the first card
+  with an expiry is saved, location from the nearby-reminders explainer).
+- **RTL correctness:** text alignment is logical (`left` means *start* on
+  native, CSS `start`/`end` on web), directional icons flip with the layout,
+  and inputs no longer hard-code `right` for Hebrew (which on native would
+  have meant *end*, i.e. left).
+- **React Compiler lint rules** are enforced (`eslint-config-expo`): no
+  synchronous `setState` in effects, no refs read during render. Data loading
+  in effects uses cancellable async blocks; the share handler was split into a
+  pure `decideShare()` + a side-effect-only effect.
+- **App icon & splash** are generated from a single SVG (ticket with a
+  check mark on the brand green), including Android adaptive foreground,
+  background and monochrome layers.
+- **EAS profiles:** `development` (dev client, internal), `development-simulator`,
+  `preview` (internal APK), `production` (auto-increment), each mapped to an EAS
+  environment for the `EXPO_PUBLIC_*` variables.
+- **Engine safety nets.** `@noble/ciphers` writes GCM length blocks with
+  `DataView#setBigUint64`; a tiny spec-equivalent polyfill (32-bit writes +
+  `BigInt`) is installed only if the JS engine lacks it, and is tested
+  byte-for-byte against the native implementation. `String#normalize` is used
+  defensively in search normalization. Native bundles are verified to compile
+  to Hermes bytecode (`npx expo export --platform ios --platform android`) and
+  config plugins with `npx expo prebuild`.
+- **Review fix:** editing unrelated fields on an archived card no longer moves
+  it back to the wallet — status is re-derived only when the expiry date or
+  balance actually changes.
+
+## Round 2 — feedback improvements
+
+- **Autofill:** every `TextField` now opts out of system autofill
+  (`autoComplete="off"`, `textContentType="none"`, `importantForAutofill="no"`),
+  and the code field is labelled "Voucher code" with a hint that bank card
+  numbers don't belong there — the old "Code / card number" wording is what
+  invited credit-card suggestions.
+- **Field alignment bug:** the input's `paddingTop: 0` overrode its vertical
+  padding, pinning text to the top; single-line fields are now vertically
+  centered (`textAlignVertical: center`).
+- **Date entry: year → month → day.** The native calendar dialogs were replaced
+  by one cross-platform bottom sheet with large tap targets: year grid (this year
+  and ten more; issue dates look back six), month grid, day grid; breadcrumbs
+  and Back allow corrections. This also removed the `datetimepicker` native
+  dependency.
+- **Balance** is only editable when editing an existing card; a new or
+  scanned card starts at its full amount. Partial use is logged from the card.
+- **Onboarding** asks once, on "Get started", whether to protect the wallet with
+  Face ID / fingerprint, and only turns it on after a successful authentication
+  (so nobody is locked out by accident). Skip leaves it off. Settings still
+  toggles it.
+- **Dialogs:** confirms (delete, mark used…) use a themed in-app dialog instead of
+  the stock Android alert — icon, store name in the title, a red primary action.
+  The card screen also gets a "Delete card" button at the bottom.
+- **Demo cards removed** (settings, onboarding, seed code).
+- **Name:** "Shovar" everywhere users see it (app name, permissions, notifications,
+  docs); URL scheme and slug are `shovar`. Storage identifiers (bundle id, DB file,
+  keychain keys) deliberately keep their original spelling — see the next point.
+- **Update safety:** stable identifiers are documented in code; migrations take a
+  pre-migration copy of the database, ignore a newer-version database, and are
+  covered by upgrade tests.

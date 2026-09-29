@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Shovar"
+  },
+  "android": {
+    "app_name": "Shovar"
+  }
+}
