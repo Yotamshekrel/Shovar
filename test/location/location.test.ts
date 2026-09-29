@@ -4,7 +4,7 @@ import { migrate } from '@/db/migrations';
 import type { Item } from '@/domain/types';
 import { cellCenter, cellKey, distanceMeters, isValidCoordinate, roundDistance } from '@/location/geo';
 import { REFRESH_REGION_ID, maxRegionsFor, parseStoreRegionId, planGeofences, storeRegionId } from '@/location/geofencePlanner';
-import { nearestCredit } from '@/location/nearest';
+import { nearbyStores, nearestCredit } from '@/location/nearest';
 import { eligibleItemsForStore, formatDistance, nearbyNotificationContent } from '@/location/nearbyAlert';
 import { createGooglePlacesProvider } from '@/location/places/google';
 import { buildOverpassQuery, createOverpassProvider } from '@/location/places/overpass';
@@ -334,5 +334,23 @@ describe('places providers', () => {
     await expect(
       createOverpassProvider(failing, ['https://a', 'https://b']).searchStore({ storeKey: 'x', names: ['x'] }, AZRIELI, 1000),
     ).rejects.toThrow('429');
+  });
+});
+
+describe('nearbyStores (what’s around me)', () => {
+  it('groups cards per store, uses the closest branch and drops far stores', () => {
+    const z1 = item('Zara', { balanceMinor: 5000 });
+    const z2 = item('Zara', { balanceMinor: 2000 });
+    const far = item('Castro', { balanceMinor: 1000 });
+    const places = [
+      { storeKey: storeKey('Zara'), address: 'Azrieli', ...AZRIELI },
+      { storeKey: storeKey('Zara'), address: 'Ramat Aviv', ...RAMAT_AVIV_MALL },
+      { storeKey: storeKey('Castro'), address: 'Jerusalem', ...JERUSALEM },
+    ];
+    const res = nearbyStores([z1, z2, far], places, DIZENGOFF_CENTER);
+    expect(res).toHaveLength(1);
+    expect(res[0].items).toHaveLength(2);
+    expect(res[0].address).toBe('Azrieli');
+    expect(res[0].distanceM).toBeLessThan(2000);
   });
 });

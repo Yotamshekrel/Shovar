@@ -114,6 +114,29 @@ export default function HomeScreen() {
       </Pressable>
 
       {active.length > 0 ? (
+        <Pressable
+          testID="home-nearby"
+          accessibilityRole="button"
+          accessibilityLabel={t('nearby.button')}
+          accessibilityHint={t('nearby.buttonHint')}
+          onPress={() => {
+            tapFeedback();
+            router.push('/nearby');
+          }}
+          style={({ pressed }) => [
+            styles.search,
+            { backgroundColor: pressed ? colors.primaryPressed : colors.primary, borderRadius: radii.lg, borderColor: colors.primary },
+          ]}
+        >
+          <Icon name="location" size={20} color={colors.textOnPrimary} />
+          <Text variant="body" weight="600" style={[styles.flex, { color: colors.textOnPrimary }]}>
+            {t('nearby.button')}
+          </Text>
+          <Icon name="chevron-forward" size={18} color={colors.textOnPrimary} flipInRtl />
+        </Pressable>
+      ) : null}
+
+      {active.length > 0 ? (
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips} style={styles.chipsScroll}>
           {FILTERS.map((f) => (
             <Chip key={f} label={t(`home.filter.${f}`)} selected={filter === f} onPress={() => setFilter(f)} testID={`filter-${f}`} />
