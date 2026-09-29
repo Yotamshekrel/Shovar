@@ -230,15 +230,6 @@ export async function notifyNearby(
   return true;
 }
 
-/** For the settings screen: send a sample reminder for the store with the most credit. */
-export async function sendTestNearbyReminder(): Promise<boolean> {
-  const { items: repo } = await getServices();
-  const groups = storeQueries(await repo.listActiveItems());
-  const first = [...groups.keys()][0];
-  if (!first) return false;
-  return notifyNearby(first, { lat: 0, lng: 0 }, 150, { ignoreCooldown: true, forceDistanceM: 150 });
-}
-
 /** "I'm at this store now": saves the current position as this card's store location. */
 export async function pinCurrentLocation(): Promise<LatLng | null> {
   if (!supported) return null;
