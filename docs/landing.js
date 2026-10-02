@@ -37,7 +37,7 @@
     's.castro': 'קסטרו', 's.zara': 'זארה', 's.superpharm': 'סופר-פארם',
     'ui.credit': 'זיכוי', 'ui.giftcard': 'כרטיס מתנה', 'ui.exp2027': 'בתוקף עד 12.3.2027', 'ui.exp2027b': 'בתוקף עד 3.1.2027',
     'ui.in9': 'פג בעוד 9 ימים', 'ui.works': 'למימוש ב־1,300+ חנויות',
-    'toast.now': 'עכשיו', 'toast.near': 'יש לך זיכוי של ₪320 בזארה, במרחק 150 מ׳ 📍', 'chip.exp': 'פג בעוד 3 ימים',
+    'toast.now': 'עכשיו', 'toast.near': 'יש לך זיכוי של ₪320 בזארה, במרחק 150 מ׳ 📍',
     'problem.eyebrow': 'מכירים את זה?',
     'problem.story': 'החזרת ג׳ינס, ובקופה קיבלת זיכוי על <em>₪200</em>. הוא נדחף לארנק, נזרק למגירה. או במקרה הטוב צילמת אותו , והוא נקבר בין ארבעת אלפים תמונות אחרות. אחרי שנה הוא צץ פתאום. <strong>התוקף נגמר לפני חודשיים.</strong>',
     'problem.better': 'אפשר אחרת.',
@@ -93,7 +93,7 @@
     'dl.title': 'הזיכוי הבא שלכם <span class="serif">כבר לא ילך לאיבוד.</span>',
     'dl.sub': 'חינם, בלי פרסומות ובלי הרשמה. ההתקנה לוקחת פחות מדקה.',
     'foot.privacy': 'מדיניות פרטיות', 'foot.support': 'תמיכה',
-    'foot.legal': 'שמות החנויות, הסכומים והקודים בעמוד הזה הם לדוגמה בלבד. שובר לא קשור לאף רשת או חברת כרטיסי מתנה. נתוני מפה © OpenStreetMap contributors. © 2026 שובר.',
+    'foot.legal': 'שמות החנויות, הסכומים והקודים בעמוד הזה הם לדוגמה בלבד. שובר לא קשור לאף רשת או חברת כרטיסי מתנה. נתוני המפה: OpenStreetMap ותורמיו. שובר © 2026',
     'foot.mark': 'שובר',
   };
   // Hebrew "at": joined to Hebrew names (בקסטרו), with a maqaf before Latin ones (ב־FOX).
@@ -282,6 +282,8 @@
     await wait(900);
     toast.classList.add('show');
     await wait(1800);
+    // Phones have no free space beside the device, so the receipt stays spent there.
+    if (matchMedia('(max-width: 720px)').matches) return;
     // Bring a fresh receipt back to its spot, quietly.
     receipt.style.transition = 'none';
     receipt.style.opacity = '0';
@@ -747,6 +749,6 @@
     $$('[data-split]').forEach((el) => el.classList.add('in'));
     watch($('#heroVisual'), heroSequence);
   };
-  const fontsReady = document.fonts && document.fonts.ready ? Promise.race([document.fonts.ready, wait(900)]) : wait(0);
+  const fontsReady = document.fonts && document.fonts.ready ? Promise.race([document.fonts.ready, wait(350)]) : wait(0);
   fontsReady.then(() => requestAnimationFrame(start));
 })();
