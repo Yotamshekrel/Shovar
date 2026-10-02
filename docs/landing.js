@@ -715,7 +715,6 @@
   const navLinks = $$('.nav-links a');
   const sections = navLinks.map((a) => $(a.getAttribute('href')));
   const wall = $('.wall');
-  const heroVisual = $('#heroVisual');
   let ticking = false;
   function onScroll() {
     ticking = false;
@@ -727,7 +726,6 @@
     sections.forEach((s, i) => { if (s && s.getBoundingClientRect().top < vh * 0.42) active = i; });
     navLinks.forEach((a, i) => a.classList.toggle('is-active', i === active));
     if (reduce) return;
-    if (y < vh * 1.2) heroVisual.style.transform = `translateY(${y * 0.12}px)`;
     const r = wall.getBoundingClientRect();
     if (r.bottom > 0 && r.top < vh) {
       const p = (vh - r.top) / (vh + r.height);
