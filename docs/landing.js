@@ -2,9 +2,9 @@
 (() => {
   'use strict';
 
-  // Store links. Set appStore to the App Store URL once the iOS app is live.
+  // Store links. Set each to its store URL once the app is live; until then the badge reads "Coming soon".
   const LINKS = {
-    play: 'https://play.google.com/store/apps/details?id=com.shvar.wallet',
+    play: null,
     appStore: null,
   };
 
@@ -28,7 +28,7 @@
     'hero.kicker': 'כל הזיכויים במקום אחד',
     'hero.title': 'די לזרוק <span class="accent serif grad-warm">כסף לפח.</span>',
     'hero.lead': '<b>זיכויים</b>, פתקי החלפה ו<b>כרטיסי מתנה</b>, הכול בארנק אחד, פרטי ומוצפן. מצלמים את הקבלה פעם אחת, ושובר כבר יזכיר לכם לפני שהתוקף נגמר, וגם כשתעברו ליד החנות.',
-    'store.playSmall': 'זמין ב־', 'store.iosSmall': 'להורדה מ־', 'store.iosSoon': 'בקרוב ב־',
+    'store.soon': 'בקרוב ב־',
     'hero.secondary': 'איך זה עובד?',
     'trust.free': 'חינם ובלי פרסומות', 'trust.account': 'בלי הרשמה', 'trust.lang': 'בעברית ובאנגלית',
     'rc.sub': 'פתק זיכוי', 'rc.amount': 'סכום', 'rc.valid': 'בתוקף עד',
@@ -141,16 +141,15 @@
   const enPH = new Map();
   const langListeners = [];
 
-  // App Store not live yet → show a "coming soon" badge instead of a dead link.
-  $$('.js-play').forEach((a) => { a.href = LINKS.play; });
-  $$('.js-ios').forEach((a) => {
-    if (LINKS.appStore) { a.href = LINKS.appStore; a.target = '_blank'; a.rel = 'noopener'; return; }
-    a.removeAttribute('href'); a.classList.add('is-soon'); a.setAttribute('aria-disabled', 'true');
+  // Not live yet → show a "coming soon" badge instead of a dead link.
+  [['.js-play', LINKS.play], ['.js-ios', LINKS.appStore]].forEach(([sel, url]) => $$(sel).forEach((a) => {
+    if (url) { a.href = url; a.target = '_blank'; a.rel = 'noopener'; return; }
+    a.removeAttribute('href'); a.removeAttribute('target'); a.classList.add('is-soon'); a.setAttribute('aria-disabled', 'true');
     a.classList.remove('magnetic');
-    const small = $('.js-ios-small', a);
-    small.textContent = 'Coming soon to the';
-    small.dataset.i18n = 'store.iosSoon';
-  });
+    const small = $('small', a);
+    small.textContent = 'Coming soon to';
+    small.dataset.i18n = 'store.soon';
+  }));
 
   $$('[data-i18n]').forEach((el) => enHTML.set(el, el.innerHTML));
   $$('[data-i18n-ph]').forEach((el) => enPH.set(el, el.placeholder));
