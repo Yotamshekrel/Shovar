@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shovar – Store Credit Wallet</title>
+<meta name="description" content="Shovar keeps every store credit, return note and gift card in one private wallet. Snap the receipt, get reminded before it expires and when you walk past the store.">
+<meta name="theme-color" content="#0B8A64">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Shovar – Stop losing free money">
+<meta property="og:description" content="Every store credit and gift card in one private wallet. Reminders before they expire, and when you're near the store.">
+<meta property="og:image" content="https://yotamshekrel.github.io/Shovar/store-assets/android/feature-graphic/en.png">
+<meta property="og:url" content="https://yotamshekrel.github.io/Shovar/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=DM+Sans:opsz,wght@9..40,400..800&family=Instrument+Serif:ital@1&family=Rubik:wght@400..800&display=swap">
+<link rel="stylesheet" href="landing.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Shovar","alternateName":"שובר","operatingSystem":"Android, iOS","applicationCategory":"FinanceApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"ILS"},"description":"A private wallet for store credits and gift cards, with expiry and nearby reminders."}</script>
+</head>
+<body>
+<div class="scroll-progress" aria-hidden="true"><span id="progress"></span></div>
+<canvas class="confetti" id="confetti" aria-hidden="true"></canvas>
+
+<!-- ───────── Nav ───────── -->
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="Shovar home">
+      <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="mk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16A87A"/><stop offset="1" stop-color="#075E46"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#mk)"/><g transform="rotate(-14 32 32)"><path d="M14 22a3 3 0 0 1 3-3h30a3 3 0 0 1 3 3v6a4 4 0 0 0 0 8v6a3 3 0 0 1-3 3H17a3 3 0 0 1-3-3v-6a4 4 0 0 0 0-8z" fill="#fff"/><path d="M19 27h14" stroke="#0A7A5C" stroke-width="3.2" stroke-linecap="round"/><path d="M19 33h9" stroke="#8FC9B5" stroke-width="3.2" stroke-linecap="round"/><path d="M39 20v24" stroke="#0A7A5C" stroke-width="1.8" stroke-dasharray="1.5 3" stroke-linecap="round"/><circle cx="44.5" cy="32" r="3.6" fill="#0A7A5C"/><path d="m42.9 32 1.1 1.1 2-2.2" stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
+      <span class="brand-name" data-i18n="brand">Shovar</span>
+    </a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#how" data-i18n="nav.how">How it works</a>
+      <a href="#try" data-i18n="nav.try">Try it</a>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    </nav>
+    <div class="nav-end">
+      <button class="lang" id="langBtn" type="button" aria-label="Switch language"><span class="lang-he">עברית</span><span class="lang-en">English</span></button>
+      <a class="btn btn-leaf btn-sm magnetic" href="#download" data-i18n="nav.cta">Get the app</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ───────── 1. Hero ───────── -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"><i class="blob b1"></i><i class="blob b2"></i><i class="blob b3"></i><i class="dots"></i></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="kicker load-in" style="--d:0"><i class="kdot"></i><span data-i18n="hero.kicker">Store credit, sorted</span></span>
+      <h1 class="hero-title" data-split data-i18n="hero.title">Stop losing <span class="accent serif grad-warm">free money.</span></h1>
+      <p class="lead load-in" style="--d:5" data-i18n="hero.lead">Shovar keeps every <b>store credit</b>, return note and <b>gift card</b> in one private wallet. Snap the receipt once, and Shovar reminds you before it expires, and again when you walk past the store.</p>
+      <div class="cta-row load-in" style="--d:6">
+        <a class="store store-dark magnetic js-play" href="https://play.google.com/store/apps/details?id=com.shvar.wallet" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34A853" d="M3.6 1.8 13.4 12l-9.8 10.2c-.4-.2-.6-.6-.6-1.1V2.9c0-.5.2-.9.6-1.1z"/><path fill="#FBBC04" d="m17 8.4-3.6 3.6 3.6 3.6 4-2.3c1.1-.6 1.1-2 0-2.6z"/><path fill="#EA4335" d="M13.4 12 3.6 22.2c.4.2.9.2 1.4-.1L17 15.6z"/><path fill="#4285F4" d="M17 8.4 5 1.9c-.5-.3-1-.3-1.4-.1L13.4 12z"/></svg>
+          <span><small data-i18n="store.playSmall">Get it on</small>Google Play</span>
+        </a>
+        <a class="store store-dark magnetic js-ios" href="#download">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9s-2.1-.9-3.4-.9C5.8 6.8 4.2 7.8 3.3 9.4c-1.9 3.2-.5 8 1.3 10.6.9 1.3 1.9 2.7 3.3 2.6 1.3-.1 1.8-.8 3.4-.8s2 .8 3.4.8c1.4 0 2.3-1.3 3.2-2.6 1-1.5 1.4-2.9 1.4-3-.1 0-2.8-1-2.8-4.2zM13.8 4.9c.7-.9 1.2-2 1.1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3-1.5z"/></svg>
+          <span><small class="js-ios-small" data-i18n="store.iosSmall">Download on the</small>App Store</span>
+        </a>
+        <a class="btn btn-ghost magnetic" href="#how"><span data-i18n="hero.secondary">See how it works</span><svg class="flip" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.2 5.3a1 1 0 0 1 1.4 0l6 6a1 1 0 0 1 0 1.4l-6 6a1 1 0 1 1-1.4-1.4l4.3-4.3H4a1 1 0 1 1 0-2h13.5l-4.3-4.3a1 1 0 0 1 0-1.4z"/></svg></a>
+      </div>
+      <ul class="trust load-in" style="--d:7">
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10.5 3 3 7-7.5"/></svg><span data-i18n="trust.free">Free, no ads</span></li>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10.5 3 3 7-7.5"/></svg><span data-i18n="trust.account">No account needed</span></li>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10.5 3 3 7-7.5"/></svg><span data-i18n="trust.lang">עברית &amp; English</span></li>
+      </ul>
+    </div>
+
+    <div class="hero-visual" id="heroVisual">
+      <div class="hv-tilt" id="heroTilt">
+        <!-- the receipt that gets scanned -->
+        <div class="receipt" id="heroReceipt" aria-hidden="true">
+          <div class="rc-in">
+            <b class="rc-store">CASTRO</b>
+            <span class="rc-sub" data-i18n="rc.sub">Credit note · זיכוי</span>
+            <span class="rc-line"><i></i><i></i></span>
+            <span class="rc-row"><span data-i18n="rc.amount">Amount</span><b>₪200.00</b></span>
+            <span class="rc-row"><span data-i18n="rc.valid">Valid until</span><b>12/03/27</b></span>
+            <span class="rc-code">7731 0042 19</span>
+            <span class="rc-bars"></span>
+          </div>
+          <i class="rc-scan"></i>
+        </div>
+
+        <div class="phone hero-phone">
+          <div class="phone-screen"><div class="ui ui-home">
+            <div class="ui-status"><span>9:41</span><i class="ui-island"></i><span class="ui-sig"><i></i><i></i><i></i></span></div>
+            <div class="ui-head"><b data-i18n="ui.appName">Shovar</b><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 13.5a7.6 7.6 0 0 0 0-3l2-1.6-2-3.4-2.4.9a7.6 7.6 0 0 0-2.6-1.5L14 2.4h-4l-.4 2.5A7.6 7.6 0 0 0 7 6.4l-2.4-.9-2 3.4 2 1.6a7.6 7.6 0 0 0 0 3l-2 1.6 2 3.4 2.4-.9a7.6 7.6 0 0 0 2.6 1.5l.4 2.5h4l.4-2.5a7.6 7.6 0 0 0 2.6-1.5l2.4.9 2-3.4z"/></svg></div>
+            <div class="ui-total">
+              <small data-i18n="ui.total">Total available</small>
+              <strong><span class="cur">₪</span><span id="heroTotal">1,585</span></strong>
+              <div class="ui-total-row"><span id="heroActive">7 active</span><span class="pill pill-sun"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><span data-i18n="ui.expiring">1 expiring soon</span></span></div>
+            </div>
+            <div class="ui-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span data-i18n="ui.searchPh">Do I have credit at…</span></div>
+            <div class="ui-near"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg><span data-i18n="ui.near">What’s around me?</span><svg class="flip chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></div>
+            <div class="ui-chips"><span class="on" data-i18n="ui.all">All</span><span data-i18n="ui.gift">Gift cards</span><span data-i18n="ui.credits">Credits</span><span data-i18n="ui.soon">Expiring soon</span></div>
+            <div class="ui-cards" id="heroCards">
+              <div class="wcard wc-new" id="heroNew" style="--a:#3A2F86;--b:#211A57">
+                <div class="wc-top"><i class="wc-logo">CA</i><div><b data-i18n="s.castro">Castro</b><small data-i18n="ui.credit">Store credit</small></div></div>
+                <div class="wc-bot"><span class="pill pill-glass" data-i18n="ui.exp2027">Until Mar 12, 2027</span><b class="wc-amt">₪200</b></div>
+              </div>
+              <div class="wcard" style="--a:#26292B;--b:#0E1011">
+                <div class="wc-top"><i class="wc-logo">ZA</i><div><b data-i18n="s.zara">Zara</b><small data-i18n="ui.credit">Store credit</small></div></div>
+                <div class="wc-bot"><span class="pill pill-sun" data-i18n="ui.in9">Expires in 9 days</span><b class="wc-amt">₪320</b></div>
+              </div>
+              <div class="wcard" style="--a:#E8264A;--b:#B80C30">
+                <div class="wc-top"><i class="wc-logo">SU</i><div><b data-i18n="s.superpharm">Super-Pharm</b><small data-i18n="ui.giftcard">Gift card</small></div></div>
+                <div class="wc-bot"><span class="pill pill-glass" data-i18n="ui.exp2027b">Until Jan 3, 2027</span><b class="wc-amt">₪120</b></div>
+              </div>
+              <div class="wcard" style="--a:#E0398F;--b:#9C1E73">
+                <div class="wc-top"><i class="wc-logo">BU</i><div><b>BuyMe ALL</b><small data-i18n="ui.giftcard">Gift card</small></div></div>
+                <div class="wc-bot"><span class="pill pill-glass" data-i18n="ui.works">Works at 1,300+ stores</span><b class="wc-amt">₪250</b></div>
+              </div>
+            </div>
+            <i class="ui-fab">+</i>
+          </div></div>
+        </div>
+
+        <div class="toast float-b" id="heroToast" aria-hidden="true">
+          <i class="toast-ico"><svg class="mark" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#0B8A64"/><g transform="rotate(-14 32 32)"><path d="M14 22a3 3 0 0 1 3-3h30a3 3 0 0 1 3 3v6a4 4 0 0 0 0 8v6a3 3 0 0 1-3 3H17a3 3 0 0 1-3-3v-6a4 4 0 0 0 0-8z" fill="#fff"/></g></svg></i>
+          <div><small><span data-i18n="ui.appName">Shovar</span> · <span data-i18n="toast.now">now</span></small><b data-i18n="toast.near">You have ₪320 at Zara, 150 m away 📍</b></div>
+        </div>
+        <div class="float-chip float-c" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><span data-i18n="chip.exp">Expires in 3 days</span></div>
+        <i class="coin coin-1" aria-hidden="true">₪</i>
+        <i class="coin coin-2" aria-hidden="true">₪</i>
+        <i class="spark spark-1" aria-hidden="true"></i>
+        <i class="spark spark-2" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#problem" aria-label="Scroll down"><i></i></a>
+</section>
+
+<!-- ───────── 2. Problem ───────── -->
+<section class="problem dark" id="problem">
+  <div class="problem-bg" aria-hidden="true"><i class="crumple cr1"></i><i class="crumple cr2"></i><i class="crumple cr3"></i><i class="glow g1"></i><i class="glow g2"></i></div>
+  <div class="wrap narrow">
+    <p class="eyebrow" data-reveal data-i18n="problem.eyebrow">Sound familiar?</p>
+    <p class="story" id="story" data-i18n="problem.story">You returned the jeans. The cashier handed you a credit note for <em>₪200</em>. It went into a drawer. Or a coat pocket. Or a photo, somewhere between four thousand screenshots. Eight months later you find it. <strong>It expired in March.</strong></p>
+    <p class="better" data-reveal><span data-i18n="problem.better">There’s a better way.</span> <i class="better-arrow" aria-hidden="true">↓</i></p>
+  </div>
+</section>
+
+<!-- ───────── 3. How it works ───────── -->
+<section class="how section" id="how">
+  <div class="wrap how-grid">
+    <div class="how-head">
+      <p class="kicker" data-reveal><i class="kdot"></i><span data-i18n="how.kicker">How it works</span></p>
+      <h2 class="h2" data-reveal data-i18n="how.title">From crumpled receipt to <span class="serif grad">money spent.</span></h2>
+      <p class="sub" data-reveal data-i18n="how.sub">Four steps, and Shovar does most of the work.</p>
+    </div>
+    <div class="how-steps">
+      <ol class="steps" id="steps">
+        <li class="step is-active" data-reveal>
+          <button type="button" class="step-btn" aria-expanded="true"><span class="step-n">01</span><span class="step-t" data-i18n="how.s1t">Snap the receipt</span></button>
+          <div class="step-body"><p data-i18n="how.s1b">Photograph the credit note, gift card or screenshot. Shovar reads the store, amount, currency, dates and code for you.</p></div>
+        </li>
+        <li class="step" data-reveal>
+          <button type="button" class="step-btn" aria-expanded="false"><span class="step-n">02</span><span class="step-t" data-i18n="how.s2t">Check it, save it</span></button>
+          <div class="step-body"><p data-i18n="how.s2b">Anything Shovar isn’t sure about is highlighted. Fix it with a tap and save. The code is encrypted on your phone.</p></div>
+        </li>
+        <li class="step" data-reveal>
+          <button type="button" class="step-btn" aria-expanded="false"><span class="step-n">03</span><span class="step-t" data-i18n="how.s3t">Forget about it</span></button>
+          <div class="step-body"><p data-i18n="how.s3b">Seriously. Shovar reminds you 14 and 3 days before it expires, and when you’re near a store where it works.</p></div>
+        </li>
+        <li class="step" data-reveal>
+          <button type="button" class="step-btn" aria-expanded="false"><span class="step-n">04</span><span class="step-t" data-i18n="how.s4t">Spend it 🎉</span></button>
+          <div class="step-body"><p data-i18n="how.s4b">At the till, show the barcode, QR or the code in big text. Used part of it? Log it, and the balance updates.</p></div>
+        </li>
+      </ol>
+      <div class="how-progress" aria-hidden="true"><span id="howBar"></span></div>
+    </div>
+
+    <div class="how-visual" data-reveal>
+      <div class="phone how-phone">
+        <div class="phone-screen">
+          <!-- 1 · camera -->
+          <div class="ui scr scr-cam is-on" data-screen="0">
+            <div class="ui-status light"><span>9:41</span><i class="ui-island"></i><span class="ui-sig"><i></i><i></i><i></i></span></div>
+            <div class="cam-top"><span data-i18n="cam.title">Scan receipt</span></div>
+            <div class="cam-view">
+              <div class="cam-paper">
+                <b>CASTRO</b>
+                <span class="cp-sub">Credit note · זיכוי</span>
+                <span class="cp-dash"></span>
+                <span class="cp-row"><span>Amount</span><b class="hit hit-1">₪200.00</b></span>
+                <span class="cp-row"><span>Valid until</span><b class="hit hit-2">12/03/27</b></span>
+                <span class="cp-row"><span>Code</span><b class="hit hit-3">7731 0042 19</b></span>
+                <span class="cp-bars"></span>
+              </div>
+              <i class="cam-corner c-tl"></i><i class="cam-corner c-tr"></i><i class="cam-corner c-bl"></i><i class="cam-corner c-br"></i>
+              <i class="cam-line"></i>
+              <span class="cam-found"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10.5 3 3 7-7.5"/></svg><span data-i18n="cam.found">4 details found</span></span>
+            </div>
+            <div class="cam-bar"><i class="cam-thumb"></i><i class="cam-shutter"></i><i class="cam-flip"></i></div>
+          </div>
+          <!-- 2 · review -->
+          <div class="ui scr scr-review" data-screen="1">
+            <div class="ui-status"><span>9:41</span><i class="ui-island"></i><span class="ui-sig"><i></i><i></i><i></i></span></div>
+            <div class="rv-head"><svg class="flip" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H5m6-6-6 6 6 6"/></svg><b data-i18n="rv.title">Review details</b></div>
+            <div class="seg"><span data-i18n="ui.credit">Store credit</span><span class="on" data-i18n="ui.giftcard">Gift card</span></div>
+            <label class="fld"><small data-i18n="rv.store">Store</small><span data-i18n="s.castro">Castro</span></label>
+            <label class="fld"><small data-i18n="rv.amount">Amount</small><span>₪ 200</span></label>
+            <label class="fld fld-warn"><small data-i18n="rv.expiry">Expiry date</small><span>2027-03-12</span><em data-i18n="rv.check">Check this</em></label>
+            <label class="fld"><small data-i18n="rv.code">Code / card number</small><span class="mono">7731 0042 19</span><i class="lock-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></svg></i></label>
+            <div class="rv-save"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10.5 3 3 7-7.5"/></svg><span data-i18n="rv.save">Save</span></div>
+          </div>
+          <!-- 3 · reminders (lock screen) -->
+          <div class="ui scr scr-lock" data-screen="2">
+            <div class="ui-status light"><span></span><i class="ui-island"></i><span class="ui-sig"><i></i><i></i><i></i></span></div>
+            <div class="lk-time"><small data-i18n="lk.date">Thursday, 8 October</small><b>17:42</b></div>
+            <div class="lk-notes">
+              <div class="note n1"><i class="note-ico"></i><div><small><span data-i18n="ui.appName">Shovar</span><span data-i18n="toast.now">now</span></small><b data-i18n="lk.n1t">Zara is 150 m away</b><span data-i18n="lk.n1b">You have ₪320 credit there. Expires in 9 days.</span></div></div>
+              <div class="note n2"><i class="note-ico"></i><div><small><span data-i18n="ui.appName">Shovar</span><span data-i18n="lk.ago">2h ago</span></small><b data-i18n="lk.n2t">Castro credit expires in 3 days</b><span data-i18n="lk.n2b">₪200 left. Don’t let it go to waste.</span></div></div>
+            </div>
+            <div class="lk-bottom"><i></i><i></i></div>
+          </div>
+          <!-- 4 · checkout -->
+          <div class="ui scr scr-pay" data-screen="3">
+            <div class="ui-status"><span>9:41</span><i class="ui-island"></i><span class="ui-sig"><i></i><i></i><i></i></span></div>
+            <div class="py-head"><i class="py-x">✕</i><div><b data-i18n="s.zara">Zara</b><small class="py-bal"><span class="cur">₪</span><span id="payBal">320</span></small></div></div>
+            <div class="py-code">
+              <div class="barcode" id="payBarcode" aria-hidden="true"></div>
+              <b class="mono">4829 1057 7731</b>
+              <small data-i18n="py.copy">Tap the code to copy</small>
+            </div>
+            <div class="seg"><span class="on" data-i18n="py.bar">Barcode</span><span data-i18n="py.qr">QR code</span><span data-i18n="py.text">Text only</span></div>
+            <div class="py-log"><span class="py-minus">−₪140</span><span data-i18n="py.log">Log usage</span></div>
+            <div class="py-left"><span data-i18n="py.left">Left on this card</span><b class="cur">₪180</b></div>
+            <div class="py-hist"><small data-i18n="py.hist">History</small><span><span data-i18n="py.h1">Used at checkout</span><b class="neg">−₪140</b></span><span><span data-i18n="py.h2">Added from receipt</span><b>₪320</b></span></div>
+          </div>
+        </div>
+      </div>
+      <i class="how-halo" aria-hidden="true"></i>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 4. Try it ───────── -->
+<section class="try section" id="try">
+  <div class="wrap try-grid">
+    <div class="try-head">
+      <p class="kicker" data-reveal><i class="kdot"></i><span data-i18n="try.kicker">Try it right here</span></p>
+      <h2 class="h2" data-reveal data-i18n="try.title">Go on, ask. <span class="serif grad">Your wallet knows.</span></h2>
+      <p class="sub" data-reveal data-i18n="try.sub">Type a store into the phone, in English or Hebrew. Typos are welcome. Shovar also checks which of your gift cards are accepted there.</p>
+      <div class="try-chips" data-reveal id="tryChips" role="group" aria-label="Example searches">
+        <button type="button" data-q="castro">castro</button>
+        <button type="button" data-q="זארה">זארה</button>
+        <button type="button" data-q="supr farm">supr farm</button>
+        <button type="button" data-q="פוקס">פוקס</button>
+        <button type="button" data-q="nike">nike</button>
+        <button type="button" data-q="ikea">ikea</button>
+      </div>
+    </div>
+    <div class="try-more">
+      <div class="stats" data-reveal>
+        <div class="stat"><b id="statCards">0</b><span data-i18n="try.statCards">Cards that work here</span></div>
+        <div class="stat stat-hot"><b><span class="cur">₪</span><span id="statTotal">0</span></b><span data-i18n="try.statTotal">You can spend here</span></div>
+        <div class="stat"><b id="statSearch">0</b><span data-i18n="try.statSearch">Searches</span></div>
+      </div>
+      <div class="demo-wallet" data-reveal>
+        <p class="dw-title"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="3"/><path d="M3 10h18M16 14.5h2"/></svg><span data-i18n="try.walletTitle">What’s in this demo wallet</span></p>
+        <ul class="dw-list" id="demoWallet"></ul>
+      </div>
+    </div>
+
+    <div class="try-visual" data-reveal>
+      <div class="phone try-phone">
+        <div class="phone-screen"><div class="ui ui-find">
+          <div class="ui-status"><span>9:41</span><i class="ui-island"></i><span class="ui-sig"><i></i><i></i><i></i></span></div>
+          <div class="fd-head"><svg class="flip" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H5m6-6-6 6 6 6"/></svg><b data-i18n="fd.title">Search</b></div>
+          <label class="fd-input">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+            <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Do I have credit at…" data-i18n-ph="ui.searchPh" aria-label="Search the demo wallet">
+            <button type="button" class="fd-clear" id="qClear" aria-label="Clear search" hidden>✕</button>
+          </label>
+          <div class="fd-results" id="results" aria-live="polite"></div>
+        </div></div>
+      </div>
+      <p class="try-hint" data-i18n="try.hint">Psst: misspell it on purpose.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 5. Features (bento) ───────── -->
+<section class="features section" id="features">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker" data-reveal><i class="kdot"></i><span data-i18n="ft.kicker">Everything you need, nothing you don’t</span></p>
+      <h2 class="h2" data-reveal data-i18n="ft.title">Small app. <span class="serif grad">Surprisingly rich.</span></h2>
+    </div>
+    <div class="bento">
+      <!-- AI reading -->
+      <article class="tile t-wide t-scan" data-reveal>
+        <div class="tile-txt">
+          <i class="ico ico-leaf"><svg viewBox="0 0 24 24"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2"/><path d="M4 12h16"/></svg></i>
+          <h3 data-i18n="ft.scanT">Snap it, done</h3>
+          <p data-i18n="ft.scanB">Shovar reads the store, amount, currency, dates and code from a photo, PDF or screenshot. It shows how sure it is about each one, so you only check what needs checking.</p>
+        </div>
+        <div class="tile-vis scan-vis" aria-hidden="true">
+          <div class="sv-paper"><b>H&amp;M</b><i></i><i></i><i class="short"></i><span>₪150.00</span><i></i><i class="short"></i></div>
+          <div class="sv-arrow"><svg class="flip" viewBox="0 0 40 12"><path d="M0 6h36m-5-5 5 5-5 5"/></svg></div>
+          <ul class="sv-fields">
+            <li><small data-i18n="rv.store">Store</small><b>H&amp;M</b><i class="conf hi"></i></li>
+            <li><small data-i18n="rv.amount">Amount</small><b>₪150</b><i class="conf hi"></i></li>
+            <li><small data-i18n="rv.expiry">Expiry date</small><b>2027-01-30</b><i class="conf mid"></i></li>
+            <li><small data-i18n="rv.code">Code / card number</small><b class="mono">5521 88</b><i class="conf hi"></i></li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- bilingual search -->
+      <article class="tile t-lang" data-reveal>
+        <div class="tile-txt">
+          <i class="ico ico-coral"><svg viewBox="0 0 24 24"><path d="M4 5h9M8.5 3v2M6 5c0 4 3 7 6 8M11 5c0 3-3 7-7 9"/><path d="m13 21 4-9 4 9M14.5 18h5"/></svg></i>
+          <h3 data-i18n="ft.langT">Speaks Hebrew. Forgives typos.</h3>
+          <p data-i18n="ft.langB">Search in either language and spell it however you like.</p>
+        </div>
+        <div class="tile-vis lang-vis" aria-hidden="true">
+          <div class="lv-row"><span class="lv-in">zara</span><span class="lv-eq">=</span><span class="lv-out">זארה</span></div>
+          <div class="lv-row"><span class="lv-in">supr farm</span><span class="lv-eq">=</span><span class="lv-out">סופר-פארם</span></div>
+          <div class="lv-row"><span class="lv-in">קסטרו</span><span class="lv-eq">=</span><span class="lv-out">Castro</span></div>
+        </div>
+      </article>
+
+      <!-- nearby -->
+      <article class="tile t-near" data-reveal>
+        <div class="tile-txt">
+          <i class="ico ico-sun"><svg viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg></i>
+          <h3 data-i18n="ft.nearT">Nudges when you’re close</h3>
+          <p data-i18n="ft.nearB">Walk past a store where you have credit and Shovar taps you on the shoulder. Opt-in, low-power, per-card mute.</p>
+        </div>
+        <div class="tile-vis radar" aria-hidden="true">
+          <i class="rd-ring"></i><i class="rd-ring r2"></i><i class="rd-ring r3"></i>
+          <i class="rd-you"></i>
+          <span class="rd-pin p1">₪320</span>
+          <span class="rd-pin p2">₪120</span>
+          <span class="rd-dist">150 m</span>
+        </div>
+      </article>
+
+      <!-- networks -->
+      <article class="tile t-wide t-net" data-reveal>
+        <div class="tile-txt">
+          <i class="ico ico-grape"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="12" rx="2.5"/><path d="M12 7v12M3 11h18"/><path d="M12 7c-1.5-3-5-3.5-5-1.2C7 7 12 7 12 7s5 0 5-1.2C17 3.5 13.5 4 12 7z"/></svg></i>
+          <h3 data-i18n="ft.netT">Where does my BuyMe work?</h3>
+          <p data-i18n="ft.netB">Add a BuyMe, Tav Zahav, Max, Dream Card or Nofshonit card and Shovar shows every store that accepts it. It finds them when you search, too.</p>
+        </div>
+        <div class="tile-vis marquee" aria-hidden="true">
+          <div class="mq-row"><div class="mq-track" id="mq1"></div></div>
+          <div class="mq-row rev"><div class="mq-track" id="mq2"></div></div>
+          <div class="mq-row"><div class="mq-track" id="mq3"></div></div>
+        </div>
+      </article>
+
+      <!-- expiry -->
+      <article class="tile t-exp" data-reveal>
+        <div class="tile-txt">
+          <i class="ico ico-coral"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="3"/><path d="M4 10h16M9 3v4M15 3v4"/></svg></i>
+          <h3 data-i18n="ft.expT">Before it expires</h3>
+          <p data-i18n="ft.expB">Reminders 14 and 3 days ahead. Change the timing if you like.</p>
+        </div>
+        <div class="tile-vis exp-vis" aria-hidden="true">
+          <div class="ev-track"><i class="ev-fill"></i><span class="ev-dot d14"><b>14</b></span><span class="ev-dot d3"><b>3</b></span><span class="ev-end">⌛</span></div>
+          <div class="ev-labels"><span data-i18n="ft.exp14">14 days</span><span data-i18n="ft.exp3">3 days</span></div>
+        </div>
+      </article>
+
+      <!-- checkout -->
+      <article class="tile t-pay" data-reveal>
+        <div class="tile-txt">
+          <i class="ico ico-leaf"><svg viewBox="0 0 24 24"><path d="M4 6v12M7 6v12M10 6v8M13 6v12M16 6v8M20 6v12"/></svg></i>
+          <h3 data-i18n="ft.payT">Ready at the till</h3>
+          <p data-i18n="ft.payB">Barcode, QR or big text. Tap to copy.</p>
+        </div>
+        <div class="tile-vis pay-vis" aria-hidden="true">
+          <div class="pv-card"><div class="pv-face pv-bar" id="tileBarcode"></div><div class="pv-face pv-qr" id="tileQr"></div><div class="pv-face pv-txt mono">4829 1057</div></div>
+        </div>
+      </article>
+
+      <!-- private -->
+      <article class="tile t-wide t-dark t-priv" data-reveal>
+        <div class="tile-txt">
+          <i class="ico ico-glass"><svg viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/><circle cx="12" cy="15.5" r="1.3"/></svg></i>
+          <h3 data-i18n="ft.privT">Private by design</h3>
+          <p data-i18n="ft.privB">No account and no servers of ours. Your wallet lives on your phone. Codes and PINs are encrypted with AES-256, the key sits in the Keychain or Keystore, and Face ID or fingerprint can lock the app.</p>
+        </div>
+        <div class="tile-vis priv-vis" aria-hidden="true">
+          <div class="pr-code"><span class="pr-plain mono">7731 0042 19</span><span class="pr-cipher mono" id="cipher">v1:9fQ2…kX0=</span></div>
+          <div class="pr-badges"><span data-i18n="ft.privNoAcc">No account</span><span data-i18n="ft.privNoAds">No ads</span><span data-i18n="ft.privNoTrack">No tracking</span></div>
+        </div>
+      </article>
+
+      <!-- partial usage -->
+      <article class="tile t-use" data-reveal>
+        <div class="tile-txt">
+          <i class="ico ico-sun"><svg viewBox="0 0 24 24"><path d="M4 19h16M7 15l4-4 3 3 5-6"/></svg></i>
+          <h3 data-i18n="ft.useT">Spend some, keep the rest</h3>
+          <p data-i18n="ft.useB">Log partial use and the balance follows, with full history.</p>
+        </div>
+        <div class="tile-vis use-vis" aria-hidden="true">
+          <div class="uv-bar"><i></i></div>
+          <div class="uv-nums"><span class="uv-was">₪320</span><b class="uv-now">₪180</b></div>
+        </div>
+      </article>
+
+      <!-- share in -->
+      <article class="tile t-share" data-reveal>
+        <div class="tile-txt">
+          <i class="ico ico-grape"><svg viewBox="0 0 24 24"><path d="M12 15V3m-4 4 4-4 4 4"/><path d="M6 11H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-1"/></svg></i>
+          <h3 data-i18n="ft.shareT">Got it on WhatsApp?</h3>
+          <p data-i18n="ft.shareB">Share a gift-card link, screenshot or PDF straight into Shovar.</p>
+        </div>
+        <div class="tile-vis share-vis" aria-hidden="true">
+          <div class="sh-bubble"><span>🎁</span><span class="sh-link">buyme.co.il/…</span></div>
+          <i class="sh-fly"><svg viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#0B8A64"/><g transform="rotate(-14 32 32)"><path d="M14 22a3 3 0 0 1 3-3h30a3 3 0 0 1 3 3v6a4 4 0 0 0 0 8v6a3 3 0 0 1-3 3H17a3 3 0 0 1-3-3v-6a4 4 0 0 0 0-8z" fill="#fff"/></g></svg></i>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 6. Wall ───────── -->
+<section class="wall dark" id="networks">
+  <div class="wall-bg" id="wallBg" aria-hidden="true"></div>
+  <div class="wall-veil" aria-hidden="true"></div>
+  <div class="wrap wall-in">
+    <p class="eyebrow" data-reveal data-i18n="wall.eyebrow">Built for Israel’s gift-card maze</p>
+    <h2 class="h2 wall-title" data-reveal data-i18n="wall.title">Five card issuers. <span class="serif grad-light">One search.</span></h2>
+    <p class="wall-sub" data-reveal data-i18n="wall.sub">BuyMe, Tav Zahav, Max, Dream Card and Nofshonit cards each work at their own list of stores. Shovar knows the lists, so a search for Castro also finds the BuyMe card you got for your birthday.</p>
+    <div class="wall-stats">
+      <div class="ws" data-reveal><b><span data-count="2000">0</span>+</b><span data-i18n="wall.s1">stores on the lists</span></div>
+      <div class="ws" data-reveal><b data-count="11">0</b><span data-i18n="wall.s2">gift-card types</span></div>
+      <div class="ws" data-reveal><b data-count="2">0</b><span data-i18n="wall.s3">languages, fully</span></div>
+      <div class="ws" data-reveal><b data-count="0">0</b><span data-i18n="wall.s4">accounts to create</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 7. FAQ ───────── -->
+<section class="faq section" id="faq">
+  <div class="wrap faq-grid">
+    <div class="faq-head">
+      <p class="kicker" data-reveal><i class="kdot"></i><span data-i18n="faq.kicker">Questions</span></p>
+      <h2 class="h2" data-reveal data-i18n="faq.title">Good <span class="serif grad">questions.</span></h2>
+      <p class="sub" data-reveal data-i18n="faq.sub">Something else on your mind? Write to <a href="mailto:yotamshekrel@gmail.com">yotamshekrel@gmail.com</a>.</p>
+    </div>
+    <div class="faq-list" id="faqList">
+      <details class="qa" data-reveal open>
+        <summary><span data-i18n="faq.q1">Is Shovar free?</span><i class="qa-x" aria-hidden="true"></i></summary>
+        <div class="qa-a"><p data-i18n="faq.a1">Yes. Shovar is free to download and has no ads.</p></div>
+      </details>
+      <details class="qa" data-reveal>
+        <summary><span data-i18n="faq.q2">Do I need to sign up?</span><i class="qa-x" aria-hidden="true"></i></summary>
+        <div class="qa-a"><p data-i18n="faq.a2">No. There’s no account and nothing to log in to. Open the app and add your first card.</p></div>
+      </details>
+      <details class="qa" data-reveal>
+        <summary><span data-i18n="faq.q3">Where is my data stored?</span><i class="qa-x" aria-hidden="true"></i></summary>
+        <div class="qa-a"><p data-i18n="faq.a3">Only on your phone. Codes and PINs are encrypted (AES-256-GCM) with a key kept in the iOS Keychain or Android Keystore, and you can lock the app with Face ID or fingerprint. We don’t run servers that hold your wallet, and there are no analytics.</p></div>
+      </details>
+      <details class="qa" data-reveal>
+        <summary><span data-i18n="faq.q4">How does reading a receipt work?</span><i class="qa-x" aria-hidden="true"></i></summary>
+        <div class="qa-a"><p data-i18n="faq.a4">AI reading is optional. The first time, Shovar asks for your permission and explains that only the image you chose is sent, only to pull out the details. You can turn it off in Settings and type cards in by hand any time.</p></div>
+      </details>
+      <details class="qa" data-reveal>
+        <summary><span data-i18n="faq.q5">Does it track my location?</span><i class="qa-x" aria-hidden="true"></i></summary>
+        <div class="qa-a"><p data-i18n="faq.a5">Nearby reminders are off until you turn them on. They use your phone’s low-power geofencing, and your exact position never leaves the device. To find branches, Shovar only shares store names and a rough area, rounded to about 10 km.</p></div>
+      </details>
+      <details class="qa" data-reveal>
+        <summary><span data-i18n="faq.q6">Which gift cards does it know?</span><i class="qa-x" aria-hidden="true"></i></summary>
+        <div class="qa-a"><p data-i18n="faq.a6">Any store credit, return note or voucher works. For multi-store cards, Shovar knows where BuyMe (ALL, Total, Style, Brunch), Tav Zahav, Max GiftCard (including Super, Executive and Food), Dream Card and Nofshonit are accepted.</p></div>
+      </details>
+      <details class="qa" data-reveal>
+        <summary><span data-i18n="faq.q7">Is it in Hebrew?</span><i class="qa-x" aria-hidden="true"></i></summary>
+        <div class="qa-a"><p data-i18n="faq.a7">כן! The whole app works in Hebrew and English, with a proper right-to-left layout, and search understands both spellings of a store’s name.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 8. Download ───────── -->
+<section class="download section" id="download">
+  <div class="wrap">
+    <div class="dl-card" data-reveal>
+      <div class="dl-deco" aria-hidden="true">
+        <i class="coin dl-c1">₪</i><i class="coin dl-c2">₪</i><i class="coin dl-c3">₪</i>
+        <i class="ticket dl-t1"></i><i class="ticket dl-t2"></i><i class="ticket dl-t3"></i>
+      </div>
+      <h2 class="dl-title" data-i18n="dl.title">That ₪200 credit won’t <span class="serif">remember itself.</span></h2>
+      <p class="dl-sub" data-i18n="dl.sub">Free, no ads, no account. Set up in under a minute, and the next receipt you get is already safe.</p>
+      <div class="cta-row dl-ctas">
+        <a class="store store-light magnetic js-play" href="https://play.google.com/store/apps/details?id=com.shvar.wallet" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34A853" d="M3.6 1.8 13.4 12l-9.8 10.2c-.4-.2-.6-.6-.6-1.1V2.9c0-.5.2-.9.6-1.1z"/><path fill="#FBBC04" d="m17 8.4-3.6 3.6 3.6 3.6 4-2.3c1.1-.6 1.1-2 0-2.6z"/><path fill="#EA4335" d="M13.4 12 3.6 22.2c.4.2.9.2 1.4-.1L17 15.6z"/><path fill="#4285F4" d="M17 8.4 5 1.9c-.5-.3-1-.3-1.4-.1L13.4 12z"/></svg>
+          <span><small data-i18n="store.playSmall">Get it on</small>Google Play</span>
+        </a>
+        <a class="store store-glass magnetic js-ios" href="#download">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9s-2.1-.9-3.4-.9C5.8 6.8 4.2 7.8 3.3 9.4c-1.9 3.2-.5 8 1.3 10.6.9 1.3 1.9 2.7 3.3 2.6 1.3-.1 1.8-.8 3.4-.8s2 .8 3.4.8c1.4 0 2.3-1.3 3.2-2.6 1-1.5 1.4-2.9 1.4-3-.1 0-2.8-1-2.8-4.2zM13.8 4.9c.7-.9 1.2-2 1.1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3-1.5z"/></svg>
+          <span><small class="js-ios-small" data-i18n="store.iosSmall">Download on the</small>App Store</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ───────── 9. Footer ───────── -->
+<footer class="footer">
+  <div class="wrap foot-in">
+    <a class="brand" href="#top"><svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="18" fill="#0B8A64"/><g transform="rotate(-14 32 32)"><path d="M14 22a3 3 0 0 1 3-3h30a3 3 0 0 1 3 3v6a4 4 0 0 0 0 8v6a3 3 0 0 1-3 3H17a3 3 0 0 1-3-3v-6a4 4 0 0 0 0-8z" fill="#fff"/><path d="M19 27h14" stroke="#0A7A5C" stroke-width="3.2" stroke-linecap="round"/><circle cx="44.5" cy="32" r="3.6" fill="#0A7A5C"/></g></svg><span class="brand-name" data-i18n="brand">Shovar</span></a>
+    <nav class="foot-links" aria-label="Legal">
+      <a href="https://yotamshekrel.github.io/Shovar/privacy/" data-i18n="foot.privacy">Privacy</a>
+      <a href="mailto:yotamshekrel@gmail.com" data-i18n="foot.support">Support</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    </nav>
+    <p class="legal" data-i18n="foot.legal">Store names, amounts and codes on this page are examples. Shovar isn’t affiliated with any store or gift-card issuer. Map data © OpenStreetMap contributors. © 2026 Shovar.</p>
+  </div>
+  <div class="watermark" aria-hidden="true" data-i18n="foot.mark">shovar</div>
+</footer>
+
+<script src="landing.js" defer></script>
+</body>
+</html>
