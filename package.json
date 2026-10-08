@@ -92,7 +92,8 @@
       "/node_modules/@react-native/babel-preset/"
     ],
     "moduleNameMapper": {
-      "^@/(.*)$": "<rootDir>/src/$1"
+      "^@/(.*)$": "<rootDir>/src/$1",
+      "^react-native-reanimated$": "<rootDir>/test/support/reanimatedMock.ts"
     },
     "testEnvironment": "node"
   }

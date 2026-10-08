@@ -2,13 +2,14 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { memo } from 'react';
 import { Linking, Pressable, StyleSheet, View } from 'react-native';
 
-import { Icon, Text, tapFeedback } from '@/components/ui';
+import { Icon, PressableScale, Text, tapFeedback } from '@/components/ui';
 import { formatMoney } from '@/domain/money';
 import { effectiveStatus, expiryTone } from '@/domain/status';
 import type { Item } from '@/domain/types';
 import { useI18n } from '@/i18n';
 import { readableOn, shade, storeColor } from '@/theme/color';
 import { useTheme } from '@/theme/ThemeProvider';
+import { elevation } from '@/theme/tokens';
 
 import { expiryLabel } from './labels';
 import { StoreAvatar } from './StoreAvatar';
@@ -37,7 +38,8 @@ export const ItemCard = memo(function ItemCard({ item, onPress, hasAttachment, c
 
   return (
     <View>
-      <Pressable
+      <PressableScale
+        pressedScale={0.98}
         testID={`item-card-${item.id}`}
         accessibilityRole="button"
         accessibilityLabel={`${item.storeName}, ${t(`type.${item.type}`)}, ${balance}, ${expiry}`}
@@ -45,13 +47,13 @@ export const ItemCard = memo(function ItemCard({ item, onPress, hasAttachment, c
           tapFeedback();
           onPress(item);
         }}
-        style={({ pressed }) => [styles.pressable, { transform: [{ scale: pressed ? 0.985 : 1 }] }]}
+        style={styles.pressable}
       >
         <LinearGradient
           colors={[shade(base, 0.12), shade(base, -0.18)]}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 1 }}
-          style={[styles.card, { borderRadius: radii.card, minHeight: compact ? 96 : 124 }]}
+          style={[styles.card, elevation.card, { borderRadius: radii.card, minHeight: compact ? 96 : 124, shadowColor: base }]}
         >
           <View style={styles.topRow}>
             <StoreAvatar name={item.storeName} logoUri={item.storeLogoUri} size={38} inverted />
@@ -76,12 +78,14 @@ export const ItemCard = memo(function ItemCard({ item, onPress, hasAttachment, c
                 {expiry}
               </Text>
             </View>
-            <Text variant="title" color={fg} numberOfLines={1} adjustsFontSizeToFit style={styles.balance}>
+            <Text variant="title" numeric color={fg} numberOfLines={1} adjustsFontSizeToFit style={styles.balance}>
               {balance}
             </Text>
           </View>
+          {/* Light catching the top edge of the card */}
+          <View pointerEvents="none" style={[styles.edge, { borderRadius: radii.card }]} />
         </LinearGradient>
-      </Pressable>
+      </PressableScale>
       {showOpenLink ? (
         <Pressable
           testID={`item-open-link-${item.id}`}
@@ -109,12 +113,8 @@ const styles = StyleSheet.create({
   card: {
     padding: 16,
     justifyContent: 'space-between',
-    shadowColor: '#000',
-    shadowOpacity: 0.14,
-    shadowRadius: 10,
-    shadowOffset: { width: 0, height: 4 },
-    elevation: 3,
   },
+  edge: { ...StyleSheet.absoluteFill, borderWidth: 1, borderColor: 'rgba(255,255,255,0.14)' },
   topRow: { flexDirection: 'row', alignItems: 'center', gap: 12 },
   titleCol: { flex: 1, gap: 1 },
   muted: { opacity: 0.8 },

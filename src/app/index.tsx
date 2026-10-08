@@ -1,10 +1,11 @@
 import { Redirect, router } from 'expo-router';
 import { useMemo } from 'react';
 import { FlatList, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import Animated, { FadeInDown } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ItemCard } from '@/components/item/ItemCard';
-import { Chip, EmptyState, Icon, IconButton, Text, tapFeedback } from '@/components/ui';
+import { Chip, EmptyState, Icon, IconButton, PressableScale, Text, tapFeedback } from '@/components/ui';
 import { formatMoney, sumByCurrency } from '@/domain/money';
 import { type FilterKey, type SortKey, filterItems, isActive, isExpiringSoon, sortItems } from '@/domain/status';
 import type { Item } from '@/domain/types';
@@ -14,6 +15,7 @@ import { useQuickActions } from '@/services/quickActions';
 import { useItemsStore } from '@/state/items';
 import { useSettings, useSettingsStore } from '@/state/settings';
 import { useTheme } from '@/theme/ThemeProvider';
+import { elevation } from '@/theme/tokens';
 import { create } from 'zustand';
 
 const FILTERS: FilterKey[] = ['all', 'gift_card', 'store_credit', 'expiring'];
@@ -63,16 +65,22 @@ export default function HomeScreen() {
         </View>
       </View>
 
-      <View style={[styles.totalCard, { backgroundColor: colors.surface, borderRadius: radii.card, borderColor: colors.border }]}>
-        <Text variant="caption" tone="secondary">
+      <View
+        style={[
+          styles.totalCard,
+          elevation.surface,
+          { backgroundColor: colors.surface, borderRadius: radii.card, shadowColor: colors.shadow },
+        ]}
+      >
+        <Text variant="caption" tone="secondary" style={styles.eyebrow}>
           {t('home.totalLabel')}
         </Text>
-        <Text variant="display" testID="total-value" adjustsFontSizeToFit numberOfLines={1}>
+        <Text variant="display" numeric testID="total-value" adjustsFontSizeToFit numberOfLines={1}>
           {totals.length > 0 ? formatMoney(totals[0].totalMinor, totals[0].currency, locale) : formatMoney(0, 'ILS', locale)}
         </Text>
         <View style={styles.totalMeta}>
           {totals.slice(1).map((x) => (
-            <Text key={x.currency} variant="callout" tone="secondary">
+            <Text key={x.currency} variant="callout" tone="secondary" numeric>
               + {formatMoney(x.totalMinor, x.currency, locale)}
             </Text>
           ))}
@@ -94,47 +102,43 @@ export default function HomeScreen() {
         </View>
       </View>
 
-      <Pressable
-        testID="home-search"
-        accessibilityRole="search"
-        accessibilityLabel={t('home.searchPlaceholder')}
-        onPress={() => {
-          tapFeedback();
-          router.push('/search');
-        }}
-        style={({ pressed }) => [
-          styles.search,
-          { backgroundColor: pressed ? colors.surfacePressed : colors.surface, borderRadius: radii.lg, borderColor: colors.border },
-        ]}
-      >
-        <Icon name="search" size={20} color={colors.textSecondary} />
-        <Text variant="body" tone="tertiary" style={styles.flex}>
-          {t('home.searchPlaceholder')}
-        </Text>
-      </Pressable>
-
-      {active.length > 0 ? (
-        <Pressable
-          testID="home-nearby"
-          accessibilityRole="button"
-          accessibilityLabel={t('nearby.button')}
-          accessibilityHint={t('nearby.buttonHint')}
+      <View style={styles.searchRow}>
+        <PressableScale
+          testID="home-search"
+          pressedScale={0.985}
+          accessibilityRole="search"
+          accessibilityLabel={t('home.searchPlaceholder')}
           onPress={() => {
             tapFeedback();
-            router.push('/nearby');
+            router.push('/search');
           }}
           style={({ pressed }) => [
             styles.search,
-            { backgroundColor: pressed ? colors.primaryPressed : colors.primary, borderRadius: radii.lg, borderColor: colors.primary },
+            { backgroundColor: pressed ? colors.surfacePressed : colors.surfaceAlt, borderRadius: radii.pill },
           ]}
         >
-          <Icon name="location" size={20} color={colors.textOnPrimary} />
-          <Text variant="body" weight="600" style={[styles.flex, { color: colors.textOnPrimary }]}>
-            {t('nearby.button')}
+          <Icon name="search" size={19} color={colors.textSecondary} />
+          <Text variant="body" tone="tertiary" style={styles.flex} numberOfLines={1}>
+            {t('home.searchPlaceholder')}
           </Text>
-          <Icon name="chevron-forward" size={18} color={colors.textOnPrimary} flipInRtl />
-        </Pressable>
-      ) : null}
+        </PressableScale>
+        {active.length > 0 ? (
+          <PressableScale
+            testID="home-nearby"
+            pressedScale={0.92}
+            accessibilityRole="button"
+            accessibilityLabel={t('nearby.button')}
+            accessibilityHint={t('nearby.buttonHint')}
+            onPress={() => {
+              tapFeedback();
+              router.push('/nearby');
+            }}
+            style={({ pressed }) => [styles.nearby, { backgroundColor: pressed ? colors.primaryPressed : colors.primary }]}
+          >
+            <Icon name="location" size={21} color={colors.textOnPrimary} />
+          </PressableScale>
+        ) : null}
+      </View>
 
       {active.length > 0 ? (
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips} style={styles.chipsScroll}>
@@ -169,7 +173,16 @@ export default function HomeScreen() {
         contentContainerStyle={[styles.list, { paddingTop: insets.top + 8, paddingBottom: insets.bottom + 110 }]}
         ListHeaderComponent={header}
         ItemSeparatorComponent={() => <View style={styles.sep} />}
-        renderItem={({ item }) => <ItemCard item={item} onPress={openItem} hasAttachment={(attachmentCounts[item.id] ?? 0) > 0} />}
+        renderItem={({ item, index }) => (
+          <Animated.View
+            entering={FadeInDown.delay(Math.min(index, 6) * 45)
+              .springify()
+              .dampingRatio(1)
+              .duration(420)}
+          >
+            <ItemCard item={item} onPress={openItem} hasAttachment={(attachmentCounts[item.id] ?? 0) > 0} />
+          </Animated.View>
+        )}
         ListEmptyComponent={
           active.length === 0 ? (
             <EmptyState
@@ -186,8 +199,9 @@ export default function HomeScreen() {
           )
         }
       />
-      <Pressable
+      <PressableScale
         testID="fab-add"
+        pressedScale={0.92}
         accessibilityRole="button"
         accessibilityLabel={t('home.add')}
         onPress={() => {
@@ -196,11 +210,12 @@ export default function HomeScreen() {
         }}
         style={({ pressed }) => [
           styles.fab,
-          { bottom: insets.bottom + 24, backgroundColor: pressed ? colors.primaryPressed : colors.primary, shadowColor: colors.shadow },
+          elevation.floating,
+          { bottom: insets.bottom + 24, backgroundColor: pressed ? colors.primaryPressed : colors.primary, shadowColor: colors.primary },
         ]}
       >
-        <Icon name="add" size={32} color={colors.textOnPrimary} />
-      </Pressable>
+        <Icon name="add" size={30} color={colors.textOnPrimary} />
+      </PressableScale>
     </View>
   );
 }
@@ -211,10 +226,13 @@ const styles = StyleSheet.create({
   header: { gap: 16, marginBottom: 16 },
   topBar: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingStart: 4 },
   topActions: { flexDirection: 'row', gap: 4 },
-  totalCard: { padding: 18, gap: 2, borderWidth: StyleSheet.hairlineWidth },
+  totalCard: { padding: 20, gap: 2 },
+  eyebrow: { textTransform: 'uppercase', letterSpacing: 0.6 },
   totalMeta: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: 10, marginTop: 6 },
   warnPill: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 4, borderRadius: 999 },
-  search: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 16, height: 54, borderWidth: 1 },
+  searchRow: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+  search: { flex: 1, flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 16, height: 48 },
+  nearby: { width: 48, height: 48, borderRadius: 24, alignItems: 'center', justifyContent: 'center' },
   chipsScroll: { marginHorizontal: -16 },
   chips: { gap: 8, paddingHorizontal: 16, alignItems: 'center' },
   sortBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 6, paddingVertical: 8 },
@@ -223,14 +241,10 @@ const styles = StyleSheet.create({
   fab: {
     position: 'absolute',
     end: 24,
-    width: 64,
-    height: 64,
-    borderRadius: 32,
+    width: 60,
+    height: 60,
+    borderRadius: 30,
     alignItems: 'center',
     justifyContent: 'center',
-    shadowOpacity: 0.25,
-    shadowRadius: 12,
-    shadowOffset: { width: 0, height: 6 },
-    elevation: 6,
   },
 });

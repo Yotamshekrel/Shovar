@@ -1,9 +1,10 @@
-import { Pressable, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import { useTheme } from '@/theme/ThemeProvider';
 
 import { tapFeedback } from './haptics';
 import { Icon, type IconName } from './Icon';
+import { PressableScale } from './PressableScale';
 import { Text } from './Text';
 
 export function Chip({
@@ -21,7 +22,8 @@ export function Chip({
 }) {
   const { colors, radii } = useTheme();
   return (
-    <Pressable
+    <PressableScale
+      pressedScale={0.95}
       testID={testID}
       accessibilityRole="button"
       accessibilityState={{ selected: !!selected }}
@@ -43,7 +45,7 @@ export function Chip({
       <Text variant="caption" color={selected ? colors.background : colors.text} numberOfLines={1}>
         {label}
       </Text>
-    </Pressable>
+    </PressableScale>
   );
 }
 

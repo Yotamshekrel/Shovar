@@ -103,16 +103,24 @@ export const radii = {
   pill: 999,
 } as const;
 
+// Tracking is size-specific: large type is tightened, small type is opened up.
 export const typography = {
-  display: { fontSize: 34, lineHeight: 40, fontWeight: '700' as const, letterSpacing: -0.5 },
-  title: { fontSize: 24, lineHeight: 30, fontWeight: '700' as const, letterSpacing: -0.3 },
-  headline: { fontSize: 18, lineHeight: 24, fontWeight: '600' as const },
-  body: { fontSize: 16, lineHeight: 22, fontWeight: '400' as const },
-  bodyStrong: { fontSize: 16, lineHeight: 22, fontWeight: '600' as const },
-  callout: { fontSize: 15, lineHeight: 20, fontWeight: '400' as const },
-  caption: { fontSize: 13, lineHeight: 18, fontWeight: '500' as const },
-  footnote: { fontSize: 12, lineHeight: 16, fontWeight: '400' as const },
+  display: { fontSize: 38, lineHeight: 42, fontWeight: '700' as const, letterSpacing: -1 },
+  title: { fontSize: 24, lineHeight: 29, fontWeight: '700' as const, letterSpacing: -0.5 },
+  headline: { fontSize: 18, lineHeight: 23, fontWeight: '600' as const, letterSpacing: -0.25 },
+  body: { fontSize: 16, lineHeight: 23, fontWeight: '400' as const, letterSpacing: -0.1 },
+  bodyStrong: { fontSize: 16, lineHeight: 23, fontWeight: '600' as const, letterSpacing: -0.1 },
+  callout: { fontSize: 15, lineHeight: 21, fontWeight: '400' as const, letterSpacing: -0.05 },
+  caption: { fontSize: 13, lineHeight: 18, fontWeight: '500' as const, letterSpacing: 0.05 },
+  footnote: { fontSize: 12, lineHeight: 16, fontWeight: '400' as const, letterSpacing: 0.1 },
   mono: { fontSize: 22, lineHeight: 30, fontWeight: '600' as const, letterSpacing: 1.5 },
+} as const;
+
+/** Layered, low-contrast elevation: a tight contact shadow plus a soft ambient one is approximated by one soft shadow. */
+export const elevation = {
+  card: { shadowOpacity: 0.16, shadowRadius: 14, shadowOffset: { width: 0, height: 6 }, elevation: 4 },
+  floating: { shadowOpacity: 0.28, shadowRadius: 18, shadowOffset: { width: 0, height: 10 }, elevation: 8 },
+  surface: { shadowOpacity: 0.06, shadowRadius: 12, shadowOffset: { width: 0, height: 3 }, elevation: 1 },
 } as const;
 
 export type TypographyVariant = keyof typeof typography;

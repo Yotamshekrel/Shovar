@@ -4,6 +4,7 @@ export { EmptyState } from './EmptyState';
 export { Icon, type IconName } from './Icon';
 export { IconButton } from './IconButton';
 export { Divider, ListRow, Section } from './ListRow';
+export { PressableScale } from './PressableScale';
 export { Segmented } from './Segmented';
 export { Text } from './Text';
 export { TextField } from './TextField';

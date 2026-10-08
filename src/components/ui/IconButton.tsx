@@ -1,9 +1,10 @@
-import { Pressable, type StyleProp, type ViewStyle } from 'react-native';
+import { type StyleProp, type ViewStyle } from 'react-native';
 
 import { useTheme } from '@/theme/ThemeProvider';
 
 import { tapFeedback } from './haptics';
 import { Icon, type IconName } from './Icon';
+import { PressableScale } from './PressableScale';
 
 export function IconButton({
   icon,
@@ -27,7 +28,8 @@ export function IconButton({
   const { colors } = useTheme();
   const bg = tone === 'filled' ? colors.surfaceAlt : 'transparent';
   return (
-    <Pressable
+    <PressableScale
+      pressedScale={0.9}
       testID={testID}
       accessibilityRole="button"
       accessibilityLabel={label}
@@ -49,6 +51,6 @@ export function IconButton({
       ]}
     >
       <Icon name={icon} size={iconSize} color={colors.text} />
-    </Pressable>
+    </PressableScale>
   );
 }

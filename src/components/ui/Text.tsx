@@ -12,6 +12,8 @@ export interface AppTextProps extends TextProps {
   color?: string;
   align?: 'start' | 'center' | 'end';
   weight?: TextStyle['fontWeight'];
+  /** Fixed-width digits so amounts don't jitter when they change. */
+  numeric?: boolean;
 }
 
 const toneKey: Record<TextTone, keyof Palette> = {
@@ -29,14 +31,20 @@ const toneKey: Record<TextTone, keyof Palette> = {
  * Themed text. `align` is logical (start/end), so it follows the layout
  * direction in Hebrew (RTL) and English.
  */
-export function Text({ variant = 'body', tone = 'default', color, align = 'start', weight, style, ...rest }: AppTextProps) {
+export function Text({ variant = 'body', tone = 'default', color, align = 'start', weight, numeric, style, ...rest }: AppTextProps) {
   const { colors, typography } = useTheme();
   const textAlign: TextStyle['textAlign'] = align === 'center' ? 'center' : align === 'end' ? textEnd : textStart;
   return (
     <RNText
       maxFontSizeMultiplier={variant === 'display' || variant === 'title' ? 1.6 : 2}
       {...rest}
-      style={[typography[variant], { color: color ?? colors[toneKey[tone]], textAlign }, weight ? { fontWeight: weight } : null, style]}
+      style={[
+        typography[variant],
+        { color: color ?? colors[toneKey[tone]], textAlign },
+        weight ? { fontWeight: weight } : null,
+        numeric ? { fontVariant: ['tabular-nums'] } : null,
+        style,
+      ]}
     />
   );
 }
