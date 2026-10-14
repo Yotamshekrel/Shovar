@@ -46,3 +46,6 @@ example
 # EAS signing credentials (never commit)
 credentials.json
 *.keystore
+
+# Firebase hosting local cache
+.firebase/
