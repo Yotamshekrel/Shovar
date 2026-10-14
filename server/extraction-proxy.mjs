@@ -10,7 +10,7 @@
  *
  * App side (.env.local):
  *   EXPO_PUBLIC_ANTHROPIC_BASE_URL=https://your-proxy.example.com
- *   EXPO_PUBLIC_ANTHROPIC_API_KEY=some-long-random-string   # sent as x-api-key, checked against PROXY_CLIENT_TOKEN
+ *   EXPO_PUBLIC_PROXY_CLIENT_TOKEN=some-long-random-string  # sent as x-api-key, checked against PROXY_CLIENT_TOKEN
  *
  * Only POST /v1/messages is forwarded; the model is restricted to an allowlist
  * and request bodies are size-limited. Put it behind HTTPS and add per-user

@@ -209,7 +209,6 @@
         }
       ],
       "expo-quick-actions",
-      "@react-native-community/datetimepicker",
       "./plugins/withIosSceneDelegate.js"
     ],
     "experiments": {

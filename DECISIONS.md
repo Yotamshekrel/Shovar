@@ -128,8 +128,8 @@ It is updated per milestone.
 - **Where the key lives.** Keys are never hardcoded. In priority order: a key
   the user pastes in Settings (device keychain via SecureStore) → a proxy URL
   (`EXPO_PUBLIC_ANTHROPIC_BASE_URL`, `server/extraction-proxy.mjs` holds the
-  real key and enforces a client token, model allowlist and size limit) → a
-  dev-only `EXPO_PUBLIC_ANTHROPIC_API_KEY` (documented as bundled into the app).
+  real key and enforces a client token, model allowlist and size limit). No
+  Anthropic key is read from the build environment (`EXPO_PUBLIC_*` is bundled).
 - **Review-time safety net.** The normalizer re-validates everything: currency
   symbols → ISO codes, day-first date parsing, canonical brand names ("ZARA" →
   "Zara", legal suffixes dropped), plausibility checks (issue date in the

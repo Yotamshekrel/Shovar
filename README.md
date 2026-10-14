@@ -79,7 +79,7 @@ Expo inlines `EXPO_PUBLIC_*` values into the JS bundle at build time.
 | Variable | Purpose |
 | --- | --- |
 | `EXPO_PUBLIC_ANTHROPIC_BASE_URL` | URL of the extraction proxy (`server/extraction-proxy.mjs`). **Recommended for production** — the real key stays on the server. |
-| `EXPO_PUBLIC_ANTHROPIC_API_KEY` | With a proxy: the proxy's client token. Without a proxy: an Anthropic API key for **local development only** (it is bundled into the app). |
+| `EXPO_PUBLIC_PROXY_CLIENT_TOKEN` | The proxy's client token (`PROXY_CLIENT_TOKEN`). Not an Anthropic key. |
 | `EXPO_PUBLIC_EXTRACTION_MODEL` | Claude model for extraction. Default `claude-opus-5-5`. |
 | `EXPO_PUBLIC_GOOGLE_PLACES_API_KEY` | Optional Google Places API (New) key for store branch locations. Without it, OpenStreetMap (Overpass) is used. Restrict the key to the Places API and your app IDs. |
 
@@ -114,7 +114,7 @@ Deploy it anywhere that runs Node 20+ behind HTTPS, then in `.env.local`:
 
 ```bash
 EXPO_PUBLIC_ANTHROPIC_BASE_URL=https://your-proxy.example.com
-EXPO_PUBLIC_ANTHROPIC_API_KEY=<the PROXY_CLIENT_TOKEN value>
+EXPO_PUBLIC_PROXY_CLIENT_TOKEN=<the PROXY_CLIENT_TOKEN value>
 ```
 
 The proxy only forwards `POST /v1/messages`, checks the client token, limits
@@ -124,8 +124,8 @@ limiting before exposing it publicly.
 **Option B — personal use:** paste your own key in *Settings → Receipt
 reading*. It's stored in the iOS Keychain / Android Keystore.
 
-**Option C — local development:** `EXPO_PUBLIC_ANTHROPIC_API_KEY=sk-ant-...`
-in `.env.local`. Don't ship a build like this.
+For local development, run the proxy locally or paste a key in Settings. No
+Anthropic key is read from the build environment, so none can be bundled.
 
 The first time a receipt is read with AI, Shovar asks for consent and explains
 that only the image is sent, only to extract details. AI reading can be turned

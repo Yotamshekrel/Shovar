@@ -2,14 +2,14 @@
  * Build-time configuration. Expo inlines `EXPO_PUBLIC_*` variables from `.env`
  * files / the EAS environment at bundle time (see README → Environment).
  *
- * Nothing secret is committed. Note that EXPO_PUBLIC_* values end up inside the
- * app bundle — for production, prefer the extraction proxy (server/) so the
- * Anthropic key stays on a server, or let each user paste their own key in
- * Settings (stored in the device keychain).
+ * Nothing secret is committed. EXPO_PUBLIC_* values end up inside the app
+ * bundle, so no Anthropic key is ever read from the environment: extraction
+ * goes through the proxy (server/) which holds the key, or through a key the
+ * user pastes in Settings (stored in the device keychain).
  */
 export const env = {
-  /** Development convenience only — bundled into the app. */
-  anthropicApiKey: process.env.EXPO_PUBLIC_ANTHROPIC_API_KEY ?? '',
+  /** Shared token the proxy checks (PROXY_CLIENT_TOKEN). NOT an Anthropic key — never put one here. */
+  proxyClientToken: process.env.EXPO_PUBLIC_PROXY_CLIENT_TOKEN ?? '',
   /** Base URL of an Anthropic-compatible proxy that injects the key server-side (recommended for production). */
   anthropicBaseUrl: process.env.EXPO_PUBLIC_ANTHROPIC_BASE_URL ?? '',
   /** Vision model used for receipt extraction. */

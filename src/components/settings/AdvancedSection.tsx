@@ -31,7 +31,7 @@ export function AdvancedSection() {
             hint={t('settings.aiKeyHint')}
             explainTitle={t('settings.aiKeyWhyTitle')}
             explain={t('settings.aiKeyWhy')}
-            envConfigured={!!(env.anthropicApiKey || env.anthropicBaseUrl)}
+            envConfigured={!!env.anthropicBaseUrl}
             testID="settings-ai-key"
           />
           <Divider inset={60} />
