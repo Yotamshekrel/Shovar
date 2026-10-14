@@ -120,15 +120,16 @@ It is updated per milestone.
     response always parses. Every field is nullable and carries a per-field
     confidence; the model is told to return null rather than guess;
   - `effort: "low"` — extraction is simple and the user is waiting;
-  - model `claude-opus-5-5` by default (configurable with
+  - model `claude-haiku-5-5` by default (the user pays with their own key, so the
+    cheapest current model; configurable with
     `EXPO_PUBLIC_EXTRACTION_MODEL`);
   - **server-side refusal fallback** (`fallbacks: "default"`, beta
     `server-side-fallback-2026-07-01`) so a rare safety-classifier decline is
     retried on Anthropic's recommended fallback model instead of failing.
-- **Where the key lives.** Keys are never hardcoded. In priority order: a key
-  the user pastes in Settings (device keychain via SecureStore) → a proxy URL
-  (`EXPO_PUBLIC_ANTHROPIC_BASE_URL`, `server/extraction-proxy.mjs` holds the
-  real key and enforces a client token, model allowlist and size limit). No
+- **Where the key lives.** Keys are never hardcoded. The only key is one the
+  user pastes in Settings (device keychain via SecureStore); the request goes
+  straight from the phone to Anthropic. A hosted proxy for all users was built
+  and removed (2026-10-14): a public key/proxy means paying for every user. No
   Anthropic key is read from the build environment (`EXPO_PUBLIC_*` is bundled).
 - **Review-time safety net.** The normalizer re-validates everything: currency
   symbols → ISO codes, day-first date parsing, canonical brand names ("ZARA" →
@@ -148,7 +149,7 @@ It is updated per milestone.
   "valid for 12 months").
 - **Tests** cover the normalizer, the heuristic parser on realistic Hebrew and
   English samples, the exact wire request (headers, beta, schema, PDF blocks)
-  by running the real SDK against a local mock API, and the proxy end-to-end.
+  by running the real SDK against a local mock API.
 
 ## M5 — Gift card links + share sheet
 

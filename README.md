@@ -78,9 +78,7 @@ Expo inlines `EXPO_PUBLIC_*` values into the JS bundle at build time.
 
 | Variable | Purpose |
 | --- | --- |
-| `EXPO_PUBLIC_ANTHROPIC_BASE_URL` | URL of the extraction proxy (`server/extraction-proxy.mjs`). **Recommended for production** — the real key stays on the server. |
-| `EXPO_PUBLIC_PROXY_CLIENT_TOKEN` | The proxy's client token (`PROXY_CLIENT_TOKEN`). Not an Anthropic key. |
-| `EXPO_PUBLIC_EXTRACTION_MODEL` | Claude model for extraction. Default `claude-opus-5-5`. |
+| `EXPO_PUBLIC_EXTRACTION_MODEL` | Claude model for extraction. Default `claude-haiku-5-5`. |
 | `EXPO_PUBLIC_GOOGLE_PLACES_API_KEY` | Optional Google Places API (New) key for store branch locations. Without it, OpenStreetMap (Overpass) is used. Restrict the key to the Places API and your app IDs. |
 
 Keys can also be entered at runtime in **Settings** (*Receipt reading →
@@ -90,7 +88,7 @@ priority over build-time values. Nothing is hardcoded in the source.
 
 For EAS builds, define the same variables as
 [EAS environment variables](https://docs.expo.dev/eas/environment-variables/)
-(`npx eas-cli@latest env:create`) for the `development`, `preview` and
+(`npx eas-cli@latest env:set`) for the `development`, `preview` and
 `production` environments referenced in `eas.json`.
 
 ---
@@ -103,29 +101,11 @@ matches a JSON schema with a per-field confidence. The flow falls back to
 on-device OCR (development builds) and finally to manual entry, and the
 original image/PDF is always saved with the card.
 
-**Option A — proxy (recommended):**
-
-```bash
-ANTHROPIC_API_KEY=sk-ant-... PROXY_CLIENT_TOKEN=$(openssl rand -hex 24) \
-  node server/extraction-proxy.mjs            # listens on :8787
-```
-
-Deploy it anywhere that runs Node 20+ behind HTTPS, then in `.env.local`:
-
-```bash
-EXPO_PUBLIC_ANTHROPIC_BASE_URL=https://your-proxy.example.com
-EXPO_PUBLIC_PROXY_CLIENT_TOKEN=<the PROXY_CLIENT_TOKEN value>
-```
-
-The proxy only forwards `POST /v1/messages`, checks the client token, limits
-body size and restricts models (`ALLOWED_MODELS`). Add per-user auth/rate
-limiting before exposing it publicly.
-
-**Option B — personal use:** paste your own key in *Settings → Receipt
-reading*. It's stored in the iOS Keychain / Android Keystore.
-
-For local development, run the proxy locally or paste a key in Settings. No
-Anthropic key is read from the build environment, so none can be bundled.
+AI reading is **bring-your-own-key**: the user pastes their own Anthropic key
+in *Settings → Advanced → Anthropic API key*. It's stored in the iOS Keychain /
+Android Keystore and the request goes straight from the phone to Anthropic.
+There is no hosted backend and no key is read from the build environment, so
+none can be bundled. Without a key the app uses on-device OCR and manual entry.
 
 The first time a receipt is read with AI, Shovar asks for consent and explains
 that only the image is sent, only to extract details. AI reading can be turned
@@ -232,7 +212,7 @@ What's covered:
 - **Extraction parsing** — normalization of model output (confidence
   highlighting, currencies, dates, plausibility), the Hebrew/English receipt
   parser, the exact Claude request (headers, schema, PDF blocks, error
-  mapping) via the real SDK against a mock API, and the proxy end-to-end.
+  mapping) via the real SDK against a mock API.
 - **Links & sharing** — page metadata, store detection, share routing.
 - **Reminders** — expiry planning/reconciliation; geofence planning,
   places cache and cooldown, providers, notification copy.
@@ -290,7 +270,7 @@ all of which survive app updates. To keep that true:
   passcode). While the lock is on, the app re-locks after a minute in the
   background and hides its content in the app switcher.
 - **AI extraction:** when enabled, the receipt image/PDF — and nothing else —
-  is sent to Anthropic's Claude API (directly or via your proxy) only to
+  is sent to Anthropic's Claude API (directly from the phone, with the user's own key) only to
   extract the details. Stated in-app on the scan screen and on first use.
 - **Store locations:** only a store name and a ~11 km area centre are sent to
   Google Places / OpenStreetMap — never your exact position. Geofencing runs
@@ -317,7 +297,6 @@ src/
   services/            Bootstrap, attachments, pickers, security (lock), quick actions, demo seed
   i18n/                English + Hebrew strings
   theme/               Tokens, colors, theme provider
-server/                Optional extraction proxy (Node, no dependencies)
 test/                  Jest tests (+ sql.js driver, fixtures)
 docs/                  Screenshots and a GPX route for location testing
 ```

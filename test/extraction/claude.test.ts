@@ -61,7 +61,7 @@ const raw = {
   confidence: { item_type: 0.9, store_name: 0.95, amount: 0.9, currency: 0.95, issue_date: 0.8, expiry_date: 0.5, code: 0.9 },
 };
 
-const cfg = () => ({ mode: 'proxy' as const, apiKey: 'test-key', baseURL, model: 'claude-opus-5-5' });
+const cfg = () => ({ apiKey: 'test-key', baseURL, model: 'claude-opus-5-5' });
 
 /**
  * The jest-expo environment replaces global fetch with React Native's polyfill,
@@ -145,5 +145,7 @@ describe('Claude extraction client (Anthropic SDK against a local mock API)', ()
     expect(req.output_config.format.type).toBe('json_schema');
     expect(modelSupportsEffort('claude-opus-5-5')).toBe(true);
     expect(modelSupportsEffort('claude-sonnet-4-5')).toBe(false);
+    expect(modelSupportsEffort('claude-haiku-4-5')).toBe(false);
+    expect(modelSupportsEffort('claude-haiku-5-5')).toBe(true);
   });
 });

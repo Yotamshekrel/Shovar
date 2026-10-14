@@ -28,8 +28,9 @@ export class ExtractionError extends Error {
 /** Server-side refusal fallback is available on these models (Claude API). */
 const FALLBACK_MODELS = new Set(['claude-opus-5-5', 'claude-opus-5', 'claude-fable-5-1', 'claude-sonnet-5-5']);
 
-/** `output_config.effort` is rejected by Haiku 4.5 / Sonnet 4.5 and older. */
+/** `output_config.effort` is rejected by Haiku 4.5 / Sonnet 4.5 and older; Haiku 5.x accepts it. */
 export function modelSupportsEffort(model: string): boolean {
+  if (/^claude-haiku-5/.test(model)) return true;
   return /^claude-(opus|sonnet|fable|mythos)-(5|4-[5-9])/.test(model) && !/^claude-sonnet-4-5/.test(model);
 }
 
@@ -69,8 +70,8 @@ export function createClient(cfg: AiConfig, fetchImpl?: typeof fetch): Anthropic
   return new Anthropic({
     apiKey: cfg.apiKey,
     baseURL: cfg.baseURL || undefined,
-    // The key is either the user's own (device keychain) or a proxy placeholder;
-    // this flag only acknowledges the client runs outside a server.
+    // The key is always the user's own (device keychain); this flag only
+    // acknowledges the client runs outside a server.
     dangerouslyAllowBrowser: true,
     maxRetries: 1,
     timeout: 45_000,

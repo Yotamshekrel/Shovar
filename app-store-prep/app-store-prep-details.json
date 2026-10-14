@@ -1,0 +1,30 @@
+{
+  "audited": "2026-10-14",
+  "app": { "name": "Shovar", "bundleId": "com.shvar.wallet", "version": "1.0.0", "expoSdk": 57 },
+  "checks": {
+    "typecheck": "pass",
+    "lint": "pass",
+    "jest": { "suites": 16, "tests": 240, "result": "pass" },
+    "privacyPolicyUrl": { "url": "https://yotamshekrel.github.io/Shovar/privacy/", "http": 200 },
+    "secretsTracked": false,
+    "anthropicKeyInGitHistory": false,
+    "androidTargetSdk": 36,
+    "androidMinSdk": 24
+  },
+  "summary": {
+    "ios": { "done": 11, "missing": 1, "partial": 6, "manual": 4 },
+    "android": { "done": 14, "missing": 1, "partial": 5, "manual": 3 }
+  },
+  "gaps": [
+    { "id": "ai-backend", "severity": "high", "effort": "medium", "platforms": ["ios", "android"], "title": "Production AI proxy not deployed; EXPO_PUBLIC_ANTHROPIC_BASE_URL unset" },
+    { "id": "write-settings", "severity": "medium", "effort": "quick", "platforms": ["android"], "title": "WRITE_SETTINGS in merged manifest via expo-brightness" },
+    { "id": "bg-location-review", "severity": "high", "effort": "medium", "platforms": ["ios", "android"], "title": "Background location demo video (Play) and reviewer test path (Apple)" },
+    { "id": "keystores", "severity": "medium", "effort": "quick", "platforms": ["android"], "title": "Three loose .jks files in repo root; identify and back up upload key" },
+    { "id": "submit-config", "severity": "medium", "effort": "medium", "platforms": ["ios", "android"], "title": "eas.json submit missing ascAppId / serviceAccountKeyPath" },
+    { "id": "share-extension-signing", "severity": "medium", "effort": "medium", "platforms": ["ios"], "title": "Share extension App ID/app group/profile via first interactive build" },
+    { "id": "metadata", "severity": "low", "effort": "quick", "platforms": ["ios"], "title": "Keywords, subtitle, What's New, Support URL" },
+    { "id": "console-forms", "severity": "medium", "effort": "medium", "platforms": ["ios", "android"], "title": "Data Safety / App Privacy / rating / export compliance" },
+    { "id": "closed-test", "severity": "medium", "effort": "significant", "platforms": ["android"], "title": "12 testers x 14 days if new personal Play account" },
+    { "id": "landing-badges", "severity": "low", "effort": "quick", "platforms": [], "title": "Landing page still says Coming soon" }
+  ]
+}

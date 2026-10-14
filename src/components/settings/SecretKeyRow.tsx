@@ -13,7 +13,7 @@ export function SecretKeyRow({
   hint,
   explainTitle,
   explain,
-  envConfigured,
+  envConfigured = false,
   onChange,
   testID,
 }: {
@@ -23,7 +23,8 @@ export function SecretKeyRow({
   /** Shown in a pop-up whenever the row is opened, explaining why the app can use this key. */
   explainTitle: string;
   explain: string;
-  envConfigured: boolean;
+  /** The key is also provided at build time (so "Configured (build)" is shown when none is stored). */
+  envConfigured?: boolean;
   onChange?: () => void;
   testID?: string;
 }) {
