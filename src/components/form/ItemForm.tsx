@@ -9,6 +9,7 @@ import { SUPPORTED_CURRENCIES, currencySymbol, minorToInput } from '@/domain/mon
 import type { BarcodeFormat, ItemDraft, ItemType } from '@/domain/types';
 import { type FormErrors, type ItemFormValues, validateItemForm } from '@/domain/validation';
 import { useI18n } from '@/i18n';
+import { networkLabel, networksForPlatform } from '@/networks/registry';
 import { STORE_CATEGORIES, findBrand } from '@/search/brands';
 import { suggestBrands } from '@/search/searchIndex';
 import type { DraftField, PendingAttachment } from '@/state/drafts';
@@ -42,12 +43,13 @@ function toValues(d: ItemDraft): ItemFormValues {
     linkUrl: d.linkUrl ?? '',
     notes: d.notes ?? '',
     source: d.source,
+    network: d.network ?? null,
   };
 }
 
 export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], banner, submitLabel, onSubmit }: ItemFormProps) {
   const { colors, radii } = useTheme();
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const insets = useSafeAreaInsets();
   const [values, setValues] = useState<ItemFormValues>(() => toValues(initial));
   const [errors, setErrors] = useState<FormErrors>({});
@@ -83,6 +85,9 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
     return suggestBrands(values.storeName, 4).filter((b) => b.id !== exact?.id);
   }, [values.storeName, storeFocused]);
 
+  // Multi-store cards (BuyMe, Max, …) come in several kinds with different store lists.
+  const cardTypes = useMemo(() => networksForPlatform(findBrand(values.storeName)?.id), [values.storeName]);
+
   const chooseBrand = (name: string, category: string) => {
     set('storeName', name);
     if (!values.storeCategory) set('storeCategory', category);
@@ -102,6 +107,7 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
     }
     // Auto-fill category from known brands when the user didn't choose one.
     if (!draft.storeCategory) draft.storeCategory = findBrand(draft.storeName)?.category ?? null;
+    if (cardTypes.length === 0) draft.network = null;
     setSaving(true);
     setSubmitError(null);
     try {
@@ -202,6 +208,27 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
             </View>
           ) : null}
         </View>
+
+        {cardTypes.length > 1 ? (
+          <View style={styles.gapSm}>
+            <Text variant="caption" tone="secondary">
+              {t('form.cardType')}
+            </Text>
+            <View style={styles.chipsWrap}>
+              {cardTypes.map((n) => (
+                <Chip
+                  key={n.id}
+                  label={networkLabel(n, lang)}
+                  selected={(values.network ?? cardTypes[0].id) === n.id}
+                  onPress={() => set('network', n.id === cardTypes[0].id ? null : n.id)}
+                />
+              ))}
+            </View>
+            <Text variant="footnote" tone="tertiary">
+              {t('form.cardTypeHint')}
+            </Text>
+          </View>
+        ) : null}
 
         <View style={styles.row}>
           <View style={styles.flex}>

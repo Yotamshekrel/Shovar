@@ -4,7 +4,7 @@ import { AppState, Platform } from 'react-native';
 import { env } from '@/config/env';
 import { localeFor, resolveLanguage } from '@/i18n';
 import { presentNow } from '@/notifications/notifications';
-import { storeKey as storeKeyOf } from '@/search/brands';
+import { groupName, storeGroups } from '@/networks/accepted';
 import { getSecret } from '@/security/keyStore';
 import { getServices } from '@/services/database';
 import { type AppSettings, SETTINGS_KEY, getSettings, sanitizeSettings, useSettingsStore } from '@/state/settings';
@@ -28,6 +28,13 @@ export const LOCATION_STATUS_KEY = 'location.status';
 const LOOKUP_RADIUS_M = 12_000;
 /** Cap network lookups per refresh (battery + API quota); the rest happen on later refreshes. */
 const MAX_LOOKUPS_PER_REFRESH = 6;
+/** Extra lookups per refresh for stores reached only through multi-store cards (BuyMe, Tav Zahav, …). */
+const MAX_NETWORK_LOOKUPS_PER_REFRESH = 6;
+/** Scan: lookups for multi-store card stores, done in progressive batches so results appear as they arrive. */
+const MAX_SCAN_NETWORK_LOOKUPS = 40;
+const SCAN_BATCH = 10;
+/** A branch reached only through a multi-store card counts as this many times further away when picking geofences. */
+const NETWORK_DISTANCE_PENALTY = 2;
 const FIX_TIMEOUT_MS = 8_000;
 /** The scan looks up branches around a ~2 km grid cell (radius covers the whole scan radius from anywhere in it). */
 const SCAN_CELL_DEG = 0.02;
@@ -148,9 +155,13 @@ async function doRefresh(reason: string, opts: { position?: LatLng; foreground?:
     const cell = cellKey(position);
     const provider = await placesProvider();
     const stale: StoreQuery[] = [];
+    let staleNetwork = 0;
     for (const q of groups.values()) {
-      if (stale.length >= MAX_LOOKUPS_PER_REFRESH) break;
-      if (!(await cache.isFresh(q.storeKey, cell))) stale.push(q);
+      const viaNetwork = (q.rank ?? 0) > 0;
+      if (viaNetwork ? staleNetwork >= MAX_NETWORK_LOOKUPS_PER_REFRESH : stale.length - staleNetwork >= MAX_LOOKUPS_PER_REFRESH) continue;
+      if (await cache.isFresh(q.storeKey, cell)) continue;
+      stale.push(q);
+      if (viaNetwork) staleNetwork++;
     }
     await Promise.all(
       stale.map(async (q) => {
@@ -169,10 +180,13 @@ async function doRefresh(reason: string, opts: { position?: LatLng; foreground?:
       placeId: p.id,
       lat: p.lat,
       lng: p.lng,
+      distanceWeight: (groups.get(p.storeKey)?.rank ?? 0) > 0 ? NETWORK_DISTANCE_PENALTY : 1,
     }));
-    for (const i of active) {
-      if (i.pinnedLat != null && i.pinnedLng != null && groups.has(storeKeyOf(i.storeName))) {
-        candidates.push({ storeKey: storeKeyOf(i.storeName), placeId: `pinned:${i.id}`, lat: i.pinnedLat, lng: i.pinnedLng });
+    for (const g of storeGroups(active).values()) {
+      if (!g.direct || !groups.has(g.key)) continue;
+      for (const i of g.items) {
+        if (i.pinnedLat != null && i.pinnedLng != null)
+          candidates.push({ storeKey: g.key, placeId: `pinned:${i.id}`, lat: i.pinnedLat, lng: i.pinnedLng });
       }
     }
 
@@ -224,7 +238,10 @@ export async function notifyNearby(
   const here = opts.forceDistanceM != null ? null : await currentPosition(false);
   const distance = opts.forceDistanceM ?? (here ? distanceMeters(here, place) : fallbackDistanceM);
   const lang = resolveLanguage(settings.language);
-  const content = nearbyNotificationContent(items, distance, lang, localeFor(lang));
+  // A multi-store card (BuyMe, …) is used at another store: name the store you are near, not the card.
+  const group = storeGroups(items).get(storeKey);
+  const storeName = group && !group.direct ? groupName(group, lang) || undefined : undefined;
+  const content = nearbyNotificationContent(items, distance, lang, localeFor(lang), storeName);
   if (!content) return false;
   await presentNow(content);
   return true;
@@ -272,23 +289,27 @@ export async function scanNearby(onUpdate?: (partial: ScanOutcome) => void): Pro
 
     const cache = new PlacesCache(db);
     const cell = scanCell(position);
-    const relevant = active.filter((i) => groups.has(storeKeyOf(i.storeName)));
+    const all = [...groups.values()];
+    const stale: StoreQuery[] = [];
+    for (const q of all) if (!(await cache.isFresh(q.storeKey, cell))) stale.push(q);
+    // Stores of your own cards are always checked; stores reached through multi-store cards are capped, best-known first.
+    const direct = stale.filter((q) => (q.rank ?? 0) === 0);
+    const viaNetwork = stale.filter((q) => (q.rank ?? 0) > 0).slice(0, MAX_SCAN_NETWORK_LOOKUPS);
+    const checked =
+      all.filter((q) => (q.rank ?? 0) === 0).length + Math.min(all.filter((q) => (q.rank ?? 0) > 0).length, MAX_SCAN_NETWORK_LOOKUPS);
     const compute = async (): Promise<ScanOutcome> => ({
       status: 'ok',
-      stores: nearbyStores(relevant, await cache.placesFor([...groups.keys()]), position),
-      storesWithCredit: groups.size,
+      stores: nearbyStores(active, await cache.placesFor([...groups.keys()]), position),
+      storesWithCredit: checked,
     });
-
-    const stale: StoreQuery[] = [];
-    for (const q of groups.values()) if (!(await cache.isFresh(q.storeKey, cell))) stale.push(q);
-    if (stale.length === 0) return compute();
+    if (direct.length + viaNetwork.length === 0) return compute();
 
     const cached = await compute();
     if (cached.status === 'ok' && cached.stores.length > 0) onUpdate?.(cached);
 
     const provider = await placesProvider();
-    await Promise.all(
-      stale.map(async (q) => {
+    const lookup = (q: StoreQuery) =>
+      (async () => {
         try {
           // Only the store name and a ~2 km grid-cell center are sent — never the exact position.
           const places = await provider.searchStore(q, scanCellCenter(cell), SCAN_LOOKUP_RADIUS_M);
@@ -296,8 +317,15 @@ export async function scanNearby(onUpdate?: (partial: ScanOutcome) => void): Pro
         } catch (e) {
           console.warn('[location] scan lookup failed', q.storeKey, e);
         }
-      }),
-    );
+      })();
+    await Promise.all(direct.map(lookup));
+    for (let i = 0; i < viaNetwork.length; i += SCAN_BATCH) {
+      await Promise.all(viaNetwork.slice(i, i + SCAN_BATCH).map(lookup));
+      if (i + SCAN_BATCH < viaNetwork.length) {
+        const partial = await compute();
+        if (partial.status === 'ok' && partial.stores.length > 0) onUpdate?.(partial);
+      }
+    }
     return compute();
   } catch (e) {
     console.warn('[location] scan failed', e);

@@ -5,7 +5,7 @@ import { Platform } from 'react-native';
 import { isActive } from '@/domain/status';
 import type { Item } from '@/domain/types';
 import { useI18n } from '@/i18n';
-import { storeKey } from '@/search/brands';
+import { groupName, storeGroups } from '@/networks/accepted';
 import { getServices } from '@/services/database';
 import { useItemsStore } from '@/state/items';
 import { useSettings } from '@/state/settings';
@@ -20,6 +20,8 @@ export interface NearbyCredit {
   item: Item;
   distanceM: number;
   distanceLabel: string;
+  /** Where the card can be used, when that differs from the card's own store (multi-store cards). */
+  atStore: string | null;
 }
 
 /**
@@ -44,9 +46,17 @@ export function useNearbyCredit(limit = 3): NearbyCredit[] {
       if (!pos || !alive) return;
       const active = items.filter((i) => isActive(i) && i.balanceMinor !== 0);
       const { db } = await getServices();
-      const places = await new PlacesCache(db).placesFor([...new Set(active.map((i) => storeKey(i.storeName)))]);
+      const places = await new PlacesCache(db).placesFor([...storeGroups(active).keys()]);
       const near = nearestCredit(active, places, { lat: pos.coords.latitude, lng: pos.coords.longitude }).slice(0, limit);
-      if (alive) setResult(near.map((n) => ({ ...n, distanceLabel: formatDistance(lang, n.distanceM) })));
+      if (alive)
+        setResult(
+          near.map((n) => ({
+            item: n.item,
+            distanceM: n.distanceM,
+            distanceLabel: formatDistance(lang, n.distanceM),
+            atStore: n.group.direct ? null : groupName(n.group, lang) || null,
+          })),
+        );
     })().catch(() => {});
     return () => {
       alive = false;

@@ -82,6 +82,8 @@ export const he: Record<StringKey, string> = {
   'form.store': 'חנות',
   'form.storePlaceholder': 'למשל שופרסל, Zara',
   'form.category': 'קטגוריה',
+  'form.cardType': 'סוג הכרטיס',
+  'form.cardTypeHint': 'קובע באילו חנויות אפשר להשתמש בו',
   'form.amount': 'סכום',
   'form.balance': 'יתרה נוכחית',
   'form.currency': 'מטבע',
@@ -164,6 +166,13 @@ export const he: Record<StringKey, string> = {
   'detail.markUsedConfirm': 'לסמן כמנוצל במלואו? הכרטיס יעבור לארכיון.',
   'detail.notFound': 'הכרטיס כבר לא קיים.',
   'detail.link': 'קישור',
+  'detail.acceptedAt': 'איפה אפשר להשתמש',
+  'detail.acceptedCount': '{count} חנויות · {card}',
+  'detail.showAll': 'הצג הכול',
+  'detail.showLess': 'הצג פחות',
+  'detail.acceptedHint': 'חפשו שם חנות כדי לבדוק אם הכרטיס תקף בה.',
+  'search.via': 'ניתן לממש ב-{store}',
+  'nearby.via': 'עם {card}',
 
   // History events
   'event.created': 'נוסף',
@@ -311,9 +320,11 @@ export const he: Record<StringKey, string> = {
   'settings.advancedHide': 'הסתרה',
   'settings.advancedHint': 'אופציונלי. Shovar עובדת במלואה גם בלי אף אחד מאלה.',
   'settings.aiKeyWhyTitle': 'למה מפתח של Anthropic?',
-  'settings.aiKeyWhy': 'רק לקריאת קבלות עם AI: מצלמים קבלה ו־Claude ממלא בשבילכם את החנות, הסכום ותוקף. ל־Shovar אין שרת משלה, ולכן הבקשה יוצאת ישירות מהטלפון עם המפתח שלכם, ונשלחת רק תמונת הקבלה. בלי מפתח הפרטים נקראים בטלפון או מוקלדים ידנית, וכל השאר עובד כרגיל.',
+  'settings.aiKeyWhy':
+    'רק לקריאת קבלות עם AI: מצלמים קבלה ו־Claude ממלא בשבילכם את החנות, הסכום ותוקף. ל־Shovar אין שרת משלה, ולכן הבקשה יוצאת ישירות מהטלפון עם המפתח שלכם, ונשלחת רק תמונת הקבלה. בלי מפתח הפרטים נקראים בטלפון או מוקלדים ידנית, וכל השאר עובד כרגיל.',
   'settings.placesKeyWhyTitle': 'למה מפתח של Google Places?',
-  'settings.placesKeyWhy': 'רק כדי למצוא סניפים בצורה שלמה יותר. תזכורות קרבה ו״מה יש לידי״ כבר עובדות בלעדיו באמצעות OpenStreetMap. המידע של Google יכול להיות שלם יותר, אבל דורש מפתח משלכם ועלול לעלות כסף. נשלחים רק שם החנות ואזור משוער (אף פעם לא המיקום המדויק).',
+  'settings.placesKeyWhy':
+    'רק כדי למצוא סניפים בצורה שלמה יותר. תזכורות קרבה ו״מה יש לידי״ כבר עובדות בלעדיו באמצעות OpenStreetMap. המידע של Google יכול להיות שלם יותר, אבל דורש מפתח משלכם ועלול לעלות כסף. נשלחים רק שם החנות ואזור משוער (אף פעם לא המיקום המדויק).',
   'settings.configured': 'מוגדר',
   'settings.notConfigured': 'לא מוגדר',
   'settings.data': 'נתונים',
@@ -327,7 +338,8 @@ export const he: Record<StringKey, string> = {
   'settings.contact': 'יצירת קשר ותמיכה',
   'legal.title': 'מקורות מידע ורישיונות',
   'legal.osmTitle': 'נתוני מפה',
-  'legal.osmBody': 'מיקומי החנויות מגיעים מ־OpenStreetMap (דרך Overpass API ו־Photon של komoot) ואם הוספתם מפתח משלכם — גם מ־Google Places. © תורמי OpenStreetMap, ברישיון Open Database License.',
+  'legal.osmBody':
+    'מיקומי החנויות מגיעים מ־OpenStreetMap (דרך Overpass API ו־Photon של komoot) ואם הוספתם מפתח משלכם — גם מ־Google Places. © תורמי OpenStreetMap, ברישיון Open Database License.',
   'legal.osmLink': 'זכויות היוצרים של OpenStreetMap',
   'legal.aiTitle': 'קריאת קבלות באמצעות AI',
   'legal.aiBody': 'כשקריאת ה־AI פעילה, תמונת הקבלה שבחרתם נשלחת ל־Claude API של Anthropic אך ורק לצורך חילוץ הפרטים. שום דבר אחר לא נשלח.',
@@ -339,7 +351,8 @@ export const he: Record<StringKey, string> = {
   'locationPerm.body': 'שובר יכול להזכיר לך כשעוברים ליד חנות שיש לך בה זיכוי — למשל ״יש לך זיכוי של ‎₪120 בזארה, במרחק 150 מ׳״.',
   'locationPerm.point1': 'משתמש בגידור וירטואלי חסכוני של המערכת, לא במעקב GPS רציף.',
   'locationPerm.point2': 'המיקום המדויק שלך לא יוצא מהמכשיר. רק שמות חנויות ואזור משוער (כ־10 ק״מ) משמשים לאיתור סניפים.',
-  'locationPerm.point3': 'שובר אוסף את המיקום שלכם ברקע, גם כשהאפליקציה סגורה, אך ורק כדי להציג תזכורות אלה. בחרו ״לאפשר כל הזמן״ / ״תמיד״ כדי להפעיל.',
+  'locationPerm.point3':
+    'שובר אוסף את המיקום שלכם ברקע, גם כשהאפליקציה סגורה, אך ורק כדי להציג תזכורות אלה. בחרו ״לאפשר כל הזמן״ / ״תמיד״ כדי להפעיל.',
   'locationPerm.enable': 'הפעלת תזכורות בקרבת מקום',
   'locationPerm.notNow': 'לא עכשיו',
   'locationPerm.denied': 'לא ניתנה הרשאת מיקום. אפשר להפעיל אותה בהגדרות המערכת.',

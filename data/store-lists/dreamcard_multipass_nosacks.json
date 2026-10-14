@@ -1,0 +1,105 @@
+{
+ "platform": "dreamcard",
+ "variant": "multipass-with-double-promos-no-sacks",
+ "updated": "2026-09-29",
+ "source": "https://www.dcgift.co.il/include-nosacks",
+ "notes": "Terms page \"תקנון דרים קארד מולטיפאס כולל כפל - ללא סאקס\".",
+ "count": 19,
+ "stores": [
+  {
+   "brand": "fox",
+   "name": "FOX",
+   "nameEn": "FOX"
+  },
+  {
+   "brand": null,
+   "name": "FOX HOME",
+   "nameEn": "FOX HOME"
+  },
+  {
+   "brand": null,
+   "name": "AMERICAN EAGLE",
+   "nameEn": "AMERICAN EAGLE"
+  },
+  {
+   "brand": null,
+   "name": "NIKE",
+   "nameEn": "NIKE"
+  },
+  {
+   "brand": null,
+   "name": "FOOT LOCKER",
+   "nameEn": "FOOT LOCKER"
+  },
+  {
+   "brand": null,
+   "name": "LALINE",
+   "nameEn": "LALINE"
+  },
+  {
+   "brand": null,
+   "name": "MANGO",
+   "nameEn": "MANGO"
+  },
+  {
+   "brand": null,
+   "name": "AERIE",
+   "nameEn": "AERIE"
+  },
+  {
+   "brand": null,
+   "name": "CONVERSE",
+   "nameEn": "CONVERSE"
+  },
+  {
+   "brand": null,
+   "name": "BILLABONG",
+   "nameEn": "BILLABONG"
+  },
+  {
+   "brand": null,
+   "name": "THE CHILDRENS PLACE",
+   "nameEn": "THE CHILDRENS PLACE"
+  },
+  {
+   "brand": null,
+   "name": "QUICKSILVER",
+   "nameEn": "QUICKSILVER"
+  },
+  {
+   "brand": null,
+   "name": "FLYING TIGER",
+   "nameEn": "FLYING TIGER"
+  },
+  {
+   "brand": null,
+   "name": "SUNGLASSHUT",
+   "nameEn": "SUNGLASSHUT"
+  },
+  {
+   "brand": null,
+   "name": "שילב",
+   "nameEn": "Shilav"
+  },
+  {
+   "brand": null,
+   "name": "JUMBO",
+   "nameEn": "JUMBO"
+  },
+  {
+   "brand": null,
+   "name": "ITAY BRANDS",
+   "nameEn": "ITAY BRANDS"
+  },
+  {
+   "brand": null,
+   "name": "MINENE",
+   "nameEn": "MINENE"
+  },
+  {
+   "brand": null,
+   "name": "RUBY BAY",
+   "nameEn": "RUBY BAY"
+  }
+ ]
+}

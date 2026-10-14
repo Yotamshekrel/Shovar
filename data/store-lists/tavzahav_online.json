@@ -1,0 +1,185 @@
+{
+ "platform": "tavzahav",
+ "variant": "online",
+ "updated": "2026-09-29",
+ "source": "https://tavhazahav.shufersal.co.il/tavhazahav/ (tiles under \"רשתות למימוש תו הזהב וגיפטקארד\"; names taken from tile aria-labels)",
+ "notes": "The \"OnLine\" tab. Names ending in \"אונליין\"/\"online\" are the online store of a chain listed in the physical list.",
+ "count": 35,
+ "stores": [
+  {
+   "brand": null,
+   "name": "שופרסל אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בי פארם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פפאיה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוקס הום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוטלוקר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מיננה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ללין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייצ' אנד הום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איב רושה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שילב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טרמינל איקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קסטרו הום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סטורי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ארקיע",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שר ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עגליס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קסטרו אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוקס הום אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טרמינל איקס אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איב רושה אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "משלוחה אוננליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קסטרו הום אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פפאיה אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייצ' אנד או ברנד קולקשיין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וואן פרוג'קט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פורבר 21",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סטורי אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מיננה אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוטלוקר אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוקס אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אהבה קטנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דומינוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סוויט בוקס",
+   "nameEn": null
+  }
+ ]
+}

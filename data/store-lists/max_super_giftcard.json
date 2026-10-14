@@ -1,0 +1,513 @@
+{
+ "platform": "max",
+ "variant": "Super GiftCard max",
+ "updated": "2026-09-29",
+ "source": "https://www.max.co.il/gift-card-network/Super%20GiftCard%20max",
+ "notes": "Some rows carry note \"לאופן מימוש\" (the site links to redemption instructions for that business).",
+ "count": 100,
+ "stores": [
+  {
+   "brand": null,
+   "name": "וולט",
+   "nameEn": null,
+   "note": "לאופן מימוש"
+  },
+  {
+   "brand": null,
+   "name": "יאנגו דלי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ויקטורי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חצי חינם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קשת טעמים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טיב טעם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סופר יודה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נוי השדה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מקדונלדס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ברגר קינג",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סיטי מרקט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מעיין 2000",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שוק העיר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נתיב החסד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שירה מרקט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בר כל טוב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שפע ברכת השם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סופר ספיר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נטו חיסכון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קולינריק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פרשמרקט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מחסני מזון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סופר דוש",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מחסני להב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טיפ טוב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היפר דודו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שגב אקספרס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ניהון נו-בה כשר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ניהון נו-בה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איי קלאב מבית מועדון היין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סלון יווני",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שייק אווי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מוזה קוקטיילים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סמארט אייר",
+   "nameEn": null,
+   "note": "לאופן המימוש"
+  },
+  {
+   "brand": null,
+   "name": "הוליידי פיינדר",
+   "nameEn": null,
+   "note": "לאופן המימוש"
+  },
+  {
+   "brand": null,
+   "name": "פלואו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אירו הנדלינג",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טרקלין אספייר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טרמינל איקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוט לוקר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וואן פרוג'קט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Shilav",
+   "nameEn": "Shilav"
+  },
+  {
+   "brand": null,
+   "name": "פוקס הום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ללין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רייבן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סטיב מאדן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טימברלנד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ריפליי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט קידס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ארטיקים טי אל וי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דיל תאורה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פט איי די חיות בדיגיטל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ווטרלנד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עגליס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נמרוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מוצצים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'לי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טיפטופי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "TerminalX",
+   "nameEn": "TerminalX"
+  },
+  {
+   "brand": null,
+   "name": "הסטוק",
+   "nameEn": null
+  },
+  {
+   "brand": "fox",
+   "name": "פוקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אמריקן איגל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "המשביר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גלי",
+   "nameEn": null
+  },
+  {
+   "brand": "golf",
+   "name": "גולף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בייבי סטאר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מנגו",
+   "nameEn": null
+  },
+  {
+   "brand": "castro",
+   "name": "castro",
+   "nameEn": "castro"
+  },
+  {
+   "brand": null,
+   "name": "קסטרו הום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סאן גלאס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גולף אנד קו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טרקלין חשמל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גולף קידס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פולגת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אלדו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אינטימה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גולברי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גנט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'י סטאר רואו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עדיקה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בילבונג",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רובי ביי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "flying tiger",
+   "nameEn": "flying tiger"
+  },
+  {
+   "brand": null,
+   "name": "ארי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דה צ'ינלדרנס פלייס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טאוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אפריל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ניין ווסט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייץ' אנד או",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אופטיקנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דסיגואל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לי קופר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איל מקיאג'",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ורדינון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נעמן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ביתילי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אוטו דיפו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אורבן",
+   "nameEn": null
+  }
+ ]
+}

@@ -6,6 +6,8 @@ export interface GeofenceCandidate {
   placeId: string;
   lat: number;
   lng: number;
+  /** Multiplies the distance when ranking (default 1); > 1 makes the branch less likely to win a scarce region slot. */
+  distanceWeight?: number;
 }
 
 export interface PlannedRegion {
@@ -67,17 +69,17 @@ export function planGeofences(position: LatLng, candidates: GeofenceCandidate[],
   const maxRefresh = opts.maxRefreshRadiusM ?? 5_000;
   const slots = Math.max(0, opts.maxRegions - 1);
 
-  const unique = new Map<string, GeofenceCandidate & { distance: number }>();
+  const unique = new Map<string, GeofenceCandidate & { distance: number; rankDistance: number }>();
   for (const c of candidates) {
     if (!Number.isFinite(c.lat) || !Number.isFinite(c.lng)) continue;
     const id = storeRegionId(c.storeKey, c.placeId);
     if (unique.has(id)) continue;
     const distance = distanceMeters(position, c);
     if (distance > maxDistance) continue;
-    unique.set(id, { ...c, distance });
+    unique.set(id, { ...c, distance, rankDistance: distance * (c.distanceWeight ?? 1) });
   }
 
-  const nearest = [...unique.entries()].sort((a, b) => a[1].distance - b[1].distance).slice(0, slots);
+  const nearest = [...unique.entries()].sort((a, b) => a[1].rankDistance - b[1].rankDistance).slice(0, slots);
 
   const regions: PlannedRegion[] = nearest.map(([identifier, c]) => ({
     identifier,
@@ -89,7 +91,7 @@ export function planGeofences(position: LatLng, candidates: GeofenceCandidate[],
   }));
 
   // Re-plan once the user has moved about half-way to the furthest monitored branch.
-  const furthest = nearest.length ? nearest[nearest.length - 1][1].distance : maxRefresh * 2;
+  const furthest = nearest.length ? Math.max(...nearest.map(([, c]) => c.distance)) : maxRefresh * 2;
   const refreshRadius = Math.round(Math.min(maxRefresh, Math.max(minRefresh, furthest / 2)));
   regions.push({
     identifier: REFRESH_REGION_ID,

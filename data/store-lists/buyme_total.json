@@ -1,0 +1,601 @@
+{
+ "platform": "buyme",
+ "variant": "total",
+ "updated": "2026-09-29",
+ "source": "https://buyme.co.il/page/276 (single image buyme.co.il/files/newAffChainsImg20620.jpg, read visually)",
+ "notes": "Published only as an image, so names were read from logos. Hebrew names are best-effort transliterations of the Latin logos; nameEn is what the logo shows. 3 logos flagged uncertain.",
+ "count": 117,
+ "stores": [
+  {
+   "brand": "castro",
+   "name": "קסטרו",
+   "nameEn": "Castro"
+  },
+  {
+   "brand": null,
+   "name": "אדיקה",
+   "nameEn": "Adika"
+  },
+  {
+   "brand": null,
+   "name": "H&M",
+   "nameEn": "H&M"
+  },
+  {
+   "brand": null,
+   "name": "H&M Home",
+   "nameEn": "H&M Home"
+  },
+  {
+   "brand": null,
+   "name": "סטורי",
+   "nameEn": "Story"
+  },
+  {
+   "brand": null,
+   "name": "מחסני חשמל",
+   "nameEn": "Machsanei Hashmal"
+  },
+  {
+   "brand": null,
+   "name": "שילב",
+   "nameEn": "Shilav"
+  },
+  {
+   "brand": null,
+   "name": "שקם אלקטריק",
+   "nameEn": "Shekem Electric"
+  },
+  {
+   "brand": "golf",
+   "name": "גולף",
+   "nameEn": "Golf"
+  },
+  {
+   "brand": null,
+   "name": "ACE / אוטו דיפו",
+   "nameEn": "ACE / Auto Depot"
+  },
+  {
+   "brand": null,
+   "name": "רנואר",
+   "nameEn": "Renuar"
+  },
+  {
+   "brand": null,
+   "name": "קסטרו ילדים",
+   "nameEn": "Castro Kids"
+  },
+  {
+   "brand": null,
+   "name": "המשביר לצרכן",
+   "nameEn": "Hamashbir Lazarchan"
+  },
+  {
+   "brand": null,
+   "name": "אפריל",
+   "nameEn": "April"
+  },
+  {
+   "brand": null,
+   "name": "טופשופ",
+   "nameEn": "Topshop"
+  },
+  {
+   "brand": null,
+   "name": "אופטיקנה",
+   "nameEn": "Optikana"
+  },
+  {
+   "brand": null,
+   "name": "MAC",
+   "nameEn": "MAC"
+  },
+  {
+   "brand": null,
+   "name": "מגנוליה",
+   "nameEn": "Magnolia"
+  },
+  {
+   "brand": null,
+   "name": "אלדו",
+   "nameEn": "Aldo"
+  },
+  {
+   "brand": null,
+   "name": "הודיס",
+   "nameEn": "Hoodies"
+  },
+  {
+   "brand": null,
+   "name": "צומת ספרים",
+   "nameEn": "Steimatzky Tzomet Sfarim"
+  },
+  {
+   "brand": null,
+   "name": null,
+   "nameEn": null,
+   "uncertain": true,
+   "note": "logo of six dark circles with letters; could not be read"
+  },
+  {
+   "brand": null,
+   "name": "יאנגה",
+   "nameEn": "Yanga"
+  },
+  {
+   "brand": null,
+   "name": "Toys R Us",
+   "nameEn": "Toys R Us"
+  },
+  {
+   "brand": null,
+   "name": "וישוז",
+   "nameEn": "WeShoes"
+  },
+  {
+   "brand": null,
+   "name": "קליניק",
+   "nameEn": "Clinique"
+  },
+  {
+   "brand": null,
+   "name": "ריבוק",
+   "nameEn": "Reebok"
+  },
+  {
+   "brand": null,
+   "name": "אדידס",
+   "nameEn": "Adidas"
+  },
+  {
+   "brand": null,
+   "name": "גולף אנד קו",
+   "nameEn": "Golf & Co"
+  },
+  {
+   "brand": null,
+   "name": "הפנינה",
+   "nameEn": "Happening"
+  },
+  {
+   "brand": null,
+   "name": "ניין ווסט",
+   "nameEn": "Nine West"
+  },
+  {
+   "brand": null,
+   "name": "סמאשבוקס",
+   "nameEn": "Smashbox"
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": "Mega Sport"
+  },
+  {
+   "brand": null,
+   "name": "בובי בראון",
+   "nameEn": "Bobbi Brown"
+  },
+  {
+   "brand": null,
+   "name": "אסטי לאודר",
+   "nameEn": "Estee Lauder"
+  },
+  {
+   "brand": null,
+   "name": "סוהו",
+   "nameEn": "Soho"
+  },
+  {
+   "brand": null,
+   "name": "טוונטיפורסבן",
+   "nameEn": "Twentyfourseven"
+  },
+  {
+   "brand": null,
+   "name": "ג'ו מאלון",
+   "nameEn": "Jo Malone"
+  },
+  {
+   "brand": null,
+   "name": "פמינה",
+   "nameEn": "Femina"
+  },
+  {
+   "brand": null,
+   "name": "קולומביה",
+   "nameEn": "Columbia"
+  },
+  {
+   "brand": null,
+   "name": "מיניסו",
+   "nameEn": "Miniso"
+  },
+  {
+   "brand": null,
+   "name": "ביתילי",
+   "nameEn": "Beitili"
+  },
+  {
+   "brand": null,
+   "name": "עמנואל",
+   "nameEn": "Emanuel"
+  },
+  {
+   "brand": null,
+   "name": "גליתה",
+   "nameEn": "Galita"
+  },
+  {
+   "brand": null,
+   "name": "גולברי",
+   "nameEn": "Golbary"
+  },
+  {
+   "brand": null,
+   "name": "אינטימה",
+   "nameEn": "Intima"
+  },
+  {
+   "brand": null,
+   "name": "דה בודי שופ",
+   "nameEn": "The Body Shop"
+  },
+  {
+   "brand": null,
+   "name": "אמפוריום",
+   "nameEn": "Emporium"
+  },
+  {
+   "brand": null,
+   "name": "נאוטיקה",
+   "nameEn": "Nautica"
+  },
+  {
+   "brand": null,
+   "name": "Z Sport",
+   "nameEn": "Z Sport"
+  },
+  {
+   "brand": null,
+   "name": "מיננה",
+   "nameEn": "Minene"
+  },
+  {
+   "brand": null,
+   "name": "קרייזי ליין",
+   "nameEn": "Crazy Line"
+  },
+  {
+   "brand": null,
+   "name": "סוואץ'",
+   "nameEn": "Swatch"
+  },
+  {
+   "brand": null,
+   "name": "נעמן",
+   "nameEn": "Naaman"
+  },
+  {
+   "brand": null,
+   "name": "כיתן",
+   "nameEn": "Kitan"
+  },
+  {
+   "brand": null,
+   "name": "מימנטו",
+   "nameEn": "Memento"
+  },
+  {
+   "brand": null,
+   "name": "סבון",
+   "nameEn": "Sabon"
+  },
+  {
+   "brand": null,
+   "name": null,
+   "nameEn": null,
+   "uncertain": true,
+   "note": "white text on black logo, Hebrew, mirrored-looking; could not be read"
+  },
+  {
+   "brand": null,
+   "name": "טימברלנד",
+   "nameEn": "Timberland"
+  },
+  {
+   "brand": null,
+   "name": "למטייל",
+   "nameEn": "Lametayel"
+  },
+  {
+   "brand": null,
+   "name": "גאנט",
+   "nameEn": "Gant"
+  },
+  {
+   "brand": null,
+   "name": "לונגשאמפ",
+   "nameEn": "Longchamp"
+  },
+  {
+   "brand": null,
+   "name": "ארוקה",
+   "nameEn": "Erroca"
+  },
+  {
+   "brand": null,
+   "name": "4Chef",
+   "nameEn": "4Chef"
+  },
+  {
+   "brand": null,
+   "name": "נמרוד",
+   "nameEn": "Nimrod"
+  },
+  {
+   "brand": null,
+   "name": "גלי",
+   "nameEn": "Gali"
+  },
+  {
+   "brand": null,
+   "name": "פפאיה",
+   "nameEn": "Papaya"
+  },
+  {
+   "brand": null,
+   "name": "דזיגואל",
+   "nameEn": "Desigual"
+  },
+  {
+   "brand": null,
+   "name": "סופרדריי",
+   "nameEn": "Superdry"
+  },
+  {
+   "brand": null,
+   "name": "טוס",
+   "nameEn": "Tous"
+  },
+  {
+   "brand": null,
+   "name": "Take a Nap",
+   "nameEn": "Take a Nap"
+  },
+  {
+   "brand": null,
+   "name": "יולו",
+   "nameEn": "Yolo"
+  },
+  {
+   "brand": null,
+   "name": "לי קופר",
+   "nameEn": "Lee Cooper"
+  },
+  {
+   "brand": null,
+   "name": "ורדינון",
+   "nameEn": "Vardinon"
+  },
+  {
+   "brand": null,
+   "name": "קוק אנד בייק",
+   "nameEn": "Cook and Bake"
+  },
+  {
+   "brand": null,
+   "name": "סבינה מוסייב",
+   "nameEn": "Sabina Musayev"
+  },
+  {
+   "brand": null,
+   "name": "מילגה",
+   "nameEn": "Milga"
+  },
+  {
+   "brand": null,
+   "name": "דרך היין",
+   "nameEn": "Derech Hayayin"
+  },
+  {
+   "brand": null,
+   "name": "סאקוני",
+   "nameEn": "Saucony"
+  },
+  {
+   "brand": null,
+   "name": "סולתם",
+   "nameEn": "Soltam"
+  },
+  {
+   "brand": null,
+   "name": "מיה",
+   "nameEn": "Mia Inspiration"
+  },
+  {
+   "brand": null,
+   "name": "ספייסס",
+   "nameEn": "Spices"
+  },
+  {
+   "brand": null,
+   "name": "H&O",
+   "nameEn": "H&O"
+  },
+  {
+   "brand": null,
+   "name": "G-Star Raw",
+   "nameEn": "G-Star Raw"
+  },
+  {
+   "brand": null,
+   "name": "אימפרס",
+   "nameEn": "Impress"
+  },
+  {
+   "brand": null,
+   "name": "קול איט ספרינג",
+   "nameEn": "Call It Spring"
+  },
+  {
+   "brand": null,
+   "name": "מקס מורטי",
+   "nameEn": "Max Moretti"
+  },
+  {
+   "brand": null,
+   "name": "69 Slam",
+   "nameEn": "69 Slam"
+  },
+  {
+   "brand": null,
+   "name": "קלארקס",
+   "nameEn": "Clarks"
+  },
+  {
+   "brand": null,
+   "name": "בי יוניק",
+   "nameEn": "B.unique Shoes"
+  },
+  {
+   "brand": null,
+   "name": "טולמנס / טולמנס דוט",
+   "nameEn": "Tollman's / Tollman's Dot"
+  },
+  {
+   "brand": null,
+   "name": "דארלן",
+   "nameEn": "Darlan"
+  },
+  {
+   "brand": null,
+   "name": "הלד",
+   "nameEn": "Held"
+  },
+  {
+   "brand": null,
+   "name": "גולף אנד קידס",
+   "nameEn": "Golf & Kids"
+  },
+  {
+   "brand": null,
+   "name": "בוניטה דה מאס",
+   "nameEn": "Bonita de Mas"
+  },
+  {
+   "brand": null,
+   "name": "אונות & ג'אמפ",
+   "nameEn": "Onot & Jump"
+  },
+  {
+   "brand": null,
+   "name": "לסטר",
+   "nameEn": "Laster"
+  },
+  {
+   "brand": null,
+   "name": "הגרה",
+   "nameEn": "Hagara"
+  },
+  {
+   "brand": null,
+   "name": "Badim TLV",
+   "nameEn": "Badim TLV"
+  },
+  {
+   "brand": null,
+   "name": "Emanuel (לטיני)",
+   "nameEn": "Emanuel (latin logo)"
+  },
+  {
+   "brand": null,
+   "name": "טבע נאות",
+   "nameEn": "Teva Naot"
+  },
+  {
+   "brand": null,
+   "name": "ג'ק קובה",
+   "nameEn": "Jack Kuba"
+  },
+  {
+   "brand": null,
+   "name": "תיק התיקים",
+   "nameEn": "Tik Hatikim"
+  },
+  {
+   "brand": null,
+   "name": "קיפלינג",
+   "nameEn": "Kipling"
+  },
+  {
+   "brand": null,
+   "name": "Sollog",
+   "nameEn": "Sollog",
+   "uncertain": true,
+   "note": "colourful lettering, best guess"
+  },
+  {
+   "brand": null,
+   "name": "קרטרס",
+   "nameEn": "Carter's"
+  },
+  {
+   "brand": null,
+   "name": "פרש ג'ולרי",
+   "nameEn": "Fresh Jewelry"
+  },
+  {
+   "brand": null,
+   "name": "אן קליין",
+   "nameEn": "Anne Klein"
+  },
+  {
+   "brand": null,
+   "name": "פולגת",
+   "nameEn": "Polgat"
+  },
+  {
+   "brand": null,
+   "name": "לגיול",
+   "nameEn": "Laguiole"
+  },
+  {
+   "brand": null,
+   "name": "אינסטבלוק (משיק קלמין)",
+   "nameEn": "Instablock"
+  },
+  {
+   "brand": null,
+   "name": "סוויט גירל שופ",
+   "nameEn": "Sweet Girl Shop"
+  },
+  {
+   "brand": null,
+   "name": "קלאסיקה",
+   "nameEn": "Classica"
+  },
+  {
+   "brand": null,
+   "name": "ואהבת",
+   "nameEn": "VeAhavta"
+  },
+  {
+   "brand": null,
+   "name": "כל נעל סנטר",
+   "nameEn": "Kol Naal Center"
+  },
+  {
+   "brand": null,
+   "name": "איזי ספירית",
+   "nameEn": "Easy Spirit"
+  },
+  {
+   "brand": null,
+   "name": "דנה אשכנזי",
+   "nameEn": "Dana Ashkenazi"
+  }
+ ]
+}

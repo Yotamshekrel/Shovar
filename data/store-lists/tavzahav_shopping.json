@@ -1,0 +1,1489 @@
+{
+ "platform": "tavzahav",
+ "variant": "shopping",
+ "updated": "2026-09-29",
+ "source": "https://tavhazahav.shufersal.co.il/tavhazahav/ (tiles under \"רשתות למימוש תו הזהב וגיפטקארד\"; names taken from tile aria-labels)",
+ "notes": "Union of all tabs except OnLine (supermarket, beauty, leisure, fashion, home, kids, shoes, sport, electric/car, restaurants). Each store has its tab(s) in \"categories\". Some stores appear as several sub-brands (e.g. Castro men/women/kids). Site says 90+ chains; tile count is higher because sub-brands are separate tiles.",
+ "count": 178,
+ "stores": [
+  {
+   "brand": null,
+   "name": "שופרסל אונליין",
+   "nameEn": null,
+   "categories": [
+    "supermarket",
+    "online"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "שופרסל שלי",
+   "nameEn": null,
+   "categories": [
+    "supermarket"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "שופרסל דיל",
+   "nameEn": null,
+   "categories": [
+    "supermarket"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "שופרסל אקספרס",
+   "nameEn": null,
+   "categories": [
+    "supermarket"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "יוניברס",
+   "nameEn": null,
+   "categories": [
+    "supermarket"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "יש בשכונה",
+   "nameEn": null,
+   "categories": [
+    "supermarket"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גוד מרקט",
+   "nameEn": null,
+   "categories": [
+    "supermarket"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בי פארם",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "beauty"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פפאיה",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "fashion",
+    "kids",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פוקס הום",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פוטלוקר",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "fashion",
+    "shoes",
+    "sport"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "מיננה",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "shoes",
+    "sport"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ללין",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "beauty"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אייצ' אנד הום",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "איב רושה",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "beauty"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "שילב",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "טרמינל איקס",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "beauty",
+    "fashion",
+    "kids",
+    "shoes",
+    "sport"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קסטרו הום",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סטורי",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ארקיע",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "leisure"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "שר ספא",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "leisure"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "עגליס",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דומינוס",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סוויט בוקס",
+   "nameEn": null,
+   "categories": [
+    "online",
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בודי שופ",
+   "nameEn": null,
+   "categories": [
+    "beauty"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אפריל",
+   "nameEn": null,
+   "categories": [
+    "beauty"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קיקו מילאנו",
+   "nameEn": null,
+   "categories": [
+    "beauty"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קלארינס",
+   "nameEn": null,
+   "categories": [
+    "beauty"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דרימי",
+   "nameEn": null,
+   "categories": [
+    "beauty",
+    "electric_car"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פתאל",
+   "nameEn": null,
+   "categories": [
+    "leisure"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ריקושט",
+   "nameEn": null,
+   "categories": [
+    "leisure",
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דן דיל",
+   "nameEn": null,
+   "categories": [
+    "leisure",
+    "home",
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "צומת ספרים",
+   "nameEn": null,
+   "categories": [
+    "leisure"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פליינגטייגר",
+   "nameEn": null,
+   "categories": [
+    "leisure"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סטימצקי",
+   "nameEn": null,
+   "categories": [
+    "leisure"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "לורד טיקטס",
+   "nameEn": null,
+   "categories": [
+    "leisure"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "רנואר",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קרייזי ליין",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קוויקסילבר",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פקטורי 54",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פמינה",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פוקס גברים",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פוקס נשים",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פוקס ילדים",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סופרדריי",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סאקוני",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ניין ווסט",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "נאוטיקה",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "מנגו",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "לי קופר",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "לונגצ'אמפ",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "יאנגה",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "טוס",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "טומי הילפיגר",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "טוונטיפורסבן",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ואנס",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "המשביר לצרכן",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "הודיס",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דסיגואל",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דלתא",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דה נורת' פייס",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": "golf",
+   "name": "גולף",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גולברי",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ג'ק קובה",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ג'אמפ אנד עונות",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בילבונג",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בורדריידרס",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בוניטה דה מאס",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ארי",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אמפוריום",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אייצ' אנד אם",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אייצ' אנד או",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אייס קיוב",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אופטיקנה",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אפרודיטה",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אינטימה",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סאן גלאסס",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פולו ראלף לורן",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "לי",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "רובי ביי",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "וורקר",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אמור",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אוריגינלס",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דיזל",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גאס",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בראוני",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קסטרו ילדים",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קסטרו גברים",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קסטרו נשים",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קלוין קליין",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ארמני-אקסציינג",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פומה",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes",
+    "sport"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "מייקל-קורס",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "לקוסט",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "מרכז הלבשה",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "מגנוליה",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ריפליי",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "רנגלר",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בימבה אי לולה",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בוס",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אדידס",
+   "nameEn": null,
+   "categories": [
+    "fashion",
+    "shoes",
+    "sport"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בוגארט",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דונה ויקטוריה",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גבי שחק עיצובים",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "מיס נורי",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גאנט",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "האקט לונדון",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סורובסקי",
+   "nameEn": null,
+   "categories": [
+    "fashion"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "נעמן",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "כיתן",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ורדינון",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "הום סנטר",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "הום סטייל",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גולף אנד קו",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אייס",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אוטו דיפו",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סולתם-רדד",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פוד אפיל",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "נאוטיקה הום",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ביתילי",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אי די דיזיין",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "כתר",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ערד",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "הפי למון",
+   "nameEn": null,
+   "categories": [
+    "home"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קרטרס",
+   "nameEn": null,
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פוקס תינוקות",
+   "nameEn": null,
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "מוצצים",
+   "nameEn": null,
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "לי קופר קידס",
+   "nameEn": null,
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דה צ'ילדרנס פלייס",
+   "nameEn": null,
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גולף אנד קידס",
+   "nameEn": null,
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אושקוש",
+   "nameEn": null,
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פטיט בטאו",
+   "nameEn": null,
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בייביסטאר",
+   "nameEn": null,
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סקצ'רס",
+   "nameEn": null,
+   "categories": [
+    "shoes",
+    "sport"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סם אדלמן",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סטיב מאדן",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "נעלי נימרוד",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "טימברלנד",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "טבע נאות",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גלי",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ג'י קונספט סטור",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אסיקס",
+   "nameEn": null,
+   "categories": [
+    "shoes",
+    "sport"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אלדו",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "שואו אוף",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "און",
+   "nameEn": null,
+   "categories": [
+    "shoes",
+    "sport"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אלוף ספורט",
+   "nameEn": null,
+   "categories": [
+    "shoes",
+    "sport"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קונברס",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בי יוניק",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אי אנד גי",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גט-פרו",
+   "nameEn": null,
+   "categories": [
+    "shoes",
+    "sport"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אנדר-ארמור",
+   "nameEn": null,
+   "categories": [
+    "shoes"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "שקם אלקטריק",
+   "nameEn": null,
+   "categories": [
+    "electric_car"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דינמיקה",
+   "nameEn": null,
+   "categories": [
+    "electric_car"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אקס-איי מוביליטי",
+   "nameEn": null,
+   "categories": [
+    "electric_car"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גולדה",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פריים",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "חצר עין כרם",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "משלוחה",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "שגב",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "התרנגול הכחול",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "אגאדיר",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "דובנוב 8",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "כרמא",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "סיונרה",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "מתאו - תל אביב",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "גוסטינו",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בר איטליה",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "א'גנדה",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "la vaca loca",
+   "nameEn": "la vaca loca",
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "שיפודי אווזי - התקווה תל אביב",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "ריבר",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "פומו - תל אביב",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קפית במושבה - ירושלים",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "יומנגס",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "בורגר פאזל",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "שוקולולו",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  },
+  {
+   "brand": null,
+   "name": "קונדטוריית שני",
+   "nameEn": null,
+   "categories": [
+    "restaurants"
+   ]
+  }
+ ]
+}

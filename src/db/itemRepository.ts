@@ -38,6 +38,7 @@ interface ItemRow {
   location_muted: number;
   pinned_lat: number | null;
   pinned_lng: number | null;
+  network: string | null;
   created_at: string;
   updated_at: string;
   deleted_at: string | null;
@@ -84,6 +85,7 @@ export type ItemPatch = Partial<ItemDraft> & {
   pinnedLat?: number | null;
   pinnedLng?: number | null;
   storeLogoUri?: string | null;
+  network?: string | null;
 };
 
 export interface RepositoryDeps {
@@ -141,6 +143,7 @@ export class ItemRepository {
       locationMuted: row.location_muted === 1,
       pinnedLat: row.pinned_lat,
       pinnedLng: row.pinned_lng,
+      network: row.network,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
       deletedAt: row.deleted_at,
@@ -259,8 +262,8 @@ export class ItemRepository {
       await tx.run(
         `INSERT INTO items (id, type, store_name, store_key, store_category, initial_amount_minor, balance_minor, currency,
           expiry_date, purchase_date, code_enc, pin_enc, barcode_format, link_url, notes, status, source,
-          location_muted, created_at, updated_at)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, ?)`,
+          location_muted, network, created_at, updated_at)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, ?, ?)`,
         [
           id,
           draft.type,
@@ -279,6 +282,7 @@ export class ItemRepository {
           draft.notes?.trim() || null,
           status,
           draft.source,
+          draft.network ?? null,
           at,
           at,
         ],
@@ -357,6 +361,7 @@ export class ItemRepository {
     if (patch.locationMuted !== undefined) set('location_muted', patch.locationMuted ? 1 : 0);
     if (patch.pinnedLat !== undefined) set('pinned_lat', patch.pinnedLat);
     if (patch.pinnedLng !== undefined) set('pinned_lng', patch.pinnedLng);
+    if (patch.network !== undefined) set('network', patch.network);
 
     const balanceChanged = patch.balanceMinor !== undefined && patch.balanceMinor !== current.balanceMinor;
     if (balanceChanged) set('balance_minor', patch.balanceMinor ?? null);

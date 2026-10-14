@@ -55,10 +55,15 @@ export default function SearchScreen() {
     router.push(`/item/${item.id}/checkout`);
   };
 
-  const renderRow = ({ item: r }: { item: SearchResult | { item: Item; active: boolean; matched?: string; score?: number } }) => {
+  const renderRow = ({
+    item: r,
+  }: {
+    item: SearchResult | { item: Item; active: boolean; matched?: string; score?: number; via?: string | null };
+  }) => {
     const item = r.item;
     const tone = expiryTone(item.expiryDate);
-    const matchedAlias = 'matched' in r && r.matched && r.matched !== item.storeName && (r.score ?? 0) >= 0.6 ? r.matched : null;
+    const via = 'via' in r ? r.via : null;
+    const matchedAlias = !via && 'matched' in r && r.matched && r.matched !== item.storeName && (r.score ?? 0) >= 0.6 ? r.matched : null;
     return (
       <View style={[styles.row, { backgroundColor: colors.surface, borderRadius: radii.lg, opacity: r.active ? 1 : 0.6 }]}>
         <Pressable
@@ -77,7 +82,7 @@ export default function SearchScreen() {
               {item.storeName}
             </Text>
             <Text variant="footnote" tone="secondary" numberOfLines={1}>
-              {matchedAlias ? `${matchedAlias} · ` : ''}
+              {via ? `${t('search.via', { store: via })} · ` : matchedAlias ? `${matchedAlias} · ` : ''}
               {r.active ? t(`type.${item.type}`) : t('search.archivedMatch')}
             </Text>
           </View>
@@ -113,7 +118,7 @@ export default function SearchScreen() {
     );
   };
 
-  const listData = hasQuery ? results : activeItems.map((item) => ({ item, active: true }));
+  const listData = hasQuery ? results : activeItems.map((item) => ({ item, active: true, via: null }));
 
   return (
     <View style={[styles.flex, { backgroundColor: colors.background, paddingTop: insets.top + 8 }]}>
@@ -178,7 +183,7 @@ export default function SearchScreen() {
                     >
                       <Icon name="location" size={18} color={colors.primary} />
                       <Text variant="bodyStrong" style={styles.flex} numberOfLines={1}>
-                        {n.item.storeName}
+                        {n.atStore ? `${n.atStore} · ${t('nearby.via', { card: n.item.storeName })}` : n.item.storeName}
                       </Text>
                       <Text variant="callout" tone="secondary">
                         {n.distanceLabel}

@@ -1,0 +1,1598 @@
+{
+ "platform": "buyme",
+ "variant": "style",
+ "updated": "2026-09-29",
+ "source": "https://buyme.co.il/brands/7565407",
+ "notes": "All 239 names also appear in buyme_all.json.",
+ "count": 239,
+ "stores": [
+  {
+   "brand": null,
+   "name": "STORY",
+   "nameEn": "STORY",
+   "description": "רשת מותגי אופנה ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MAC",
+   "nameEn": "MAC",
+   "description": "מותג איפור בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "Dé Rococo",
+   "nameEn": null,
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": "castro",
+   "name": "CASTRO",
+   "nameEn": "CASTRO",
+   "description": "רשת אופנה ישראלית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Femina",
+   "nameEn": "Femina",
+   "description": "רשת הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "KIKO MILANO",
+   "nameEn": "KIKO MILANO",
+   "description": "מותג איפור וטיפוח בינלאומי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קולומביה, שבילים ואווטסיידרס",
+   "nameEn": null,
+   "description": "רשתות ציוד טיולים וספורט",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אופטיקה הלפרין",
+   "nameEn": null,
+   "description": "רשת משקפי שמש וראייה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "magnolia",
+   "nameEn": "magnolia",
+   "description": "רשת תכשיטים לנשים וגברים"
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": null,
+   "description": "רשת חנויות ספורט וביגוד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "עדה לזורגן",
+   "nameEn": null,
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Miss Nori",
+   "nameEn": "Miss Nori",
+   "description": "מותג אופנה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רשת Bגוד",
+   "nameEn": null,
+   "description": "רשת בייסיק וקז'ואל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "H&M",
+   "nameEn": "H&M",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "Bina & Bino",
+   "nameEn": "Bina & Bino",
+   "description": "מותג אופנה לתינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "WeShoes",
+   "nameEn": "WeShoes",
+   "description": "מותגי נעליים ואופנה"
+  },
+  {
+   "brand": null,
+   "name": "אליטל",
+   "nameEn": null,
+   "description": "רשת נעליים לכל המשפחה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BLUEBERRY",
+   "nameEn": "BLUEBERRY",
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "CAROLINA LEMKE",
+   "nameEn": "CAROLINA LEMKE",
+   "description": "רשת משקפי שמש וראייה"
+  },
+  {
+   "brand": null,
+   "name": "שני יעקובי",
+   "nameEn": null,
+   "description": "מותג תכשיטים ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "CHOZEN",
+   "nameEn": "CHOZEN",
+   "description": "אופנה וקוסמטיקה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "שופרא",
+   "nameEn": null,
+   "description": "רשת בוטיק לנעלים ותיקים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "raven",
+   "nameEn": "raven",
+   "description": "מותג בגדי ספורט לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "HOODIES",
+   "nameEn": "HOODIES",
+   "description": "רשת אופנת בייסיק, קז'ואל וספורט"
+  },
+  {
+   "brand": null,
+   "name": "URBANICA",
+   "nameEn": "URBANICA",
+   "description": "רשת אופנה לכל המשפחה"
+  },
+  {
+   "brand": null,
+   "name": "SCOTCH & SODA",
+   "nameEn": "SCOTCH & SODA",
+   "description": "רשת אופנה בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ITAY BRANDS",
+   "nameEn": "ITAY BRANDS",
+   "description": "מותג אופנת בייסיק וקז'ואל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "IL MAKIAGE",
+   "nameEn": "IL MAKIAGE",
+   "description": "מותג איפור וטיפוח בינלאומי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GOLBARY",
+   "nameEn": "GOLBARY",
+   "description": "רשת אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "JUMP & ONOT",
+   "nameEn": "JUMP & ONOT",
+   "description": "רשת אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TOPTEN",
+   "nameEn": "TOPTEN",
+   "description": "רשת אקססוריז ותיקים"
+  },
+  {
+   "brand": null,
+   "name": "TRES",
+   "nameEn": "TRES",
+   "description": "מותג אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "WORD by story",
+   "nameEn": "WORD by story",
+   "description": "מותג אופנה"
+  },
+  {
+   "brand": null,
+   "name": "H&O ו- Carter's/Oshkosh",
+   "nameEn": null,
+   "description": "רשת אופנה לכל המשפחה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "YVES ROCHER",
+   "nameEn": "YVES ROCHER",
+   "description": "חברת קוסמטיקה צרפתית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GANT",
+   "nameEn": "GANT",
+   "description": "מותג אופנה בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "ONLY'S BEAUTY",
+   "nameEn": "ONLY'S BEAUTY",
+   "description": "מותגי איפור וטיפוח אונליין",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "פפאיה",
+   "nameEn": null,
+   "description": "רשת נעלי ילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "CLINIQUE",
+   "nameEn": "CLINIQUE",
+   "description": "מותג טיפוח ואיפור בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "BOBBI BROWN",
+   "nameEn": "BOBBI BROWN",
+   "description": "מותג איפור בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "ESTEE LAUDER",
+   "nameEn": "ESTEE LAUDER",
+   "description": "מותג איפור וטיפוח בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "LASTER",
+   "nameEn": "LASTER",
+   "description": "מותג תיקים וארנקים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "דנה אשכנזי",
+   "nameEn": null,
+   "description": "מעצבת אופנת נשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בוניטה דה מאס",
+   "nameEn": null,
+   "description": "רשת הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "sweetgirlshop",
+   "nameEn": "sweetgirlshop",
+   "description": "מותג אופנה לילדות"
+  },
+  {
+   "brand": null,
+   "name": "Saucony",
+   "nameEn": "Saucony",
+   "description": "מותג נעלי ריצה וספורט"
+  },
+  {
+   "brand": null,
+   "name": "JO MALONE LONDON",
+   "nameEn": "JO MALONE LONDON",
+   "description": "מותג בישום ולייף סטייל"
+  },
+  {
+   "brand": null,
+   "name": "אופטיקנה",
+   "nameEn": null,
+   "description": "רשת משקפי שמש וראייה"
+  },
+  {
+   "brand": null,
+   "name": "Mia Inspiration",
+   "nameEn": "Mia Inspiration",
+   "description": "רשת אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "TOUS",
+   "nameEn": "TOUS",
+   "description": "מותג תכשיטים בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "LONGCHAMP",
+   "nameEn": "LONGCHAMP",
+   "description": "מותג תיקי יוקרה בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "JACK KUBA",
+   "nameEn": "JACK KUBA",
+   "description": "רשת הלבשה תחתונה יוקרתית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Erroca by Super-Pharm",
+   "nameEn": "Erroca by Super-Pharm",
+   "description": "רשת משקפי שמש וראייה"
+  },
+  {
+   "brand": null,
+   "name": "Spices Online",
+   "nameEn": "Spices Online",
+   "description": "רשת לכלי מטבח, בישול ואפיה"
+  },
+  {
+   "brand": null,
+   "name": "אריסטו שמט",
+   "nameEn": null,
+   "description": "רשת אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "CASTRO HOME",
+   "nameEn": "CASTRO HOME",
+   "description": "רשת לעיצוב הבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ALLSAINTS",
+   "nameEn": "ALLSAINTS",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "תיק התיקים",
+   "nameEn": null,
+   "description": "רשת חנויות תיקים ומזוודות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "H&O",
+   "nameEn": "H&O",
+   "description": "רשת אופנה לכל המשפחה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "APRIL",
+   "nameEn": "APRIL",
+   "description": "רשת בישום וקוסמטיקה"
+  },
+  {
+   "brand": null,
+   "name": "Desigual",
+   "nameEn": "Desigual",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "SUPERDRY",
+   "nameEn": "SUPERDRY",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "טבע נאות",
+   "nameEn": null,
+   "description": "רשת נעלי נוחות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "VANS",
+   "nameEn": "VANS",
+   "description": "מותג סניקרס ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Carter's/Oshkosh",
+   "nameEn": "Carter's/Oshkosh",
+   "description": "רשת אופנה לילדים ותינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "HACKETT & GANT",
+   "nameEn": "HACKETT & GANT",
+   "description": "יבואן מותגי אופנת פרימיום"
+  },
+  {
+   "brand": null,
+   "name": "ellesse",
+   "nameEn": "ellesse",
+   "description": "מותג ספורט ולייף סטייל"
+  },
+  {
+   "brand": null,
+   "name": "Gitta bags",
+   "nameEn": "Gitta bags",
+   "description": "מותג תיקי עגלה והחתלה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "speedo",
+   "nameEn": "speedo",
+   "description": "מותג שחייה וספורט ימי"
+  },
+  {
+   "brand": null,
+   "name": "מוצצים",
+   "nameEn": null,
+   "description": "רשת למוצרי תינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ריקושט",
+   "nameEn": null,
+   "description": "ציוד לחיילים ומטיילים"
+  },
+  {
+   "brand": null,
+   "name": "שלומית אופיר",
+   "nameEn": null,
+   "description": "עיצוב תכשיטים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "HOTCROWN Jewelry",
+   "nameEn": "HOTCROWN Jewelry",
+   "description": "מותג תכשיטי זהב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Just Believe Jewelry",
+   "nameEn": "Just Believe Jewelry",
+   "description": "מותג תכשיטים מעוצבים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "AYUCHKA",
+   "nameEn": "AYUCHKA",
+   "description": "בגדי מעצבים יד שנייה"
+  },
+  {
+   "brand": null,
+   "name": "ZOHARA",
+   "nameEn": "ZOHARA",
+   "description": "גרביונים מעוצבים"
+  },
+  {
+   "brand": null,
+   "name": "האתר הסודי לשמלות מסתובבות",
+   "nameEn": null,
+   "description": "מותג אופנה לילדות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "החנות הורודה",
+   "nameEn": null,
+   "description": "בגדי ים ברזילאים"
+  },
+  {
+   "brand": null,
+   "name": "טלי רוקני",
+   "nameEn": null,
+   "description": "מעצבת אופנת נשים"
+  },
+  {
+   "brand": null,
+   "name": "Rip Curl",
+   "nameEn": "Rip Curl",
+   "description": "מותג ציוד גלישה"
+  },
+  {
+   "brand": null,
+   "name": "Don't tell Mama",
+   "nameEn": "Don't tell Mama",
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "RONEN CHEN",
+   "nameEn": "RONEN CHEN",
+   "description": "מעצב אופנת נשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SHANI BAR",
+   "nameEn": "SHANI BAR",
+   "description": "מעצבת נעליים ותיקים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אדון קרלוס",
+   "nameEn": null,
+   "description": "אופנה ומתנות לטבעונים"
+  },
+  {
+   "brand": null,
+   "name": "malaya kids",
+   "nameEn": "malaya kids",
+   "description": "מותג אופנה לילדים"
+  },
+  {
+   "brand": null,
+   "name": "פנינה רוזנבלום",
+   "nameEn": null,
+   "description": "מותג טיפוח ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מצמן",
+   "nameEn": null,
+   "description": "רשת חנויות אופניים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "NAUTICA",
+   "nameEn": "NAUTICA",
+   "description": "רשת אופנה בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "EMPORIUM",
+   "nameEn": "EMPORIUM",
+   "description": "רשת אופנה בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TIMBERLAND",
+   "nameEn": "TIMBERLAND",
+   "description": "מותג נעליים ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "נעלי נמרוד",
+   "nameEn": null,
+   "description": "רשת נעלי ילדים ונוער",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "John Boy",
+   "nameEn": "John Boy",
+   "description": "סטודיו לקעקועים ופירסינג"
+  },
+  {
+   "brand": null,
+   "name": "JUV activewear",
+   "nameEn": "JUV activewear",
+   "description": "מותג בגדי ספורט לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MULTI BRANDS",
+   "nameEn": "MULTI BRANDS",
+   "description": "רשת מותגי אופנה"
+  },
+  {
+   "brand": null,
+   "name": "SECOND",
+   "nameEn": "SECOND",
+   "description": "בית אופנה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Vintage Original",
+   "nameEn": "Vintage Original",
+   "description": "משקפי שמש וראיה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Woman- מהפיכת הטיפוח הביתי",
+   "nameEn": null,
+   "description": "מכשירי טיפוח ביתיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "AHAVA",
+   "nameEn": "AHAVA",
+   "description": "מותג טיפוח ממוצרי ים המלח"
+  },
+  {
+   "brand": null,
+   "name": "אוריה עזרן",
+   "nameEn": null,
+   "description": "מעצבת שמלות ערב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MISHKA",
+   "nameEn": "MISHKA",
+   "description": "מותג שעונים ותכשיטים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Rev Optic",
+   "nameEn": "Rev Optic",
+   "description": "מותג משקפי שמש וראייה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "WE BAGS",
+   "nameEn": "WE BAGS",
+   "description": "מגוון תיקים ומזוודות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "תכשיטי דנון",
+   "nameEn": null,
+   "description": "מותג תכשיטים ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "תכשיטי חביב",
+   "nameEn": null,
+   "description": "מותג תכשיטים מעוצבים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רשת למטייל",
+   "nameEn": null,
+   "description": "ציוד קמפינג ומחנאות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Camel Mountain",
+   "nameEn": "Camel Mountain",
+   "description": "תיקים ומזוודות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "INTER JEANS BY NYOU",
+   "nameEn": "INTER JEANS BY NYOU",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "REPLAY",
+   "nameEn": "REPLAY",
+   "description": "רשת אופנה בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "STEVE MADDEN",
+   "nameEn": "STEVE MADDEN",
+   "description": "רשת נעליים בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "XRAY",
+   "nameEn": "XRAY",
+   "description": "מותג משקפי שמש וראייה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "את",
+   "nameEn": null,
+   "description": "רשת הלבשה תחתונה"
+  },
+  {
+   "brand": null,
+   "name": "ATA",
+   "nameEn": "ATA",
+   "description": "מותג אופנה ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Donna Victoria",
+   "nameEn": "Donna Victoria",
+   "description": "מותג הלבשה תחתונה"
+  },
+  {
+   "brand": null,
+   "name": "דניאלה להבי",
+   "nameEn": null,
+   "description": "מותג תיקים ונעליים בעיצוב ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Modibodi",
+   "nameEn": "Modibodi",
+   "description": "מותג תחתוני מחזור",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Imahot",
+   "nameEn": "Imahot",
+   "description": "בגדי הריון והנקה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SEBOCALM",
+   "nameEn": "SEBOCALM",
+   "description": "מותג טיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Forever21",
+   "nameEn": "Forever21",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "Simbioze",
+   "nameEn": "Simbioze",
+   "description": "מותג קוסמטיקה טבעית מהאמזונס",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TES- Leather Bags",
+   "nameEn": "TES- Leather Bags",
+   "description": "מותג תיקי עור",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TIKI- מותג אופנה לאנשים טובים",
+   "nameEn": null,
+   "description": "מותג אופנה ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Afrodita",
+   "nameEn": "Afrodita",
+   "description": "רשת הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ARTERRA",
+   "nameEn": "ARTERRA",
+   "description": "מותג תכשיטים אקולגיים בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בלו בנדנה",
+   "nameEn": null,
+   "description": "כלי בית ומתנות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GADE",
+   "nameEn": "GADE",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "PARAPLU",
+   "nameEn": "PARAPLU",
+   "description": "גלריית אמנות ישראלית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "משקפי OBO",
+   "nameEn": null,
+   "description": "מותג משקפי שמש"
+  },
+  {
+   "brand": null,
+   "name": "BIMBA Y LOLA",
+   "nameEn": "BIMBA Y LOLA",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "BROWNIE",
+   "nameEn": "BROWNIE",
+   "description": "מותג אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "Eye Glow",
+   "nameEn": "Eye Glow",
+   "description": "משקפי שמש",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GOVANA Fashion",
+   "nameEn": "GOVANA Fashion",
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ICE CUBE",
+   "nameEn": "ICE CUBE",
+   "description": "בוטיק אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "LEE",
+   "nameEn": "LEE",
+   "description": "מותג ג'ינס בינלאומי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MEY JEWELRY",
+   "nameEn": "MEY JEWELRY",
+   "description": "מותג תכשיטים מעוצבים"
+  },
+  {
+   "brand": null,
+   "name": "NEW ERA",
+   "nameEn": "NEW ERA",
+   "description": "מותג כובעים ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "FINE RITUALS",
+   "nameEn": "FINE RITUALS",
+   "description": "מותגי טיפוח ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "USTABELLE",
+   "nameEn": "USTABELLE",
+   "description": "מותג אופנת בוטיק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "VOLT swimwear",
+   "nameEn": "VOLT swimwear",
+   "description": "מותג בגדי ים לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "WORKER",
+   "nameEn": "WORKER",
+   "description": "רשת ביגוד והנעלה"
+  },
+  {
+   "brand": null,
+   "name": "Wrangler",
+   "nameEn": "Wrangler",
+   "description": "מותג ג'ינס בינלאומי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אלוף ספורט",
+   "nameEn": null,
+   "description": "רשת חנויות ספורט",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בא מאהבה",
+   "nameEn": null,
+   "description": "רשת אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "Hipster",
+   "nameEn": "Hipster",
+   "description": "מותג אופנה לילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Monte Black",
+   "nameEn": "Monte Black",
+   "description": "מותג הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Mantra",
+   "nameEn": "Mantra",
+   "description": "מותג אופנה לגברים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Neta Efrati",
+   "nameEn": "Neta Efrati",
+   "description": "בוטיק בגדי ערב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "נעלי SAND",
+   "nameEn": null,
+   "description": "מותג נעליי ילדים"
+  },
+  {
+   "brand": null,
+   "name": "THE NORTH FACE",
+   "nameEn": "THE NORTH FACE",
+   "description": "מותג טיולים ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רשת צומת ספרים",
+   "nameEn": null,
+   "description": "רשת חנויות ספרים"
+  },
+  {
+   "brand": null,
+   "name": "417",
+   "nameEn": "417",
+   "description": "מותג טיפוח טבעוני ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "AIMEE",
+   "nameEn": "AIMEE",
+   "description": "מותג שמלות ערב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BOGART",
+   "nameEn": "BOGART",
+   "description": "מותג אופנה לגברים"
+  },
+  {
+   "brand": null,
+   "name": "Candid",
+   "nameEn": "Candid",
+   "description": "מותג אופנה לגברים"
+  },
+  {
+   "brand": null,
+   "name": "Crocs",
+   "nameEn": "Crocs",
+   "description": "מותג נעלי נוחות בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "H&O Kids",
+   "nameEn": "H&O Kids",
+   "description": "רשת אופנה לילדים"
+  },
+  {
+   "brand": null,
+   "name": "KAHIKO Swimwear",
+   "nameEn": "KAHIKO Swimwear",
+   "description": "מותג בגדי ים לנשים"
+  },
+  {
+   "brand": null,
+   "name": "Legal Outfit",
+   "nameEn": "Legal Outfit",
+   "description": "מותג אופנה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "PELLE by shelly gafni",
+   "nameEn": "PELLE by shelly gafni",
+   "description": "מותג טיפוח מבית שלי גפני",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ASAF & TOMER",
+   "nameEn": "ASAF & TOMER",
+   "description": "מותג תכשיטים מעוצבים"
+  },
+  {
+   "brand": null,
+   "name": "TALADA",
+   "nameEn": "TALADA",
+   "description": "תכשיטים עם תמונה מוצפנת",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BARBIZ",
+   "nameEn": "BARBIZ",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Under Armour",
+   "nameEn": "Under Armour",
+   "description": "מותג ספורט בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "Biliblond",
+   "nameEn": "Biliblond",
+   "description": "בגדי ים לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BONIC",
+   "nameEn": "BONIC",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אורדמן",
+   "nameEn": null,
+   "description": "מותג אופנה צנועה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אשכר מטפחות לדתיות",
+   "nameEn": null,
+   "description": "מותג מטפחות וכיסויי ראש",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "chen keidar",
+   "nameEn": "chen keidar",
+   "description": "מעצבת אופנת נשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BUMPERS",
+   "nameEn": "BUMPERS",
+   "description": "מותג הנעלה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Daphne Skin",
+   "nameEn": "Daphne Skin",
+   "description": "מותג טיפוח וקוסמטיקה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בועז שטיין",
+   "nameEn": null,
+   "description": "מותג איפור",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ERA ACTIVE",
+   "nameEn": "ERA ACTIVE",
+   "description": "מותג בגדי ספורט לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ÉVE PROMETICS",
+   "nameEn": null,
+   "description": "מותג למוצרי טיפוח שיער",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "גלביה",
+   "nameEn": null,
+   "description": "מותג אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "FlyFoot",
+   "nameEn": "FlyFoot",
+   "description": "נעלי נוחות יפות"
+  },
+  {
+   "brand": null,
+   "name": "Hackett",
+   "nameEn": "Hackett",
+   "description": "מותג אופנה לגברים"
+  },
+  {
+   "brand": null,
+   "name": "GAL GONEN",
+   "nameEn": "GAL GONEN",
+   "description": "מותג איפור טבעוני",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "HELENA- מותג אופנה",
+   "nameEn": null,
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GLO jewelries",
+   "nameEn": "GLO jewelries",
+   "description": "מותג תכשיטי כסף",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "CADABRA",
+   "nameEn": "CADABRA",
+   "description": "אוצרות אישיים בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "HOLYLAND CIVILIANS",
+   "nameEn": "HOLYLAND CIVILIANS",
+   "description": "מותג אופנה ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "כלבו LOVE",
+   "nameEn": null,
+   "description": "כל-בו יוקרתי המשלב מותגי על"
+  },
+  {
+   "brand": null,
+   "name": "INCENSE",
+   "nameEn": "INCENSE",
+   "description": "מותג בישום",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "lilibloom",
+   "nameEn": "lilibloom",
+   "description": "מותג הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "LILY ROSE",
+   "nameEn": "LILY ROSE",
+   "description": "מותג קוסמטיקה טבעית ואקולוגית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Stylish",
+   "nameEn": "Stylish",
+   "description": "קורסי תפירה, אופנה ותדמיתנות"
+  },
+  {
+   "brand": null,
+   "name": "MIRZA",
+   "nameEn": "MIRZA",
+   "description": "מותג אופנה לגברים"
+  },
+  {
+   "brand": null,
+   "name": "סלקשיין",
+   "nameEn": null,
+   "description": "אופנה לכל המשפחה"
+  },
+  {
+   "brand": null,
+   "name": "NOFAR MOR",
+   "nameEn": "NOFAR MOR",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "סנדלי שורש",
+   "nameEn": null,
+   "description": "מותג סנדלי טיולים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Oliere Paris",
+   "nameEn": "Oliere Paris",
+   "description": "מוצרי טיפוח ועיצוב שיער",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Anat Friedman",
+   "nameEn": "Anat Friedman",
+   "description": "מעצבת אופנת נשים"
+  },
+  {
+   "brand": null,
+   "name": "OTILYAS",
+   "nameEn": "OTILYAS",
+   "description": "מותג תכשיטים מעוצבים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "תכשיטי MI-ALMA",
+   "nameEn": null,
+   "description": "תכשיטים אל זמניים לכל רגע בחיים"
+  },
+  {
+   "brand": null,
+   "name": "Redefine Hair",
+   "nameEn": "Redefine Hair",
+   "description": "מותג מוצרי שיער",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "She-Ra Jewelry",
+   "nameEn": "She-Ra Jewelry",
+   "description": "מעצבת תכשיטים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Shiree Odiz",
+   "nameEn": "Shiree Odiz",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Signet Collection",
+   "nameEn": "Signet Collection",
+   "description": "מותג תכשיטים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TFU TFU",
+   "nameEn": "TFU TFU",
+   "description": "מותג אופנה ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TULA",
+   "nameEn": "TULA",
+   "description": "מותג בגדי ים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הדרא",
+   "nameEn": null,
+   "description": "סטודיו לעיצוב כיסויי ראש, טייצים ותכשיטים בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "טיטניום",
+   "nameEn": null,
+   "description": "מותג מזוודות ותיקים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "יהלומי הבורסה",
+   "nameEn": null,
+   "description": "תכשיטי יוקרה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "& Other Stories",
+   "nameEn": "& Other Stories",
+   "description": "מותג אופנה בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "COS",
+   "nameEn": "COS",
+   "description": "מותג אופנה בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "H&M HOME",
+   "nameEn": "H&M HOME",
+   "description": "רשת לעיצוב הבית"
+  },
+  {
+   "brand": null,
+   "name": "adidas",
+   "nameEn": "adidas",
+   "description": "מותג אופנה וספורט בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "Mekimi",
+   "nameEn": "Mekimi",
+   "description": "סטייל צנוע בווייב צעיר לנשים ולנערות."
+  },
+  {
+   "brand": null,
+   "name": "almaré",
+   "nameEn": null,
+   "description": "מותג אופנה לנעליים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Slav&So | סריגה.יצירה.קהילה",
+   "nameEn": null,
+   "description": "קורסי סריגה, תיקים סרוגים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ALTRA",
+   "nameEn": "ALTRA",
+   "description": "מותג נעלי ריצה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מגוון מותגי קבוצת קסטרו הודיס",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה"
+  },
+  {
+   "brand": null,
+   "name": "COCONUT LOVE",
+   "nameEn": "COCONUT LOVE",
+   "description": "סטייל נצחי לרגעים הנוצצים של היום-יום",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קבוצת story",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "FESTIVE",
+   "nameEn": "FESTIVE",
+   "description": "תכשיטים בעיצוב אישי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קבוצת אסתי לאודר, MAC בובי בראון",
+   "nameEn": null,
+   "description": "מגוון מותגי קוסמטיקה"
+  },
+  {
+   "brand": null,
+   "name": "Guilty",
+   "nameEn": "Guilty",
+   "description": "מותגי איפור וטיפוח אונליין",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מותגי קבוצת INTER JEANS",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה בינלאומיים"
+  },
+  {
+   "brand": null,
+   "name": "Intimissimi",
+   "nameEn": "Intimissimi",
+   "description": "מותג איטלקי להלבשה תחתונה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "JanSport",
+   "nameEn": "JanSport",
+   "description": "מותג תיקי גב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "noonebetter",
+   "nameEn": "noonebetter",
+   "description": "בגדי ים עילית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Petit Loup",
+   "nameEn": "Petit Loup",
+   "description": "מוצרי בוטיק לכלבים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Salomon",
+   "nameEn": "Salomon",
+   "description": "אופנת וציוד ספורט צרפתי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SHLOMIT ZIV ALVAS",
+   "nameEn": "SHLOMIT ZIV ALVAS",
+   "description": "מעצבת אופנת נשים"
+  },
+  {
+   "brand": null,
+   "name": "מגוון מותגי קבוצת H&M",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה בינלאומיים"
+  },
+  {
+   "brand": null,
+   "name": "MEN BY NORI",
+   "nameEn": "MEN BY NORI",
+   "description": "מותג אופנה לגברים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "NORI KIDS",
+   "nameEn": "NORI KIDS",
+   "description": "מותג אופנה לילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רוזנבאום תכשיטים",
+   "nameEn": null,
+   "description": "תכשיטי זהב יהלומים ואבני חן",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Alef Alef",
+   "nameEn": "Alef Alef",
+   "description": "Contemporary Women's Outwear",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BYNETA",
+   "nameEn": "BYNETA",
+   "description": "Beauty, cosmetic & personal care",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Crazy Line",
+   "nameEn": "Crazy Line",
+   "description": "רשת אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "Creatures of Habit",
+   "nameEn": "Creatures of Habit",
+   "description": "תכשיטי זהב ויהלומים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Gambino retro X",
+   "nameEn": "Gambino retro X",
+   "description": "מותג משקפי שמש וראייה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "JLY",
+   "nameEn": "JLY",
+   "description": "אופנה צנועה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Liminal",
+   "nameEn": "Liminal",
+   "description": "אופנת פנאי ובית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "NORITAMY",
+   "nameEn": "NORITAMY",
+   "description": "תכשיטי יוקרה בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Pretty Ballerinas",
+   "nameEn": "Pretty Ballerinas",
+   "description": "מותג נעליים ספרדי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "S-wear",
+   "nameEn": "S-wear",
+   "description": "רשת אופנה לנשים, גברים וילדים"
+  },
+  {
+   "brand": null,
+   "name": "לינויה",
+   "nameEn": null,
+   "description": "מטפחות מעוצבות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מיה גלר",
+   "nameEn": null,
+   "description": "מעצבת תכשיטים • צורפת • אמנית תלת ממד",
+   "onlineRedeem": true
+  }
+ ]
+}

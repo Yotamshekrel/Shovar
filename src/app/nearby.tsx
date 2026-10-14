@@ -10,6 +10,7 @@ import { useI18n } from '@/i18n';
 import { scanNearby, type ScanOutcome } from '@/location/locationService';
 import { formatDistance } from '@/location/nearbyAlert';
 import { SCAN_RADIUS_M } from '@/location/nearest';
+import { isOwnStore } from '@/networks/accepted';
 import { useTheme } from '@/theme/ThemeProvider';
 
 /** "What's around me": which of the user's stores (with credit) have a branch close by. */
@@ -64,7 +65,13 @@ export default function NearbyScreen() {
           icon={icon}
           title={t(title)}
           body={t(body)}
-          actionTitle={outcome.status === 'no-permission' ? t('nearby.openSettings') : outcome.status === 'no-items' ? undefined : t('nearby.scanAgain')}
+          actionTitle={
+            outcome.status === 'no-permission'
+              ? t('nearby.openSettings')
+              : outcome.status === 'no-items'
+                ? undefined
+                : t('nearby.scanAgain')
+          }
           onAction={outcome.status === 'no-permission' ? () => Linking.openSettings() : outcome.status === 'no-items' ? undefined : scan}
         />
       </View>
@@ -91,7 +98,13 @@ export default function NearbyScreen() {
           </Text>
           {outcome.stores.map((s) => {
             const totals = sumByCurrency(s.items);
-            const amount = totals.filter((x) => x.totalMinor > 0).map((x) => formatMoney(x.totalMinor, x.currency, locale)).join(' + ');
+            const direct = s.items.some((i) => isOwnStore(i, s.storeKey));
+            const title = direct ? s.storeName : ((lang === 'he' ? s.storeNameHe : s.storeNameEn) ?? s.storeName);
+            const viaCards = [...new Set(s.items.filter((i) => !isOwnStore(i, s.storeKey)).map((i) => i.storeName))];
+            const amount = totals
+              .filter((x) => x.totalMinor > 0)
+              .map((x) => formatMoney(x.totalMinor, x.currency, locale))
+              .join(' + ');
             return (
               <Pressable
                 key={s.storeKey}
@@ -100,11 +113,17 @@ export default function NearbyScreen() {
                 onPress={() => router.push(`/item/${s.items[0].id}`)}
                 style={[styles.card, { backgroundColor: colors.surface, borderColor: colors.border, borderRadius: radii.card }]}
               >
-                <StoreAvatar name={s.storeName} logoUri={s.items[0].storeLogoUri} size={44} />
+                <StoreAvatar name={title} logoUri={direct ? s.items[0].storeLogoUri : null} size={44} />
                 <View style={styles.flex}>
-                  <Text variant="headline">{s.storeName}</Text>
+                  <Text variant="headline">{title}</Text>
                   <Text variant="callout" tone="secondary">
-                    {[amount, s.items.length === 1 ? t('nearby.card') : t('nearby.cards', { count: s.items.length })].filter(Boolean).join(' · ')}
+                    {[
+                      amount,
+                      s.items.length === 1 ? t('nearby.card') : t('nearby.cards', { count: s.items.length }),
+                      viaCards.length > 0 ? t('nearby.via', { card: viaCards.join(', ') }) : null,
+                    ]
+                      .filter(Boolean)
+                      .join(' · ')}
                   </Text>
                   <Text variant="footnote" tone="tertiary" numberOfLines={1}>
                     {[formatDistance(lang, s.distanceM), s.address].filter(Boolean).join(' · ')}

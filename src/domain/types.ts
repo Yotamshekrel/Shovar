@@ -54,6 +54,11 @@ export interface Item extends SyncMeta {
   /** Pinned manual location (e.g. a small local shop the places API does not know). */
   pinnedLat: number | null;
   pinnedLng: number | null;
+  /**
+   * Which store network a multi-store card (BuyMe, Tav Zahav, …) belongs to — see src/networks.
+   * null/undefined = the platform's default network; 'none' = treat it as a plain single-store card.
+   */
+  network?: string | null;
 }
 
 export type BalanceEventType = 'created' | 'usage' | 'adjustment' | 'marked_used' | 'expired' | 'reactivated';
@@ -97,6 +102,7 @@ export interface ItemDraft {
   linkUrl: string | null;
   notes: string | null;
   source: ItemSource;
+  network?: string | null;
 }
 
 export function emptyDraft(overrides: Partial<ItemDraft> = {}): ItemDraft {
@@ -115,6 +121,7 @@ export function emptyDraft(overrides: Partial<ItemDraft> = {}): ItemDraft {
     linkUrl: null,
     notes: null,
     source: 'manual',
+    network: null,
     ...overrides,
   };
 }

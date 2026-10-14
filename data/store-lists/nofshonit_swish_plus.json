@@ -1,0 +1,5030 @@
+{
+ "platform": "nofshonit",
+ "variant": "swish_plus",
+ "updated": "2026-09-29",
+ "source": "https://swish.co.il/home/all-gifts-giftcard/product-105380 (\"איפה נהנים מהמתנה?\" > \"לרשימה המלאה\")",
+ "notes": "nofshonit.co.il now redirects to swish.co.il, so this is the \"Swish Plus\" gift card (site says 900+ chains). Not confirmed that it equals the legacy Nofshonit card list. Names ending in \"אונליין\"/\"online\" are online stores. Includes hotels, spas, wineries, theatres and attractions. Duplicate names collapsed.",
+ "count": 1004,
+ "stores": [
+  {
+   "brand": null,
+   "name": "caprice diamonds",
+   "nameEn": "caprice diamonds"
+  },
+  {
+   "brand": null,
+   "name": "בואנו קאזה אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "vans online",
+   "nameEn": "vans online"
+  },
+  {
+   "brand": null,
+   "name": "תיק התיקים אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מקימי אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שייקשוק אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לינרה ליווינג אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'רוזלם ננו בייבל אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "LEE אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "NEW ERA אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Wrangler אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "bumpers online",
+   "nameEn": "bumpers online"
+  },
+  {
+   "brand": null,
+   "name": "קולומביה אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "LUKACHARI אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שר ספא אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "GA-DE אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דומינוס פיצה אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "terminal x",
+   "nameEn": "terminal x"
+  },
+  {
+   "brand": null,
+   "name": "פוקס הום אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "oh my box",
+   "nameEn": "oh my box"
+  },
+  {
+   "brand": null,
+   "name": "נאוטיקה הום אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מועדון הכותנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "H&O און ליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דיל תאורה אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מוזה קוקטיילים אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Carter's online",
+   "nameEn": "Carter's online"
+  },
+  {
+   "brand": null,
+   "name": "מיננה אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קרליין אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "SWEETWEET",
+   "nameEn": "SWEETWEET"
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Lenovo",
+   "nameEn": "Lenovo"
+  },
+  {
+   "brand": null,
+   "name": "פוד אפיל אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיקניק אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שילב אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עגליס אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קרביץ אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "YOOZ",
+   "nameEn": "YOOZ"
+  },
+  {
+   "brand": null,
+   "name": "ATIA",
+   "nameEn": "ATIA"
+  },
+  {
+   "brand": null,
+   "name": "פוקס אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לסטר אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Take a nap online",
+   "nameEn": "Take a nap online"
+  },
+  {
+   "brand": null,
+   "name": "פוט לוקר אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "The beauty intelligence",
+   "nameEn": "The beauty intelligence"
+  },
+  {
+   "brand": null,
+   "name": "BEENY ONLINE",
+   "nameEn": "BEENY ONLINE"
+  },
+  {
+   "brand": null,
+   "name": "ללין אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ESTHER אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מינוס 417 אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "NOAM LIVING",
+   "nameEn": "NOAM LIVING"
+  },
+  {
+   "brand": null,
+   "name": "קאזה בלה אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "LOOPI online",
+   "nameEn": "LOOPI online"
+  },
+  {
+   "brand": null,
+   "name": "איתי ברנדס אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עדה לזורגן אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "happy empy אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היליס מוצרים לילדים ותינוקות בעמ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נעמן ורדינון אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מוצצים אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "byneta online",
+   "nameEn": "byneta online"
+  },
+  {
+   "brand": null,
+   "name": "GABY'S online",
+   "nameEn": "GABY'S online"
+  },
+  {
+   "brand": null,
+   "name": "The North Face online",
+   "nameEn": "The North Face online"
+  },
+  {
+   "brand": null,
+   "name": "JANSPORT online",
+   "nameEn": "JANSPORT online"
+  },
+  {
+   "brand": null,
+   "name": "altra online",
+   "nameEn": "altra online"
+  },
+  {
+   "brand": null,
+   "name": "סנדלי שורש אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "simmons online",
+   "nameEn": "simmons online"
+  },
+  {
+   "brand": null,
+   "name": "KUNI online",
+   "nameEn": "KUNI online"
+  },
+  {
+   "brand": null,
+   "name": "אימהות אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אפרודיטה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נאוטיקה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טימברלנד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סבון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לי קופר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אירוקה ביי סופר-פארם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "א.א. אורטופדיה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ללין",
+   "nameEn": null
+  },
+  {
+   "brand": "golf",
+   "name": "גולף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "GOLF KIDS",
+   "nameEn": "GOLF KIDS"
+  },
+  {
+   "brand": null,
+   "name": "אינטימה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גלי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סולוג",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ניין ווסט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פפאיה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סקצ'רס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פולגת",
+   "nameEn": null
+  },
+  {
+   "brand": "fox",
+   "name": "פוקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אמריקן איגל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בילבונג",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מנגו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "The Childrens Place",
+   "nameEn": "The Childrens Place"
+  },
+  {
+   "brand": null,
+   "name": "פמינה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Nimrod and More",
+   "nameEn": "Nimrod and More"
+  },
+  {
+   "brand": null,
+   "name": "מיננה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'ק קובה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בוניטה דה מאס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ריקושט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פקטורי 54",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ראלף לורן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ARMANI EXCHANGE",
+   "nameEn": "ARMANI EXCHANGE"
+  },
+  {
+   "brand": null,
+   "name": "paul&shark",
+   "nameEn": "paul&shark"
+  },
+  {
+   "brand": null,
+   "name": "מייקל קורס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אמפוריו ארמאני",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דונה ויקטוריה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טומי הילפיגר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קלווין קליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תכשיק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "NYOU",
+   "nameEn": "NYOU"
+  },
+  {
+   "brand": null,
+   "name": "ריפליי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סטיב מאדן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "H&O",
+   "nameEn": "H&O"
+  },
+  {
+   "brand": null,
+   "name": "ליוויס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שילב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוט לוקר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לחייל ולטייל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "LEE",
+   "nameEn": "LEE"
+  },
+  {
+   "brand": null,
+   "name": "NEW ERA",
+   "nameEn": "NEW ERA"
+  },
+  {
+   "brand": null,
+   "name": "לבידו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייס קיוב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קרייזי ליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אלקטרה זכיין אדידס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אופטיקנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דיזל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספידו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אליסיום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לסטר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אמפוריום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קולומביה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Outsiders",
+   "nameEn": "Outsiders"
+  },
+  {
+   "brand": null,
+   "name": "שבילים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לי קופר קידס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פומה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פטיט באטו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לקוסט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "SHOWOFF",
+   "nameEn": "SHOWOFF"
+  },
+  {
+   "brand": null,
+   "name": "Carter's",
+   "nameEn": "Carter's"
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט קידס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "JUMP & ONOT",
+   "nameEn": "JUMP & ONOT"
+  },
+  {
+   "brand": null,
+   "name": "The North Face",
+   "nameEn": "The North Face"
+  },
+  {
+   "brand": null,
+   "name": "VANS",
+   "nameEn": "VANS"
+  },
+  {
+   "brand": null,
+   "name": "נאטורפיל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איל מקיאג'",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בייביסטאר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "G CONCEPT STORE",
+   "nameEn": "G CONCEPT STORE"
+  },
+  {
+   "brand": null,
+   "name": "DKNY",
+   "nameEn": "DKNY"
+  },
+  {
+   "brand": null,
+   "name": "GUESS",
+   "nameEn": "GUESS"
+  },
+  {
+   "brand": null,
+   "name": "סם אדלמן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בודי שופ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "את לבני נשים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סאקוני",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סאן גלס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "XRAY",
+   "nameEn": "XRAY"
+  },
+  {
+   "brand": null,
+   "name": "Ruby Bay",
+   "nameEn": "Ruby Bay"
+  },
+  {
+   "brand": null,
+   "name": "ברוקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עגליס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וילברקווין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קונברס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אלדו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בי יוניק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Rip Curl",
+   "nameEn": "Rip Curl"
+  },
+  {
+   "brand": null,
+   "name": "אהבה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אבידור",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אנדר ארמור",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פלטין מותגים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אדידס ישראל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "BOGART",
+   "nameEn": "BOGART"
+  },
+  {
+   "brand": null,
+   "name": "NK COLLECTION נאווה קולאז",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת פרופורציה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "DISKISS אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "worker",
+   "nameEn": "worker"
+  },
+  {
+   "brand": null,
+   "name": "למטייל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Take a nap",
+   "nameEn": "Take a nap"
+  },
+  {
+   "brand": null,
+   "name": "MIRZA",
+   "nameEn": "MIRZA"
+  },
+  {
+   "brand": null,
+   "name": "איתי ברנדס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "LOVE",
+   "nameEn": "LOVE"
+  },
+  {
+   "brand": null,
+   "name": "נייק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עדה לזורגן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת גט פרו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת מקימי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תיק התיקים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הגרה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אלוף הספורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Wrangler",
+   "nameEn": "Wrangler"
+  },
+  {
+   "brand": null,
+   "name": "כיתן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ביתילי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סטימצקי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "zer4u",
+   "nameEn": "zer4u"
+  },
+  {
+   "brand": null,
+   "name": "צומת ספרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ארקוסטיל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עמינח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גוד נייט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גולף אנד קו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "המשביר לצרכן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הום סטייל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מוצצים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קלאסיקה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "spices",
+   "nameEn": "spices"
+  },
+  {
+   "brand": null,
+   "name": "פוקס הום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ורדינון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נעמן פורצלן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סולתם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ואהבת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טרקלין חשמל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מכלול ברמן בקמפוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שקם אלקטריק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "american comfort",
+   "nameEn": "american comfort"
+  },
+  {
+   "brand": null,
+   "name": "AUTODEPOT",
+   "nameEn": "AUTODEPOT"
+  },
+  {
+   "brand": null,
+   "name": "ACE",
+   "nameEn": "ACE"
+  },
+  {
+   "brand": null,
+   "name": "קרביץ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "YOLO",
+   "nameEn": "YOLO"
+  },
+  {
+   "brand": null,
+   "name": "ג'ונגל חיות מחמד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "FLYING TIGER",
+   "nameEn": "FLYING TIGER"
+  },
+  {
+   "brand": null,
+   "name": "לבן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוד אפיל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נאוטיקה הום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דיל תאורה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "צמר שטיחים יפים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ערד טקסטיל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "המטבח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאזה בלה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דארלן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אורבן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אל מאגו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת אולימפיה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "SIMMONS",
+   "nameEn": "SIMMONS"
+  },
+  {
+   "brand": null,
+   "name": "רשת KUNI",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת סליפי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Rossetto",
+   "nameEn": "Rossetto"
+  },
+  {
+   "brand": null,
+   "name": "רשת הום דקור",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גשן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אנרג'וסר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סיאסטה קפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סקובר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה נטו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה פולה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קזינו סן רמו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בורגרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "la vaca loca",
+   "nameEn": "la vaca loca"
+  },
+  {
+   "brand": null,
+   "name": "קפה מנדרין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שטרודל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ווק אווי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נאפיס חולון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת מקסיקנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה קפית",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איז קפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נמסטה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מועדון ארוחת הבוקר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אינדירה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לה גופרה כרמיאל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הדרלה מעלות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיצה עגבניה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ביגה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אווז הזהב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Mikes Place",
+   "nameEn": "Mikes Place"
+  },
+  {
+   "brand": null,
+   "name": "איטלקיה בתחנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "באבא יאגה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בטר בורגר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אביבים בייקרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סושי בוקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טל בורגר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה לוגאנו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מאפה נאמן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אצה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה נמרוד תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בליקר בייקרי אשדוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סמוראיו סושי בר עפולה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לצ'ה פטיסרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'אפן ג'אפן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אל קפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סיקריט בורגר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מיסטר פרצל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פאב 55 אוכל ובירה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סולו סושי בר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וארקדה אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הצדף ראשון לציון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בורגר סטיישן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נגיסה עפולה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חצר עין כרם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גלידות בן אנד ג'ריס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאסה דל פפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נולה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיאצה גרנדה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פלומינו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חמנייה ברודצקי 17",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רוסטרס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מבשלת בירה הגיבור",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בליקר בייקרי רמת גן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בליקר בייקרי כפר סבא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בליקר בייקרי רעננה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה פיצה ואוירה בעמ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מיה ביץ'",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאסה לונה אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת יומנגס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בשורה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טגלוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גסטה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת פיצה סטורי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פינתי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אווז הזהב אקספרס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לוקנדה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פאב הדובים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מסעדת דוקא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיקולו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפטן הוק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "צ׳וצ׳ו פאטיו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Belago",
+   "nameEn": "Belago"
+  },
+  {
+   "brand": null,
+   "name": "גנדי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Just Meat",
+   "nameEn": "Just Meat"
+  },
+  {
+   "brand": null,
+   "name": "פסאו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שיפודים אקספרס אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אומינו סושי - Umino Sushi",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Us crispy chicken אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לה קרנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מיט טיים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פלייגראונד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "החברים גריל ישראלי מהדרין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיקה בייקרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בליקר בייקרי קריית גת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בורקס הבולגרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בוקה אחד העם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מכבי 40",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Villa MARE TLV",
+   "nameEn": "Villa MARE TLV"
+  },
+  {
+   "brand": null,
+   "name": "שפרה- מעדניה מבית פועה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פועה- קפה ומסעדה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אסאדו במדבר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לאר דו פאן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ברביס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לימונצ'לו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Beezoo - קונדיטוריית בוטיק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יאן סושי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה לוסיל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בליקמח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "olive-ביסטרו ישראלי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סמיר ברמלה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פראטלי נתניה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Patissereem בייקרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נוקטורנו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שווארמה פלפלת המסעדה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "WokStreet מרכז הכרמל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "WokStreet רמבם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'ויה - סושי גריל בר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איל גוסטו חיפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לוקו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Donna La Cucina",
+   "nameEn": "Donna La Cucina"
+  },
+  {
+   "brand": null,
+   "name": "זוקו מגדלי לייף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בוכמנ׳ס פיצה מודיעין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפטן בורגר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "זוקו יגאל אלון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יוגורטה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "burger box",
+   "nameEn": "burger box"
+  },
+  {
+   "brand": null,
+   "name": "אנטריקוטי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סושי בוקס מודיעין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אנטיליה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "המשביר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאבלרו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "למפור",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בטר בורגר קרית אונו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בבא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת פיצה סנטרל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הודו הגדולה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לוטם דרעי בייקרי וביסטרו שף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נגיסה לוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ביגה פתח תקווה הקניון הגדול",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה שבע",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סטלה בייקרי לוי אשכול קרית אונו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סטלה בייקרי- שדרה האקדמאית אונו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "J17",
+   "nameEn": "J17"
+  },
+  {
+   "brand": null,
+   "name": "פסטלה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת וניליה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "lunel",
+   "nameEn": "lunel"
+  },
+  {
+   "brand": null,
+   "name": "המבורגר הדיקטטור (אחי אילת)",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "המבורגר הדיקטטור (מוריה)",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בון גוסטו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Secret Pizza",
+   "nameEn": "Secret Pizza"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בזיליה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה ורה י-ם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מרינה דלאל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה רויאל י-ם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה בסיבוב (עגלת קפה)",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סלון יווני",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פאזל בורגר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מעדניית גליאנו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מסעדת רמונא הכשרה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת Greenz",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רמונא הקטנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פרמזנו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאסה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת איטליינוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רקל קונדיטוריה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיצה רומא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מעדני צ'ונה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Zeit fur Brot",
+   "nameEn": "Zeit fur Brot"
+  },
+  {
+   "brand": null,
+   "name": "pizzetta",
+   "nameEn": "pizzetta"
+  },
+  {
+   "brand": null,
+   "name": "LISA - Beer Garden",
+   "nameEn": "LISA - Beer Garden"
+  },
+  {
+   "brand": null,
+   "name": "Casa Bella ביסטרו ובר איטלקי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לופו כפר סבא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לחמשה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מילאנו בייקרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מנזה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בית קפה ארצי DELI",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לוצ'ה ערד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לה פטיסייר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קמפניה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סורנטו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "DOMO",
+   "nameEn": "DOMO"
+  },
+  {
+   "brand": null,
+   "name": "קפה פלור",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת גרקו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיצה שף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת בייגל קפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מתוקו - MATOKO",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "La Bera לה ברה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שיפודי ציפורה פתח תקווה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ביאנקה אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Leo. Resto Bar",
+   "nameEn": "Leo. Resto Bar"
+  },
+  {
+   "brand": null,
+   "name": "המבורגר הדיקטטור (התעשייה 11",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לורנס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שיסו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "fuego",
+   "nameEn": "fuego"
+  },
+  {
+   "brand": null,
+   "name": "ג'ורג'יו קפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספייס האוס דיזינגוף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "MI VA - TLV",
+   "nameEn": "MI VA - TLV"
+  },
+  {
+   "brand": null,
+   "name": "Alibi bar",
+   "nameEn": "Alibi bar"
+  },
+  {
+   "brand": null,
+   "name": "טורקיז שווארמה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שיפודי אלי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Mila house",
+   "nameEn": "Mila house"
+  },
+  {
+   "brand": null,
+   "name": "NINNYO TLV",
+   "nameEn": "NINNYO TLV"
+  },
+  {
+   "brand": null,
+   "name": "פטריקס חולון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מסעדת טאלה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אלגו דולסה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'טרו בורגר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "M32",
+   "nameEn": "M32"
+  },
+  {
+   "brand": null,
+   "name": "MEATUP- GRILL BURGER & MORE",
+   "nameEn": "MEATUP- GRILL BURGER & MORE"
+  },
+  {
+   "brand": null,
+   "name": "לה תבור בייקרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Nord 26",
+   "nameEn": "Nord 26"
+  },
+  {
+   "brand": null,
+   "name": "סן פדרו- המקסיקנית הכשרה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גרינברג בורגר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Fantasia יס פלאנט ראשון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'קיס דיינר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה גרג",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה קפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גאטוס על המים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סינטה מסעדת בשרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סואי סושי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בוצ'רי דה ברילוצ'ה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גורילה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אווזי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חוות התבלינים בגלבוע",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייר קפה איירפורט סיטי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מילקה קפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ברד אנד ברקפסט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בוצרי אחוזת בשר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לחם ארז",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ריבר נודלס בר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איטלקיה בפשפשים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מקס ברנר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "BLACK",
+   "nameEn": "BLACK"
+  },
+  {
+   "brand": null,
+   "name": "move",
+   "nameEn": "move"
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי בילו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קרוס דה סיטי - Cross The City",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מטרו metro - חדר כושר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מינימל בודי MINIMAL BODY",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת ספורטיב- GYM",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת הקאנטרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי 360",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי גן עברון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רבו פיטנס- Revo fitness",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי נוף הגליל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מרכז ספורט המכבים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אביטליטי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מרכז התזונה של מירי חדד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ארה פיטנס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אקסטרה ג'ים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תבל פילאטיס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דרים ג'ים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "כפר המכביה- מועדון ספורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ליאת יגר קבוצות הרזיה ופעילות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איב חדר כושר לנשים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי נווה אילן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "freefit",
+   "nameEn": "freefit"
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס&גו אקטיב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי אליצור",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספורטר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מוזיאון נחום גוטמן לאמנות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הבריכה העירונית קריית אונו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "באולינג סנטר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טרקטורוני עמק חפר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מוזיאון הצעצועים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "iJump",
+   "nameEn": "iJump"
+  },
+  {
+   "brand": null,
+   "name": "אקסטרים פארק עכו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חלום עולמי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סקיי טרק כדורים פורחים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קיסוסקי אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טרק ים אכזיב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הבוסתן של מוטי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיינטבול הגושרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מחבואים בחשיכה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "2jump",
+   "nameEn": "2jump"
+  },
+  {
+   "brand": null,
+   "name": "לייזר סיטי פתח תקווה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לייזר סיטי גלילות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אסקייפלנד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ווי סרף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיק אפ סרף עמותת אל הים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מצנחי הים האדום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הכוורת מרכז מבקרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ישראל 2 גו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לייזר טאג - לייזר סטריט רעננה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קווסטים חדרי בריחה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "משחקיית my baby",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הצנחניה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נינג'ה פארק רחובות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גלאקסיה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רואים את האופק בים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "imracing",
+   "nameEn": "imracing"
+  },
+  {
+   "brand": null,
+   "name": "סיורי אופנה ועיצוב - גל שוקרון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לייזר טאג הצפון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "המתחם נוף הגליל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רוג'ום מועדון טיפוס וטבע",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "MESA - בית לנגרים ולעץ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סייל אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מיסטיק רום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סימולטור Asim",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פאנקי מאנקי כפר סבא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פאנקי מאנקי אשקלון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "GO JUMP",
+   "nameEn": "GO JUMP"
+  },
+  {
+   "brand": null,
+   "name": "Dguide",
+   "nameEn": "Dguide"
+  },
+  {
+   "brand": null,
+   "name": "קיר יואב אקספארק חיפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נוגילולה - משחקיית עץ לילדים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיקסל - צילום בסמארטפון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מיי נינג'ה מודיעין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בי תל אביב טורס Be Tel Aviv tours",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אלכימיה סטודיו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אאוריקה עיצובים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פאנקי מאנקי כפר יונה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ראלי ארט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אומנות על הבר-חוף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ווטרלנד פארק המים אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פול גיימס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אתגר בהר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גלית ניניו סטיילסטית אישית",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סאנשיין גרופ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אלנתן תכשיטים סדנת צורפות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גן החיות הלימודי חיפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שחמט ישראל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טננה - קורס ספרדית דיגיטלי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אקווה פאן אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יאכטה שונית אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אנליזה - המרכז הישראלי להכשרות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "משה סימן טוב- שנות הקסם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אסקייפ פלאנט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספורט ימי באילת חיים דוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מטאור תצפיות כוכבים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הזקן והיין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נינג'ה אקסטרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "די תל אביב- D-TLV",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "eilat desert tours",
+   "nameEn": "eilat desert tours"
+  },
+  {
+   "brand": null,
+   "name": "טיקטיק חבילות ספורט והופעות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "באמפ קאר אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת פליי גיים- play game",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נינג'ה סטאר הוד השרון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Ofek woodi נגרות בוטיק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חוות לב הטבע",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גרין אקסטרים אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שוט פויינט- אייר סופט אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רייזר קלאב על הנחל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בבילון אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רווה קולינריה נוזלית",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ארטפוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רוכבים בגליל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "MY REAL QUEST חדרי בריחה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בריכת כפר יונה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "צחי כהן- סיורים וטיולים מודרכים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לייזר טאג זון - laser tag zone",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נאוג׳ה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מאנקיז אשדוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "jumpix - ג'מפיקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "משחקיית ג'ונגל סיטי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סיטי פארק רננים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "משחקיית ג'ומאנקי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מועדון גלישה דאדיז",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Quest-World חדרי בריחה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יאכטה מונטה קרלו אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חפש תמטמון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קשרי תעופה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הטייסת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אומגה טרמינל אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אטלנטיס ספורט ימי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייס פליי אילת Ice play Eilat",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספייס ראן VR",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קרייזי רומס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לופ - LOOP",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סקאי פילד בלומפילד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לונה פארק בילו סנטר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אקווה בום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "משחקיית SIXPLAY",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טרקטורוני דישון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פארק תמנע",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חוף חנניה + ז'ול ורן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חי פארק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שביל התפוזים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דרך העץ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קייקי כפר בלום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מרכז קנדה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רפטינג נהר הירדן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קיפצובה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קייקי הגושרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חמת גדר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אקווה ספורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טייפון הרחפת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פארק אתגרים אשדוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ישראל ים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פארק הדייג מעיין צבי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דן קארטינג",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סינמטק ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סול טורס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל הקרח חולון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גל במדבר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מיני ישראל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פארק קרסו למדע",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טופ 94 פארק אתגרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הגן הבוטני אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תיירות יד מרדכי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "4 chef",
+   "nameEn": "4 chef"
+  },
+  {
+   "brand": null,
+   "name": "סגווי ירושלים smart tour",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דביר מצנחי רחיפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איקא מטיילים קצת אחרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תיירות הרובע היהודי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייס פלאנט בע\"מ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חוות הר אודם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מטווח קומנדו אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה גליל טבריה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה המלכים ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה מיוזיק אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה סיטי תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה פארק ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה רויאל ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון איילנד נתניה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון קולוני",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון איב אילת רשת אדם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון גרנד קורט ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון גרנד ביץ תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון אירוס המדבר ירוחם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה מגדל דוד נתניה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון עדן אין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון לייקהאוס כנרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון ליר סנס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פרימה פאלאס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "VERT אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "VERT ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "VERT ים המלח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון קראון פלאזה תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון קראון פלאזה סיטי סנטר תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון מיוז בוטיק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון אסיינדה ביער",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פליי סי פורט תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון בראון בובו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה לינק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה מילניום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גייקוב סמואל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בראון ממילא JLM",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פולי האוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון ווסט אשדוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון בראון מחנה יהודה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וילה בראון מושבה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פרימה מנדלי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון דברה בראון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "VERT לגון נתניה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון אינדיגו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון וילה בראון תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון גלי כנרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "כפר הנופש נופי גונן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פליי הצוק תל אביב (מלון ווסט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פליי מידטאון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אוליאה olea",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאמי מלון בוטיק גלילי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סוויט קלאסיק LA",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "צימר יקב כביר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תכלת על הכנרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אלנטאון 21",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אושר בגולן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מיאליס ריזורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאסה נובה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בקתות ההוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אחוזת מיתרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חלום שלמה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אירופה בוטיק כנרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בתי נורית",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סוויטות הרמבם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אצולת הכפר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שירת הגליל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אירוח כפרי אצל תמי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רמון פאלמס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טאג' מאהל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קרוואן העמק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אחוזת ריצמונד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון 1935 רשת אדם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בתי הקייט בארבל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "כיפת השמיים - גבעת יואב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בקתה בחד נס- אלאדין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מערות נוף הצוק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אחוזת ראול",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "צימר קוצ'ה בכפר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לה פאצה - מושב חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אחוזת כינורות - טבריה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רביד הגליל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אצולת אבן חן - מושב ראש פינה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הבקתה הגלילית - מושב ארבל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מול הנוף - מושב רמות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "black and white - מושב חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אצולה בגולן - מושב חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בקתה בגולן - מושב חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פרדייז ריזורט - מושב חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בקתות מאיה - כינורות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בקתות טוסקנה - מושב רמות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בקתות ארץ כנרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "החצר המוסיקלית - מושב רמות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נפלאות הגולן - מושב חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נפלאות הגליל - מושב שפר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סייסטה ברמות - מושב חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון לוט ים המלח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון שטרקמן ארנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון אדם בוטיק אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון אואזיס ספא קלאב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלונות רוקסון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה הוטל 75 תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פרימה ורה ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון מטרופוליטן תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון בוטיק אסמבלאז'",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פולי אורבן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וילה בראון ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון בראון ביץ' האוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון דיוויד ים המלח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון ארץ דפנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הויליג' מלון מטיילים על הירדן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בראון ים המלח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פליי אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון מדברי בערבה- מלון לוטן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון מטיילים- מטולה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון מטיילים- גשר הזיו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון מטיילים- איילון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון מטיילים- מלכיה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון בראון ירושלים (מלון שלום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון PLAY לבונטין תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ממילא ויו - Mamilla View",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון נווה שלום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון ספרה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון התיאטרון ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת דומוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון פיורי 41 רשת אדם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איסלה בראון 42 אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון קומפורט אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון אלאיה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון קאסלנד ריזורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון אלמונד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון נווה אילן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון נס עמים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון אלדן - הוטל D",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון ג'יירוז - הוטל D",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון בית שמואל - הוטל D",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אחוזת הוואי - מושב חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נופים בלבן - מושב רמות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אצולת הכנרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סוויטות דה בלנקה - מושב חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "צימר בגבעה - גבעת יואב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בקתות ספיר - מושב כלנית",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וילה טורקיז",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בקתות הר ארבל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סוויטות טורקיז",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "כינורות אחוזת הכורמים דלוקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וילה ריש",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וילה לנפוש בכפר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בית הזורע",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סוויטות הליוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סוויטות דיאנס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סוויטות חלום שוויצרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קצה המדבר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עדן סוויט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "צימר לנגו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בין הר למדבר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חוות רום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מיה ריזורט & ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גולדנס - סובב כנרת חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אביב בלב - סובב כנרת חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "האני מון PREMIUM - סובב כנרת חד נס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון ברדיצ'בסקי - הוטל בי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לבן בגולן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אגם ריזורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "החופשה הקסומה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בלו סטון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אצולת הגליל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "צימרים על ההר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נוף ליער",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סוויטות La Montia",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עינות ספיר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טיפאני - סוד אהבה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Vintage village",
+   "nameEn": "Vintage village"
+  },
+  {
+   "brand": null,
+   "name": "בקתות ילוז",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לוז כנרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בקתות עץ מעל העננים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "זאוס ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וילה ויטראז ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס חיפה גרנד קניון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס רעננה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס מודיעין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רשת שר ספא מלון דן ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "חמי געש",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מטה במדבר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא בית דרך חיים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא אחוזת אסיינדה ביער",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון דן אכדיה הרצליה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שרנה ספא מלון השרון הרצליה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ארמאנני ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא ויליג חמת גדר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא ויה מאריס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא סינרגיה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לאונרדו קלאב טבריה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "share spa הרודס תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דרים ספא הרצליה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הבריאות שבפינוק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא לאונרדו פלאזה ברניקי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא האלמנט החמישי- מלון ורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לאו ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "JAH SPA מלון דן פנורמה אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פיזיום מרכז לטיפול בכאב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא בוטיק גלי כינרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בודי אנד סול",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "share Spa הרודס הרצליה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מנטרה ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "share spa יו קורל ביץ אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טומוקו גפניס ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא לה ויטה אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס ספא עזריאלי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס ספא רחובות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס גבעת שמואל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גליה ברוך קוסמטיקה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון ברדיצ'בסקי - הוטל בי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון NEA",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון אדם בוטיק רשת אדם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אנג'ל ספא מלון קיסר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "share Spa לאונרדו גורדון ביץ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון יו בוטיק כנרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "share spa דן כרמל חיפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא הוריזון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רוית אסף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון רוקסון אורבן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "share spa ניקס הרצליה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון הסוויטות איילנד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון הרודס ים המלח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון לאונרדו פלאזה ים המלח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון פרימה ים המלח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מלון לאונרדו נגב באר שבע",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דרים איילנד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "The spa דיוויד אינטרקונטיננטל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "JAH SPA דן קיסריה ריזורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "JAH SPA דן אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס ראשון לציון זאוס ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא פנינה בכרמל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון אדמונד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טיליה מרכז רפואה משלימה ופיזיותרפי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא HALO SPA במלון SeaLife",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון גולדן קראון נצרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא אלוויט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון הרודס ויטאליס אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא שייה מלון ליר סנס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא לגוף ולנשמה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ווסט אנד ספא מלון ווסט אשדוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא בוטיק מלון אירופה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון ורט לגון נתניה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ימה ספא YAMA SPA",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Okoa spa ספא מלון קמפינסקי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "share spa דיויד ים המלח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דריה ספא מלון נבל דוד רמדה נתניה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון לאונרדו פלאזה ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אנג'ל ספא מלון אמריקנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון חמת קיסר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון מאייר האוס תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא ויה לומה במלון דן תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "share spa מלון תמרה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא יסמין מלון רמדה נצרת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא אלאיה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאלמה ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון בל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אלמונד ספא- מלון אלמונד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "shoshka cosmetics",
+   "nameEn": "shoshka cosmetics"
+  },
+  {
+   "brand": null,
+   "name": "ספא סוליי - מלון Play אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייס גורו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא ספורטלי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ביוטי טיים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Flow ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דריה ספא- מלון נבל דוד גליל ריזורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דלל קוסמטיקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון בוטניקה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Just Be-גאסט בי סדנאות נשימה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טיליה קליניק צפון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Dream Well - דרים וול",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון אלמא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא חוף הכרמל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא קלרינס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא לוטוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מיראבל פלאזה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מדיקל ספא סנטר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "וי קי קליניק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא קאלמה- פולי אורבן תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "spa basilia",
+   "nameEn": "spa basilia"
+  },
+  {
+   "brand": null,
+   "name": "ספא דניאל גבעת רם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון אחוזת אקוודוט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא בוטיק פרינס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון כנען",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון אינק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון פיורי 41 - רשת סורה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "share spa - ספא מלון רוקסון אילת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון סאם אנד בלונדי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון גייקוב- נווה אטיב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא חושן - חוף התמרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא בוטיק איסלה בראון 42",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון טיביריא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא שטרקמן ארנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא אדמה - מלון בראון ביץ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא אדמה - מלון בובו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא אדמה - מלון דברה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון קומפורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון גורדוניה זכרון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא קאלמה-דן פנורמה תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא דניאל- רמדה ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא 1935 - רשת סורה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון רוטשילד 22 - רשת סורה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון HOTEL RECEPTION - רשת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון דריסקו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספא כרמיאלה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "THE GEORGE SPA",
+   "nameEn": "THE GEORGE SPA"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון סינרג'י",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בוסתן עברי יקב אלבר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב יה YA",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ביר באזר אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Razberry מרכז קולינרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב הר אודם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איש הענבים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב טוליפ -קרית טבעון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מבשלים חוויה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "Mixta cocktails",
+   "nameEn": "Mixta cocktails"
+  },
+  {
+   "brand": null,
+   "name": "בועה סדנאות בירה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב דלתון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בירה אלכסנדר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב ברקן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב גוש עציון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב הבוטיק שלי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב צובה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מזקקת טינקרס - Thinkers",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אבן רם ליקרים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מועדון היין אונליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בטן מלאה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גבינות ברמות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב שדות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שוקה סיורים קולינריים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "NS חוויה קולינרית",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב לוריא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב שאטו רמו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב רקנאטי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מבשלת בירה מלכה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייל חוויות יין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקבי בנימינה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקב קטרון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מזקקת גולני",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יקבי שילה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סינמה סיטי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון הקאמרי תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות נתניה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות כרמיאל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות נס ציונה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות לוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מרכז הבמה גני תקווה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "התזמורת הסימפונית חיפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תאטרון נדנדה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מרכז נא לגעת",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מדיטק חולון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רוגבי הפקות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "משכן אומנויות הבמה אשדוד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון חיפה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בית לסין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות ראשון לציון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות נהריה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל התיאטרון מוצקין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון באר שבע",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל אומנויות הבמה הרצליה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון רמלה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סינמטק תל אביב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות יבנה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "המרכז למוסיקה ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "התזמורת הסימפונית הישראלית ראשון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "התיאטרון שלנו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון אספקלריא ירושלים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נופיקי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תאטרון הבימה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון השחר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הכרטיס מופעי בידור",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בליץ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לירון האוירון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הזירה הבין תחומית",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קאמל קומדי קלאב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מכללת ג'אסט מיוזיק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דיוות וג׳נטלמנים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות אור עקיבא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "תפדל - בואו נדבר ערבית",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פלאפון",
+   "nameEn": null
+  }
+ ]
+}

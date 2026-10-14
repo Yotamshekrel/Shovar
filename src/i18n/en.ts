@@ -80,6 +80,8 @@ export const en = {
   'form.store': 'Store',
   'form.storePlaceholder': 'e.g. Zara, שופרסל',
   'form.category': 'Category',
+  'form.cardType': 'Card type',
+  'form.cardTypeHint': 'Decides which stores it can be used at',
   'form.amount': 'Amount',
   'form.balance': 'Remaining balance',
   'form.currency': 'Currency',
@@ -162,6 +164,13 @@ export const en = {
   'detail.markUsedConfirm': 'Mark as fully used? It will move to the archive.',
   'detail.notFound': 'This card no longer exists.',
   'detail.link': 'Link',
+  'detail.acceptedAt': 'Where you can use it',
+  'detail.acceptedCount': '{count} stores · {card}',
+  'detail.showAll': 'Show all',
+  'detail.showLess': 'Show less',
+  'detail.acceptedHint': 'Search a store name to check if this card works there.',
+  'search.via': 'Usable at {store}',
+  'nearby.via': 'via {card}',
 
   // History events
   'event.created': 'Added',
@@ -310,9 +319,11 @@ export const en = {
   'settings.advancedHide': 'Hide',
   'settings.advancedHint': 'Optional. Shovar works fully without any of these.',
   'settings.aiKeyWhyTitle': 'Why an Anthropic key?',
-  'settings.aiKeyWhy': 'Only for reading receipts with AI: you photograph a receipt and Claude fills in the store, amount and expiry for you. Shovar has no server of its own, so the request goes straight from your phone using your own key, and only the receipt image is sent. Without a key, details are read on your phone or typed in by hand, and everything else works as usual.',
+  'settings.aiKeyWhy':
+    'Only for reading receipts with AI: you photograph a receipt and Claude fills in the store, amount and expiry for you. Shovar has no server of its own, so the request goes straight from your phone using your own key, and only the receipt image is sent. Without a key, details are read on your phone or typed in by hand, and everything else works as usual.',
   'settings.placesKeyWhyTitle': 'Why a Google Places key?',
-  'settings.placesKeyWhy': 'Only to find store branches more completely. Nearby reminders and “What’s around me” already work without it, using OpenStreetMap. Google’s data can be more complete, but it needs your own key and may cost you money. Only the store name and an approximate area (never your exact position) are sent.',
+  'settings.placesKeyWhy':
+    'Only to find store branches more completely. Nearby reminders and “What’s around me” already work without it, using OpenStreetMap. Google’s data can be more complete, but it needs your own key and may cost you money. Only the store name and an approximate area (never your exact position) are sent.',
   'settings.configured': 'Configured',
   'settings.notConfigured': 'Not configured',
   'settings.data': 'Data',
@@ -326,10 +337,12 @@ export const en = {
   'settings.contact': 'Contact & support',
   'legal.title': 'Data sources & licenses',
   'legal.osmTitle': 'Map data',
-  'legal.osmBody': 'Store locations come from OpenStreetMap (via the Overpass API and Photon by komoot) and, if you add your own key, Google Places. © OpenStreetMap contributors, available under the Open Database License.',
+  'legal.osmBody':
+    'Store locations come from OpenStreetMap (via the Overpass API and Photon by komoot) and, if you add your own key, Google Places. © OpenStreetMap contributors, available under the Open Database License.',
   'legal.osmLink': 'OpenStreetMap copyright',
   'legal.aiTitle': 'AI receipt reading',
-  'legal.aiBody': 'When AI reading is on, the receipt image you choose is sent to Anthropic’s Claude API only to extract its details. Nothing else is sent.',
+  'legal.aiBody':
+    'When AI reading is on, the receipt image you choose is sent to Anthropic’s Claude API only to extract its details. Nothing else is sent.',
   'legal.ossTitle': 'Open-source software',
   'legal.ossBody': 'Shovar is built with the open-source packages below, each under its own license.',
 
@@ -338,8 +351,10 @@ export const en = {
   'locationPerm.body':
     'Shovar can remind you when you walk past a store where you have credit — for example “You have ₪120 at Zara, 150m away”.',
   'locationPerm.point1': 'Uses the system’s low-power geofencing, not constant GPS tracking.',
-  'locationPerm.point2': 'Your exact location never leaves the device. Only store names and an approximate area (about 10 km) are used to look up branches.',
-  'locationPerm.point3': 'Shovar collects your location in the background, even when the app is closed, only to show these reminders. Choose “Allow all the time” / “Always” to enable this.',
+  'locationPerm.point2':
+    'Your exact location never leaves the device. Only store names and an approximate area (about 10 km) are used to look up branches.',
+  'locationPerm.point3':
+    'Shovar collects your location in the background, even when the app is closed, only to show these reminders. Choose “Allow all the time” / “Always” to enable this.',
   'locationPerm.enable': 'Turn on nearby reminders',
   'locationPerm.notNow': 'Not now',
   'locationPerm.denied': 'Location permission was not granted. You can enable it in system settings.',

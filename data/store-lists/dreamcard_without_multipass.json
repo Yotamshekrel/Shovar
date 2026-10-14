@@ -1,0 +1,60 @@
+{
+ "platform": "dreamcard",
+ "variant": "without-multipass",
+ "updated": "2026-09-29",
+ "source": "https://www.dcgift.co.il/without",
+ "notes": "Terms page \"תקנון דרים קארד לא כולל כפל מבצעים מולטיפאס\". Not redeemable in promotions, online, for launches or at outlet stores.",
+ "count": 10,
+ "stores": [
+  {
+   "brand": "fox",
+   "name": "FOX",
+   "nameEn": "FOX"
+  },
+  {
+   "brand": null,
+   "name": "FOX HOME",
+   "nameEn": "FOX HOME"
+  },
+  {
+   "brand": null,
+   "name": "AMERICAN EAGLE",
+   "nameEn": "AMERICAN EAGLE"
+  },
+  {
+   "brand": null,
+   "name": "LALINE",
+   "nameEn": "LALINE"
+  },
+  {
+   "brand": null,
+   "name": "MANGO",
+   "nameEn": "MANGO"
+  },
+  {
+   "brand": null,
+   "name": "AERIE",
+   "nameEn": "AERIE"
+  },
+  {
+   "brand": null,
+   "name": "BILLABONG",
+   "nameEn": "BILLABONG"
+  },
+  {
+   "brand": null,
+   "name": "THE CHILDRENS PLACE",
+   "nameEn": "THE CHILDRENS PLACE"
+  },
+  {
+   "brand": null,
+   "name": "QUICKSILVER",
+   "nameEn": "QUICKSILVER"
+  },
+  {
+   "brand": null,
+   "name": "RUBY BAY",
+   "nameEn": "RUBY BAY"
+  }
+ ]
+}

@@ -1,0 +1,609 @@
+{
+ "platform": "max",
+ "variant": "GiftCard max",
+ "updated": "2026-09-29",
+ "source": "https://www.max.co.il/gift-card-network/GiftCard%20max",
+ "count": 120,
+ "stores": [
+  {
+   "brand": null,
+   "name": "טרמינל איקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רייבן ספורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דארלן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוקס הום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוט לוקר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ללין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שילב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'לי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ארטיקים טי אל וי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טימברלנד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אימפוריום",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דיל תאורה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ווטרלנד",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עגליס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "יוז",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "במפרס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איי קלאב מבית מועדון היין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פולאיז",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מוצצים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הוויאנס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מוזה קוקטיילים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טיפטופי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קפה נטו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "4שף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "malkat shva",
+   "nameEn": "malkat shva"
+  },
+  {
+   "brand": null,
+   "name": "מלונות אסטרל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הדקה ה-90",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בליק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איי ג'אמפ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'אמפ אפ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'ייקוב הוטל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פלואו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ריבו פיטנס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שייק אווי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טרקלין אספייר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "כיתן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גולף אנד קו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "המשביר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אמריקן קומפורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סטימצקי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עמינח",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גוד נייט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "הום סנטר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ורדינון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נעמן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "HomeStyle",
+   "nameEn": "HomeStyle"
+  },
+  {
+   "brand": null,
+   "name": "אייס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אוטו דיפו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סבון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "א.ל.מ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פליינג טייגר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פוד אפיל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עצמל'ה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לבן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שקם אלקטריק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נייט סליפ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בייקרז סיקרט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ריבוק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בילבונג",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גלי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ניין ווסט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סטיב מאדן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אסיקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אוריג'ינלס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בירקנסטוק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בורד ריידרס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רוקסי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קוויקסילבר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פומה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אינטר ג'ינס ניו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ליידי קומפורט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סקצ'רס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רוזן ומינץ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קונברס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בראוני",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אלדו",
+   "nameEn": null
+  },
+  {
+   "brand": "golf",
+   "name": "גולף",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אינטימה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פולגת",
+   "nameEn": null
+  },
+  {
+   "brand": "fox",
+   "name": "פוקס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ארי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אמריקן איגל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מנגו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דפנה לוינסון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייץ' אנד או",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לי קופר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נאוטיקה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פקטורי 54",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ליוויס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בוס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טומי הילפיגר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פרד פרי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פול אנד שארק",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ג'וסי קוטור",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קלווין קליין",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ארמני",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דסיגואל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לונג צ'אמפ",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סופרדריי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דיזל",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "לקוסט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "בוניטה דה מאס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אפרודיטה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "דקני",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קונספט סטור",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סם אדלמן",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פמינה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סאן גלאס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ריפליי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "רובי ביי",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ספידו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אליאס",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "vilbrequin",
+   "nameEn": "vilbrequin"
+  },
+  {
+   "brand": null,
+   "name": "בוגארט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מרכז הלבשה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "גאמפ עונות",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אייס קיוב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "איל מקיאג'",
+   "nameEn": null
+  }
+ ]
+}

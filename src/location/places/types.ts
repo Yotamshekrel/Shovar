@@ -17,6 +17,8 @@ export interface StoreQuery {
   storeKey: string;
   /** Every spelling to search for (e.g. "Zara", "זארה"). */
   names: string[];
+  /** Lookup priority: 0 = a card for exactly this store; higher = a store reached through a multi-store card. */
+  rank?: number;
 }
 
 export interface PlacesProvider {

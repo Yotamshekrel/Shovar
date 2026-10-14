@@ -21,6 +21,7 @@ export interface ItemFormValues {
   linkUrl: string;
   notes: string;
   source: ItemSource;
+  network: string | null;
 }
 
 export type FormErrors = Partial<Record<keyof ItemFormValues, StringKey>>;
@@ -59,6 +60,7 @@ export function validateItemForm(v: ItemFormValues): { errors: FormErrors; draft
       linkUrl: link ? parseUrl(link)!.href : null,
       notes: v.notes.trim() || null,
       source: v.source,
+      network: v.network,
     },
   };
 }

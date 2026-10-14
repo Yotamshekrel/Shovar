@@ -101,6 +101,12 @@ CREATE TABLE IF NOT EXISTS location_alerts (
 );
 `,
   },
+  {
+    version: 2,
+    sql: `
+ALTER TABLE items ADD COLUMN network TEXT;
+`,
+  },
 ];
 
 export const LATEST_VERSION = MIGRATIONS[MIGRATIONS.length - 1].version;

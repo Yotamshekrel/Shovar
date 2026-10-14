@@ -1,12 +1,16 @@
 import { effectiveStatus } from '@/domain/status';
 import type { Item } from '@/domain/types';
 
-import { BRANDS, brandNames, findBrand, type Brand } from './brands';
+import { networkIdFor, networkStores } from '@/networks/registry';
+
+import { BRANDS, brandById, brandNames, findBrand, type Brand } from './brands';
 import { MATCH_THRESHOLD, bestScore, prepareName, prepareQuery, type PreparedName } from './fuzzy';
 
 export interface IndexedItem {
   item: Item;
   names: PreparedName[];
+  /** Id of the multi-store network the card belongs to (BuyMe, Tav Zahav, …), if any. */
+  networkId: string | null;
 }
 
 export interface SearchResult {
@@ -14,6 +18,48 @@ export interface SearchResult {
   score: number;
   matched: string;
   active: boolean;
+  /** Set when the card matched through a store of its network rather than its own name ("Castro" → a BuyMe card). */
+  via: string | null;
+}
+
+interface NetworkSearch {
+  names: PreparedName[];
+  /** Prepared name → the store's display name. */
+  labels: Map<PreparedName, string>;
+}
+
+/** Network stores rank just below cards that are specifically for the store. */
+const NETWORK_WEIGHT = 0.9;
+/** Lists hold hundreds of names, so only clear matches (exact, prefix, word, substring, same-sound) count — not typo guesses. */
+const NETWORK_MIN_SCORE = 0.69;
+const networkSearchCache = new Map<string, NetworkSearch>();
+
+function networkSearch(id: string): NetworkSearch {
+  let cached = networkSearchCache.get(id);
+  if (!cached) {
+    const names: PreparedName[] = [];
+    const labels = new Map<PreparedName, string>();
+    for (const s of networkStores(id)) {
+      const brand = s.key.startsWith('brand:') ? brandById(s.key.slice(6)) : null;
+      const label = brand
+        ? brand.nameHe
+          ? `${brand.name} · ${brand.nameHe}`
+          : brand.name
+        : s.nameEn && !/[\u05d0-\u05ea]/.test(s.nameEn) && /[\u05d0-\u05ea]/.test(s.name)
+          ? `${s.name} · ${s.nameEn}`
+          : s.name;
+      // Known chains answer to every spelling ('קסטרו' finds a list entry written 'CASTRO').
+      for (const n of [s.name, s.nameEn, ...(brand ? brandNames(brand) : [])]) {
+        if (!n) continue;
+        const p = prepareName(n, NETWORK_WEIGHT);
+        names.push(p);
+        labels.set(p, label);
+      }
+    }
+    cached = { names, labels };
+    networkSearchCache.set(id, cached);
+  }
+  return cached;
 }
 
 /** Precomputes normalized/phonetic forms for each item's names (store, brand aliases, notes). */
@@ -27,7 +73,7 @@ export function buildIndex(items: Item[]): IndexedItem[] {
       }
     }
     if (item.notes) names.push(prepareName(item.notes, 0.6));
-    return { item, names };
+    return { item, names, networkId: networkStores(networkIdFor(item)).length > 0 ? networkIdFor(item) : null };
   });
 }
 
@@ -40,11 +86,27 @@ export function searchItems(index: IndexedItem[], query: string, opts: { limit?:
   if (!q.compact) return [];
   const now = opts.now ?? new Date();
   const results: SearchResult[] = [];
+  // Cards of one network share its store list, so score it once per query.
+  const networkScores = new Map<string, { score: number; name: PreparedName | null }>();
   for (const entry of index) {
-    const { score, name } = bestScore(q, entry.names);
+    const own = bestScore(q, entry.names);
+    let { score, name } = own;
+    let via: string | null = null;
+    if (entry.networkId) {
+      let net = networkScores.get(entry.networkId);
+      if (!net) {
+        net = bestScore(q, networkSearch(entry.networkId).names);
+        networkScores.set(entry.networkId, net);
+      }
+      if (net.name && net.score >= NETWORK_MIN_SCORE && net.score > score) {
+        score = net.score;
+        name = net.name;
+        via = networkSearch(entry.networkId).labels.get(net.name) ?? net.name.raw;
+      }
+    }
     if (score >= MATCH_THRESHOLD && name) {
       const active = !entry.item.deletedAt && effectiveStatus(entry.item, now) === 'active';
-      results.push({ item: entry.item, score, matched: name.raw, active });
+      results.push({ item: entry.item, score, matched: via ?? name.raw, active, via });
     }
   }
   results.sort((a, b) => {

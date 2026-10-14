@@ -1,0 +1,399 @@
+{
+ "platform": "buyme",
+ "variant": "brunch",
+ "updated": "2026-09-30",
+ "source": "user-provided brunch_restaurants.txt (BuyMe Brunch)",
+ "notes": "Selected branches of a chain are listed as the chain (Cafe Greg, Cafe Cafe). Cafes and restaurants, many single venues.",
+ "count": 60,
+ "stores": [
+  {
+   "brand": null,
+   "name": "קפה גרג",
+   "nameEn": null,
+   "description": "רשת בתי קפה"
+  },
+  {
+   "brand": null,
+   "name": "Mashya",
+   "nameEn": "Mashya",
+   "description": "מסעדת שף",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מתחת לעץ",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "קפה בוקה",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "Claro",
+   "nameEn": "Claro",
+   "description": "מסעדת שף עונתית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה זליק",
+   "nameEn": null,
+   "description": "בית קפה שכונתי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה 65",
+   "nameEn": null,
+   "description": "בית קפה במלון בוטיק",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "6 במאי",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "קפה מרקט האוס",
+   "nameEn": null,
+   "description": "בית קפה במלון בוטיק",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה דיזנגוף",
+   "nameEn": null,
+   "description": "בית קפה וארוחות בוקר",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה בקסטייג'",
+   "nameEn": null,
+   "description": "בית קפה במלון בוטיק",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מי קאסה",
+   "nameEn": null,
+   "description": "בית קפה וארוחות בוקר בחצר",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "בית קנדינוף",
+   "nameEn": null,
+   "description": "מסעדה עונתית ים תיכונית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "CAFE MAYER",
+   "nameEn": "CAFE MAYER",
+   "description": "קפה-ביסטרו שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "LUNEL",
+   "nameEn": "LUNEL",
+   "description": "בר קולינרי של השף ינון אלעל",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "NOLA American Bakery",
+   "nameEn": "NOLA American Bakery",
+   "description": "מאפייה ובית קפה אמריקאי"
+  },
+  {
+   "brand": null,
+   "name": "Par Derriere",
+   "nameEn": "Par Derriere",
+   "description": "בר יין ומסעדה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "שישקו",
+   "nameEn": null,
+   "description": "בר אוכל בלקני"
+  },
+  {
+   "brand": null,
+   "name": "ביצ'יקלטה",
+   "nameEn": null,
+   "description": "בר אוכל"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אלנה במלון נורמן",
+   "nameEn": null,
+   "description": "מסעדת שף אירופאית-ים תיכונית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Eats Cafeteria",
+   "nameEn": "Eats Cafeteria",
+   "description": "בית קפה ומעדניה"
+  },
+  {
+   "brand": null,
+   "name": "קפה סוזאנה",
+   "nameEn": null,
+   "description": "בית קפה שכונתי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לה שוק",
+   "nameEn": null,
+   "description": "ביסטרו צרפתי בשוק"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת חנדלה",
+   "nameEn": null,
+   "description": "מסעדה ואירועים באווירה כפרית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קסיס",
+   "nameEn": null,
+   "description": "מסעדה ים תיכונית"
+  },
+  {
+   "brand": null,
+   "name": "Timothy Cafe",
+   "nameEn": "Timothy Cafe",
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת טלביה",
+   "nameEn": null,
+   "description": "מסעדת שף- בראסרי אירופאי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "בטבע של בני - בצל התאנה",
+   "nameEn": null,
+   "description": "מסעדה טבעונית גלילית"
+  },
+  {
+   "brand": null,
+   "name": "קפה סלבדור",
+   "nameEn": null,
+   "description": "בית קפה מבית ג'קו סטריט"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לוצ'נה",
+   "nameEn": null,
+   "description": "מסעדה איטלקית חלבית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת ארסטו קיסריה",
+   "nameEn": null,
+   "description": "מסעדת שף איטלקית כשרה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "פטלינה",
+   "nameEn": null,
+   "description": "בית קפה וביסטרו",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה פרנצ'וק",
+   "nameEn": null,
+   "description": "בית קפה ומאפייה"
+  },
+  {
+   "brand": null,
+   "name": "הקונדיטוריה של גל",
+   "nameEn": null,
+   "description": "בית קפה וקונדיטוריה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הרצל",
+   "nameEn": null,
+   "description": "בר-מסעדה וקפה"
+  },
+  {
+   "brand": null,
+   "name": "יקב גוש עציון",
+   "nameEn": null,
+   "description": "מרכז מבקרים ומסעדה"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת גסטה",
+   "nameEn": null,
+   "description": "ביסטרו-בר שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "רשת סושי רחביה",
+   "nameEn": null,
+   "description": "רשת סושי כשרה"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת טגלוס",
+   "nameEn": null,
+   "description": "ביסטרו בר איטלקי ישראלי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "רשת לנדוור",
+   "nameEn": null,
+   "description": "רשת מסעדות"
+  },
+  {
+   "brand": null,
+   "name": "סימונצ'ו קייקס",
+   "nameEn": null,
+   "description": "בייקרי טבעוני"
+  },
+  {
+   "brand": null,
+   "name": "CHEZ VIVIE",
+   "nameEn": "CHEZ VIVIE",
+   "description": "בראסרי בהשראת המטבח הצרפתי איטלקי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "פרש קפה",
+   "nameEn": null,
+   "description": "רשת בתי קפה"
+  },
+  {
+   "brand": null,
+   "name": "אנסטסיה",
+   "nameEn": null,
+   "description": "בית קפה טבעוני"
+  },
+  {
+   "brand": null,
+   "name": "קונדיטורית טיבי",
+   "nameEn": null,
+   "description": "בית קפה וקונדיטוריה"
+  },
+  {
+   "brand": null,
+   "name": "לוטם דרעי",
+   "nameEn": null,
+   "description": "ביסטרו בייקרי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בון גוסטו",
+   "nameEn": null,
+   "description": "מסעדה איטלקית כשרה"
+  },
+  {
+   "brand": null,
+   "name": "מלונות אטלס",
+   "nameEn": null,
+   "description": "רשת מלונות בוטיק",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "סורוצקין",
+   "nameEn": null,
+   "description": "מעדניה יהודית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קפה קפה",
+   "nameEn": null,
+   "description": "רשת בתי קפה"
+  },
+  {
+   "brand": null,
+   "name": "Zionacafe",
+   "nameEn": "Zionacafe",
+   "description": "בית קפה, מסעדה ואירועים",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה אוסישקין",
+   "nameEn": null,
+   "description": "בית קפה בקריית מוצקין"
+  },
+  {
+   "brand": null,
+   "name": "קפה אופטימי",
+   "nameEn": null,
+   "description": "מטבח איטלקי&ישראלי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה זוריק",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "מקום בלב",
+   "nameEn": null,
+   "description": "מסעדה כפרית ואירועים"
+  },
+  {
+   "brand": null,
+   "name": "סילו תרבות",
+   "nameEn": null,
+   "description": "מרכז תרבות, קפה ואירועים",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Good Morning Sunshine",
+   "nameEn": "Good Morning Sunshine",
+   "description": "רשת בייקרי מבית מאפיית בנדיקט"
+  },
+  {
+   "brand": null,
+   "name": "Aberto",
+   "nameEn": "Aberto",
+   "description": "מסעדת ביסטרו עונתית מקומית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "The OM café",
+   "nameEn": "The OM café",
+   "description": "בית קפה מבית אורן משי"
+  },
+  {
+   "brand": null,
+   "name": "ויצק",
+   "nameEn": null,
+   "description": "מטבח מקומי במכון ויצמן",
+   "bookingRequired": true
+  }
+ ]
+}

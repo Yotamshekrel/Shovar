@@ -1,0 +1,86 @@
+{
+ "platform": "max",
+ "variant": "Giftcard Food",
+ "updated": "2026-09-29",
+ "source": "https://www.max.co.il/gift-card-network/Giftcard%20Food",
+ "notes": "Food-only card. \"וולט\" carries a redemption-instructions note on the site.",
+ "count": 15,
+ "stores": [
+  {
+   "brand": null,
+   "name": "וולט",
+   "nameEn": null,
+   "note": "לאופן מימוש"
+  },
+  {
+   "brand": null,
+   "name": "חצי חינם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טיב טעם",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "קשת טעמים",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "נוי השדה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סופר יודה",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "שוק העיר",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "ברגר קינג",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "פרשמרקט",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סופר דוש",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מחסני להב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "מחסני מזון",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "היפר דודו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "טיפ טוב",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "סלון יווני",
+   "nameEn": null
+  }
+ ]
+}

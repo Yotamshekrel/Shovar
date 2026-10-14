@@ -1,0 +1,8490 @@
+{
+ "platform": "buyme",
+ "variant": "all",
+ "updated": "2026-09-29",
+ "source": "https://buyme.co.il/brands/13438757",
+ "notes": "All 1320 listed businesses (fashion, hotels, spas, restaurants, experiences...). onlineRedeem = card shows the \"מימוש אונליין\" badge; bookingRequired = card shows the \"הזמנת מקום\" badge. Contains some group/multi-brand rows (e.g. \"קבוצת story\"). Duplicated names are collapsed.",
+ "count": 1320,
+ "stores": [
+  {
+   "brand": null,
+   "name": "adidas",
+   "nameEn": "adidas",
+   "description": "מותג אופנה וספורט בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "ASA Izakaya",
+   "nameEn": "ASA Izakaya",
+   "description": "מסעדת שף אסייתית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "טרקלין חשמל",
+   "nameEn": null,
+   "description": "רשת למוצרי חשמל"
+  },
+  {
+   "brand": null,
+   "name": "עגליס",
+   "nameEn": null,
+   "description": "רשת למוצרי תינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רשת מלונות ישרוטל",
+   "nameEn": null,
+   "description": "רשת מלונות"
+  },
+  {
+   "brand": null,
+   "name": "MAC",
+   "nameEn": "MAC",
+   "description": "מותג איפור בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "סניפים נבחרים ברשת קפה גרג",
+   "nameEn": null,
+   "description": "רשת בתי קפה"
+  },
+  {
+   "brand": null,
+   "name": "S-wear",
+   "nameEn": "S-wear",
+   "description": "רשת אופנה לנשים, גברים וילדים"
+  },
+  {
+   "brand": null,
+   "name": "פתאל",
+   "nameEn": null,
+   "description": "רשת מלונות",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מילק אנד האני",
+   "nameEn": null,
+   "description": "מזקקת וויסקי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Jrpole",
+   "nameEn": "Jrpole",
+   "description": "אקרובטיקה וריקוד על עמוד"
+  },
+  {
+   "brand": null,
+   "name": "כרמלה",
+   "nameEn": null,
+   "description": "משלוחי פירות וירקות מהשוק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "שופרא",
+   "nameEn": null,
+   "description": "רשת בוטיק לנעלים ותיקים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SOHO",
+   "nameEn": "SOHO",
+   "description": "רשת חנויות העיצוב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Biamba",
+   "nameEn": "Biamba",
+   "description": "טיפול חכם בתינוק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "צ'אקולי",
+   "nameEn": null,
+   "description": "מסעדת דגים ספרדית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "KFC",
+   "nameEn": "KFC",
+   "description": "רשת מסעדות עוף"
+  },
+  {
+   "brand": null,
+   "name": "Bina & Bino",
+   "nameEn": "Bina & Bino",
+   "description": "מותג אופנה לתינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מלונות בראון מבית ישראל קנדה",
+   "nameEn": null,
+   "description": "רשת מלונות בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "דרך היין",
+   "nameEn": null,
+   "description": "רשת חנויות יין ואלכוהול"
+  },
+  {
+   "brand": null,
+   "name": "Dé Rococo",
+   "nameEn": null,
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Legenda",
+   "nameEn": "Legenda",
+   "description": "רשת גלידריות"
+  },
+  {
+   "brand": null,
+   "name": "Food Appeal",
+   "nameEn": "Food Appeal",
+   "description": "רשת כלי בית ומטבח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ארקיע",
+   "nameEn": null,
+   "description": "טיסות וחבילות נופש בארץ ובחו\"ל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "פרימה",
+   "nameEn": null,
+   "description": "רשת מלונות"
+  },
+  {
+   "brand": null,
+   "name": "LAMER",
+   "nameEn": "LAMER",
+   "description": "מנשאי תינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדות כרמים",
+   "nameEn": null,
+   "description": "מסעדות שף, צרפתית ים תיכונית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Femina",
+   "nameEn": "Femina",
+   "description": "רשת הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "סניפים נבחרים ברשת קפה קפה",
+   "nameEn": null,
+   "description": "רשת בתי קפה"
+  },
+  {
+   "brand": null,
+   "name": "JO MALONE LONDON",
+   "nameEn": "JO MALONE LONDON",
+   "description": "מותג בישום ולייף סטייל"
+  },
+  {
+   "brand": null,
+   "name": "MOBILITY BRANDS",
+   "nameEn": "MOBILITY BRANDS",
+   "description": "כלי תחבורה חשמליים"
+  },
+  {
+   "brand": null,
+   "name": "שני יעקובי",
+   "nameEn": null,
+   "description": "מותג תכשיטים ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ד\"ר גב",
+   "nameEn": null,
+   "description": "רשת ריהוט לפתרונות שינה וארגונומיה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- מלון Herods הרצליה",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "דאיה גסטהאוס",
+   "nameEn": null,
+   "description": "בקתות אירוח"
+  },
+  {
+   "brand": null,
+   "name": "SELAS",
+   "nameEn": "SELAS",
+   "description": "מסעדת שף אסייתי של אור גינזבורג",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "שר המשקאות",
+   "nameEn": null,
+   "description": "רשת למשקאות חריפים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "We Love Plants",
+   "nameEn": "We Love Plants",
+   "description": "עציצים וצמחיה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אופטיקה הלפרין",
+   "nameEn": null,
+   "description": "רשת משקפי שמש וראייה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "JAPAN-JAPAN",
+   "nameEn": "JAPAN-JAPAN",
+   "description": "רשת סושי ואוכל אסייתי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "באולינג 7",
+   "nameEn": null,
+   "description": "רשת מרכזי באולינג ובילוי"
+  },
+  {
+   "brand": null,
+   "name": "מלון ומוזיאון דונה גרציה",
+   "nameEn": null,
+   "description": "חוויה ברוח המאה ה-16"
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": null,
+   "description": "רשת חנויות ספורט וביגוד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "המלביה",
+   "nameEn": null,
+   "description": "רשת מלבי וקינוחים"
+  },
+  {
+   "brand": null,
+   "name": "קולומביה, שבילים ואווטסיידרס",
+   "nameEn": null,
+   "description": "רשתות ציוד טיולים וספורט",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "WeShoes",
+   "nameEn": "WeShoes",
+   "description": "מותגי נעליים ואופנה"
+  },
+  {
+   "brand": null,
+   "name": "Joya",
+   "nameEn": "Joya",
+   "description": "רשת מסעדות איטלקיות",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ליאור מוצרי חשמל",
+   "nameEn": null,
+   "description": "רשת חנויות למוצרי חשמל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "YOLO",
+   "nameEn": "YOLO",
+   "description": "ציוד לבי\"ס ומתנות פופ",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "The Gutman Hotel",
+   "nameEn": "The Gutman Hotel",
+   "description": "מלון בוטיק יוקרתי"
+  },
+  {
+   "brand": null,
+   "name": "KIKO MILANO",
+   "nameEn": "KIKO MILANO",
+   "description": "מותג איפור וטיפוח בינלאומי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לוצ'נה",
+   "nameEn": null,
+   "description": "מסעדה איטלקית חלבית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת MOSHIK& של השף מושיק רוט",
+   "nameEn": null,
+   "description": "מסעדת שף של מושיק רוט",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "BABY STORY",
+   "nameEn": "BABY STORY",
+   "description": "מוצרים להתפתחות תינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ספא גלי כנרת",
+   "nameEn": null,
+   "description": "ספא במלון גלי כנרת"
+  },
+  {
+   "brand": null,
+   "name": "De Beer",
+   "nameEn": "De Beer",
+   "description": "סדנאות שוקולד, בישול ואפייה"
+  },
+  {
+   "brand": null,
+   "name": "Garmin",
+   "nameEn": "Garmin",
+   "description": "מותג שעוני ספורט"
+  },
+  {
+   "brand": null,
+   "name": "פיצה סטורי",
+   "nameEn": null,
+   "description": "פיצריה שכונתית"
+  },
+  {
+   "brand": null,
+   "name": "שגב",
+   "nameEn": null,
+   "description": "מגוון מסעדות של השף שגב משה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- מלון U Coral Beach אילת",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רשת Bגוד",
+   "nameEn": null,
+   "description": "רשת בייסיק וקז'ואל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "COTTON CLUB",
+   "nameEn": "COTTON CLUB",
+   "description": "מותג טקסטיל פרימיום",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רשת צומת ספרים",
+   "nameEn": null,
+   "description": "רשת חנויות ספרים"
+  },
+  {
+   "brand": null,
+   "name": "משלוחה",
+   "nameEn": null,
+   "description": "פלטפורמת משלוחים למזון מהיר",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מקדונלד'ס",
+   "nameEn": null,
+   "description": "רשת המבורגרים ומזון מהיר",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GOLBARY",
+   "nameEn": "GOLBARY",
+   "description": "רשת אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "גלמפינג מיא",
+   "nameEn": null,
+   "description": "מתחם גלמפינג"
+  },
+  {
+   "brand": null,
+   "name": "Stylish",
+   "nameEn": "Stylish",
+   "description": "קורסי תפירה, אופנה ותדמיתנות"
+  },
+  {
+   "brand": null,
+   "name": "ITAY BRANDS",
+   "nameEn": "ITAY BRANDS",
+   "description": "מותג אופנת בייסיק וקז'ואל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רשת לנדוור",
+   "nameEn": null,
+   "description": "רשת מסעדות"
+  },
+  {
+   "brand": null,
+   "name": "PETEAT",
+   "nameEn": "PETEAT",
+   "description": "אוכל לחיות מחמד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Crazy Line",
+   "nameEn": "Crazy Line",
+   "description": "רשת אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "ASK Q",
+   "nameEn": "ASK Q",
+   "description": "משחק שאלות שמחבר בין אנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מלון שטרקמן ארנה",
+   "nameEn": null,
+   "description": "מלון בוטיק משפחתי"
+  },
+  {
+   "brand": null,
+   "name": "עצמל'ה",
+   "nameEn": null,
+   "description": "רהיטים לילדים ונוער"
+  },
+  {
+   "brand": null,
+   "name": "מסעדות בנדיקט",
+   "nameEn": null,
+   "description": "רשת ארוחות בוקר",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "פפאיה",
+   "nameEn": null,
+   "description": "רשת נעלי ילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Giraffe",
+   "nameEn": "Giraffe",
+   "description": "רשת מסעדות אסייתיות"
+  },
+  {
+   "brand": null,
+   "name": "3030",
+   "nameEn": "3030",
+   "description": "ספא & חמאם"
+  },
+  {
+   "brand": null,
+   "name": "Laline",
+   "nameEn": "Laline",
+   "description": "רשת טיפוח גוף ואווירה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MOKAYA",
+   "nameEn": "MOKAYA",
+   "description": "שוקולד בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "Afrodita",
+   "nameEn": "Afrodita",
+   "description": "רשת הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MOBICELL",
+   "nameEn": "MOBICELL",
+   "description": "מוצרי ואביזרי סלולר"
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- מלון Gordon Beach ת\"א",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מלון אמבסי",
+   "nameEn": null,
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "נונו ומימי",
+   "nameEn": null,
+   "description": "מסעדה ובייקרי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "תחביבן",
+   "nameEn": null,
+   "description": "חנות יצירה ומתנות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GANT",
+   "nameEn": "GANT",
+   "description": "מותג אופנה בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "Arcaffe",
+   "nameEn": "Arcaffe",
+   "description": "רשת בתי קפה"
+  },
+  {
+   "brand": null,
+   "name": "השטיח האדום",
+   "nameEn": null,
+   "description": "רשת חנויות שטיחים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אליטל",
+   "nameEn": null,
+   "description": "רשת נעליים לכל המשפחה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אגאדיר",
+   "nameEn": null,
+   "description": "רשת המבורגרים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "The Black Box",
+   "nameEn": "The Black Box",
+   "description": "קופסאות קונספט",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "לוינסקי מרקט הוטל",
+   "nameEn": null,
+   "description": "מלון אורבני"
+  },
+  {
+   "brand": null,
+   "name": "אלוף ספורט",
+   "nameEn": null,
+   "description": "רשת חנויות ספורט",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "נאם",
+   "nameEn": null,
+   "description": "מסעדה תאילנדית אותנטית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "REPLAY",
+   "nameEn": "REPLAY",
+   "description": "רשת אופנה בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בוניטה דה מאס",
+   "nameEn": null,
+   "description": "רשת הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קמפאי & CHI CHI",
+   "nameEn": null,
+   "description": "מסעדה אסייתית ובר קוקטיילים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "סולתם",
+   "nameEn": null,
+   "description": "רשת כלי בית ומטבח"
+  },
+  {
+   "brand": null,
+   "name": "סלקשיין",
+   "nameEn": null,
+   "description": "אופנה לכל המשפחה"
+  },
+  {
+   "brand": null,
+   "name": "Login Hotels",
+   "nameEn": "Login Hotels",
+   "description": "רשת מלונות תל-אביביים"
+  },
+  {
+   "brand": null,
+   "name": "BYNETA",
+   "nameEn": "BYNETA",
+   "description": "Beauty, cosmetic & personal care",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Mr. Pretzels",
+   "nameEn": "Mr. Pretzels",
+   "description": "רשת פרעצלס"
+  },
+  {
+   "brand": null,
+   "name": "THE NORTH FACE",
+   "nameEn": "THE NORTH FACE",
+   "description": "מותג טיולים ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SANANDO",
+   "nameEn": "SANANDO",
+   "description": "מרחב של חוויות, וולנס, ריפוי, חופש ושלווה"
+  },
+  {
+   "brand": null,
+   "name": "I JUMP",
+   "nameEn": "I JUMP",
+   "description": "פארק טרמפולינות"
+  },
+  {
+   "brand": null,
+   "name": "ריקושט",
+   "nameEn": null,
+   "description": "ציוד לחיילים ומטיילים"
+  },
+  {
+   "brand": null,
+   "name": "Kedem Spa",
+   "nameEn": "Kedem Spa",
+   "description": "מרכז וולנס וספא ביפו"
+  },
+  {
+   "brand": null,
+   "name": "מתחת לעץ",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "טבע נאות",
+   "nameEn": null,
+   "description": "רשת נעלי נוחות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "NAAMAN",
+   "nameEn": "NAAMAN",
+   "description": "רשת כלי בית ומטבח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "כתר",
+   "nameEn": null,
+   "description": "ריהוט גן ופתרונות אחסון"
+  },
+  {
+   "brand": null,
+   "name": "Timothy Cafe",
+   "nameEn": "Timothy Cafe",
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "Eats Cafeteria",
+   "nameEn": "Eats Cafeteria",
+   "description": "בית קפה ומעדניה"
+  },
+  {
+   "brand": null,
+   "name": "magnolia",
+   "nameEn": "magnolia",
+   "description": "רשת תכשיטים לנשים וגברים"
+  },
+  {
+   "brand": null,
+   "name": "זמארין",
+   "nameEn": null,
+   "description": "מלון בוטיק וספא"
+  },
+  {
+   "brand": null,
+   "name": "Ceramora",
+   "nameEn": "Ceramora",
+   "description": "כלי קרמיקה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "תיק התיקים",
+   "nameEn": null,
+   "description": "רשת חנויות תיקים ומזוודות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "THE Spa אינטרקונטיננטל ת\"א",
+   "nameEn": null,
+   "description": "ספא במלון יוקרה"
+  },
+  {
+   "brand": null,
+   "name": "קפה אניצ'ה",
+   "nameEn": null,
+   "description": "בית קפה טבעוני בתל אביב"
+  },
+  {
+   "brand": null,
+   "name": "VARDINON",
+   "nameEn": "VARDINON",
+   "description": "רשת טקסטיל לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "יש לאן",
+   "nameEn": null,
+   "description": "משחק ניווט סלולריים ומשימות בשטח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "The Savoy hotel tlv",
+   "nameEn": "The Savoy hotel tlv",
+   "description": "מלון בסגנון אירופאי"
+  },
+  {
+   "brand": null,
+   "name": "רשת Homestyle",
+   "nameEn": null,
+   "description": "רשת לעיצוב הבית"
+  },
+  {
+   "brand": null,
+   "name": "BRETONNE",
+   "nameEn": "BRETONNE",
+   "description": "קרפרי מקומי"
+  },
+  {
+   "brand": null,
+   "name": "STEVE MADDEN",
+   "nameEn": "STEVE MADDEN",
+   "description": "רשת נעליים בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MICHAELI",
+   "nameEn": "MICHAELI",
+   "description": "קפה לזכר גיבור ישראל"
+  },
+  {
+   "brand": null,
+   "name": "ברא צמחים",
+   "nameEn": null,
+   "description": "מותג תוספי תזונה טבעיים"
+  },
+  {
+   "brand": null,
+   "name": "יקב הר אודם",
+   "nameEn": null,
+   "description": "יקב בוטיק בגולן",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "VANS",
+   "nameEn": "VANS",
+   "description": "מותג סניקרס ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GOLF&CO",
+   "nameEn": "GOLF&CO",
+   "description": "רשת לעיצוב הבית"
+  },
+  {
+   "brand": null,
+   "name": "מלון נוף",
+   "nameEn": null,
+   "description": "מלון מבית רשת נארה"
+  },
+  {
+   "brand": null,
+   "name": "VANIGLIA ICE CREAM",
+   "nameEn": "VANIGLIA ICE CREAM",
+   "description": "רשת גלידריות"
+  },
+  {
+   "brand": null,
+   "name": "דנדי",
+   "nameEn": null,
+   "description": "פרחים, מעדנייה, בית מאפה"
+  },
+  {
+   "brand": null,
+   "name": "מילגה",
+   "nameEn": null,
+   "description": "רשת פופים וריהוט רך",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קונדיטורית טיבי",
+   "nameEn": null,
+   "description": "בית קפה וקונדיטוריה"
+  },
+  {
+   "brand": null,
+   "name": "כיתן",
+   "nameEn": null,
+   "description": "רשת טקסטיל לבית"
+  },
+  {
+   "brand": null,
+   "name": "Jah Spa קיסריה",
+   "nameEn": null,
+   "description": "ספא במלון דן קיסריה"
+  },
+  {
+   "brand": "castro",
+   "name": "CASTRO",
+   "nameEn": "CASTRO",
+   "description": "רשת אופנה ישראלית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קפה בוקה",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "יקב גוש עציון",
+   "nameEn": null,
+   "description": "מרכז מבקרים ומסעדה"
+  },
+  {
+   "brand": null,
+   "name": "מנד'ומה",
+   "nameEn": null,
+   "description": "מתחם אירוח מדברי"
+  },
+  {
+   "brand": null,
+   "name": "רשת למטייל",
+   "nameEn": null,
+   "description": "ציוד קמפינג ומחנאות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "פרש קפה",
+   "nameEn": null,
+   "description": "רשת בתי קפה"
+  },
+  {
+   "brand": null,
+   "name": "URBANICA",
+   "nameEn": "URBANICA",
+   "description": "רשת אופנה לכל המשפחה"
+  },
+  {
+   "brand": null,
+   "name": "HOODIES",
+   "nameEn": "HOODIES",
+   "description": "רשת אופנת בייסיק, קז'ואל וספורט"
+  },
+  {
+   "brand": null,
+   "name": "אורן משי",
+   "nameEn": null,
+   "description": "לחם- פטיסרי- קפה"
+  },
+  {
+   "brand": null,
+   "name": "שקם אלקטריק",
+   "nameEn": null,
+   "description": "רשת למוצרי חשמל"
+  },
+  {
+   "brand": null,
+   "name": "HAPPY LEMON",
+   "nameEn": "HAPPY LEMON",
+   "description": "רשת חנויות לעיצוב הבית ומתנות"
+  },
+  {
+   "brand": null,
+   "name": "יקב אסף",
+   "nameEn": null,
+   "description": "יקב משפחתי ואירוח כפרי"
+  },
+  {
+   "brand": null,
+   "name": "לבנדר",
+   "nameEn": null,
+   "description": "קוסמטיקה טבעית"
+  },
+  {
+   "brand": null,
+   "name": "הקונדיטוריה של גל",
+   "nameEn": null,
+   "description": "בית קפה וקונדיטוריה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אופטיקנה",
+   "nameEn": null,
+   "description": "רשת משקפי שמש וראייה"
+  },
+  {
+   "brand": null,
+   "name": "Spa My Touch",
+   "nameEn": "Spa My Touch",
+   "description": "מתחם ספא וטיפולים"
+  },
+  {
+   "brand": null,
+   "name": "charme tlv",
+   "nameEn": "charme tlv",
+   "description": "הצ׳ארם בר הראשון בישראל"
+  },
+  {
+   "brand": null,
+   "name": "SELFISH",
+   "nameEn": "SELFISH",
+   "description": "סלפיש, חנות אביזרי מין",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "לה פטיסייר",
+   "nameEn": null,
+   "description": "קונדיטוריה ובית קפה"
+  },
+  {
+   "brand": null,
+   "name": "&GOLF",
+   "nameEn": "&GOLF",
+   "description": "רשת אופנה ישראלית"
+  },
+  {
+   "brand": null,
+   "name": "Fox Home",
+   "nameEn": "Fox Home",
+   "description": "טקסטיל וכלי בית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "H&O",
+   "nameEn": "H&O",
+   "description": "רשת אופנה לכל המשפחה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Jusa Cold Pressed",
+   "nameEn": "Jusa Cold Pressed",
+   "description": "מיצים, שייקים ואוכל טבעוני בריא",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הרצל",
+   "nameEn": null,
+   "description": "בר-מסעדה וקפה"
+  },
+  {
+   "brand": null,
+   "name": "אינטימה",
+   "nameEn": null,
+   "description": "רשת הלבשה תחתונה"
+  },
+  {
+   "brand": null,
+   "name": "ClaylaTLV",
+   "nameEn": "ClaylaTLV",
+   "description": "קליילה סטודיו לצביעת קרמיקה בתל אביב"
+  },
+  {
+   "brand": null,
+   "name": "TIMBERLAND",
+   "nameEn": "TIMBERLAND",
+   "description": "מותג נעליים ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "6 במאי",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "ביג אלקטריק",
+   "nameEn": null,
+   "description": "רשת חנויות חשמל"
+  },
+  {
+   "brand": null,
+   "name": "פלנט באולינג וסיטי באולינג",
+   "nameEn": null,
+   "description": "מתחם באולינג ואטרקציות"
+  },
+  {
+   "brand": null,
+   "name": "INK HOTEL",
+   "nameEn": "INK HOTEL",
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "Golf Kids",
+   "nameEn": "Golf Kids",
+   "description": "רשת אופנה לילדים ותינוקות"
+  },
+  {
+   "brand": null,
+   "name": "Burger Box כפר עציון",
+   "nameEn": null,
+   "description": "מסעדת המבורגרים כשרה"
+  },
+  {
+   "brand": null,
+   "name": "גלידריית פינגוין",
+   "nameEn": null,
+   "description": "גלידרייה"
+  },
+  {
+   "brand": null,
+   "name": "ÉVE PROMETICS",
+   "nameEn": null,
+   "description": "מותג למוצרי טיפוח שיער",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בירליך",
+   "nameEn": null,
+   "description": "מבשלת בירה בוטיק ישראלית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TERMINAL X",
+   "nameEn": "TERMINAL X",
+   "description": "אתר אופנה ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Flying Tiger",
+   "nameEn": "Flying Tiger",
+   "description": "רשת חנויות עיצוב מדנמרק"
+  },
+  {
+   "brand": null,
+   "name": "LALUN חופשות בישראל",
+   "nameEn": null,
+   "description": "מגוון מלונות ברחבי הארץ",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "sweetime",
+   "nameEn": "sweetime",
+   "description": "ממתקים ושוקולדים מכל העולם"
+  },
+  {
+   "brand": null,
+   "name": "שילה הקדומה",
+   "nameEn": null,
+   "description": "אתר מורשת וארכיאולוגיה"
+  },
+  {
+   "brand": null,
+   "name": "שילב",
+   "nameEn": null,
+   "description": "רשת למוצרי תינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Just-Meat",
+   "nameEn": "Just-Meat",
+   "description": "רשת מסעדות של אוכל רחוב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "POPSI",
+   "nameEn": "POPSI",
+   "description": "צעצועים ואביזרים מעוצבים"
+  },
+  {
+   "brand": null,
+   "name": "ספא גולף קיסריה",
+   "nameEn": null,
+   "description": "מתחם ספא וטיפולים"
+  },
+  {
+   "brand": null,
+   "name": "Foot Locker",
+   "nameEn": "Foot Locker",
+   "description": "רשת הנעלה ואופנת ספורט",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "OPA! skyfield",
+   "nameEn": "OPA! skyfield",
+   "description": "מתחם חוויות אקסטרים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ALAYA POLEG",
+   "nameEn": "ALAYA POLEG",
+   "description": "מתחם וולנס וריטריטים"
+  },
+  {
+   "brand": null,
+   "name": "Trek Market",
+   "nameEn": "Trek Market",
+   "description": "רשת לציוד טיולים וספורט",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "פלמינגו ספא",
+   "nameEn": null,
+   "description": "ספא בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת חנדלה",
+   "nameEn": null,
+   "description": "מסעדה ואירועים באווירה כפרית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Vintage Original",
+   "nameEn": "Vintage Original",
+   "description": "משקפי שמש וראיה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MANGO",
+   "nameEn": "MANGO",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "סילו תרבות",
+   "nameEn": null,
+   "description": "מרכז תרבות, קפה ואירועים",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "לובלינסקי",
+   "nameEn": null,
+   "description": "כלי מטבח"
+  },
+  {
+   "brand": null,
+   "name": "מוצצים",
+   "nameEn": null,
+   "description": "רשת למוצרי תינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "casa suzanna",
+   "nameEn": "casa suzanna",
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "פנינה רוזנבלום",
+   "nameEn": null,
+   "description": "מותג טיפוח ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קפה דיזנגוף",
+   "nameEn": null,
+   "description": "בית קפה וארוחות בוקר",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "CAROLINA LEMKE",
+   "nameEn": "CAROLINA LEMKE",
+   "description": "רשת משקפי שמש וראייה"
+  },
+  {
+   "brand": null,
+   "name": "ספא OKOA מלון קמפינסקי",
+   "nameEn": null,
+   "description": "ספא במלון קמפינסקי ת\"א"
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- מלון Herods ת\"א",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "היכל הקרח חולון",
+   "nameEn": null,
+   "description": "מתחם החלקה על הקרח"
+  },
+  {
+   "brand": null,
+   "name": "Ecosupp",
+   "nameEn": "Ecosupp",
+   "description": "מותג ויטמנים ותוספי תזונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אנסטסיה",
+   "nameEn": null,
+   "description": "בית קפה טבעוני"
+  },
+  {
+   "brand": null,
+   "name": "Fit House",
+   "nameEn": "Fit House",
+   "description": "רשת אימוני כושר"
+  },
+  {
+   "brand": null,
+   "name": "מלון פרא",
+   "nameEn": null,
+   "description": "מלון בוטיק ללא ילדים"
+  },
+  {
+   "brand": null,
+   "name": "IT MOMZ",
+   "nameEn": "IT MOMZ",
+   "description": "מתנות ליולדת ולתינוק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הסטודיו לבישול",
+   "nameEn": null,
+   "description": "סטודיו לסדנאות בישול"
+  },
+  {
+   "brand": null,
+   "name": "Claro",
+   "nameEn": "Claro",
+   "description": "מסעדת שף עונתית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "יקב טוליפ ויקב מאיה",
+   "nameEn": null,
+   "description": "יקב בוטיק ישראלי"
+  },
+  {
+   "brand": null,
+   "name": "מתפתחים ביחד עם שלומית שוסטר",
+   "nameEn": null,
+   "description": "מארזים וסדנאות להתפתחות התינוק"
+  },
+  {
+   "brand": null,
+   "name": "MIMI VAZA - משלוחי פרחים ומארזים",
+   "nameEn": null,
+   "description": "משלוחי פרחים עד הבית"
+  },
+  {
+   "brand": null,
+   "name": "מנו ספנות",
+   "nameEn": null,
+   "description": "חבילות הפלגה וקרוזים"
+  },
+  {
+   "brand": null,
+   "name": "STORY",
+   "nameEn": "STORY",
+   "description": "רשת מותגי אופנה ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רביבה וסיליה",
+   "nameEn": null,
+   "description": "ביסטרו וקונדיטוריה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ICONIX",
+   "nameEn": "ICONIX",
+   "description": "מותג לקוסמטיקה מקצועית פרא רפואית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "4Chef",
+   "nameEn": "4Chef",
+   "description": "כלי מטבח וסדנאות בישול",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MINISO",
+   "nameEn": "MINISO",
+   "description": "ענקית העיצוב היפנית"
+  },
+  {
+   "brand": null,
+   "name": "גרג קיטשן",
+   "nameEn": null,
+   "description": "רשת בתי קפה ומסעדות"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת TYO",
+   "nameEn": null,
+   "description": "מסעדת שף יפנית באווירת לאונג’",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ג'ונגל",
+   "nameEn": null,
+   "description": "רשת מוצרים לחיות מחמד"
+  },
+  {
+   "brand": null,
+   "name": "מלונות אטלס",
+   "nameEn": null,
+   "description": "רשת מלונות בוטיק",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "פונפוני",
+   "nameEn": null,
+   "description": "עיצוב חדרי ילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קפה נאפו",
+   "nameEn": null,
+   "description": "מסעדה איטלקית"
+  },
+  {
+   "brand": null,
+   "name": "Miss Nori",
+   "nameEn": "Miss Nori",
+   "description": "מותג אופנה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "עדה לזורגן",
+   "nameEn": null,
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "נגינה",
+   "nameEn": null,
+   "description": "בית ספר אינטרנטי למוסיקה"
+  },
+  {
+   "brand": null,
+   "name": "אחוזת הספא",
+   "nameEn": null,
+   "description": "מתחם ספא ואירוח"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פדריק",
+   "nameEn": null,
+   "description": "ביסטרו ומסעדה"
+  },
+  {
+   "brand": null,
+   "name": "Frame Sushi Bar | Unniko Sushi",
+   "nameEn": null,
+   "description": "מסעדת סושי ואוכל אסייתי"
+  },
+  {
+   "brand": null,
+   "name": "Cook and Bake",
+   "nameEn": "Cook and Bake",
+   "description": "רשת כלי מטבח ובישול"
+  },
+  {
+   "brand": null,
+   "name": "בר איטליה",
+   "nameEn": null,
+   "description": "מסעדת בראסרי איטלקית בנתניה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "המחסן",
+   "nameEn": null,
+   "description": "סטודיו לקרמיקה"
+  },
+  {
+   "brand": null,
+   "name": "Hotel Lear Sense",
+   "nameEn": "Hotel Lear Sense",
+   "description": "מלון בוטיק וספא"
+  },
+  {
+   "brand": null,
+   "name": "PlaySmart",
+   "nameEn": "PlaySmart",
+   "description": "משחקים לילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Sinta Bar",
+   "nameEn": "Sinta Bar",
+   "description": "מסעדת שף בשרים",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "RONEN CHEN",
+   "nameEn": "RONEN CHEN",
+   "description": "מעצב אופנת נשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "גוז' ודניאל - ביסטרו בכפר",
+   "nameEn": null,
+   "description": "מסעדת ביסטרו כפרית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "רשת מלונות גרנד הוטלס",
+   "nameEn": null,
+   "description": "רשת מלונות"
+  },
+  {
+   "brand": null,
+   "name": "ONLY'S BEAUTY",
+   "nameEn": "ONLY'S BEAUTY",
+   "description": "מותגי איפור וטיפוח אונליין",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מצמן",
+   "nameEn": null,
+   "description": "רשת חנויות אופניים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "גלים",
+   "nameEn": null,
+   "description": "בית ספר לגלישה"
+  },
+  {
+   "brand": null,
+   "name": "העץ של יאשה",
+   "nameEn": null,
+   "description": "רהיטי נגרות בוטיק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- מלון NYX הרצליה",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "IL MAKIAGE",
+   "nameEn": "IL MAKIAGE",
+   "description": "מותג איפור וטיפוח בינלאומי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת תריסר",
+   "nameEn": null,
+   "description": "מסעדת שף עונתית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Jiggeria",
+   "nameEn": "Jiggeria",
+   "description": "קוקטיילים ומארזי מתנה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "LAKE TLV",
+   "nameEn": "LAKE TLV",
+   "description": "סקי מים וויקבורד"
+  },
+  {
+   "brand": null,
+   "name": "קולנוע לב",
+   "nameEn": null,
+   "description": "רשת בתי קולנוע",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בוקא",
+   "nameEn": null,
+   "description": "סיור אוכל בת\"א ירושלים וחיפה"
+  },
+  {
+   "brand": null,
+   "name": "משתלת אזור",
+   "nameEn": null,
+   "description": "משתלה וזרי פרחים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אוליאה | Olea",
+   "nameEn": null,
+   "description": "מתחם אירוח גליל עליון"
+  },
+  {
+   "brand": null,
+   "name": "Hilisplay",
+   "nameEn": "Hilisplay",
+   "description": "מוצרי ילדים ותינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TOYS R US",
+   "nameEn": "TOYS R US",
+   "description": "רשת צעצועים בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "חלי ממן",
+   "nameEn": null,
+   "description": "תוכנית דיאטה אונליין"
+  },
+  {
+   "brand": null,
+   "name": "שירי",
+   "nameEn": null,
+   "description": "יועצת שינה לתינוקות"
+  },
+  {
+   "brand": null,
+   "name": "TinyTap",
+   "nameEn": "TinyTap",
+   "description": "פלטפורמה למשחקים חינוכיים"
+  },
+  {
+   "brand": null,
+   "name": "TAIZU",
+   "nameEn": "TAIZU",
+   "description": "מסעדת שף של יובל בן נריה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "APRIL",
+   "nameEn": "APRIL",
+   "description": "רשת בישום וקוסמטיקה"
+  },
+  {
+   "brand": null,
+   "name": "Babystar",
+   "nameEn": "Babystar",
+   "description": "רשת למוצרי תינוקות וילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Hipster",
+   "nameEn": "Hipster",
+   "description": "מותג אופנה לילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "H&M",
+   "nameEn": "H&M",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "נעלי נמרוד",
+   "nameEn": null,
+   "description": "רשת נעלי ילדים ונוער",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "JACK KUBA",
+   "nameEn": "JACK KUBA",
+   "description": "רשת הלבשה תחתונה יוקרתית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BOGART",
+   "nameEn": "BOGART",
+   "description": "מותג אופנה לגברים"
+  },
+  {
+   "brand": null,
+   "name": "סנדלי שורש",
+   "nameEn": null,
+   "description": "מותג סנדלי טיולים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Tollman's dot",
+   "nameEn": "Tollman's dot",
+   "description": "ריהוט ועיצוב עכשווי לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "VIVINO ראשון לציון",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BOBBI BROWN",
+   "nameEn": "BOBBI BROWN",
+   "description": "מותג איפור בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "JUMP & ONOT",
+   "nameEn": "JUMP & ONOT",
+   "description": "רשת אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "sweetgirlshop",
+   "nameEn": "sweetgirlshop",
+   "description": "מותג אופנה לילדות"
+  },
+  {
+   "brand": null,
+   "name": "CHOZEN",
+   "nameEn": "CHOZEN",
+   "description": "אופנה וקוסמטיקה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Saucony",
+   "nameEn": "Saucony",
+   "description": "מותג נעלי ריצה וספורט"
+  },
+  {
+   "brand": null,
+   "name": "BLUEBERRY",
+   "nameEn": "BLUEBERRY",
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ATA",
+   "nameEn": "ATA",
+   "description": "מותג אופנה ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Mia Inspiration",
+   "nameEn": "Mia Inspiration",
+   "description": "רשת אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "She-Ra Jewelry",
+   "nameEn": "She-Ra Jewelry",
+   "description": "מעצבת תכשיטים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "שלומית אופיר",
+   "nameEn": null,
+   "description": "עיצוב תכשיטים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "iBags וקיפלינג",
+   "nameEn": null,
+   "description": "מגוון מותגי תיקים ומזוודות"
+  },
+  {
+   "brand": null,
+   "name": "ESTEE LAUDER",
+   "nameEn": "ESTEE LAUDER",
+   "description": "מותג איפור וטיפוח בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "KUMI",
+   "nameEn": "KUMI",
+   "description": "נעליים ואקססוריז",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- אתר אונליין",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SEBOCALM",
+   "nameEn": "SEBOCALM",
+   "description": "מותג טיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "speedo",
+   "nameEn": "speedo",
+   "description": "מותג שחייה וספורט ימי"
+  },
+  {
+   "brand": null,
+   "name": "AIMEE",
+   "nameEn": "AIMEE",
+   "description": "מותג שמלות ערב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "VIVINO קריות",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "תכשיטי דנון",
+   "nameEn": null,
+   "description": "מותג תכשיטים ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Floralis",
+   "nameEn": "Floralis",
+   "description": "מותג לעיצוב הבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "כרמל דיירקט",
+   "nameEn": null,
+   "description": "גרילי גז ומטבחי חוץ",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SCOTCH & SODA",
+   "nameEn": "SCOTCH & SODA",
+   "description": "רשת אופנה בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "VIVINO באר שבע",
+   "nameEn": null,
+   "description": "מסעדה איטלקית כשרה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "את",
+   "nameEn": null,
+   "description": "רשת הלבשה תחתונה"
+  },
+  {
+   "brand": null,
+   "name": "דניאלה להבי",
+   "nameEn": null,
+   "description": "מותג תיקים ונעליים בעיצוב ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Casa Bella",
+   "nameEn": "Casa Bella",
+   "description": "מותג לעיצוב הבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BABY BREZZA",
+   "nameEn": "BABY BREZZA",
+   "description": "מוצרים חכמים להאכלת תינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "WORKER",
+   "nameEn": "WORKER",
+   "description": "רשת ביגוד והנעלה"
+  },
+  {
+   "brand": null,
+   "name": "raven",
+   "nameEn": "raven",
+   "description": "מותג בגדי ספורט לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "econawa",
+   "nameEn": "econawa",
+   "description": "מותג לייף סטייל יפני",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "LASTER",
+   "nameEn": "LASTER",
+   "description": "מותג תיקים וארנקים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Rip Curl",
+   "nameEn": "Rip Curl",
+   "description": "מותג ציוד גלישה"
+  },
+  {
+   "brand": null,
+   "name": "Legal Outfit",
+   "nameEn": "Legal Outfit",
+   "description": "מותג אופנה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Lorens",
+   "nameEn": "Lorens",
+   "description": "בגדי תינוקות וטקסטיל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אורדמן",
+   "nameEn": null,
+   "description": "מותג אופנה צנועה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SHANI BAR",
+   "nameEn": "SHANI BAR",
+   "description": "מעצבת נעליים ותיקים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אשכר מטפחות לדתיות",
+   "nameEn": null,
+   "description": "מותג מטפחות וכיסויי ראש",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BuyCarpet",
+   "nameEn": "BuyCarpet",
+   "description": "עולם של שטיחים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SECOND",
+   "nameEn": "SECOND",
+   "description": "בית אופנה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "PELLE by shelly gafni",
+   "nameEn": "PELLE by shelly gafni",
+   "description": "מותג טיפוח מבית שלי גפני",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Radler",
+   "nameEn": "Radler",
+   "description": "בראסרי מקומי עדכני",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "outline",
+   "nameEn": "outline",
+   "description": "רשת לביגוד עבודה ושטח"
+  },
+  {
+   "brand": null,
+   "name": "ARCOSTEEL KITCHEN",
+   "nameEn": "ARCOSTEEL KITCHEN",
+   "description": "מותג כלי מטבח ובישול"
+  },
+  {
+   "brand": null,
+   "name": "Candid",
+   "nameEn": "Candid",
+   "description": "מותג אופנה לגברים"
+  },
+  {
+   "brand": null,
+   "name": "CLAY HOUSE",
+   "nameEn": "CLAY HOUSE",
+   "description": "סטודיו לקרמיקה ועיצוב"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת a",
+   "nameEn": null,
+   "description": "מסעדת שף יפנית של יובל בן נריה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ואהבת",
+   "nameEn": null,
+   "description": "יודאיקה ואמנות"
+  },
+  {
+   "brand": null,
+   "name": "Give a SMILE‎ by BUYME",
+   "nameEn": null,
+   "description": "תרומה לפרויקטים חברתיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ספא הורייזון - שרתון ת\"א",
+   "nameEn": null,
+   "description": "מתחם ספא במלון שרתון"
+  },
+  {
+   "brand": null,
+   "name": "Be Tel Aviv Tours",
+   "nameEn": "Be Tel Aviv Tours",
+   "description": "סיורים מודרכים בתל אביב"
+  },
+  {
+   "brand": null,
+   "name": "בייבי טבע",
+   "nameEn": null,
+   "description": "מוצרים טבעיים להריון ותינוקות"
+  },
+  {
+   "brand": null,
+   "name": "LORD TICKETS",
+   "nameEn": "LORD TICKETS",
+   "description": "כרטיסים לכל אירוע",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "DOMO",
+   "nameEn": "DOMO",
+   "description": "רשת כלי בית ומטבח"
+  },
+  {
+   "brand": null,
+   "name": "HOTCROWN Jewelry",
+   "nameEn": "HOTCROWN Jewelry",
+   "description": "מותג תכשיטי זהב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TAKEANAP",
+   "nameEn": "TAKEANAP",
+   "description": "מותג טקסטיל לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Billabong",
+   "nameEn": "Billabong",
+   "description": "מותג אופנת גלישה ובגדי ים"
+  },
+  {
+   "brand": null,
+   "name": "American Eagle",
+   "nameEn": "American Eagle",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": "fox",
+   "name": "FOX",
+   "nameEn": "FOX",
+   "description": "רשת אופנה ישראלית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "CASTRO HOME",
+   "nameEn": "CASTRO HOME",
+   "description": "רשת לעיצוב הבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ALDO",
+   "nameEn": "ALDO",
+   "description": "רשת נעליים ואקססוריז",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Quiksilver",
+   "nameEn": "Quiksilver",
+   "description": "מותג אופנת גלישה"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת ג'ורג' וג'ון",
+   "nameEn": null,
+   "description": "מסעדת שף ישראלית מודרנית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "בא מאהבה",
+   "nameEn": null,
+   "description": "רשת אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "OKINAWA",
+   "nameEn": "OKINAWA",
+   "description": "מסעדת סושי ואוכל אסייתי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Boardriders",
+   "nameEn": "Boardriders",
+   "description": "רשת אופנת גלישה וסנובורד"
+  },
+  {
+   "brand": null,
+   "name": "DREAM SPORT",
+   "nameEn": "DREAM SPORT",
+   "description": "רשת חנויות ספורט"
+  },
+  {
+   "brand": null,
+   "name": "Aerie",
+   "nameEn": "Aerie",
+   "description": "רשת הלבשה תחתונה"
+  },
+  {
+   "brand": null,
+   "name": "Aberto",
+   "nameEn": "Aberto",
+   "description": "מסעדת ביסטרו עונתית מקומית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "MAYER HOUSE - HOTEL & SPA",
+   "nameEn": "MAYER HOUSE - HOTEL & SPA",
+   "description": "מלון וספא",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אסתר",
+   "nameEn": null,
+   "description": "מסעדת שף ים תיכונית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Pomo",
+   "nameEn": "Pomo",
+   "description": "מסעדת שף איטלקית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מריפוסה- מסעדת שף בקיסריה",
+   "nameEn": null,
+   "description": "מסעדת שף כשרה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "גסטון סטייק האוס",
+   "nameEn": null,
+   "description": "מסעדת בשרים וסטייקים"
+  },
+  {
+   "brand": null,
+   "name": "הספא במלון פרא",
+   "nameEn": null,
+   "description": "מתחם ספא במלון פרא"
+  },
+  {
+   "brand": null,
+   "name": "גרקו והמעדניה היוונית של גרקו",
+   "nameEn": null,
+   "description": "מסעדה ומעדניה יוונית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TRES",
+   "nameEn": "TRES",
+   "description": "מותג אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "מתוקה",
+   "nameEn": null,
+   "description": "קונדיטוריה וקייטרינג"
+  },
+  {
+   "brand": null,
+   "name": "H&M HOME",
+   "nameEn": "H&M HOME",
+   "description": "רשת לעיצוב הבית"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO חיפה",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מבשלת שריגים",
+   "nameEn": null,
+   "description": "מבשלת בירת בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "קבוצת גוצ'ה",
+   "nameEn": null,
+   "description": "קבוצת מסעדות דגים ופירות ים"
+  },
+  {
+   "brand": null,
+   "name": "גלית ניניו",
+   "nameEn": null,
+   "description": "סטיילינג וייעוץ תדמית"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת חוות התבלינים בגלבוע",
+   "nameEn": null,
+   "description": "מסעדה כפרית בגלבוע"
+  },
+  {
+   "brand": null,
+   "name": "מרכז קנדה",
+   "nameEn": null,
+   "description": "מרכז ספורט ופנאי"
+  },
+  {
+   "brand": null,
+   "name": "גלריית פחות מאלף",
+   "nameEn": null,
+   "description": "גלריה לאמנות ישראלית"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לה שוק",
+   "nameEn": null,
+   "description": "ביסטרו צרפתי בשוק"
+  },
+  {
+   "brand": null,
+   "name": "POLGAT",
+   "nameEn": "POLGAT",
+   "description": "רשת אופנה לגברים"
+  },
+  {
+   "brand": null,
+   "name": "Don't tell Mama",
+   "nameEn": "Don't tell Mama",
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "האופרה הישראלית",
+   "nameEn": null,
+   "description": "בית האופרה הישראלי"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת יפו תל אביב",
+   "nameEn": null,
+   "description": "מסעדת שף של חיים כהן",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מתוק מהלב- אפייה ושוקולד",
+   "nameEn": null,
+   "description": "סדנאות אפייה ושוקולד"
+  },
+  {
+   "brand": null,
+   "name": "Dixie",
+   "nameEn": "Dixie",
+   "description": "דיינר אמריקאי של השף חיים כהן",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הדרכות \"מחוברים בלב\"",
+   "nameEn": null,
+   "description": "סדנאות הדרכת הורים"
+  },
+  {
+   "brand": null,
+   "name": "סקייטרק",
+   "nameEn": null,
+   "description": "חוויות טיסה בכדור פורח"
+  },
+  {
+   "brand": null,
+   "name": "קפה סוזאנה",
+   "nameEn": null,
+   "description": "בית קפה שכונתי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "שבתאי פיצה ובירה",
+   "nameEn": null,
+   "description": "פיצריה ובר בירות"
+  },
+  {
+   "brand": null,
+   "name": "גראנד קפה",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "L'OCCITANE",
+   "nameEn": "L'OCCITANE",
+   "description": "מותג טיפוח ויופי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אווזי - חיפה",
+   "nameEn": null,
+   "description": "מסעדת בשרים ים תיכונית"
+  },
+  {
+   "brand": null,
+   "name": "מרכז סוזן דלל",
+   "nameEn": null,
+   "description": "מרכז למחול ותיאטרון",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ספא טומוקו ג'פניס",
+   "nameEn": null,
+   "description": "ספא יפני"
+  },
+  {
+   "brand": null,
+   "name": "קימל בגלבוע",
+   "nameEn": null,
+   "description": "מסעדת שף של שאול בן-אדרת",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "רשת סושי רחביה",
+   "nameEn": null,
+   "description": "רשת סושי כשרה"
+  },
+  {
+   "brand": null,
+   "name": "אביטליטי",
+   "nameEn": null,
+   "description": "סדנאות בישול בריא"
+  },
+  {
+   "brand": null,
+   "name": "דוניה רוסה",
+   "nameEn": null,
+   "description": "מסעדת בשרים ארגנטינאית"
+  },
+  {
+   "brand": null,
+   "name": "רשת דארלן",
+   "nameEn": null,
+   "description": "רשת טקסטיל לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת באבא יאגה",
+   "nameEn": null,
+   "description": "מסעדה בהשראת מטבח אירופאי ורוסי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת הספריה",
+   "nameEn": null,
+   "description": "בר מסעדה בדרום הארץ",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קסיס",
+   "nameEn": null,
+   "description": "מסעדה ים תיכונית"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת שצ'ופק",
+   "nameEn": null,
+   "description": "מסעדת דגים ותיקה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אלנה במלון נורמן",
+   "nameEn": null,
+   "description": "מסעדת שף אירופאית-ים תיכונית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בלה בעמק",
+   "nameEn": null,
+   "description": "מטבח איטלקי ים תיכוני",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "וואלי",
+   "nameEn": null,
+   "description": "מותג מדבקות קיר"
+  },
+  {
+   "brand": null,
+   "name": "מגבות אלכסנדר",
+   "nameEn": null,
+   "description": "מותג מגבות פרימיום"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת דלאל",
+   "nameEn": null,
+   "description": "מסעדה ים תיכונית עונתית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Sebastian",
+   "nameEn": "Sebastian",
+   "description": "מסעדת ביסטרו",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "סיורי עיריית תל אביב יפו",
+   "nameEn": null,
+   "description": "סיורים עירוניים בתל אביב-יפו"
+  },
+  {
+   "brand": null,
+   "name": "קפה נואר",
+   "nameEn": null,
+   "description": "ביסטרו צרפתי קלאסי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "זה סושי בזל - תל-אביב",
+   "nameEn": null,
+   "description": "מסעדת סושי שכונתית"
+  },
+  {
+   "brand": null,
+   "name": "פארוק בשוק",
+   "nameEn": null,
+   "description": "בר אוכל בשוק הפשפשים"
+  },
+  {
+   "brand": null,
+   "name": "הטרקלין",
+   "nameEn": null,
+   "description": "ביסטרו בשר ויין",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פוקצ'ה במושבה",
+   "nameEn": null,
+   "description": "מסעדת אירועים כשרה"
+  },
+  {
+   "brand": null,
+   "name": "מרכז תרבות נא לגעת",
+   "nameEn": null,
+   "description": "במה פורצת גבולות"
+  },
+  {
+   "brand": null,
+   "name": "Jah Spa הרצליה",
+   "nameEn": null,
+   "description": "ספא במלון דן אכדיה הרצליה"
+  },
+  {
+   "brand": null,
+   "name": "עיסוי רפואי- מרדכי בורודטי",
+   "nameEn": null,
+   "description": "עיסוי רפואי ושיקומי"
+  },
+  {
+   "brand": null,
+   "name": "סאפ יוגה תל אביב",
+   "nameEn": null,
+   "description": "מועדון לסאפ יוגה"
+  },
+  {
+   "brand": null,
+   "name": "SLEEZY PIZZA",
+   "nameEn": "SLEEZY PIZZA",
+   "description": "פיצה איטלקית ממש לא מסורתית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ציפורלה",
+   "nameEn": null,
+   "description": "אנסמבל תיאטרון קומי"
+  },
+  {
+   "brand": null,
+   "name": "Casa Do Brasil - אילת",
+   "nameEn": null,
+   "description": "מסעדת בשרים ברזילאית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "שרינה שוקולד",
+   "nameEn": null,
+   "description": "מרכז מבקרים וסדנאות שוקולד"
+  },
+  {
+   "brand": null,
+   "name": "Lavic",
+   "nameEn": "Lavic",
+   "description": "מכון יופי וטיפולי אסתטיקה"
+  },
+  {
+   "brand": null,
+   "name": "ספא הבריאות שבפינוק",
+   "nameEn": null,
+   "description": "קליניקת בוטיק לעיסויים מקצועיים"
+  },
+  {
+   "brand": null,
+   "name": "west and spa אשדוד",
+   "nameEn": null,
+   "description": "ספא במלון ווסט אשדוד"
+  },
+  {
+   "brand": null,
+   "name": "אריק לבנת",
+   "nameEn": null,
+   "description": "סדנאות תיפוף ומוזיקה"
+  },
+  {
+   "brand": null,
+   "name": "מרקש",
+   "nameEn": null,
+   "description": "מסעדה מרוקאית אותנטית"
+  },
+  {
+   "brand": null,
+   "name": "Body and Soul",
+   "nameEn": "Body and Soul",
+   "description": "מתחם טיפולים ויופי"
+  },
+  {
+   "brand": null,
+   "name": "פונדק עין כרם",
+   "nameEn": null,
+   "description": "מסעדה איטלקית כפרית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Sea Time",
+   "nameEn": "Sea Time",
+   "description": "מועדון ובית ספר לסקיפרים"
+  },
+  {
+   "brand": null,
+   "name": "לי-ים",
+   "nameEn": null,
+   "description": "השכרת יאכטות"
+  },
+  {
+   "brand": null,
+   "name": "סטודיו הראל",
+   "nameEn": null,
+   "description": "מרכז לימודי צילום"
+  },
+  {
+   "brand": null,
+   "name": "צפון אברקסס",
+   "nameEn": null,
+   "description": "בר ומסעדת שף של אייל שני",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קופינאס",
+   "nameEn": null,
+   "description": "מסעדה יוונית"
+  },
+  {
+   "brand": null,
+   "name": "מועדון לב הים",
+   "nameEn": null,
+   "description": "מועדון ספורט ימי"
+  },
+  {
+   "brand": null,
+   "name": "ספא מנטרה - רעננה",
+   "nameEn": null,
+   "description": "ספא טיפולי"
+  },
+  {
+   "brand": null,
+   "name": "Jet Lag",
+   "nameEn": "Jet Lag",
+   "description": "ציוד טיולים ומחנאות"
+  },
+  {
+   "brand": null,
+   "name": "מועדון הגולף קיסריה",
+   "nameEn": null,
+   "description": "מועדון גולף בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "ספא בית אורן",
+   "nameEn": null,
+   "description": "ספא בוטיק כפרי"
+  },
+  {
+   "brand": null,
+   "name": "אוליברי",
+   "nameEn": null,
+   "description": "מסעדה איטלקית סיציליאנית"
+  },
+  {
+   "brand": null,
+   "name": "Just Believe Jewelry",
+   "nameEn": "Just Believe Jewelry",
+   "description": "מותג תכשיטים מעוצבים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אלי היבש",
+   "nameEn": null,
+   "description": "תכשיטים וסדנאות צורפות"
+  },
+  {
+   "brand": null,
+   "name": "ספא SHEVA",
+   "nameEn": null,
+   "description": "מתחם בריאות וספא בסגנון תאילנדי"
+  },
+  {
+   "brand": null,
+   "name": "גיל לוין",
+   "nameEn": null,
+   "description": "סטודיו לצילום"
+  },
+  {
+   "brand": null,
+   "name": "וניה ביסטרו",
+   "nameEn": null,
+   "description": "ביסטרו שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בוצ'רי",
+   "nameEn": null,
+   "description": "מסעדת בשרים וקצביה"
+  },
+  {
+   "brand": null,
+   "name": "פלה דה תה",
+   "nameEn": null,
+   "description": "חנות מוצרי תה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת הצדף",
+   "nameEn": null,
+   "description": "מסעדת דגים ומאכלי ים",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "איטלקיה בפשפשים",
+   "nameEn": null,
+   "description": "מסעדה איטלקית"
+  },
+  {
+   "brand": null,
+   "name": "מחסן גיטרות",
+   "nameEn": null,
+   "description": "גיטרות ואביזרים נלווים"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת מינאטו",
+   "nameEn": null,
+   "description": "מסעדה יפנית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "פוקצ'ה בר",
+   "nameEn": null,
+   "description": "בר-מסעדה איטלקי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "דייויס ואודי",
+   "nameEn": null,
+   "description": "סלון לעיצוב שיער"
+  },
+  {
+   "brand": null,
+   "name": "סטודיו מיכל",
+   "nameEn": null,
+   "description": "סטודיו לפילאטיס מכשירים ומזרן"
+  },
+  {
+   "brand": null,
+   "name": "Noor Glamping",
+   "nameEn": "Noor Glamping",
+   "description": "מתחם גלמפינג מדברי"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת מונא",
+   "nameEn": null,
+   "description": "מסעדת ביסטרו שף",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "סיגל זיו",
+   "nameEn": null,
+   "description": "מרכז לריקוד והתפתחות"
+  },
+  {
+   "brand": null,
+   "name": "Dance Tel Aviv",
+   "nameEn": "Dance Tel Aviv",
+   "description": "בית לריקודי זוגות"
+  },
+  {
+   "brand": null,
+   "name": "ביצ'יקלטה",
+   "nameEn": null,
+   "description": "בר אוכל"
+  },
+  {
+   "brand": null,
+   "name": "BalleriMa",
+   "nameEn": "BalleriMa",
+   "description": "תנועה בהיריון ואחרי לידה"
+  },
+  {
+   "brand": null,
+   "name": "Jah Spa אילת",
+   "nameEn": null,
+   "description": "ספא במלון דן אילת"
+  },
+  {
+   "brand": null,
+   "name": "BABY MIT MIT",
+   "nameEn": "BABY MIT MIT",
+   "description": "מותג טקסטיל לתינוקות"
+  },
+  {
+   "brand": null,
+   "name": "BARCOM",
+   "nameEn": "BARCOM",
+   "description": "מוצרי תקשורת"
+  },
+  {
+   "brand": null,
+   "name": "Beer Garden",
+   "nameEn": "Beer Garden",
+   "description": "בר בירות ואוכל"
+  },
+  {
+   "brand": null,
+   "name": "Carter's/Oshkosh",
+   "nameEn": "Carter's/Oshkosh",
+   "description": "רשת אופנה לילדים ותינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "CLINIQUE",
+   "nameEn": "CLINIQUE",
+   "description": "מותג טיפוח ואיפור בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "DeVine",
+   "nameEn": "DeVine",
+   "description": "יינות בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "אקסקלוסיב ריקודים",
+   "nameEn": null,
+   "description": "בית ספר לריקודים סלוניים"
+  },
+  {
+   "brand": null,
+   "name": "Gatsby",
+   "nameEn": "Gatsby",
+   "description": "בר קוקטיילים מקבוצת מחניודה"
+  },
+  {
+   "brand": null,
+   "name": "Instablock",
+   "nameEn": "Instablock",
+   "description": "הדפסת תמונות על עץ",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "lost",
+   "nameEn": "lost",
+   "description": "חדרי בריחה"
+  },
+  {
+   "brand": null,
+   "name": "MOLET",
+   "nameEn": "MOLET",
+   "description": "סדנאות נגרות ועיצוב בר קימא"
+  },
+  {
+   "brand": null,
+   "name": "My Winery",
+   "nameEn": "My Winery",
+   "description": "חבית יין פרטית V.I.P"
+  },
+  {
+   "brand": null,
+   "name": "NOLA American Bakery",
+   "nameEn": "NOLA American Bakery",
+   "description": "מאפייה ובית קפה אמריקאי"
+  },
+  {
+   "brand": null,
+   "name": "Novarun",
+   "nameEn": "Novarun",
+   "description": "בית ספר לריצה"
+  },
+  {
+   "brand": null,
+   "name": "pecka'le",
+   "nameEn": "pecka'le",
+   "description": "סטודיו קולינרי"
+  },
+  {
+   "brand": null,
+   "name": "PicCell - צילום בסמארטפון",
+   "nameEn": null,
+   "description": "סדנת צילום בסמארטפון"
+  },
+  {
+   "brand": null,
+   "name": "QUESTLINE",
+   "nameEn": "QUESTLINE",
+   "description": "חדרי בריחה"
+  },
+  {
+   "brand": null,
+   "name": "Silver Bell",
+   "nameEn": "Silver Bell",
+   "description": "מארזי מתנה לתינוקות ואמהות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SmartTour",
+   "nameEn": "SmartTour",
+   "description": "סיורים מודרכים"
+  },
+  {
+   "brand": null,
+   "name": "Sparco",
+   "nameEn": "Sparco",
+   "description": "נהיגת מרוצים"
+  },
+  {
+   "brand": null,
+   "name": "Surf Club א.ד משוטים",
+   "nameEn": null,
+   "description": "מועדון גלישה וספורט ימי"
+  },
+  {
+   "brand": null,
+   "name": "Surf Club",
+   "nameEn": "Surf Club",
+   "description": "מועדון גלישה"
+  },
+  {
+   "brand": null,
+   "name": "ToneLine",
+   "nameEn": "ToneLine",
+   "description": "שיעורי מוסיקה אונליין"
+  },
+  {
+   "brand": null,
+   "name": "ספא אלמונד",
+   "nameEn": null,
+   "description": "ספא בוטיק במלון אלמונד"
+  },
+  {
+   "brand": null,
+   "name": "TOPSEA",
+   "nameEn": "TOPSEA",
+   "description": "מרכז גלישה"
+  },
+  {
+   "brand": null,
+   "name": "בית הספר - W",
+   "nameEn": null,
+   "description": "בית הספר ליין"
+  },
+  {
+   "brand": null,
+   "name": "ZOHARA",
+   "nameEn": "ZOHARA",
+   "description": "גרביונים מעוצבים"
+  },
+  {
+   "brand": null,
+   "name": "Abraham Hostel",
+   "nameEn": "Abraham Hostel",
+   "description": "רשת אכסניות"
+  },
+  {
+   "brand": null,
+   "name": "agenda",
+   "nameEn": "agenda",
+   "description": "בר קפה וסושי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Alltech",
+   "nameEn": "Alltech",
+   "description": "משחקי מדע וטכנולוגיה"
+  },
+  {
+   "brand": null,
+   "name": "Cafe Popular",
+   "nameEn": "Cafe Popular",
+   "description": "לאונג' ובר אוכל של השף אבי ביטון",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "AYUCHKA",
+   "nameEn": "AYUCHKA",
+   "description": "בגדי מעצבים יד שנייה"
+  },
+  {
+   "brand": null,
+   "name": "אליסיום עולם בריא לתינוקות",
+   "nameEn": null,
+   "description": "מוצרים טבעיים לתינוקות"
+  },
+  {
+   "brand": null,
+   "name": "אריסטו שמט",
+   "nameEn": null,
+   "description": "רשת אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "באלגן",
+   "nameEn": null,
+   "description": "פארק אטרקציות לילדים"
+  },
+  {
+   "brand": null,
+   "name": "FIORI",
+   "nameEn": "FIORI",
+   "description": "בוטיק פרחים"
+  },
+  {
+   "brand": null,
+   "name": "בטבע של בני - בצל התאנה",
+   "nameEn": null,
+   "description": "מסעדה טבעונית גלילית"
+  },
+  {
+   "brand": null,
+   "name": "בירה אלכסנדר",
+   "nameEn": null,
+   "description": "מבשלת בירה ישראלית"
+  },
+  {
+   "brand": null,
+   "name": "דריה ספא נתניה",
+   "nameEn": null,
+   "description": "ספא במלון נבל דוד נתניה"
+  },
+  {
+   "brand": null,
+   "name": "כפיר בולטין",
+   "nameEn": null,
+   "description": "בית ספר לצילום"
+  },
+  {
+   "brand": null,
+   "name": "בית השנטי",
+   "nameEn": null,
+   "description": "עמותה ובית חם לנוער"
+  },
+  {
+   "brand": null,
+   "name": "בית חנה",
+   "nameEn": null,
+   "description": "לזוז, להקשיב, להיפגש"
+  },
+  {
+   "brand": null,
+   "name": "בית קנדינוף",
+   "nameEn": null,
+   "description": "מסעדה עונתית ים תיכונית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "La maison du savon",
+   "nameEn": "La maison du savon",
+   "description": "מותג סבונים וטיפוח בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ביתא קפה",
+   "nameEn": null,
+   "description": "בתי קפה שכונתי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ג'קו סטריט",
+   "nameEn": null,
+   "description": "מסעדת שף כשרה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "גליליס",
+   "nameEn": null,
+   "description": "מוצרי אוכל בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "דנה אשכנזי",
+   "nameEn": null,
+   "description": "מעצבת אופנת נשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "דנית השכרת יאכטות",
+   "nameEn": null,
+   "description": "שירותי שייט והפלגות"
+  },
+  {
+   "brand": null,
+   "name": "האתר הסודי לשמלות מסתובבות",
+   "nameEn": null,
+   "description": "מותג אופנה לילדות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הולה",
+   "nameEn": null,
+   "description": "חנות לאירועים"
+  },
+  {
+   "brand": null,
+   "name": "החנות הורודה",
+   "nameEn": null,
+   "description": "בגדי ים ברזילאים"
+  },
+  {
+   "brand": null,
+   "name": "הממלכה",
+   "nameEn": null,
+   "description": "משחקי לוח ותפקידים"
+  },
+  {
+   "brand": null,
+   "name": "המרכז למיינדפולנס",
+   "nameEn": null,
+   "description": "קורסים וסדנאות מיינדפולנס"
+  },
+  {
+   "brand": null,
+   "name": "הצוללת הצהובה",
+   "nameEn": null,
+   "description": "מועדון הופעות חיות"
+  },
+  {
+   "brand": null,
+   "name": "הקתדרה",
+   "nameEn": null,
+   "description": "מרכז הרצאות וידע"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת שופן",
+   "nameEn": null,
+   "description": "מסעדת בשרים כשרה"
+  },
+  {
+   "brand": null,
+   "name": "התרבוש",
+   "nameEn": null,
+   "description": "סיורים בתל אביב יפו"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO זיכרון יעקב",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "חוות צוק- המסעדה",
+   "nameEn": null,
+   "description": "מסעדת שף של בשר מקומי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "TOUS",
+   "nameEn": "TOUS",
+   "description": "מותג תכשיטים בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "טיליה",
+   "nameEn": null,
+   "description": "קליניקה טיפולית"
+  },
+  {
+   "brand": null,
+   "name": "טלי רוקני",
+   "nameEn": null,
+   "description": "מעצבת אופנת נשים"
+  },
+  {
+   "brand": null,
+   "name": "יוגה צחוק",
+   "nameEn": null,
+   "description": "סדנאות יוגה צחוק"
+  },
+  {
+   "brand": null,
+   "name": "Laguna Sea Sports",
+   "nameEn": "Laguna Sea Sports",
+   "description": "מועדון גלישה"
+  },
+  {
+   "brand": null,
+   "name": "לייזר טאג פולג- לוחמה אורבנית",
+   "nameEn": null,
+   "description": "מתחם לייזר טאג"
+  },
+  {
+   "brand": null,
+   "name": "לרקוד מהלב",
+   "nameEn": null,
+   "description": "סדנת ריקוד פרטית"
+  },
+  {
+   "brand": null,
+   "name": "מדיטק חולון",
+   "nameEn": null,
+   "description": "מתחם תרבות"
+  },
+  {
+   "brand": null,
+   "name": "מושלמת",
+   "nameEn": null,
+   "description": "מכון יופי בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "מזרני Camp David",
+   "nameEn": null,
+   "description": "מותג מזרנים אורטופדיים"
+  },
+  {
+   "brand": null,
+   "name": "מחבואים בחשיכה",
+   "nameEn": null,
+   "description": "משחק אסטרטגיה קבוצתי"
+  },
+  {
+   "brand": null,
+   "name": "מטרונום סטודיו",
+   "nameEn": null,
+   "description": "אולפן הקלטות"
+  },
+  {
+   "brand": null,
+   "name": "מי קאסה",
+   "nameEn": null,
+   "description": "בית קפה וארוחות בוקר בחצר",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מיטחברת",
+   "nameEn": null,
+   "description": "עריסה נצמדת למיטה"
+  },
+  {
+   "brand": null,
+   "name": "Mixta",
+   "nameEn": "Mixta",
+   "description": "סדנאות ואירועי קוקטייל"
+  },
+  {
+   "brand": null,
+   "name": "מלון White Villa",
+   "nameEn": null,
+   "description": "מלון בוטיק בוילה עירונית-אירופאית"
+  },
+  {
+   "brand": null,
+   "name": "מלון גורדון אין",
+   "nameEn": null,
+   "description": "הוסטל ואכסנייה"
+  },
+  {
+   "brand": null,
+   "name": "מלון משכנות רות דניאל",
+   "nameEn": null,
+   "description": "מלון המשלב אווירה עסקית והנאה"
+  },
+  {
+   "brand": null,
+   "name": "The Schumacher Hotel",
+   "nameEn": "The Schumacher Hotel",
+   "description": "מלון ללא ילדים"
+  },
+  {
+   "brand": null,
+   "name": "יקב בן חיים",
+   "nameEn": null,
+   "description": "יקב בוטיק ומרכז מבקרים"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת ארסטו קיסריה",
+   "nameEn": null,
+   "description": "מסעדת שף איטלקית כשרה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Torii",
+   "nameEn": "Torii",
+   "description": "מטבח אסייתי וסושי בר"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לוקס",
+   "nameEn": null,
+   "description": "מטבח מקומי שמח",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "סיונרה",
+   "nameEn": null,
+   "description": "אסייתית כשרה"
+  },
+  {
+   "brand": null,
+   "name": "Pastel",
+   "nameEn": "Pastel",
+   "description": "מסעדת שף בהובלתו של השף טדי קגן",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "משק הלברכט",
+   "nameEn": null,
+   "description": "גינת אוכל"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת רשטא",
+   "nameEn": null,
+   "description": "מסעדת שף של מטבח ערבי אותנטי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ספא דרך הגוף",
+   "nameEn": null,
+   "description": "ספא המתמחה בטיפול איורוודה Seed"
+  },
+  {
+   "brand": null,
+   "name": "סטודיו בעלי המלאכה",
+   "nameEn": null,
+   "description": "דפוס רשת ידני"
+  },
+  {
+   "brand": null,
+   "name": "ספא בית דרך חיים- נמל ת\"א",
+   "nameEn": null,
+   "description": "מתחם ספא וטיפולים"
+  },
+  {
+   "brand": null,
+   "name": "IZEN SPA",
+   "nameEn": "IZEN SPA",
+   "description": "מתחם ספא וטיפולים"
+  },
+  {
+   "brand": null,
+   "name": "ספא ויה מאריס",
+   "nameEn": null,
+   "description": "ספא יוקרה במלון דיוויד טאואר"
+  },
+  {
+   "brand": null,
+   "name": "פארק מיני ישראל",
+   "nameEn": null,
+   "description": "פארק מיניאטורות"
+  },
+  {
+   "brand": null,
+   "name": "פונדק הצלבנים קיסריה",
+   "nameEn": null,
+   "description": "מסעדה ים תיכונית"
+  },
+  {
+   "brand": null,
+   "name": "פוסידון",
+   "nameEn": null,
+   "description": "מרכז לשיט והפלגות"
+  },
+  {
+   "brand": null,
+   "name": "פטלינה",
+   "nameEn": null,
+   "description": "בית קפה וביסטרו",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Paint Pub",
+   "nameEn": "Paint Pub",
+   "description": "סדנאות ציור על הבר"
+  },
+  {
+   "brand": null,
+   "name": "פיצה פורטו",
+   "nameEn": null,
+   "description": "מסעדה איטלקית"
+  },
+  {
+   "brand": null,
+   "name": "צ'רלי בננה",
+   "nameEn": null,
+   "description": "מוצרי תינוקות ירוקים"
+  },
+  {
+   "brand": null,
+   "name": "צימרים גן העדן של ליאורה",
+   "nameEn": null,
+   "description": "מתחם צימרים"
+  },
+  {
+   "brand": null,
+   "name": "קפה זליק",
+   "nameEn": null,
+   "description": "בית קפה שכונתי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה פרנצ'וק",
+   "nameEn": null,
+   "description": "בית קפה ומאפייה"
+  },
+  {
+   "brand": null,
+   "name": "קפה סלבדור",
+   "nameEn": null,
+   "description": "בית קפה מבית ג'קו סטריט"
+  },
+  {
+   "brand": null,
+   "name": "Brainit",
+   "nameEn": "Brainit",
+   "description": "רשת חדרי בריחה"
+  },
+  {
+   "brand": null,
+   "name": "רשת מלונות מטיילים",
+   "nameEn": null,
+   "description": "מתחמי לינה בסמוך לאתרי טיול"
+  },
+  {
+   "brand": null,
+   "name": "פאפאגאיו ירושלים",
+   "nameEn": null,
+   "description": "מסעדת בשרים ברזילאית"
+  },
+  {
+   "brand": null,
+   "name": "sagit jewelry",
+   "nameEn": "sagit jewelry",
+   "description": "מעצבת תכשיטים"
+  },
+  {
+   "brand": null,
+   "name": "Shoppu",
+   "nameEn": "Shoppu",
+   "description": "מוצרי עיצוב יפנים"
+  },
+  {
+   "brand": null,
+   "name": "שיחות עם הברמן",
+   "nameEn": null,
+   "description": "ליין הרצאות על הבר"
+  },
+  {
+   "brand": null,
+   "name": "שירי רז",
+   "nameEn": null,
+   "description": "סטייליסטית רב תחומית"
+  },
+  {
+   "brand": null,
+   "name": "שישקו",
+   "nameEn": null,
+   "description": "בר אוכל בלקני"
+  },
+  {
+   "brand": null,
+   "name": "תות וניל",
+   "nameEn": null,
+   "description": "מתנות לידה מעוצבות"
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון באר-שבע",
+   "nameEn": null,
+   "description": "תיאטרון רפרטוארי"
+  },
+  {
+   "brand": null,
+   "name": "QUESTAIR",
+   "nameEn": "QUESTAIR",
+   "description": "חדרי בריחה"
+  },
+  {
+   "brand": null,
+   "name": "MysticRoom",
+   "nameEn": "MysticRoom",
+   "description": "רשת חדרי בריחה"
+  },
+  {
+   "brand": null,
+   "name": "ספא דריה נבל דוד גליל ריזורט",
+   "nameEn": null,
+   "description": "ספא במלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "ADAMA",
+   "nameEn": "ADAMA",
+   "description": "סדנת נגרות מסורתית"
+  },
+  {
+   "brand": null,
+   "name": "BOOLCACTUS",
+   "nameEn": "BOOLCACTUS",
+   "description": "קקטוסים ועציצי עץ"
+  },
+  {
+   "brand": null,
+   "name": "Desigual",
+   "nameEn": "Desigual",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "ספא טיפה אחרת",
+   "nameEn": null,
+   "description": "טיפולי וואטסו",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Enerjucier",
+   "nameEn": "Enerjucier",
+   "description": "מגשי פירות"
+  },
+  {
+   "brand": null,
+   "name": "Extreme",
+   "nameEn": "Extreme",
+   "description": "מועדון גלישה"
+  },
+  {
+   "brand": null,
+   "name": "Gitta bags",
+   "nameEn": "Gitta bags",
+   "description": "מותג תיקי עגלה והחתלה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "KOA",
+   "nameEn": "KOA",
+   "description": "ערכות DIY"
+  },
+  {
+   "brand": null,
+   "name": "LONGCHAMP",
+   "nameEn": "LONGCHAMP",
+   "description": "מותג תיקי יוקרה בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "Mommysport",
+   "nameEn": "Mommysport",
+   "description": "התעמלות בהיריון ולאחר לידה"
+  },
+  {
+   "brand": null,
+   "name": "ONAMI",
+   "nameEn": "ONAMI",
+   "description": "מסעדה יפנית וסושי בר",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "SUPERDRY",
+   "nameEn": "SUPERDRY",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "ThaiTime",
+   "nameEn": "ThaiTime",
+   "description": "עיסוי תאילנדי מסורתי"
+  },
+  {
+   "brand": null,
+   "name": "אדון קרלוס",
+   "nameEn": null,
+   "description": "אופנה ומתנות לטבעונים"
+  },
+  {
+   "brand": null,
+   "name": "איש הענבים",
+   "nameEn": null,
+   "description": "סדנאות יין"
+  },
+  {
+   "brand": null,
+   "name": "אנשי הזית- מוצרי פרימיום",
+   "nameEn": null,
+   "description": "מותג שמן זית ומוצרי בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "ביג גרף",
+   "nameEn": null,
+   "description": "פתרונות דפוס דיגיטלי"
+  },
+  {
+   "brand": null,
+   "name": "בן רוד",
+   "nameEn": null,
+   "description": "מופע של אמן חושים"
+  },
+  {
+   "brand": null,
+   "name": "גיגסי",
+   "nameEn": null,
+   "description": "ספורט בר"
+  },
+  {
+   "brand": null,
+   "name": "דה קרינה שוקולד",
+   "nameEn": null,
+   "description": "מרכז מבקרים ושוקולד"
+  },
+  {
+   "brand": null,
+   "name": "האקדמיה לפירות",
+   "nameEn": null,
+   "description": "מגשי פירות"
+  },
+  {
+   "brand": null,
+   "name": "המתססה",
+   "nameEn": null,
+   "description": "סיידרים אלכוהוליים, מיצים וריבות"
+  },
+  {
+   "brand": null,
+   "name": "הקמפוס הדיגיטלי",
+   "nameEn": null,
+   "description": "קורסים אונליין",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "השף היושב",
+   "nameEn": null,
+   "description": "ארוחות שף ביתיות"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO כרמיאל",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "וילה בכפר למרגלות הגלבוע",
+   "nameEn": null,
+   "description": "וילת אירוח יוקרתית למשפחות"
+  },
+  {
+   "brand": null,
+   "name": "זאוספא רמת גן",
+   "nameEn": null,
+   "description": "מתחם ספא וטיפולים"
+  },
+  {
+   "brand": null,
+   "name": "יקב לטם",
+   "nameEn": null,
+   "description": "יקב בוטיק אורגני",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "לייזר סטריט",
+   "nameEn": null,
+   "description": "מתחם לייזר טאג ברעננה"
+  },
+  {
+   "brand": null,
+   "name": "מלון טריאסטה בוטיק",
+   "nameEn": null,
+   "description": "מלון בוטיק באווירה כפרית-איטלקית"
+  },
+  {
+   "brand": null,
+   "name": "מלון עדן אין",
+   "nameEn": null,
+   "description": "מלון ירוק בטבע"
+  },
+  {
+   "brand": null,
+   "name": "Ruby",
+   "nameEn": "Ruby",
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פימפינלה",
+   "nameEn": null,
+   "description": "בר אניס ופירות ים"
+  },
+  {
+   "brand": null,
+   "name": "Par Derriere",
+   "nameEn": "Par Derriere",
+   "description": "בר יין ומסעדה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Kalamata",
+   "nameEn": "Kalamata",
+   "description": "מסעדה יוונית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת שטרודל",
+   "nameEn": null,
+   "description": "בית קפה ומסעדה"
+  },
+  {
+   "brand": null,
+   "name": "סקאי",
+   "nameEn": null,
+   "description": "סימולטור טיסה"
+  },
+  {
+   "brand": null,
+   "name": "ספא פנינה בכרמל",
+   "nameEn": null,
+   "description": "ספא בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "עוגאיה",
+   "nameEn": null,
+   "description": "קורסים דיגיטליים לעוגות"
+  },
+  {
+   "brand": null,
+   "name": "עיניים",
+   "nameEn": null,
+   "description": "עיתון ילדים"
+  },
+  {
+   "brand": null,
+   "name": "Deep siam",
+   "nameEn": "Deep siam",
+   "description": "מרכז צלילה"
+  },
+  {
+   "brand": null,
+   "name": "פרה פרה-מסעדת בשרים",
+   "nameEn": null,
+   "description": "מסעדת בשרים"
+  },
+  {
+   "brand": null,
+   "name": "שוק EAT",
+   "nameEn": null,
+   "description": "סיורי שוק קולינריים"
+  },
+  {
+   "brand": null,
+   "name": "שרנא ספא הרצליה",
+   "nameEn": null,
+   "description": "מתחם ספא במלון השרון"
+  },
+  {
+   "brand": null,
+   "name": "תות תקשורת - אלון גל",
+   "nameEn": null,
+   "description": "קורסי אימון וייעוץ עסקי"
+  },
+  {
+   "brand": null,
+   "name": "Picabook",
+   "nameEn": "Picabook",
+   "description": "אלבומים דיגיטליים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רוסטיקו",
+   "nameEn": null,
+   "description": "מסעדה איטלקית קלאסית"
+  },
+  {
+   "brand": null,
+   "name": "אחוזת ספא קיסר- קיסריה",
+   "nameEn": null,
+   "description": "ספא יוקרתי"
+  },
+  {
+   "brand": null,
+   "name": "מזיגה חופשית",
+   "nameEn": null,
+   "description": "ערכות קוקטיילים"
+  },
+  {
+   "brand": null,
+   "name": "Somek Winery",
+   "nameEn": "Somek Winery",
+   "description": "יקב בוטיק משפחתי"
+  },
+  {
+   "brand": null,
+   "name": "דנה ישראלי",
+   "nameEn": null,
+   "description": "סדנאות עיצוב ויצירת תוכן בדיגיטל"
+  },
+  {
+   "brand": null,
+   "name": "I AM LITTLE",
+   "nameEn": "I AM LITTLE",
+   "description": "אלבומי תינוק ומתנות לידה"
+  },
+  {
+   "brand": null,
+   "name": "My Medi",
+   "nameEn": "My Medi",
+   "description": "אפליקציה למדיטציות"
+  },
+  {
+   "brand": null,
+   "name": "CAFE TAIZU",
+   "nameEn": "CAFE TAIZU",
+   "description": "קפה בר אסייאתי מקבוצת טאיזו",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "טרקטורוני עמק חפר",
+   "nameEn": null,
+   "description": "טיולי טרקטרונים"
+  },
+  {
+   "brand": null,
+   "name": "סמארט טויס",
+   "nameEn": null,
+   "description": "צעצועים חכמים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ESKIMOS",
+   "nameEn": "ESKIMOS",
+   "description": "משחקים לילדים ותינוקות"
+  },
+  {
+   "brand": null,
+   "name": "Homegrown",
+   "nameEn": "Homegrown",
+   "description": "חממה ביתית לגידול אורגני"
+  },
+  {
+   "brand": null,
+   "name": "LOL ART",
+   "nameEn": "LOL ART",
+   "description": "ערכות יצירה"
+  },
+  {
+   "brand": null,
+   "name": "ReFresh",
+   "nameEn": "ReFresh",
+   "description": "פירות וירקות עד הבית"
+  },
+  {
+   "brand": null,
+   "name": "SWAGG",
+   "nameEn": "SWAGG",
+   "description": "גאדג'טים ו-lifestyle",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אושי אושי חיפה",
+   "nameEn": null,
+   "description": "רשת סושי ואוכל אסייתי"
+  },
+  {
+   "brand": null,
+   "name": "בש גל",
+   "nameEn": null,
+   "description": "ציוד ספורט ביתי ומקצועי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "טעימים",
+   "nameEn": null,
+   "description": "ממתקים נדירים מחו\"ל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מלון SAUL",
+   "nameEn": null,
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "מלון רנומה",
+   "nameEn": null,
+   "description": "מלון ודירות יוקרה"
+  },
+  {
+   "brand": null,
+   "name": "Philadelphia",
+   "nameEn": "Philadelphia",
+   "description": "מסעדת כריכי בשר של השף חיים כהן",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "KAB KEM",
+   "nameEn": "KAB KEM",
+   "description": "בר מסעדה תאילנדי"
+  },
+  {
+   "brand": null,
+   "name": "סלון אוכל",
+   "nameEn": null,
+   "description": "מארזים ומגשי אירוח"
+  },
+  {
+   "brand": null,
+   "name": "שירלי מרכז אומנויות",
+   "nameEn": null,
+   "description": "סדנאות וחוגי אומנות"
+  },
+  {
+   "brand": null,
+   "name": "שקדיה",
+   "nameEn": null,
+   "description": "חנות טבע"
+  },
+  {
+   "brand": null,
+   "name": "ellesse",
+   "nameEn": "ellesse",
+   "description": "מותג ספורט ולייף סטייל"
+  },
+  {
+   "brand": null,
+   "name": "רהיטי קיסר",
+   "nameEn": null,
+   "description": "ריהוט משרדי וארגונומי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "התרנגול הכחול",
+   "nameEn": null,
+   "description": "מסעדת שף של שאול בן אדרת",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קבוצת מחניודה",
+   "nameEn": null,
+   "description": "מגוון מסעדות של השף אסף גרניט",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "OH MY BOX",
+   "nameEn": "OH MY BOX",
+   "description": "קופסאות דייט מקוריות"
+  },
+  {
+   "brand": null,
+   "name": "התאילנדית בסמטת סיני",
+   "nameEn": null,
+   "description": "מסעדה תאילנדית אותנטית"
+  },
+  {
+   "brand": null,
+   "name": "קיפצובה",
+   "nameEn": null,
+   "description": "פארק שעשועים וחוויות"
+  },
+  {
+   "brand": null,
+   "name": "Lilush box",
+   "nameEn": "Lilush box",
+   "description": "מתנות לידה לאמהות"
+  },
+  {
+   "brand": null,
+   "name": "ששון - אחוזה חיפה",
+   "nameEn": null,
+   "description": "בר קולינרי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "סינטה בר אקספרס - חיפה",
+   "nameEn": null,
+   "description": "רשת מסעדות בשרים"
+  },
+  {
+   "brand": null,
+   "name": "BAYTON",
+   "nameEn": "BAYTON",
+   "description": "מותג נעלי נוחות"
+  },
+  {
+   "brand": null,
+   "name": "GUESS",
+   "nameEn": "GUESS",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "ממבו מילאנו- מטבח איטלקי עכשווי",
+   "nameEn": null,
+   "description": "בר קולינרי איטלקי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת טלביה",
+   "nameEn": null,
+   "description": "מסעדת שף- בראסרי אירופאי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "MR.BUN BURGER",
+   "nameEn": "MR.BUN BURGER",
+   "description": "מסעדת המבורגרים"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פרינג'",
+   "nameEn": null,
+   "description": "בית קפה ומסעדה"
+  },
+  {
+   "brand": null,
+   "name": "The Children's Place",
+   "nameEn": "The Children's Place",
+   "description": "רשת אופנה לילדים"
+  },
+  {
+   "brand": null,
+   "name": "SHAZLONG BY UNICO",
+   "nameEn": "SHAZLONG BY UNICO",
+   "description": "עיצוב הבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "malaya kids",
+   "nameEn": "malaya kids",
+   "description": "מותג אופנה לילדים"
+  },
+  {
+   "brand": null,
+   "name": "I Optic",
+   "nameEn": "I Optic",
+   "description": "רשת משקפי שמש וראייה"
+  },
+  {
+   "brand": null,
+   "name": "Choose Your Cookies",
+   "nameEn": "Choose Your Cookies",
+   "description": "עוגיות פרימיום במגוןן טעמים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Foody",
+   "nameEn": "Foody",
+   "description": "סדנאות שף דיגיטליות"
+  },
+  {
+   "brand": null,
+   "name": "White Space",
+   "nameEn": "White Space",
+   "description": "מתנות מעוצבות לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מטיילים עם עדן",
+   "nameEn": null,
+   "description": "סיורים מודרכים וקולינריה"
+  },
+  {
+   "brand": null,
+   "name": "Lee Cooper",
+   "nameEn": "Lee Cooper",
+   "description": "רשת אופנת ג'ינס וקז'ואל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "NINE WEST",
+   "nameEn": "NINE WEST",
+   "description": "רשת נעליים ואקססוריז בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קפאסה",
+   "nameEn": null,
+   "description": "בר טאפסים ים תיכוני",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "NAUTICA",
+   "nameEn": "NAUTICA",
+   "description": "רשת אופנה בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "EMPORIUM",
+   "nameEn": "EMPORIUM",
+   "description": "רשת אופנה בינלאומית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הצנחניה",
+   "nameEn": null,
+   "description": "צניחה חופשית בגליל"
+  },
+  {
+   "brand": null,
+   "name": "Gali",
+   "nameEn": "Gali",
+   "description": "רשת נעליים לכל המשפחה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מלון דניאל וספא שיזן הרצליה",
+   "nameEn": null,
+   "description": "מלון עסקים ונופש"
+  },
+  {
+   "brand": null,
+   "name": "DKNY",
+   "nameEn": "DKNY",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "Eureka Workshop",
+   "nameEn": "Eureka Workshop",
+   "description": "חשיבה יצירתית"
+  },
+  {
+   "brand": null,
+   "name": "FOOD TERMINAL",
+   "nameEn": "FOOD TERMINAL",
+   "description": "מתחם אוכל קולינרי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Gaby's",
+   "nameEn": "Gaby's",
+   "description": "מעצבת תכשיטים בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MY BABY",
+   "nameEn": "MY BABY",
+   "description": "משחקיה"
+  },
+  {
+   "brand": null,
+   "name": "The Line 9- אופנה נשים יומיומית",
+   "nameEn": null,
+   "description": "מותג אופנת נשים לפני ואחרי הריון"
+  },
+  {
+   "brand": null,
+   "name": "TOPTEN",
+   "nameEn": "TOPTEN",
+   "description": "רשת אקססוריז ותיקים"
+  },
+  {
+   "brand": null,
+   "name": "Woman- מהפיכת הטיפוח הביתי",
+   "nameEn": null,
+   "description": "מכשירי טיפוח ביתיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אוריה עזרן",
+   "nameEn": null,
+   "description": "מעצבת שמלות ערב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "YVES ROCHER",
+   "nameEn": "YVES ROCHER",
+   "description": "חברת קוסמטיקה צרפתית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בירה קלוצמן",
+   "nameEn": null,
+   "description": "מבשלת בירת הדרים"
+  },
+  {
+   "brand": null,
+   "name": "2BREAK",
+   "nameEn": "2BREAK",
+   "description": "אטרקציה לשבירת חפצים"
+  },
+  {
+   "brand": null,
+   "name": "חמדתיה",
+   "nameEn": null,
+   "description": "אירוח בבית איכרים"
+  },
+  {
+   "brand": null,
+   "name": "יקב בזק",
+   "nameEn": null,
+   "description": "יקב בוטיק משפחתי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "יקב חיטים",
+   "nameEn": null,
+   "description": "יקב בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "יקב תל שיפון",
+   "nameEn": null,
+   "description": "יקב בוטיק בגולן"
+  },
+  {
+   "brand": null,
+   "name": "כיף האוס",
+   "nameEn": null,
+   "description": "מוזיאון הסלפי"
+  },
+  {
+   "brand": null,
+   "name": "מלכת הבירה",
+   "nameEn": null,
+   "description": "מארזי בירה"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בוצ'רי דה ברילוצ'ה",
+   "nameEn": null,
+   "description": "מסעדת בשרים ארגנטינאית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Imahot",
+   "nameEn": "Imahot",
+   "description": "בגדי הריון והנקה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת גסטה",
+   "nameEn": null,
+   "description": "ביסטרו-בר שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת טגלוס",
+   "nameEn": null,
+   "description": "ביסטרו בר איטלקי ישראלי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "LUNEL",
+   "nameEn": "LUNEL",
+   "description": "בר קולינרי של השף ינון אלעל",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת סמוראיו",
+   "nameEn": null,
+   "description": "רשת סושי ואוכל אסייתי"
+  },
+  {
+   "brand": null,
+   "name": "Poupe'e",
+   "nameEn": "Poupe'e",
+   "description": "מסעדת שף כשרה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פיאצה גרנדה",
+   "nameEn": null,
+   "description": "מסעדה איטלקית כשרה"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קפטן הוק",
+   "nameEn": null,
+   "description": "מסעדת דגים ופירות ים"
+  },
+  {
+   "brand": null,
+   "name": "נולה",
+   "nameEn": null,
+   "description": "ארוחות שף וסדנאות"
+  },
+  {
+   "brand": null,
+   "name": "נירוונה",
+   "nameEn": null,
+   "description": "ספא יפני"
+  },
+  {
+   "brand": null,
+   "name": "נעה עינת",
+   "nameEn": null,
+   "description": "סדנאות אפייה"
+  },
+  {
+   "brand": null,
+   "name": "סימונצ'ו קייקס",
+   "nameEn": null,
+   "description": "בייקרי טבעוני"
+  },
+  {
+   "brand": null,
+   "name": "ספרינקלס בייקרי",
+   "nameEn": null,
+   "description": "קונדיטוריה ומאפייה"
+  },
+  {
+   "brand": null,
+   "name": "פאנקי פיש מתנות חוויתיות",
+   "nameEn": null,
+   "description": "ערכות DIY לילדים ולמשפחות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אנו",
+   "nameEn": null,
+   "description": "מוזיאון העם היהודי"
+  },
+  {
+   "brand": null,
+   "name": "גן סטודיו",
+   "nameEn": null,
+   "description": "מתחם סדנאות ומוצרי נייר",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "נעם גונן- לגדול דרך תנועה",
+   "nameEn": null,
+   "description": "ליווי התפתחותי לתינוקות"
+  },
+  {
+   "brand": null,
+   "name": "Crown club",
+   "nameEn": "Crown club",
+   "description": "מתחם ספא ובריאות"
+  },
+  {
+   "brand": null,
+   "name": "המעשנה",
+   "nameEn": null,
+   "description": "מסעדת בשרים מעושנים"
+  },
+  {
+   "brand": null,
+   "name": "Solog",
+   "nameEn": "Solog",
+   "description": "רשת אופנה לילדים ותינוקות"
+  },
+  {
+   "brand": null,
+   "name": "מגדל דוד",
+   "nameEn": null,
+   "description": "מוזיאון ירושלים"
+  },
+  {
+   "brand": null,
+   "name": "מקס ברנר עד הבית",
+   "nameEn": null,
+   "description": "משלוחי שוקולד ומתנות"
+  },
+  {
+   "brand": null,
+   "name": "מלון קוקו",
+   "nameEn": null,
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "גל שוקרון",
+   "nameEn": null,
+   "description": "סיורי אופנה ועיצוב"
+  },
+  {
+   "brand": null,
+   "name": "John Boy",
+   "nameEn": "John Boy",
+   "description": "סטודיו לקעקועים ופירסינג"
+  },
+  {
+   "brand": null,
+   "name": "יקב שדות",
+   "nameEn": null,
+   "description": "יקב בוטיק בעמק יזרעאל",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "MISHKA",
+   "nameEn": "MISHKA",
+   "description": "מותג שעונים ותכשיטים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת JOY גריל האוס",
+   "nameEn": null,
+   "description": "מסעדת בשרים וגריל"
+  },
+  {
+   "brand": null,
+   "name": "MEZE",
+   "nameEn": "MEZE",
+   "description": "מסעדת טאפסים ומזטים",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קונדיטוריית שני",
+   "nameEn": null,
+   "description": "קונדיטורייה"
+  },
+  {
+   "brand": null,
+   "name": "WE BAGS",
+   "nameEn": "WE BAGS",
+   "description": "מגוון תיקים ומזוודות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Minene",
+   "nameEn": "Minene",
+   "description": "רשת מוצרי בוטיק לתינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "POWER HOUSE",
+   "nameEn": "POWER HOUSE",
+   "description": "סטודיו לאימוני כח"
+  },
+  {
+   "brand": null,
+   "name": "ספא מטה במדבר",
+   "nameEn": null,
+   "description": "מתחם ספא וטיפולים"
+  },
+  {
+   "brand": null,
+   "name": "FLY AWAY",
+   "nameEn": "FLY AWAY",
+   "description": "כדורים פורחים"
+  },
+  {
+   "brand": null,
+   "name": "JUV activewear",
+   "nameEn": "JUV activewear",
+   "description": "מותג בגדי ספורט לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "AHAVA",
+   "nameEn": "AHAVA",
+   "description": "מותג טיפוח ממוצרי ים המלח"
+  },
+  {
+   "brand": null,
+   "name": "ארמאנני ספא",
+   "nameEn": null,
+   "description": "מתחם ספא במלון לאונרדו"
+  },
+  {
+   "brand": null,
+   "name": "הדרומית",
+   "nameEn": null,
+   "description": "מסעדת בשרים כשרה"
+  },
+  {
+   "brand": null,
+   "name": "הרצאות מהכורסא",
+   "nameEn": null,
+   "description": "פלטפורמת הרצאות אונליין"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת גורג' אנד ברדרס",
+   "nameEn": null,
+   "description": "מסעדת המבורגרים"
+  },
+  {
+   "brand": null,
+   "name": "פרלינים- שוקולד זה מתנה",
+   "nameEn": null,
+   "description": "מתנות משוקולד"
+  },
+  {
+   "brand": null,
+   "name": "אומנות המגע במים",
+   "nameEn": null,
+   "description": "טיפולי וואטסו"
+  },
+  {
+   "brand": null,
+   "name": "Rev Optic",
+   "nameEn": "Rev Optic",
+   "description": "מותג משקפי שמש וראייה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Leonidas",
+   "nameEn": "Leonidas",
+   "description": "מותג שוקולד בלגי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "תכשיטי חביב",
+   "nameEn": null,
+   "description": "מותג תכשיטים מעוצבים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "INTOTO",
+   "nameEn": "INTOTO",
+   "description": "מבצעים מטלות בשבילך"
+  },
+  {
+   "brand": null,
+   "name": "חנות בוטיק AYO",
+   "nameEn": null,
+   "description": "בוטיק פירטי עיצוב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ריסטרט לאמהות",
+   "nameEn": null,
+   "description": "סדנאות ונופש עם הבייבי"
+  },
+  {
+   "brand": null,
+   "name": "דיאדה",
+   "nameEn": null,
+   "description": "מוצרים להורים ותינוקות"
+  },
+  {
+   "brand": null,
+   "name": "מקס ברנר",
+   "nameEn": null,
+   "description": "רשת שוקולד בר"
+  },
+  {
+   "brand": null,
+   "name": "ספא ומלון ברדיצ'בסקי",
+   "nameEn": null,
+   "description": "מלון בוטיק וספא"
+  },
+  {
+   "brand": null,
+   "name": "ALLSAINTS",
+   "nameEn": "ALLSAINTS",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "Assemblage Boutique Hotel",
+   "nameEn": "Assemblage Boutique Hotel",
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "Camel Mountain",
+   "nameEn": "Camel Mountain",
+   "description": "תיקים ומזוודות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Freefit",
+   "nameEn": "Freefit",
+   "description": "מגוון אימוני כושר"
+  },
+  {
+   "brand": null,
+   "name": "Oomai Urban Sushi",
+   "nameEn": "Oomai Urban Sushi",
+   "description": "מעדניה יפנית וסושי בר"
+  },
+  {
+   "brand": null,
+   "name": "Alonella",
+   "nameEn": "Alonella",
+   "description": "מתחם צימרים לזוגות"
+  },
+  {
+   "brand": null,
+   "name": "בר שר המשקאות",
+   "nameEn": null,
+   "description": "רשת ברי אלכוהול"
+  },
+  {
+   "brand": null,
+   "name": "WORD by story",
+   "nameEn": "WORD by story",
+   "description": "מותג אופנה"
+  },
+  {
+   "brand": null,
+   "name": "גורו זוזו",
+   "nameEn": null,
+   "description": "סיור אוזניות אורבני"
+  },
+  {
+   "brand": null,
+   "name": "חנות - משקפיים",
+   "nameEn": null,
+   "description": "בוטיק אופטיקה"
+  },
+  {
+   "brand": null,
+   "name": "MASKIT",
+   "nameEn": "MASKIT",
+   "description": "בית אופנה ישראלי"
+  },
+  {
+   "brand": null,
+   "name": "משק אחיה",
+   "nameEn": null,
+   "description": "מותג שמן זית ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "צ'ימיגג",
+   "nameEn": null,
+   "description": "תיקי נשיאה לרכב"
+  },
+  {
+   "brand": null,
+   "name": "קאלמה ספא",
+   "nameEn": null,
+   "description": "מתחמי ספא יוקרתיים"
+  },
+  {
+   "brand": null,
+   "name": "KoH Thai - התאילנדית בסמילנסקי",
+   "nameEn": null,
+   "description": "מטבח אסייתי וסושי בר כשר",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "XRAY",
+   "nameEn": "XRAY",
+   "description": "מותג משקפי שמש וראייה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Spices Online",
+   "nameEn": "Spices Online",
+   "description": "רשת לכלי מטבח, בישול ואפיה"
+  },
+  {
+   "brand": null,
+   "name": "DARYA",
+   "nameEn": "DARYA",
+   "description": "פריטים מעוצבים על בטון",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "INTER JEANS BY NYOU",
+   "nameEn": "INTER JEANS BY NYOU",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "PURE",
+   "nameEn": "PURE",
+   "description": "סטודיו פילאטיס"
+  },
+  {
+   "brand": null,
+   "name": "Donna Victoria",
+   "nameEn": "Donna Victoria",
+   "description": "מותג הלבשה תחתונה"
+  },
+  {
+   "brand": null,
+   "name": "טאטי ביסטרו",
+   "nameEn": null,
+   "description": "ביסטרו שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "Modibodi",
+   "nameEn": "Modibodi",
+   "description": "מותג תחתוני מחזור",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קיוטו נאי ראשון לציון",
+   "nameEn": null,
+   "description": "מסעדה יפנית וסושי בר"
+  },
+  {
+   "brand": null,
+   "name": "תמר שיין פז",
+   "nameEn": null,
+   "description": "תומכת אחרי לידה"
+  },
+  {
+   "brand": null,
+   "name": "RUBY BAY",
+   "nameEn": "RUBY BAY",
+   "description": "מותג אופנת קז'ואל לנשים"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קרודו חיפה",
+   "nameEn": null,
+   "description": "בר אוכל איטלקי-ים תיכוני",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה 65",
+   "nameEn": null,
+   "description": "בית קפה במלון בוטיק",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה בקסטייג'",
+   "nameEn": null,
+   "description": "בית קפה במלון בוטיק",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קפה מרקט האוס",
+   "nameEn": null,
+   "description": "בית קפה במלון בוטיק",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "TES- Leather Bags",
+   "nameEn": "TES- Leather Bags",
+   "description": "מותג תיקי עור",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ימה קצבית דגים של שף יובל בן נריה",
+   "nameEn": null,
+   "description": "קצבית דגים של השף יובל בן נריה"
+  },
+  {
+   "brand": null,
+   "name": "קמפאי סטריט ווק",
+   "nameEn": null,
+   "description": "אוכל רחוב אסייתי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "משקפי OBO",
+   "nameEn": null,
+   "description": "מותג משקפי שמש"
+  },
+  {
+   "brand": null,
+   "name": "Zionacafe",
+   "nameEn": "Zionacafe",
+   "description": "בית קפה, מסעדה ואירועים",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Burger King",
+   "nameEn": "Burger King",
+   "description": "רשת המבורגרים ומזון מהיר"
+  },
+  {
+   "brand": null,
+   "name": "Forever21",
+   "nameEn": "Forever21",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "LEO ספא",
+   "nameEn": null,
+   "description": "וילת ספא בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "movement",
+   "nameEn": "movement",
+   "description": "יעוץ תזונה וכושר אונליין"
+  },
+  {
+   "brand": null,
+   "name": "Rain Drop Spa",
+   "nameEn": "Rain Drop Spa",
+   "description": "מתחם ספא וטיפולים"
+  },
+  {
+   "brand": null,
+   "name": "SHUGIS",
+   "nameEn": "SHUGIS",
+   "description": "אקססוריז עם פרצופים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TIKI- מותג אופנה לאנשים טובים",
+   "nameEn": null,
+   "description": "מותג אופנה ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בלו בנדנה",
+   "nameEn": null,
+   "description": "כלי בית ומתנות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "PARAPLU",
+   "nameEn": "PARAPLU",
+   "description": "גלריית אמנות ישראלית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הנחלה ברמות",
+   "nameEn": null,
+   "description": "סוויטות בוטיק לזוגות"
+  },
+  {
+   "brand": null,
+   "name": "טוהר קליינר",
+   "nameEn": null,
+   "description": "טיפול במים"
+  },
+  {
+   "brand": null,
+   "name": "יאלהרנט-הבית שלכם לחופשה",
+   "nameEn": null,
+   "description": "שירות השכרת דירות נופש"
+  },
+  {
+   "brand": null,
+   "name": "מלון רפאל האוס",
+   "nameEn": null,
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת רוז'",
+   "nameEn": null,
+   "description": "מסעדת שף עונתית, מקומית במלון פרא",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מקום בלב",
+   "nameEn": null,
+   "description": "מסעדה כפרית ואירועים"
+  },
+  {
+   "brand": null,
+   "name": "קפה רבי",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "ריביירה ספא",
+   "nameEn": null,
+   "description": "מתחם ספא וטיפולים"
+  },
+  {
+   "brand": null,
+   "name": "Converse",
+   "nameEn": "Converse",
+   "description": "מותג סניקרס בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "Simbioze",
+   "nameEn": "Simbioze",
+   "description": "מותג קוסמטיקה טבעית מהאמזונס",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "VILEBREQUIN",
+   "nameEn": "VILEBREQUIN",
+   "description": "מותג בגדי ים יוקרתי"
+  },
+  {
+   "brand": null,
+   "name": "ARTERRA",
+   "nameEn": "ARTERRA",
+   "description": "מותג תכשיטים אקולגיים בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת גשן",
+   "nameEn": null,
+   "description": "מסעדת בשרים כשרה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "7TO1 Lab",
+   "nameEn": "7TO1 Lab",
+   "description": "מעבדת קוקטיילים"
+  },
+  {
+   "brand": null,
+   "name": "AIRTLV",
+   "nameEn": "AIRTLV",
+   "description": "דירות נופש"
+  },
+  {
+   "brand": null,
+   "name": "BIMBA Y LOLA",
+   "nameEn": "BIMBA Y LOLA",
+   "description": "רשת אופנה בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "BROWNIE",
+   "nameEn": "BROWNIE",
+   "description": "מותג אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "ספא רוקסון אורבן רמת גן",
+   "nameEn": null,
+   "description": "מתחם ספא במלון אורבן"
+  },
+  {
+   "brand": null,
+   "name": "Erborian",
+   "nameEn": "Erborian",
+   "description": "מוצרי טיפוח קוריאנים"
+  },
+  {
+   "brand": null,
+   "name": "Eye Glow",
+   "nameEn": "Eye Glow",
+   "description": "משקפי שמש",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GOVANA Fashion",
+   "nameEn": "GOVANA Fashion",
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ICE CUBE",
+   "nameEn": "ICE CUBE",
+   "description": "בוטיק אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "LEE",
+   "nameEn": "LEE",
+   "description": "מותג ג'ינס בינלאומי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "LEOBUS",
+   "nameEn": "LEOBUS",
+   "description": "חווית לינה ייחודית בצפון",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "MamaGreg",
+   "nameEn": "MamaGreg",
+   "description": "רשת בתי קפה משפחתית"
+  },
+  {
+   "brand": null,
+   "name": "NEW ERA",
+   "nameEn": "NEW ERA",
+   "description": "מותג כובעים ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "FINE RITUALS",
+   "nameEn": "FINE RITUALS",
+   "description": "מותגי טיפוח ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Wrangler",
+   "nameEn": "Wrangler",
+   "description": "מותג ג'ינס בינלאומי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אלן קאר- מוציאים את הסיגריה מהראש",
+   "nameEn": null,
+   "description": "סדנאות לגמילה מעישון"
+  },
+  {
+   "brand": null,
+   "name": "גבינות ברמות",
+   "nameEn": null,
+   "description": "סדנאות להכנת גבינות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "יקב בן זמרה",
+   "nameEn": null,
+   "description": "יקב בוטיק בגליל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "lee cooper kids",
+   "nameEn": "lee cooper kids",
+   "description": "רשת אופנה לילדים"
+  },
+  {
+   "brand": null,
+   "name": "אלנתן תכשיטים",
+   "nameEn": null,
+   "description": "סטודיו לצורפות"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פינתי כפר עציון",
+   "nameEn": null,
+   "description": "מטבח מזרחי וגריל בשרים"
+  },
+  {
+   "brand": null,
+   "name": "Neta Efrati",
+   "nameEn": "Neta Efrati",
+   "description": "בוטיק בגדי ערב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "פרי גנך",
+   "nameEn": null,
+   "description": "מגשי פירות אקזוטיים"
+  },
+  {
+   "brand": null,
+   "name": "סיני קליניק",
+   "nameEn": null,
+   "description": "דיקור קוסמטי ורפואה סינית"
+  },
+  {
+   "brand": null,
+   "name": "Axe and Co",
+   "nameEn": "Axe and Co",
+   "description": "בר הטלת גרזנים"
+  },
+  {
+   "brand": null,
+   "name": "CHRISTINA",
+   "nameEn": "CHRISTINA",
+   "description": "קוסמטיקה מקצועית לעור",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "COLOR CAFE",
+   "nameEn": "COLOR CAFE",
+   "description": "סטודיו לצביעת קרמיקה"
+  },
+  {
+   "brand": null,
+   "name": "G-CONCEPT",
+   "nameEn": "G-CONCEPT",
+   "description": "מגוון מותגי אופנה בינלאומיים"
+  },
+  {
+   "brand": null,
+   "name": "SAM EDELMAN",
+   "nameEn": "SAM EDELMAN",
+   "description": "מותג נעלי נשים בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "TIKTIK",
+   "nameEn": "TIKTIK",
+   "description": "חבילות ספורט והופעות"
+  },
+  {
+   "brand": null,
+   "name": "Water.io",
+   "nameEn": "Water.io",
+   "description": "בקבוק מים חכם",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "זמן ערבה",
+   "nameEn": null,
+   "description": "סוויטות במדבר"
+  },
+  {
+   "brand": null,
+   "name": "יקב בזלת",
+   "nameEn": null,
+   "description": "יקב בוטיק בגולן"
+  },
+  {
+   "brand": null,
+   "name": "מועדון היין",
+   "nameEn": null,
+   "description": "חנות אונליין ליינות בוטיק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מלון BY14",
+   "nameEn": null,
+   "description": "מלון עסקים"
+  },
+  {
+   "brand": null,
+   "name": "Mantra",
+   "nameEn": "Mantra",
+   "description": "מותג אופנה לגברים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "שוקה TLV",
+   "nameEn": null,
+   "description": "סיורים קולינריים"
+  },
+  {
+   "brand": null,
+   "name": "רפטינג נהר הירדן",
+   "nameEn": null,
+   "description": "שייט קיאקים ורפטינג"
+  },
+  {
+   "brand": null,
+   "name": "Bugaboo",
+   "nameEn": "Bugaboo",
+   "description": "מותג עגלות פרימיום",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "CAFE MAYER",
+   "nameEn": "CAFE MAYER",
+   "description": "קפה-ביסטרו שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "MEY JEWELRY",
+   "nameEn": "MEY JEWELRY",
+   "description": "מותג תכשיטים מעוצבים"
+  },
+  {
+   "brand": null,
+   "name": "אופנוסנטר",
+   "nameEn": null,
+   "description": "ציוד ואביזרים לאופנועים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "PASEO- מסעדת רופטופ על הים",
+   "nameEn": null,
+   "description": "בר-מסעדה על הגג"
+  },
+  {
+   "brand": null,
+   "name": "slowness - קיבוץ מורן",
+   "nameEn": null,
+   "description": "מתחם אירוח ותנועה"
+  },
+  {
+   "brand": null,
+   "name": "Studio 51",
+   "nameEn": "Studio 51",
+   "description": "סטודיו כושר לנשים"
+  },
+  {
+   "brand": null,
+   "name": "The Cocktail Box",
+   "nameEn": "The Cocktail Box",
+   "description": "מארזי קוקטיילים"
+  },
+  {
+   "brand": null,
+   "name": "USTABELLE",
+   "nameEn": "USTABELLE",
+   "description": "מותג אופנת בוטיק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "VOLT swimwear",
+   "nameEn": "VOLT swimwear",
+   "description": "מותג בגדי ים לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Winest store",
+   "nameEn": "Winest store",
+   "description": "חנות יין אונליין",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אגם",
+   "nameEn": null,
+   "description": "הוצאה לאור",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Ice healing center",
+   "nameEn": "Ice healing center",
+   "description": "אמבטיות קרח ועיסויים"
+  },
+  {
+   "brand": null,
+   "name": "אלון ענבל- כלבים לחיים",
+   "nameEn": null,
+   "description": "אילוף כלבים וייעוץ"
+  },
+  {
+   "brand": null,
+   "name": "Art Time",
+   "nameEn": "Art Time",
+   "description": "סדנאות ציור ויצירה"
+  },
+  {
+   "brand": null,
+   "name": "דורית בירמן",
+   "nameEn": null,
+   "description": "נומורולוגית קבלית"
+  },
+  {
+   "brand": null,
+   "name": "הדבש של עידו",
+   "nameEn": null,
+   "description": "מכוורת משפחתית מהנגב"
+  },
+  {
+   "brand": null,
+   "name": "המטבח",
+   "nameEn": null,
+   "description": "רשת כלי בית ומטבח"
+  },
+  {
+   "brand": null,
+   "name": "טלי שמחי",
+   "nameEn": null,
+   "description": "נומרולוגיה קבלית ותקשור"
+  },
+  {
+   "brand": null,
+   "name": "יקב אלבר",
+   "nameEn": null,
+   "description": "יקב בוטיק משפחתי"
+  },
+  {
+   "brand": null,
+   "name": "מותק",
+   "nameEn": null,
+   "description": "סדנאות ועוגות שוקולד"
+  },
+  {
+   "brand": null,
+   "name": "בייבי ליס",
+   "nameEn": null,
+   "description": "מלון יולדות"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קיצ׳וקאי",
+   "nameEn": null,
+   "description": "איזקאיה של השף אור גינזבורג",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מרכז ענבל ברק",
+   "nameEn": null,
+   "description": "מרכז להורות ראשונית"
+  },
+  {
+   "brand": null,
+   "name": "נערי האור",
+   "nameEn": null,
+   "description": "נרות וסבונים בייצור חברתי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "סורוצקין",
+   "nameEn": null,
+   "description": "מעדניה יהודית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "עידן אקרו יוגה",
+   "nameEn": null,
+   "description": "אקרו יוגה"
+  },
+  {
+   "brand": null,
+   "name": "עלמה",
+   "nameEn": null,
+   "description": "אמבטיות קרח למכירה וסדנאות"
+  },
+  {
+   "brand": null,
+   "name": "קפה אוסישקין",
+   "nameEn": null,
+   "description": "בית קפה בקריית מוצקין"
+  },
+  {
+   "brand": null,
+   "name": "קפה אופטימי",
+   "nameEn": null,
+   "description": "מטבח איטלקי&ישראלי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "שגית",
+   "nameEn": null,
+   "description": "משחקי קלפים ומתנות"
+  },
+  {
+   "brand": null,
+   "name": "Erroca by Super-Pharm",
+   "nameEn": "Erroca by Super-Pharm",
+   "description": "רשת משקפי שמש וראייה"
+  },
+  {
+   "brand": null,
+   "name": "Babybjorn",
+   "nameEn": "Babybjorn",
+   "description": "מותג מנשאים ומוצרי תינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "C. baby group",
+   "nameEn": "C. baby group",
+   "description": "מוצרים איכותיים לתינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "HOMY",
+   "nameEn": "HOMY",
+   "description": "דירות נופש בת\"א וירושלים"
+  },
+  {
+   "brand": null,
+   "name": "SHOW OFF",
+   "nameEn": "SHOW OFF",
+   "description": "רשת חנויות הנעלה"
+  },
+  {
+   "brand": null,
+   "name": "Studio Cotta",
+   "nameEn": "Studio Cotta",
+   "description": "סטודיו לקרמיקה"
+  },
+  {
+   "brand": null,
+   "name": "כפר הנוקדים",
+   "nameEn": null,
+   "description": "אירוח מדברי"
+  },
+  {
+   "brand": null,
+   "name": "Monte Black",
+   "nameEn": "Monte Black",
+   "description": "מותג הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת סופר המזרח",
+   "nameEn": null,
+   "description": "מסעדת שף אסייתית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קבוצת IBBG- אולם תצוגה",
+   "nameEn": null,
+   "description": "מותג עגלות פרימיום"
+  },
+  {
+   "brand": null,
+   "name": "מלון האפנדי",
+   "nameEn": null,
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "antonyoni",
+   "nameEn": "antonyoni",
+   "description": "סדנאות כיפוף חוטי ברזל"
+  },
+  {
+   "brand": null,
+   "name": "Box and bellz",
+   "nameEn": "Box and bellz",
+   "description": "אימוני כושר בקבוצות קטנות"
+  },
+  {
+   "brand": null,
+   "name": "Deli Queso",
+   "nameEn": "Deli Queso",
+   "description": "מעדניית גבינות ויין"
+  },
+  {
+   "brand": null,
+   "name": "EATALIA",
+   "nameEn": "EATALIA",
+   "description": "מתחם אוכל איטלקי"
+  },
+  {
+   "brand": null,
+   "name": "ENERGYM",
+   "nameEn": "ENERGYM",
+   "description": "רשת לציוד ספורט וכושר",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Intech",
+   "nameEn": "Intech",
+   "description": "אביזרי ומוצרי סלולר",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Linenz",
+   "nameEn": "Linenz",
+   "description": "מותג מצעי יוקרה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MORAN GIL CAKERY",
+   "nameEn": "MORAN GIL CAKERY",
+   "description": "קונדיטוריית שף"
+  },
+  {
+   "brand": null,
+   "name": "noovi",
+   "nameEn": "noovi",
+   "description": "מארזי לידה לתינוק ולאמא",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Pha Design",
+   "nameEn": "Pha Design",
+   "description": "סטודיו למיתוג ועיצוב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אופק חדש",
+   "nameEn": null,
+   "description": "מוצרי בריאות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בטן מלאה",
+   "nameEn": null,
+   "description": "סיורים קולינריים"
+  },
+  {
+   "brand": null,
+   "name": "Urban Giraffa",
+   "nameEn": "Urban Giraffa",
+   "description": "סיורי אוכל ומארזים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "גליאנו",
+   "nameEn": null,
+   "description": "מסעדה ומעדנייה איטלקית"
+  },
+  {
+   "brand": null,
+   "name": "דלי אלהמברה",
+   "nameEn": null,
+   "description": "מעדניה וסדנאות"
+  },
+  {
+   "brand": null,
+   "name": "HELENA",
+   "nameEn": "HELENA",
+   "description": "בר יין וטאפאס עם ניחוח ספרדי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "VIVINO נתיבות",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "חוותות גבעת עדה",
+   "nameEn": null,
+   "description": "מתחם קטיף תותים עצמי"
+  },
+  {
+   "brand": null,
+   "name": "יוגה שאלה יפו",
+   "nameEn": null,
+   "description": "סטודיו ליוגה"
+  },
+  {
+   "brand": null,
+   "name": "יין בכרם",
+   "nameEn": null,
+   "description": "חנות ובר יין"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון אורבן רמת גן",
+   "nameEn": null,
+   "description": "מלון אורבני מבית מלונות ROXON"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון דזרט ערד",
+   "nameEn": null,
+   "description": "מלון מבית מלונות ROXON"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון סי סאנד בת ים",
+   "nameEn": null,
+   "description": "מלון מבית מלונות ROXON"
+  },
+  {
+   "brand": null,
+   "name": "מלון רמדה אוליבייה נצרת",
+   "nameEn": null,
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת דולפין ים",
+   "nameEn": null,
+   "description": "מסעדת דגים ובשרים כשרה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Set Up",
+   "nameEn": "Set Up",
+   "description": "מתחם סטים לצילום עצמי"
+  },
+  {
+   "brand": null,
+   "name": "נעלי SAND",
+   "nameEn": null,
+   "description": "מותג נעליי ילדים"
+  },
+  {
+   "brand": null,
+   "name": "SPARADISE",
+   "nameEn": "SPARADISE",
+   "description": "ספא בוטיק במלון אינדיגו"
+  },
+  {
+   "brand": null,
+   "name": "צעצועי עוזי",
+   "nameEn": null,
+   "description": "צעצועים ומשחקים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ALBI HOTELS",
+   "nameEn": "ALBI HOTELS",
+   "description": "רשת מלונות בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "רועי אלבה",
+   "nameEn": null,
+   "description": "סדנאות ציור ואומנות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "IMRACING",
+   "nameEn": "IMRACING",
+   "description": "חווית נהיגת מירוצים"
+  },
+  {
+   "brand": null,
+   "name": "LiatK-בית של אנרגיות טובות",
+   "nameEn": null,
+   "description": "מוצרי אנרגיה וטיהור לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "LULU VINTAGE",
+   "nameEn": "LULU VINTAGE",
+   "description": "בוטיק וינטג' ויד שניה"
+  },
+  {
+   "brand": null,
+   "name": "TEL-A-VIN",
+   "nameEn": "TEL-A-VIN",
+   "description": "בר יין"
+  },
+  {
+   "brand": null,
+   "name": "תכשיטי MI-ALMA",
+   "nameEn": null,
+   "description": "תכשיטים אל זמניים לכל רגע בחיים"
+  },
+  {
+   "brand": null,
+   "name": "BUMPERS",
+   "nameEn": "BUMPERS",
+   "description": "מותג הנעלה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בועז שטיין",
+   "nameEn": null,
+   "description": "מותג איפור",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "חבל ארץ טיולים",
+   "nameEn": null,
+   "description": "חברת טיולים והדרכות"
+  },
+  {
+   "brand": null,
+   "name": "חוות רום",
+   "nameEn": null,
+   "description": "ריזורט גלמפינג"
+  },
+  {
+   "brand": null,
+   "name": "יקב לוינסון",
+   "nameEn": null,
+   "description": "יקב ובר יין",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "סטודיו עדי ניסני",
+   "nameEn": null,
+   "description": "סטודיו לעיצוב וייצור קרמיקה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ספא בהר - הרי ירושלים",
+   "nameEn": null,
+   "description": "ספא בוטיק פרטי"
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי שיק",
+   "nameEn": null,
+   "description": "רהיטים מעוצבים לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קפה זוריק",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "רשת מכלול",
+   "nameEn": null,
+   "description": "רשת לציוד משרדי ויצירה"
+  },
+  {
+   "brand": null,
+   "name": "417",
+   "nameEn": "417",
+   "description": "מותג טיפוח טבעוני ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ערסלו'ס",
+   "nameEn": null,
+   "description": "ערסלים אורטופדיים"
+  },
+  {
+   "brand": null,
+   "name": "חניות פיזיות : TERMINAL X",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה ולייף סטייל"
+  },
+  {
+   "brand": null,
+   "name": "Bodymotion",
+   "nameEn": "Bodymotion",
+   "description": "סטודיו לפילאטיס מכשירים"
+  },
+  {
+   "brand": null,
+   "name": "BOOSA & CO",
+   "nameEn": "BOOSA & CO",
+   "description": "מזון טבעי לכלבים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Picnic",
+   "nameEn": "Picnic",
+   "description": "מוצרים מעוצבים לפיקניק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TALADA",
+   "nameEn": "TALADA",
+   "description": "תכשיטים עם תמונה מוצפנת",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "גלביה",
+   "nameEn": null,
+   "description": "מותג אופנה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "מלון הלני מלכה ירושלים",
+   "nameEn": null,
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אגוסטין",
+   "nameEn": null,
+   "description": "מסעדת בראסרי מודרנית"
+  },
+  {
+   "brand": null,
+   "name": "פרדס סדנאות ליצירה בעץ",
+   "nameEn": null,
+   "description": "סדנאות ליצירה בעץ"
+  },
+  {
+   "brand": null,
+   "name": "CHEZ VIVIE",
+   "nameEn": "CHEZ VIVIE",
+   "description": "בראסרי בהשראת המטבח הצרפתי איטלקי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "EVER LAB",
+   "nameEn": "EVER LAB",
+   "description": "מתחם וולנס טכנולוגי"
+  },
+  {
+   "brand": null,
+   "name": "H&O Kids",
+   "nameEn": "H&O Kids",
+   "description": "רשת אופנה לילדים"
+  },
+  {
+   "brand": null,
+   "name": "KAHIKO Swimwear",
+   "nameEn": "KAHIKO Swimwear",
+   "description": "מותג בגדי ים לנשים"
+  },
+  {
+   "brand": null,
+   "name": "LIVERE",
+   "nameEn": "LIVERE",
+   "description": "בר יין",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "PITZ surf & explore",
+   "nameEn": "PITZ surf & explore",
+   "description": "חופשות גלישה בעולם"
+  },
+  {
+   "brand": null,
+   "name": "SMEG",
+   "nameEn": "SMEG",
+   "description": "מותג מוצרי חשמל למטבח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Smoovee",
+   "nameEn": "Smoovee",
+   "description": "משטח הזזה נייד למוצרי חשמל במטבח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "דריה",
+   "nameEn": null,
+   "description": "מסעדת שף כשרה ים תיכונית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Hackett",
+   "nameEn": "Hackett",
+   "description": "מותג אופנה לגברים"
+  },
+  {
+   "brand": null,
+   "name": "CADABRA",
+   "nameEn": "CADABRA",
+   "description": "אוצרות אישיים בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "כלבו LOVE",
+   "nameEn": null,
+   "description": "כל-בו יוקרתי המשלב מותגי על"
+  },
+  {
+   "brand": null,
+   "name": "ממילא ויו סוויטס",
+   "nameEn": null,
+   "description": "דירות יוקרה בירושלים"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פראטלי",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "עלטה",
+   "nameEn": null,
+   "description": "חלל יצירה והתנסות עבור צלמים"
+  },
+  {
+   "brand": null,
+   "name": "פראנה",
+   "nameEn": null,
+   "description": "סטודיו ליוגה ופילאטיס"
+  },
+  {
+   "brand": null,
+   "name": "Crocs",
+   "nameEn": "Crocs",
+   "description": "מותג נעלי נוחות בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "Studio Cheha",
+   "nameEn": "Studio Cheha",
+   "description": "מנורות מעוצבות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון הבימה",
+   "nameEn": null,
+   "description": "התיאטרון הלאומי של ישראל"
+  },
+  {
+   "brand": null,
+   "name": "ג'אסט מיוזיק",
+   "nameEn": null,
+   "description": "בית ספר למוזיקה"
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות אשקלון",
+   "nameEn": null,
+   "description": "אירועי תרבות ומופעים"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת Donna La Cucina",
+   "nameEn": null,
+   "description": "מסעדה איטלקית"
+  },
+  {
+   "brand": null,
+   "name": "גורדון פדגוגיה חדשנית",
+   "nameEn": null,
+   "description": "למידה באמצעות משחקים לכל המשפחה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אבא חטוב ואמא חטובה",
+   "nameEn": null,
+   "description": "תוכנית הרזיה ואורח חיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MUZA",
+   "nameEn": "MUZA",
+   "description": "מארזי קוקטיילים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "#אימונוי",
+   "nameEn": null,
+   "description": "סטודיו בוטיק לאימוני כשר"
+  },
+  {
+   "brand": null,
+   "name": "החיות של דודו",
+   "nameEn": null,
+   "description": "מיזם חברתי למען בעלי חיים"
+  },
+  {
+   "brand": null,
+   "name": "זיסל'ה",
+   "nameEn": null,
+   "description": "רשת מרכזי ליווי התפתחותי"
+  },
+  {
+   "brand": null,
+   "name": "AMA-LURRA",
+   "nameEn": "AMA-LURRA",
+   "description": "מותג טיפוח טבעי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "BRANT",
+   "nameEn": "BRANT",
+   "description": "בגדי הריון ואחרי לידה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "clearly",
+   "nameEn": "clearly",
+   "description": "מגנים וכיסויים לסמארטפון ולמחשב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "סבב ברים D-TLV",
+   "nameEn": null,
+   "description": "סיורי ברים וסדנאות אלכוהול"
+  },
+  {
+   "brand": null,
+   "name": "O Lingerie",
+   "nameEn": "O Lingerie",
+   "description": "מותג הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "OFEK WOODI",
+   "nameEn": "OFEK WOODI",
+   "description": "סדנאות נגרות ויצירה"
+  },
+  {
+   "brand": null,
+   "name": "R.D.T COSMETICS",
+   "nameEn": "R.D.T COSMETICS",
+   "description": "קליניקה לטיפולי פנים וספא ראש"
+  },
+  {
+   "brand": null,
+   "name": "Studio happy",
+   "nameEn": "Studio happy",
+   "description": "סטודיו לסדנאות יצירה"
+  },
+  {
+   "brand": null,
+   "name": "אסטלה",
+   "nameEn": null,
+   "description": "בית ספר לקונדיטוריה"
+  },
+  {
+   "brand": null,
+   "name": "בית לאמנות ישראלית",
+   "nameEn": null,
+   "description": "מרכז לאמנות ותרבות"
+  },
+  {
+   "brand": null,
+   "name": "גרין רול סושי",
+   "nameEn": null,
+   "description": "מסעדת סושי טבעונית"
+  },
+  {
+   "brand": null,
+   "name": "HELENA- מותג אופנה",
+   "nameEn": null,
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "חוות צהלה",
+   "nameEn": null,
+   "description": "רכיבה טיפולית וטיולי סוסים"
+  },
+  {
+   "brand": null,
+   "name": "טומוקה",
+   "nameEn": null,
+   "description": "מסעדה אסייתית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "כפר הנופש דריה",
+   "nameEn": null,
+   "description": "כפר נופש מבית רשת המלונות נארה"
+  },
+  {
+   "brand": null,
+   "name": "לוטם דרעי",
+   "nameEn": null,
+   "description": "ביסטרו בייקרי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "LOOCO",
+   "nameEn": "LOOCO",
+   "description": "מסעדה מקסיקנית"
+  },
+  {
+   "brand": null,
+   "name": "lilibloom",
+   "nameEn": "lilibloom",
+   "description": "מותג הלבשה תחתונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מלון מולאן",
+   "nameEn": null,
+   "description": "מלון נופש ועסקים"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון רד סי אילת",
+   "nameEn": null,
+   "description": "מלון ללא ילדים מבית מלונות ROXON"
+  },
+  {
+   "brand": null,
+   "name": "מלונות 7EVEN",
+   "nameEn": null,
+   "description": "רשת מלונות"
+  },
+  {
+   "brand": null,
+   "name": "סקיני פסטה",
+   "nameEn": null,
+   "description": "מותג פסטה דלת קלוריות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Anat Friedman",
+   "nameEn": "Anat Friedman",
+   "description": "מעצבת אופנת נשים"
+  },
+  {
+   "brand": null,
+   "name": "פיצ'פונים",
+   "nameEn": null,
+   "description": "ליווי התפתחותי לתינוקות"
+  },
+  {
+   "brand": null,
+   "name": "צ'ירז",
+   "nameEn": null,
+   "description": "בר שכונתי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "KIPULIM",
+   "nameEn": "KIPULIM",
+   "description": "פתרונות אריזה וסידור בתים"
+  },
+  {
+   "brand": null,
+   "name": "Roy Chocolate",
+   "nameEn": "Roy Chocolate",
+   "description": "רשת בוטיק שוקולד ומתוקים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רויטל כהן- האקדמיה לנומרולוגיה",
+   "nameEn": null,
+   "description": "לימודי נומרולוגיה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "moments ריטריטים",
+   "nameEn": null,
+   "description": "ריטריטים וסדנאות וולנס"
+  },
+  {
+   "brand": null,
+   "name": "עליזהל'ה",
+   "nameEn": null,
+   "description": "נעלי טרום הליכה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Pozitive",
+   "nameEn": "Pozitive",
+   "description": "מותג פופים וכורסאות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "יאסו",
+   "nameEn": null,
+   "description": "טברנה יוונית"
+  },
+  {
+   "brand": null,
+   "name": "Ananda Spa",
+   "nameEn": "Ananda Spa",
+   "description": "עיסוי תאילנדי מסורתי"
+  },
+  {
+   "brand": null,
+   "name": "ELIT SWIMWEAR",
+   "nameEn": "ELIT SWIMWEAR",
+   "description": "מותג בגדי ים לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Getaway by BUYME",
+   "nameEn": "Getaway by BUYME",
+   "description": "מותגי אופנה וחוויות בחו\"ל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Gon Surfing",
+   "nameEn": "Gon Surfing",
+   "description": "מותג אופנת גלישה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MON'E תכשיטים",
+   "nameEn": null,
+   "description": "מותג תכשיטי יוקרה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Shape Patissier- By Tamar Shilon",
+   "nameEn": "Shape Patissier- By Tamar Shilon",
+   "description": "קינוחים ופטיסרי בריאים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SMASH ROOM",
+   "nameEn": "SMASH ROOM",
+   "description": "מתחם חדרי זעם"
+  },
+  {
+   "brand": null,
+   "name": "VALHALLA",
+   "nameEn": "VALHALLA",
+   "description": "ציוד ספורט וקרוספיט",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "באשר פרומוז'רי",
+   "nameEn": null,
+   "description": "רשת מעדניות גבינות"
+  },
+  {
+   "brand": null,
+   "name": "בון סטריט",
+   "nameEn": null,
+   "description": "מוצרי יוקרה לחיות מחמד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "גורילה",
+   "nameEn": null,
+   "description": "בר קפה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "GROOVIM",
+   "nameEn": "GROOVIM",
+   "description": "מותג גרביים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "toi.shop",
+   "nameEn": "toi.shop",
+   "description": "מעבדת צעצועים יחודית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "דני בוי",
+   "nameEn": null,
+   "description": "סדנאות קוקטיילים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "פודסטפס",
+   "nameEn": null,
+   "description": "סדנאות בישול וקולינריה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Balaguna",
+   "nameEn": "Balaguna",
+   "description": "השכרת יאכטות וספורט ימי"
+  },
+  {
+   "brand": null,
+   "name": "COLORIA TLV",
+   "nameEn": "COLORIA TLV",
+   "description": "סטודיו לצביעת קרמיקה"
+  },
+  {
+   "brand": null,
+   "name": "decorado",
+   "nameEn": "decorado",
+   "description": "בישום ואווירה לבית"
+  },
+  {
+   "brand": null,
+   "name": "DELI VINO",
+   "nameEn": "DELI VINO",
+   "description": "בר יין ומעדניה"
+  },
+  {
+   "brand": null,
+   "name": "GLO jewelries",
+   "nameEn": "GLO jewelries",
+   "description": "מותג תכשיטי כסף",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "LA MONTIA",
+   "nameEn": "LA MONTIA",
+   "description": "סוויטות אירוח בין כרמים להרים"
+  },
+  {
+   "brand": null,
+   "name": "LE- house of asia",
+   "nameEn": "LE- house of asia",
+   "description": "מסעדה אסייתית"
+  },
+  {
+   "brand": null,
+   "name": "RAY",
+   "nameEn": "RAY",
+   "description": "וואטסו וטיפולי מים"
+  },
+  {
+   "brand": null,
+   "name": "Roomi",
+   "nameEn": "Roomi",
+   "description": "מזרנים וכריות אורטופדיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SWEETWEET",
+   "nameEn": "SWEETWEET",
+   "description": "ממתקים ושוקולדים מכל העולם",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "TULA",
+   "nameEn": "TULA",
+   "description": "מותג בגדי ים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות - איירפורט סיטי",
+   "nameEn": null,
+   "description": "היכל התרבות"
+  },
+  {
+   "brand": null,
+   "name": "BARBIZ",
+   "nameEn": "BARBIZ",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ZO TLV",
+   "nameEn": "ZO TLV",
+   "description": "מסעדת שף אסייתית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "בל בוי ובטלר",
+   "nameEn": null,
+   "description": "בר קוקטיילים קונספטואלי"
+  },
+  {
+   "brand": null,
+   "name": "chen keidar",
+   "nameEn": "chen keidar",
+   "description": "מעצבת אופנת נשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "JEM'S",
+   "nameEn": "JEM'S",
+   "description": "רשת מבשלות בירה ומסעדות"
+  },
+  {
+   "brand": null,
+   "name": "CANDLE CLUB",
+   "nameEn": "CANDLE CLUB",
+   "description": "נרות, מפיצי ריח ומוצרי אווירה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GAL GONEN",
+   "nameEn": "GAL GONEN",
+   "description": "מותג איפור טבעוני",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "דיזנגוף 223",
+   "nameEn": null,
+   "description": "בר קוקטיילים"
+  },
+  {
+   "brand": null,
+   "name": "Happy Hempy",
+   "nameEn": "Happy Hempy",
+   "description": "מותג תיקים ואקססוריז",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הבית בלימן",
+   "nameEn": null,
+   "description": "מתחם וילות בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "INCENSE",
+   "nameEn": "INCENSE",
+   "description": "מותג בישום",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "המדריך לתיכוניסט - ליאל אלי",
+   "nameEn": null,
+   "description": "ספר למתבגרים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "medical spa center",
+   "nameEn": "medical spa center",
+   "description": "מתחם ספא רפואי"
+  },
+  {
+   "brand": null,
+   "name": "זוטא",
+   "nameEn": null,
+   "description": "מעדנייה מהגליל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MENT TO DRIVE",
+   "nameEn": "MENT TO DRIVE",
+   "description": "סדנאות גיבוש ופיתוח מנהלים"
+  },
+  {
+   "brand": null,
+   "name": "טיטניום",
+   "nameEn": null,
+   "description": "מותג מזוודות ותיקים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "mermaids house",
+   "nameEn": "mermaids house",
+   "description": "טיפולי וואטסו לנשים"
+  },
+  {
+   "brand": null,
+   "name": "מיני סטייליש",
+   "nameEn": null,
+   "description": "מותג תיקי החתלה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Minded – House of Wellness",
+   "nameEn": null,
+   "description": "אירועי וולנס וריטריטים"
+  },
+  {
+   "brand": null,
+   "name": "מלון MOA",
+   "nameEn": null,
+   "description": "ריזורט וולנס"
+  },
+  {
+   "brand": null,
+   "name": "Oliere Paris",
+   "nameEn": "Oliere Paris",
+   "description": "מוצרי טיפוח ועיצוב שיער",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ממילא ויו - אורבן",
+   "nameEn": null,
+   "description": "מלון ודירות יוקרה"
+  },
+  {
+   "brand": null,
+   "name": "Redefine Hair",
+   "nameEn": "Redefine Hair",
+   "description": "מותג מוצרי שיער",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בון גוסטו",
+   "nameEn": null,
+   "description": "מסעדה איטלקית כשרה"
+  },
+  {
+   "brand": null,
+   "name": "מרינה דלאל",
+   "nameEn": null,
+   "description": "מסעדה בניחוח ים תיכוני",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Signet Collection",
+   "nameEn": "Signet Collection",
+   "description": "מותג תכשיטים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "סלון יווני",
+   "nameEn": null,
+   "description": "טברנות יווניות כשרות",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "SORA SPA",
+   "nameEn": "SORA SPA",
+   "description": "ספא במלון בראון"
+  },
+  {
+   "brand": null,
+   "name": "ספא בריאה",
+   "nameEn": null,
+   "description": "מתחם ספא במלון בריאה"
+  },
+  {
+   "brand": null,
+   "name": "Spotlight Podcasts",
+   "nameEn": "Spotlight Podcasts",
+   "description": "פודקאסט אישי ותיעוד סיפורי חיים"
+  },
+  {
+   "brand": null,
+   "name": "עיינות ספיר",
+   "nameEn": null,
+   "description": "סוויטות אירוח כפריות"
+  },
+  {
+   "brand": null,
+   "name": "Terratiles studio",
+   "nameEn": "Terratiles studio",
+   "description": "רהיטי קרמיקה בעבודת יד"
+  },
+  {
+   "brand": null,
+   "name": "TFU TFU",
+   "nameEn": "TFU TFU",
+   "description": "מותג אופנה ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "FANTASTIC",
+   "nameEn": "FANTASTIC",
+   "description": "בר-מסעדה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "WLNS CLUB",
+   "nameEn": "WLNS CLUB",
+   "description": "מתחם ריקאברי למתאמנים"
+  },
+  {
+   "brand": null,
+   "name": "קופסא מהשוק - BY חן קורן",
+   "nameEn": null,
+   "description": "מארזי בוטיק מהשוק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "WORLD8",
+   "nameEn": "WORLD8",
+   "description": "שירות e-SIM לגלישה בחו\"ל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Adam Hotels",
+   "nameEn": "Adam Hotels",
+   "description": "רשת מלונות"
+  },
+  {
+   "brand": null,
+   "name": "YOOZ",
+   "nameEn": "YOOZ",
+   "description": "מותג כלים רב פעמיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ארטפון",
+   "nameEn": null,
+   "description": "סדנאות צילום בסמארטפון"
+  },
+  {
+   "brand": null,
+   "name": "בייבי בוס טקסטיל",
+   "nameEn": null,
+   "description": "מותג טקסטיל לתינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GADE",
+   "nameEn": "GADE",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "HOLYLAND CIVILIANS",
+   "nameEn": "HOLYLAND CIVILIANS",
+   "description": "מותג אופנה ישראלי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ליליה",
+   "nameEn": null,
+   "description": "מפיצי ריח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מילה חיפה",
+   "nameEn": null,
+   "description": "מלון בוטיק ללא ילדים"
+  },
+  {
+   "brand": null,
+   "name": "קפה בסיבוב",
+   "nameEn": null,
+   "description": "עגלת קפה שכונתית"
+  },
+  {
+   "brand": null,
+   "name": "קפה הצבי",
+   "nameEn": null,
+   "description": "בית קפה שכונתי"
+  },
+  {
+   "brand": null,
+   "name": "Mashya",
+   "nameEn": "Mashya",
+   "description": "מסעדת שף",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "תאי צ'ו",
+   "nameEn": null,
+   "description": "מסעדה תאילנדית"
+  },
+  {
+   "brand": null,
+   "name": "CAPRI",
+   "nameEn": "CAPRI",
+   "description": "מסעדת בראסרי איטלקית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ADSEA",
+   "nameEn": "ADSEA",
+   "description": "מותג תכשיטים ונרות בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בית המלאכה לקדרות",
+   "nameEn": null,
+   "description": "סטודיו לקרמיקה"
+  },
+  {
+   "brand": null,
+   "name": "ERA ACTIVE",
+   "nameEn": "ERA ACTIVE",
+   "description": "מותג בגדי ספורט לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "HUB-ility",
+   "nameEn": "HUB-ility",
+   "description": "מותג טקסטיל לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "גיליגולי",
+   "nameEn": null,
+   "description": "ליווי התפתחותי וייעוץ שינה"
+  },
+  {
+   "brand": null,
+   "name": "הגפן",
+   "nameEn": null,
+   "description": "חצר יין מקומי"
+  },
+  {
+   "brand": null,
+   "name": "הסוד",
+   "nameEn": null,
+   "description": "ספריית יין מקומית"
+  },
+  {
+   "brand": null,
+   "name": "יהלומי הבורסה",
+   "nameEn": null,
+   "description": "תכשיטי יוקרה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ליטל לוין",
+   "nameEn": null,
+   "description": "ליווי לאחר לידה"
+  },
+  {
+   "brand": null,
+   "name": "HOME DECOR",
+   "nameEn": "HOME DECOR",
+   "description": "רשת רהיטים ועיצוב הבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Start Home",
+   "nameEn": "Start Home",
+   "description": "מוצרי בית וגן",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Brasseri 18",
+   "nameEn": "Brasseri 18",
+   "description": "ביסטרו בר יין צרפתי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Buona Casa",
+   "nameEn": "Buona Casa",
+   "description": "מותג לעיצוב הבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Shiree Odiz",
+   "nameEn": "Shiree Odiz",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הודיה טיבר",
+   "nameEn": null,
+   "description": "מאמנת הורים ויועצת שינה"
+  },
+  {
+   "brand": null,
+   "name": "Daphne Skin",
+   "nameEn": "Daphne Skin",
+   "description": "מותג טיפוח וקוסמטיקה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "LILY ROSE",
+   "nameEn": "LILY ROSE",
+   "description": "מותג קוסמטיקה טבעית ואקולוגית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MIRZA",
+   "nameEn": "MIRZA",
+   "description": "מותג אופנה לגברים"
+  },
+  {
+   "brand": null,
+   "name": "OTILYAS",
+   "nameEn": "OTILYAS",
+   "description": "מותג תכשיטים מעוצבים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Playground Restaurant",
+   "nameEn": "Playground Restaurant",
+   "description": "ביסטרו אורבני מודרני"
+  },
+  {
+   "brand": null,
+   "name": "The Nest Shop",
+   "nameEn": "The Nest Shop",
+   "description": "בגדי תינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ofiyaa israel",
+   "nameEn": "ofiyaa israel",
+   "description": "מסכי הרחבה חכמים למחשב נייד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בייבי שירי- פשוט להתפתח בכיף",
+   "nameEn": null,
+   "description": "מדריכת הורים ומורה לשפת התינוקות של דנסטן"
+  },
+  {
+   "brand": null,
+   "name": "מדילנד",
+   "nameEn": null,
+   "description": "אתר צעצועים ומשחקים"
+  },
+  {
+   "brand": null,
+   "name": "מלון בוטיק דוריה",
+   "nameEn": null,
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "מלונות גולדן קראון",
+   "nameEn": null,
+   "description": "רשת מלונות בוטיק בצפון"
+  },
+  {
+   "brand": null,
+   "name": "רוזה אשדוד",
+   "nameEn": null,
+   "description": "מסעדת בשרים כשרה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ASAF & TOMER",
+   "nameEn": "ASAF & TOMER",
+   "description": "מותג תכשיטים מעוצבים"
+  },
+  {
+   "brand": null,
+   "name": "CARLTON Tel Aviv",
+   "nameEn": "CARLTON Tel Aviv",
+   "description": "חווית יוקרתית על קו החוף"
+  },
+  {
+   "brand": null,
+   "name": "CEZAR",
+   "nameEn": "CEZAR",
+   "description": "ביסטרו ובית קפה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "CUE",
+   "nameEn": "CUE",
+   "description": "מסעדת שף של בן כהן",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "DOLĆE MILA",
+   "nameEn": null,
+   "description": "ג'לאטריה איטלקית"
+  },
+  {
+   "brand": null,
+   "name": "FLYBYFLY",
+   "nameEn": "FLYBYFLY",
+   "description": "מוצרי פרימיום לתינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ForeverTold",
+   "nameEn": "ForeverTold",
+   "description": "יומן זכרונות למשפחה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "GOOM",
+   "nameEn": "GOOM",
+   "description": "תוספי תזונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "inhale exhale",
+   "nameEn": "inhale exhale",
+   "description": "מותג יוגה ולייפסטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "LULU Baby",
+   "nameEn": "LULU Baby",
+   "description": "מנשאי בד לתינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Daisy mei",
+   "nameEn": "Daisy mei",
+   "description": "אקססוריז לתינוקות ואמהות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MOY",
+   "nameEn": "MOY",
+   "description": "מארזי מתנה לתינוק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Noam Outdoors",
+   "nameEn": "Noam Outdoors",
+   "description": "סנפלינג במצפה רמון וטיולי ג'יפים חווייתיים לכל המשפחה"
+  },
+  {
+   "brand": null,
+   "name": "NOFAR MOR",
+   "nameEn": "NOFAR MOR",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "PROMISE",
+   "nameEn": "PROMISE",
+   "description": "מוצרי טיפוח מרכיבים טבעיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "A DAY IN A LIFE",
+   "nameEn": "A DAY IN A LIFE",
+   "description": "חוויות ומפגשים אישיים"
+  },
+  {
+   "brand": null,
+   "name": "Puppy Yoga",
+   "nameEn": "Puppy Yoga",
+   "description": "סדנת יוגה וגורי כלבים"
+  },
+  {
+   "brand": null,
+   "name": "חגית טסה",
+   "nameEn": null,
+   "description": "אופנת בוטיק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SABON",
+   "nameEn": "SABON",
+   "description": "רשת טיפוח גוף ואווירה"
+  },
+  {
+   "brand": null,
+   "name": "L.RAPHAEL by Ronit Raphael",
+   "nameEn": "L.RAPHAEL by Ronit Raphael",
+   "description": "מתחם ספא וטיפולי ביוטי"
+  },
+  {
+   "brand": null,
+   "name": "Shaka",
+   "nameEn": "Shaka",
+   "description": "מארזי קוקטיילים מתנות וחוויות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Mor for your baby",
+   "nameEn": "Mor for your baby",
+   "description": "הדרכת הורים בהתפתחות תינוקות"
+  },
+  {
+   "brand": null,
+   "name": "TAURUS SMOKEHOUSE",
+   "nameEn": "TAURUS SMOKEHOUSE",
+   "description": "מסעדת בשרים מעושנים",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "בייביסטפס",
+   "nameEn": null,
+   "description": "סטודיו התפתחותי ומשחקייה לגיל הרך"
+  },
+  {
+   "brand": null,
+   "name": "The Grill Room TLV",
+   "nameEn": "The Grill Room TLV",
+   "description": "מסעדת שף בשרית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "חנות האוהדים של מכבי תל אביב",
+   "nameEn": null,
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בית הרמזים",
+   "nameEn": null,
+   "description": "סדנאות בנושא חיבור עצמי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "סטודיו הדובות",
+   "nameEn": null,
+   "description": "סטודיו לתרבות ואומנות בקיבוץ"
+  },
+  {
+   "brand": null,
+   "name": "הזקן והיין",
+   "nameEn": null,
+   "description": "תרבות יין מקומית"
+  },
+  {
+   "brand": null,
+   "name": "ARDO",
+   "nameEn": "ARDO",
+   "description": "חוויית הנקה קלה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "לה מוזה פטיסרי",
+   "nameEn": null,
+   "description": "קונדיטוריית יצור"
+  },
+  {
+   "brand": null,
+   "name": "מטאור",
+   "nameEn": null,
+   "description": "תצפיות כוכבים"
+  },
+  {
+   "brand": null,
+   "name": "BONIC",
+   "nameEn": "BONIC",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת MILA",
+   "nameEn": null,
+   "description": "ביסטרו-קפה אלגנטי"
+  },
+  {
+   "brand": null,
+   "name": "עלהבוקר- מתחם וולנס",
+   "nameEn": null,
+   "description": "מרחב לוולנס וסדנאות"
+  },
+  {
+   "brand": null,
+   "name": "Callisto Art",
+   "nameEn": "Callisto Art",
+   "description": "אמנות מקורית בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ספא דניאל",
+   "nameEn": null,
+   "description": "רשת בתי ספא"
+  },
+  {
+   "brand": null,
+   "name": "TULIP",
+   "nameEn": "TULIP",
+   "description": "Tulip Natural קוסמטיקה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Under Armour",
+   "nameEn": "Under Armour",
+   "description": "מותג ספורט בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "Biliblond",
+   "nameEn": "Biliblond",
+   "description": "בגדי ים לנשים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Eazy2gift",
+   "nameEn": "Eazy2gift",
+   "description": "מוצרי תינוקות וילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מלון פורט",
+   "nameEn": null,
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "KITCHENEAT",
+   "nameEn": "KITCHENEAT",
+   "description": "מותג לייף סטייל לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "KUALA",
+   "nameEn": "KUALA",
+   "description": "רהיטים מעוצבים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "NEXTHEAT",
+   "nameEn": "NEXTHEAT",
+   "description": "נקסט היט קמינים ופתרונות חימום מתקדמים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Pelle Gift",
+   "nameEn": "Pelle Gift",
+   "description": "מתנות מעצימות ומעוצבות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SEQUOIA",
+   "nameEn": "SEQUOIA",
+   "description": "תוספי תזונה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "סימני דרך",
+   "nameEn": null,
+   "description": "מרכז הילינג במים"
+  },
+  {
+   "brand": null,
+   "name": "CHILL",
+   "nameEn": "CHILL",
+   "description": "ריהוט לגינה ולבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SWING",
+   "nameEn": "SWING",
+   "description": "מאווררי תקרה איכותיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "FlyFoot",
+   "nameEn": "FlyFoot",
+   "description": "נעלי נוחות יפות"
+  },
+  {
+   "brand": null,
+   "name": "IROBOT",
+   "nameEn": "IROBOT",
+   "description": "רובוטים חכמים לשאיבה ושטיפת רצפות"
+  },
+  {
+   "brand": null,
+   "name": "URBAN SPA TLV",
+   "nameEn": "URBAN SPA TLV",
+   "description": "מתחם ספא וטיפולים"
+  },
+  {
+   "brand": null,
+   "name": "organic zone",
+   "nameEn": "organic zone",
+   "description": "חנות אקולוגית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אות והדר תשמישי קדושה",
+   "nameEn": null,
+   "description": "תשמישי קדושה איכותיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הדרא",
+   "nameEn": null,
+   "description": "סטודיו לעיצוב כיסויי ראש, טייצים ותכשיטים בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מלון פולי האוס",
+   "nameEn": null,
+   "description": "מלון אורבני"
+  },
+  {
+   "brand": null,
+   "name": "סו סושי תל אביב",
+   "nameEn": null,
+   "description": "מסעדת סושי כשרה"
+  },
+  {
+   "brand": null,
+   "name": "SIMPLE AS THAT",
+   "nameEn": "SIMPLE AS THAT",
+   "description": "אתר פרחים וצמחיה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "עידו עמית תצפיות כוכבים",
+   "nameEn": null,
+   "description": "תצפיות כוכבים ואסטרונומיה"
+  },
+  {
+   "brand": null,
+   "name": "Slav&So | סריגה.יצירה.קהילה",
+   "nameEn": null,
+   "description": "קורסי סריגה, תיקים סרוגים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מגוון מלונות אפריקה ישראל",
+   "nameEn": null,
+   "description": "רשת מלונות בפריסה ארצית"
+  },
+  {
+   "brand": null,
+   "name": "הראל קולדן- קורס לניהול כסף חכם",
+   "nameEn": null,
+   "description": "ייעוץ ואדריכלות פיננסית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מקסיקנה",
+   "nameEn": null,
+   "description": "רשת מסעדות מקסיקני",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "קבוצת story",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Super Friends-מותגי אופנה מובילים",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה"
+  },
+  {
+   "brand": null,
+   "name": "מגוון מותגי קבוצת קסטרו הודיס",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה"
+  },
+  {
+   "brand": null,
+   "name": "מגוון מותגי קבוצת FOX",
+   "nameEn": null,
+   "description": "קבוצת מותגי אופנה ולייף סטייל"
+  },
+  {
+   "brand": null,
+   "name": "H&O ו- Carter's/Oshkosh",
+   "nameEn": null,
+   "description": "רשת אופנה לכל המשפחה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "קבוצת Golf",
+   "nameEn": null,
+   "description": "קבוצת מותגי אופנה ובית"
+  },
+  {
+   "brand": null,
+   "name": "Naaman & Vardinon",
+   "nameEn": "Naaman & Vardinon",
+   "description": "רשת לכלי בית וטקסטיל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MULTI BRANDS",
+   "nameEn": "MULTI BRANDS",
+   "description": "רשת מותגי אופנה"
+  },
+  {
+   "brand": null,
+   "name": "HACKETT & GANT",
+   "nameEn": "HACKETT & GANT",
+   "description": "יבואן מותגי אופנת פרימיום"
+  },
+  {
+   "brand": null,
+   "name": "קבוצת אסתי לאודר, MAC בובי בראון",
+   "nameEn": null,
+   "description": "מגוון מותגי קוסמטיקה"
+  },
+  {
+   "brand": null,
+   "name": "GLOBAL BRANDS",
+   "nameEn": "GLOBAL BRANDS",
+   "description": "מגוון מותגי אופנה"
+  },
+  {
+   "brand": null,
+   "name": "מותגי קבוצת INTER JEANS",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה בינלאומיים"
+  },
+  {
+   "brand": null,
+   "name": "& Other Stories",
+   "nameEn": "& Other Stories",
+   "description": "מותג אופנה בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "COS",
+   "nameEn": "COS",
+   "description": "מותג אופנה בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "Mekimi",
+   "nameEn": "Mekimi",
+   "description": "סטייל צנוע בווייב צעיר לנשים ולנערות."
+  },
+  {
+   "brand": null,
+   "name": "FESTIVE",
+   "nameEn": "FESTIVE",
+   "description": "תכשיטים בעיצוב אישי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "KUNI",
+   "nameEn": "KUNI",
+   "description": "מפיץ ריח חכם לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "almaré",
+   "nameEn": null,
+   "description": "מותג אופנה לנעליים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Matteo",
+   "nameEn": "Matteo",
+   "description": "רשת מסעדות איטלקיות",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Belago איטלקית באגם",
+   "nameEn": null,
+   "description": "מטבח איטלקי עכשווי באווירה ייחודית",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "TicketTeams",
+   "nameEn": "TicketTeams",
+   "description": "אירועים בארץ ובעולם"
+  },
+  {
+   "brand": null,
+   "name": "byMemmis",
+   "nameEn": "byMemmis",
+   "description": "סדנאות בטון ושעווה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "NEWTON",
+   "nameEn": "NEWTON",
+   "description": "כסאות ארגונומיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Marmor House",
+   "nameEn": "Marmor House",
+   "description": "עיצוב, נקיון, סדר וארגון",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "napo",
+   "nameEn": "napo",
+   "description": "מותג ריהוט ועיצוב הבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "RESET",
+   "nameEn": "RESET",
+   "description": "מתחם אימוני כושר, יוגה ופילאטיס"
+  },
+  {
+   "brand": null,
+   "name": "SHEEPY",
+   "nameEn": "SHEEPY",
+   "description": "מותג ריהוט מודולרי לבית"
+  },
+  {
+   "brand": null,
+   "name": "יקב קטרון",
+   "nameEn": null,
+   "description": "יקב משפחתי השוכן למרגלות אזור היין הגלילי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ארגז מהכפר",
+   "nameEn": null,
+   "description": "ארגז מהכפר- מארזי אוכל עד הבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ALALI",
+   "nameEn": "ALALI",
+   "description": "מסעדת שף בתל אביב",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מגוון מותגי קבוצת H&M",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה בינלאומיים"
+  },
+  {
+   "brand": null,
+   "name": "DASI Boutique Experience",
+   "nameEn": "DASI Boutique Experience",
+   "description": "יחידות אירוח זוגיות במושב רמות",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ספא אדמה",
+   "nameEn": null,
+   "description": "ממתם ספא וטיפולים"
+  },
+  {
+   "brand": null,
+   "name": "Good Morning Sunshine",
+   "nameEn": "Good Morning Sunshine",
+   "description": "רשת בייקרי מבית מאפיית בנדיקט"
+  },
+  {
+   "brand": null,
+   "name": "Guilty",
+   "nameEn": "Guilty",
+   "description": "מותגי איפור וטיפוח אונליין",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Head Spa Israel",
+   "nameEn": "Head Spa Israel",
+   "description": "The Art of Scalp Luxury"
+  },
+  {
+   "brand": null,
+   "name": "גרפוס",
+   "nameEn": null,
+   "description": "רשת למכשירי כתיבה ויצירה"
+  },
+  {
+   "brand": null,
+   "name": "ALTRA",
+   "nameEn": "ALTRA",
+   "description": "מותג נעלי ריצה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "הילולה",
+   "nameEn": null,
+   "description": "מסיבה, אירוח, הילולה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "CALZEDONIA",
+   "nameEn": "CALZEDONIA",
+   "description": "מותג אופנה איטלקי"
+  },
+  {
+   "brand": null,
+   "name": "הספר הכחול",
+   "nameEn": null,
+   "description": "התפתחות אישית דרך כתיבה"
+  },
+  {
+   "brand": null,
+   "name": "COCONUT LOVE",
+   "nameEn": "COCONUT LOVE",
+   "description": "סטייל נצחי לרגעים הנוצצים של היום-יום",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "יקב דרימיה",
+   "nameEn": null,
+   "description": "יקב בוטיק ומרכז מבקרים",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Danielle Gerber",
+   "nameEn": "Danielle Gerber",
+   "description": "תכשיטים שמחברים אותך לעצמך",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Daysy",
+   "nameEn": "Daysy",
+   "description": "להבין את הגוף שלך",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "צמר שטיחים יפים",
+   "nameEn": null,
+   "description": "צמר שטיחים יפים מאז 1939",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "DREAME",
+   "nameEn": "DREAME",
+   "description": "טכנולוגיה חכמה לבית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ימה גלילות של שף יובל בן נריה",
+   "nameEn": null,
+   "description": "מעדנייה וקצביית שף"
+  },
+  {
+   "brand": null,
+   "name": "DRONDEN",
+   "nameEn": "DRONDEN",
+   "description": "רחפנים - צילום והדרכה"
+  },
+  {
+   "brand": null,
+   "name": "קשרי תעופה",
+   "nameEn": null,
+   "description": "קשרי תעופה נופש בארץ ובעולם"
+  },
+  {
+   "brand": null,
+   "name": "Grinberg Burger",
+   "nameEn": "Grinberg Burger",
+   "description": "מסעדת המבורגרים פרימיום",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Guy Eitani healing",
+   "nameEn": "Guy Eitani healing",
+   "description": "סאונד הילינג ונשימה"
+  },
+  {
+   "brand": null,
+   "name": "Hili Toys",
+   "nameEn": "Hili Toys",
+   "description": "יבוא ושיווק מוצרי ילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Israel-2GO",
+   "nameEn": "Israel-2GO",
+   "description": "סיורי קולינאריה וחוויה"
+  },
+  {
+   "brand": null,
+   "name": "Intimissimi",
+   "nameEn": "Intimissimi",
+   "description": "מותג איטלקי להלבשה תחתונה לנשים"
+  },
+  {
+   "brand": null,
+   "name": "ZMRM",
+   "nameEn": "ZMRM",
+   "description": "משוברים לחופשה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "JanSport",
+   "nameEn": "JanSport",
+   "description": "מותג תיקי גב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Leo & Cubs",
+   "nameEn": "Leo & Cubs",
+   "description": "מותג תיקי עגלה לאמהות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Nanobebe",
+   "nameEn": "Nanobebe",
+   "description": "מוצרי תינוקות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "noonebetter",
+   "nameEn": "noonebetter",
+   "description": "בגדי ים עילית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "orea",
+   "nameEn": "orea",
+   "description": "מותג תכשיטים מעוצבים"
+  },
+  {
+   "brand": null,
+   "name": "PALPHOT",
+   "nameEn": "PALPHOT",
+   "description": "ציוד לביה\"ס וצעצועים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Petit Loup",
+   "nameEn": "Petit Loup",
+   "description": "מוצרי בוטיק לכלבים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Salomon",
+   "nameEn": "Salomon",
+   "description": "אופנת וציוד ספורט צרפתי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SIMMONS",
+   "nameEn": "SIMMONS",
+   "description": "מגוון מוצרים לעולמות השינה, הנוחות והאירוח"
+  },
+  {
+   "brand": null,
+   "name": "The clean dot",
+   "nameEn": "The clean dot",
+   "description": "מוצרי נקיון אקולוגיים, טבעוניים וקומפקטיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "XI MOBILITY",
+   "nameEn": "XI MOBILITY",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "ZEST",
+   "nameEn": "ZEST",
+   "description": "מעדניית טבע"
+  },
+  {
+   "brand": null,
+   "name": "הבית של גיליגולי",
+   "nameEn": null,
+   "description": "מרחב בטוח מחבק ומקצועי לאמהות ותינוקות"
+  },
+  {
+   "brand": null,
+   "name": "דביר טרקטורונים מעופפים",
+   "nameEn": null,
+   "description": "טיסה בטרקטורון מעופף"
+  },
+  {
+   "brand": null,
+   "name": "המעדניה היוונית של גרקו",
+   "nameEn": null,
+   "description": "מעדניה יוונית"
+  },
+  {
+   "brand": null,
+   "name": "Desert HOM By Glow",
+   "nameEn": "Desert HOM By Glow",
+   "description": "גלמפינג בנווה מדבר בלב שמורת טבע",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "חברת אופקים תיירות נופש",
+   "nameEn": null,
+   "description": "חבילות תיירת בארץ ובעולם"
+  },
+  {
+   "brand": null,
+   "name": "FRANGELICO",
+   "nameEn": "FRANGELICO",
+   "description": "רשת מסעדות אסייתיות"
+  },
+  {
+   "brand": null,
+   "name": "מאמאל'ה",
+   "nameEn": null,
+   "description": "תיק לידה ואשפוז מוכן",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Marley",
+   "nameEn": "Marley",
+   "description": "מותג סאונד ולייף סטייל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "משק 33",
+   "nameEn": null,
+   "description": "חנות אונליין לאוכל ויין",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "NAGISA",
+   "nameEn": "NAGISA",
+   "description": "רשת מסעדות אסייתיות"
+  },
+  {
+   "brand": null,
+   "name": "קל גב",
+   "nameEn": null,
+   "description": "תיקים לכל מטרה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Outdoor",
+   "nameEn": "Outdoor",
+   "description": "ציוד לשטח",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "SHAK IT",
+   "nameEn": "SHAK IT",
+   "description": "תכשיטי חריטה, אבני חן ואבני חודש לידה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "The OM café",
+   "nameEn": null,
+   "description": "בית קפה מבית אורן משי"
+  },
+  {
+   "brand": null,
+   "name": "SHLOMIT ZIV ALVAS",
+   "nameEn": "SHLOMIT ZIV ALVAS",
+   "description": "מעצבת אופנת נשים"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב",
+   "nameEn": null,
+   "description": "רשת מלונות בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "Spicehaus Cocktails",
+   "nameEn": "Spicehaus Cocktails",
+   "description": "קוקטיילים מוכנים למזיגה לכל רגע ולכל אירוע",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "איריסקו עגלת קפה",
+   "nameEn": null,
+   "description": "איריסקו | עגלת קפה | תל עדשים"
+  },
+  {
+   "brand": null,
+   "name": "DENIM BAR",
+   "nameEn": "DENIM BAR",
+   "description": "בר בירות ופיצות",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "הסושיה",
+   "nameEn": null,
+   "description": "רשת מסעדות אסייתיות"
+  },
+  {
+   "brand": null,
+   "name": "JEZ V",
+   "nameEn": "JEZ V",
+   "description": "טיפוח אינטמי טבעי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מניקות עם עומר",
+   "nameEn": null,
+   "description": "לווי וסדנאות הנקה"
+  },
+  {
+   "brand": null,
+   "name": "LIDOR BAR",
+   "nameEn": "LIDOR BAR",
+   "description": "אופנה צנועה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מקופלת",
+   "nameEn": null,
+   "description": "חנות משחקים מטריפה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "M32",
+   "nameEn": "M32",
+   "description": "The best burger in town"
+  },
+  {
+   "brand": null,
+   "name": "Maika",
+   "nameEn": "Maika",
+   "description": "ציוד ומזון לבעלי חיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "צעדים ראשונים",
+   "nameEn": null,
+   "description": "מותג ציוד לאם ולתינוק",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MAIYAN CERAMIC",
+   "nameEn": "MAIYAN CERAMIC",
+   "description": "סטודיו קרמיקה בתל אביב",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "MEN BY NORI",
+   "nameEn": "MEN BY NORI",
+   "description": "מותג אופנה לגברים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "owlet care",
+   "nameEn": "owlet care",
+   "description": "Monitor what matters most",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "NORI KIDS",
+   "nameEn": "NORI KIDS",
+   "description": "מותג אופנה לילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "PALMERS",
+   "nameEn": "PALMERS",
+   "description": "יופי, קוסמטיקה וטיפוח אישי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Pasta Della Casa",
+   "nameEn": "Pasta Della Casa",
+   "description": "פסטה איטלקית טרייה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "רוזנבאום תכשיטים",
+   "nameEn": null,
+   "description": "תכשיטי זהב יהלומים ואבני חן",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Sunglass Hut",
+   "nameEn": "Sunglass Hut",
+   "description": "רשת משקפי שמש בינלאומית"
+  },
+  {
+   "brand": null,
+   "name": "ZOMEE",
+   "nameEn": "ZOMEE",
+   "description": "משאבות הנקה ואביזרים איכותיים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אבני אהוה",
+   "nameEn": null,
+   "description": "יוצרות טוב בעולם",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "אולפני לירון",
+   "nameEn": null,
+   "description": "כוכב/ת מוזיקלי/ת ליום אחד באולפן הקלטות"
+  },
+  {
+   "brand": null,
+   "name": "אילוף בנועם",
+   "nameEn": null,
+   "description": "אילוף כלבים וייעוץ"
+  },
+  {
+   "brand": null,
+   "name": "ביאנקה",
+   "nameEn": null,
+   "description": "מסעדה איטלקית כשרה במלון אדם בוטיק",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ויצק",
+   "nameEn": null,
+   "description": "מטבח מקומי במכון ויצמן",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "לילית קוסמטיקה",
+   "nameEn": null,
+   "description": "Beauty, cosmetic & personal care",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "בן אביטל מאלף כלבים",
+   "nameEn": null,
+   "description": "מאלף כלבים ובי״ס למאלפים"
+  },
+  {
+   "brand": null,
+   "name": "מילאנו בייקרי",
+   "nameEn": null,
+   "description": "חוויית פטיסרי מוקפדת",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מלון אלמרה",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אווזי שכונת התקווה תל אביב",
+   "nameEn": null,
+   "description": "מסעדת בשרים ים תיכונית"
+  },
+  {
+   "brand": null,
+   "name": "ספא ומלון בוטיק שנקין תל אביב",
+   "nameEn": null,
+   "description": "מלון בוטיק וספא מבית מלונות Jacob"
+  },
+  {
+   "brand": null,
+   "name": "ספא נאות",
+   "nameEn": null,
+   "description": "ספא בוטיק בקיסריה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "צימר חן",
+   "nameEn": null,
+   "description": "צימרים ברמת הגולן איכות פוגשת נוחות"
+  },
+  {
+   "brand": null,
+   "name": "קולנוע יפו",
+   "nameEn": null,
+   "description": "Movie Theatre • Bar"
+  },
+  {
+   "brand": null,
+   "name": "ריטה מיסיוק",
+   "nameEn": null,
+   "description": "יעוץ הנקה, ליוי לידה והדרכת הורים"
+  },
+  {
+   "brand": null,
+   "name": "בורגראנץ'",
+   "nameEn": null,
+   "description": "רשת המבורגרים ומזון מהיר כשרה"
+  },
+  {
+   "brand": null,
+   "name": "Alef Alef",
+   "nameEn": "Alef Alef",
+   "description": "Contemporary Women's Outwear",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Ironline",
+   "nameEn": "Ironline",
+   "description": "ריהוט מתכת בצבעים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "חשמל נטו",
+   "nameEn": null,
+   "description": "רשת למוצרי חשמל"
+  },
+  {
+   "brand": null,
+   "name": "NORITAMY",
+   "nameEn": "NORITAMY",
+   "description": "תכשיטי יוקרה בעבודת יד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "bbhugme",
+   "nameEn": "bbhugme",
+   "description": "מותג כריות הריון והנקה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Motion Lab",
+   "nameEn": "Motion Lab",
+   "description": "חנות מקצועית לריצה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Creatures of Habit",
+   "nameEn": "Creatures of Habit",
+   "description": "תכשיטי זהב ויהלומים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "RUGSIL",
+   "nameEn": "RUGSIL",
+   "description": "רשת השטיחים הזולה בישראל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "DÉ FACTO",
+   "nameEn": null,
+   "description": "בר קוקטיילים ומסעדה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "SPA AKOYA",
+   "nameEn": "SPA AKOYA",
+   "description": "להתפנק בסגנון אקויה"
+  },
+  {
+   "brand": null,
+   "name": "DRIX GAME CAFE",
+   "nameEn": "DRIX GAME CAFE",
+   "description": "קפה משחקי הקופסה של חיפה"
+  },
+  {
+   "brand": null,
+   "name": "GIN CLUB",
+   "nameEn": "GIN CLUB",
+   "description": "ג'ין בר הראשון בישראל",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "חן במטבח",
+   "nameEn": null,
+   "description": "אוכל טעים והגיוני",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "לינויה",
+   "nameEn": null,
+   "description": "מטפחות מעוצבות",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "JLY",
+   "nameEn": "JLY",
+   "description": "אופנה צנועה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "סאן פדרו",
+   "nameEn": null,
+   "description": "מטבח מקסיקני כשר"
+  },
+  {
+   "brand": null,
+   "name": "Nike",
+   "nameEn": "Nike",
+   "description": "מותג ספורט בינלאומי"
+  },
+  {
+   "brand": null,
+   "name": "piece of nature",
+   "nameEn": "piece of nature",
+   "description": "חנות שוקולד איכותית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "On.Tour by Issta Sport",
+   "nameEn": "On.Tour by Issta Sport",
+   "description": "הופעות ופסטיבלים בעולם"
+  },
+  {
+   "brand": null,
+   "name": "Pretty Ballerinas",
+   "nameEn": "Pretty Ballerinas",
+   "description": "מותג נעליים ספרדי",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "THE GEORGE SPA",
+   "nameEn": "THE GEORGE SPA",
+   "description": "ספא במלון The George",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Think and Drink",
+   "nameEn": "Think and Drink",
+   "description": "לאנשים שאוהבים לחשוב"
+  },
+  {
+   "brand": null,
+   "name": "בקתה בלבן",
+   "nameEn": null,
+   "description": "צימרים במושב רמות"
+  },
+  {
+   "brand": null,
+   "name": "360 - עולם של חדשנות",
+   "nameEn": null,
+   "description": "חנות למוצרי חשמל, סלולר ואלקטרוניקה"
+  },
+  {
+   "brand": null,
+   "name": "זמן צעצוע",
+   "nameEn": null,
+   "description": "מוזיאון צעצועים"
+  },
+  {
+   "brand": null,
+   "name": "ABBA HOTEL",
+   "nameEn": "ABBA HOTEL",
+   "description": "מלון בוטיק"
+  },
+  {
+   "brand": null,
+   "name": "מוזיאון יעקב אגם",
+   "nameEn": null,
+   "description": "מוזיאון לאמנות קינטית"
+  },
+  {
+   "brand": null,
+   "name": "ארנה טיקטס",
+   "nameEn": null,
+   "description": "חבילות ספורט והופעות בחו\"ל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מיה גלר",
+   "nameEn": null,
+   "description": "מעצבת תכשיטים • צורפת • אמנית תלת ממד",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Gambino retro X",
+   "nameEn": "Gambino retro X",
+   "description": "מותג משקפי שמש וראייה",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מלון וספא סינרגיה עין גדי",
+   "nameEn": null,
+   "description": "עין גדי- מלון בשמורת טבע",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "HOUSE OF JOY SPA",
+   "nameEn": "HOUSE OF JOY SPA",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "פתורה",
+   "nameEn": null,
+   "description": "משק בוטיק בחבל לכיש",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Isla Spa",
+   "nameEn": "Isla Spa",
+   "description": "ספא במלון איסלה אילת"
+  },
+  {
+   "brand": null,
+   "name": "קלאב מרין",
+   "nameEn": null,
+   "description": "מסעדת שף של אבי ביטון",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "Liminal",
+   "nameEn": "Liminal",
+   "description": "אופנת פנאי ובית",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Loullie",
+   "nameEn": "Loullie",
+   "description": "בר מסעדה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "MERRY STEPS",
+   "nameEn": "MERRY STEPS",
+   "description": "צעצועים, בגדים ונעליים לילדים"
+  },
+  {
+   "brand": null,
+   "name": "MORE FOOD",
+   "nameEn": "MORE FOOD",
+   "description": "חנויות אוכל",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "Oren sapak bdikotttt",
+   "nameEn": "Oren sapak bdikotttt"
+  },
+  {
+   "brand": null,
+   "name": "POP & POPE",
+   "nameEn": "POP & POPE",
+   "description": "מסעדת שף וגלריה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "איסתא אקטיב מבית איסתא ספורט",
+   "nameEn": null,
+   "description": "חופשות ספורט אקטיביות בארץ ובעולם"
+  },
+  {
+   "brand": null,
+   "name": "אמש",
+   "nameEn": null,
+   "description": "בר מסעדה",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "אסטרל אילת",
+   "nameEn": null,
+   "description": "רשת מלונות נופש"
+  },
+  {
+   "brand": null,
+   "name": "יקב 70",
+   "nameEn": null,
+   "description": "יקב בוטיק משפחתי",
+   "bookingRequired": true
+  },
+  {
+   "brand": null,
+   "name": "ישראטויס",
+   "nameEn": null,
+   "description": "מותג צעצועים ומשחקים לילדים",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מותגי אופנה גלובליים בGetaway",
+   "nameEn": null,
+   "description": "מבית Getaway by BUYME",
+   "onlineRedeem": true
+  },
+  {
+   "brand": null,
+   "name": "מכבי אסתטיקה",
+   "nameEn": null,
+   "description": "רשת מרפאות אסתטיקה"
+  },
+  {
+   "brand": null,
+   "name": "מלון מטרו הרצליה",
+   "nameEn": null,
+   "description": "מלון בוטיק בהרצליה"
+  },
+  {
+   "brand": null,
+   "name": "עולם היין",
+   "nameEn": null,
+   "description": "חנות יינות, בירות ומשקאות חריפים"
+  },
+  {
+   "brand": null,
+   "name": "שחר לבון",
+   "nameEn": null,
+   "description": "תזונאית פריון והריון"
+  }
+ ]
+}

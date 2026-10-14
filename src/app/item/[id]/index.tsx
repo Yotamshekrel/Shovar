@@ -8,6 +8,7 @@ import { AttachmentStrip } from '@/components/item/Attachments';
 import { HistoryList } from '@/components/item/HistoryList';
 import { expiryLabel } from '@/components/item/labels';
 import { SecretRow } from '@/components/item/SecretRow';
+import { AcceptedStores } from '@/components/item/AcceptedStores';
 import { StoreAvatar } from '@/components/item/StoreAvatar';
 import { Button, Divider, EmptyState, IconButton, ListRow, Section, Text, successFeedback } from '@/components/ui';
 import { formatDate } from '@/domain/dates';
@@ -295,6 +296,8 @@ export default function ItemDetailScreen() {
             </>
           ) : null}
         </Section>
+
+        <AcceptedStores item={item} />
 
         {item.notes ? (
           <Section title={t('detail.notes')}>
