@@ -29,7 +29,7 @@ Status legend: ✅ done in this branch · 👤 needs you (accounts/legal/decisio
 | B10 | Store screenshots (EN + HE, Play 1080×1920, iOS 6.9" and 6.5") + Play feature graphic + 512 icon: `docs/store-assets/` | ✅ |
 | B6 | Icons 1024², adaptive icon layers, splash | ✅ already present |
 | B7 | Bundle id / package `com.shvar.wallet` — never change (data persistence) | ✅ untouched |
-| B8 | Production AI backend: **no Anthropic key may be bundled**. Deploy `server/extraction-proxy.mjs` (add rate limiting) and set `EXPO_PUBLIC_ANTHROPIC_BASE_URL` in the EAS *production* environment; otherwise the store build ships with AI reading unavailable unless users paste their own key | 👤 decision |
+| B8 | Production AI backend: **no Anthropic key may be bundled**. Decision (2026-10-14): **no hosted proxy for launch**; store builds read receipts on-device and AI reading is available only with a key the user enters in Settings. the proxy code was removed from the repo; the app only supports a key the user enters themselves | ✅ decided |
 
 ## C. Store console work (cannot be done from code)
 

@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=DM+Sans:opsz,wght@9..40,400..800&family=Instrument+Serif:ital@1&family=Rubik:wght@400..800&display=swap">
-<link rel="stylesheet" href="landing.css?v=8">
+<link rel="stylesheet" href="landing.css?v=9">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Shovar","alternateName":"שובר","operatingSystem":"Android, iOS","applicationCategory":"FinanceApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"ILS"},"description":"A private wallet for store credits and gift cards, with expiry and nearby reminders."}</script>
 </head>
 <body>
@@ -464,11 +464,11 @@
       </details>
       <details class="qa" data-reveal>
         <summary><span data-i18n="faq.q4">How does reading a receipt work?</span><i class="qa-x" aria-hidden="true"></i></summary>
-        <div class="qa-a"><p data-i18n="faq.a4">AI reading is optional. The first time, Shovar asks for your permission and explains that only the image you chose is sent, only to pull out the details. You can turn it off in Settings and type cards in by hand any time.</p></div>
+        <div class="qa-a"><p data-i18n="faq.a4">By default Shovar reads receipts on your phone and nothing is uploaded. If you want AI reading, you can add your own Anthropic key in Settings; the first time, Shovar asks for your permission and explains that only the image you chose is sent, only to pull out the details. You can turn it off any time and type cards in by hand.</p></div>
       </details>
       <details class="qa" data-reveal>
         <summary><span data-i18n="faq.q5">Does it track my location?</span><i class="qa-x" aria-hidden="true"></i></summary>
-        <div class="qa-a"><p data-i18n="faq.a5">Nearby reminders are off until you turn them on. They use your phone’s low-power geofencing, and your exact position never leaves the device. To find branches, Shovar only shares store names and a rough area, rounded to about 10 km.</p></div>
+        <div class="qa-a"><p data-i18n="faq.a5">Nearby reminders are off until you turn them on. They use your phone’s low-power geofencing, and your exact position never leaves the device. To find branches, Shovar only shares store names and a rough area, rounded to a grid of about 2–10 km.</p></div>
       </details>
       <details class="qa" data-reveal>
         <summary><span data-i18n="faq.q6">Which gift cards does it know?</span><i class="qa-x" aria-hidden="true"></i></summary>
@@ -506,6 +506,17 @@
   </div>
 </section>
 
+<!-- ───────── 8b. Support ───────── -->
+<section class="support section" id="support">
+  <div class="wrap support-in" data-reveal>
+    <p class="kicker"><i class="kdot"></i><span data-i18n="support.kicker">Support</span></p>
+    <h2 class="h2" data-i18n="support.title">Need a hand? <span class="serif grad">Just write.</span></h2>
+    <p class="sub" data-i18n="support.body">Questions, bug reports or ideas for Shovar? Email us and we’ll answer as soon as we can.</p>
+    <p class="support-mail"><a class="btn btn-leaf" href="mailto:yotamshekrel@gmail.com?subject=Shovar%20support">yotamshekrel@gmail.com</a></p>
+    <p class="support-note"><a href="https://yotamshekrel.github.io/Shovar/privacy/" data-i18n="foot.privacy">Privacy</a></p>
+  </div>
+</section>
+
 </main>
 
 <!-- ───────── 9. Footer ───────── -->
@@ -514,7 +525,7 @@
     <a class="brand" href="#top"><svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="18" fill="#0B8A64"/><g transform="rotate(-14 32 32)"><path d="M14 22a3 3 0 0 1 3-3h30a3 3 0 0 1 3 3v6a4 4 0 0 0 0 8v6a3 3 0 0 1-3 3H17a3 3 0 0 1-3-3v-6a4 4 0 0 0 0-8z" fill="#fff"/><path d="M19 27h14" stroke="#0A7A5C" stroke-width="3.2" stroke-linecap="round"/><circle cx="44.5" cy="32" r="3.6" fill="#0A7A5C"/></g></svg><span class="brand-name" data-i18n="brand">Shovar</span></a>
     <nav class="foot-links" aria-label="Legal">
       <a href="https://shovar-app.web.app/privacy/" data-i18n="foot.privacy">Privacy</a>
-      <a href="mailto:yotamshekrel@gmail.com" data-i18n="foot.support">Support</a>
+      <a href="#support" data-i18n="foot.support">Support</a>
       <a href="#faq" data-i18n="nav.faq">FAQ</a>
     </nav>
     <p class="legal" data-i18n="foot.legal">Store names, amounts and codes on this page are examples. Shovar isn’t affiliated with any store or gift-card issuer. Map data © OpenStreetMap contributors. © 2026 Shovar.</p>
@@ -522,6 +533,6 @@
   <div class="watermark" aria-hidden="true" data-i18n="foot.mark">shovar</div>
 </footer>
 
-<script src="landing.js?v=6" defer></script>
+<script src="landing.js?v=7" defer></script>
 </body>
 </html>

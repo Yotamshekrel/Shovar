@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1>Shovar — Privacy Policy</h1>
-<p><em>Last updated: 29 September 2026 · <a href="#he">עברית למטה</a></em></p>
+<p><em>Last updated: 14 October 2026 · <a href="#he">עברית למטה</a></em></p>
 
 <p>Shovar ("the app") is a personal wallet for store credits and gift cards, provided by Yotam Shekrel ("we"). We designed it to work without an account and without our own servers: <strong>we do not collect, receive or store your data.</strong> This policy explains what stays on your device and the few cases where information is sent to third parties at your request.</p>
 
@@ -28,8 +28,8 @@
 <h2>2. Information sent to third parties</h2>
 <table>
 <tr><th>Feature</th><th>What is sent</th><th>To whom</th></tr>
-<tr><td>AI receipt reading (optional; asks for consent first; can be turned off in Settings)</td><td>The receipt image or PDF you choose to scan. Nothing else.</td><td>Anthropic (Claude API), directly or through a proxy operated for the app. See <a href="https://www.anthropic.com/legal/privacy">Anthropic's privacy policy</a>.</td></tr>
-<tr><td>Finding store branches for reminders and "What's around me" (optional)</td><td>Store names and an approximate area (rounded to about 10 km). Never your exact position.</td><td>OpenStreetMap Overpass servers, Photon (komoot), and Google Places only if you add your own key.</td></tr>
+<tr><td>AI receipt reading (optional; needs your own API key; asks for consent first; can be turned off in Settings)</td><td>The receipt image or PDF you choose to scan. Nothing else.</td><td>Anthropic (Claude API), directly from your phone, using your own API key. This only happens if you enter a key in Settings; without one, receipts are read on your device and nothing is uploaded. We run no server in between. See <a href="https://www.anthropic.com/legal/privacy">Anthropic's privacy policy</a>.</td></tr>
+<tr><td>Finding store branches for reminders and "What's around me" (optional)</td><td>Store names and an approximate area: your position rounded to a grid of about 10 km for nearby reminders, or about 2 km for "What's around me". Never your exact position. These services also see your IP address, like any web request.</td><td>OpenStreetMap Overpass servers (overpass-api.de, overpass.private.coffee), Photon (photon.komoot.io), and Google Places only if you add your own key in Settings.</td></tr>
 <tr><td>Gift-card links you paste or share</td><td>A request to the linked web page to read its title and amount (the site sees your IP address, like any browser visit).</td><td>The website in that link.</td></tr>
 </table>
 <p>We do not sell data, do not show ads, do not use analytics or crash-reporting SDKs, and do not track you across apps or websites.</p>
@@ -60,7 +60,7 @@
 
 <div class="he" id="he" dir="rtl" lang="he">
 <h1>שובר — מדיניות פרטיות</h1>
-<p><em>עודכן לאחרונה: 29 בספטמבר 2026</em></p>
+<p><em>עודכן לאחרונה: 14 באוקטובר 2026</em></p>
 <p>שובר ("האפליקציה") היא ארנק אישי לזיכויים ושוברי מתנה, מאת יותם שקרל ("אנו"). האפליקציה פועלת ללא חשבון וללא שרתים משלנו: <strong>אנחנו לא אוספים, מקבלים או שומרים את המידע שלכם.</strong> מסמך זה מסביר מה נשאר במכשיר ובאילו מקרים מועבר מידע לצדדים שלישיים לבקשתכם.</p>
 
 <h2>1. מידע שנשמר במכשיר בלבד</h2>
@@ -74,8 +74,8 @@
 <h2>2. מידע שנשלח לצדדים שלישיים</h2>
 <table>
 <tr><th>תכונה</th><th>מה נשלח</th><th>למי</th></tr>
-<tr><td>קריאת קבלות באמצעות AI (אופציונלי; מבקש הסכמה מראש; ניתן לכבות בהגדרות)</td><td>תמונת הקבלה או ה־PDF שבחרתם לסרוק. שום דבר אחר.</td><td>Anthropic (Claude API), ישירות או דרך שרת ביניים של האפליקציה. ראו <a href="https://www.anthropic.com/legal/privacy">מדיניות הפרטיות של Anthropic</a>.</td></tr>
-<tr><td>איתור סניפי חנויות לתזכורות ול״מה יש לידי״ (אופציונלי)</td><td>שמות חנויות ואזור משוער (מעוגל לכ־10 ק״מ). לעולם לא המיקום המדויק.</td><td>שרתי Overpass של OpenStreetMap, ‏Photon (komoot), וכן Google Places רק אם הוספתם מפתח משלכם.</td></tr>
+<tr><td>קריאת קבלות באמצעות AI (אופציונלי; דורש מפתח API משלכם; מבקש הסכמה מראש; ניתן לכבות בהגדרות)</td><td>תמונת הקבלה או ה־PDF שבחרתם לסרוק. שום דבר אחר.</td><td>Anthropic (Claude API), ישירות מהטלפון שלכם, באמצעות מפתח ה־API שלכם. זה קורה רק אם הזנתם מפתח בהגדרות; בלעדיו הקבלות נקראות במכשיר ושום דבר לא מועלה. אין לנו שרת באמצע. ראו <a href="https://www.anthropic.com/legal/privacy">מדיניות הפרטיות של Anthropic</a>.</td></tr>
+<tr><td>איתור סניפי חנויות לתזכורות ול״מה יש לידי״ (אופציונלי)</td><td>שמות חנויות ואזור משוער: המיקום שלכם מעוגל לרשת של כ־10 ק״מ לתזכורות, או כ־2 ק״מ ב״מה יש לידי״. לעולם לא המיקום המדויק. השירותים האלה רואים גם את כתובת ה־IP שלכם, כבכל בקשת אינטרנט.</td><td>שרתי Overpass של OpenStreetMap ‏(overpass-api.de, overpass.private.coffee), ‏Photon (photon.komoot.io), וכן Google Places רק אם הוספתם מפתח משלכם בהגדרות.</td></tr>
 <tr><td>קישורי שוברים שהדבקתם או שיתפתם</td><td>בקשה לדף האינטרנט המקושר כדי לקרוא את הכותרת והסכום (האתר רואה את כתובת ה־IP שלכם, כבכל גלישה).</td><td>האתר שבקישור.</td></tr>
 </table>
 <p>איננו מוכרים מידע, אין פרסומות, אין כלי אנליטיקה או דיווח קריסות, ואיננו עוקבים אחריכם בין אפליקציות או אתרים.</p>

@@ -49,3 +49,6 @@ credentials.json
 
 # Firebase hosting local cache
 .firebase/
+
+# Play / App Store service credentials (keep outside the repo)
+*service-account*.json

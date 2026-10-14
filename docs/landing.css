@@ -736,6 +736,12 @@ button { font: inherit; color: inherit; }
 .dl-t1 { left: 4%; bottom: 16%; rotate: -18deg; } .dl-t2 { right: 4%; top: 46%; rotate: 14deg; animation-delay: -3s; } .dl-t3 { left: 20%; top: 6%; rotate: 8deg; width: 60px; height: 36px; animation-delay: -1.5s; }
 
 /* ───────── Footer ───────── */
+.support { padding-top: 20px; padding-bottom: 20px; }
+.support-in { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.support-in .sub { margin-inline: auto; }
+.support-mail { margin: 26px 0 0; }
+.support-note { margin: 18px 0 0; font-size: .95rem; }
+.support-note a { color: var(--ink-2); text-underline-offset: 3px; }
 .footer { position: relative; overflow: hidden; padding: 70px 0 0; }
 .foot-in { display: grid; grid-template-columns: auto 1fr; gap: 20px 30px; align-items: center; position: relative; z-index: 1; }
 .foot-links { display: flex; flex-wrap: wrap; gap: 6px 22px; justify-content: flex-end; }
