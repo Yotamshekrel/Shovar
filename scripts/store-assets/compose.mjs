@@ -31,16 +31,5 @@ for (const lang of ['en','he']) for (const sz of SIZES) for (const s of SHOTS) {
   await p.screenshot({ path:`${OUT}/${sz.dir}/${lang}/${s.id}.png` });
   await p.close();
 }
-// Play feature graphic 1024x500
-for (const lang of ['en','he']) {
-  const icon = 'data:image/png;base64,' + readFileSync('/home/user/Shovar/assets/images/icon.png').toString('base64');
-  const [t] = lang==='en' ? ['Shovar<br><span style="font-size:34px;font-weight:400;opacity:.9">Your store credit wallet</span>'] : ['שובר<br><span style="font-size:34px;font-weight:400;opacity:.9">ארנק הזיכויים שלך</span>'];
-  const p = await b.newPage({ viewport:{width:1024,height:500} });
-  await p.setContent(`<body style="margin:0;width:1024px;height:500px;background:linear-gradient(160deg,#0F9E78,#065A43);display:flex;align-items:center;justify-content:center;gap:48px;font-family:'DejaVu Sans',sans-serif;color:#fff" dir="${lang==='he'?'rtl':'ltr'}">
-   <img src="${icon}" style="width:230px;height:230px;border-radius:52px;box-shadow:0 12px 40px rgba(0,0,0,.35)"><div style="font-size:88px;font-weight:800;line-height:1.1">${t}</div></body>`);
-  await p.waitForTimeout(150);
-  mkdirSync(`${OUT}/android/feature-graphic`, { recursive:true });
-  await p.screenshot({ path:`${OUT}/android/feature-graphic/${lang}.png` });
-  await p.close();
-}
+// The Play feature graphic and 512px icon come from scripts/brand/build-brand.mjs.
 await b.close();
