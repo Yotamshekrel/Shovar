@@ -142,6 +142,11 @@ button { font: inherit; color: inherit; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 1.22rem; letter-spacing: -.03em; }
 .brand .mark { width: 36px; height: 36px; border-radius: 11px; box-shadow: 0 6px 16px rgba(11, 138, 100, .35); transition: transform .5s var(--spring); }
 .brand:hover .mark { transform: rotate(-12deg) scale(1.08); }
+.brand .brand-name { display: inline-flex; align-items: center; }
+.wordmark { fill: currentColor; height: 18px; width: auto; }
+.wordmark.wm-en { aspect-ratio: 913 / 157.2; }
+.wordmark.wm-he { aspect-ratio: 417.2 / 115.8; height: 15px; }
+html[lang="he"] .wm-en, html:not([lang="he"]) .wm-he { display: none; }
 .nav-links { display: flex; gap: 4px; margin-inline-start: auto; }
 .nav-links a { position: relative; padding: 8px 14px; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .95rem; color: var(--ink-2); transition: color .2s, background .2s; }
 .nav-links a:hover { color: var(--ink); background: rgba(11, 138, 100, .07); }
