@@ -177,7 +177,7 @@ export default function CheckoutScreen() {
             <Button
               title={t('detail.openLink')}
               icon="open-outline"
-              onPress={() => Linking.openURL(item.linkUrl!)}
+              onPress={() => Linking.openURL(item.linkUrl!).catch(() => {})}
               fullWidth
               variant={secrets?.code ? 'secondary' : 'primary'}
             />

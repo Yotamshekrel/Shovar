@@ -53,6 +53,8 @@ export default function EditItemScreen() {
     linkUrl: item.linkUrl,
     notes: item.notes,
     source: item.source,
+    // Without this, saving any edit would reset a multi-store card (e.g. BuyMe Fashion) to its default type.
+    network: item.network ?? null,
   };
 
   return (

@@ -2,7 +2,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { useTheme } from '@/theme/ThemeProvider';
 
-import { tapFeedback } from './haptics';
+import { selectionFeedback } from './haptics';
 import { Text } from './Text';
 
 export function Segmented<T extends string>({
@@ -41,7 +41,7 @@ export function Segmented<T extends string>({
             accessibilityState={{ selected }}
             accessibilityLabel={o.label}
             onPress={() => {
-              tapFeedback();
+              if (!selected) selectionFeedback();
               onChange(o.value);
             }}
             style={[
@@ -68,6 +68,6 @@ export function Segmented<T extends string>({
 
 const styles = StyleSheet.create({
   wrap: { flexDirection: 'row', padding: 3, gap: 3, borderWidth: 1.5 },
-  option: { flex: 1, alignItems: 'center', justifyContent: 'center', minHeight: 38, paddingHorizontal: 8 },
+  option: { flex: 1, alignItems: 'center', justifyContent: 'center', minHeight: 44, paddingHorizontal: 8 },
   shadow: { shadowColor: '#000', shadowOpacity: 0.08, shadowRadius: 4, shadowOffset: { width: 0, height: 1 }, elevation: 1 },
 });

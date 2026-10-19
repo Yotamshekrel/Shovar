@@ -88,6 +88,7 @@ export default function NearbyScreen() {
 
   return (
     <ScrollView
+      contentInsetAdjustmentBehavior="automatic"
       style={{ backgroundColor: colors.background }}
       contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + 24 }]}
     >

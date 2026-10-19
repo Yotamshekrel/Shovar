@@ -1,6 +1,6 @@
 import * as Clipboard from 'expo-clipboard';
 import { useState } from 'react';
-import { ActivityIndicator, KeyboardAvoidingView, Platform, StyleSheet, View } from 'react-native';
+import { ActivityIndicator, KeyboardAvoidingView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Button, Icon, Text, TextField } from '@/components/ui';
@@ -42,7 +42,8 @@ export default function LinkScreen() {
   return (
     <KeyboardAvoidingView
       style={[styles.flex, { backgroundColor: colors.background }]}
-      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      // Android is edge-to-edge (the window no longer resizes), so it needs 'padding' too.
+      behavior="padding"
     >
       <View style={[styles.content, { paddingBottom: insets.bottom + 16 }]}>
         <TextField

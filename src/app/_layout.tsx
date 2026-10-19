@@ -46,6 +46,13 @@ function Navigator() {
     headerTitleStyle: { fontWeight: '600' as const },
   };
 
+  // iOS: a blurred, translucent bar with content scrolling underneath. Only for screens whose
+  // scroll view insets itself (contentInsetAdjustmentBehavior) — elsewhere the bar would cover content.
+  const glass =
+    Platform.OS === 'ios'
+      ? { headerTransparent: true, headerBlurEffect: dark ? ('systemChromeMaterialDark' as const) : ('systemChromeMaterialLight' as const) }
+      : {};
+
   const sheet = {
     presentation: 'formSheet' as const,
     sheetGrabberVisible: true,
@@ -71,14 +78,17 @@ function Navigator() {
           <Stack.Screen name="item/[id]/edit" options={{ title: t('form.titleEdit'), presentation: 'modal' }} />
           <Stack.Screen name="item/[id]/balance" options={{ ...sheet, sheetAllowedDetents: [0.62, 0.92] }} />
           <Stack.Screen name="item/[id]/checkout" options={{ presentation: 'fullScreenModal', headerShown: false }} />
-          <Stack.Screen name="nearby" options={{ title: t('nearby.title') }} />
-          <Stack.Screen name="archive" options={{ title: t('archive.title') }} />
-          <Stack.Screen name="settings/index" options={{ title: t('settings.title') }} />
-          <Stack.Screen name="settings/general" options={{ title: t('settings.general') }} />
-          <Stack.Screen name="settings/reminders" options={{ title: t('settings.reminders') }} />
-          <Stack.Screen name="settings/security" options={{ title: t('settings.securityAdvanced') }} />
-          <Stack.Screen name="settings/about" options={{ title: t('settings.about') }} />
-          <Stack.Screen name="settings/legal" options={{ title: t('legal.title') }} />
+          <Stack.Screen name="nearby" options={{ title: t('nearby.title'), ...glass }} />
+          <Stack.Screen name="archive" options={{ title: t('archive.title'), ...glass }} />
+          <Stack.Screen
+            name="settings/index"
+            options={{ title: t('settings.title'), headerLargeTitle: true, headerLargeTitleShadowVisible: false, ...glass }}
+          />
+          <Stack.Screen name="settings/general" options={{ title: t('settings.general'), ...glass }} />
+          <Stack.Screen name="settings/reminders" options={{ title: t('settings.reminders'), ...glass }} />
+          <Stack.Screen name="settings/security" options={{ title: t('settings.securityAdvanced'), ...glass }} />
+          <Stack.Screen name="settings/about" options={{ title: t('settings.about'), ...glass }} />
+          <Stack.Screen name="settings/legal" options={{ title: t('legal.title'), ...glass }} />
           <Stack.Screen name="settings/location" options={{ presentation: 'modal', headerShown: false }} />
           <Stack.Screen name="onboarding" options={{ headerShown: false, gestureEnabled: false, animation: 'fade' }} />
         </Stack>
@@ -89,6 +99,7 @@ function Navigator() {
 
 function Boot({ children }: { children: React.ReactNode }) {
   const { colors } = useTheme();
+  const { t } = useI18n();
   const [state, setState] = useState<'loading' | 'ready' | Error>('loading');
   const [splash, setSplash] = useState(true);
   // The native splash is only a plain background; hand over once the animated one is on screen.
@@ -117,12 +128,12 @@ function Boot({ children }: { children: React.ReactNode }) {
       <View style={[styles.center, { backgroundColor: colors.background }]}>
         <View style={styles.errorBox}>
           <Text variant="headline" align="center">
-            Shovar couldn’t start
+            {t('boot.failed')}
           </Text>
           <Text tone="secondary" align="center">
             {state.message}
           </Text>
-          <Button title="Try again" onPress={retry} />
+          <Button title={t('common.retry')} onPress={retry} />
         </View>
       </View>
     );

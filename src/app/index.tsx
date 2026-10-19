@@ -192,7 +192,7 @@ const styles = StyleSheet.create({
   topBar: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingStart: 4 },
   topActions: { flexDirection: 'row', gap: 4 },
   searchRow: { flexDirection: 'row', alignItems: 'center', gap: 10 },
-  search: { flex: 1, flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 16, height: 48 },
+  search: { flex: 1, flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 16, minHeight: 48 },
   nearby: { width: 48, height: 48, borderRadius: 24, alignItems: 'center', justifyContent: 'center' },
   chipsScroll: { marginHorizontal: -16 },
   chips: { gap: 8, paddingHorizontal: 16, alignItems: 'center' },

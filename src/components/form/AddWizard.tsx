@@ -11,7 +11,7 @@ import { SUPPORTED_CURRENCIES, currencySymbol, formatMoney, parseAmountToMinor }
 import type { ItemDraft, ItemType } from '@/domain/types';
 import { type ItemFormValues, validateItemForm } from '@/domain/validation';
 import { useI18n, type StringKey } from '@/i18n';
-import { networkLabel, networksForPlatform } from '@/networks/registry';
+import { defaultNetworkId, networkLabel, networkStores, networksForPlatform } from '@/networks/registry';
 import { findBrand } from '@/search/brands';
 import { suggestBrands } from '@/search/searchIndex';
 import { useScannedCode } from '@/state/scannedCode';
@@ -52,6 +52,11 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
     setValues((v) => ({ ...v, [key]: value }));
     setError(null);
   };
+  // A different store means a different set of card types, so a type picked for the previous store must not stick.
+  const setStore = (name: string) => {
+    setValues((v) => ({ ...v, storeName: name, network: findBrand(v.storeName)?.id === findBrand(name)?.id ? v.network : null }));
+    setError(null);
+  };
 
   const goTo = (i: number) => {
     setError(null);
@@ -68,6 +73,16 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
       setFromConfirm(false);
       goTo(STEPS.length - 1);
     } else goTo(index + 1);
+  };
+  // One-tap answers move on after a beat; a quick double tap must not skip the following step.
+  const pendingAdvance = useRef<number | null>(null);
+  useEffect(() => {
+    pendingAdvance.current = null;
+  }, [index]);
+  const advanceSoon = () => {
+    if (pendingAdvance.current === index) return;
+    pendingAdvance.current = index;
+    setTimeout(advance, 160);
   };
 
   // Android hardware back walks the steps instead of closing the whole flow.
@@ -94,6 +109,13 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
   );
 
   const cardTypes = useMemo(() => networksForPlatform(findBrand(values.storeName)?.id), [values.storeName]);
+  const selectedNetworkId = cardTypes.some((n) => n.id === values.network)
+    ? values.network
+    : defaultNetworkId(findBrand(values.storeName)?.id);
+  const storeCount = useMemo(
+    () => (selectedNetworkId ? networkStores(selectedNetworkId).filter((st) => st.physical).length : 0),
+    [selectedNetworkId],
+  );
   const suggestions = useMemo(() => {
     if (!storeFocused || values.storeName.trim().length < 2) return [];
     const exact = findBrand(values.storeName);
@@ -129,7 +151,7 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
       return;
     }
     if (!draft.storeCategory) draft.storeCategory = findBrand(draft.storeName)?.category ?? null;
-    if (cardTypes.length === 0) draft.network = null;
+    if (!cardTypes.some((n) => n.id === draft.network)) draft.network = null;
     setSaving(true);
     setSubmitError(null);
     try {
@@ -145,12 +167,12 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
     tapFeedback();
     set('type', type);
     // One tap is the whole answer: move on after a beat so the choice registers.
-    setTimeout(advance, 160);
+    advanceSoon();
   };
   const pickExpiry = (iso: string | null) => {
     tapFeedback();
     set('expiryDate', iso);
-    setTimeout(advance, 160);
+    advanceSoon();
   };
 
   const errorText = error ? t(error) : null;
@@ -245,7 +267,7 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
             testID="wizard-store"
             placeholder={t('form.storePlaceholder')}
             value={values.storeName}
-            onChangeText={(v) => set('storeName', v)}
+            onChangeText={setStore}
             onFocus={() => setStoreFocused(true)}
             onBlur={() => setTimeout(() => setStoreFocused(false), 150)}
             onSubmitEditing={next}
@@ -267,11 +289,11 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
                 accessibilityLabel={b.nameHe ? `${b.name}, ${b.nameHe}` : b.name}
                 onPress={() => {
                   tapFeedback();
-                  set('storeName', b.name);
+                  setStore(b.name);
                   if (!values.storeCategory) set('storeCategory', b.category);
                   storeRef.current?.blur();
-                  // One tap is the answer — unless the store has several card kinds (BuyMe, Max …) to pick from next.
-                  if (networksForPlatform(b.id).length <= 1) setTimeout(advance, 160);
+                  // One tap is the answer — unless it is a multi-store card (BuyMe, Tav Zahav …): stay so its type and stores show.
+                  if (networksForPlatform(b.id).length === 0) advanceSoon();
                 }}
                 style={({ pressed }) => [
                   styles.suggestion,
@@ -294,13 +316,15 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
             ))}
           </View>
         ) : null}
-        {cardTypes.length > 1 ? (
+        {cardTypes.length > 0 ? (
           <View style={styles.gapSm}>
-            <Text variant="caption" tone="secondary">
-              {t('form.cardType')}
-            </Text>
+            {cardTypes.length > 1 ? (
+              <Text variant="caption" tone="secondary">
+                {t('form.cardType')}
+              </Text>
+            ) : null}
             <View style={styles.chips}>
-              {cardTypes.map((n) => (
+              {(cardTypes.length > 1 ? cardTypes : []).map((n) => (
                 <Chip
                   accent
                   key={n.id}
@@ -311,7 +335,7 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
               ))}
             </View>
             <Text variant="footnote" tone="tertiary">
-              {t('form.cardTypeHint')}
+              {storeCount > 0 ? t('wizard.store.worksAt', { count: storeCount }) : t('form.cardTypeHint')}
             </Text>
           </View>
         ) : null}
@@ -391,7 +415,7 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
           value={values.expiryDate}
           onChange={(v) => {
             set('expiryDate', v);
-            if (v) setTimeout(advance, 160);
+            if (v) advanceSoon();
           }}
           placeholder={t('form.noExpiry')}
         />

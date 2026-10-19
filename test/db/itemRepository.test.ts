@@ -225,6 +225,21 @@ describe('ItemRepository', () => {
     expect(await db.get('SELECT * FROM kv WHERE key = ?', ['x'])).toBeNull();
     expect(repo).toBeDefined();
   });
+
+  it('deleteAll also wipes the location-derived places cache', async () => {
+    const { repo, db } = await setup();
+    await repo.createItem(emptyDraft({ storeName: 'Zara', amountMinor: 10000 }));
+    await db.run(
+      "INSERT INTO store_places (id, store_key, name, lat, lng, provider, cell_key, fetched_at) VALUES ('p1', 'zara', 'Zara', 32.1, 34.8, 'osm', 'c1', 'now')",
+    );
+    await db.run(
+      "INSERT INTO store_place_queries (store_key, cell_key, provider, result_count, fetched_at) VALUES ('zara', 'c1', 'osm', 1, 'now')",
+    );
+    await repo.deleteAll();
+    for (const table of ['items', 'balance_events', 'store_places', 'store_place_queries']) {
+      expect(await db.get<{ n: number }>(`SELECT COUNT(*) AS n FROM ${table}`)).toEqual({ n: 0 });
+    }
+  });
 });
 
 describe('KvRepository', () => {

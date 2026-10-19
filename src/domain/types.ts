@@ -51,7 +51,6 @@ export interface Item extends SyncMeta {
   source: ItemSource;
   /** When true, no location reminders for this item. */
   locationMuted: boolean;
-  /** Pinned manual location (e.g. a small local shop the places API does not know). */
   /**
    * Which store network a multi-store card (BuyMe, Tav Zahav, …) belongs to — see src/networks.
    * null/undefined = the platform's default network; 'none' = treat it as a plain single-store card.

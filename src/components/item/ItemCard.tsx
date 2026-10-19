@@ -174,9 +174,9 @@ export const ItemCard = memo(function ItemCard({ item, onPress, hasAttachment, c
 const styles = StyleSheet.create({
   pressable: { borderRadius: 20 },
   thin: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 14, paddingVertical: 12, minHeight: 64 },
-  thinWithUse: { paddingEnd: 62 },
+  thinWithUse: { paddingEnd: 64 },
   thinBalance: { flexShrink: 0, maxWidth: '38%' },
-  useBtn: { position: 'absolute', end: 10, top: 0, bottom: 0, width: 38, alignItems: 'center', justifyContent: 'center' },
+  useBtn: { position: 'absolute', end: 8, top: 0, bottom: 0, width: 44, alignItems: 'center', justifyContent: 'center' },
   useCircle: {
     width: 40,
     height: 40,
