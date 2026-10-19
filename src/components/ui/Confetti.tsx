@@ -14,7 +14,7 @@ import Animated, {
 import { useCelebrate, type CelebrationKind } from '@/state/celebrate';
 import { useTheme } from '@/theme/ThemeProvider';
 
-import { Icon } from './Icon';
+import { ShovarMark } from '@/components/brand/ShovarBrand';
 
 const COLORS = ['#16A87A', '#3DD6A3', '#F5B342', '#FF6B8B', '#4DA3FF', '#B07CFF', '#FFFFFF'];
 const PIECES = 56;
@@ -122,13 +122,12 @@ function Ring({ progress, delay, cx, cy }: { progress: SharedValue<number>; dela
     const t = Math.min(1, Math.max(0, (progress.value * 1100 - delay) / 900));
     return { opacity: (1 - t) * 0.5, transform: [{ scale: 1 + t * 2.2 }] };
   });
-  return <Animated.View style={[styles.ring, { left: cx - 55, top: cy - 55, borderColor: colors.primary }, style]} />;
+  return <Animated.View style={[styles.ring, { left: cx - 60, top: cy - 60, borderColor: colors.primary }, style]} />;
 }
 
-/** "Fully used" celebration: a check badge pops in with expanding rings and sparks, then fades out. */
+/** "Fully used" celebration: the app logo pops in with expanding rings and sparks, then fades out. */
 function UsedBurst({ onDone }: { onDone: () => void }) {
   const { width, height } = useWindowDimensions();
-  const { colors } = useTheme();
   const cx = width / 2;
   const cy = height * 0.42;
   const pop = useSharedValue(0);
@@ -156,8 +155,8 @@ function UsedBurst({ onDone }: { onDone: () => void }) {
       {Array.from({ length: SPARKS }, (_, i) => (
         <Spark key={i} index={i} progress={burst} cx={cx} cy={cy} />
       ))}
-      <Animated.View style={[styles.badge, { left: cx - 55, top: cy - 55, backgroundColor: colors.primary }, badge]}>
-        <Icon name="checkmark" size={64} color="#FFFFFF" />
+      <Animated.View style={[styles.badge, { left: cx - 60, top: cy - 60 }, badge]}>
+        <ShovarMark size={120} />
       </Animated.View>
     </Animated.View>
   );
@@ -187,6 +186,6 @@ export function ConfettiHost() {
 const styles = StyleSheet.create({
   piece: { position: 'absolute' },
   spark: { position: 'absolute', width: 10, height: 10, borderRadius: 5 },
-  ring: { position: 'absolute', width: 110, height: 110, borderRadius: 55, borderWidth: 4 },
-  badge: { position: 'absolute', width: 110, height: 110, borderRadius: 55, alignItems: 'center', justifyContent: 'center' },
+  ring: { position: 'absolute', width: 120, height: 120, borderRadius: 30, borderWidth: 4 },
+  badge: { position: 'absolute', width: 120, height: 120 },
 });

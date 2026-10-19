@@ -5,9 +5,10 @@ import { DarkTheme, DefaultTheme, Stack, ThemeProvider as NavThemeProvider } fro
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { ActivityIndicator, Platform, StyleSheet, View } from 'react-native';
+import { Platform, StyleSheet, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
+import { AnimatedSplash } from '@/components/brand/AnimatedSplash';
 import { DialogHost } from '@/components/DialogHost';
 import { LockGate } from '@/components/LockGate';
 import { Button, ConfettiHost, Text } from '@/components/ui';
@@ -89,27 +90,31 @@ function Navigator() {
 function Boot({ children }: { children: React.ReactNode }) {
   const { colors } = useTheme();
   const [state, setState] = useState<'loading' | 'ready' | Error>('loading');
+  const [splash, setSplash] = useState(true);
+  // The native splash is only a plain background; hand over once the animated one is on screen.
+  const hideNative = useCallback(() => SplashScreen.hideAsync().catch(() => {}), []);
+  const endSplash = useCallback(() => setSplash(false), []);
 
   const boot = useCallback(() => {
     initApp()
       .then(() => setState('ready'))
-      .catch((e: unknown) => setState(e instanceof Error ? e : new Error(String(e))))
-      .finally(() => SplashScreen.hideAsync().catch(() => {}));
-  }, []);
+      .catch((e: unknown) => {
+        setState(e instanceof Error ? e : new Error(String(e)));
+        hideNative();
+      });
+  }, [hideNative]);
 
   useEffect(boot, [boot]);
 
   const retry = () => {
     setState('loading');
+    setSplash(true);
     boot();
   };
 
-  if (state === 'ready') return <>{children}</>;
-  return (
-    <View style={[styles.center, { backgroundColor: colors.background }]}>
-      {state === 'loading' ? (
-        <ActivityIndicator color={colors.primary} />
-      ) : (
+  if (state instanceof Error) {
+    return (
+      <View style={[styles.center, { backgroundColor: colors.background }]}>
         <View style={styles.errorBox}>
           <Text variant="headline" align="center">
             Shovar couldn’t start
@@ -119,7 +124,13 @@ function Boot({ children }: { children: React.ReactNode }) {
           </Text>
           <Button title="Try again" onPress={retry} />
         </View>
-      )}
+      </View>
+    );
+  }
+  return (
+    <View style={styles.flex}>
+      {state === 'ready' ? children : null}
+      {splash ? <AnimatedSplash ready={state === 'ready'} onShown={hideNative} onFinish={endSplash} /> : null}
     </View>
   );
 }
