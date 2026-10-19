@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
-import { AppState, type AppStateStatus, Image, Platform, StyleSheet, View } from 'react-native';
+import { AppState, type AppStateStatus, Image, Modal, Platform, StyleSheet, View } from 'react-native';
 
 import { Button, Text } from '@/components/ui';
 import { useI18n } from '@/i18n';
@@ -60,11 +60,20 @@ export function LockGate({ children }: { children: ReactNode }) {
   const hideForSnapshot = biometricLock && appState !== 'active' && Platform.OS !== 'web';
   const showLock = biometricLock && locked;
 
+  // A Modal, not an overlay View: native modal screens (checkout, edit, sheets) are presented above the
+  // root view, so a plain overlay would leave a code on screen and in the app-switcher snapshot.
   return (
     <View style={styles.flex}>
       {children}
-      {showLock || hideForSnapshot ? (
-        <View style={[StyleSheet.absoluteFill, styles.cover, { backgroundColor: colors.background }]} testID="lock-screen">
+      <Modal
+        visible={showLock || hideForSnapshot}
+        animationType="none"
+        presentationStyle="overFullScreen"
+        transparent
+        statusBarTranslucent
+        onRequestClose={() => {}}
+      >
+        <View style={[styles.flex, styles.cover, { backgroundColor: colors.background }]} testID="lock-screen">
           <Image source={require('@/assets/images/icon.png')} style={styles.icon} />
           {showLock ? (
             <>
@@ -73,13 +82,13 @@ export function LockGate({ children }: { children: ReactNode }) {
             </>
           ) : null}
         </View>
-      ) : null}
+      </Modal>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   flex: { flex: 1 },
-  cover: { alignItems: 'center', justifyContent: 'center', gap: 16, zIndex: 100 },
+  cover: { alignItems: 'center', justifyContent: 'center', gap: 16 },
   icon: { width: 88, height: 88, borderRadius: 20 },
 });

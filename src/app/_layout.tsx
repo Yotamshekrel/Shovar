@@ -80,7 +80,10 @@ function Navigator() {
           <Stack.Screen name="item/[id]/checkout" options={{ presentation: 'fullScreenModal', headerShown: false }} />
           <Stack.Screen name="nearby" options={{ title: t('nearby.title'), ...glass }} />
           <Stack.Screen name="archive" options={{ title: t('archive.title'), ...glass }} />
-          <Stack.Screen name="settings/index" options={{ title: t('settings.title'), headerLargeTitle: true, headerLargeTitleShadowVisible: false, ...glass }} />
+          <Stack.Screen
+            name="settings/index"
+            options={{ title: t('settings.title'), headerLargeTitle: true, headerLargeTitleShadowVisible: false, ...glass }}
+          />
           <Stack.Screen name="settings/general" options={{ title: t('settings.general'), ...glass }} />
           <Stack.Screen name="settings/reminders" options={{ title: t('settings.reminders'), ...glass }} />
           <Stack.Screen name="settings/security" options={{ title: t('settings.securityAdvanced'), ...glass }} />
@@ -96,6 +99,7 @@ function Navigator() {
 
 function Boot({ children }: { children: React.ReactNode }) {
   const { colors } = useTheme();
+  const { t } = useI18n();
   const [state, setState] = useState<'loading' | 'ready' | Error>('loading');
   const [splash, setSplash] = useState(true);
   // The native splash is only a plain background; hand over once the animated one is on screen.
@@ -124,12 +128,12 @@ function Boot({ children }: { children: React.ReactNode }) {
       <View style={[styles.center, { backgroundColor: colors.background }]}>
         <View style={styles.errorBox}>
           <Text variant="headline" align="center">
-            Shovar couldn’t start
+            {t('boot.failed')}
           </Text>
           <Text tone="secondary" align="center">
             {state.message}
           </Text>
-          <Button title="Try again" onPress={retry} />
+          <Button title={t('common.retry')} onPress={retry} />
         </View>
       </View>
     );

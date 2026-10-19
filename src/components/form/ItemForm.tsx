@@ -88,8 +88,15 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
   // Multi-store cards (BuyMe, Max, …) come in several kinds with different store lists.
   const cardTypes = useMemo(() => networksForPlatform(findBrand(values.storeName)?.id), [values.storeName]);
 
+  // A different store has different card types, so a type picked for the previous store must not stick.
+  const setStore = (name: string) => {
+    setValues((v) => ({ ...v, storeName: name, network: findBrand(v.storeName)?.id === findBrand(name)?.id ? v.network : null }));
+    setTouched((s) => (s.has('storeName') ? s : new Set(s).add('storeName')));
+    if (errors.storeName) setErrors((e) => ({ ...e, storeName: undefined }));
+  };
+
   const chooseBrand = (name: string, category: string) => {
-    set('storeName', name);
+    setStore(name);
     if (!values.storeCategory) set('storeCategory', category);
     storeRef.current?.blur();
   };
@@ -109,7 +116,7 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
     }
     // Auto-fill category from known brands when the user didn't choose one.
     if (!draft.storeCategory) draft.storeCategory = findBrand(draft.storeName)?.category ?? null;
-    if (cardTypes.length === 0) draft.network = null;
+    if (!cardTypes.some((n) => n.id === draft.network)) draft.network = null;
     setSaving(true);
     setSubmitError(null);
     try {
@@ -187,7 +194,7 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
             label={t('form.store')}
             placeholder={t('form.storePlaceholder')}
             value={values.storeName}
-            onChangeText={(v) => set('storeName', v)}
+            onChangeText={setStore}
             onFocus={() => setStoreFocused(true)}
             onBlur={() => setTimeout(() => setStoreFocused(false), 150)}
             error={errorText('storeName')}

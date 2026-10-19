@@ -11,7 +11,7 @@ import { SecretRow } from '@/components/item/SecretRow';
 import { AcceptedStores } from '@/components/item/AcceptedStores';
 import { StoreAvatar } from '@/components/item/StoreAvatar';
 import { Button, Divider, EmptyState, IconButton, ListRow, Section, Text } from '@/components/ui';
-import { formatDate } from '@/domain/dates';
+import { formatDate, isPastExpiry } from '@/domain/dates';
 import { formatMoney } from '@/domain/money';
 import { effectiveStatus } from '@/domain/status';
 import type { Attachment, BalanceEvent } from '@/domain/types';
@@ -24,7 +24,7 @@ import { useCelebrate } from '@/state/celebrate';
 import { useItem, useItemsStore } from '@/state/items';
 import { readableOn, shade, storeColor } from '@/theme/color';
 import { useTheme } from '@/theme/ThemeProvider';
-import { confirm } from '@/utils/dialogs';
+import { confirm, notify } from '@/utils/dialogs';
 
 export default function ItemDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -99,12 +99,35 @@ export default function ItemDetailScreen() {
     setTimeout(() => useCelebrate.getState().celebrate('used'), 350);
   };
 
+  const onReactivate = async () => {
+    // An expired card would be expired again on the next refresh: it needs a new date first.
+    if (isPastExpiry(item.expiryDate)) {
+      const ok = await confirm({
+        title: t('detail.reactivateExpiredTitle'),
+        message: t('detail.reactivateExpiredBody'),
+        confirmText: t('detail.reactivateExpiredAction'),
+        cancelText: t('common.cancel'),
+        icon: 'calendar-outline',
+      });
+      if (ok) router.push(`/item/${item.id}/edit`);
+      return;
+    }
+    await store.reactivate(item.id);
+  };
+
+  const openLink = (url: string) => Linking.openURL(url).catch(() => notify(t('detail.linkFailed')));
+
   const onAddAttachment = async () => {
-    const res = await pickDocument('receipt');
-    if (res.status !== 'picked') return;
-    const saved = await persistAttachment(res.attachment);
-    await store.addAttachment(item.id, saved);
-    reload();
+    try {
+      const res = await pickDocument('receipt');
+      if (res.status !== 'picked') return;
+      const saved = await persistAttachment(res.attachment);
+      await store.addAttachment(item.id, saved);
+      reload();
+    } catch (e) {
+      console.warn('[detail] add attachment failed', e);
+      notify(t('detail.attachmentFailed'));
+    }
   };
 
   const onRemoveAttachment = async (a: Attachment) => {
@@ -195,7 +218,7 @@ export default function ItemDetailScreen() {
               title={t('detail.openLink')}
               icon="open-outline"
               variant={!archived && canCheckout && secrets.code ? 'secondary' : 'primary'}
-              onPress={() => Linking.openURL(item.linkUrl!)}
+              onPress={() => openLink(item.linkUrl!)}
               fullWidth
               testID="detail-open-link"
             />
@@ -205,7 +228,7 @@ export default function ItemDetailScreen() {
               title={t('detail.reactivate')}
               icon="refresh"
               variant="secondary"
-              onPress={() => store.reactivate(item.id)}
+              onPress={onReactivate}
               fullWidth
               testID="detail-reactivate"
             />
@@ -215,7 +238,7 @@ export default function ItemDetailScreen() {
                 <Button
                   title={t('detail.updateBalance')}
                   icon="remove-circle-outline"
-                  variant="secondary"
+                  variant="primary"
                   size="md"
                   onPress={() => router.push(`/item/${item.id}/balance`)}
                   style={styles.flex}
@@ -225,7 +248,7 @@ export default function ItemDetailScreen() {
               <Button
                 title={t('detail.markUsed')}
                 icon="checkmark-done"
-                variant="secondary"
+                variant="primary"
                 size="md"
                 onPress={onMarkUsed}
                 style={styles.flex}
@@ -264,7 +287,7 @@ export default function ItemDetailScreen() {
                 icon="link-outline"
                 title={t('detail.link')}
                 value={item.linkUrl.replace(/^https?:\/\//, '')}
-                onPress={() => Linking.openURL(item.linkUrl!)}
+                onPress={() => openLink(item.linkUrl!)}
               />
             </>
           ) : null}

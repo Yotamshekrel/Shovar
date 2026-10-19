@@ -1,5 +1,5 @@
 import { reloadAppAsync } from 'expo';
-import { I18nManager, Platform } from 'react-native';
+import { AppState, I18nManager, Platform } from 'react-native';
 
 import { isRtlLanguage, resolveLanguage } from '@/i18n';
 import { startGeofenceSync } from '@/location/geofenceSync';
@@ -21,13 +21,26 @@ export async function loadSettings(): Promise<AppSettings> {
 
   persistUnsub?.();
   let timer: ReturnType<typeof setTimeout> | null = null;
-  persistUnsub = useSettingsStore.subscribe((state, prev) => {
+  const write = () => {
+    timer = null;
+    kv.set(SETTINGS_KEY, useSettingsStore.getState().settings).catch((e) => console.warn('[settings] persist failed', e));
+  };
+  const unsubStore = useSettingsStore.subscribe((state, prev) => {
     if (state.settings === prev.settings) return;
     if (timer) clearTimeout(timer);
-    timer = setTimeout(() => {
-      kv.set(SETTINGS_KEY, state.settings).catch((e) => console.warn('[settings] persist failed', e));
-    }, 150);
+    timer = setTimeout(write, 150);
   });
+  // A change made right before the app is swiped away must not be lost: flush when leaving the foreground.
+  const appStateSub = AppState.addEventListener('change', (next) => {
+    if (next !== 'active' && timer) {
+      clearTimeout(timer);
+      write();
+    }
+  });
+  persistUnsub = () => {
+    unsubStore();
+    appStateSub.remove();
+  };
   return settings;
 }
 

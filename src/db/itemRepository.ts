@@ -493,7 +493,10 @@ export class ItemRepository {
 
   async deleteAll(): Promise<void> {
     await this.db.transaction(async (tx) => {
-      await tx.exec('DELETE FROM attachments; DELETE FROM balance_events; DELETE FROM items; DELETE FROM location_alerts;');
+      // The places cache is keyed by map cells the user scanned from, so it goes too (it reveals where they have been).
+      await tx.exec(
+        'DELETE FROM attachments; DELETE FROM balance_events; DELETE FROM items; DELETE FROM location_alerts; DELETE FROM store_places; DELETE FROM store_place_queries;',
+      );
     });
   }
 }
