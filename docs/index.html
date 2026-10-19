@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=DM+Sans:opsz,wght@9..40,400..800&family=Instrument+Serif:ital@1&family=Rubik:wght@400..800&display=swap">
-<link rel="stylesheet" href="landing.css?v=10">
+<link rel="stylesheet" href="landing.css?v=14">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Shovar","alternateName":"שובר","operatingSystem":"Android","applicationCategory":"FinanceApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"ILS"},"description":"A private wallet for store credits and gift cards, with expiry and nearby reminders."}</script>
 </head>
 <body>
@@ -91,14 +91,16 @@
         <div class="phone hero-phone">
           <div class="phone-screen"><div class="ui ui-home">
             <div class="ui-status"><span>9:41</span><i class="ui-island"></i><span class="ui-sig"><i></i><i></i><i></i></span></div>
-            <div class="ui-head"><b data-i18n="ui.appName">Shovar</b><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 13.5a7.6 7.6 0 0 0 0-3l2-1.6-2-3.4-2.4.9a7.6 7.6 0 0 0-2.6-1.5L14 2.4h-4l-.4 2.5A7.6 7.6 0 0 0 7 6.4l-2.4-.9-2 3.4 2 1.6a7.6 7.6 0 0 0 0 3l-2 1.6 2 3.4 2.4-.9a7.6 7.6 0 0 0 2.6 1.5l.4 2.5h4l.4-2.5a7.6 7.6 0 0 0 2.6-1.5l2.4.9 2-3.4z"/></svg></div>
+            <div class="ui-head"><span class="ui-brand"><svg class="ui-mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#shovar-mark"/></svg><svg class="wordmark wm-en" viewBox="0 0 913 157.2" aria-hidden="true"><use href="#wm-en"/></svg><svg class="wordmark wm-he" viewBox="0 0 417.2 115.8" aria-hidden="true"><use href="#wm-he"/></svg></span><span class="ui-icons"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 13.5a7.6 7.6 0 0 0 0-3l2-1.6-2-3.4-2.4.9a7.6 7.6 0 0 0-2.6-1.5L14 2.4h-4l-.4 2.5A7.6 7.6 0 0 0 7 6.4l-2.4-.9-2 3.4 2 1.6a7.6 7.6 0 0 0 0 3l-2 1.6 2 3.4 2.4-.9a7.6 7.6 0 0 0 2.6 1.5l.4 2.5h4l.4-2.5a7.6 7.6 0 0 0 2.6-1.5l2.4.9 2-3.4z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4" width="17" height="4.5" rx="1.2"/><path d="M5 8.5V19a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8.5M12 11v5m-2.3-2.3L12 16l2.3-2.3"/></svg></span></div>
             <div class="ui-total">
-              <small data-i18n="ui.total">Total available</small>
+              <div class="ui-total-top"><i class="ui-wallet"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8.5A2.5 2.5 0 0 1 6.5 6H18a2 2 0 0 1 2 2v1.5H15a2.5 2.5 0 0 0 0 5h5V17a2 2 0 0 1-2 2H6.5A2.5 2.5 0 0 1 4 16.5z"/></svg></i><small data-i18n="ui.total">Total available</small></div>
               <strong><span class="cur">₪</span><span id="heroTotal">1,585</span></strong>
-              <div class="ui-total-row"><span id="heroActive">7 active</span><span class="pill pill-sun"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><span data-i18n="ui.expiring">1 expiring soon</span></span></div>
+              <div class="ui-total-row"><span id="heroActive">7 active</span></div>
             </div>
-            <div class="ui-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span data-i18n="ui.searchPh">Do I have credit at…</span></div>
-            <div class="ui-near"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg><span data-i18n="ui.near">What’s around me?</span><svg class="flip chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></div>
+            <div class="ui-searchrow">
+              <div class="ui-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span data-i18n="ui.searchPh">Do I have credit at…</span></div>
+              <span class="ui-loc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg></span>
+            </div>
             <div class="ui-chips"><span class="on" data-i18n="ui.all">All</span><span data-i18n="ui.gift">Gift cards</span><span data-i18n="ui.credits">Credits</span><span data-i18n="ui.soon">Expiring soon</span></div>
             <div class="ui-cards" id="heroCards">
               <div class="wcard wc-new" id="heroNew" style="--a:#3A2F86;--b:#211A57">
@@ -202,13 +204,18 @@
           <!-- 2 · review -->
           <div class="ui scr scr-review" data-screen="1">
             <div class="ui-status"><span>9:41</span><i class="ui-island"></i><span class="ui-sig"><i></i><i></i><i></i></span></div>
-            <div class="rv-head"><svg class="flip" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H5m6-6-6 6 6 6"/></svg><b data-i18n="rv.title">Review details</b></div>
-            <div class="seg"><span data-i18n="ui.credit">Store credit</span><span class="on" data-i18n="ui.giftcard">Gift card</span></div>
-            <label class="fld"><small data-i18n="rv.store">Store</small><span data-i18n="s.castro">Castro</span></label>
-            <label class="fld"><small data-i18n="rv.amount">Amount</small><span>₪ 200</span></label>
-            <label class="fld fld-warn"><small data-i18n="rv.expiry">Expiry date</small><span>2027-03-12</span><em data-i18n="rv.check">Check this</em></label>
-            <label class="fld"><small data-i18n="rv.code">Code / card number</small><span class="mono">7731 0042 19</span><i class="lock-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></svg></i></label>
-            <div class="rv-save"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10.5 3 3 7-7.5"/></svg><span data-i18n="rv.save">Save</span></div>
+            <div class="wz-top"><i class="wz-x">✕</i><b data-i18n="wz.new">New card</b></div>
+            <div class="wz-bar"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="wz-q"><b data-i18n="wz.q">Does this look right?</b><small data-i18n="wz.tap">Tap a line to change it.</small></div>
+            <div class="wz-sum">
+              <div class="wz-sumhead"><i class="wc-logo wz-av">CA</i><div><b data-i18n="s.castro">Castro</b><small data-i18n="ui.giftcard">Gift card</small></div><strong>₪200</strong></div>
+              <div class="wz-row"><span data-i18n="rv.type">Type</span><b data-i18n="ui.giftcard">Gift card</b><svg class="flip chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></div>
+              <div class="wz-row"><span data-i18n="rv.store">Store</span><b data-i18n="s.castro">Castro</b><svg class="flip chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></div>
+              <div class="wz-row"><span data-i18n="rv.amount">Amount</span><b>₪200</b><svg class="flip chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></div>
+              <div class="wz-row fld-warn"><span data-i18n="rv.expiry">Expiry date</span><b>12.3.2027</b><em data-i18n="rv.check">Check this</em><svg class="flip chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></div>
+              <div class="wz-row"><span data-i18n="rv.code">Code</span><b class="mono">7731 0042 19</b><svg class="lk" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></svg><svg class="flip chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></div>
+            </div>
+            <div class="rv-save"><span data-i18n="rv.save">Save card</span></div>
           </div>
           <!-- 3 · reminders (lock screen) -->
           <div class="ui scr scr-lock" data-screen="2">
@@ -273,12 +280,12 @@
       <div class="phone try-phone">
         <div class="phone-screen"><div class="ui ui-find">
           <div class="ui-status"><span>9:41</span><i class="ui-island"></i><span class="ui-sig"><i></i><i></i><i></i></span></div>
-          <div class="fd-head"><svg class="flip" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H5m6-6-6 6 6 6"/></svg><b data-i18n="fd.title">Search</b></div>
+          <div class="fd-bar"><svg class="flip fd-back" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H5m6-6-6 6 6 6"/></svg>
           <label class="fd-input">
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
             <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Do I have credit at…" data-i18n-ph="ui.searchPh" aria-label="Search the demo wallet">
             <button type="button" class="fd-clear" id="qClear" aria-label="Clear search" hidden>✕</button>
-          </label>
+          </label></div>
           <div class="fd-results" id="results" aria-live="polite"></div>
         </div></div>
       </div>
@@ -538,6 +545,6 @@
   <div class="watermark" aria-hidden="true" data-i18n="foot.mark">shovar</div>
 </footer>
 
-<script src="landing.js?v=7" defer></script>
+<script src="landing.js?v=8" defer></script>
 </body>
 </html>
