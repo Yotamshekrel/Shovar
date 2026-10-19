@@ -19,10 +19,16 @@ export interface ItemCardProps {
   onPress: (item: Item) => void;
   hasAttachment?: boolean;
   compact?: boolean;
+  /** One slim row (search results): logo, name, balance — about a third of the full card's height. */
+  thin?: boolean;
+  /** Replaces the "type · expiry" line of the thin card (e.g. "via BuyMe"). */
+  subtitle?: string | null;
+  /** Thin card only: shows a round "use now" button that jumps straight to checkout. */
+  onUse?: (item: Item) => void;
 }
 
 /** Wallet-style tile: brand-colored card with store, balance and expiry at a glance. */
-export const ItemCard = memo(function ItemCard({ item, onPress, hasAttachment, compact }: ItemCardProps) {
+export const ItemCard = memo(function ItemCard({ item, onPress, hasAttachment, compact, thin, subtitle, onUse }: ItemCardProps) {
   const { t, locale } = useI18n();
   const { radii } = useTheme();
   const status = effectiveStatus(item);
@@ -35,6 +41,63 @@ export const ItemCard = memo(function ItemCard({ item, onPress, hasAttachment, c
   const urgent = !archived && (tone === 'urgent' || tone === 'soon');
 
   const showOpenLink = !archived && !!item.linkUrl;
+
+  if (thin) {
+    const canUse = !archived && !!onUse;
+    return (
+      <View>
+        <PressableScale
+          pressedScale={0.985}
+          testID={`item-card-${item.id}`}
+          accessibilityRole="button"
+          accessibilityLabel={`${item.storeName}, ${t(`type.${item.type}`)}, ${balance}, ${expiry}`}
+          onPress={() => {
+            tapFeedback();
+            onPress(item);
+          }}
+          style={styles.pressable}
+        >
+          <LinearGradient
+            colors={[shade(base, 0.12), shade(base, -0.18)]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={[styles.thin, elevation.card, { borderRadius: radii.lg, shadowColor: base }, canUse ? styles.thinWithUse : null]}
+          >
+            <StoreAvatar name={item.storeName} logoUri={item.storeLogoUri} size={36} inverted />
+            <View style={styles.titleCol}>
+              <Text variant="bodyStrong" color={fg} numberOfLines={1}>
+                {item.storeName}
+              </Text>
+              <Text variant="footnote" color={urgent ? '#FFE3A3' : fg} style={urgent ? undefined : styles.muted} numberOfLines={1}>
+                {subtitle ?? `${t(`type.${item.type}`)} · ${expiry}`}
+              </Text>
+            </View>
+            <Text variant="headline" numeric color={fg} numberOfLines={1} adjustsFontSizeToFit style={styles.thinBalance}>
+              {balance}
+            </Text>
+            <View pointerEvents="none" style={[styles.edge, { borderRadius: radii.lg }]} />
+          </LinearGradient>
+        </PressableScale>
+        {canUse ? (
+          <Pressable
+            testID={`search-use-${item.id}`}
+            accessibilityRole="button"
+            accessibilityLabel={`${t('detail.useNow')} — ${item.storeName}`}
+            hitSlop={6}
+            onPress={() => {
+              tapFeedback();
+              onUse(item);
+            }}
+            style={({ pressed }) => [styles.useBtn, { opacity: pressed ? 0.7 : 1 }]}
+          >
+            <View style={styles.useCircle}>
+              <Icon name="barcode-outline" size={20} color={fg} />
+            </View>
+          </Pressable>
+        ) : null}
+      </View>
+    );
+  }
 
   return (
     <View>
@@ -110,6 +173,19 @@ export const ItemCard = memo(function ItemCard({ item, onPress, hasAttachment, c
 
 const styles = StyleSheet.create({
   pressable: { borderRadius: 20 },
+  thin: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 14, paddingVertical: 12, minHeight: 64 },
+  thinWithUse: { paddingEnd: 62 },
+  thinBalance: { flexShrink: 0, maxWidth: '38%' },
+  useBtn: { position: 'absolute', end: 10, top: 0, bottom: 0, width: 38, alignItems: 'center', justifyContent: 'center' },
+  useCircle: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(255,255,255,0.22)',
+  },
+
   card: {
     padding: 16,
     justifyContent: 'space-between',

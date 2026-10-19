@@ -10,11 +10,14 @@ export function Segmented<T extends string>({
   value,
   onChange,
   highlighted,
+  accent,
 }: {
   options: { value: T; label: string }[];
   value: T;
   onChange: (v: T) => void;
   highlighted?: boolean;
+  /** Selected option in the brand green (settings). */
+  accent?: boolean;
 }) {
   const { colors, radii } = useTheme();
   return (
@@ -43,11 +46,17 @@ export function Segmented<T extends string>({
             }}
             style={[
               styles.option,
-              { borderRadius: radii.sm + 2, backgroundColor: selected ? colors.surface : 'transparent' },
+              { borderRadius: radii.sm + 2, backgroundColor: selected ? (accent ? colors.primary : colors.surface) : 'transparent' },
               selected ? styles.shadow : null,
             ]}
           >
-            <Text variant="caption" tone={selected ? 'default' : 'secondary'} weight={selected ? '600' : '500'} numberOfLines={1}>
+            <Text
+              variant="caption"
+              tone={selected ? 'default' : 'secondary'}
+              color={selected && accent ? colors.textOnPrimary : undefined}
+              weight={selected ? '600' : '500'}
+              numberOfLines={1}
+            >
               {o.label}
             </Text>
           </Pressable>

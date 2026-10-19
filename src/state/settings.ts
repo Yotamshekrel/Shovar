@@ -14,7 +14,6 @@ export interface AppSettings {
   // Expiry reminders
   expiryRemindersEnabled: boolean;
   expiryReminderDays: number[];
-  reminderHour: number;
   // Location reminders
   locationEnabled: boolean;
   locationRadiusM: number;
@@ -25,6 +24,8 @@ export interface AppSettings {
   // AI extraction
   aiExtractionEnabled: boolean;
   aiConsentGiven: boolean;
+  // Store lists
+  catalogUpdatesEnabled: boolean;
 }
 
 export const DEFAULT_SETTINGS: AppSettings = {
@@ -35,7 +36,6 @@ export const DEFAULT_SETTINGS: AppSettings = {
   onboardingDone: false,
   expiryRemindersEnabled: true,
   expiryReminderDays: [14, 3],
-  reminderHour: 10,
   locationEnabled: false,
   locationRadiusM: 150,
   locationCooldownHours: 12,
@@ -43,7 +43,11 @@ export const DEFAULT_SETTINGS: AppSettings = {
   lockAfterSeconds: 60,
   aiExtractionEnabled: true,
   aiConsentGiven: false,
+  catalogUpdatesEnabled: true,
 };
+
+/** Expiry reminders are always delivered at 10:00 local time. */
+export const EXPIRY_REMINDER_HOUR = 10;
 
 export const SETTINGS_KEY = 'settings.v1';
 
@@ -56,7 +60,6 @@ export function sanitizeSettings(stored: Partial<AppSettings> | null | undefined
   return {
     ...s,
     expiryReminderDays: days,
-    reminderHour: Number.isInteger(s.reminderHour) && s.reminderHour >= 0 && s.reminderHour <= 23 ? s.reminderHour : 10,
     locationRadiusM: Math.min(500, Math.max(100, Number(s.locationRadiusM) || 150)),
     locationCooldownHours: Math.min(168, Math.max(1, Number(s.locationCooldownHours) || 12)),
   };

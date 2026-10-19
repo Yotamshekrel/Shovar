@@ -2,15 +2,16 @@ import { useEffect, useState } from 'react';
 import { Linking, StyleSheet, View } from 'react-native';
 
 import { Button, Chip, Divider, ListRow, Section, Text } from '@/components/ui';
+
+import { FieldBlock } from './FieldBlock';
 import { useI18n } from '@/i18n';
 import { notificationPermission, requestNotificationPermission, scheduleExpirySync } from '@/notifications/notifications';
 import { useSettings, useSettingsStore } from '@/state/settings';
 
 const DAY_OPTIONS = [30, 14, 7, 3, 1, 0];
-const HOUR_OPTIONS = [9, 10, 12, 17, 20];
 
 export function ExpiryReminderSection() {
-  const { t, locale } = useI18n();
+  const { t } = useI18n();
   const settings = useSettings();
   const patch = useSettingsStore((s) => s.patch);
   const [permission, setPermission] = useState<'granted' | 'denied' | 'undetermined'>('granted');
@@ -38,9 +39,6 @@ export function ExpiryReminderSection() {
     patch({ expiryReminderDays: [...set] });
   };
 
-  const hourLabel = (h: number) =>
-    new Intl.DateTimeFormat(locale, { hour: 'numeric', minute: '2-digit' }).format(new Date(2026, 0, 1, h, 0));
-
   return (
     <Section title={t('settings.notifications')}>
       <ListRow
@@ -52,14 +50,12 @@ export function ExpiryReminderSection() {
       {settings.expiryRemindersEnabled ? (
         <>
           <Divider inset={60} />
-          <View style={styles.block}>
-            <Text variant="caption" tone="secondary">
-              {t('settings.expiryDays')}
-            </Text>
+          <FieldBlock icon="calendar-outline" label={t('settings.expiryDays')}>
             <View style={styles.chips}>
               {DAY_OPTIONS.map((d) => (
                 <Chip
                   key={d}
+                  accent
                   label={
                     d === 0 ? t('settings.expiryDayOf') : d === 1 ? t('settings.expiryOneDay') : t('settings.expiryDaysValue', { days: d })
                   }
@@ -68,18 +64,7 @@ export function ExpiryReminderSection() {
                 />
               ))}
             </View>
-          </View>
-          <Divider inset={16} />
-          <View style={styles.block}>
-            <Text variant="caption" tone="secondary">
-              {t('settings.reminderTime')}
-            </Text>
-            <View style={styles.chips}>
-              {HOUR_OPTIONS.map((h) => (
-                <Chip key={h} label={hourLabel(h)} selected={settings.reminderHour === h} onPress={() => patch({ reminderHour: h })} />
-              ))}
-            </View>
-          </View>
+          </FieldBlock>
           {permission === 'denied' ? (
             <View style={styles.block}>
               <Text variant="footnote" tone="warning">

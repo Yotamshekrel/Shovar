@@ -1,545 +1,769 @@
 {
  "platform": "max",
  "variant": "executive",
- "updated": "2026-09-29",
- "source": "https://www.max.co.il/gift-card-network/executive",
- "notes": "Card name on site: \"כרטיס הטבות executive\".",
+ "source": "https://www.max.co.il/gift-card-network",
+ "notes": "כרטיס הטבות executive. onlineRedeem = listed only under the online / delivery categories.",
+ "updated": "2026-10-18",
  "count": 107,
  "stores": [
   {
    "brand": null,
    "name": "טרמינל איקס",
-   "nameEn": null
+   "nameEn": "Terminal X",
+   "category": "מימוש באונליין",
+   "onlineRedeem": true,
+   "logo": "https://www.max.co.il/SharedMedia/13461/terminal-x.png"
   },
   {
    "brand": null,
    "name": "מגה ספורט",
-   "nameEn": null
+   "nameEn": "Mega Sport",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/15043/לוגו-מגה-ספורט.png"
   },
   {
    "brand": null,
    "name": "רייבן ספורט",
-   "nameEn": null
+   "nameEn": "raven Sport",
+   "category": "מימוש באונליין",
+   "onlineRedeem": true,
+   "logo": "https://www.max.co.il/SharedMedia/15890/רייבן-ספורט-לוגו-קטן.png"
   },
   {
    "brand": null,
    "name": "דארלן",
-   "nameEn": null
+   "nameEn": "Darlain",
+   "category": "מימוש באונליין",
+   "onlineRedeem": true,
+   "logo": "https://www.max.co.il/SharedMedia/2706/darlainlogolow.jpg"
   },
   {
    "brand": null,
    "name": "פוקס הום",
-   "nameEn": null
+   "nameEn": "Fox Home",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/15352/פוקס-הום.png"
   },
   {
    "brand": null,
    "name": "פוט לוקר",
-   "nameEn": null
+   "nameEn": "Foot Locker",
+   "category": "מימוש באונליין",
+   "onlineRedeem": true,
+   "logo": "https://www.max.co.il/SharedMedia/15351/פוט-לוקר-1.png"
   },
   {
    "brand": null,
    "name": "ללין",
-   "nameEn": null
+   "nameEn": "Laline",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/13454/laline.png"
   },
   {
    "brand": null,
    "name": "שילב",
-   "nameEn": null
+   "nameEn": "Shilav",
+   "category": "מימוש באונליין",
+   "onlineRedeem": true,
+   "logo": "https://www.max.co.il/SharedMedia/15676/שילב.jpg"
   },
   {
    "brand": null,
    "name": "ג'לי",
-   "nameEn": null
+   "nameEn": "JLY",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/24005/img-20260604-wa0012.jpg"
   },
   {
    "brand": null,
    "name": "ארטיקים טי אל וי",
-   "nameEn": null
+   "nameEn": "ARTIKIM TLV",
+   "category": "מימוש באונליין",
+   "onlineRedeem": true,
+   "logo": "https://www.max.co.il/SharedMedia/15587/ארטיקים.png"
   },
   {
    "brand": null,
    "name": "טימברלנד",
-   "nameEn": null
+   "nameEn": "Timberland",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/14716/logo_160_more.jpg"
   },
   {
    "brand": null,
    "name": "אימפוריום",
-   "nameEn": null
+   "nameEn": "emporium",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/14721/אמפוריום.jpg"
   },
   {
    "brand": null,
    "name": "דיל תאורה",
-   "nameEn": null
+   "nameEn": "Deal Lighting",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/15337/לוגו-דיל-תאורה.png"
   },
   {
    "brand": null,
    "name": "ווטרלנד",
-   "nameEn": null
+   "nameEn": "WaterLand",
+   "category": "מימוש באונליין",
+   "onlineRedeem": true,
+   "logo": "https://www.max.co.il/SharedMedia/15677/לוגו-ווטרלנד.png"
   },
   {
    "brand": null,
    "name": "עגליס",
-   "nameEn": null
+   "nameEn": "agalis",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/15231/עגליס.png"
   },
   {
    "brand": null,
    "name": "יוז",
-   "nameEn": null
+   "nameEn": "YOOZ",
+   "category": "מימוש באונליין",
+   "onlineRedeem": true,
+   "logo": "https://www.max.co.il/SharedMedia/19418/yooz.png"
   },
   {
    "brand": null,
    "name": "במפרס",
-   "nameEn": null
+   "nameEn": "Bumpers",
+   "category": "מימוש באונליין",
+   "onlineRedeem": true,
+   "logo": "https://www.max.co.il/SharedMedia/20868/bumpers.png"
   },
   {
    "brand": null,
    "name": "איי קלאב מבית מועדון היין",
-   "nameEn": null
+   "nameEn": "A Club",
+   "category": "מימוש באונליין",
+   "onlineRedeem": true,
+   "logo": "https://www.max.co.il/SharedMedia/20867/לוגו-מועדון-היין.jpg"
   },
   {
    "brand": null,
    "name": "פולאיז",
-   "nameEn": null
+   "nameEn": "pulliez",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/20913/19-06-2025-15-45-18.png"
   },
   {
    "brand": null,
    "name": "מוצצים",
-   "nameEn": null
+   "nameEn": "Motzezim",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/17427/לוגו-מוצצים.png"
   },
   {
    "brand": null,
    "name": "הוויאנס",
-   "nameEn": null
+   "nameEn": "havaianas",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/22845/האווינס.png"
   },
   {
    "brand": null,
    "name": "מוזה קוקטיילים",
-   "nameEn": null
+   "nameEn": "MUZA cocktails",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/23424/מוזה.png"
   },
   {
    "brand": null,
    "name": "טיפטופי",
-   "nameEn": null
+   "nameEn": "Tiptopi",
+   "category": "מימוש באונליין",
+   "logo": "https://www.max.co.il/SharedMedia/23381/logo-full-dark-2.png"
   },
   {
-   "brand": "fox",
+   "brand": null,
    "name": "פוקס",
-   "nameEn": null
+   "nameEn": "Fox",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/13471/fox.png"
   },
   {
    "brand": null,
    "name": "מנגו",
-   "nameEn": null
+   "nameEn": "MANGO",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/13456/mango.png"
   },
   {
    "brand": null,
    "name": "אמריקן איגל",
-   "nameEn": null
+   "nameEn": "American Eagle",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/13464/american-eagle.png"
   },
   {
-   "brand": "golf",
+   "brand": null,
    "name": "גולף",
-   "nameEn": null
+   "nameEn": "Golf",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/2693/golfnewlow.jpg"
   },
   {
    "brand": null,
    "name": "ליוויס",
-   "nameEn": null
+   "nameEn": "Levi's",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1962/levis_logolow.jpg"
   },
   {
    "brand": null,
    "name": "אייץ' אנד או",
-   "nameEn": null
+   "nameEn": "H&O",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/14905/ho.png"
   },
   {
    "brand": null,
    "name": "לי קופר",
-   "nameEn": null
+   "nameEn": "Lee Cooper",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/17231/לי-קופר.png"
   },
   {
    "brand": null,
    "name": "טומי הילפיגר",
-   "nameEn": null
+   "nameEn": "Tommy Hilfiger",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1964/tommyhilfiger_logolow.jpg"
   },
   {
    "brand": null,
    "name": "דפנה לוינסון",
-   "nameEn": null
+   "nameEn": "Daphna Levinson",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1329/dl_min.png"
   },
   {
    "brand": null,
    "name": "ג'וסי קוטור",
-   "nameEn": null
+   "nameEn": "Juicy Couture",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1967/juicycouture_logolow.jpg"
   },
   {
    "brand": null,
    "name": "נאוטיקה",
-   "nameEn": null
+   "nameEn": "NAUTICA",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1342/nautica_min.png"
   },
   {
    "brand": null,
    "name": "ארי",
-   "nameEn": null
+   "nameEn": "aerie",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/15322/אריא.png"
   },
   {
    "brand": null,
    "name": "פול אנד שארק",
-   "nameEn": null
+   "nameEn": "Paul & Shark",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1966/paulshark_logolow.jpg"
   },
   {
    "brand": null,
    "name": "ארמני",
-   "nameEn": null
+   "nameEn": "Armani",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1969/armaniexchange_logolow.jpg"
   },
   {
    "brand": null,
    "name": "אינטימה",
-   "nameEn": null
+   "nameEn": "Intima",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1337/intima_min.png"
   },
   {
    "brand": null,
    "name": "פולגת",
-   "nameEn": null
+   "nameEn": "POLGAT",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/2695/polgatnewlow.jpg"
   },
   {
    "brand": null,
    "name": "בוס",
-   "nameEn": null
+   "nameEn": "Boss",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1963/hugoboss_logolow.jpg"
   },
   {
    "brand": null,
    "name": "פרד פרי",
-   "nameEn": null
+   "nameEn": "Fred Perry",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1965/fredperry_logolow.jpg"
   },
   {
    "brand": null,
    "name": "קלווין קליין",
-   "nameEn": null
+   "nameEn": "Calvin Klein Jeans",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1968/calvinkleinjeans_logolow.jpg"
   },
   {
    "brand": null,
    "name": "פקטורי 54",
-   "nameEn": null
+   "nameEn": "Factory 54",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1961/factory54_logolow.jpg"
   },
   {
    "brand": null,
    "name": "לסטר",
-   "nameEn": null
+   "nameEn": "Laster",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/12556/לוגו-לסטר-שקוף.png"
   },
   {
    "brand": null,
    "name": "סאן גלאס",
-   "nameEn": null
+   "nameEn": "Sunglass Hut",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/13418/sunglasshut-logo-100x100-black.png"
   },
   {
    "brand": null,
    "name": "ריפליי",
-   "nameEn": null
+   "nameEn": "REPLAY",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1386/replay_min.png"
   },
   {
    "brand": null,
    "name": "ספידו",
-   "nameEn": null
+   "nameEn": "speedo",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/15333/לוגו-speedo.png"
   },
   {
    "brand": null,
    "name": "אליאס",
-   "nameEn": null
+   "nameEn": "ellesse",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/15361/ellesse-לוגו.png"
   },
   {
    "brand": null,
    "name": "vilbrequin",
-   "nameEn": "vilbrequin"
+   "nameEn": "vilbrequin",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/15221/vilebrequin.png"
   },
   {
    "brand": null,
    "name": "בוגארט",
-   "nameEn": null
+   "nameEn": "BOGART",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/18452/bogart-logo-b.png"
   },
   {
    "brand": null,
    "name": "מרכז הלבשה",
-   "nameEn": null
+   "nameEn": "Merkaz Halbasha",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/19420/mercaz.png"
   },
   {
    "brand": null,
    "name": "רובי ביי",
-   "nameEn": null
+   "nameEn": "RUBY BAY",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/14722/רוביביי.jpg"
   },
   {
    "brand": null,
    "name": "אייס קיוב",
-   "nameEn": null
+   "nameEn": "Ice Cube",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/1336/icecube_min.png"
   },
   {
    "brand": null,
    "name": "אינטר ג'ינס ניו",
-   "nameEn": null
+   "nameEn": "NYOU INTER JEANS",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/14720/אינטר-גינס.jpg"
   },
   {
    "brand": null,
    "name": "איל מקיאג'",
-   "nameEn": null
+   "nameEn": "IL MAKIAGE",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/13002/il-makiage-new-logo_white.png"
   },
   {
    "brand": null,
    "name": "וילבריקווין",
-   "nameEn": null
+   "nameEn": "VILEBREQUIN",
+   "category": "אופנה",
+   "logo": "https://www.max.co.il/SharedMedia/23288/לוגו-vilebrequin.png"
   },
   {
    "brand": null,
    "name": "סטיב מאדן",
-   "nameEn": null
+   "nameEn": "Steve Madden",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/1389/stevemadden_min.png"
   },
   {
    "brand": null,
    "name": "ריבוק",
-   "nameEn": null
+   "nameEn": "Reebok",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/2191/reebok_logo_hlockup_black.png"
   },
   {
    "brand": null,
    "name": "גלי",
-   "nameEn": null
+   "nameEn": "Gali",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/1381/gali_min.png"
   },
   {
    "brand": null,
    "name": "אסיקס",
-   "nameEn": null
+   "nameEn": "Asics",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/1972/brandmark_flat_copy.jpg"
   },
   {
    "brand": null,
    "name": "ניין ווסט",
-   "nameEn": null
+   "nameEn": "NINE WEST",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/1384/ninewest_min.png"
   },
   {
    "brand": null,
    "name": "איזי ספיריט",
-   "nameEn": null
+   "nameEn": "Easy Spirit",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/1404/easyspirit_min.png"
   },
   {
    "brand": null,
    "name": "אוריג'ינלס",
-   "nameEn": null
+   "nameEn": "Originals",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/1955/originals_logolow.jpg"
   },
   {
    "brand": null,
    "name": "בילבונג",
-   "nameEn": null
+   "nameEn": "Billabong",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/15323/בילבונג.png"
   },
   {
    "brand": null,
    "name": "ליידי קומפורט",
-   "nameEn": null
+   "nameEn": "Lady Comfort",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/17470/לוגו-ליידי-קומפורט.png"
   },
   {
    "brand": null,
    "name": "בירקנסטוק",
-   "nameEn": null
+   "nameEn": null,
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/1956/birkenstock_logolow.jpg"
   },
   {
    "brand": null,
    "name": "רוקסי",
-   "nameEn": null
+   "nameEn": "ROXY",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/1959/roxy_logolow.jpg"
   },
   {
    "brand": null,
    "name": "בורד ריידרס",
-   "nameEn": null
+   "nameEn": "Boardriders.",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/1958/boardriders_logolow.jpg"
   },
   {
    "brand": null,
    "name": "קוויקסילבר",
-   "nameEn": null
+   "nameEn": "QUICKSILVER",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/15888/quick.png"
   },
   {
    "brand": null,
    "name": "קונברס",
-   "nameEn": null
+   "nameEn": "converse",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/15129/converse.jpg"
   },
   {
    "brand": null,
    "name": "בראוני",
-   "nameEn": null
+   "nameEn": "Brownie",
+   "category": "ספורט והנעלה",
+   "logo": "https://www.max.co.il/SharedMedia/15325/בראוני.jpg"
   },
   {
    "brand": null,
    "name": "גולף אנד קו",
-   "nameEn": null
+   "nameEn": "Golf & Co",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/2697/gac1newlow.jpg"
   },
   {
    "brand": null,
    "name": "כיתן",
-   "nameEn": null
+   "nameEn": "Kitan",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/15042/לוגו-כיתן.png"
   },
   {
    "brand": null,
    "name": "הום סנטר",
-   "nameEn": null
+   "nameEn": "Home Center",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/1617/homecenter_140x47min.png"
   },
   {
    "brand": null,
    "name": "סטימצקי",
-   "nameEn": null
+   "nameEn": null,
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/1378/steimatzky_min.png"
   },
   {
    "brand": null,
    "name": "המשביר",
-   "nameEn": null
+   "nameEn": "Ha Mashbir",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/9961/mashbir.png"
   },
   {
    "brand": null,
    "name": "אמריקן קומפורט",
-   "nameEn": null
+   "nameEn": "American Comfort",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/19991/american-comfort.png"
   },
   {
    "brand": null,
    "name": "עמינח",
-   "nameEn": null
+   "nameEn": "Aminach",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/19990/aminach-logo.png"
   },
   {
    "brand": null,
    "name": "גוד נייט",
-   "nameEn": null
+   "nameEn": "Good Night",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/19989/logogoodnight.png"
   },
   {
    "brand": null,
    "name": "א.ל.מ",
-   "nameEn": null
+   "nameEn": "Alam",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/15369/אלמ.png"
   },
   {
    "brand": null,
    "name": "פליינג טייגר",
-   "nameEn": null
+   "nameEn": "flying tiger Copenhagen",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/13475/flying-tiger.png"
   },
   {
    "brand": null,
    "name": "רוזן ומינץ",
-   "nameEn": null
+   "nameEn": "ROSEN & MEENTS",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/12557/לוגו-רוזן-ומינץ.jpg"
   },
   {
    "brand": null,
    "name": "עצמל'ה",
-   "nameEn": null
+   "nameEn": "Etzmale",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/15235/עצמלה.png"
   },
   {
    "brand": null,
    "name": "לבן",
-   "nameEn": null
+   "nameEn": "lavan",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/15257/לבן.png"
   },
   {
    "brand": null,
    "name": "אייס",
-   "nameEn": null
+   "nameEn": "Ace",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/15331/לוגו-ace.png"
   },
   {
    "brand": null,
    "name": "אוטו דיפו",
-   "nameEn": null
+   "nameEn": "Auto Depot",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/15335/לוגו-אוטו-דיפו.png"
   },
   {
    "brand": null,
    "name": "שקם אלקטריק",
-   "nameEn": null
+   "nameEn": "Shekem Electric",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/15891/שקם-אלקטריק-לוגו.jpg"
   },
   {
    "brand": null,
    "name": "נייט סליפ",
-   "nameEn": null
+   "nameEn": "Night Sleep",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/15340/לוגו-נייט-סליפ.jpg"
   },
   {
    "brand": null,
    "name": "בייקרז סיקרט",
-   "nameEn": null
+   "nameEn": "BAKER' SECRET",
+   "category": "לבית",
+   "logo": "https://www.max.co.il/SharedMedia/23428/קיצן-סיקרט.png"
   },
   {
    "brand": null,
    "name": "דה צ'ינלדרנס פלייס",
-   "nameEn": null
+   "nameEn": "The Children's Place",
+   "category": "ילדים",
+   "logo": "https://www.max.co.il/SharedMedia/13460/tcp.png"
   },
   {
    "brand": null,
    "name": "גולף קידס",
-   "nameEn": null
+   "nameEn": "Golf Kids",
+   "category": "ילדים",
+   "logo": "https://www.max.co.il/SharedMedia/2192/golfkids_logo.jpg"
   },
   {
    "brand": null,
    "name": "סולוג",
-   "nameEn": null
+   "nameEn": "Solog",
+   "category": "ילדים",
+   "logo": "https://www.max.co.il/SharedMedia/1362/solog_3x1_min.png"
   },
   {
    "brand": null,
    "name": "אדידס יאנג אטלטס",
-   "nameEn": null
+   "nameEn": "Adidas Young Athletes",
+   "category": "ילדים",
+   "logo": "https://www.max.co.il/SharedMedia/2119/adidasyoung_logo.jpg"
   },
   {
    "brand": null,
    "name": "איי ג'אמפ",
-   "nameEn": null
+   "nameEn": "ijump",
+   "category": "ילדים",
+   "logo": "https://www.max.co.il/SharedMedia/14723/לוגו-איי-גאמפ.png"
   },
   {
    "brand": null,
    "name": "מייקל קורס",
-   "nameEn": null
+   "nameEn": "Michael Kors",
+   "category": "אקססוריז",
+   "logo": "https://www.max.co.il/SharedMedia/1970/michaelkors_logolow.jpg"
   },
   {
    "brand": null,
    "name": "קפה נטו",
-   "nameEn": null
+   "nameEn": "Cafeneto",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/1350/cafeneto_min.png"
   },
   {
    "brand": null,
    "name": "מלונות אסטרל",
-   "nameEn": null
+   "nameEn": "Astral Hotels",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/17229/אסטרל.png"
   },
   {
    "brand": null,
    "name": "malkat shva",
-   "nameEn": "malkat shva"
+   "nameEn": "malkat shva",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/17232/מלכת-שבא.png"
   },
   {
    "brand": null,
    "name": "הדקה ה-90",
-   "nameEn": null
+   "nameEn": "daka90",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/10600/hadaka90.png"
   },
   {
    "brand": null,
    "name": "בליק",
-   "nameEn": null
+   "nameEn": "BLIK",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/12028/logo-blik.jpg"
   },
   {
    "brand": null,
    "name": "ריבו פיטנס",
-   "nameEn": null
+   "nameEn": "Revo Fitness",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/14724/לוגו-revo-fitness-1.png"
   },
   {
    "brand": null,
    "name": "ג'אמפ אפ",
-   "nameEn": null
+   "nameEn": "jump up",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/14795/ijump-up.png"
   },
   {
    "brand": null,
    "name": "ג'ייקוב הוטל",
-   "nameEn": null
+   "nameEn": "Jakob",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/22716/jacob.png"
   },
   {
    "brand": null,
    "name": "פלואו",
-   "nameEn": null
+   "nameEn": "Flow",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/15362/flow-לוגו.jpg"
   },
   {
    "brand": null,
    "name": "שייק אווי",
-   "nameEn": null
+   "nameEn": "ShakeAway",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/23285/שייק-אווי.png"
   },
   {
    "brand": null,
    "name": "טרקלין אספייר",
-   "nameEn": null
+   "nameEn": "Aspire",
+   "category": "בילויים ופנאי",
+   "logo": "https://www.max.co.il/SharedMedia/23587/aspire.png"
   },
   {
    "brand": null,
    "name": "פרסונל טריינרס",
-   "nameEn": null
+   "nameEn": "Personal Trainers",
+   "category": "קוסמטיקה ולייף סטייל",
+   "logo": "https://www.max.co.il/SharedMedia/1618/pt_140x47min.png"
   }
  ]
 }

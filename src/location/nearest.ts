@@ -4,8 +4,9 @@ import { type StoreGroup, storeGroups } from '@/networks/accepted';
 import { distanceMeters, type LatLng } from './geo';
 
 export const NEARBY_RADIUS_M = 3000;
-/** "What's around me" scan radius. */
-export const SCAN_RADIUS_M = 5000;
+/** "What's around me" starts at 1 km; the user can widen it step by step when nothing is found. */
+export const SCAN_RADII_M = [1000, 3000, 5000] as const;
+export const SCAN_RADIUS_M: number = SCAN_RADII_M[0];
 
 type PlaceLike = { storeKey: string; address?: string | null; lat: number; lng: number };
 
@@ -13,10 +14,6 @@ function spotsFor(group: StoreGroup, places: PlaceLike[]): { address: string | n
   const spots: { address: string | null; lat: number; lng: number }[] = places
     .filter((p) => p.storeKey === group.key)
     .map((p) => ({ address: p.address ?? null, lat: p.lat, lng: p.lng }));
-  // A pinned location belongs to the store the card is specifically for.
-  if (group.direct)
-    for (const i of group.items)
-      if (i.pinnedLat != null && i.pinnedLng != null) spots.push({ address: null, lat: i.pinnedLat, lng: i.pinnedLng });
   return spots;
 }
 

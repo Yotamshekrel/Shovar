@@ -1,86 +1,115 @@
 {
  "platform": "max",
  "variant": "Giftcard Food",
- "updated": "2026-09-29",
- "source": "https://www.max.co.il/gift-card-network/Giftcard%20Food",
- "notes": "Food-only card. \"וולט\" carries a redemption-instructions note on the site.",
+ "source": "https://www.max.co.il/gift-card-network",
+ "notes": "Giftcard Food. onlineRedeem = listed only under the online / delivery categories.",
+ "updated": "2026-10-18",
  "count": 15,
  "stores": [
   {
    "brand": null,
    "name": "וולט",
-   "nameEn": null,
-   "note": "לאופן מימוש"
+   "nameEn": "Wolt",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15056/וולט.png"
   },
   {
    "brand": null,
    "name": "חצי חינם",
-   "nameEn": null
+   "nameEn": "hetzi hinam",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15246/חצי-חינם.png"
   },
   {
    "brand": null,
    "name": "טיב טעם",
-   "nameEn": null
+   "nameEn": "Tiv Taam",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15339/לוגו-טיב-טעם.png"
   },
   {
    "brand": null,
    "name": "קשת טעמים",
-   "nameEn": null
+   "nameEn": "keshet teamim",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15353/קשת-טעמים.png"
   },
   {
    "brand": null,
    "name": "נוי השדה",
-   "nameEn": null
+   "nameEn": "Noy Hasadeh",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15240/נוי-השדה.jpg"
   },
   {
    "brand": null,
    "name": "סופר יודה",
-   "nameEn": null
+   "nameEn": "Super Yuda",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15207/סופר-יודה.png"
   },
   {
    "brand": null,
    "name": "שוק העיר",
-   "nameEn": null
+   "nameEn": "Shuk HaIr",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15213/שוק-העיר.jpg"
   },
   {
    "brand": null,
    "name": "ברגר קינג",
-   "nameEn": null
+   "nameEn": "Burger King",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15326/ברגר-קינג.png"
   },
   {
    "brand": null,
    "name": "פרשמרקט",
-   "nameEn": null
+   "nameEn": "freshmarket",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15209/פרש-מרקט.png"
   },
   {
    "brand": null,
    "name": "סופר דוש",
-   "nameEn": null
+   "nameEn": "Super Dush",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15205/סופר-דוש.png"
   },
   {
    "brand": null,
    "name": "מחסני להב",
-   "nameEn": null
+   "nameEn": "Lahav Warehouses",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15249/מחסני-להב.png"
   },
   {
    "brand": null,
    "name": "מחסני מזון",
-   "nameEn": null
+   "nameEn": "Mahsanei Mazon",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15242/מחסני-מזון.png"
   },
   {
    "brand": null,
    "name": "היפר דודו",
-   "nameEn": null
+   "nameEn": "hiper dudu",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15250/היפר-דודו.png"
   },
   {
    "brand": null,
    "name": "טיפ טוב",
-   "nameEn": null
+   "nameEn": "TIP TOV",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/15241/טיפ-טוב.png"
   },
   {
    "brand": null,
    "name": "סלון יווני",
-   "nameEn": null
+   "nameEn": "Greek Salon",
+   "category": "רשתות מזון וסופרים",
+   "logo": "https://www.max.co.il/SharedMedia/21089/16-07-2025-12-23-19.png"
   }
  ]
 }

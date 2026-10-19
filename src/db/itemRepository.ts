@@ -36,8 +36,6 @@ interface ItemRow {
   status: ItemStatus;
   source: ItemSource;
   location_muted: number;
-  pinned_lat: number | null;
-  pinned_lng: number | null;
   network: string | null;
   created_at: string;
   updated_at: string;
@@ -82,8 +80,6 @@ export interface NewAttachment {
 export type ItemPatch = Partial<ItemDraft> & {
   status?: ItemStatus;
   locationMuted?: boolean;
-  pinnedLat?: number | null;
-  pinnedLng?: number | null;
   storeLogoUri?: string | null;
   network?: string | null;
 };
@@ -141,8 +137,6 @@ export class ItemRepository {
       status: row.status,
       source: row.source,
       locationMuted: row.location_muted === 1,
-      pinnedLat: row.pinned_lat,
-      pinnedLng: row.pinned_lng,
       network: row.network,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
@@ -359,8 +353,6 @@ export class ItemRepository {
     if (patch.notes !== undefined) set('notes', patch.notes?.trim() || null);
     if (patch.source !== undefined) set('source', patch.source);
     if (patch.locationMuted !== undefined) set('location_muted', patch.locationMuted ? 1 : 0);
-    if (patch.pinnedLat !== undefined) set('pinned_lat', patch.pinnedLat);
-    if (patch.pinnedLng !== undefined) set('pinned_lng', patch.pinnedLng);
     if (patch.network !== undefined) set('network', patch.network);
 
     const balanceChanged = patch.balanceMinor !== undefined && patch.balanceMinor !== current.balanceMinor;

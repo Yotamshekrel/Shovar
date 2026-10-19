@@ -77,9 +77,8 @@ No login or account. All data stays on the device; there is nothing to sign in t
 **Seeing the reminder notification fire (needs a simulator or a Mac with Xcode; a reviewer on a physical device away from Israel cannot trigger it).** The notification is delivered by an OS geofence *entry* event, so the position must move from outside a store's geofence to inside it:
 1. Set location to Tel Aviv: Simulator → Features → Location → Custom Location → `32.0741, 34.7922`.
 2. Add a manual card for a store that has a branch at Azrieli Mall, e.g. **Zara**, amount 120.
-3. Settings → Nearby reminders → turn on, allow *While Using*, *Always* and Notifications.
-4. Open the card → **I'm at this store now** (subtitle becomes "Location saved"). This pins a geofence at the current position, so no network branch lookup is needed.
-5. Move away: Custom Location → `32.0853, 34.7818` (Rabin Square, about 2 km away). Settings → Nearby reminders → **Refresh nearby stores**; the subtitle should read "Watching 1 nearby stores".
-6. Move back inside: play `docs/simulate/azrieli-walk.gpx` (Xcode → Debug → Simulate Location with the GPX added to the scheme), or set Custom Location to `32.0741, 34.7922` again. Background the app. The notification "Credit nearby – You have ₪120 credit at Zara, …m away." (the distance varies) should appear.
+3. Settings → Reminders → Nearby reminders → turn on, allow *While Using*, *Always* and Notifications.
+4. Move away: Custom Location → `32.0853, 34.7818` (Rabin Square, about 2 km away) and keep the app open for a moment while it looks up nearby branches (Settings → Reminders → Nearby shows "Watching N nearby stores").
+5. Move back inside: play `docs/simulate/azrieli-walk.gpx` (Xcode → Debug → Simulate Location with the GPX added to the scheme), or set Custom Location to `32.0741, 34.7922` again. Background the app. The notification "Credit nearby – You have ₪120 credit at Zara, …m away." (the distance varies) should appear.
 Per-store repeats are suppressed for the cooldown set in the same Settings section ("Don't repeat for", default 12 h); use 4 h or change the card to re-test.
 > Status: this path was derived from reading `src/location/` and has not been run on a device. There is no in-app "test reminder" button. If review needs a deterministic path on a real device, a small demo-mode action would be required (not built; see summary).

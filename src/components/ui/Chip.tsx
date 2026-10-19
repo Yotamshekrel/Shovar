@@ -12,12 +12,15 @@ export function Chip({
   selected,
   onPress,
   icon,
+  accent,
   testID,
 }: {
   label: string;
   selected?: boolean;
   onPress?: () => void;
   icon?: IconName;
+  /** Selected state in the brand green instead of black (settings). */
+  accent?: boolean;
   testID?: string;
 }) {
   const { colors, radii } = useTheme();
@@ -36,13 +39,20 @@ export function Chip({
         styles.chip,
         {
           borderRadius: radii.pill,
-          backgroundColor: selected ? colors.text : pressed ? colors.surfacePressed : colors.surface,
-          borderColor: selected ? colors.text : colors.border,
+          backgroundColor: selected ? (accent ? colors.primary : colors.text) : pressed ? colors.surfacePressed : colors.surface,
+          borderColor: selected ? (accent ? colors.primary : colors.text) : colors.border,
         },
       ]}
     >
-      {icon ? <Icon name={icon} size={15} color={selected ? colors.background : colors.textSecondary} /> : null}
-      <Text variant="caption" color={selected ? colors.background : colors.text} numberOfLines={1}>
+      {icon ? (
+        <Icon name={icon} size={15} color={selected ? (accent ? colors.textOnPrimary : colors.background) : colors.textSecondary} />
+      ) : null}
+      <Text
+        variant="caption"
+        color={selected ? (accent ? colors.textOnPrimary : colors.background) : colors.text}
+        weight={selected && accent ? '600' : undefined}
+        numberOfLines={1}
+      >
         {label}
       </Text>
     </PressableScale>

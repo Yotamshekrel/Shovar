@@ -2,17 +2,13 @@ import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { Platform, StyleSheet, View } from 'react-native';
 
-import { Chip, Divider, ListRow, Section, Text } from '@/components/ui';
+import { Chip, Divider, ListRow, Section } from '@/components/ui';
 import { useI18n } from '@/i18n';
-import {
-  LOCATION_STATUS_KEY,
-  type LocationStatus,
-  locationPermissions,
-  refreshGeofences,
-  stopGeofences,
-} from '@/location/locationService';
+import { LOCATION_STATUS_KEY, type LocationStatus, locationPermissions, stopGeofences } from '@/location/locationService';
 import { getServices } from '@/services/database';
 import { useSettings, useSettingsStore } from '@/state/settings';
+
+import { FieldBlock } from './FieldBlock';
 
 const RADII = [100, 150, 250, 400];
 const COOLDOWNS = [4, 12, 24, 72];
@@ -23,9 +19,6 @@ export function LocationSection() {
   const patch = useSettingsStore((s) => s.patch);
   const [status, setStatus] = useState<LocationStatus | null>(null);
   const [background, setBackground] = useState(true);
-
-  const [statusKey, setStatusKey] = useState(0);
-  const reloadStatus = () => setStatusKey((k) => k + 1);
 
   useEffect(() => {
     let alive = true;
@@ -39,7 +32,7 @@ export function LocationSection() {
     return () => {
       alive = false;
     };
-  }, [settings.locationEnabled, statusKey]);
+  }, [settings.locationEnabled]);
 
   const toggle = async (on: boolean) => {
     if (on) {
@@ -72,46 +65,33 @@ export function LocationSection() {
       {settings.locationEnabled ? (
         <>
           <Divider inset={16} />
-          <View style={styles.block}>
-            <Text variant="caption" tone="secondary">
-              {t('settings.locationRadius')}
-            </Text>
+          <FieldBlock icon="locate-outline" label={t('settings.locationRadius')}>
             <View style={styles.chips}>
               {RADII.map((m) => (
                 <Chip
                   key={m}
+                  accent
                   label={t('settings.meters', { meters: m })}
                   selected={settings.locationRadiusM === m}
                   onPress={() => patch({ locationRadiusM: m })}
                 />
               ))}
             </View>
-          </View>
+          </FieldBlock>
           <Divider inset={16} />
-          <View style={styles.block}>
-            <Text variant="caption" tone="secondary">
-              {t('settings.locationCooldown')}
-            </Text>
+          <FieldBlock icon="timer-outline" label={t('settings.locationCooldown')}>
             <View style={styles.chips}>
               {COOLDOWNS.map((h) => (
                 <Chip
                   key={h}
+                  accent
                   label={t('settings.hours', { hours: h })}
                   selected={settings.locationCooldownHours === h}
                   onPress={() => patch({ locationCooldownHours: h })}
                 />
               ))}
             </View>
-          </View>
-          <Divider inset={60} />
-          <ListRow
-            icon="refresh-outline"
-            title={t('settings.locationRefresh')}
-            onPress={async () => {
-              await refreshGeofences('manual', { foreground: true });
-              reloadStatus();
-            }}
-          />
+          </FieldBlock>
         </>
       ) : null}
     </Section>

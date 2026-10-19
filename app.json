@@ -209,6 +209,14 @@
           "microphonePermission": false
         }
       ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Shovar uses the camera to scan the barcode on a gift card or voucher.",
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
       "expo-quick-actions",
       "./plugins/withIosSceneDelegate.js"
     ],

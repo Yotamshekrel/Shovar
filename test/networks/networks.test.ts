@@ -37,8 +37,6 @@ function item(storeName: string, p: Partial<Item> = {}): Item {
     status: 'active',
     source: 'manual',
     locationMuted: false,
-    pinnedLat: null,
-    pinnedLng: null,
     createdAt: '2026-01-01T00:00:00Z',
     updatedAt: '2026-01-01T00:00:00Z',
     deletedAt: null,
@@ -51,7 +49,18 @@ const place = (storeKey: string, at = NEAR, id = `${storeKey}-1`) => ({ storeKey
 describe('network registry', () => {
   it('gives every platform with a store list a default network and card types', () => {
     expect(defaultNetworkId('buyme')).toBe('buyme_all');
-    expect(networksForPlatform('buyme').map((n) => n.id)).toEqual(['buyme_all', 'buyme_total', 'buyme_style', 'buyme_brunch']);
+    expect(networksForPlatform('buyme').map((n) => n.id)).toEqual([
+      'buyme_all',
+      'buyme_total',
+      'buyme_style',
+      'buyme_together',
+      'buyme_brunch',
+      'buyme_chef',
+      'buyme_baby',
+      'buyme_vacation',
+      'buyme_yng',
+      'buyme_pets',
+    ]);
     expect(networksForPlatform('max')).toHaveLength(4);
     expect(defaultNetworkId('zara')).toBeNull();
   });
@@ -148,11 +157,6 @@ describe('around me with multi-store cards', () => {
     const [store] = nearbyStores([buyme, castro], [place('brand:castro')], HERE);
     expect(store.items.map((i) => i.storeName)).toEqual(['Castro', 'BuyMe']);
     expect(store.storeName).toBe('Castro');
-  });
-
-  it('does not pin a location onto every store of a network', () => {
-    const buyme = item('BuyMe', { pinnedLat: NEAR.lat, pinnedLng: NEAR.lng });
-    expect(nearbyStores([buyme], [], HERE)).toEqual([]);
   });
 
   it('nearest credit reports where the multi-store card works', () => {

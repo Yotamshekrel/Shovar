@@ -136,12 +136,9 @@ Nearby reminders need a development build (see above) and are **opt-in**.
 1. Add a card or two (a store you can simulate being near).
 2. *Settings → Nearby reminders* → turn on → **Turn on nearby reminders** →
    allow location **"Always" / "Allow all the time"** and notifications.
-3. Give the app a store location. Either:
-   - **Deterministic (no network):** simulate your position at the "store",
-     open a card and tap **"I'm at this store now"** (pins the branch), or
-   - **Real data:** simulate a position in a city; the app looks up branches
-     of stores you have credit for (Google Places with a key, else
-     OpenStreetMap) and caches them for 30 days.
+3. Give the app a store location: simulate a position in a city; the app
+   looks up branches of stores you have credit for (Google Places with a key,
+   else OpenStreetMap) and caches them for 30 days.
 4. Move the simulated location **> 2 km away**, send the app to the
    background, then move back to the store (or play the route in
    `docs/simulate/azrieli-walk.gpx`, which ends at Azrieli Mall, Tel Aviv).
@@ -164,8 +161,6 @@ Tips:
   immediately, without moving.
 - The per-store **cooldown** (default 12 h) suppresses repeats — lower it to
   4 h in Settings while testing, or reinstall to reset.
-- *Refresh nearby stores* re-plans the geofences now; the subtitle shows how
-  many stores are being watched.
 - iOS reports the initial state of regions right after registration, so you
   may get a reminder immediately if you're already inside a store's radius.
 - Android does not relaunch a force-stopped app for geofence events (see

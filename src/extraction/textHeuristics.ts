@@ -29,7 +29,7 @@ const NOISE_LINE_RE =
 const DATE_TOKEN_RE =
   /\b\d{1,2}[./-]\d{1,2}[./-]\d{2,4}\b|\b\d{4}-\d{2}-\d{2}\b|\b\d{1,2}\s+(?:ב)?[a-z\u05d0-\u05ea]+\.?,?\s+\d{2,4}\b|\b\d{1,2}[/.]\d{4}\b/gi;
 const AMOUNT_RE =
-  /(?:₪|\$|€|£|nis|ils|ש["״']?ח)?\s*(\d{1,3}(?:,\d{3})+(?:[.,]\d{1,2})?|\d{1,6}(?:[.,]\d{1,2})?)\s*(₪|ש["״']?ח|nis|ils|\$|€|£)?/gi;
+  /(?:₪|\$|€|nis|ils|ש["״']?ח)?\s*(\d{1,3}(?:,\d{3})+(?:[.,]\d{1,2})?|\d{1,6}(?:[.,]\d{1,2})?)\s*(₪|ש["״']?ח|nis|ils|\$|€)?/gi;
 
 interface Found<T> {
   value: T;
@@ -61,7 +61,7 @@ function amountsIn(line: string): { minor: number; hasCurrency: boolean }[] {
     .replace(/\d+(?:-\d+){1,}/g, ' ');
   const out: { minor: number; hasCurrency: boolean }[] = [];
   for (const m of cleaned.matchAll(AMOUNT_RE)) {
-    const hasCurrency = /₪|\$|€|£|nis|ils|ש["״']?ח/i.test(m[0]);
+    const hasCurrency = /₪|\$|€|nis|ils|ש["״']?ח/i.test(m[0]);
     const minor = parseAmountToMinor(m[1]);
     if (minor !== null && minor > 0) out.push({ minor, hasCurrency });
   }

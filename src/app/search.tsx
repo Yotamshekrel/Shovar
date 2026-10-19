@@ -3,11 +3,11 @@ import { useDeferredValue, useMemo, useRef, useState } from 'react';
 import { FlatList, Keyboard, Pressable, StyleSheet, TextInput, View, Platform } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { ItemCard } from '@/components/item/ItemCard';
 import { expiryLabel } from '@/components/item/labels';
-import { StoreAvatar } from '@/components/item/StoreAvatar';
-import { Button, Icon, IconButton, Text, tapFeedback } from '@/components/ui';
+import { Button, Icon, IconButton, Text } from '@/components/ui';
 import { formatMoney } from '@/domain/money';
-import { expiryTone, isActive, sortItems } from '@/domain/status';
+import { isActive, sortItems } from '@/domain/status';
 import type { Item } from '@/domain/types';
 import { useI18n } from '@/i18n';
 import { buildIndex, searchItems, type SearchResult } from '@/search/searchIndex';
@@ -61,61 +61,14 @@ export default function SearchScreen() {
     item: SearchResult | { item: Item; active: boolean; matched?: string; score?: number; via?: string | null };
   }) => {
     const item = r.item;
-    const tone = expiryTone(item.expiryDate);
     const via = 'via' in r ? r.via : null;
     const matchedAlias = !via && 'matched' in r && r.matched && r.matched !== item.storeName && (r.score ?? 0) >= 0.6 ? r.matched : null;
-    return (
-      <View style={[styles.row, { backgroundColor: colors.surface, borderRadius: radii.lg, opacity: r.active ? 1 : 0.6 }]}>
-        <Pressable
-          testID={`search-result-${item.id}`}
-          accessibilityRole="button"
-          accessibilityLabel={`${item.storeName}, ${item.balanceMinor != null ? formatMoney(item.balanceMinor, item.currency, locale) : ''}, ${expiryLabel(t, item.expiryDate, locale)}`}
-          onPress={() => {
-            tapFeedback();
-            open(item);
-          }}
-          style={({ pressed }) => [styles.rowMain, { opacity: pressed ? 0.6 : 1 }]}
-        >
-          <StoreAvatar name={item.storeName} logoUri={item.storeLogoUri} size={44} />
-          <View style={styles.rowTexts}>
-            <Text variant="bodyStrong" numberOfLines={1}>
-              {item.storeName}
-            </Text>
-            <Text variant="footnote" tone="secondary" numberOfLines={1}>
-              {via ? `${t('search.via', { store: via })} · ` : matchedAlias ? `${matchedAlias} · ` : ''}
-              {r.active ? t(`type.${item.type}`) : t('search.archivedMatch')}
-            </Text>
-          </View>
-          <View style={styles.rowRight}>
-            <Text variant="headline" numberOfLines={1}>
-              {item.balanceMinor != null ? formatMoney(item.balanceMinor, item.currency, locale) : '—'}
-            </Text>
-            <Text
-              variant="footnote"
-              tone={!r.active ? 'tertiary' : tone === 'urgent' ? 'danger' : tone === 'soon' ? 'warning' : 'tertiary'}
-              numberOfLines={1}
-            >
-              {r.active ? expiryLabel(t, item.expiryDate, locale) : t(`status.${item.status}`)}
-            </Text>
-          </View>
-        </Pressable>
-        {r.active ? (
-          <Pressable
-            accessibilityRole="button"
-            accessibilityLabel={`${t('detail.useNow')} — ${item.storeName}`}
-            hitSlop={6}
-            onPress={() => {
-              tapFeedback();
-              use(item);
-            }}
-            style={({ pressed }) => [styles.useBtn, { backgroundColor: pressed ? colors.primaryPressed : colors.primary }]}
-            testID={`search-use-${item.id}`}
-          >
-            <Icon name="barcode-outline" size={20} color={colors.textOnPrimary} />
-          </Pressable>
-        ) : null}
-      </View>
-    );
+    const hint = via ? `${t('search.via', { store: via })} · ` : matchedAlias ? `${matchedAlias} · ` : '';
+    // Expiry first: on a thin card the end of the line is what gets cut off.
+    const subtitle = r.active
+      ? `${hint}${expiryLabel(t, item.expiryDate, locale)} · ${t(`type.${item.type}`)}`
+      : `${hint}${t('search.archivedMatch')}`;
+    return <ItemCard thin item={item} subtitle={subtitle} onPress={open} onUse={use} />;
   };
 
   const listData = hasQuery ? results : activeItems.map((item) => ({ item, active: true, via: null }));
@@ -244,11 +197,6 @@ const styles = StyleSheet.create({
   input: { flex: 1, height: 48 },
   list: { paddingHorizontal: 16, paddingTop: 8 },
   sep: { height: 8 },
-  row: { flexDirection: 'row', alignItems: 'center', gap: 12, padding: 12 },
-  rowMain: { flex: 1, flexDirection: 'row', alignItems: 'center', gap: 12 },
-  rowTexts: { flex: 1, gap: 2 },
-  rowRight: { alignItems: 'flex-end', gap: 2, maxWidth: '40%' },
-  useBtn: { width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center' },
   headerBlock: { gap: 12, marginBottom: 8 },
   sectionTitle: { paddingHorizontal: 4, letterSpacing: 0.4 },
   nearby: { gap: 8 },

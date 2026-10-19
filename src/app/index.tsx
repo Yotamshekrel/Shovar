@@ -4,9 +4,11 @@ import { FlatList, Pressable, ScrollView, StyleSheet, View } from 'react-native'
 import Animated, { FadeInDown } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { ShovarLogo } from '@/components/brand/ShovarBrand';
+import { TotalCard } from '@/components/home/TotalCard';
 import { ItemCard } from '@/components/item/ItemCard';
 import { Chip, EmptyState, Icon, IconButton, PressableScale, Text, tapFeedback } from '@/components/ui';
-import { formatMoney, sumByCurrency } from '@/domain/money';
+import { sumByCurrency } from '@/domain/money';
 import { type FilterKey, type SortKey, filterItems, isActive, isExpiringSoon, sortItems } from '@/domain/status';
 import type { Item } from '@/domain/types';
 import { useI18n } from '@/i18n';
@@ -54,9 +56,7 @@ export default function HomeScreen() {
   const header = (
     <View style={styles.header}>
       <View style={styles.topBar}>
-        <Text variant="title" accessibilityRole="header">
-          {t('app.name')}
-        </Text>
+        <ShovarLogo />
         <View style={styles.topActions}>
           {archivedCount > 0 ? (
             <IconButton icon="archive-outline" label={t('home.archive')} onPress={() => router.push('/archive')} testID="open-archive" />
@@ -65,42 +65,7 @@ export default function HomeScreen() {
         </View>
       </View>
 
-      <View
-        style={[
-          styles.totalCard,
-          elevation.surface,
-          { backgroundColor: colors.surface, borderRadius: radii.card, shadowColor: colors.shadow },
-        ]}
-      >
-        <Text variant="caption" tone="secondary" style={styles.eyebrow}>
-          {t('home.totalLabel')}
-        </Text>
-        <Text variant="display" numeric testID="total-value" adjustsFontSizeToFit numberOfLines={1}>
-          {totals.length > 0 ? formatMoney(totals[0].totalMinor, totals[0].currency, locale) : formatMoney(0, 'ILS', locale)}
-        </Text>
-        <View style={styles.totalMeta}>
-          {totals.slice(1).map((x) => (
-            <Text key={x.currency} variant="callout" tone="secondary" numeric>
-              + {formatMoney(x.totalMinor, x.currency, locale)}
-            </Text>
-          ))}
-          <Text variant="callout" tone="secondary">
-            {active.length === 1 ? t('home.itemsCountOne') : t('home.itemsCount', { count: active.length })}
-          </Text>
-          {expiringCount > 0 ? (
-            <Pressable
-              onPress={() => setFilter('expiring')}
-              accessibilityRole="button"
-              style={[styles.warnPill, { backgroundColor: colors.warningSoft }]}
-            >
-              <Icon name="time-outline" size={14} color={colors.warning} />
-              <Text variant="footnote" tone="warning" weight="600">
-                {t('home.expiringBanner', { count: expiringCount })}
-              </Text>
-            </Pressable>
-          ) : null}
-        </View>
-      </View>
+      <TotalCard totals={totals} count={active.length} expiringCount={expiringCount} onPressExpiring={() => setFilter('expiring')} />
 
       <View style={styles.searchRow}>
         <PressableScale
@@ -226,10 +191,6 @@ const styles = StyleSheet.create({
   header: { gap: 16, marginBottom: 16 },
   topBar: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingStart: 4 },
   topActions: { flexDirection: 'row', gap: 4 },
-  totalCard: { padding: 20, gap: 2 },
-  eyebrow: { textTransform: 'uppercase', letterSpacing: 0.6 },
-  totalMeta: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: 10, marginTop: 6 },
-  warnPill: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 4, borderRadius: 999 },
   searchRow: { flexDirection: 'row', alignItems: 'center', gap: 10 },
   search: { flex: 1, flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 16, height: 48 },
   nearby: { width: 48, height: 48, borderRadius: 24, alignItems: 'center', justifyContent: 'center' },

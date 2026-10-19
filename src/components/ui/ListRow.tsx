@@ -26,8 +26,8 @@ export function ListRow({ title, subtitle, icon, iconColor, value, onPress, chev
   const content = (
     <>
       {icon ? (
-        <View style={[styles.iconWrap, { backgroundColor: colors.surfaceAlt }]}>
-          <Icon name={icon} size={18} color={iconColor ?? (destructive ? colors.danger : colors.text)} />
+        <View style={[styles.iconWrap, { backgroundColor: destructive ? colors.dangerSoft : colors.primarySoft }]}>
+          <Icon name={icon} size={18} color={iconColor ?? (destructive ? colors.danger : colors.primary)} />
         </View>
       ) : null}
       <View style={styles.texts}>

@@ -1,7 +1,7 @@
-import { BRAND, MARK_S, WORDMARK_EN, WORDMARK_HE } from '@/brand/paths';
+import { BRAND, WORDMARK_EN, WORDMARK_HE } from '@/brand/paths';
 
 describe('brand paths', () => {
-  const arts = { WORDMARK_EN, WORDMARK_HE, MARK_S };
+  const arts = { WORDMARK_EN, WORDMARK_HE };
 
   it.each(Object.entries(arts))('%s is a finite, non-empty outline', (_name, art) => {
     expect(art.d.startsWith('M')).toBe(true);

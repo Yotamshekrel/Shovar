@@ -3,6 +3,7 @@ export { Chip } from './Chip';
 export { EmptyState } from './EmptyState';
 export { Icon, type IconName } from './Icon';
 export { IconButton } from './IconButton';
+export { ConfettiHost } from './Confetti';
 export { Divider, ListRow, Section } from './ListRow';
 export { PressableScale } from './PressableScale';
 export { Segmented } from './Segmented';

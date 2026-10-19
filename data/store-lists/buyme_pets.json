@@ -1,0 +1,246 @@
+{
+ "platform": "buyme",
+ "variant": "pets",
+ "source": "https://buyme.co.il/brands/17574524",
+ "notes": "BUYME PETS – pet shops, vets and services.",
+ "updated": "2026-10-19",
+ "count": 32,
+ "stores": [
+  {
+   "brand": null,
+   "name": "PETEAT",
+   "nameEn": "PETEAT",
+   "description": "אוכל לחיות מחמד",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573534.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אלון ענבל- כלבים לחיים",
+   "nameEn": null,
+   "description": "אילוף כלבים וייעוץ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573818.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Petit Loup",
+   "nameEn": "Petit Loup",
+   "description": "מוצרי בוטיק לכלבים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574510.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BOOSA & CO",
+   "nameEn": "BOOSA & CO",
+   "description": "מזון טבעי לכלבים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573971.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Maika",
+   "nameEn": "Maika",
+   "description": "ציוד ומזון לבעלי חיים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574562.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אילוף בנועם",
+   "nameEn": null,
+   "description": "אילוף כלבים וייעוץ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574564.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בון סטריט",
+   "nameEn": null,
+   "description": "מוצרי יוקרה לחיות מחמד",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574155.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בן אביטל מאלף כלבים",
+   "nameEn": null,
+   "description": "מאלף כלבים ובי״ס למאלפים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574541.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כפר הנוקדים",
+   "nameEn": null,
+   "description": "אירוח מדברי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573767.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כתר",
+   "nameEn": null,
+   "description": "ריהוט גן ופתרונות אחסון",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573751.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SHUGIS",
+   "nameEn": "SHUGIS",
+   "description": "אקססוריז עם פרצופים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573673.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Tollman's dot",
+   "nameEn": "Tollman's dot",
+   "description": "ריהוט ועיצוב עכשווי לבית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo6708099.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CHILL",
+   "nameEn": "CHILL",
+   "description": "ריהוט לגינה ולבית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574409.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Login Hotels",
+   "nameEn": "Login Hotels",
+   "description": "רשת מלונות תל-אביביים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573650.jpg"
+  },
+  {
+   "brand": null,
+   "name": "slowness - קיבוץ מורן",
+   "nameEn": null,
+   "description": "מתחם אירוח ותנועה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573776.jpg"
+  },
+  {
+   "brand": null,
+   "name": "HOMY",
+   "nameEn": "HOMY",
+   "description": "דירות נופש בת\"א וירושלים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573778.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MINISO",
+   "nameEn": "MINISO",
+   "description": "ענקית העיצוב היפנית",
+   "logo": "https://buyme.co.il/files/siteNewLogo9376094.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חוות רום",
+   "nameEn": null,
+   "description": "ריזורט גלמפינג",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573961.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מנד'ומה",
+   "nameEn": null,
+   "description": "מתחם אירוח מדברי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573663.jpg"
+  },
+  {
+   "brand": null,
+   "name": "KUALA",
+   "nameEn": "KUALA",
+   "description": "רהיטים מעוצבים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574071.jpg"
+  },
+  {
+   "brand": null,
+   "name": "צימרים גן העדן של ליאורה",
+   "nameEn": null,
+   "description": "מתחם צימרים",
+   "logo": "https://buyme.co.il/files/siteNewLogo5081469.jpg"
+  },
+  {
+   "brand": null,
+   "name": "napo",
+   "nameEn": "napo",
+   "description": "מותג ריהוט ועיצוב הבית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574448.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ZMRM",
+   "nameEn": "ZMRM",
+   "description": "משוברים לחופשה ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574470.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Start Home",
+   "nameEn": "Start Home",
+   "description": "מוצרי בית וגן",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574306.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יאלהרנט-הבית שלכם לחופשה",
+   "nameEn": null,
+   "description": "שירות השכרת דירות נופש",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573674.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון BY14",
+   "nameEn": null,
+   "description": "מלון עסקים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573750.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון SAUL",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo15542692.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון אורבן רמת גן",
+   "nameEn": null,
+   "description": "מלון אורבני מבית מלונות ROXON",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573314.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון דזרט ערד",
+   "nameEn": null,
+   "description": "מלון מבית מלונות ROXON",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573841.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון סי סאנד בת ים",
+   "nameEn": null,
+   "description": "מלון מבית מלונות ROXON",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573842.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון רד סי אילת",
+   "nameEn": null,
+   "description": "מלון ללא ילדים מבית מלונות ROXON",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574080.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רנומה",
+   "nameEn": null,
+   "description": "מלון ודירות יוקרה",
+   "logo": "https://buyme.co.il/files/siteNewLogo15063172.jpg"
+  }
+ ]
+}

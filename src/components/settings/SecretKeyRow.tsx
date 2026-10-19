@@ -51,10 +51,16 @@ export function SecretKeyRow({
 
   return (
     <View>
-      <ListRow icon="key-outline" title={title} value={status} onPress={() => {
+      <ListRow
+        icon="key-outline"
+        title={title}
+        value={status}
+        onPress={() => {
           if (!editing) notify(explainTitle, explain);
           setEditing((e) => !e);
-        }} testID={testID} />
+        }}
+        testID={testID}
+      />
       {editing ? (
         <View style={styles.editor}>
           <Text variant="footnote" tone="secondary">

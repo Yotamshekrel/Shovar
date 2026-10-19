@@ -1,0 +1,435 @@
+{
+ "networks": [
+  {
+   "id": "buyme_all",
+   "platform": "buyme",
+   "label": {
+    "en": "BuyMe ALL",
+    "he": "BuyMe ALL"
+   },
+   "sources": [
+    "buyme_all"
+   ]
+  },
+  {
+   "id": "buyme_total",
+   "platform": "buyme",
+   "label": {
+    "en": "BuyMe TOTAL",
+    "he": "BuyMe TOTAL"
+   },
+   "sources": [
+    "buyme_total"
+   ]
+  },
+  {
+   "id": "buyme_style",
+   "platform": "buyme",
+   "label": {
+    "en": "BuyMe STYLE",
+    "he": "BuyMe STYLE"
+   },
+   "sources": [
+    "buyme_style"
+   ]
+  },
+  {
+   "id": "buyme_together",
+   "platform": "buyme",
+   "label": {
+    "en": "BuyMe Together",
+    "he": "BuyMe Together"
+   },
+   "sources": [
+    "buyme_together"
+   ]
+  },
+  {
+   "id": "buyme_brunch",
+   "platform": "buyme",
+   "label": {
+    "en": "BuyMe Brunch",
+    "he": "BuyMe ברנץ׳"
+   },
+   "sources": [
+    "buyme_brunch"
+   ]
+  },
+  {
+   "id": "buyme_chef",
+   "platform": "buyme",
+   "label": {
+    "en": "BuyMe CHEF",
+    "he": "BuyMe CHEF"
+   },
+   "sources": [
+    "buyme_chef"
+   ],
+   "curated": false
+  },
+  {
+   "id": "buyme_baby",
+   "platform": "buyme",
+   "label": {
+    "en": "BuyMe BABY",
+    "he": "BuyMe BABY"
+   },
+   "sources": [
+    "buyme_baby"
+   ]
+  },
+  {
+   "id": "buyme_vacation",
+   "platform": "buyme",
+   "label": {
+    "en": "BuyMe VACATION & SPA",
+    "he": "BuyMe VACATION & SPA"
+   },
+   "sources": [
+    "buyme_vacation"
+   ],
+   "curated": false
+  },
+  {
+   "id": "buyme_yng",
+   "platform": "buyme",
+   "label": {
+    "en": "BuyMe YNG",
+    "he": "BuyMe YNG"
+   },
+   "sources": [
+    "buyme_yng"
+   ]
+  },
+  {
+   "id": "buyme_pets",
+   "platform": "buyme",
+   "label": {
+    "en": "BuyMe PETS",
+    "he": "BuyMe PETS"
+   },
+   "sources": [
+    "buyme_pets"
+   ]
+  },
+  {
+   "id": "tavzahav",
+   "platform": "tavzahav",
+   "label": {
+    "en": "Tav Zahav",
+    "he": "תו הזהב"
+   },
+   "sources": [
+    "tavzahav_shopping",
+    "tavzahav_online"
+   ]
+  },
+  {
+   "id": "max_giftcard",
+   "platform": "max",
+   "label": {
+    "en": "GiftCard",
+    "he": "גיפטקארד"
+   },
+   "sources": [
+    "max_giftcard"
+   ]
+  },
+  {
+   "id": "max_super",
+   "platform": "max",
+   "label": {
+    "en": "Super GiftCard",
+    "he": "סופר גיפטקארד"
+   },
+   "sources": [
+    "max_super_giftcard"
+   ]
+  },
+  {
+   "id": "max_executive",
+   "platform": "max",
+   "label": {
+    "en": "Executive",
+    "he": "אקזקיוטיב"
+   },
+   "sources": [
+    "max_executive"
+   ]
+  },
+  {
+   "id": "max_food",
+   "platform": "max",
+   "label": {
+    "en": "Food",
+    "he": "אוכל"
+   },
+   "sources": [
+    "max_food"
+   ]
+  },
+  {
+   "id": "dreamcard",
+   "platform": "dreamcard",
+   "label": {
+    "en": "Dream Card",
+    "he": "דרים קארד"
+   },
+   "sources": [
+    "dreamcard_multipass_include",
+    "dreamcard_multipass_nosacks",
+    "dreamcard_without_multipass"
+   ]
+  },
+  {
+   "id": "nofshonit",
+   "platform": "nofshonit",
+   "label": {
+    "en": "Swish Plus",
+    "he": "סוויש פלוס"
+   },
+   "sources": [
+    "nofshonit_swish_plus"
+   ]
+  },
+  {
+   "id": "swish_tasty",
+   "platform": "nofshonit",
+   "label": {
+    "en": "Swish Tasty",
+    "he": "סוויש טייסטי"
+   },
+   "sources": [
+    "swish_tasty"
+   ]
+  },
+  {
+   "id": "swish_dine_wine",
+   "platform": "nofshonit",
+   "label": {
+    "en": "Swish Dine & Wine",
+    "he": "סוויש דיין אנד ויין"
+   },
+   "sources": [
+    "swish_dine_wine"
+   ],
+   "curated": false
+  },
+  {
+   "id": "swish_birthday",
+   "platform": "nofshonit",
+   "label": {
+    "en": "Swish Birthday",
+    "he": "סוויש יום הולדת"
+   },
+   "sources": [
+    "swish_birthday"
+   ]
+  },
+  {
+   "id": "swish_baby",
+   "platform": "nofshonit",
+   "label": {
+    "en": "Swish Baby",
+    "he": "סוויש בייבי"
+   },
+   "sources": [
+    "swish_baby"
+   ]
+  },
+  {
+   "id": "swish_teacher",
+   "platform": "nofshonit",
+   "label": {
+    "en": "Swish Teacher",
+    "he": "סוויש מורה"
+   },
+   "sources": [
+    "swish_teacher"
+   ]
+  },
+  {
+   "id": "swish_family",
+   "platform": "nofshonit",
+   "label": {
+    "en": "Swish Family",
+    "he": "סוויש פמילי"
+   },
+   "sources": [
+    "swish_family"
+   ]
+  },
+  {
+   "id": "swish_theatre",
+   "platform": "nofshonit",
+   "label": {
+    "en": "Swish Theatre",
+    "he": "סוויש תיאטרון"
+   },
+   "sources": [
+    "swish_theatre"
+   ],
+   "curated": false
+  },
+  {
+   "id": "swish_hotels_spa",
+   "platform": "nofshonit",
+   "label": {
+    "en": "Swish Hotels & Spa",
+    "he": "סוויש מלונות וספא"
+   },
+   "sources": [
+    "swish_hotels_spa"
+   ]
+  },
+  {
+   "id": "azrieli",
+   "platform": "azrieli",
+   "label": {
+    "en": "Azrieli Gift Card",
+    "he": "עזריאלי גיפטקארד"
+   },
+   "sources": [
+    "azrieli"
+   ]
+  },
+  {
+   "id": "hz_giftzone",
+   "platform": "hitechzone",
+   "label": {
+    "en": "GiftZone",
+    "he": "GiftZone"
+   },
+   "sources": [
+    "hz_giftzone"
+   ]
+  },
+  {
+   "id": "hz_allin",
+   "platform": "hitechzone",
+   "label": {
+    "en": "All-In Zone",
+    "he": "All-In Zone"
+   },
+   "sources": [
+    "hz_allin"
+   ]
+  },
+  {
+   "id": "hz_multizone",
+   "platform": "hitechzone",
+   "label": {
+    "en": "MultiZone",
+    "he": "MultiZone"
+   },
+   "sources": [
+    "hz_multizone"
+   ]
+  },
+  {
+   "id": "hz_supermultizone",
+   "platform": "hitechzone",
+   "label": {
+    "en": "MultiSuperZone",
+    "he": "MultiSuperZone"
+   },
+   "sources": [
+    "hz_supermultizone"
+   ]
+  },
+  {
+   "id": "hz_superzone",
+   "platform": "hitechzone",
+   "label": {
+    "en": "SuperZone",
+    "he": "SuperZone"
+   },
+   "sources": [
+    "hz_superzone"
+   ]
+  },
+  {
+   "id": "hz_eatzone",
+   "platform": "hitechzone",
+   "label": {
+    "en": "EatZone",
+    "he": "EatZone"
+   },
+   "sources": [
+    "hz_eatzone"
+   ],
+   "curated": false
+  },
+  {
+   "id": "hz_chefzone",
+   "platform": "hitechzone",
+   "label": {
+    "en": "ChefZone",
+    "he": "ChefZone"
+   },
+   "sources": [
+    "hz_chefzone"
+   ],
+   "curated": false
+  },
+  {
+   "id": "hz_spazone",
+   "platform": "hitechzone",
+   "label": {
+    "en": "SpaZone",
+    "he": "SpaZone"
+   },
+   "sources": [
+    "hz_spazone"
+   ],
+   "curated": false
+  },
+  {
+   "id": "hz_zonecard",
+   "platform": "hitechzone",
+   "label": {
+    "en": "ZoneCard",
+    "he": "ZoneCard"
+   },
+   "sources": [
+    "hz_zonecard"
+   ]
+  },
+  {
+   "id": "hz_allstar",
+   "platform": "hitechzone",
+   "label": {
+    "en": "All-StarZone",
+    "he": "All-StarZone"
+   },
+   "sources": [
+    "hz_allstar"
+   ],
+   "curated": false
+  },
+  {
+   "id": "hz_kosherzone",
+   "platform": "hitechzone",
+   "label": {
+    "en": "KosherZone",
+    "he": "KosherZone"
+   },
+   "sources": [
+    "hz_kosherzone"
+   ],
+   "curated": false
+  },
+  {
+   "id": "hz_truckzone",
+   "platform": "hitechzone",
+   "label": {
+    "en": "TruckZone",
+    "he": "TruckZone"
+   },
+   "sources": [
+    "hz_truckzone"
+   ],
+   "curated": false
+  }
+ ]
+}

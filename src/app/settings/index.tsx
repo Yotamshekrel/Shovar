@@ -1,181 +1,77 @@
 import Constants from 'expo-constants';
 import { router } from 'expo-router';
-import * as WebBrowser from 'expo-web-browser';
-import { Linking, ScrollView, StyleSheet, View } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { StyleSheet, View } from 'react-native';
 
-import { AdvancedSection } from '@/components/settings/AdvancedSection';
-import { ExpiryReminderSection } from '@/components/settings/ExpiryReminderSection';
-import { LocationSection } from '@/components/settings/LocationSection';
-import { SecuritySection } from '@/components/settings/SecuritySection';
-import { Chip, Divider, ListRow, Section, Segmented, Text } from '@/components/ui';
-import { PRIVACY_POLICY_URL, SUPPORT_EMAIL } from '@/config/legal';
-import { SUPPORTED_CURRENCIES, currencySymbol } from '@/domain/money';
-import { isRtlLanguage, resolveLanguage, useI18n } from '@/i18n';
-import { applyLayoutDirection, restartApp } from '@/services/bootstrap';
-import { deleteAllAttachmentFiles } from '@/services/attachments';
-import { getServices } from '@/services/database';
-import { useItemsStore } from '@/state/items';
-import { type LanguagePref, type ThemePref, DEFAULT_SETTINGS, useSettings, useSettingsStore } from '@/state/settings';
+import { ShovarMark, ShovarWordmark } from '@/components/brand/ShovarBrand';
+import { SettingsPage } from '@/components/settings/SettingsPage';
+import { Divider, ListRow, Section, Text } from '@/components/ui';
+import { useI18n } from '@/i18n';
+import { useSettings } from '@/state/settings';
 import { useTheme } from '@/theme/ThemeProvider';
-import { confirm } from '@/utils/dialogs';
 
+/** Settings hub: the app's identity on top, then one row per area, each opening its own page. */
 export default function SettingsScreen() {
-  const { colors } = useTheme();
-  const { t, lang } = useI18n();
-  const insets = useSafeAreaInsets();
+  const { t } = useI18n();
+  const { colors, radii } = useTheme();
   const settings = useSettings();
-  const patch = useSettingsStore((s) => s.patch);
-
-  const changeLanguage = async (language: LanguagePref) => {
-    const before = isRtlLanguage(lang);
-    const after = isRtlLanguage(resolveLanguage(language));
-    patch({ language });
-    if (before !== after) {
-      const needsRestart = applyLayoutDirection({ ...settings, language });
-      if (needsRestart) {
-        const ok = await confirm({
-          title: t('settings.restartTitle'),
-          message: t('settings.restartBody'),
-          confirmText: t('settings.restartNow'),
-          cancelText: t('common.cancel'),
-        });
-        // Give the settings store a moment to persist before reloading.
-        if (ok) setTimeout(() => restartApp('language changed'), 400);
-      }
-    }
-  };
-
-  const onDeleteAll = async () => {
-    const ok = await confirm({
-      title: t('settings.deleteAll'),
-      message: t('settings.deleteAllConfirm'),
-      confirmText: t('common.delete'),
-      cancelText: t('common.cancel'),
-      destructive: true,
-    });
-    if (!ok) return;
-    const { items, kv } = await getServices();
-    await items.deleteAll();
-    deleteAllAttachmentFiles();
-    await kv.set('settings.v1', { ...DEFAULT_SETTINGS, onboardingDone: true });
-    useSettingsStore.getState().hydrate({ ...DEFAULT_SETTINGS, onboardingDone: true });
-    await useItemsStore.getState().refresh();
-    router.dismissAll();
-  };
+  const reminders = settings.expiryRemindersEnabled || settings.locationEnabled;
 
   return (
-    <ScrollView
-      style={{ backgroundColor: colors.background }}
-      contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + 32 }]}
-    >
-      <Section title={t('settings.general')}>
-        <View style={styles.block}>
-          <Text variant="caption" tone="secondary">
-            {t('settings.language')}
+    <SettingsPage>
+      <View style={[styles.hero, { backgroundColor: colors.primarySoft, borderRadius: radii.card }]}>
+        <ShovarMark size={56} />
+        <View style={styles.heroTexts}>
+          <ShovarWordmark height={20} />
+          <Text variant="footnote" tone="secondary">
+            {t('settings.version', { version: Constants.expoConfig?.version ?? '1.0.0' })}
           </Text>
-          <Segmented<LanguagePref>
-            options={[
-              { value: 'system', label: t('settings.language.system') },
-              { value: 'en', label: t('settings.language.en') },
-              { value: 'he', label: t('settings.language.he') },
-            ]}
-            value={settings.language}
-            onChange={changeLanguage}
-          />
         </View>
-        <Divider />
-        <View style={styles.block}>
-          <Text variant="caption" tone="secondary">
-            {t('settings.theme')}
-          </Text>
-          <Segmented<ThemePref>
-            options={[
-              { value: 'system', label: t('settings.theme.system') },
-              { value: 'light', label: t('settings.theme.light') },
-              { value: 'dark', label: t('settings.theme.dark') },
-            ]}
-            value={settings.theme}
-            onChange={(theme) => patch({ theme })}
-          />
-        </View>
-        <Divider />
-        <View style={styles.block}>
-          <Text variant="caption" tone="secondary">
-            {t('settings.currency')}
-          </Text>
-          <View style={styles.chips}>
-            {SUPPORTED_CURRENCIES.map((c) => (
-              <Chip
-                key={c}
-                label={`${currencySymbol(c)} ${c}`}
-                selected={settings.defaultCurrency === c}
-                onPress={() => patch({ defaultCurrency: c })}
-              />
-            ))}
-          </View>
-        </View>
-      </Section>
+      </View>
 
-      <ExpiryReminderSection />
-
-      <LocationSection />
-
-      <SecuritySection />
-
-      <Section title={t('settings.ai')} footer={t('settings.aiHint')}>
+      <Section>
         <ListRow
-          icon="sparkles-outline"
-          title={t('settings.aiEnabled')}
-          toggle={{
-            value: settings.aiExtractionEnabled,
-            onChange: (v) => patch({ aiExtractionEnabled: v, aiConsentGiven: v ? settings.aiConsentGiven : false }),
-          }}
-          testID="settings-ai-toggle"
-        />
-      </Section>
-
-      <AdvancedSection />
-
-      <Section title={t('settings.data')}>
-        <ListRow icon="trash-outline" title={t('settings.deleteAll')} onPress={onDeleteAll} destructive testID="settings-delete-all" />
-      </Section>
-
-      <Section title={t('settings.about')}>
-        <ListRow
-          icon="shield-checkmark-outline"
-          title={t('settings.privacyPolicy')}
-          onPress={() => WebBrowser.openBrowserAsync(PRIVACY_POLICY_URL)}
+          icon="options-outline"
+          title={t('settings.general')}
+          subtitle={t('settings.generalHint')}
+          onPress={() => router.push('/settings/general')}
           chevron
-          testID="settings-privacy-policy"
+          testID="settings-general"
         />
         <Divider inset={60} />
         <ListRow
-          icon="document-text-outline"
-          title={t('settings.legal')}
-          onPress={() => router.push('/settings/legal')}
+          icon="notifications-outline"
+          title={t('settings.reminders')}
+          subtitle={t('settings.remindersHint')}
+          value={reminders ? t('settings.valueOn') : t('settings.valueOff')}
+          onPress={() => router.push('/settings/reminders')}
           chevron
-          testID="settings-legal"
+          testID="settings-reminders"
         />
         <Divider inset={60} />
         <ListRow
-          icon="mail-outline"
-          title={t('settings.contact')}
-          value={SUPPORT_EMAIL}
-          onPress={() => Linking.openURL(`mailto:${SUPPORT_EMAIL}`)}
-          testID="settings-contact"
+          icon="lock-closed-outline"
+          title={t('settings.securityAdvanced')}
+          subtitle={t('settings.securityAdvancedHint')}
+          value={settings.biometricLock ? t('settings.valueOn') : undefined}
+          onPress={() => router.push('/settings/security')}
+          chevron
+          testID="settings-security"
+        />
+        <Divider inset={60} />
+        <ListRow
+          icon="information-circle-outline"
+          title={t('settings.about')}
+          subtitle={t('settings.aboutHint')}
+          onPress={() => router.push('/settings/about')}
+          chevron
+          testID="settings-about"
         />
       </Section>
-
-      <Text variant="footnote" tone="tertiary" align="center">
-        {t('settings.version', { version: Constants.expoConfig?.version ?? '1.0.0' })}
-      </Text>
-    </ScrollView>
+    </SettingsPage>
   );
 }
 
 const styles = StyleSheet.create({
-  content: { padding: 16, gap: 24 },
-  block: { padding: 16, gap: 10 },
-  chips: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
+  hero: { flexDirection: 'row', alignItems: 'center', gap: 14, padding: 16 },
+  heroTexts: { gap: 6 },
 });

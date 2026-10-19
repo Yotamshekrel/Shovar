@@ -18,7 +18,7 @@ import { createOverpassProvider } from './places/overpass';
 import { createPhotonProvider } from './places/photon';
 import { PlacesCache } from './places/placesCache';
 import type { PlacesProvider, StoreQuery } from './places/types';
-import { type NearbyStore, nearbyStores } from './nearest';
+import { type NearbyStore, SCAN_RADIUS_M, nearbyStores } from './nearest';
 import { storeQueries } from './storeQueries';
 
 export const GEOFENCE_TASK = 'shvar-geofence';
@@ -182,13 +182,6 @@ async function doRefresh(reason: string, opts: { position?: LatLng; foreground?:
       lng: p.lng,
       distanceWeight: (groups.get(p.storeKey)?.rank ?? 0) > 0 ? NETWORK_DISTANCE_PENALTY : 1,
     }));
-    for (const g of storeGroups(active).values()) {
-      if (!g.direct || !groups.has(g.key)) continue;
-      for (const i of g.items) {
-        if (i.pinnedLat != null && i.pinnedLng != null)
-          candidates.push({ storeKey: g.key, placeId: `pinned:${i.id}`, lat: i.pinnedLat, lng: i.pinnedLng });
-      }
-    }
 
     const plan = planGeofences(position, candidates, { maxRegions: maxRegionsFor(Platform.OS), radiusM: settings.locationRadiusM });
     await Location.startGeofencingAsync(GEOFENCE_TASK, plan.regions);
@@ -247,19 +240,6 @@ export async function notifyNearby(
   return true;
 }
 
-/** "I'm at this store now": saves the current position as this card's store location. */
-export async function pinCurrentLocation(): Promise<LatLng | null> {
-  if (!supported) return null;
-  const perm = await Location.requestForegroundPermissionsAsync();
-  if (!perm.granted) return null;
-  try {
-    const fix = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.High });
-    return { lat: fix.coords.latitude, lng: fix.coords.longitude };
-  } catch {
-    return null;
-  }
-}
-
 export type ScanOutcome =
   | { status: 'ok'; stores: NearbyStore[]; storesWithCredit: number }
   | { status: 'unsupported' | 'no-permission' | 'no-position' | 'no-items' | 'error' };
@@ -275,7 +255,7 @@ function scanCellCenter(key: string): LatLng {
  * already knows straight away (`onUpdate`), then looks up the remaining stores
  * in parallel and returns the final list, closest first.
  */
-export async function scanNearby(onUpdate?: (partial: ScanOutcome) => void): Promise<ScanOutcome> {
+export async function scanNearby(onUpdate?: (partial: ScanOutcome) => void, radius: number = SCAN_RADIUS_M): Promise<ScanOutcome> {
   if (!supported) return { status: 'unsupported' };
   try {
     const perm = await Location.requestForegroundPermissionsAsync();
@@ -299,7 +279,7 @@ export async function scanNearby(onUpdate?: (partial: ScanOutcome) => void): Pro
       all.filter((q) => (q.rank ?? 0) === 0).length + Math.min(all.filter((q) => (q.rank ?? 0) > 0).length, MAX_SCAN_NETWORK_LOOKUPS);
     const compute = async (): Promise<ScanOutcome> => ({
       status: 'ok',
-      stores: nearbyStores(active, await cache.placesFor([...groups.keys()]), position),
+      stores: nearbyStores(active, await cache.placesFor([...groups.keys()]), position, radius),
       storesWithCredit: checked,
     });
     if (direct.length + viaNetwork.length === 0) return compute();

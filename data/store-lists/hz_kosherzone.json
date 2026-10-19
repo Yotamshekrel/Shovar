@@ -1,0 +1,229 @@
+{
+ "platform": "hitechzone",
+ "variant": "kosherzone",
+ "source": "https://www.htzone.co.il/voucher-zone/18",
+ "notes": "KosherZone: kosher restaurants. onlineRedeem = terms say the shop's website only.",
+ "updated": "2026-10-19",
+ "count": 36,
+ "stores": [
+  {
+   "brand": null,
+   "name": "קפה קפה",
+   "nameEn": "CAFE CAFE",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_CAFECAFE_120X120_2.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פיצה עגבניה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_agvania_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פיצה סטורי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_STORY_PIZZA_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "דריה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_DARYA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מוזה קוקטיילים",
+   "nameEn": "Muza Cocktails",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/MUZA-LOGO_120X120.webp"
+  },
+  {
+   "brand": null,
+   "name": "סטלה ביץ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_3_צילום מסך 2024-08-11 155731.png"
+  },
+  {
+   "brand": null,
+   "name": "מיט טיים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_MEAT_TIME_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "THE VIEW",
+   "nameEn": "THE VIEW",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_לוגו מסעדה.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "גלידה פינגוין",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_9_pingwinnew.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קופסא מהשוק",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_קופסא.png"
+  },
+  {
+   "brand": null,
+   "name": "דולפין ים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1789644603.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת בורגר סטיישן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_בורגר סטיישן.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת בורגראנץ'",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_BURGERRANCH_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת חוף מיה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_3_חוף מיה.png"
+  },
+  {
+   "brand": null,
+   "name": "Mar Jarz Cakes",
+   "nameEn": "Mar Jarz Cakes",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_logo_transparent_background.png"
+  },
+  {
+   "brand": null,
+   "name": "טרסה בוטניקה",
+   "nameEn": "Botanica Terrace",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_טרסה בוטניקה - לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "סינטה",
+   "nameEn": "Sinta",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_סינטה.png"
+  },
+  {
+   "brand": null,
+   "name": "הקולה בעיר",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_הקולה.png"
+  },
+  {
+   "brand": null,
+   "name": "Picasso by Eran Shvartzbard",
+   "nameEn": "Picasso by Eran Shvartzbard",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_פיקאסו.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת ליפתא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1791378572.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת מנרה (מבית TYO)",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_MANARA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה נדנדה",
+   "nameEn": "Nadneda cafe",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1784111474.png"
+  },
+  {
+   "brand": null,
+   "name": "עגלת קפה המנחמת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_hamenahemet-profile.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב גוש עציון",
+   "nameEn": "Gush Etzion Winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/13_לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "סושי בוקס מודיעין",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו סושי בוקס מודיעין .jpeg"
+  },
+  {
+   "brand": null,
+   "name": "קפה פלורה במשתלה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_הורדה.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת Space מושב אמונים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_SPACE.png"
+  },
+  {
+   "brand": null,
+   "name": "גשן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_GOSHEN_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "פאפיאנו - טירת הכרמל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_PAPINO_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סושי נוצי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_NuchiSushi_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "באלי בורגר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_BALI-BURGERS_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הלובי (כשר למהדרין)",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_HaLOBI_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פינתי כפר עציון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_הורדה (3).png"
+  },
+  {
+   "brand": null,
+   "name": "עגלת קפה - הפוכות",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_large-LOGO הפוכות.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "גאטוס",
+   "nameEn": "Gatos",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_הורדה (4).jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת Burgerbox",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_בורגר.png"
+  }
+ ]
+}

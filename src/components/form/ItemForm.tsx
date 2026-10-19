@@ -27,7 +27,7 @@ export interface ItemFormProps {
   onSubmit: (draft: ItemDraft) => Promise<void>;
 }
 
-function toValues(d: ItemDraft): ItemFormValues {
+export function toValues(d: ItemDraft): ItemFormValues {
   return {
     type: d.type,
     storeName: d.storeName,
@@ -98,7 +98,9 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
 
   const submit = async () => {
     // A new card starts with its full amount; the balance is only editable on existing cards.
-    const { errors: errs, draft } = validateItemForm(mode === 'edit' ? values : { ...values, balance: '' });
+    const { errors: errs, draft } = validateItemForm(mode === 'edit' ? values : { ...values, balance: '' }, {
+      requireAmount: mode !== 'edit',
+    });
     setErrors(errs);
     if (!draft) {
       warningFeedback();

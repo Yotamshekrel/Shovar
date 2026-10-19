@@ -1,0 +1,4638 @@
+{
+ "platform": "hitechzone",
+ "variant": "giftzone",
+ "source": "https://www.htzone.co.il/voucher-zone/4",
+ "notes": "GiftZone: shops, restaurants, spas and experiences. onlineRedeem = terms say the shop's website only.",
+ "updated": "2026-10-19",
+ "count": 752,
+ "stores": [
+  {
+   "brand": null,
+   "name": "ג'נספורט",
+   "nameEn": "JanSport",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "Papaya - נעלי ילדים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_פפאיה.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון גרנד ויסטה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_VISTA.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה פלורה במשתלה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/7_הורדה.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נעמן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/NAAMAN_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ורדינון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/vardinon-logo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת Moshik&",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/23_חדש.png"
+  },
+  {
+   "brand": null,
+   "name": "אדידס",
+   "nameEn": "adidas",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/22_images.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון קאמי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776171073.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה קפה",
+   "nameEn": "CAFE CAFE",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_CAFECAFE_120X120_2.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אלונאלה סוויטות יוקרה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_alonella.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת מארי",
+   "nameEn": "MAREE Sky Lounge",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788338537.png"
+  },
+  {
+   "brand": null,
+   "name": "טאיזו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_Taizu.jpg"
+  },
+  {
+   "brand": null,
+   "name": "משייה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Mashya.jpg"
+  },
+  {
+   "brand": null,
+   "name": "WeShoes",
+   "nameEn": "WeShoes",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_5072-8527-ווי-שוז-(אייס-מול)-אילת-md.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Trek Market",
+   "nameEn": "Trek Market",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/trekmarket.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בנדיקט",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1778419400.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קסטרו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/CASTRO.png"
+  },
+  {
+   "brand": null,
+   "name": "גולף",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/GOLF.png"
+  },
+  {
+   "brand": null,
+   "name": "צומת ספרים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/tzometSfarim.png"
+  },
+  {
+   "brand": null,
+   "name": "ביגוד",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/bgood_logo (002).png"
+  },
+  {
+   "brand": null,
+   "name": "TYO",
+   "nameEn": "TYO",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_logoTyo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פיצה לונה",
+   "nameEn": "Pizza Luna",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1787490898.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "למטייל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/לוגו למטייל.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת מרפאות פרופורציה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Logo (005).jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת DOMO",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_צילום מסך 2026-01-18 164634.png"
+  },
+  {
+   "brand": null,
+   "name": "אינטימה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/INTIMA.png"
+  },
+  {
+   "brand": null,
+   "name": "The North Face",
+   "nameEn": "The North Face",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_IMG_0255.png"
+  },
+  {
+   "brand": null,
+   "name": "Cote",
+   "nameEn": "Cote",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1790079382.png"
+  },
+  {
+   "brand": null,
+   "name": "סטיב מאדן",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/STEVE_MADDEN_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ריפליי",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/REPLAY_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טולמנ'ס דוט",
+   "nameEn": "TOLLMANS DOT",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/TOLLMANS_DOT_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גלי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Gali.png"
+  },
+  {
+   "brand": null,
+   "name": "רוסטיקו - בזל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/8_רוסטיקו.png"
+  },
+  {
+   "brand": null,
+   "name": "רוסטיקו - רוטשילד",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_רוסטיקו.png"
+  },
+  {
+   "brand": null,
+   "name": "הום סנטר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/home_center_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ג'ק קובה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/JACK_CUBA_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "לי קופר",
+   "nameEn": "Lee Cooper",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Lee Cooper.png"
+  },
+  {
+   "brand": null,
+   "name": "GUESS",
+   "nameEn": "GUESS",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_guess.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה דאז",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_קפה דאז לוגו (1).jpeg"
+  },
+  {
+   "brand": null,
+   "name": "פורטונה - כולא פיצה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_Logo פורטונה כולא פיצה אילת.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "BUONA CASA‏",
+   "nameEn": "BUONA CASA‏",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/BUONA CASA - LOGO (1) (1).jpg"
+  },
+  {
+   "brand": null,
+   "name": "קופסא מהשוק",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_קופסא.png"
+  },
+  {
+   "brand": null,
+   "name": "סלון יווני - סניף זיכרון יעקב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776372351.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דולפין ים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1789644271.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דנון",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1791463542.png"
+  },
+  {
+   "brand": null,
+   "name": "LINENZ",
+   "nameEn": "LINENZ",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Linenz_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גוטי רומרו",
+   "nameEn": "GUTI ROMERO",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Guti Romero logo LARGE BLACK.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס וגו אקטיב",
+   "nameEn": "Holmes Place",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/hp+ go  logo שקוף לבן.png"
+  },
+  {
+   "brand": null,
+   "name": "VILEBREQUIN",
+   "nameEn": "VILEBREQUIN",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/vbq.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת דה פקטו",
+   "nameEn": "De Facto",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788769897.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "איל מקיאג",
+   "nameEn": "IL MAKIAGE",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_איל מקיאג.png"
+  },
+  {
+   "brand": null,
+   "name": "עמינח",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Aminach_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Poupée",
+   "nameEn": "Poupée",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_PoupéeLOGO_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ג'ורג' וג'ון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_Geprge & John.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה פופולר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_4a8bbf_7b5ee98b3c934e82800d38cb69841456_mv2 (1).jpg"
+  },
+  {
+   "brand": null,
+   "name": "טכנולייט",
+   "nameEn": "technolite",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1781590478.png"
+  },
+  {
+   "brand": null,
+   "name": "Cue",
+   "nameEn": "Cue",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1790245192.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פלייגראונד",
+   "nameEn": "Playground Restaurant",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1790683792.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אמש",
+   "nameEn": "Emesh",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1790063769.png"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב - ירושלים",
+   "nameEn": "JACOB Hotels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788273453.png"
+  },
+  {
+   "brand": null,
+   "name": "‏STAGE ONE",
+   "nameEn": "‏STAGE ONE",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1790151080.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא טים תאי",
+   "nameEn": "TIM THAI",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1782367693.jpg"
+  },
+  {
+   "brand": null,
+   "name": "next heat",
+   "nameEn": "next heat",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777556268.png"
+  },
+  {
+   "brand": null,
+   "name": "שטיחי כרמל",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/27_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "ואנס",
+   "nameEn": "VANS",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1778564997.png"
+  },
+  {
+   "brand": null,
+   "name": "קלרינס",
+   "nameEn": "Clarins",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1778582628.png"
+  },
+  {
+   "brand": null,
+   "name": "טומוקה",
+   "nameEn": "Tomoka",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1778757606.jpg"
+  },
+  {
+   "brand": null,
+   "name": "וורקר",
+   "nameEn": "Worker",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/10_לוגו שקוף.png"
+  },
+  {
+   "brand": null,
+   "name": "Napo מבית ד\"ר גב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1200-1200.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לונל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_3_e5d63700-59bd-47dc-aa4d-857c3c93d108.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סמארט טויס",
+   "nameEn": "Smart toys",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1778999273.png"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב - שינקין ת\"א",
+   "nameEn": "JACOB Hotels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788270606.png"
+  },
+  {
+   "brand": null,
+   "name": "אגוסטין - בראסרי מבית נואר",
+   "nameEn": "Augustine",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_AUGUSTINE.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ZMRM משוברים לחופשה‏",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_zmrm_1x1.png"
+  },
+  {
+   "brand": null,
+   "name": "הספר הכחול",
+   "nameEn": "Blue book",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779708307.png"
+  },
+  {
+   "brand": null,
+   "name": "מי טיים",
+   "nameEn": "Me time",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779710479.png"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב - מודיעין",
+   "nameEn": "JACOB Hotels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788272764.png"
+  },
+  {
+   "brand": null,
+   "name": "סאנשיין",
+   "nameEn": "Good Morning Sunshine - Benedict Bakery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_Logo-outerglow_4af5dcf0-f056-4b0b-9531-d2ebf1aa3387_250x.avif"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב - אילת",
+   "nameEn": "JACOB Hotels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788274007.png"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב - נווה אטי״ב",
+   "nameEn": "JACOB Hotels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788266002.png"
+  },
+  {
+   "brand": null,
+   "name": "גנים ושושנים - ריהוט גן איכותי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_גנים.png"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב - אוהלו כנרת",
+   "nameEn": "JACOB Hotels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788266488.png"
+  },
+  {
+   "brand": null,
+   "name": "דרונדן רחפנים- צילום והדרכה‏",
+   "nameEn": "Dronden",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779971603.png"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב - סי לייף נהריה",
+   "nameEn": "JACOB Hotels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788267434.png"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב - ניאה שבי ציון",
+   "nameEn": "JACOB Hotels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788267950.png"
+  },
+  {
+   "brand": null,
+   "name": "סטורי",
+   "nameEn": "story",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_STORY_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב - ריזורט חדרה",
+   "nameEn": "JACOB Hotels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788270144.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת אצה סושי בר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1780324178.png"
+  },
+  {
+   "brand": null,
+   "name": "פלפוט",
+   "nameEn": "Palphot",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1780388415.png"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב - מצפה רמון",
+   "nameEn": "JACOB Hotels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788273184.png"
+  },
+  {
+   "brand": null,
+   "name": "גרקו - קרית אונו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_9_GREKO_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גרקו - הכשרה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_9_GREKO_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Loullie",
+   "nameEn": "Loullie",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1789376904.png"
+  },
+  {
+   "brand": null,
+   "name": "שחר נוימן - כלבנות מעצימה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1789382313.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "7to1 cocktail LAB",
+   "nameEn": "7to1 cocktail LAB",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776084377.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פאסטל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_PASTEL_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "וילה גליליי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_וילה גלילי לוגו.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כיתן",
+   "nameEn": "Kitan",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Kitan.png"
+  },
+  {
+   "brand": null,
+   "name": "חנדלה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/חנדלה.webp"
+  },
+  {
+   "brand": null,
+   "name": "עגליס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/AGALIS_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארנקי עמנואל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/EMANUEL_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דארלן",
+   "nameEn": "darlain",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/DARLAIN_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טימברלנד",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Timberland.png"
+  },
+  {
+   "brand": null,
+   "name": "איזי ספיריט",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/EASY SPIRIT.png"
+  },
+  {
+   "brand": null,
+   "name": "קולומביה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Columbia.png"
+  },
+  {
+   "brand": null,
+   "name": "LILUSH BOX",
+   "nameEn": "LILUSH BOX",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/lilushbox.jpg"
+  },
+  {
+   "brand": null,
+   "name": "שבילים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Shvilim.png"
+  },
+  {
+   "brand": null,
+   "name": "mia inspiration",
+   "nameEn": "mia inspiration",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/miainsparation.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Gaby's‏ תכשיטים",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/gabys.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קליניק",
+   "nameEn": "Clinique",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_CLINIQUE_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אריאה ספא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/ARIA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלכת שבא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776368864.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Redwood ארונות הזזה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/redwood.jpg"
+  },
+  {
+   "brand": null,
+   "name": "OHAV BRACELET",
+   "nameEn": "OHAV BRACELET",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/ohavlogo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יולו",
+   "nameEn": "YOLO",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/YOLO.png"
+  },
+  {
+   "brand": null,
+   "name": "פמינה הלבשה תחתונה",
+   "nameEn": "femina",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_deminanewlogo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סברובסקי",
+   "nameEn": "SWAROVSKI",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/SWAROVSKI_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גולף קידס",
+   "nameEn": "GOLF&KIDS",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/GOLF-KIDS.png"
+  },
+  {
+   "brand": null,
+   "name": "ל'אוקסיטן",
+   "nameEn": "LOCCITANE",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/loccitane.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קסטרו הום",
+   "nameEn": "Castro Home",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/CASTRO HOME.png"
+  },
+  {
+   "brand": null,
+   "name": "סולוג",
+   "nameEn": "Solog",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/SOLOG.png"
+  },
+  {
+   "brand": null,
+   "name": "אמפוריום",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/EMPORIUM.png"
+  },
+  {
+   "brand": null,
+   "name": "פולגת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/POLGAT.png"
+  },
+  {
+   "brand": null,
+   "name": "שוסטר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Shoester.png"
+  },
+  {
+   "brand": null,
+   "name": "עדה לזורגן",
+   "nameEn": "Adah",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Adah_logo_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LAAVIN",
+   "nameEn": "LAAVIN",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_LAAVIN_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גאנט",
+   "nameEn": "GANT",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/GANT_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גולף אנד קו",
+   "nameEn": "GOLF&CO",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/GOLF-CO.png"
+  },
+  {
+   "brand": null,
+   "name": "משקפיי Vintage Original",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Vintage_Orginal_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פוד אפיל",
+   "nameEn": "food appeal",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/FOODAPPEAL.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נאוטיקה",
+   "nameEn": "Nautica",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/NAUTICA.png"
+  },
+  {
+   "brand": null,
+   "name": "טרקלין חשמל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/TRAKLIN_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "משביר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Mashbir.png"
+  },
+  {
+   "brand": null,
+   "name": "סולתם",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/SOLTAM_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מוצצים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/MOZEZIM_120X120_2.png"
+  },
+  {
+   "brand": null,
+   "name": "סוהו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_SOHO_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רהיטי קיסר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Keisar_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מועדון היין הישראלי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/WINE_CLUB_120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JOHN BOY קעקועים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/JOHN_BOY_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JOHN BOY פירסינג",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_JOHN_BOY_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קאלה",
+   "nameEn": "cala",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/boeicala.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אינטר ג'ינס",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/INTERJEANS_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת בורגר סטיישן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/בורגר סטיישן.png"
+  },
+  {
+   "brand": null,
+   "name": "רדלר",
+   "nameEn": "Radler",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_רדלר.png"
+  },
+  {
+   "brand": null,
+   "name": "חוף חנניה אילת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/HANANYA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "צעדים ראשונים",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1782221929.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת Space מושב אמונים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_SPACE.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה נאפו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_3_5353453.png"
+  },
+  {
+   "brand": null,
+   "name": "זר פור יו",
+   "nameEn": "ZER4U",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/הורדה (3).png"
+  },
+  {
+   "brand": null,
+   "name": "POMO",
+   "nameEn": "POMO",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_5_הורדה (2).jpg"
+  },
+  {
+   "brand": null,
+   "name": "GoJump",
+   "nameEn": "GoJump",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776086435.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פיצה עגבניה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_agvania_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בר איטליה",
+   "nameEn": "Bar Italia",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_בראיטליה.png"
+  },
+  {
+   "brand": null,
+   "name": "בלוברי",
+   "nameEn": "Blueberry",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/בלוברי לוגו.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Mega Sport.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב בהט",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_bahatlogo (1).jpg"
+  },
+  {
+   "brand": null,
+   "name": "פלורליס",
+   "nameEn": "floralis",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/FLORALIS_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אהבה קטנה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LITTLE_LOVE.jpg"
+  },
+  {
+   "brand": null,
+   "name": "WATER IO",
+   "nameEn": "WATER IO",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/WATER_IO_120X120_2.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מתוק מהלב",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/MATOK_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "4 שף",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4CHEF_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בירבזאר",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/BEERBAZAR_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מתגלגלים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/MITGALGELIM_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "eye glow - משקפי שמש",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/EYE_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בורדר ליין",
+   "nameEn": "BOARDERLINE",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/borderline_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לסטר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LASTER_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - גורדון ביץ תל אביב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777969206.png"
+  },
+  {
+   "brand": null,
+   "name": "GA-DE",
+   "nameEn": "GA-DE",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/GADE_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JAPAN JAPAN",
+   "nameEn": "JAPAN JAPAN",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_JAPAN_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פיצה סטורי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_STORY_PIZZA_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "בימבה ביי לולה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/BIMBA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בראוני",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/brownie_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לונגשאמפ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LONGCHAMP_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טואוס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Tous_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דזיגוואל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Desigual_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סופרדריי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/SUPERDRY_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דריה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/DARYA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארקוסטיל קיטצ'ן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/ARCOSTEEL_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גשן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/GOSHEN_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "SAHARA- SCENT OF THE DESERT",
+   "nameEn": "SAHARA- SCENT OF THE DESERT",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_LOGO SAHARA.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סליפי מזרנים וחדרי שינה",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1781607052.png"
+  },
+  {
+   "brand": null,
+   "name": "מי אלמה תכשיטים",
+   "nameEn": "Mi Alma",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_logo (2).png"
+  },
+  {
+   "brand": null,
+   "name": "אל מאגו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו שקוף חדש (1).gif"
+  },
+  {
+   "brand": null,
+   "name": "the nest shop",
+   "nameEn": "the nest shop",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_the nest shop.png"
+  },
+  {
+   "brand": null,
+   "name": "Reset",
+   "nameEn": "Reset",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776523704.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון BY14",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/מלון BY14.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Lusso בגדי יוקרה לתינוקות‎",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_לוגו-לוסו-חדש-e1762681150393.png"
+  },
+  {
+   "brand": null,
+   "name": "גרפוס",
+   "nameEn": "graphos",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1782304675.jpg"
+  },
+  {
+   "brand": null,
+   "name": "simple as that",
+   "nameEn": "simple as that",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776607828.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא ויטראז'",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1782735157.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קליסטו",
+   "nameEn": "Callisto",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/72_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "FighteriL ציוד לחימה תאילנדי",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_LOGO FIGHTER IL.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "תבליני פרג",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776691142.png"
+  },
+  {
+   "brand": null,
+   "name": "FOREVERTOLD",
+   "nameEn": "FOREVERTOLD",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/77_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "בוטני",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776752778.png"
+  },
+  {
+   "brand": null,
+   "name": "בוצ'רי דה ברילוצ'ה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1790440292.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "יקב שילה",
+   "nameEn": "Shiloh Winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_יקב שילה.png"
+  },
+  {
+   "brand": null,
+   "name": "Daphne Skin",
+   "nameEn": "Daphne Skin",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779779332.png"
+  },
+  {
+   "brand": null,
+   "name": "מבשלת שריגים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/87_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "סדנאות רוקחות טבעית",
+   "nameEn": "Rooted wisdom",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1783410218.png"
+  },
+  {
+   "brand": null,
+   "name": "WOLFit",
+   "nameEn": "WOLFit",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/WOLF_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון לוגאין - נחלת בנימין החדש",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1791722016.png"
+  },
+  {
+   "brand": null,
+   "name": "Mar Jarz Cakes",
+   "nameEn": "Mar Jarz Cakes",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_logo_transparent_background.png"
+  },
+  {
+   "brand": null,
+   "name": "SWING",
+   "nameEn": "SWING",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777555515.png"
+  },
+  {
+   "brand": null,
+   "name": "piece of nature - שוקולד בוטיק",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/22_לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "ALIBI BAR",
+   "nameEn": "ALIBI BAR",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1778417164.png"
+  },
+  {
+   "brand": null,
+   "name": "פרנג'ליקו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1784718687.png"
+  },
+  {
+   "brand": null,
+   "name": "Studio Cheha",
+   "nameEn": "Studio Cheha",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_studiocheha_logo_yellow.png"
+  },
+  {
+   "brand": null,
+   "name": "נגיסה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1784719479.png"
+  },
+  {
+   "brand": null,
+   "name": "גודה",
+   "nameEn": "GODA",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1785076507.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קאפרי",
+   "nameEn": "Capri",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_קאפרי.png"
+  },
+  {
+   "brand": null,
+   "name": "דקורדו",
+   "nameEn": "Decorado Home Fashion",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_דקורדו_לוגו3.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ביילי שוקולד",
+   "nameEn": "Bylee Chocolate Boutique",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1785227411.png"
+  },
+  {
+   "brand": null,
+   "name": "ארגז מהכפר",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1778758410.png"
+  },
+  {
+   "brand": null,
+   "name": "סזאר",
+   "nameEn": "Cezar Bistro",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779281323.png"
+  },
+  {
+   "brand": null,
+   "name": "איש הענבים- מפגשים של יין ידע",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו עם רקע.png"
+  },
+  {
+   "brand": null,
+   "name": "דימונדס ספא",
+   "nameEn": "Diamonds spa",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1785656590.png"
+  },
+  {
+   "brand": null,
+   "name": "איל גוסטו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779283956.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארדו משאבות חלב",
+   "nameEn": "Ardo Israel",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו ארדו ריבוע גיפאג.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת בייבי סטאר",
+   "nameEn": "Baby Star",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779343418.png"
+  },
+  {
+   "brand": null,
+   "name": "ריקושט",
+   "nameEn": "Rikushet",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/צילום מסך 2026-02-04 140649.png"
+  },
+  {
+   "brand": null,
+   "name": "SDOM TLV",
+   "nameEn": "SDOM TLV",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_צילום מסך 2026-02-04 171250.png"
+  },
+  {
+   "brand": null,
+   "name": "מיניסו",
+   "nameEn": "Miniso",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/14_images.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LAVOGA",
+   "nameEn": "LAVOGA",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_צילום מסך 2026-02-08 093016.png"
+  },
+  {
+   "brand": null,
+   "name": "מילאנו בייקרי",
+   "nameEn": "Milano Bakery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_מילאנו.png"
+  },
+  {
+   "brand": null,
+   "name": "פרלינים שוקולד זה מתנה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776166988.png"
+  },
+  {
+   "brand": null,
+   "name": "שרוליק",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/צילום מסך 2026-02-10 150907.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב בזק",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779798415.png"
+  },
+  {
+   "brand": null,
+   "name": "Alltech משחקי מדע וטכנולוגיה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_Alltech_Logo_url.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פונפוני",
+   "nameEn": "PONPONI",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779959092.png"
+  },
+  {
+   "brand": null,
+   "name": "KUNI",
+   "nameEn": "KUNI",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_kuni_il_logo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "NOAM LIVING",
+   "nameEn": "NOAM LIVING",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_logo (1).png"
+  },
+  {
+   "brand": null,
+   "name": "המטבח",
+   "nameEn": "Kitchen Collection",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_צילום מסך 2026-01-13 153155.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב בנימינה",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_LogoTransparent.png"
+  },
+  {
+   "brand": null,
+   "name": "Adsea תכשיטים",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_צילום מסך 2026-02-12 144829.png"
+  },
+  {
+   "brand": null,
+   "name": "Cheers",
+   "nameEn": "Cheers",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1780234912.png"
+  },
+  {
+   "brand": null,
+   "name": "Noor Glamping",
+   "nameEn": "Noor Glamping",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_5_NOOR.png"
+  },
+  {
+   "brand": null,
+   "name": "inhale exhale",
+   "nameEn": "inhale exhale",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776171802.png"
+  },
+  {
+   "brand": null,
+   "name": "SHAKA קוקטיילים",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777556919.png"
+  },
+  {
+   "brand": null,
+   "name": "צעצועי עוזי",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_צעצועי עוזי.png"
+  },
+  {
+   "brand": null,
+   "name": "הילולה",
+   "nameEn": "Hillula",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת צ'אנג בה",
+   "nameEn": "Chang Ba",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_צאנג בה לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "וויסקי קָנוֹסְקֵה",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776178086.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The Whisky Embassy",
+   "nameEn": "The Whisky Embassy",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_צילום מסך 2026-02-16 155625.png"
+  },
+  {
+   "brand": null,
+   "name": "בירליך",
+   "nameEn": "beerlich",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1781003217.png"
+  },
+  {
+   "brand": null,
+   "name": "הבורסה לתכשיטים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776250366.png"
+  },
+  {
+   "brand": null,
+   "name": "נעלי פאולה",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_פאולה.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון בריאה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788693117.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "בוצ'רי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_butch.jpg"
+  },
+  {
+   "brand": null,
+   "name": "flybyfly",
+   "nameEn": "flybyfly",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776318249.png"
+  },
+  {
+   "brand": null,
+   "name": "סו סושי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776369112.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "מילקה בר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776370168.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת הצדף",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776370578.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "הכל ב-סדר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776370914.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "תכשיטי SHAYARA",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_Gemini_Generated_Image_eavf6meavf6meavf.png"
+  },
+  {
+   "brand": null,
+   "name": "בול קקטוס",
+   "nameEn": "BOOL CACTUS",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/BOOL_CACTUS_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Go Luggage",
+   "nameEn": "Go Luggage",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Go-Luggage-logo-original-120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פופינה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/7_logo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כרמל דיירקט",
+   "nameEn": "Carmel Direct",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/CARMEL_DIRECT_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "איתי ברנדס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_ITAY.png"
+  },
+  {
+   "brand": null,
+   "name": "מוזה קוקטיילים",
+   "nameEn": "MUZA COCETAILS",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/MUZA-LOGO_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - הרודס ת\"א",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777969416.png"
+  },
+  {
+   "brand": null,
+   "name": "אסופה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Asufa_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דיקסי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_DIXIE_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת מונא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_מונא_לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "פילדלפיה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_phili_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - ניקס הרצליה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777970378.png"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - מלון Tamara אשקלון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/7_sharespabig.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - מלון U Coral Beach",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777969507.png"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - הרודס הרצליה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777970236.png"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - Mirable Plaza",
+   "nameEn": "Share Spa - Mirable Plaza",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/34_sharespabig.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - מלון City Tower",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_sgare.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רוזן ומינץ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/ROSEN_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יוליה בנמל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_yulia.jpg"
+  },
+  {
+   "brand": null,
+   "name": "peteat",
+   "nameEn": "peteat",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/peteat.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קרטרס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Carters.png"
+  },
+  {
+   "brand": null,
+   "name": "קלארו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_1_Claro.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יפו תל אביב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_Yaffo Tel Aviv.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קאב קם",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_Kab Kem.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ניין ווסט NINE WEST",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/NINE WEST.png"
+  },
+  {
+   "brand": null,
+   "name": "CALL IT SPRING",
+   "nameEn": "CALL IT SPRING",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/CALL IT SPRING.png"
+  },
+  {
+   "brand": null,
+   "name": "לי קופר קידס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Lee Cooper KIDS.png"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - יו קורל ביץ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_1_sharelogo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Mr.Pretzels",
+   "nameEn": "Mr.Pretzels",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_prezel_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "באבא יאגה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_babayaga_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פראטלי",
+   "nameEn": "Frateli",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776437857.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "חוות נעמי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_חוות נעמי (1).png"
+  },
+  {
+   "brand": null,
+   "name": "מלון ליר",
+   "nameEn": "Lear Hotel",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_ליר.png"
+  },
+  {
+   "brand": null,
+   "name": "B PURE-CLINIC",
+   "nameEn": "B PURE-CLINIC",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו מפייסבוק (1).jpg"
+  },
+  {
+   "brand": null,
+   "name": "קאלמה ספא- דן פנורמה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777202278.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קאלמה ספא-פולי אורבן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777202482.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סטקיית הבוקרים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_BOKRIM_120X120_TLV.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בוקסאיל",
+   "nameEn": "boxil",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/צילום מסך 2026-02-09 170939.png"
+  },
+  {
+   "brand": null,
+   "name": "6 במאי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/62_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "טיפול במים טהר קליינר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/TOHAR_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא קראון קלאב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_CROWN_CLUB_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מנטרה ספא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_מנטרה לוגו.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Y SPA מלון יהודה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_YSPA.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פלמינגו ספא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776170889.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון שומאכר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_2_shumacherlogo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון שטרקמן ארנה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_2_erna.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון טל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_TAL_LOGOS-1-168.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון מלודי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_MELODY_LOGOS-1-1616.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון מרקט האוס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_MARKET HOUS_LOGOS-1-167.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון סינמה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_CINEMA_LOGOS-1-162.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון סנטר שיק",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_CENTER_LOGOS-1-16.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון פבריק",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_FABRIC_LOGOS-1-1615.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון שלום & רילקס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_SHALOM_LOGOS-1-169.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון ווסט תל אביב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_WEST.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קנטינה סן רמו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_2_לוגו קנטינה סן רמו  (1).png"
+  },
+  {
+   "brand": null,
+   "name": "גלובל און ליין",
+   "nameEn": "G STORE",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/concept_store.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון Savoy",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_2_savoy.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון ברידצ'בסקי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_berdichevsky.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קזינו סן רמו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/קזינו סאן.png"
+  },
+  {
+   "brand": null,
+   "name": "LeoBus חופשה בצפון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_2_leobus.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גרקו - הרצליה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_9_GREKO_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גרקו - ת\"א",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_9_GREKO_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גרקו דלי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_9_GREKO_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פאפיאנו - טירת הכרמל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_PAPINO_120X120 (1).jpg"
+  },
+  {
+   "brand": null,
+   "name": "צ'וצ'ו פאטיו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_CHUCHU_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נעלי נמרוד",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/NIMROD_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מטאור תצפיות כוכבים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1781789542.png"
+  },
+  {
+   "brand": null,
+   "name": "אורבן ג׳ירפה",
+   "nameEn": "Urban Giraffa",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/13_LOGO.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "מרינה דלאל",
+   "nameEn": "House of dallal",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_דלאל.png"
+  },
+  {
+   "brand": null,
+   "name": "פול גיימס - מתחם אטרקציות",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1789884015.png"
+  },
+  {
+   "brand": null,
+   "name": "יינא - מרתף יין על גלגלים",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_large-Logo 4 Black 1080 x 1080.png"
+  },
+  {
+   "brand": null,
+   "name": "מונק עיצוב",
+   "nameEn": "monc design",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_צילום מסך 2026-02-22 162103.png"
+  },
+  {
+   "brand": null,
+   "name": "לופו - בר כפר סבא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_544991266_809139201623245_5254349634329248121_n.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון מואה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_מואה.png"
+  },
+  {
+   "brand": null,
+   "name": "Hili’s",
+   "nameEn": "Hili’s",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_IMG_1146.jfif"
+  },
+  {
+   "brand": null,
+   "name": "שלומית שוסטר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_LOGO שלומית שוסטר.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "נולה",
+   "nameEn": "NOLA",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1790152036.png"
+  },
+  {
+   "brand": null,
+   "name": "מנזה",
+   "nameEn": "Menza",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_מנזה.png"
+  },
+  {
+   "brand": null,
+   "name": "HOMEGROWN PRO",
+   "nameEn": "HOMEGROWN PRO",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "Miadera Home",
+   "nameEn": "Miadera Home",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1782826194.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "GOOM",
+   "nameEn": "GOOM",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776928899.png"
+  },
+  {
+   "brand": null,
+   "name": "כרמלה",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1782895047.png"
+  },
+  {
+   "brand": null,
+   "name": "לילי רוז",
+   "nameEn": "Lily Rose",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_צילום מסך 2025-11-19 163507.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה טאיזו",
+   "nameEn": "Cafe Taizu",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_קפה טאיזו לוגו.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נאוה בריאות",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1791455163.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב פתורה",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_ptora-logo.31352292118965b5826f6839e5ce3b1d.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קאמי - מלון סוויטות בוטיק גליל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_קאמי.png"
+  },
+  {
+   "brand": null,
+   "name": "אקוסאפ",
+   "nameEn": "ecosupp",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1784543263.png"
+  },
+  {
+   "brand": null,
+   "name": "אלטרה",
+   "nameEn": "Altra Running",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_אלטרה.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה מורו",
+   "nameEn": "Moro Tel Aviv",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777357627.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בשרים fuego‎",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/32_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב אסף",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_black-01.png"
+  },
+  {
+   "brand": null,
+   "name": "ספרה מלונאות ונופש בע\"מ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_19_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "Urban Retro Garden",
+   "nameEn": "Urban Retro Garden",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_אורבן.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון לוגאין - מונוכרום",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_MONOCHROME-LOGO.png"
+  },
+  {
+   "brand": null,
+   "name": "סלון יווני - סניף ראשון לציון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_8_3_סלון יווני.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סלון יווני - ירושלים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_8_3_סלון יווני.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קופי בלוק",
+   "nameEn": "Kopi Blok",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו צבעוני_ (1).png"
+  },
+  {
+   "brand": null,
+   "name": "הסושיה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1784720125.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון לוגאין - סוואנה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_צילום מסך 2025-08-28 145308.png"
+  },
+  {
+   "brand": null,
+   "name": "מבשלת בירה אלכסנדר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_441883569_967070608757442_6152497078869289608_n.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב תל שיפון",
+   "nameEn": "Tel Shifon Winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_טל.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בזיליה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_בזיליה.png"
+  },
+  {
+   "brand": null,
+   "name": "קימל בגלבוע",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_53_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "טעימים",
+   "nameEn": "Teimim",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_teimim_21.webp"
+  },
+  {
+   "brand": null,
+   "name": "הלנה",
+   "nameEn": "HELENA",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_צילום מסך 2025-02-11 104520.png"
+  },
+  {
+   "brand": null,
+   "name": "שלומית אופיר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_שלומית אופיר.png"
+  },
+  {
+   "brand": null,
+   "name": "ג'ירפה G-raffa יינות בוטיק",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_g-raffa-logo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אירבוריאן מוצרי טיפוח קוריאני",
+   "nameEn": "Erborian Israel Korean Skin Therapy",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_Logo Erborian-2023_horizontal_rouge_noir (2).png"
+  },
+  {
+   "brand": null,
+   "name": "HOLYLAND CIVILIANS",
+   "nameEn": "HOLYLAND CIVILIANS",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1786976575.png"
+  },
+  {
+   "brand": null,
+   "name": "ישראלה טריוויה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1786977141.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "PlaySmart - מוצרים חינוכיים",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/צילום מסך 2025-12-31 110450.png"
+  },
+  {
+   "brand": null,
+   "name": "MUSHLAM",
+   "nameEn": "MUSHLAM",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779784690.png"
+  },
+  {
+   "brand": null,
+   "name": "Body Motion Studios",
+   "nameEn": "Body Motion Studios",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LOGO Body motion.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Princess K",
+   "nameEn": "Princess K",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779785696.png"
+  },
+  {
+   "brand": null,
+   "name": "house of GON",
+   "nameEn": "house of GON",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_LOGO GON.png"
+  },
+  {
+   "brand": null,
+   "name": "קואלה",
+   "nameEn": "KUALA",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776694270.png"
+  },
+  {
+   "brand": null,
+   "name": "גן סטודיו",
+   "nameEn": "Gan studio",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_logo - gan stuudio.png"
+  },
+  {
+   "brand": null,
+   "name": "Moroccanoil",
+   "nameEn": "Moroccanoil",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/MO logo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הפי המפי",
+   "nameEn": "Happy Hempy",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_large-Logo happy hempy sticker.png"
+  },
+  {
+   "brand": null,
+   "name": "פיצה kezo",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/32_לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "קרביץ",
+   "nameEn": "Kravitz",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_kravitz_logo (002)0.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Garo Express מעדניה איטלקית",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_גרקו.png"
+  },
+  {
+   "brand": null,
+   "name": "marmor-house",
+   "nameEn": "marmor-house",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1779970313.png"
+  },
+  {
+   "brand": null,
+   "name": "Blis top tactical solutions",
+   "nameEn": "Blis top tactical solutions",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_blend010724103738.png"
+  },
+  {
+   "brand": null,
+   "name": "Earth Rated",
+   "nameEn": "Earth Rated",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_120x120.png"
+  },
+  {
+   "brand": null,
+   "name": "תה עדנים",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776168338.png"
+  },
+  {
+   "brand": null,
+   "name": "FESTIVE",
+   "nameEn": "FESTIVE",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1780212127.png"
+  },
+  {
+   "brand": null,
+   "name": "בון סטריט",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1786429426.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קימוראיה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776176876.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "SHINE NEON",
+   "nameEn": "SHINE NEON",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_שיין ניאון.png"
+  },
+  {
+   "brand": null,
+   "name": "Port Home Design",
+   "nameEn": "Port Home Design",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_Port Home Design.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה בנימינה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_4_קפה בנימינה.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב סקוריה",
+   "nameEn": "Scoria Winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_צילום מסך 2026-01-18 113041.png"
+  },
+  {
+   "brand": null,
+   "name": "דנים בר",
+   "nameEn": "Denim Bar",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1788420075.png"
+  },
+  {
+   "brand": null,
+   "name": "צ'וזן",
+   "nameEn": "Chozen",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/14_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב פייב סטונס",
+   "nameEn": "Five Stones Vineyards",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_FIVE.png"
+  },
+  {
+   "brand": null,
+   "name": "ליאת ולדמן",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_LOGO.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "Elit swimwear",
+   "nameEn": "Elit swimwear",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_Elit swimwear.png"
+  },
+  {
+   "brand": null,
+   "name": "בלאגו איטלקית באגם",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776369274.png"
+  },
+  {
+   "brand": null,
+   "name": "טרסה בוטניקה",
+   "nameEn": "Botanica Terrace",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776369393.png"
+  },
+  {
+   "brand": null,
+   "name": "אקיקו סושי בר",
+   "nameEn": "Akiko Japanese Sushi Bar",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776369830.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "זסט פקטורי",
+   "nameEn": "Zest",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776371051.png"
+  },
+  {
+   "brand": null,
+   "name": "מייזון קייזר",
+   "nameEn": "Maison kayser",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776371378.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מא פאו מטבח הודי מסורתי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1781523364.png"
+  },
+  {
+   "brand": null,
+   "name": "BLISS",
+   "nameEn": "BLISS",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_base_logo_white_background.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת a",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776372092.png"
+  },
+  {
+   "brand": null,
+   "name": "אייסים סימולטור טיסה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_asim.png"
+  },
+  {
+   "brand": null,
+   "name": "מרכז הרצל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_hertzel_120120.png"
+  },
+  {
+   "brand": null,
+   "name": "איזי ריידר שטח עולמי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_red_sea.png"
+  },
+  {
+   "brand": null,
+   "name": "דרך העץ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/derech (1).png"
+  },
+  {
+   "brand": null,
+   "name": "גלאקסיה ספינת זכוכית",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_galaxy.png"
+  },
+  {
+   "brand": null,
+   "name": "הצנחניה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_zanchania.png"
+  },
+  {
+   "brand": null,
+   "name": "חוף קיסוסקי אילת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_kisuski.png"
+  },
+  {
+   "brand": null,
+   "name": "חי פארק קריית מוצקין",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_HAI_PARK_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חלום עולמי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_chalom.png"
+  },
+  {
+   "brand": null,
+   "name": "טורנדו אילת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_tornado.png"
+  },
+  {
+   "brand": null,
+   "name": "טייפון הרחפת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_TYPHOON_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טרקטורוני הצפון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_TRAKTORON_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פארק מיני ישראל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_mini.png"
+  },
+  {
+   "brand": null,
+   "name": "קייקי הגושרים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_HAGOSHRIM_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קיפצובה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_KIFZOBA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת פאנקי מאנקי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_PANKI_MONKEY_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קנטרו",
+   "nameEn": "Kantero",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/358677901_674313771384888_4088113961390591492_n (1).png"
+  },
+  {
+   "brand": null,
+   "name": "הקולה בעיר",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776372687.png"
+  },
+  {
+   "brand": null,
+   "name": "PLAY Hotel Eilat",
+   "nameEn": "PLAY Hotel Eilat",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776373003.png"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - תמרה אשקלון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776435679.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - סיטי טאוור רמת גן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777970424.png"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - מגיק גרדן נשר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1777970129.png"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - דן ירושלים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776435986.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הזקן והיין",
+   "nameEn": "The Old Man & The Wine",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1781788829.png"
+  },
+  {
+   "brand": null,
+   "name": "ניני צ'ו",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "עולם של שטיחים",
+   "nameEn": "BuyCarpet",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/326577008_1634061737025601_7482850388996021495_n.jpg"
+  },
+  {
+   "brand": null,
+   "name": "UNIPOP",
+   "nameEn": "UNIPOP",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1782037140.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה שלווה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_shalva_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Picasso by Eran Shvartzbard",
+   "nameEn": "Picasso by Eran Shvartzbard",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_פיקאסו.png"
+  },
+  {
+   "brand": null,
+   "name": "שפרה – מעדניה מבית פועה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_לוגו שפרה.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דובנוב 8",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_278949252_2289565961182562_7600670561810728686_n.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת דלאל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_טאביט לוגו שחור (002).png"
+  },
+  {
+   "brand": null,
+   "name": "אופנת קסארה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/WhatsApp Image 2024-09-03 at 15.24.34.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "דיימונדס מיט",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1780220620.png"
+  },
+  {
+   "brand": null,
+   "name": "מנשאים Lamer",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_WhatsApp Image 2024-11-14 at 13.25.27.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "מאמאלה",
+   "nameEn": "mamale",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1782817638.png"
+  },
+  {
+   "brand": null,
+   "name": "אתא ATA",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו אתא .png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פופ אנד פופ",
+   "nameEn": "Pop&Pope",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1790232546.png"
+  },
+  {
+   "brand": null,
+   "name": "מינאטו",
+   "nameEn": "Minato",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_images.png"
+  },
+  {
+   "brand": null,
+   "name": "חינאווי ג'ורג'",
+   "nameEn": "Wine&More",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_משקאות.png"
+  },
+  {
+   "brand": null,
+   "name": "משק מלר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/משק מלר.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון שדות",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_312376161_486782646828268_8932738090442082863_n.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SAM EDELMAN",
+   "nameEn": "SAM EDELMAN",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/sam-edelman.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MINUS 417 Cosmetics",
+   "nameEn": "MINUS 417 Cosmetics",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776314090.png"
+  },
+  {
+   "brand": null,
+   "name": "CHOOPY",
+   "nameEn": "CHOOPY",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_CHOOPY.png"
+  },
+  {
+   "brand": null,
+   "name": "סיטארה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Seatara.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת ליפתא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1791378491.png"
+  },
+  {
+   "brand": null,
+   "name": "SLAV&SO",
+   "nameEn": "SLAV&SO",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776931650.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה נדנדה",
+   "nameEn": "Nadneda cafe",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1784110697.png"
+  },
+  {
+   "brand": null,
+   "name": "אפרודיטה",
+   "nameEn": "Afrodita",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_409965329_674187211466275_4735629152580826633_n.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בוניטה דה מאס",
+   "nameEn": "Bonita de Mas",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/bonita_de_mas_logo (003).png"
+  },
+  {
+   "brand": null,
+   "name": "עגלת קפה המנחמת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_hamenahemet-profile.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Petit Loup",
+   "nameEn": "Petit Loup",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1784707291.png"
+  },
+  {
+   "brand": null,
+   "name": "פוקצ'ה בר",
+   "nameEn": "Focaccia Bar",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_3_פוקצה בר.png"
+  },
+  {
+   "brand": null,
+   "name": "קאזה בלה",
+   "nameEn": "Casa Bella",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/casa bella.png"
+  },
+  {
+   "brand": null,
+   "name": "VOLT swimwear",
+   "nameEn": "VOLT swimwear",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/VOLT.png"
+  },
+  {
+   "brand": null,
+   "name": "מקס ברנר ריטייל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_מקס ברנר לוגו.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב בן-חיים",
+   "nameEn": "Benhaim Winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_יקב בן חיים.png"
+  },
+  {
+   "brand": null,
+   "name": "סלון יווני - סניף הרצליה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_8_3_סלון יווני.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יוגה שאלה יפו",
+   "nameEn": "Yoga Shala Jaffa",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_יוגה שאלא יפו LOGO.png"
+  },
+  {
+   "brand": null,
+   "name": "אורדמן ORD COUTURE",
+   "nameEn": "Comfort Apparel & More",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_אורדמן.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מאייר האוס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_large-לוגו מאייר האוס.png"
+  },
+  {
+   "brand": null,
+   "name": "ניני האצ'י",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_2_ניני האצי.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב בן זמרה",
+   "nameEn": "Ben Zimra winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_LOGO_BZ (3).jpg"
+  },
+  {
+   "brand": null,
+   "name": "סושי נוצי (כשר)",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_NuchiSushi_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "White Villa Tel Aviv",
+   "nameEn": "White Villa Tel Aviv",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_Villa White Logo (002).png"
+  },
+  {
+   "brand": null,
+   "name": "U-name-it",
+   "nameEn": "U-name-it",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/יונייפאיט.png"
+  },
+  {
+   "brand": null,
+   "name": "מילגה",
+   "nameEn": "milega",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/milega_logo (002).png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פסטלה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_פסטלה.png"
+  },
+  {
+   "brand": null,
+   "name": "נטע אפרתי",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_WhatsApp Image 2024-09-24 at 15.44.01.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "ELKONIN TEL AVIV HOTEL",
+   "nameEn": "ELKONIN TEL AVIV HOTEL",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/ELKONIN.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סינטה",
+   "nameEn": "Sinta",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_סינטה.png"
+  },
+  {
+   "brand": null,
+   "name": "Yauza",
+   "nameEn": "Yauza",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_yauza100X100.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כפריס יהלומים",
+   "nameEn": "Caprice",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1785131511.png"
+  },
+  {
+   "brand": null,
+   "name": "הומסטייל",
+   "nameEn": "Homestyle",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_לוגו (1).jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת ZO",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_ZO מסעדת שף אסייתית LOGO.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "טרופיקל בלוקס",
+   "nameEn": "Tropical Blocks",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/41_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "פיקניק",
+   "nameEn": "Picnic",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_צילום מסך 2025-12-11 105958.png"
+  },
+  {
+   "brand": null,
+   "name": "3030 - ספא & חמאם",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/large-ספא 3030 לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת מסעדות מקס ברנר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_הורדה (6).png"
+  },
+  {
+   "brand": null,
+   "name": "באלאנס מרכז לרפואה משלימה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1786601827.png"
+  },
+  {
+   "brand": null,
+   "name": "אאוטסיידרס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Outsiders.png"
+  },
+  {
+   "brand": null,
+   "name": "שדה ארומטיקס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/שדה לוגו.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "ספידו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Speedo.png"
+  },
+  {
+   "brand": null,
+   "name": "Sahara",
+   "nameEn": "Professional Hair Products",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_סהרה.png"
+  },
+  {
+   "brand": null,
+   "name": "טלוש מתנות לידה מעוצבות",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_large-talush logo.png"
+  },
+  {
+   "brand": null,
+   "name": "זוטא - מעדנייה מהגליל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/לוגו-זוטא-עם-רקע-לבן.png"
+  },
+  {
+   "brand": null,
+   "name": "‏טיפטופי - משחקי איזון ותנועה",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1787056277.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אוליאה - מתחם אירוח",
+   "nameEn": "Olea",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1787206022.png"
+  },
+  {
+   "brand": null,
+   "name": "TAKEANAP",
+   "nameEn": "TAKEANAP",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/לוגו להייטקזון.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב סומק",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_לוגו - שחור.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס פילאטיס מכשירים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_הולמס.png"
+  },
+  {
+   "brand": null,
+   "name": "Jusa Cold Pressed",
+   "nameEn": "Jusa Cold Pressed",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_justnew.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת מנרה (מבית TYO)",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_MANARA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The Little Brgr Shop",
+   "nameEn": "The Little Brgr Shop",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_The Little Brgr Shop.png"
+  },
+  {
+   "brand": null,
+   "name": "תכשיטים ויהלומים Dflawless",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_ללא שם.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לייפסטייל סביבתי איכותי",
+   "nameEn": "Yoozit",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/big-images (5).png"
+  },
+  {
+   "brand": null,
+   "name": "סטודיו קעקועים BIG HEART",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_WhatsApp Image 2025-06-11 at 12.34.39.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "טיטניום - יבואן המזוודות הרשמי",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_טיטניום.png"
+  },
+  {
+   "brand": null,
+   "name": "קפטן הוק בפשפשים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/HOOK_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "התרנגול הכחול",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_תרנגול כחול.png"
+  },
+  {
+   "brand": null,
+   "name": "Camel Mountain",
+   "nameEn": "Camel Mountain",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/cm-circle-logo-with-trademark-larger.png"
+  },
+  {
+   "brand": null,
+   "name": "הוט קראון",
+   "nameEn": "Hot Crown",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/הוטקראון.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אידי דגים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_359819642_694960169310214_720711601714460324_n.png"
+  },
+  {
+   "brand": null,
+   "name": "ELADAN",
+   "nameEn": "ELADAN",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776171054.png"
+  },
+  {
+   "brand": null,
+   "name": "אותנטיק",
+   "nameEn": "Otentik",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Otentik_Logo (002).jpg"
+  },
+  {
+   "brand": null,
+   "name": "THE VIEW",
+   "nameEn": "THE VIEW",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_לוגו מסעדה.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "טוני ואסתר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/TONI_ESTER.jpg"
+  },
+  {
+   "brand": null,
+   "name": "באקארו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Bucaroo_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אברטו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_1_Aberto.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קיוטו - הרצליה",
+   "nameEn": "KYOTO",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_קיוטו הרצליה.png"
+  },
+  {
+   "brand": null,
+   "name": "Baby Brezza",
+   "nameEn": "Baby Brezza",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_BABY.png"
+  },
+  {
+   "brand": null,
+   "name": "אונזה",
+   "nameEn": "ONZA‏",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_ONZA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JOY - מארזים בעיצוב אישי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LOGO.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון אלבי ירושלים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_albi-hotels.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Body & Soul",
+   "nameEn": "Body & Soul",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/צילום מסך 2026-01-18 083950.png"
+  },
+  {
+   "brand": null,
+   "name": "bina &bino",
+   "nameEn": "bina &bino",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LOGO Bina _ Bino.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "בייבי טבע",
+   "nameEn": "baby teva",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LOGO בייבי טבע.png"
+  },
+  {
+   "brand": null,
+   "name": "Bretonne",
+   "nameEn": "Bretonne",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_Bretonne.webp"
+  },
+  {
+   "brand": null,
+   "name": "פיתה לוינסקי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1781522336.png"
+  },
+  {
+   "brand": null,
+   "name": "MeBook.AI",
+   "nameEn": "MeBook.AI",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/MeBook Logo 1.png"
+  },
+  {
+   "brand": null,
+   "name": "ג׳וניפר בר קוקטיילים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1781522755.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גוסטינו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Layer 16.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מכלול",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/מכלול (002).png"
+  },
+  {
+   "brand": null,
+   "name": "ג'אסט מיוזיק",
+   "nameEn": "JUST MUSIC‏",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Artboard 17 copy 6 (Medium).png"
+  },
+  {
+   "brand": null,
+   "name": "אלכסנדר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_Layer 18.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פיורי פרחים",
+   "nameEn": "flori flowers",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/צילום מסך 2024-08-28 100235.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לונה סרף",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_luna_surf.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא ריביירה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_8574145.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הלובי (כשר למהדרין)",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_HaLOBI_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "המלבייה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_amalabia_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "וילה מארה תל אביב",
+   "nameEn": "Villa MARE TLV",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_4_Vila Mare Logo (002).png"
+  },
+  {
+   "brand": null,
+   "name": "מוזיאון הפסיפס לוד",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_psifas_lud.png"
+  },
+  {
+   "brand": null,
+   "name": "Share Spa - בכר האוס תל אביב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776435568.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סושי בוקס מודיעין",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_לוגו סושי בוקס מודיעין .jpeg"
+  },
+  {
+   "brand": null,
+   "name": "גל במדבר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/גל במדבר.png"
+  },
+  {
+   "brand": null,
+   "name": "linera",
+   "nameEn": "linera",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/linera-03 (1).png"
+  },
+  {
+   "brand": null,
+   "name": "מלון Bell",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776436216.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון האפנדי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776436337.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בועה סדנאות בירה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_bua.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון סלונס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776436465.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ריטריט להורים טריים ושירות אחי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776436768.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "יקב אבן-רם",
+   "nameEn": "Even-Ram",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_אבן רון.png"
+  },
+  {
+   "brand": null,
+   "name": "גבינות ברמות",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_gvinot.png"
+  },
+  {
+   "brand": null,
+   "name": "יאן סושי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_יאן.jpg"
+  },
+  {
+   "brand": null,
+   "name": "וילה אלבי מחנה יהודה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1786248906.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב בזלת הגולן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/צילום מסך 2025-01-13 143628.png"
+  },
+  {
+   "brand": null,
+   "name": "PLAY Levontin Hotel Tel Aviv",
+   "nameEn": "PLAY Levontin Hotel Tel Aviv",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776439558.png"
+  },
+  {
+   "brand": null,
+   "name": "כפר הנוקדים - אי ירוק במדבר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_nokdim.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון שלם-ירושלים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776439700.png"
+  },
+  {
+   "brand": null,
+   "name": "עגלת קפה לילו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_305264834_503507345114942_6341492020647875431_n.jpg"
+  },
+  {
+   "brand": null,
+   "name": "PLAY Midtown Tel Aviv Hotel",
+   "nameEn": "PLAY Midtown Tel Aviv Hotel",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776439827.png"
+  },
+  {
+   "brand": null,
+   "name": "CeraMora",
+   "nameEn": "CeraMora",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/custom_thumbnail_large.png"
+  },
+  {
+   "brand": null,
+   "name": "MILA - מלון בוטיק במושבה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/20_לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "JOULOU",
+   "nameEn": "JOULOU",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/JouLou_FacebookProfile_0016 (002).png"
+  },
+  {
+   "brand": null,
+   "name": "אקסטרים ישראל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/logobig10-1536x615.png"
+  },
+  {
+   "brand": null,
+   "name": "מבשלים חוויה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_mevashlim.png"
+  },
+  {
+   "brand": null,
+   "name": "סלקשיין",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_24367562_1636370460531 (1).jpeg"
+  },
+  {
+   "brand": null,
+   "name": "מלון עדן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_logo2-stacked.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת חוף מיה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_חוף מיה.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון נואל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_noel-hotel.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ערבסק",
+   "nameEn": "Arabesque",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/צילום מסך 2026-01-23 193828.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון רובי",
+   "nameEn": "Ruby Hotel",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_מלון רובי.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מתחם דירות קייפ דור",
+   "nameEn": "Cape Dor",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_2_קייפ דור.png"
+  },
+  {
+   "brand": null,
+   "name": "בית של סבון",
+   "nameEn": "La maison du savon",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/סבון.png"
+  },
+  {
+   "brand": null,
+   "name": "טיולי לב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_tiyuly_lev.png"
+  },
+  {
+   "brand": null,
+   "name": "מוזיאון רמת גן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/לוגו (005).png"
+  },
+  {
+   "brand": null,
+   "name": "מקסיקנה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/mexicana_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון 65",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_65_LOGOS-1-164.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון ארטיסט",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_ARTIST_LOGOS-1-1610.png"
+  },
+  {
+   "brand": null,
+   "name": "יאללה באסטה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_yalla_basta.png"
+  },
+  {
+   "brand": null,
+   "name": "סיורי ברים בת\"א",
+   "nameEn": "D- TLV Pub Crawl",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_לוגו (006).png"
+  },
+  {
+   "brand": null,
+   "name": "מלון ארתור",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_ARTUR_LOGOS-1-1611.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון בצלאל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_BETZALEL_LOGOS-1-163.png"
+  },
+  {
+   "brand": null,
+   "name": "קונדיטוריית דלאל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_the_bakery_logo (002).png"
+  },
+  {
+   "brand": null,
+   "name": "מלון בקסטייג'",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_Backstage_Cafe_Logo_Black (002).png"
+  },
+  {
+   "brand": null,
+   "name": "מלון הרמוני",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_HARMONY_LOGOS-1-165.png"
+  },
+  {
+   "brand": null,
+   "name": "סטודיו בוטיק לעיצוב בבטון",
+   "nameEn": "Design Patterns",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LOGO (002) בטון.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "ישראל 2 גו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_israel2go.gif"
+  },
+  {
+   "brand": null,
+   "name": "חוות סוסים צהלה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/10_לוגו (002).png"
+  },
+  {
+   "brand": null,
+   "name": "פטלינה - ביסטרו שכונתי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_פטלינה.webp"
+  },
+  {
+   "brand": null,
+   "name": "מגבות אלכסנדר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/11_logo (002).png"
+  },
+  {
+   "brand": null,
+   "name": "מלון ים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_1_YAM_LOGOS-1-166.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון נווה אילת (נובה)",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_NIVA LIKE_LOGOS-1-1614.png"
+  },
+  {
+   "brand": null,
+   "name": "אלנתן תכשיטים סדנת צורפות",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_large-אלנתן לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "מדיטק חולון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_meditech_120120.png"
+  },
+  {
+   "brand": null,
+   "name": "חווימה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/0.png"
+  },
+  {
+   "brand": null,
+   "name": "פוד לידר",
+   "nameEn": "24ICE",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_WhatsApp Image 2024-10-14 at 11.04.45.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "מלון ווסט אשדוד",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_ASH.png"
+  },
+  {
+   "brand": null,
+   "name": "וילה רום אמירים",
+   "nameEn": "Villa Rom Amirim",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "מלכת הבירה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LOGO-RED.png"
+  },
+  {
+   "brand": null,
+   "name": "biamba",
+   "nameEn": "biamba",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/275293027_427561295795513_4610200162230323088_n.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נינג'ה סיטי חיפה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_ninja_city.png"
+  },
+  {
+   "brand": null,
+   "name": "פראנה ספא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_PRANA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כולה ספא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_כולה ספא.png"
+  },
+  {
+   "brand": null,
+   "name": "PIZZA ART",
+   "nameEn": "PIZZA ART",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_ART_PIZZA.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גליה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_Galia Water Therapy logo (002).png"
+  },
+  {
+   "brand": null,
+   "name": "Choose Your Cookies",
+   "nameEn": "Choose Your Cookies",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1__Choose Your Cookies_LOGO (002).png"
+  },
+  {
+   "brand": null,
+   "name": "אדיר אילן - אומן, צייר ומקעקע",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_large-LOGO ADIR ILAN.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "Thinkers Distillery",
+   "nameEn": "Thinkers Distillery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/הורדה (2).jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב קסטל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/כעגד.png"
+  },
+  {
+   "brand": null,
+   "name": "עגלת קפה - הפוכות",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_large-LOGO הפוכות.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "נמש - יצירה בעץ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/294851210_482908293837640_7874174604162793243_n.png"
+  },
+  {
+   "brand": null,
+   "name": "אנו (בית התפוצות)",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_ano_museom.gif"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון Bell",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_bellspa.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מיקסטה קוקטיילס",
+   "nameEn": "Mixta Cocktails",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/large-לוגו מיקסטה .jpeg"
+  },
+  {
+   "brand": null,
+   "name": "ספא זמארין",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_zermainlittlespa.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ג'ונגל כיף",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_הורדה (2).png"
+  },
+  {
+   "brand": null,
+   "name": "בוטיק השוקולד דה קרינה",
+   "nameEn": "DE KARINA",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1792054073.png"
+  },
+  {
+   "brand": null,
+   "name": "סלואו דיינינג מורן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_1_MORAN_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פינתי כפר עציון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/11_הורדה (3).png"
+  },
+  {
+   "brand": null,
+   "name": "סטלה ביץ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_2_צילום מסך 2024-08-11 155731.png"
+  },
+  {
+   "brand": null,
+   "name": "A spa",
+   "nameEn": "A spa",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/513616_66b87c3f3edae.png"
+  },
+  {
+   "brand": null,
+   "name": "משק לין",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_משק לין.png"
+  },
+  {
+   "brand": null,
+   "name": "מצנחי הים האדום",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_yam-adom.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון לוגאין - סיליקאט",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_צילום מסך 2025-08-28 145800.png"
+  },
+  {
+   "brand": null,
+   "name": "אילן גורי מוצרי טיפוח לשיער",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_5_גורי.png"
+  },
+  {
+   "brand": null,
+   "name": "תחביבן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_logo (002).png"
+  },
+  {
+   "brand": null,
+   "name": "Lilya- Home Perfume",
+   "nameEn": "Lilya- Home Perfume",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/lilya.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון לוגאין - פיקסל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_צילום מסך 2025-08-28 145819.png"
+  },
+  {
+   "brand": null,
+   "name": "ארטה דה טרה",
+   "nameEn": "Artedterra",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_ארטה.png"
+  },
+  {
+   "brand": null,
+   "name": "Woman Cosmetics",
+   "nameEn": "Woman Cosmetics",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/WhatsApp-Image-2024-07-17-at-19 (002).jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון גלי כנרת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_MANDRIN_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כפר הנופש גונן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_נופי גונן.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יאסו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/logo2.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הגלריה- קיבוץ נאות מרדכי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LOGO הגלריה-קיבוץ נאות מרדכי.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "סמביוזי אמזוניקה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/סמביוזה לוגו.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חוות רום",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/חוום רום.png"
+  },
+  {
+   "brand": null,
+   "name": "PLAY Seaport Tel Aviv",
+   "nameEn": "PLAY Seaport Tel Aviv",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_SEAPORT.png"
+  },
+  {
+   "brand": null,
+   "name": "Enjoy Dead Sea Hotel",
+   "nameEn": "Enjoy Dead Sea Hotel",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_2_ENJOY.png"
+  },
+  {
+   "brand": null,
+   "name": "אינסטבלוק",
+   "nameEn": "Instablock",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/__logo-2-עותק.png"
+  },
+  {
+   "brand": null,
+   "name": "סטודיו נעים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/NAIM_HATUL_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אגם הוצאה לאור",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_big-Agam_logo.png"
+  },
+  {
+   "brand": null,
+   "name": "נולה סדנאות וארוחות שף",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/NOOLA_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Devine",
+   "nameEn": "Devine",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_devine-logo-לוגו.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בייבי סטורי",
+   "nameEn": "Baby Sroty",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/logo (002).png"
+  },
+  {
+   "brand": null,
+   "name": "מלון מולאן תל אביב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_לוגו מולאן .jpeg"
+  },
+  {
+   "brand": null,
+   "name": "קבוצת מילאנו",
+   "nameEn": "Milano Group",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/8_הורדה.png"
+  },
+  {
+   "brand": null,
+   "name": "החברים של נובי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_logo Large Trans (1).png"
+  },
+  {
+   "brand": null,
+   "name": "החבית הפרטית שלי",
+   "nameEn": "My Winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו שחור זהב.jpg"
+  },
+  {
+   "brand": null,
+   "name": "I am A Design Studio",
+   "nameEn": "I am A Design Studio",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_large-WhatsApp Image 2024-08-14 at 16.33.23.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "ספא קלרינס",
+   "nameEn": "Spa By Clarins",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/הורדה (7).png"
+  },
+  {
+   "brand": null,
+   "name": "אליסיום",
+   "nameEn": "elysium",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_אליסיום.png"
+  },
+  {
+   "brand": null,
+   "name": "Cabana - Wooden Dreams",
+   "nameEn": "Cabana - Wooden Dreams",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LOGO.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "FINE RITUALS",
+   "nameEn": "FINE RITUALS",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_ללא שם.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Ease swings נדנדות מעוצבות‎",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_Ease swings.png"
+  },
+  {
+   "brand": null,
+   "name": "מלינסדה עכו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_images (9).png"
+  },
+  {
+   "brand": null,
+   "name": "יקב נבו",
+   "nameEn": "Nevo Winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/NEVO.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב טוליפ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_logo Tulip  winery PNG- איכות גבוה.png"
+  },
+  {
+   "brand": null,
+   "name": "shoppu - דברים יפים מיפן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/8_LOGO.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אואזיס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/oasis_logo.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רייבן ספורט",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/raven.png"
+  },
+  {
+   "brand": null,
+   "name": "Bag Store מבית אינטר מותגים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_305048571_105561738964928_65514434544495843_n.png"
+  },
+  {
+   "brand": null,
+   "name": "BEENY",
+   "nameEn": "BEENY",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_24_01_26_01_Benny blue logo-V3 (1).jpg"
+  },
+  {
+   "brand": null,
+   "name": "בי-קיור לייזר",
+   "nameEn": "B-cure Laser",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/13_images.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב טורא",
+   "nameEn": "Tura Winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_לוגו למסך יחצ רקע לבן.png"
+  },
+  {
+   "brand": null,
+   "name": "SIP WINE",
+   "nameEn": "SIP WINE",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/SIP WINE (520 x 488 ממ).png"
+  },
+  {
+   "brand": null,
+   "name": "Wine & Friends",
+   "nameEn": "Wine & Friends",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_WINE.png"
+  },
+  {
+   "brand": null,
+   "name": "משחקיית נוגילולה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_nogilola1.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פלא - שלי גפני",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/pelle-logo-512.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אלאיה פולג",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/large-Copy of לוגו אלאיה-01.png"
+  },
+  {
+   "brand": null,
+   "name": "Be fresh",
+   "nameEn": "Be fresh",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_Befresh.png"
+  },
+  {
+   "brand": null,
+   "name": "סאפ יוגה שדות ים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_yoga.png"
+  },
+  {
+   "brand": null,
+   "name": "משתלת יגור",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_יגור.png"
+  },
+  {
+   "brand": null,
+   "name": "קמפ דיויד ישראל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/camp_david.png"
+  },
+  {
+   "brand": null,
+   "name": "אפרת אילן - גלריה",
+   "nameEn": "Efrat Ilan",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/אפרת אילן LOGO (2).jpeg"
+  },
+  {
+   "brand": null,
+   "name": "אבני אהוה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1787645870.png"
+  },
+  {
+   "brand": null,
+   "name": "סול טורס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_solo_logo.png"
+  },
+  {
+   "brand": null,
+   "name": "בועז שטיין",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "צ'יל פופים",
+   "nameEn": "Chill",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1786429483.png"
+  },
+  {
+   "brand": null,
+   "name": "היפר גוגו",
+   "nameEn": "Hyper gogo",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Untitled-8.png"
+  },
+  {
+   "brand": null,
+   "name": "סייל אילת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_sail.png"
+  },
+  {
+   "brand": null,
+   "name": "MAIKA ציוד ומזון לבעלי חיים",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1787646606.png"
+  },
+  {
+   "brand": null,
+   "name": "LOOPUMP - משאבות הנקה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/לומפה.png"
+  },
+  {
+   "brand": null,
+   "name": "סקיי ג'אמפ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_לוגו (002).png"
+  },
+  {
+   "brand": null,
+   "name": "Chilla Vegan Bags",
+   "nameEn": "Chilla Vegan Bags",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/TRANSPAENT CHILLA LOGO 512X512 (1).png"
+  },
+  {
+   "brand": null,
+   "name": "עגלת קפה קורטאדו",
+   "nameEn": "Cortado Cafe",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/10114526_1673527290969.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "יאכטה מוריה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_moriya.png"
+  },
+  {
+   "brand": null,
+   "name": "Ayuchka",
+   "nameEn": "Ayuchka",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/ayuchka_logo-02.png"
+  },
+  {
+   "brand": null,
+   "name": "זד סקול",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1787654083.png"
+  },
+  {
+   "brand": null,
+   "name": "חוות התבלינים בגלבוע",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/חוות התבלינים.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נעלי בזלת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/לוגו שקוף.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה פועה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_3_מסעדת פועה.png"
+  },
+  {
+   "brand": null,
+   "name": "תיירות יד מרדכי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_yad.png"
+  },
+  {
+   "brand": null,
+   "name": "White Space",
+   "nameEn": "White Space",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/7c8ee445707e17cb6d2ec919ea7ca8b9 (002).png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת דיאנא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/diana_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חבקין צמחי מרפא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_חבקין (1).png"
+  },
+  {
+   "brand": null,
+   "name": "קיר יואב חיפה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_kir-yoav.png"
+  },
+  {
+   "brand": null,
+   "name": "This Is Ayo",
+   "nameEn": "This Is Ayo",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו לאינסטגרם.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SHUGIS - אקססוריז עם פרצופים",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/שוגיז.png"
+  },
+  {
+   "brand": null,
+   "name": "רוג'ום קיר טיפוס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_rujum.png"
+  },
+  {
+   "brand": null,
+   "name": "Baby MIT MIT",
+   "nameEn": "Baby MIT MIT",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/בייבי מיטמיט.jpg"
+  },
+  {
+   "brand": null,
+   "name": "היכל הקרח חולון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_icepeak.png"
+  },
+  {
+   "brand": null,
+   "name": "אקווה ספורט",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/אקווה ספורט.png"
+  },
+  {
+   "brand": null,
+   "name": "פארק תמנע",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/תמנע.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פטרה ביץ בת ים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LOGO_KLALI.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספורטר",
+   "nameEn": "SportEr",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/sporter.png"
+  },
+  {
+   "brand": null,
+   "name": "פסאו",
+   "nameEn": "Paseo",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_6578664.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מרכז נא לגעת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_na-lagaat.jpg"
+  },
+  {
+   "brand": null,
+   "name": "איטלקיה בפשפשים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_לוגו איטלקיה בפשפשים  (1).png"
+  },
+  {
+   "brand": null,
+   "name": "ארמאנני ספא",
+   "nameEn": null
+  },
+  {
+   "brand": null,
+   "name": "אקסטרים ים נהריה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/אקסטרים ים נהריה.png"
+  },
+  {
+   "brand": null,
+   "name": "אומינו סושי",
+   "nameEn": "Umino",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/7_לוגו-צבעוני.pdf-120-×-80-mm-2-1024x683.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ליז קפילוטו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/ליז קפיטולו לוגו.jpg"
+  },
+  {
+   "brand": null,
+   "name": "באמפרס",
+   "nameEn": "Bumpers",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/לוגו שקוף (1) (1).png"
+  },
+  {
+   "brand": null,
+   "name": "מלון Jewel תל אביב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_מלון Jewel תל אביב.png"
+  },
+  {
+   "brand": null,
+   "name": "סילבר בל",
+   "nameEn": "Silver Bell",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/LOGO סילבר בל (1).jpg"
+  },
+  {
+   "brand": null,
+   "name": "Just Believe Jewelry",
+   "nameEn": "Just Believe Jewelry",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_גסטבליב.jpg.png"
+  },
+  {
+   "brand": null,
+   "name": "דמו 364",
+   "nameEn": "DEMO",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/DEMO364.png"
+  },
+  {
+   "brand": null,
+   "name": "The Clean Dot",
+   "nameEn": "The Clean Dot",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_קלין.png"
+  },
+  {
+   "brand": null,
+   "name": "באולינג חוצות המפרץ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_bowling_mifraz.gif"
+  },
+  {
+   "brand": null,
+   "name": "מלון אלבי פלורנטין",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_albi-hotels.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מאור שגיא סדנאות יצירה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/מאור שגיא.webp"
+  },
+  {
+   "brand": null,
+   "name": "יקב גוש עציון",
+   "nameEn": "Gush Etzion Winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_12_לוגו.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת Burgerbox",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_בורגר.webp"
+  },
+  {
+   "brand": null,
+   "name": "Vital Hotel",
+   "nameEn": "Vital Hotel",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_all-grey-1024x649.png"
+  },
+  {
+   "brand": null,
+   "name": "באולינג פארק אשדוד",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_bowling.png"
+  },
+  {
+   "brand": null,
+   "name": "אקסטרים שטח עולמי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/אקסטרים שטח עולמי.png"
+  },
+  {
+   "brand": null,
+   "name": "גלידה פינגוין כפ\"ס התע\"ש",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_2_pingwinnew.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Drisco Hotel",
+   "nameEn": "Drisco Hotel",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_Drisco.png"
+  },
+  {
+   "brand": null,
+   "name": "שצ'ופק - מסעדת דגים ופירות ים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_שצופק - מסעדת דגים ופירות ים.png"
+  },
+  {
+   "brand": null,
+   "name": "שניט מבשלת בירה",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776370783.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דריה עיצוב בבטון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Darya Logo.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב מורד",
+   "nameEn": "Morad Winery",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_Morad Winery יקב מורד.png"
+  },
+  {
+   "brand": null,
+   "name": "ערד טקסטיל",
+   "nameEn": "Arad textile",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_ערד.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא אסאמבלאז",
+   "nameEn": "assemblage",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/3_asemblage (002).jpg"
+  },
+  {
+   "brand": null,
+   "name": "אתגר בהר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/אתגר בהר.png"
+  },
+  {
+   "brand": null,
+   "name": "Smoovee",
+   "nameEn": "Smoovee",
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Logo.png"
+  },
+  {
+   "brand": null,
+   "name": "אחוזת אנילביץ",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_אחוזת אנילביץ.png"
+  },
+  {
+   "brand": null,
+   "name": "אברהם תל אביב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776371801.png"
+  },
+  {
+   "brand": null,
+   "name": "דרבי בר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_2_לוגו דרי בר הרצליה.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אברהם אילת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1776371937.png"
+  },
+  {
+   "brand": null,
+   "name": "פסים ריהוט גן",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_לוגו פסים (1).jpg"
+  },
+  {
+   "brand": null,
+   "name": "מוזיאון העיצוב חולון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_omanuyot_120120.png"
+  },
+  {
+   "brand": null,
+   "name": "ערסלו'ס - ערסלי ישיבה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/WhatsApp Image 2025-04-27 at 12.15.04.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "רשת מלונות מטיילים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1_metaylim.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יערית - סטודיו לעיצוב תכשיטים",
+   "nameEn": null,
+   "onlineRedeem": true,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1789473512.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "רשת ijump",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_ijump.png"
+  },
+  {
+   "brand": null,
+   "name": "אסקייפלנד",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_escape.png"
+  },
+  {
+   "brand": null,
+   "name": "לייזר סטריט רעננה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_laser_street.gif"
+  },
+  {
+   "brand": null,
+   "name": "וולטר פארק אשדוד",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/walter-prak (1).png"
+  },
+  {
+   "brand": null,
+   "name": "מיט טיים",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_MEAT_TIME_120X120.png"
+  },
+  {
+   "brand": null,
+   "name": "צ'ימיגג",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2___4לוגו_צימיגג__002__-_עותק-removebg-preview.png"
+  },
+  {
+   "brand": null,
+   "name": "שעוני קיר של מעצבים ואקססוריז",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_sitelogo.png"
+  },
+  {
+   "brand": null,
+   "name": "מעדניית גליאנו תל אביב",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_GALIANO_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נחת ספא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_נחת ספא.png"
+  },
+  {
+   "brand": null,
+   "name": "PicCell - צילום בסמארטפון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1782367034.png"
+  },
+  {
+   "brand": null,
+   "name": "FreezeBreak",
+   "nameEn": "FreezeBreak",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/Freeze-break_120X120.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ICE GURU",
+   "nameEn": "ICE GURU",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_ice_guru.png"
+  }
+ ]
+}

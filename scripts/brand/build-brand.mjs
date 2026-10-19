@@ -4,8 +4,8 @@
 // a font at runtime. Outputs:
 //   src/brand/paths.ts              path data used by src/components/brand/ShovarBrand.tsx
 //   assets/brand/*.svg              wordmarks (green / white), mark, lockups
-//   assets/images/*.png             app icon, Android adaptive layers, splash, favicon
-//   docs/mark.svg, docs/store-assets/android/{play-icon-512.png,feature-graphic/*.png}
+//   (the app icon PNGs in assets/images/ are the original gift-card artwork and are not regenerated)
+//   docs/mark.svg, docs/store-assets/android/feature-graphic/*.png
 //
 // Tooling is not a project dependency. Install it once anywhere and point BRAND_TOOLS at it:
 //   mkdir /tmp/brandtools && cd /tmp/brandtools && npm init -y &&
@@ -88,7 +88,6 @@ function outline(font, text, { size = 200, letterSpacing = 0, pairs = {} } = {})
 const en = outline(unbounded, 'shovar', { letterSpacing: 0.012, pairs: { va: 0.012, ar: 0.065 } });
 // Hebrew has no shaping needs here, so reversing the string gives the visual order.
 const he = outline(rubikBold, [...'שובר'].reverse().join(''), { letterSpacing: 0 });
-const sGlyph = outline(unbounded, 's');
 
 const place = (o, x, y, scale) => `<path transform="translate(${round(x)} ${round(y)}) scale(${round(scale)})" d="${o.d}"/>`;
 const svg = (w, h, body, defs = '') =>
@@ -96,14 +95,13 @@ const svg = (w, h, body, defs = '') =>
 const gradDef = (id = 'g') =>
   `<defs><linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${GRAD_A}"/><stop offset="1" stop-color="${GRAD_B}"/></linearGradient></defs>`;
 
-/** The "s" centred in a size x size box, `frac` of the box tall. */
-function sMark(size, frac, fill) {
-  const k = (size * frac) / sGlyph.h;
-  return `<g fill="${fill}">${place(sGlyph, (size - sGlyph.w * k) / 2, (size - sGlyph.h * k) / 2, k)}</g>`;
-}
+/** The gift-card mark (a tilted, notched card on the green tile), drawn in a 64 x 64 box. */
+const CARD =
+  '<g transform="rotate(-14 32 32)"><path d="M14 22a3 3 0 0 1 3-3h30a3 3 0 0 1 3 3v6a4 4 0 0 0 0 8v6a3 3 0 0 1-3 3H17a3 3 0 0 1-3-3v-6a4 4 0 0 0 0-8z" fill="#fff"/>' +
+  `<path d="M19 27h14" stroke="${GREEN}" stroke-width="3.2" stroke-linecap="round"/><path d="M19 33h9" stroke="#8FC9B5" stroke-width="3.2" stroke-linecap="round"/><circle cx="44.5" cy="32" r="3.6" fill="${GREEN}"/></g>`;
 
-const tile = (size, frac, { radius = 0, glyph = '#fff' } = {}) =>
-  svg(size, size, `<rect width="${size}" height="${size}" rx="${radius}" fill="url(#g)"/>${sMark(size, frac, glyph)}`, gradDef());
+/** The app icon tile (rounded green gradient + card), `size` px square. */
+const markTile = (size) => `<g transform="scale(${round(size / 64)})"><rect width="64" height="64" rx="16" fill="url(#g)"/>${CARD}</g>`;
 
 /** Encode an 8-bit RGB PNG (no alpha channel): the App Store rejects icons that have one. */
 function encodeRgbPng(width, height, rgba) {
@@ -167,9 +165,6 @@ export interface PathArt {
 export const WORDMARK_EN: PathArt = ${art(en)};
 
 export const WORDMARK_HE: PathArt = ${art(he)};
-
-/** The "s" from the app icon, in glyph units. ShovarMark scales it to half the tile height. */
-export const MARK_S: PathArt = ${art(sGlyph)};
 `,
 );
 
@@ -179,7 +174,7 @@ writeFileSync(out('assets/brand/wordmark-en-green.svg'), wordmark(en, GREEN));
 writeFileSync(out('assets/brand/wordmark-en-white.svg'), wordmark(en, '#FFFFFF'));
 writeFileSync(out('assets/brand/wordmark-he-green.svg'), wordmark(he, GREEN));
 writeFileSync(out('assets/brand/wordmark-he-white.svg'), wordmark(he, '#FFFFFF'));
-const markSvg = tile(64, 0.5, { radius: 16 });
+const markSvg = svg(64, 64, `<rect width="64" height="64" rx="16" fill="url(#g)"/>${CARD}`, gradDef());
 writeFileSync(out('assets/brand/mark.svg'), markSvg);
 writeFileSync(out('docs/mark.svg'), markSvg);
 
@@ -189,20 +184,11 @@ function lockup(o, fill, frac) {
   const k = wh / o.h;
   const gap = 18;
   const W = round(H + gap + o.w * k);
-  const tileBody = `<rect width="${H}" height="${H}" rx="16" fill="url(#g)"/>${sMark(H, 0.5, '#fff')}`;
+  const tileBody = markTile(H);
   return svg(W, H, `${tileBody}<g fill="${fill}">${place(o, H + gap, (H - o.h * k) / 2, k)}</g>`, gradDef());
 }
 writeFileSync(out('assets/brand/lockup-en.svg'), lockup(en, GREEN, 0.5));
 writeFileSync(out('assets/brand/lockup-he.svg'), lockup(he, GREEN, 0.42));
-
-// ---------- app icons ----------
-png(tile(1024, 0.5), 'assets/images/icon.png', 1024, { opaque: true });
-png(svg(1024, 1024, '<rect width="1024" height="1024" fill="url(#g)"/>', gradDef()), 'assets/images/android-icon-background.png', 1024, { opaque: true });
-png(svg(1024, 1024, sMark(1024, 0.42, '#fff')), 'assets/images/android-icon-foreground.png', 1024);
-png(svg(1024, 1024, sMark(1024, 0.42, '#000')), 'assets/images/android-icon-monochrome.png', 1024);
-png(svg(512, 512, sMark(512, 0.62, '#fff')), 'assets/images/splash-icon.png', 512);
-png(tile(96, 0.5, { radius: 24 }), 'assets/images/favicon.png', 48);
-png(tile(512, 0.5), 'docs/store-assets/android/play-icon-512.png', 512, { opaque: true });
 
 // ---------- Play feature graphic (1024x500) ----------
 const tagline = {
@@ -229,7 +215,7 @@ for (const lang of ['en', 'he']) {
   const align = (w) => (lang === 'en' ? textX : textX + textW - w); // Hebrew hugs the icon side
   const body =
     `<rect width="${W}" height="${H}" fill="url(#bg)"/>` +
-    `<g transform="translate(${round(iconX)} ${(H - icon) / 2})"><rect width="${icon}" height="${icon}" rx="52" fill="url(#g)"/>${sMark(icon, 0.5, '#fff')}</g>` +
+    `<g transform="translate(${round(iconX)} ${(H - icon) / 2})">${markTile(icon)}</g>` +
     `<g fill="#fff">${place(word, align(word.w * wk), ty, wk)}</g>` +
     `<g fill="#fff" fill-opacity=".9">${place(tagline[lang], align(tagline[lang].w * tk), ty + wordH + 30, tk)}</g>`;
   const defs =
@@ -238,4 +224,4 @@ for (const lang of ['en', 'he']) {
   png(svg(W, H, body, defs), `docs/store-assets/android/feature-graphic/${lang}.png`, W, { opaque: true });
 }
 
-console.log(`wordmark en ${en.w}x${en.h}, he ${he.w}x${he.h}, s ${sGlyph.w}x${sGlyph.h}`);
+console.log(`wordmark en ${en.w}x${en.h}, he ${he.w}x${he.h}`);

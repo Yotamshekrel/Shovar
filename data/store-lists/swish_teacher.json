@@ -1,0 +1,3278 @@
+{
+ "platform": "nofshonit",
+ "variant": "teacher",
+ "source": "https://swish.co.il/home/all-gifts-giftcard/product-70258",
+ "notes": "Swish Teacher: spas, fashion, getaways and home. Names ending in \"אונליין\"/\"online\" are online stores.",
+ "updated": "2026-10-19",
+ "count": 467,
+ "stores": [
+  {
+   "brand": null,
+   "name": "אפרודיטה",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/416c062d-9144-4fa4-be01-d2390bc2a3ad.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טימברלנד",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4ec6dd82-f685-4f20-b7e3-a5d8a19dc371.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סבון",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2031b9a5-6d3f-4c60-a30e-b52ff7f6400f.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לי קופר",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/92f52e21-39e4-43e5-a802-cad259e6e5b3.png"
+  },
+  {
+   "brand": null,
+   "name": "אירוקה ביי סופר-פארם",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8ccf9d85-d0b8-4110-af8c-b7dc1fc64506.png"
+  },
+  {
+   "brand": null,
+   "name": "ללין",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c0a2ca68-48cc-431b-92e8-41466f61425a.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גולף",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/afe1156a-d30c-42ef-9c04-caae7f29a949.png"
+  },
+  {
+   "brand": null,
+   "name": "GOLF KIDS",
+   "nameEn": "GOLF KIDS",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9814290c-cc5b-434f-a9af-5ca139f48909.png"
+  },
+  {
+   "brand": null,
+   "name": "המשביר לצרכן",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1173d790-e39d-4166-a1e2-71846c9eb10e.png"
+  },
+  {
+   "brand": null,
+   "name": "אינטימה",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8b439c4f-fd5f-4f4f-8bc1-e06c620c5973.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גלי",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b46f7d01-6652-4aa5-8ce3-aa02b6ca5e04.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סולוג",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9bdf6988-c6cf-41aa-a257-d71b9112c265.png"
+  },
+  {
+   "brand": null,
+   "name": "ניין ווסט",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/05b7b5ad-145b-493d-99b3-4e0cf2ddff1d.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/916c4d84-64e8-499f-b6be-5ed4ad53cb8a.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פפאיה",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3421f8b59c4d4f66b87ac96e57a6963f.png"
+  },
+  {
+   "brand": null,
+   "name": "סקצ'רס",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/57445384-547f-4f5c-adde-7ba87650ca4f.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פולגת",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f1f48c7f-cf9e-406a-b539-34a3758499f6.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פוקס",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/74aa3cd9-0ef1-4129-a3bf-7795455ede08.png"
+  },
+  {
+   "brand": null,
+   "name": "אמריקן איגל",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/046b40b7015146938f3fcd7429a1e951.png"
+  },
+  {
+   "brand": null,
+   "name": "בילבונג",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c6d7da9bd85949b98b19cc76da6e3eb4.png"
+  },
+  {
+   "brand": null,
+   "name": "מנגו",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/85c42e64-6947-4d7d-bfb3-48b532d76679.png"
+  },
+  {
+   "brand": null,
+   "name": "The Childrens Place",
+   "nameEn": "The Childrens Place",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a218646d-ed4d-4fcf-9169-f773d7aa35ef.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פמינה",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b70ae385-bf0c-456d-8671-204400c3803f.png"
+  },
+  {
+   "brand": null,
+   "name": "לבידו",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9b70693d-670a-4431-bf95-85b44203c17a.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אייס קיוב",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e3083c92-e639-41a1-8022-5c5155512b35.png"
+  },
+  {
+   "brand": null,
+   "name": "קרייזי ליין",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ea1402f7-be13-46df-bb3c-daa395fe181f.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פקטורי 54",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7fb72bda-5b78-4438-a425-cac82fa3a437.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ראלף לורן",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c99f9ebe-8998-486d-bc1d-9320f07030a2.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ARMANI EXCHANGE",
+   "nameEn": "ARMANI EXCHANGE",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ea6fadc4-67d1-4695-bfc6-3f86017b1902.png"
+  },
+  {
+   "brand": null,
+   "name": "paul&shark",
+   "nameEn": "paul&shark",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f8e16020-3d74-4c08-a7ed-153ab12f9c68.png"
+  },
+  {
+   "brand": null,
+   "name": "מייקל קורס",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/32a5de77-e245-4713-b9e6-2c45937b47eb.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אמפוריו ארמאני",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c474f759-61a9-4fc3-857e-c3b39bcd1259.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בוס",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f8055062-c1c2-49a9-be8e-487a32acd39f.png"
+  },
+  {
+   "brand": null,
+   "name": "טומי הילפיגר",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a46b1517-fef5-4bf4-ba16-071a8acc284c.png"
+  },
+  {
+   "brand": null,
+   "name": "קלווין קליין",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f46f934c-0117-4421-9318-2bc751e28d16.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סטיב מאדן",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/21fa2b42-98a7-43da-96b4-7ef1bd41721f.jpg"
+  },
+  {
+   "brand": null,
+   "name": "H&O",
+   "nameEn": "H&O",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/89601cfe-9716-447f-a31f-016bec9b8dca.png"
+  },
+  {
+   "brand": null,
+   "name": "ליוויס",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b3e91330-e1b4-4106-bb0a-11683b3da389.png"
+  },
+  {
+   "brand": null,
+   "name": "שילב",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1fb1c492-2d8d-43ff-914c-87832728f0b7.JPG"
+  },
+  {
+   "brand": null,
+   "name": "פוט לוקר",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d2efca11-1ed5-4a99-b9ab-7447ac9e9447.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בוניטה דה מאס",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/62d771c4-18a9-4452-91d6-fae16357c984.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אלקטרה זכיין אדידס",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/30572e35-f5d1-4ad0-916e-da6274ab5197.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אופטיקנה",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2fa7e544-edc5-4840-92b8-d77a46c4e66d.png"
+  },
+  {
+   "brand": null,
+   "name": "דיזל",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7e1e81ce-686a-489f-b4a9-bfb069e9de2b.png"
+  },
+  {
+   "brand": null,
+   "name": "ספידו",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e80450bd-c763-419e-bf8e-21b81c2879e0.png"
+  },
+  {
+   "brand": null,
+   "name": "אליסיום",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2bf7d1a8-7d92-4760-92f0-2eafaebc3f49.png"
+  },
+  {
+   "brand": null,
+   "name": "לסטר",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/66a1d9a1-27b2-4223-8d16-bc91ac1358f7.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אמפוריום",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/54398dbf499140c394c2a1c22246505e.png"
+  },
+  {
+   "brand": null,
+   "name": "קולומביה",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f75b71e0-5b75-4abb-b3b0-15fd4d22c7c8.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Outsiders",
+   "nameEn": "Outsiders",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f65c3308-c37b-46c4-bf58-fd81c05ca6d5.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לי קופר קידס",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1bd0f452-fb7a-41a1-b2fc-80103cc211c3.png"
+  },
+  {
+   "brand": null,
+   "name": "לקוסט",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/625df948-119d-4bee-b992-aed42263f021.png"
+  },
+  {
+   "brand": null,
+   "name": "SHOWOFF",
+   "nameEn": "SHOWOFF",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e3ec0759-f67f-4e41-bb72-0d10d60ec8a9.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JUMP & ONOT",
+   "nameEn": "JUMP & ONOT",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9115f290-8bad-4f09-ba81-d989829c9b02.png"
+  },
+  {
+   "brand": null,
+   "name": "The North Face",
+   "nameEn": "The North Face",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8811d9c5-5abb-46c6-a83d-40623f5819b3.png"
+  },
+  {
+   "brand": null,
+   "name": "VANS",
+   "nameEn": "VANS",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f4a4f5ab-20fb-4919-aa53-d41233d162db.png"
+  },
+  {
+   "brand": null,
+   "name": "נאטורפיל",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/878ee896-0738-4495-830f-91c35e1d8b76.jpg"
+  },
+  {
+   "brand": null,
+   "name": "איל מקיאג'",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a5c1b92b-1d9e-4766-8d7a-21da01db48b0.jpg"
+  },
+  {
+   "brand": null,
+   "name": "G CONCEPT STORE",
+   "nameEn": "G CONCEPT STORE",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7bb4d31a-0759-42ca-b524-f95bcad759dc.png"
+  },
+  {
+   "brand": null,
+   "name": "DKNY",
+   "nameEn": "DKNY",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1bf222f2-f4e2-4fe6-a6d6-d0569799c7de.jpg"
+  },
+  {
+   "brand": null,
+   "name": "GUESS",
+   "nameEn": "GUESS",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/81b5787f-f4a7-4ce4-8caa-5cbd24613fd5.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סם אדלמן",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/18e4ecde-5081-416a-954a-76fd80fdd921.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בודי שופ",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/69de6f06-cd38-48b9-84b9-833803862f76.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סאקוני",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b8aab355-f0ab-474a-96d1-7ac88267aa6d.png"
+  },
+  {
+   "brand": null,
+   "name": "סאן גלס",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/479909ea-7162-4ab6-8798-666bae8cb092.png"
+  },
+  {
+   "brand": null,
+   "name": "אלדו",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/db91cf3f-5621-435f-a869-09278600985d.png"
+  },
+  {
+   "brand": null,
+   "name": "בי יוניק",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6e49d6e8-99f5-4e23-9c05-b99ed9575518.png"
+  },
+  {
+   "brand": null,
+   "name": "אהבה",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e70a3af2-d59a-4173-8fea-c0a3457fc971.png"
+  },
+  {
+   "brand": null,
+   "name": "אדידס ישראל",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/755726ff-32d3-43aa-aae1-dfb8d3bbd278.png"
+  },
+  {
+   "brand": null,
+   "name": "BOGART",
+   "nameEn": "BOGART",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2f09ef7b-178f-4f10-a1ba-e84be67b62f2.png"
+  },
+  {
+   "brand": null,
+   "name": "NK COLLECTION נאווה קולאז",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0c005322-95ff-46f7-aca4-ffc9f5af4d17.png"
+  },
+  {
+   "brand": null,
+   "name": "את לבני נשים",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/eea2311bffb14f359ea6429f9dc625e1.png"
+  },
+  {
+   "brand": null,
+   "name": "דונה ויקטוריה",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8d456468ec564a05a958af1ff9ae3203.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת פרופורציה",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cdb140cd-031c-436b-af26-f8ee646fb1b9.png"
+  },
+  {
+   "brand": null,
+   "name": "DISKISS אונליין",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/69f77ea3-c0ba-453b-b705-2837261378df.png"
+  },
+  {
+   "brand": null,
+   "name": "LOVE",
+   "nameEn": "LOVE",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/bc44f12f-4511-49e1-91e9-804530c252a2.png"
+  },
+  {
+   "brand": null,
+   "name": "נייק",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/54bfec58-4b4b-4331-a595-98628a4ecf91.png"
+  },
+  {
+   "brand": null,
+   "name": "עדה לזורגן",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/eb3e2b703c844ad9bfdf33a351c05fc2.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת מקימי",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/32ddeb0c9d1e42d5a8a14b296b7a505c.png"
+  },
+  {
+   "brand": null,
+   "name": "תיק התיקים",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/79b2c59688be475099d44b12eb79eb2a.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הגרה",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f214751a09aa4c39916e8035b17cb281.png"
+  },
+  {
+   "brand": null,
+   "name": "אלוף הספורט",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4bdc5cdd0c8445fdbc1a3c9e3c21fdfb.png"
+  },
+  {
+   "brand": null,
+   "name": "LEE",
+   "nameEn": "LEE",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9ed623a5991941039fc90ad758029183.png"
+  },
+  {
+   "brand": null,
+   "name": "NEW ERA",
+   "nameEn": "NEW ERA",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d74034e37e2443e9908f028baf3fcdd7.png"
+  },
+  {
+   "brand": null,
+   "name": "Wrangler",
+   "nameEn": "Wrangler",
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f43ebfbcbdd0496abda5d22a3c8da589.png"
+  },
+  {
+   "brand": null,
+   "name": "גמבינו",
+   "nameEn": null,
+   "category": "אופנה ולייף סטייל",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3948bb0bf3a14b98b5ba2668a344331e.png"
+  },
+  {
+   "brand": null,
+   "name": "ואהבת",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/90ceca70-79cf-4f73-b5b2-a061df562c24.png"
+  },
+  {
+   "brand": null,
+   "name": "סטימצקי",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9afb14ef-8454-48c9-891d-63816b465bdc.jpg"
+  },
+  {
+   "brand": null,
+   "name": "zer4u",
+   "nameEn": "zer4u",
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b763a8cb-13c5-4474-89ad-fe7816e89daf.png"
+  },
+  {
+   "brand": null,
+   "name": "צומת ספרים",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5208ad44-33de-41b0-b87e-5804bb29e234.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארקוסטיל",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/afa115b7-e83a-45c5-8505-14e5e306f59d.jpg"
+  },
+  {
+   "brand": null,
+   "name": "עמינח",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4396a088-cc74-431d-bc8b-a87c29c0c761.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גוד נייט",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/00862195-1989-4f49-8bd0-f6574282205a.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גולף אנד קו",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6f1515ac-85c7-4aa7-9b8c-831b47802d13.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כיתן",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d040011c-5381-4ce8-af6c-fd4783be202b.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הום סטייל",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/362f8d03-f0f4-4e40-861e-f321f30149ac.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קלאסיקה",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/41a46e52-7bd8-4349-92c5-2e7927141ca9.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פוקס הום",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/be21cda716764e0eb7682257a94d67dd.png"
+  },
+  {
+   "brand": null,
+   "name": "ורדינון",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0a1525e5-45ae-4f67-88b2-be7de47b805d.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נעמן פורצלן",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1762ae60-0955-4fc2-a1fd-22d70d506ca1.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סולתם",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f970e04f-3fa5-4317-8bab-e77fb0d79b5b.jpg"
+  },
+  {
+   "brand": null,
+   "name": "AUTODEPOT",
+   "nameEn": "AUTODEPOT",
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/917e21e4-392b-4f58-a98e-31cd6227cef9.png"
+  },
+  {
+   "brand": null,
+   "name": "ACE",
+   "nameEn": "ACE",
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b3b14c66-052b-4a00-9d51-08891b108b9c.png"
+  },
+  {
+   "brand": null,
+   "name": "טרקלין חשמל",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4d95751e-ecd3-4448-882c-c89f5b610a62.png"
+  },
+  {
+   "brand": null,
+   "name": "מכלול ברמן בקמפוס",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7b70bd04-dbb3-45d3-98b5-980e5260f1f5.jpg"
+  },
+  {
+   "brand": null,
+   "name": "שקם אלקטריק",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/30817eb8-b128-4994-a027-21512d47aff4.jpg"
+  },
+  {
+   "brand": null,
+   "name": "american comfort",
+   "nameEn": "american comfort",
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a661b06d-fa25-4105-bd34-c6006e5708d4.png"
+  },
+  {
+   "brand": null,
+   "name": "קרביץ",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e0fefe18-f68d-44b6-a5ab-065d4d1e136f.png"
+  },
+  {
+   "brand": null,
+   "name": "FLYING TIGER",
+   "nameEn": "FLYING TIGER",
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/02a55984-7732-465d-88cf-1a1a8b6ff357.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לבן",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b1f5b518-5195-4fbf-a435-90204ad50926.png"
+  },
+  {
+   "brand": null,
+   "name": "פוד אפיל",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c7cf423e-a829-401a-bc9b-6228d657112a.png"
+  },
+  {
+   "brand": null,
+   "name": "צמר שטיחים יפים",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7622dcf9-3d83-40b9-b20f-961f8d8bc36a.png"
+  },
+  {
+   "brand": null,
+   "name": "ערד טקסטיל",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/db7acfdf-68ae-46c7-8717-8be6c0ebf335.png"
+  },
+  {
+   "brand": null,
+   "name": "קאזה בלה",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4f6de16a-0469-43ed-ab07-ab1d3e754de3.png"
+  },
+  {
+   "brand": null,
+   "name": "דארלן",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/708603b413b540c49a3d64a3e5ebc66a.png"
+  },
+  {
+   "brand": null,
+   "name": "אורבן",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/69474cb592974fbd8869136ab212dff0.png"
+  },
+  {
+   "brand": null,
+   "name": "אל מאגו",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/36dbad3c-ec20-471f-8416-54f68760446f.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת אולימפיה",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4dd3060041644bf6b50678a6a78727a9.png"
+  },
+  {
+   "brand": null,
+   "name": "SIMMONS",
+   "nameEn": "SIMMONS",
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ada6a38638e546b0bc8e604bd87ee763.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת KUNI",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fe16424b1d2945fc9c98dd0a6257dbf5.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת סליפי",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0ed87aa999124ae18495abf18f39c677.png"
+  },
+  {
+   "brand": null,
+   "name": "Rossetto",
+   "nameEn": "Rossetto",
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/204f76b9364d4a298f44b85febbf170e.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת הום דקור",
+   "nameEn": null,
+   "category": "הכל לבית",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cb8399e266cb4a3d9bfb74a3848fc03d.png"
+  },
+  {
+   "brand": null,
+   "name": "בוסתן עברי יקב אלבר",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/31ea8abf-87e6-4721-81cf-89bcea4bc831.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב יה YA",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/94519db3-3f45-42c5-8310-093c3d5160c6.png"
+  },
+  {
+   "brand": null,
+   "name": "אבן רם ליקרים",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2a750c7f-7ac2-4403-8730-ca1e9d4e4eb4.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב צובה",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c6a8a786-1128-4bf3-b21e-b1e382986a56.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב הר אודם",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5607e6f3-7fd5-457b-a90b-fd4fc4e56965.jpg"
+  },
+  {
+   "brand": null,
+   "name": "איש הענבים",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ca7ace61-d9e2-4e27-969e-8dbba60e43dd.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב טוליפ -קרית טבעון",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/05296d83-fc6a-4876-b15a-d501bee66121.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מבשלים חוויה",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a25f4dbb-b4db-4737-9650-b8f300dccc49.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב דלתון",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c5ca4c6e-4050-4068-b7e0-61f4390a62fd.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב ברקן",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6382af4e-4bfa-4962-b8f1-fb1050c9f288.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב גוש עציון",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4f093fbb-28a6-4229-83e0-133d4b419028.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב הבוטיק שלי",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1bcd2a01-20c4-42e6-92e2-3252e7b97ef6.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מועדון היין אונליין",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4df4c95e-80f5-4828-b6d7-08dc609ac4d6.png"
+  },
+  {
+   "brand": null,
+   "name": "בטן מלאה",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/64385433-5c38-4bc7-9b8f-398d1a327b24.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גבינות ברמות",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/bd5c49a1-55b2-4653-a8de-7cf849b93ec7.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב שדות",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/67caa893-1f73-49d4-afe6-31957327fd5e.png"
+  },
+  {
+   "brand": null,
+   "name": "שוקה סיורים קולינריים",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/04207b5e-0bb6-48c6-a642-8f007b0f1c21.png"
+  },
+  {
+   "brand": null,
+   "name": "NS חוויה קולינרית",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/dc1d1d27-be74-41fc-828a-13613f5807fc.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב לוריא",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d858ffd0-ef3f-48d0-86fb-e88a88881f1b.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב שאטו רמו",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/70b9f332-801d-4ac9-a14a-0243eb6432ec.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב רקנאטי",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d0993dcc-b356-4418-9f09-5097c3cd9520.png"
+  },
+  {
+   "brand": null,
+   "name": "מבשלת בירה מלכה",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/558042a6-62a9-4cca-949d-5320e616646a.png"
+  },
+  {
+   "brand": null,
+   "name": "אייל חוויות יין",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d2a185e140b048ef828a12f0ea6c278b.png"
+  },
+  {
+   "brand": null,
+   "name": "יקבי בנימינה",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b4bbc28e6dc8448999713be9cb441925.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב קטרון",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e65a36dfbf804d7aad38f4fdfef151d6.png"
+  },
+  {
+   "brand": null,
+   "name": "יקבי שילה",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9b009323bd8b473f8dfaa4a026186c9f.png"
+  },
+  {
+   "brand": null,
+   "name": "אנרג'וסר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/03791482-c63f-4859-b9e8-18db9a2f28b8.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה נטו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/376f1c0c-c9ce-4fab-9649-593438fbafd9.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בורגרים",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b928c7ed-6dd5-4f62-9298-e1e74877c3a0.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת מקסיקנה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/063e95aa23d64d8bb732da1091789a6b.png"
+  },
+  {
+   "brand": null,
+   "name": "פיצה עגבניה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/592cf9c6-cd0d-469d-ace3-574fd79bd638.png"
+  },
+  {
+   "brand": null,
+   "name": "מאפה נאמן",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/98a067f5-84b8-44d4-a5ac-f0d6c09b308d.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ג'אפן ג'אפן",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6d918f32-1df4-4bf9-8be0-b3a954d63191.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Belago",
+   "nameEn": "Belago",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/baa4db85-9041-4693-b6d4-bb0d0806b572.png"
+  },
+  {
+   "brand": null,
+   "name": "שפרה- מעדניה מבית פועה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f6b72bab-d5f7-4820-9535-4a0ef20b5a8f.png"
+  },
+  {
+   "brand": null,
+   "name": "יאן סושי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1d1d8dd3506f4533b187f39a44dfd20c.png"
+  },
+  {
+   "brand": null,
+   "name": "פיצה שף",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0b68fcd9-7a72-466f-bbb7-b379af473805.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת בייגל קפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9d30c602-0793-4dea-856d-db8f7c1e80c5.png"
+  },
+  {
+   "brand": null,
+   "name": "מתוקו - MATOKO",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/38a201fa-66b5-4bb4-abe4-731b9f579d09.png"
+  },
+  {
+   "brand": null,
+   "name": "La Bera לה ברה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0ad1aab1-392c-4d58-a590-a1fe84ff80cb.png"
+  },
+  {
+   "brand": null,
+   "name": "שיפודי ציפורה פתח תקווה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/bda18a2e-4f75-472b-a446-4dcb1e772780.png"
+  },
+  {
+   "brand": null,
+   "name": "ביאנקה אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b214d2653a1a4368bd72db042401157a.png"
+  },
+  {
+   "brand": null,
+   "name": "Leo. Resto Bar",
+   "nameEn": "Leo. Resto Bar",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5bf7ec5860254f61975df6adc2a269ab.png"
+  },
+  {
+   "brand": null,
+   "name": "המבורגר הדיקטטור (התעשייה 11 חיפה)",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e9f52f9589ed457081a61d633915a458.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לורנס",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1de261596e584be4a1b141189edcf16c.png"
+  },
+  {
+   "brand": null,
+   "name": "שיסו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/aecd48a20f9d4c63b1f63ec99b4fecf6.png"
+  },
+  {
+   "brand": null,
+   "name": "fuego",
+   "nameEn": "fuego",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/28bc38e860e6425ab91c8451ebe18505.png"
+  },
+  {
+   "brand": null,
+   "name": "ג'ורג'יו קפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/37ad2e771ae4446ea9db74c34a9f1617.png"
+  },
+  {
+   "brand": null,
+   "name": "ספייס האוס דיזינגוף",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3503e32bdaff427790e303c99632a8a6.png"
+  },
+  {
+   "brand": null,
+   "name": "MI VA - TLV",
+   "nameEn": "MI VA - TLV",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8e68b5acc9ce4014a7e1ae9ea6dc1907.png"
+  },
+  {
+   "brand": null,
+   "name": "Alibi bar",
+   "nameEn": "Alibi bar",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/220c9f64507f4dc3894aa53e27baf34b.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה קפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d2ab51a0-3abd-4f78-ab3a-13895c84242d.png"
+  },
+  {
+   "brand": null,
+   "name": "סואי סושי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c9a6a80d1f664ae4ab6357540ce4ab7b.png"
+  },
+  {
+   "brand": null,
+   "name": "לחם ארז",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d7918fe3-7952-476e-bdaf-0ae2bfb6cbb7.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת שר ספא מלון דן ירושלים",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3be38855-4592-490a-bbc1-ca4c69bd3838.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא יסמין מלון רמדה נצרת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b930ee34-9e1a-45d4-a8b6-a4a3251e296c.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא אלאיה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/58187f4a1a304b0786802ae9f367611f.png"
+  },
+  {
+   "brand": null,
+   "name": "קאלמה ספא",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5569deae-5947-4e08-b166-52994c88652e.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון בל",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1195eaf2-bb89-452e-842f-2a6a6ff9f0c7.png"
+  },
+  {
+   "brand": null,
+   "name": "אלמונד ספא- מלון אלמונד",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/879c4360-1300-4aab-9c2b-f41c3c3ba639.png"
+  },
+  {
+   "brand": null,
+   "name": "shoshka cosmetics",
+   "nameEn": "shoshka cosmetics",
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e7abefbb-95a0-4b98-acad-f1ef48ced3fc.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא סוליי - מלון Play אילת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b587d80a-8a6b-4a19-afd5-6fc811e4cc71.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא ספורטלי",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/93ed529a-c146-45b4-b6be-4246b07770a2.png"
+  },
+  {
+   "brand": null,
+   "name": "ביוטי טיים",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/35c70e79-8e7f-4b2b-be0a-87205c2ef126.png"
+  },
+  {
+   "brand": null,
+   "name": "Flow ספא",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/63721cc6-ef18-42eb-adfa-c9ff30e70318.png"
+  },
+  {
+   "brand": null,
+   "name": "דריה ספא- מלון נבל דוד גליל ריזורט",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d4be3d21-8d56-48a2-98bb-a572201ff9da.png"
+  },
+  {
+   "brand": null,
+   "name": "דלל קוסמטיקס",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4d6e6398-126e-483c-9ac7-d7973fe05b9e.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון בוטניקה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cc0fbbf2-2a3d-4595-9920-98afacb48e0e.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון אדם בוטיק רשת אדם",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a05da858-f23e-470d-8516-2a5c32805b59.png"
+  },
+  {
+   "brand": null,
+   "name": "אנג'ל ספא מלון קיסר",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3083cb5e-c764-43d3-9721-2d047c11ded5.png"
+  },
+  {
+   "brand": null,
+   "name": "Just Be-גאסט בי סדנאות נשימה ואמבטיית קרח",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b027aa6f-92c8-47eb-8be7-0e3efc987e3f.png"
+  },
+  {
+   "brand": null,
+   "name": "טיליה קליניק צפון",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3ab926e4-5667-4e31-8f9e-c5cdd90381fd.png"
+  },
+  {
+   "brand": null,
+   "name": "Dream Well - דרים וול",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f54b70c1-2eb2-42f0-b9e4-e6ed54992de6.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון אלמא",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fcb7cf2b-aaeb-4ee5-9cee-bf7ae65d90a4.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא חוף הכרמל",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6448db70-7eec-45ed-8600-853eca5a825b.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא קלרינס",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/24b59338-5860-4fe1-8167-a24c126aed45.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא לוטוס",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cca77f2a-2f1b-4901-8d7e-a149e4263f36.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מיראבל פלאזה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0bb0a956-e927-4c43-95f9-3b2897e5c991.png"
+  },
+  {
+   "brand": null,
+   "name": "מדיקל ספא סנטר",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/81573c0d-db10-4ecf-b2e4-a3d451be2c46.png"
+  },
+  {
+   "brand": null,
+   "name": "וי קי קליניק",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fe0f0c6c-03c4-4abf-aa5e-d68abe56c3fb.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא קאלמה- פולי אורבן תל אביב",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/dee19440-1dde-4abe-9324-4a2ab9103e00.png"
+  },
+  {
+   "brand": null,
+   "name": "spa basilia",
+   "nameEn": "spa basilia",
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c6365e2c-1d53-45d1-9038-1afd56b4411d.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא דניאל גבעת רם",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1facd2bf-9158-4618-b246-d64be77290e6.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא דניאל רמת רחל",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון אחוזת אקוודוט",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a9c34028-bc90-47a3-8ba0-edf8a6d6f705.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא בוטיק פרינס",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1c147caf-420f-47dd-8743-aac41af7fefb.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון כנען",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e87f23d3-6c08-4517-b919-2c61a98a4156.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון אינק",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d4aef8d7-c1bc-46f7-9ce7-7b71ef54ad1a.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון פיורי 41 - רשת סורה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d43ba72c-9c1c-4426-ab6e-3fc144a9a6e3.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון דריסקו",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3a4aee21be354f78be5e234561e6f9bb.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא כרמיאלה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cd7d46097382410badb7d607062ece73.png"
+  },
+  {
+   "brand": null,
+   "name": "THE GEORGE SPA",
+   "nameEn": "THE GEORGE SPA",
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/506e6a9dcddc4444a0a4efe14a865764.png"
+  },
+  {
+   "brand": null,
+   "name": "share spa - ספא מלון רוקסון אילת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/19c0baee-7b1f-42a2-8280-b2d2e2e56227.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון סאם אנד בלונדי",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/bb5827c0-21a7-473c-9e9e-fa641f9d9775.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון גייקוב- נווה אטיב",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/01b0497e-a687-44c2-b4ad-f0ec64682147.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא חושן - חוף התמרים",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/93e4b7c6-5e07-462b-9914-f017e3213de4.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא בוטיק איסלה בראון 42",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cc27061c-2a52-4b2a-9b71-f76f4425c51b.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון טיביריא",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/034ff246db02491c8c0e16c02325eaea.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא שטרקמן ארנה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b0161a285a5d42b589c2e31300d98fee.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא אדמה - מלון בראון ביץ",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8525734d2c854caf8eadfcae28463eed.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא אדמה - מלון בובו",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/63e87bdfcb9e4b8faad1303b4217d08a.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא אדמה - מלון דברה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5637aa6b75ff4b4aa5f234923ee14935.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון גורדוניה זכרון",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/78ad687951e447c586d15a8bd2f97bf4.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא קאלמה-דן פנורמה תל אביב",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/86ebf354aae140b59751b38e206b2fd6.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא דניאל- רמדה ירושלים",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a96d7697505447889c1a02eca7dd7480.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא 1935 - רשת סורה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2f189e58e5c445098ae82a6154cbab7c.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון רוטשילד 22 - רשת סורה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/68635c68c2584a4cbbeee9fa22458971.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון HOTEL RECEPTION - רשת סורה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6cab9ce67eeb4e0f945179020569c901.png"
+  },
+  {
+   "brand": null,
+   "name": "זאוס ספא",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/22011ee5-72c6-4c1d-800b-a6ac47a27b3b.jpg"
+  },
+  {
+   "brand": null,
+   "name": "וילה ויטראז ספא",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6c2e32a8-ed83-4cb8-aca8-2ec844600ddd.png"
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס חיפה גרנד קניון",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/48902a90-872f-4c64-a162-bf2745c9fce0.png"
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס רעננה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/010ddce3-6999-4628-891a-9d38fc07e549.png"
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס מודיעין",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/13c2fb7a-f1fa-4ecd-bac5-7fdce1b38add.png"
+  },
+  {
+   "brand": null,
+   "name": "חמי געש",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5b2ff15c-47e9-4e0c-9b1d-cfced1adea1d.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מטה במדבר",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/58147b11-a440-42a3-b1bd-44649187428b.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא בית דרך חיים",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0d5b1f1c-ab00-4114-9dfd-8508c0dc7332.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא אחוזת אסיינדה ביער",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f78bf9ef93214703a09aec5fffd58f44.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון דן אכדיה הרצליה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a78ffb4c-62ca-4d68-8121-9636b10af08a.png"
+  },
+  {
+   "brand": null,
+   "name": "שרנה ספא מלון השרון הרצליה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/506e48fa-4964-437f-b06f-7a5836f98d64.jpg"
+  },
+  {
+   "brand": null,
+   "name": "share spa הרודס תל אביב",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9f2a3f0f-50b8-4c57-bb57-f173e4bd87ac.png"
+  },
+  {
+   "brand": null,
+   "name": "דרים ספא הרצליה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/efffe1a6-63e0-480e-8fa0-82b93ccd3ba7.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הבריאות שבפינוק",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/af2cba0c-69d1-49e7-8387-ec06fadcf254.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא לאונרדו פלאזה ברניקי",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c8422285-576e-469c-abbd-7e23b4b7f899.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא האלמנט החמישי- מלון ורט ירושלים",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/bedd0aac-7e50-4894-9ec5-511f159a7e07.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לאו ספא",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e72fa43e-4193-46c4-92f0-cb725f1f0b27.png"
+  },
+  {
+   "brand": null,
+   "name": "בודי אנד סול",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/81149d65-ac51-4676-84a7-b983288e7217.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון סינרג'י",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a3bfdb1f-a5b2-414a-a7ff-b91f7cc52c02.png"
+  },
+  {
+   "brand": null,
+   "name": "share Spa הרודס הרצליה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4eb86a27-6fcf-4fc3-a627-3461ef26d32f.png"
+  },
+  {
+   "brand": null,
+   "name": "מנטרה ספא",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1cc4d4ca-adc4-4381-ab43-c7a4db377716.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארמאנני ספא",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e874e17d-2c27-4b38-8680-f5d138b91409.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא ויליג חמת גדר",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d27c7bf7-0244-4aff-b04b-4f02a0717a23.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא ויה מאריס",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/093d1fde-d23e-4023-9dd2-352d5d21ec6d.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא סינרגיה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e0bc1ebb-35e8-47a0-9d0d-4416b271d188.png"
+  },
+  {
+   "brand": null,
+   "name": "לאונרדו קלאב טבריה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e8783620-e507-42b9-b841-75247bdb0a1d.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון ברדיצ'בסקי - הוטל בי",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4c27205b-465c-4423-8c18-6723a6250834.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון NEA",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/db748c6b-c277-4363-997c-0c1ea6ec60d3.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JAH SPA מלון דן פנורמה אילת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/aa79c999-c40e-48ec-bcf3-44f4f5641a11.png"
+  },
+  {
+   "brand": null,
+   "name": "share spa יו קורל ביץ אילת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/87aa419141f346b88589a0e30c482de7.png"
+  },
+  {
+   "brand": null,
+   "name": "טומוקו גפניס ספא",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/11c1ff14-4c39-403b-b1b7-235f5c4fcf5f.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא לה ויטה אילת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8c8e2dcb-e940-4b32-a3b2-c0700d98eb52.png"
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס ספא עזריאלי",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c6af8d5a-58d0-4720-9c43-383a6bb47212.png"
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס ספא רחובות",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/780e13ff-a769-4454-85d6-bc22d57b75d6.png"
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס גבעת שמואל",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f3a91b98-cd8a-46a8-a1f2-4951c87d8cd8.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא בוטיק גלי כינרת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7ed025fc-3618-431a-aeff-600e67799355.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ווסט אנד ספא מלון ווסט אשדוד",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b4cad42b-31bf-40d3-b1c0-d1dded93ffa3.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא בוטיק מלון אירופה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/65fa8ba8-c6f7-4ff9-900c-ef2e5ca58800.jpg"
+  },
+  {
+   "brand": null,
+   "name": "share Spa לאונרדו גורדון ביץ",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/53b98a00-6995-49c7-820a-e04d8cc38d24.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון יו בוטיק כנרת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5344a16c-3eb3-42ad-ae14-a3a47bd3e7cb.jpg"
+  },
+  {
+   "brand": null,
+   "name": "share spa דן כרמל חיפה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c2c19caae7244d0bad2ff9a6978f22e3.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא הוריזון",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/53c22dcd-c81a-4ce0-b60b-865e0138739b.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון רוקסון אורבן",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/40372f64-1383-4543-85d0-39cbe6931e04.png"
+  },
+  {
+   "brand": null,
+   "name": "גליה ברוך קוסמטיקה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2b6675f0-5a5a-44a4-a6d2-84a5bf498aa8.png"
+  },
+  {
+   "brand": null,
+   "name": "share spa ניקס הרצליה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b2af0489-84e9-4074-9e00-c7f103acc3dd.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון הסוויטות איילנד",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cc3862de-eeb0-43c2-a546-678d4b162309.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון הרודס ים המלח",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e1d3aa68-4a12-4657-b05f-bb06c17b2864.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון לאונרדו פלאזה ים המלח",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3ed16b1e-68fa-4b9b-9786-42bbe8ff48de.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון פרימה ים המלח",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/445b4635-b818-4a24-918b-7d561c79f32c.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון לאונרדו נגב באר שבע",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cecbc114-92dd-40ef-a448-b16116839031.png"
+  },
+  {
+   "brand": null,
+   "name": "דרים איילנד",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/122440e5-3d83-450f-af12-e5debb884010.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The spa דיוויד אינטרקונטיננטל",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/18fa2fb8-96b2-41a6-b60b-828e76b3c3d7.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JAH SPA דן קיסריה ריזורט",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/26826cf9-8172-43a3-a894-0b0ad2417e56.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JAH SPA דן אילת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1b85b0bd-2cff-4a79-854c-4fae099e3c98.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הולמס פלייס ראשון לציון זאוס ספא לשעבר",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d9f6fb95-2d4d-4475-8619-8f0feeccaa52.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא פנינה בכרמל",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/efc72444-52e3-44b3-aff5-3f4308b4a979.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון אדמונד",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/82d568de-e694-4568-81d4-e2d2e54d6e51.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טיליה מרכז רפואה משלימה ופיזיותרפיה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/12c54aaa-7d1f-46f9-9053-4e2885185d03.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא HALO SPA במלון SeaLife",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/93707bb0-a15d-4ca7-8462-0c2cc529ca13.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון גולדן קראון נצרת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7b7673ff-5c78-4602-898d-8f105172eb27.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא אלוויט",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/592d9a8e-080a-49b5-a5ae-343e0a5bca61.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון הרודס ויטאליס אילת",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f7b4d726-ce17-45ed-a93c-10d7e364fc99.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא שייה מלון ליר סנס",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7336f2a5-3c7d-41d9-ad0e-b0dd1d03fd65.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא לגוף ולנשמה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/73358d60-fbf5-42b0-be30-b7d05cf4c308.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון ורט לגון נתניה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c744785d-fd96-486a-b368-f204a6929ff3.png"
+  },
+  {
+   "brand": null,
+   "name": "ימה ספא YAMA SPA",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8c55d2b4-8d51-4f6c-ac1f-367497b8803a.png"
+  },
+  {
+   "brand": null,
+   "name": "Okoa spa ספא מלון קמפינסקי",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0640a974-02fa-4d96-bfb4-6de19cccb422.jpg"
+  },
+  {
+   "brand": null,
+   "name": "share spa דיויד ים המלח",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/816359ce-93dd-4db3-8b60-1504689e2e25.png"
+  },
+  {
+   "brand": null,
+   "name": "דריה ספא מלון נבל דוד רמדה נתניה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/239835de-096d-4a1f-a050-ad5f52b6c7de.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון לאונרדו פלאזה ירושלים",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9d32624d-a82a-45f0-a529-c3b89c430cdc.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אנג'ל ספא מלון אמריקנה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/42670452-c9f0-49da-b8b2-5e81d49fad9c.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון חמת קיסר",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/aa86910b-947d-4888-a3ed-1ff651f60a36.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מלון מאייר האוס תל אביב",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7d6af98a-c11d-4ff8-83ec-7321e3004d82.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא ויה לומה במלון דן תל אביב",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9c43851d-76dc-4312-8fe3-6c099052e713.png"
+  },
+  {
+   "brand": null,
+   "name": "share spa מלון תמרה",
+   "nameEn": null,
+   "category": "ספא וטיפולים משלימים",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b477f048-f07f-4be2-8e89-3ea0bad1653d.png"
+  },
+  {
+   "brand": null,
+   "name": "happy empy אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fbc8fa15a65047efb08cae48c8eecdd7.png"
+  },
+  {
+   "brand": null,
+   "name": "בואנו קאזה אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a744909bc45d4ddb8e9edaa198a35ddc.png"
+  },
+  {
+   "brand": null,
+   "name": "מינוס 417 אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1d4eca77-fa62-4c51-9ade-9070bf4fe502.png"
+  },
+  {
+   "brand": null,
+   "name": "NOAM LIVING",
+   "nameEn": "NOAM LIVING",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/034ac723-52e2-4683-8ed8-066e6a95d24d.png"
+  },
+  {
+   "brand": null,
+   "name": "LOOPI online",
+   "nameEn": "LOOPI online",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b8fc6777-8471-41cd-a75d-0c8cc73dc6e9.png"
+  },
+  {
+   "brand": null,
+   "name": "עדה לזורגן אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d20a46af-e9dd-448e-a5a6-6c147b5c263a.png"
+  },
+  {
+   "brand": null,
+   "name": "GA-DE אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/485c950c-95f8-4062-a74f-aa522398ca63.jpg"
+  },
+  {
+   "brand": null,
+   "name": "terminal x",
+   "nameEn": "terminal x",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e366bcb2-c77a-4781-be9c-05eff2146060.png"
+  },
+  {
+   "brand": null,
+   "name": "פוקס הום אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1dc72a773b7442a79c2d2fa6c6be9b80.png"
+  },
+  {
+   "brand": null,
+   "name": "נאוטיקה הום אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a648b9a6-2a10-4edc-a41d-1d21aa6f8f76.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מועדון הכותנה",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/58164e70-ae07-4330-8181-233f65819fe3.png"
+  },
+  {
+   "brand": null,
+   "name": "H&O און ליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4ac0dca1-44df-4a6c-a882-c51645da2074.png"
+  },
+  {
+   "brand": null,
+   "name": "מוזה קוקטיילים אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/077b1df2-3d22-4dda-aaef-37d532fa7578.png"
+  },
+  {
+   "brand": null,
+   "name": "קרליין אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/48f35707-c8d5-49c5-bade-fefdc4da5cd4.png"
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0eb71a18-758f-4c28-a933-bfb3198a4ade.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פוט לוקר אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/26f314a3-1da4-4a97-b438-16032ad6490d.png"
+  },
+  {
+   "brand": null,
+   "name": "The beauty intelligence",
+   "nameEn": "The beauty intelligence",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0d0062251b554a5c89f8466f36c0b1b0.png"
+  },
+  {
+   "brand": null,
+   "name": "BEENY ONLINE",
+   "nameEn": "BEENY ONLINE",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5113c07a-1eed-4ac5-92f2-94c318d944c6.png"
+  },
+  {
+   "brand": null,
+   "name": "ללין אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f90a35dd-24e7-47fa-ae52-37c78af4a02f.png"
+  },
+  {
+   "brand": null,
+   "name": "ESTHER אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/76bf627b-db74-41e7-9367-7a768012876b.png"
+  },
+  {
+   "brand": null,
+   "name": "Lenovo",
+   "nameEn": "Lenovo",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/45bc6394-a9f0-4455-b607-5382054cd5cb.png"
+  },
+  {
+   "brand": null,
+   "name": "פוד אפיל אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e937c9b7-7cdc-40da-8fa8-35c5d6f61b5c.png"
+  },
+  {
+   "brand": null,
+   "name": "קרביץ אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f11ee567-fa09-47de-b7fa-8af0a500ac99.png"
+  },
+  {
+   "brand": null,
+   "name": "YOOZ",
+   "nameEn": "YOOZ",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9094e206-746f-47bc-a9f1-8e979054aaaa.png"
+  },
+  {
+   "brand": null,
+   "name": "ATIA",
+   "nameEn": "ATIA",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/213bdf2962ae4c439736bbef931e4dd5.png"
+  },
+  {
+   "brand": null,
+   "name": "פוקס אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9dd531da-ae19-4b12-91cf-ef8f094cc603.png"
+  },
+  {
+   "brand": null,
+   "name": "לסטר אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/990ee2d7-66ef-4eec-a86d-a421b1d92331.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נעמן ורדינון אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0cd9f40fe984480aaafea8021481ea3d.png"
+  },
+  {
+   "brand": null,
+   "name": "byneta online",
+   "nameEn": "byneta online",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/318dee06019e453b83a073a401908da8.png"
+  },
+  {
+   "brand": null,
+   "name": "GABY'S online",
+   "nameEn": "GABY'S online",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b2575d38-c0be-4b87-bdc6-1a34010e77cc.png"
+  },
+  {
+   "brand": null,
+   "name": "The North Face online",
+   "nameEn": "The North Face online",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2febed53eaf5429d8144e342be768f1b.png"
+  },
+  {
+   "brand": null,
+   "name": "JANSPORT online",
+   "nameEn": "JANSPORT online",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c96483ee7d504f9c8aba15298c6a0699.png"
+  },
+  {
+   "brand": null,
+   "name": "altra online",
+   "nameEn": "altra online",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/869516b11a94453bac9be694b58dc6a0.png"
+  },
+  {
+   "brand": null,
+   "name": "סנדלי שורש אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/31273ea6428443708427303167a255b4.png"
+  },
+  {
+   "brand": null,
+   "name": "simmons online",
+   "nameEn": "simmons online",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/eb97ab26e4354e7f92e948021967512b.png"
+  },
+  {
+   "brand": null,
+   "name": "KUNI online",
+   "nameEn": "KUNI online",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4b857fc25f6c4dc5a8c1e4e7dcad0987.png"
+  },
+  {
+   "brand": null,
+   "name": "אימהות אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4c922306e46f4476bc548bb7ab7608be.png"
+  },
+  {
+   "brand": null,
+   "name": "caprice diamonds",
+   "nameEn": "caprice diamonds",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/93254bdbb61e4a9780f784631c4bd6ef.png"
+  },
+  {
+   "brand": null,
+   "name": "vans online",
+   "nameEn": "vans online",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8b643f6c7839457e98156198f3ad7982.png"
+  },
+  {
+   "brand": null,
+   "name": "תיק התיקים אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a65dbfa69d8e4333a7971dfb0d349f85.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מקימי אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5df11a13a3bf469d90aa0b46958de6b1.png"
+  },
+  {
+   "brand": null,
+   "name": "שייקשוק אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cbe4d79551ea449099df8b9d296057ff.png"
+  },
+  {
+   "brand": null,
+   "name": "לינרה ליווינג אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/022cbaa38ddf4d0a851145244c64342b.png"
+  },
+  {
+   "brand": null,
+   "name": "ג'רוזלם ננו בייבל אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1843d1d20e794adc9bcf48771c3288a6.png"
+  },
+  {
+   "brand": null,
+   "name": "LEE אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/934b5c5a2aa14dffa5ea6d9f2b8dd1b1.png"
+  },
+  {
+   "brand": null,
+   "name": "NEW ERA אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c53cd81a8d02489a8b1938f0f0a90383.png"
+  },
+  {
+   "brand": null,
+   "name": "Wrangler אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0e647f03810d48f58f16fc4d9b2e8263.png"
+  },
+  {
+   "brand": null,
+   "name": "bumpers online",
+   "nameEn": "bumpers online",
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c6c0955a2dfd4fb5bf3c394570d871e8.png"
+  },
+  {
+   "brand": null,
+   "name": "קולומביה אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1e71cf0860af4fdda99724d384f4e7c4.png"
+  },
+  {
+   "brand": null,
+   "name": "גמבינו אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cc99447e05ff4b0796aaa32a73b17de5.png"
+  },
+  {
+   "brand": null,
+   "name": "שר ספא אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ffaf5276-7d4e-4f0d-9dcc-9f350463065f.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קאזה בלה אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e53ec340-4a6c-4b58-9711-b9524dcb90ca.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון איב אילת רשת אדם",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/dd0052b1-e335-4fdd-9cba-46ffcc3a3b8f.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון אירוס המדבר ירוחם",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c703dc2a-654f-49c1-8996-d79878fd76f6.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון עדן אין",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1311c3ed-9069-48be-8466-7dd4bc49aa0d.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון לייקהאוס כנרת",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a98282c9852d49a8a148dab21b22cf9b.png"
+  },
+  {
+   "brand": null,
+   "name": "VERT אילת",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/572a024e-e58d-43be-8494-4acf5f5cb020.png"
+  },
+  {
+   "brand": null,
+   "name": "VERT ירושלים",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/96f4ec5d-22de-4bcd-ac37-45e17a8e7971.png"
+  },
+  {
+   "brand": null,
+   "name": "VERT ים המלח",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d259763e-5c70-408b-acc1-9b0ea7aad44d.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון קראון פלאזה תל אביב",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2d40ccc1-fdeb-4f7d-89ee-5d35b95919bd.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון קראון פלאזה סיטי סנטר תל אביב",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/653a0982-a6fc-4e9f-af0f-5c05e29b9609.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון פליי סי פורט תל אביב",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f7e254907f8b4b59a83fbc45fca822a8.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון בראון בובו",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a6c5248a71fc47a99a67c08ee61b33ab.png"
+  },
+  {
+   "brand": null,
+   "name": "בראון ממילא JLM",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cfea08541e34498e9506be0cee4fcd12.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון פולי האוס",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e0934e40-7ea3-433c-af04-5e4066f7984a.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון ווסט אשדוד",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/20c75c5d-6a66-480d-8194-e363a72e8203.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון בראון מחנה יהודה",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/02fa2eab-d681-45aa-8a33-12dbbab8ae51.png"
+  },
+  {
+   "brand": null,
+   "name": "וילה בראון מושבה",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/08cc01cffd08487c99255dafbd625096.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון דברה בראון",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5734d23e2eae4fb6b3c0590610cca303.png"
+  },
+  {
+   "brand": null,
+   "name": "VERT לגון נתניה",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cf5dec9c-4051-4a96-afa6-5f5e410be63f.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון אינדיגו",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1893efe4-c1c7-4609-819e-508caba21b97.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון וילה בראון תל אביב",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/dbddc24bac3e4671bec7ebb23bdeb1a3.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון גלי כנרת",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b39cfbe88d7145519f65e33de2804f34.png"
+  },
+  {
+   "brand": null,
+   "name": "כפר הנופש נופי גונן",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6717ece079914a9188a049f15ce22a95.png"
+  },
+  {
+   "brand": null,
+   "name": "פליי הצוק תל אביב (מלון ווסט לשעבר)",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b9cb007c-5d25-45e5-bcc6-7502d3bb8f36.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון פליי מידטאון",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4ae1b5b9811f45c09bc8ea67364fc384.png"
+  },
+  {
+   "brand": null,
+   "name": "אוליאה olea",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/82ffe994-e099-4970-9bb4-7aace113cba4.png"
+  },
+  {
+   "brand": null,
+   "name": "קאמי מלון בוטיק גלילי",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ef3d4146-9d64-45e0-9013-90ff64e0cb7b.png"
+  },
+  {
+   "brand": null,
+   "name": "מלונות רוקסון",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/73deaba0-e9b0-42b9-acc9-2061c0dd46a2.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון פולי אורבן",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/279f18dd-d800-4680-980e-843fb72891a5.png"
+  },
+  {
+   "brand": null,
+   "name": "וילה בראון ירושלים",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1fe034123e514d4c91bace451bee2053.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון בראון ביץ' האוס",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9cadce21cbb04721ad2d426fec4c7909.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון בראון ירושלים (מלון שלום לשעבר)",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/884681ae71e14729802d3235d56d4141.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון PLAY לבונטין תל אביב",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e08a93331b6e4a2cbc8526bb1f8b5d6f.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון פיורי 41 רשת אדם",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f67fb36e-350b-40ad-b3e4-00b794f98315.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון 1935 רשת אדם",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c9d662f8-4954-4159-9f32-18359ce55bf1.png"
+  },
+  {
+   "brand": null,
+   "name": "בראון ים המלח",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fb1e9d3c39fe431ab3ad9ba142b88c29.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון פליי אילת",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4fd82de77b0549b3b5a908b9d0a2dc67.png"
+  },
+  {
+   "brand": null,
+   "name": "איסלה בראון 42 אילת",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7151656b521846c084d8883210d55a6f.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון אלאיה",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7d417071ba6b48a5855fa9cc186c1254.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון קאסלנד ריזורט",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/edeb4909f6f24c9ca43ca52672170465.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון אלמונד",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ed5adc47de2e445ea7c600abd9bf6225.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון נווה אילן",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/734b746efa044095a9aa41d9a81de402.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון נס עמים",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cfa09782343e41e39e6bec3f9c16e74f.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון אלדן - הוטל D",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4429d288600445008f12b56acf5ab3f5.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון ג'יירוז - הוטל D",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/965f337373c8427f98914e2e49049243.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון בית שמואל - הוטל D",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/aedc579f5fbd43bca5606c044743d45f.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון אלמרה",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/207b4cf1f16042ca81f4faff9df40fd1.png"
+  },
+  {
+   "brand": null,
+   "name": "סווויטת מוקה",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5982d061eba24870a986d46f6a70d42f.png"
+  },
+  {
+   "brand": null,
+   "name": "החופשה הקסומה",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/12469227-ca73-4a63-a761-f93eb255b72b.png"
+  },
+  {
+   "brand": null,
+   "name": "בקתות ההוד",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b3e64733-2008-496f-baee-7fbd6b873b4f.png"
+  },
+  {
+   "brand": null,
+   "name": "אחוזת מיתרים",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/89018e2c-4a4b-429b-86a2-f6d833deca8b.png"
+  },
+  {
+   "brand": null,
+   "name": "חלום שלמה",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/83f34279-402b-4e48-a8e8-69ef3db51c40.png"
+  },
+  {
+   "brand": null,
+   "name": "אירופה בוטיק כנרת",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e883a3cc-e752-4b7d-8d9e-9f26ed6e97a3.png"
+  },
+  {
+   "brand": null,
+   "name": "בתי נורית",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fc744fcb-96d2-4316-bc9c-d2b1ff07d59a.png"
+  },
+  {
+   "brand": null,
+   "name": "סוויטות הרמבם",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/535c37a1-9b76-4741-8df9-35992aec1a90.png"
+  },
+  {
+   "brand": null,
+   "name": "אצולת הכפר",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1748fd19-6d61-4c06-ab6b-4651316d6b4c.png"
+  },
+  {
+   "brand": null,
+   "name": "שירת הגליל",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c7620ef2-4554-43d0-91a2-015b12efbd30.png"
+  },
+  {
+   "brand": null,
+   "name": "אירוח כפרי אצל תמי",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5b269b9a07fe4bb499d29ea0a9fcc4a6.png"
+  },
+  {
+   "brand": null,
+   "name": "רמון פאלמס",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d7c4b2ed076e4702b48d5a472b073275.png"
+  },
+  {
+   "brand": null,
+   "name": "טאג' מאהל",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8d32efd3febb4934a98e44d4659f6ca0.png"
+  },
+  {
+   "brand": null,
+   "name": "בקתות נומה",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d052750e70d0494f8ce59dfdbcfa6952.png"
+  },
+  {
+   "brand": null,
+   "name": "סוויטות אניס לבנים",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/995cb8b22ebf400482b6c7f03aeb388e.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון שטרקמן ארנה",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e34de7308bfc4b1da9846d56a5850b7c.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון אדם בוטיק אילת",
+   "nameEn": null,
+   "category": "אירוח ונופש",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/374c64ca-262a-4a12-8f69-aac3aeb649a1.png"
+  },
+  {
+   "brand": null,
+   "name": "טרקטורוני עמק חפר",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/88d5d4f6af19479892ca6d5fb5646013.png"
+  },
+  {
+   "brand": null,
+   "name": "חמת גדר",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cb5ac916-2b3f-4e9a-bd2f-26e89f255e68.jpg"
+  },
+  {
+   "brand": null,
+   "name": "4 chef",
+   "nameEn": "4 chef",
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2b33caff-0894-4370-a079-4550408d6601.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הבוסתן של מוטי",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ba0b45acebb74f21ba73c048a70fbc69.png"
+  },
+  {
+   "brand": null,
+   "name": "קווסטים חדרי בריחה",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/76cad193-6201-4c36-aa91-59e2f3c782ef.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סיורי אופנה ועיצוב - גל שוקרון",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7071c087-2371-4502-b3bf-a4ba1ea9c136.png"
+  },
+  {
+   "brand": null,
+   "name": "MESA - בית לנגרים ולעץ",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5fb8fe6f-85de-42a3-8493-a3e75555c480.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פיקסל - צילום בסמארטפון",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f0191560b74a49f5b43c0720b37c6b68.png"
+  },
+  {
+   "brand": null,
+   "name": "בי תל אביב טורס Be Tel Aviv tours",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/41126f91-1715-419d-9fc4-5ecf3f0f422f.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אאוריקה עיצובים",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/38e30f54-e36c-46a6-85d7-35d837557c2d.png"
+  },
+  {
+   "brand": null,
+   "name": "ווטרלנד פארק המים אילת",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/25aaa2b5-f449-4239-8a53-f49108a87fcb.png"
+  },
+  {
+   "brand": null,
+   "name": "גלית ניניו סטיילסטית אישית",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/205cdfc2-0254-4056-9a83-dd45d8a8cd16.png"
+  },
+  {
+   "brand": null,
+   "name": "שחמט ישראל",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ef2bef53-faa2-4e8b-a54d-1af83325ec09.png"
+  },
+  {
+   "brand": null,
+   "name": "טננה - קורס ספרדית דיגיטלי",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/21645086-d760-4672-bf1d-63b0b2d1bc21.png"
+  },
+  {
+   "brand": null,
+   "name": "אסקייפ פלאנט",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/21f6d8b56d0f47508f7a3492a4dabf51.png"
+  },
+  {
+   "brand": null,
+   "name": "רווה קולינריה נוזלית",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/52f83f2f-4098-4866-bbeb-75a404edbf67.png"
+  },
+  {
+   "brand": null,
+   "name": "ארטפוד",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/474e5624-c05b-4193-af80-79a3345e2fd8.png"
+  },
+  {
+   "brand": null,
+   "name": "צחי כהן- סיורים וטיולים מודרכים",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3135d5bb-abda-423b-96e7-c21c46cda1f5.png"
+  },
+  {
+   "brand": null,
+   "name": "סיטי פארק רננים",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8c167bd4-e228-41c5-8a47-67d3d8262229.png"
+  },
+  {
+   "brand": null,
+   "name": "משחקיית ג'ומאנקי",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5c471ffc-4e6e-452a-9394-d1bc36a9476d.png"
+  },
+  {
+   "brand": null,
+   "name": "מועדון גלישה דאדיז",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5847412011d8470fb2800b4b1c5df149.png"
+  },
+  {
+   "brand": null,
+   "name": "יאכטה מונטה קרלו אילת",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/803a64b50b614d8ea02b20a791788ebd.png"
+  },
+  {
+   "brand": null,
+   "name": "קשרי תעופה",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0b7ce377823b49f4800835dade95fd33.png"
+  },
+  {
+   "brand": null,
+   "name": "לופ - LOOP",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/728eacac71dc49619b263f9780149439.png"
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון הקאמרי תל אביב",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a71cc260-c7bd-4417-bef8-22926f391365.png"
+  },
+  {
+   "brand": null,
+   "name": "רוגבי הפקות",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f9534981-f121-4801-ad57-82034c49e78c.png"
+  },
+  {
+   "brand": null,
+   "name": "הכרטיס מופעי בידור",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7ab266e5-30b7-4962-bee5-d72542ff99a9.png"
+  },
+  {
+   "brand": null,
+   "name": "בליץ",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/112e5bf1-bf98-4cfd-a060-7fd630e30f52.png"
+  },
+  {
+   "brand": null,
+   "name": "תפדל - בואו נדבר ערבית",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6b29d66c91634490b8b738995e12b03b.png"
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי אליצור",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d074c25a-9197-437c-931a-9a967d28df8f.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת הקאנטרי",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a02459c5-8458-42e5-9de1-0fc5ab8a6961.png"
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי גן עברון",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1e7633c4-39d7-4146-a083-5818b70981fe.png"
+  },
+  {
+   "brand": null,
+   "name": "אביטליטי",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9cd08687-3963-4836-bd9b-9f1ef7fe2a48.png"
+  },
+  {
+   "brand": null,
+   "name": "מרכז התזונה של מירי חדד",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4819f952-d55d-4bcb-9ea6-8c55aad98b47.png"
+  },
+  {
+   "brand": null,
+   "name": "אקסטרה ג'ים",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3e9ace40-174e-402c-bc72-fd697a7f8575.png"
+  },
+  {
+   "brand": null,
+   "name": "דרים ג'ים",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1b08620e-4097-4e3d-9205-e2a5ce294c42.png"
+  },
+  {
+   "brand": null,
+   "name": "כפר המכביה- מועדון ספורט",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/489b2c8d-0baf-45e7-9f98-c15ed3c1e548.png"
+  },
+  {
+   "brand": null,
+   "name": "ליאת יגר קבוצות הרזיה ופעילות גופנית",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/750c3848-6d9c-4f50-8f89-4de78bd049cf.png"
+  },
+  {
+   "brand": null,
+   "name": "איב חדר כושר לנשים",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a626267d-2e3d-4280-ac05-99633a9d4745.png"
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי נווה אילן",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9cfebb24567d4bad84189d0333f17350.png"
+  },
+  {
+   "brand": null,
+   "name": "move",
+   "nameEn": "move",
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/88463d34-f0fa-498c-95ab-b4595e639907.png"
+  },
+  {
+   "brand": null,
+   "name": "קאנטרי בילו",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c3cc80b4-1085-40c7-9695-b00005497199.png"
+  },
+  {
+   "brand": null,
+   "name": "קרוס דה סיטי - Cross The City",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/97662571-a329-4ad5-92d0-1238e1ee8b0f.png"
+  },
+  {
+   "brand": null,
+   "name": "מינימל בודי MINIMAL BODY",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/00a8a53017ee4ff1be0138131a05c2a0.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת ספורטיב- GYM",
+   "nameEn": null,
+   "category": "בריאות וכושר",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/00390eb3127e4a8daaccbd89a1ed7269.png"
+  },
+  {
+   "brand": null,
+   "name": "פלאפון",
+   "nameEn": null,
+   "category": "צרכנות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8343f0a59adc4208b19404b6ab332421.png"
+  }
+ ]
+}

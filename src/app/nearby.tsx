@@ -9,7 +9,7 @@ import { formatMoney, sumByCurrency } from '@/domain/money';
 import { useI18n } from '@/i18n';
 import { scanNearby, type ScanOutcome } from '@/location/locationService';
 import { formatDistance } from '@/location/nearbyAlert';
-import { SCAN_RADIUS_M } from '@/location/nearest';
+import { SCAN_RADII_M } from '@/location/nearest';
 import { isOwnStore } from '@/networks/accepted';
 import { useTheme } from '@/theme/ThemeProvider';
 
@@ -21,20 +21,28 @@ export default function NearbyScreen() {
   const [outcome, setOutcome] = useState<ScanOutcome | null>(null);
 
   const [run, setRun] = useState(0);
+  // Starts at 1 km; widened only when the user agrees after an empty result.
+  const [radiusStep, setRadiusStep] = useState(0);
+  const radiusM = SCAN_RADII_M[radiusStep];
+  const nextRadiusM = SCAN_RADII_M[radiusStep + 1];
   const scan = useCallback(() => {
     setOutcome(null);
     setRun((n) => n + 1);
   }, []);
+  const extend = useCallback(() => {
+    setOutcome(null);
+    setRadiusStep((n) => Math.min(n + 1, SCAN_RADII_M.length - 1));
+  }, []);
 
   useEffect(() => {
     let alive = true;
-    scanNearby((partial) => alive && setOutcome(partial)).then((o) => alive && setOutcome(o));
+    scanNearby((partial) => alive && setOutcome(partial), radiusM).then((o) => alive && setOutcome(o));
     return () => {
       alive = false;
     };
-  }, [run]);
+  }, [run, radiusM]);
 
-  const radius = formatDistance(lang, SCAN_RADIUS_M);
+  const radius = formatDistance(lang, radiusM);
   const directions = (lat: number, lng: number) =>
     Linking.openURL(
       Platform.OS === 'ios'
@@ -87,9 +95,13 @@ export default function NearbyScreen() {
         <EmptyState
           icon="storefront-outline"
           title={t('nearby.none')}
-          body={t('nearby.noneHint', { count: outcome.storesWithCredit, radius })}
-          actionTitle={t('nearby.scanAgain')}
-          onAction={scan}
+          body={
+            nextRadiusM
+              ? `${t('nearby.noneHint', { count: outcome.storesWithCredit, radius })} ${t('nearby.extendAsk')}`
+              : t('nearby.noneHint', { count: outcome.storesWithCredit, radius })
+          }
+          actionTitle={nextRadiusM ? t('nearby.extend', { radius: formatDistance(lang, nextRadiusM) }) : t('nearby.scanAgain')}
+          onAction={nextRadiusM ? extend : scan}
         />
       ) : (
         <>
@@ -113,7 +125,12 @@ export default function NearbyScreen() {
                 onPress={() => router.push(`/item/${s.items[0].id}`)}
                 style={[styles.card, { backgroundColor: colors.surface, borderColor: colors.border, borderRadius: radii.card }]}
               >
-                <StoreAvatar name={title} logoUri={direct ? s.items[0].storeLogoUri : null} size={44} />
+                <StoreAvatar
+                  name={title}
+                  names={[s.storeName, s.storeNameEn, s.storeNameHe]}
+                  logoUri={direct ? s.items[0].storeLogoUri : null}
+                  size={44}
+                />
                 <View style={styles.flex}>
                   <Text variant="headline">{title}</Text>
                   <Text variant="callout" tone="secondary">

@@ -2,7 +2,7 @@
  * Money helpers. Amounts are integers in minor units (e.g. agorot).
  */
 
-export const SUPPORTED_CURRENCIES = ['ILS', 'USD', 'EUR', 'GBP'] as const;
+export const SUPPORTED_CURRENCIES = ['ILS', 'USD', 'EUR'] as const;
 export type SupportedCurrency = (typeof SUPPORTED_CURRENCIES)[number];
 
 const ZERO_DECIMAL = new Set(['JPY', 'KRW', 'VND', 'CLP', 'ISK', 'HUF']);
@@ -24,7 +24,6 @@ const SYMBOLS: Record<string, string> = {
   ILS: '₪',
   USD: '$',
   EUR: '€',
-  GBP: '£',
 };
 
 export function currencySymbol(currency: string): string {
@@ -131,7 +130,6 @@ export function minorToInput(minor: number | null | undefined, currency = 'ILS')
 const CURRENCY_HINTS: [RegExp, string][] = [
   [/₪|ש["״']?\s?ח|שקל|\bnis\b|\bils\b/i, 'ILS'],
   [/€|\beur\b|euro|יורו/i, 'EUR'],
-  [/£|\bgbp\b|pound|ליש"ט/i, 'GBP'],
   [/\$|\busd\b|dollar|דולר/i, 'USD'],
 ];
 

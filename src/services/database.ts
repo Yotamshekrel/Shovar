@@ -7,6 +7,8 @@ import { KvRepository } from '@/db/kvRepository';
 import { migrate } from '@/db/migrations';
 import { getFieldCipher } from '@/security/keyStore';
 
+import { applySavedCatalog } from './catalogSync';
+
 export interface Services {
   db: SqlDriver;
   items: ItemRepository;
@@ -24,10 +26,13 @@ export function getServices(): Promise<Services> {
     const db = await openExpoDriver();
     await migrate(db, { onBeforeMigrate: (from) => backupDatabase(db, from) });
     const cipher = await getFieldCipher();
+    const kv = new KvRepository(db);
+    // Background tasks open the database too, so they also see the downloaded store lists.
+    await applySavedCatalog(kv).catch(() => {});
     return {
       db,
       items: new ItemRepository({ db, cipher, newId: () => Crypto.randomUUID() }),
-      kv: new KvRepository(db),
+      kv,
     };
   })().catch((e) => {
     servicesPromise = null;

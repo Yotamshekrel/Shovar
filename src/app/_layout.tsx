@@ -10,7 +10,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import { DialogHost } from '@/components/DialogHost';
 import { LockGate } from '@/components/LockGate';
-import { Button, Text } from '@/components/ui';
+import { Button, ConfettiHost, Text } from '@/components/ui';
 import { useI18n } from '@/i18n';
 import { initApp } from '@/services/bootstrap';
 import { ThemeProvider, useTheme } from '@/theme/ThemeProvider';
@@ -63,6 +63,7 @@ function Navigator() {
           <Stack.Screen name="add" options={{ ...sheet, sheetAllowedDetents: 'fitToContents' }} />
           <Stack.Screen name="new" options={{ title: t('form.titleNew'), presentation: 'modal' }} />
           <Stack.Screen name="scan" options={{ title: t('scan.title'), presentation: 'modal' }} />
+          <Stack.Screen name="scan-code" options={{ presentation: 'fullScreenModal', headerShown: false }} />
           <Stack.Screen name="link" options={{ title: t('link.title'), presentation: 'modal' }} />
           <Stack.Screen name="handle-share" options={{ title: t('share.title'), presentation: 'modal' }} />
           <Stack.Screen name="item/[id]/index" options={{ title: '' }} />
@@ -72,6 +73,10 @@ function Navigator() {
           <Stack.Screen name="nearby" options={{ title: t('nearby.title') }} />
           <Stack.Screen name="archive" options={{ title: t('archive.title') }} />
           <Stack.Screen name="settings/index" options={{ title: t('settings.title') }} />
+          <Stack.Screen name="settings/general" options={{ title: t('settings.general') }} />
+          <Stack.Screen name="settings/reminders" options={{ title: t('settings.reminders') }} />
+          <Stack.Screen name="settings/security" options={{ title: t('settings.securityAdvanced') }} />
+          <Stack.Screen name="settings/about" options={{ title: t('settings.about') }} />
           <Stack.Screen name="settings/legal" options={{ title: t('legal.title') }} />
           <Stack.Screen name="settings/location" options={{ presentation: 'modal', headerShown: false }} />
           <Stack.Screen name="onboarding" options={{ headerShown: false, gestureEnabled: false, animation: 'fade' }} />
@@ -127,6 +132,7 @@ export default function RootLayout() {
           <LockGate>
             <Navigator />
             <DialogHost />
+            <ConfettiHost />
           </LockGate>
         </Boot>
       </ThemeProvider>

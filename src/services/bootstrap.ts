@@ -7,6 +7,7 @@ import { configureNotifications, scheduleExpirySync } from '@/notifications/noti
 import { onItemsChanged, useItemsStore } from '@/state/items';
 import { SETTINGS_KEY, sanitizeSettings, useSettingsStore, type AppSettings } from '@/state/settings';
 
+import { refreshCatalog } from './catalogSync';
 import { getServices } from './database';
 
 let persistUnsub: (() => void) | null = null;
@@ -92,7 +93,6 @@ function startSideEffects(): void {
     const b = prev.settings;
     if (
       a.expiryRemindersEnabled !== b.expiryRemindersEnabled ||
-      a.reminderHour !== b.reminderHour ||
       a.language !== b.language ||
       a.expiryReminderDays.join(',') !== b.expiryReminderDays.join(',')
     ) {
@@ -110,5 +110,11 @@ export async function initApp(): Promise<AppSettings> {
   await ensureLayoutDirection(settings);
   startSideEffects();
   await useItemsStore.getState().refresh();
+  if (settings.catalogUpdatesEnabled) {
+    // Newer store lists apply to the next lookup; the UI never waits for them.
+    getServices()
+      .then(({ kv }) => refreshCatalog(kv))
+      .catch(() => {});
+  }
   return settings;
 }

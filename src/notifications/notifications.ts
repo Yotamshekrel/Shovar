@@ -5,7 +5,7 @@ import { Platform } from 'react-native';
 
 import type { Item } from '@/domain/types';
 import { currentLang, localeFor } from '@/i18n';
-import { getSettings } from '@/state/settings';
+import { EXPIRY_REMINDER_HOUR, getSettings } from '@/state/settings';
 
 import { type ScheduledRef, diffSchedule, planExpiryNotifications } from './expiryPlanner';
 
@@ -85,7 +85,7 @@ export async function syncExpiryNotifications(items: Item[], now = new Date()): 
   const plan = permitted
     ? planExpiryNotifications(
         items,
-        { enabled: settings.expiryRemindersEnabled, days: settings.expiryReminderDays, hour: settings.reminderHour },
+        { enabled: settings.expiryRemindersEnabled, days: settings.expiryReminderDays, hour: EXPIRY_REMINDER_HOUR },
         { now, lang, locale: localeFor(lang) },
       )
     : [];

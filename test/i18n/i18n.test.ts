@@ -46,12 +46,10 @@ describe('settings sanitization', () => {
   it('clamps and cleans invalid values', () => {
     const s = sanitizeSettings({
       expiryReminderDays: [3, 14, 3, -1, 999, 1.5],
-      reminderHour: 30,
       locationRadiusM: 5,
       locationCooldownHours: 1000,
     });
     expect(s.expiryReminderDays).toEqual([14, 3]);
-    expect(s.reminderHour).toBe(10);
     expect(s.locationRadiusM).toBe(100);
     expect(s.locationCooldownHours).toBe(168);
   });

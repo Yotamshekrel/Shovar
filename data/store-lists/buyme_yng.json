@@ -1,0 +1,3318 @@
+{
+ "platform": "buyme",
+ "variant": "yng",
+ "source": "https://buyme.co.il/brands/15579925",
+ "notes": "BUYME YNG – gifts for teens: fashion, food, entertainment.",
+ "updated": "2026-10-19",
+ "count": 440,
+ "stores": [
+  {
+   "brand": null,
+   "name": "adidas",
+   "nameEn": "adidas",
+   "description": "מותג אופנה וספורט בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo2208.jpg"
+  },
+  {
+   "brand": null,
+   "name": "KFC",
+   "nameEn": "KFC",
+   "description": "רשת מסעדות עוף",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574081.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פלנט באולינג וסיטי באולינג",
+   "nameEn": null,
+   "description": "מתחם באולינג ואטרקציות",
+   "logo": "https://buyme.co.il/files/siteNewLogo3320242.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ריקושט",
+   "nameEn": null,
+   "description": "ציוד לחיילים ומטיילים",
+   "logo": "https://buyme.co.il/files/siteNewLogo5069318.jpg"
+  },
+  {
+   "brand": null,
+   "name": "GLAM42|Sephora Collection",
+   "nameEn": "GLAM42|Sephora Collection",
+   "description": "רשת פארם וקוסמטיקה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574616.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מותגי אופנה גלובליים בGetaway",
+   "nameEn": null,
+   "description": "מבית Getaway by BUYME",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574620.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MAC",
+   "nameEn": "MAC",
+   "description": "מותג איפור בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo8180660.jpg"
+  },
+  {
+   "brand": null,
+   "name": "YOLO",
+   "nameEn": "YOLO",
+   "description": "ציוד לבי\"ס ומתנות פופ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo5853776.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SABON",
+   "nameEn": "SABON",
+   "description": "רשת טיפוח גוף ואווירה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574371.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Golf Kids",
+   "nameEn": "Golf Kids",
+   "description": "רשת אופנה לילדים ותינוקות",
+   "logo": "https://buyme.co.il/files/siteNewLogo997212.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת צומת ספרים",
+   "nameEn": null,
+   "description": "רשת חנויות ספרים",
+   "logo": "https://buyme.co.il/files/siteNewLogo2829100.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SOHO",
+   "nameEn": "SOHO",
+   "description": "רשת חנויות העיצוב",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo4889550.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ITAY BRANDS",
+   "nameEn": "ITAY BRANDS",
+   "description": "מותג אופנת בייסיק וקז'ואל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573496.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אינטימה",
+   "nameEn": null,
+   "description": "רשת הלבשה תחתונה",
+   "logo": "https://buyme.co.il/files/siteNewLogo997219.jpg"
+  },
+  {
+   "brand": null,
+   "name": "WeShoes",
+   "nameEn": "WeShoes",
+   "description": "מותגי נעליים ואופנה",
+   "logo": "https://buyme.co.il/files/siteNewLogo7693613.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סניפים נבחרים ברשת קפה גרג",
+   "nameEn": null,
+   "description": "רשת בתי קפה",
+   "logo": "https://buyme.co.il/files/siteNewLogo351980.jpg"
+  },
+  {
+   "brand": null,
+   "name": "עדה לזורגן",
+   "nameEn": null,
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573847.jpg"
+  },
+  {
+   "brand": null,
+   "name": "POPSI",
+   "nameEn": "POPSI",
+   "description": "צעצועים ואביזרים מעוצבים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573943.jpg"
+  },
+  {
+   "brand": null,
+   "name": "S-wear",
+   "nameEn": "S-wear",
+   "description": "רשת אופנה לנשים, גברים וילדים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574534.jpg"
+  },
+  {
+   "brand": null,
+   "name": "I JUMP",
+   "nameEn": "I JUMP",
+   "description": "פארק טרמפולינות",
+   "logo": "https://buyme.co.il/files/siteNewLogo2500772.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אופטיקנה",
+   "nameEn": null,
+   "description": "רשת משקפי שמש וראייה",
+   "logo": "https://buyme.co.il/files/siteNewLogo352936.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JAPAN-JAPAN",
+   "nameEn": "JAPAN-JAPAN",
+   "description": "רשת סושי ואוכל אסייתי",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo15328449.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MINISO",
+   "nameEn": "MINISO",
+   "description": "ענקית העיצוב היפנית",
+   "logo": "https://buyme.co.il/files/siteNewLogo9376094.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Femina",
+   "nameEn": "Femina",
+   "description": "רשת הלבשה תחתונה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo6235715.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סניפים נבחרים ברשת קפה קפה",
+   "nameEn": null,
+   "description": "רשת בתי קפה",
+   "logo": "https://buyme.co.il/files/siteNewLogo22840.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LAKE TLV",
+   "nameEn": "LAKE TLV",
+   "description": "סקי מים וויקבורד",
+   "logo": "https://buyme.co.il/files/siteNewLogo4746516.jpg"
+  },
+  {
+   "brand": null,
+   "name": "PROMISE",
+   "nameEn": "PROMISE",
+   "description": "מוצרי טיפוח מרכיבים טבעיים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574357.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MOBICELL",
+   "nameEn": "MOBICELL",
+   "description": "מוצרי ואביזרי סלולר",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573503.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הממלכה",
+   "nameEn": null,
+   "description": "משחקי לוח ותפקידים",
+   "logo": "https://buyme.co.il/files/siteNewLogo4383025.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Miss Nori",
+   "nameEn": "Miss Nori",
+   "description": "מותג אופנה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573633.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מגה ספורט",
+   "nameEn": null,
+   "description": "רשת חנויות ספורט וביגוד",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1350797.jpg"
+  },
+  {
+   "brand": null,
+   "name": "sweetime",
+   "nameEn": "sweetime",
+   "description": "ממתקים ושוקולדים מכל העולם",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574079.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת Bגוד",
+   "nameEn": null,
+   "description": "רשת בייסיק וקז'ואל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573425.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SEBOCALM",
+   "nameEn": "SEBOCALM",
+   "description": "מותג טיפוח",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo7913418.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TERMINAL X",
+   "nameEn": "TERMINAL X",
+   "description": "אתר אופנה ולייף סטייל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574024.jpg"
+  },
+  {
+   "brand": null,
+   "name": "charme tlv",
+   "nameEn": "charme tlv",
+   "description": "הצ׳ארם בר הראשון בישראל",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574336.jpg"
+  },
+  {
+   "brand": null,
+   "name": "STORY",
+   "nameEn": "STORY",
+   "description": "רשת מותגי אופנה ולייף סטייל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573557.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פיצה סטורי",
+   "nameEn": null,
+   "description": "פיצריה שכונתית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574068.jpg"
+  },
+  {
+   "brand": null,
+   "name": "PlaySmart",
+   "nameEn": "PlaySmart",
+   "description": "משחקים לילדים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574347.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Afrodita",
+   "nameEn": "Afrodita",
+   "description": "רשת הלבשה תחתונה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573682.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מקדונלד'ס",
+   "nameEn": null,
+   "description": "רשת המבורגרים ומזון מהיר",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1803111.jpg"
+  },
+  {
+   "brand": null,
+   "name": "KIKO MILANO",
+   "nameEn": "KIKO MILANO",
+   "description": "מותג איפור וטיפוח בינלאומי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573365.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Naaman & Vardinon",
+   "nameEn": "Naaman & Vardinon",
+   "description": "רשת לכלי בית וטקסטיל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1486795.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גרפוס",
+   "nameEn": null,
+   "description": "רשת למכשירי כתיבה ויצירה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574473.jpg"
+  },
+  {
+   "brand": null,
+   "name": "PALPHOT",
+   "nameEn": "PALPHOT",
+   "description": "ציוד לביה\"ס וצעצועים ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574503.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אופטיקה הלפרין",
+   "nameEn": null,
+   "description": "רשת משקפי שמש וראייה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573889.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קולומביה, שבילים ואווטסיידרס",
+   "nameEn": null,
+   "description": "רשתות ציוד טיולים וספורט",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo13020010.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Legenda",
+   "nameEn": "Legenda",
+   "description": "רשת גלידריות",
+   "logo": "https://buyme.co.il/files/siteNewLogo4916118.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אליטל",
+   "nameEn": null,
+   "description": "רשת נעליים לכל המשפחה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574284.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JO MALONE LONDON",
+   "nameEn": "JO MALONE LONDON",
+   "description": "מותג בישום ולייף סטייל",
+   "logo": "https://buyme.co.il/files/siteNewLogo8183725.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מילגה",
+   "nameEn": null,
+   "description": "רשת פופים וריהוט רך",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo5734144.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טעימים",
+   "nameEn": null,
+   "description": "ממתקים נדירים מחו\"ל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo15161610.jpg"
+  },
+  {
+   "brand": null,
+   "name": "שלומית אופיר",
+   "nameEn": null,
+   "description": "עיצוב תכשיטים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo2032473.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SMASH ROOM",
+   "nameEn": "SMASH ROOM",
+   "description": "מתחם חדרי זעם",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574157.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טבע נאות",
+   "nameEn": null,
+   "description": "רשת נעלי נוחות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1391253.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת לנדוור",
+   "nameEn": null,
+   "description": "רשת מסעדות",
+   "logo": "https://buyme.co.il/files/siteNewLogo5210260.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ONLY'S BEAUTY",
+   "nameEn": "ONLY'S BEAUTY",
+   "description": "מותגי איפור וטיפוח אונליין",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573610.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Trek Market",
+   "nameEn": "Trek Market",
+   "description": "רשת לציוד טיולים וספורט",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573539.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Vintage Original",
+   "nameEn": "Vintage Original",
+   "description": "משקפי שמש וראיה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573518.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מצמן",
+   "nameEn": null,
+   "description": "רשת חנויות אופניים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo777671.jpg"
+  },
+  {
+   "brand": null,
+   "name": "שופרא",
+   "nameEn": null,
+   "description": "רשת בוטיק לנעלים ותיקים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo6157697.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BLUEBERRY",
+   "nameEn": "BLUEBERRY",
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573921.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Frame Sushi Bar | Unniko Sushi",
+   "nameEn": "Frame Sushi Bar | Unniko Sushi",
+   "description": "מסעדת סושי ואוכל אסייתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573483.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קבוצת story",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה ולייף סטייל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo2213595.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CASTRO",
+   "nameEn": "CASTRO",
+   "description": "רשת אופנה ישראלית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo4747.jpg"
+  },
+  {
+   "brand": null,
+   "name": "HOODIES",
+   "nameEn": "HOODIES",
+   "description": "רשת אופנת בייסיק, קז'ואל וספורט",
+   "logo": "https://buyme.co.il/files/siteNewLogo349601.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VANS",
+   "nameEn": "VANS",
+   "description": "מותג סניקרס ולייף סטייל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo3557109.jpg"
+  },
+  {
+   "brand": null,
+   "name": "URBANICA",
+   "nameEn": "URBANICA",
+   "description": "רשת אופנה לכל המשפחה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573366.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CAROLINA LEMKE",
+   "nameEn": "CAROLINA LEMKE",
+   "description": "רשת משקפי שמש וראייה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573373.jpg"
+  },
+  {
+   "brand": null,
+   "name": "APRIL",
+   "nameEn": "APRIL",
+   "description": "רשת בישום וקוסמטיקה",
+   "logo": "https://buyme.co.il/files/siteNewLogo352934.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TOPTEN",
+   "nameEn": "TOPTEN",
+   "description": "רשת אקססוריז ותיקים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573372.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Foot Locker",
+   "nameEn": "Foot Locker",
+   "description": "רשת הנעלה ואופנת ספורט",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573252.jpg"
+  },
+  {
+   "brand": null,
+   "name": "DREAM SPORT",
+   "nameEn": "DREAM SPORT",
+   "description": "רשת חנויות ספורט",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573253.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Billabong",
+   "nameEn": "Billabong",
+   "description": "מותג אופנת גלישה ובגדי ים",
+   "logo": "https://buyme.co.il/files/siteNewLogo997193.jpg"
+  },
+  {
+   "brand": null,
+   "name": "H&M",
+   "nameEn": "H&M",
+   "description": "רשת אופנה בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo2388927.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Dixie",
+   "nameEn": "Dixie",
+   "description": "דיינר אמריקאי של השף חיים כהן",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo784689.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Philadelphia",
+   "nameEn": "Philadelphia",
+   "description": "מסעדת כריכי בשר של השף חיים כהן",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo14393928.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Quiksilver",
+   "nameEn": "Quiksilver",
+   "description": "מותג אופנת גלישה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573249.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Laline",
+   "nameEn": "Laline",
+   "description": "רשת טיפוח גוף ואווירה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo9030.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Boardriders",
+   "nameEn": "Boardriders",
+   "description": "רשת אופנת גלישה וסנובורד",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573251.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מגוון מותגי קבוצת FOX",
+   "nameEn": null,
+   "description": "קבוצת מותגי אופנה ולייף סטייל",
+   "logo": "https://buyme.co.il/files/siteNewLogo146930.jpg"
+  },
+  {
+   "brand": null,
+   "name": "FOX",
+   "nameEn": "FOX",
+   "description": "רשת אופנה ישראלית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo14573.jpg"
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון הבימה",
+   "nameEn": null,
+   "description": "התיאטרון הלאומי של ישראל",
+   "logo": "https://buyme.co.il/files/siteNewLogo3691787.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Erroca by Super-Pharm",
+   "nameEn": "Erroca by Super-Pharm",
+   "description": "רשת משקפי שמש וראייה",
+   "logo": "https://buyme.co.il/files/siteNewLogo352950.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Fox Home",
+   "nameEn": "Fox Home",
+   "description": "טקסטיל וכלי בית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo14570.jpg"
+  },
+  {
+   "brand": null,
+   "name": "American Eagle",
+   "nameEn": "American Eagle",
+   "description": "רשת אופנה בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo997194.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Aerie",
+   "nameEn": "Aerie",
+   "description": "רשת הלבשה תחתונה",
+   "logo": "https://buyme.co.il/files/siteNewLogo997191.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MANGO",
+   "nameEn": "MANGO",
+   "description": "רשת אופנה בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo4252878.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סינטה בר אקספרס - חיפה",
+   "nameEn": null,
+   "description": "רשת מסעדות בשרים",
+   "logo": "https://buyme.co.il/files/siteNewLogo1189277.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MR.BUN BURGER",
+   "nameEn": "MR.BUN BURGER",
+   "description": "מסעדת המבורגרים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17473290.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ALDO",
+   "nameEn": "ALDO",
+   "description": "רשת נעליים ואקססוריז",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo909832.jpg"
+  },
+  {
+   "brand": null,
+   "name": "החנות הורודה",
+   "nameEn": null,
+   "description": "בגדי ים ברזילאים",
+   "logo": "https://buyme.co.il/files/siteNewLogo5773458.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BOBBI BROWN",
+   "nameEn": "BOBBI BROWN",
+   "description": "מותג איפור בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo8183799.jpg"
+  },
+  {
+   "brand": null,
+   "name": "HOTCROWN Jewelry",
+   "nameEn": "HOTCROWN Jewelry",
+   "description": "מותג תכשיטי זהב",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1193096.jpg"
+  },
+  {
+   "brand": null,
+   "name": "היכל הקרח חולון",
+   "nameEn": null,
+   "description": "מתחם החלקה על הקרח",
+   "logo": "https://buyme.co.il/files/siteNewLogo2393284.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Alltech",
+   "nameEn": "Alltech",
+   "description": "משחקי מדע וטכנולוגיה",
+   "logo": "https://buyme.co.il/files/siteNewLogo6944877.jpg"
+  },
+  {
+   "brand": null,
+   "name": "זה סושי בזל - תל-אביב",
+   "nameEn": null,
+   "description": "מסעדת סושי שכונתית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo782899.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סאפ יוגה תל אביב",
+   "nameEn": null,
+   "description": "מועדון לסאפ יוגה",
+   "logo": "https://buyme.co.il/files/siteNewLogo762833.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SLEEZY PIZZA",
+   "nameEn": "SLEEZY PIZZA",
+   "description": "פיצריה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1240474.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מחסן גיטרות",
+   "nameEn": null,
+   "description": "גיטרות ואביזרים נלווים",
+   "logo": "https://buyme.co.il/files/siteNewLogo908462.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BRETONNE",
+   "nameEn": "BRETONNE",
+   "description": "קרפרי מקומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo6302531.jpg"
+  },
+  {
+   "brand": null,
+   "name": "NOLA American Bakery",
+   "nameEn": "NOLA American Bakery",
+   "description": "מאפייה ובית קפה אמריקאי",
+   "logo": "https://buyme.co.il/files/siteNewLogo4217081.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Sparco",
+   "nameEn": "Sparco",
+   "description": "נהיגת מרוצים",
+   "logo": "https://buyme.co.il/files/siteNewLogo3163395.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Surf Club",
+   "nameEn": "Surf Club",
+   "description": "מועדון גלישה",
+   "logo": "https://buyme.co.il/files/siteNewLogo4381705.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ToneLine",
+   "nameEn": "ToneLine",
+   "description": "שיעורי מוסיקה אונליין",
+   "logo": "https://buyme.co.il/files/siteNewLogo3558285.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TOPSEA",
+   "nameEn": "TOPSEA",
+   "description": "מרכז גלישה",
+   "logo": "https://buyme.co.il/files/siteNewLogo1654858.jpg"
+  },
+  {
+   "brand": null,
+   "name": "agenda",
+   "nameEn": "agenda",
+   "description": "בר קפה וסושי",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo8321257.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גלים",
+   "nameEn": null,
+   "description": "בית ספר לגלישה",
+   "logo": "https://buyme.co.il/files/siteNewLogo1645082.jpg"
+  },
+  {
+   "brand": null,
+   "name": "המלביה",
+   "nameEn": null,
+   "description": "רשת מלבי וקינוחים",
+   "logo": "https://buyme.co.il/files/siteNewLogo5636708.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לייזר טאג פולג- לוחמה אורבנית",
+   "nameEn": null,
+   "description": "מתחם לייזר טאג",
+   "logo": "https://buyme.co.il/files/siteNewLogo7939413.jpg"
+  },
+  {
+   "brand": null,
+   "name": "magnolia",
+   "nameEn": "magnolia",
+   "description": "רשת תכשיטים לנשים וגברים",
+   "logo": "https://buyme.co.il/files/siteNewLogo4065607.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נגינה",
+   "nameEn": null,
+   "description": "בית ספר אינטרנטי למוסיקה",
+   "logo": "https://buyme.co.il/files/siteNewLogo5526247.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סמארט טויס",
+   "nameEn": null,
+   "description": "צעצועים חכמים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo2798722.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פיצה פורטו",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo4116857.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה דיזנגוף",
+   "nameEn": null,
+   "description": "בית קפה וארוחות בוקר",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo3190437.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה סלבדור",
+   "nameEn": null,
+   "description": "בית קפה מבית ג'קו סטריט",
+   "logo": "https://buyme.co.il/files/siteNewLogo4150702.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פאפאגאיו ירושלים",
+   "nameEn": null,
+   "description": "מסעדת בשרים ברזילאית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo2437998.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Desigual",
+   "nameEn": "Desigual",
+   "description": "רשת אופנה בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo9679655.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO זיכרון יעקב",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo3657311.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO באר שבע",
+   "nameEn": null,
+   "description": "מסעדה איטלקית כשרה",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo5041833.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קבוצת Golf",
+   "nameEn": null,
+   "description": "קבוצת מותגי אופנה ובית",
+   "logo": "https://buyme.co.il/files/siteNewLogo338799.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO חיפה",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1602155.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO קריות",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo13894665.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO כרמיאל",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo11672496.jpg"
+  },
+  {
+   "brand": null,
+   "name": "speedo",
+   "nameEn": "speedo",
+   "description": "מותג שחייה וספורט ימי",
+   "logo": "https://buyme.co.il/files/siteNewLogo16630177.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בש גל",
+   "nameEn": null,
+   "description": "ציוד ספורט ביתי ומקצועי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo15327637.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספרינקלס בייקרי",
+   "nameEn": null,
+   "description": "קונדיטוריה ומאפייה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573339.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קבוצת אסתי לאודר, MAC בובי בראון",
+   "nameEn": null,
+   "description": "מגוון מותגי קוסמטיקה",
+   "logo": "https://buyme.co.il/files/siteNewLogo8037273.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TOUS",
+   "nameEn": "TOUS",
+   "description": "מותג תכשיטים בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo8505365.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ellesse",
+   "nameEn": "ellesse",
+   "description": "מותג ספורט ולייף סטייל",
+   "logo": "https://buyme.co.il/files/siteNewLogo16629875.jpg"
+  },
+  {
+   "brand": null,
+   "name": "שירלי מרכז אומנויות",
+   "nameEn": null,
+   "description": "סדנאות וחוגי אומנות",
+   "logo": "https://buyme.co.il/files/siteNewLogo15578808.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קבוצת גוצ'ה",
+   "nameEn": null,
+   "description": "קבוצת מסעדות דגים ופירות ים",
+   "logo": "https://buyme.co.il/files/siteNewLogo1711256.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The Children's Place",
+   "nameEn": "The Children's Place",
+   "description": "רשת אופנה לילדים",
+   "logo": "https://buyme.co.il/files/siteNewLogo997192.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לייזר סטריט",
+   "nameEn": null,
+   "description": "מתחם לייזר טאג ברעננה",
+   "logo": "https://buyme.co.il/files/siteNewLogo11051152.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פאנקי פיש מתנות חוויתיות",
+   "nameEn": null,
+   "description": "ערכות DIY לילדים ולמשפחות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573322.jpg"
+  },
+  {
+   "brand": null,
+   "name": "באולינג 7",
+   "nameEn": null,
+   "description": "רשת מרכזי באולינג ובילוי",
+   "logo": "https://buyme.co.il/files/siteNewLogo8160517.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פארק מיני ישראל",
+   "nameEn": null,
+   "description": "פארק מיניאטורות",
+   "logo": "https://buyme.co.il/files/siteNewLogo2953716.jpg"
+  },
+  {
+   "brand": null,
+   "name": "2BREAK",
+   "nameEn": "2BREAK",
+   "description": "אטרקציה לשבירת חפצים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573384.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נעה עינת",
+   "nameEn": null,
+   "description": "סדנאות אפייה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573374.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Solog",
+   "nameEn": "Solog",
+   "description": "רשת אופנה לילדים ותינוקות",
+   "logo": "https://buyme.co.il/files/siteNewLogo6887.jpg"
+  },
+  {
+   "brand": null,
+   "name": "FLY AWAY",
+   "nameEn": "FLY AWAY",
+   "description": "כדורים פורחים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573528.jpg"
+  },
+  {
+   "brand": null,
+   "name": "FOOD TERMINAL",
+   "nameEn": "FOOD TERMINAL",
+   "description": "מתחם אוכל קולינרי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573427.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גן סטודיו",
+   "nameEn": null,
+   "description": "מתחם סדנאות ומוצרי נייר",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573468.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כיף האוס",
+   "nameEn": null,
+   "description": "מוזיאון הסלפי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573419.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CHOZEN",
+   "nameEn": "CHOZEN",
+   "description": "אופנה וקוסמטיקה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573532.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת למטייל",
+   "nameEn": null,
+   "description": "ציוד קמפינג ומחנאות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1722188.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ALLSAINTS",
+   "nameEn": "ALLSAINTS",
+   "description": "רשת אופנה בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573556.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Freefit",
+   "nameEn": "Freefit",
+   "description": "מגוון אימוני כושר",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573583.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SCOTCH & SODA",
+   "nameEn": "SCOTCH & SODA",
+   "description": "רשת אופנה בינלאומית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573551.jpg"
+  },
+  {
+   "brand": null,
+   "name": "WORD by story",
+   "nameEn": "WORD by story",
+   "description": "מותג אופנה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573554.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Dé Rococo",
+   "nameEn": "Dé Rococo",
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573578.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Burger King",
+   "nameEn": "Burger King",
+   "description": "רשת המבורגרים ומזון מהיר",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573649.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Forever21",
+   "nameEn": "Forever21",
+   "description": "רשת אופנה בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573656.jpg"
+  },
+  {
+   "brand": null,
+   "name": "RUBY BAY",
+   "nameEn": "RUBY BAY",
+   "description": "מותג אופנת קז'ואל לנשים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573636.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BROWNIE",
+   "nameEn": "BROWNIE",
+   "description": "מותג אופנה לנשים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573697.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Converse",
+   "nameEn": "Converse",
+   "description": "מותג סניקרס בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573694.jpg"
+  },
+  {
+   "brand": null,
+   "name": "GOVANA Fashion",
+   "nameEn": "GOVANA Fashion",
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573683.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TIKI- מותג אופנה לאנשים טובים",
+   "nameEn": null,
+   "description": "מותג אופנה ולייף סטייל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573660.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גרג קיטשן",
+   "nameEn": null,
+   "description": "רשת בתי קפה ומסעדות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573540.jpg"
+  },
+  {
+   "brand": null,
+   "name": "HACKETT & GANT",
+   "nameEn": "HACKETT & GANT",
+   "description": "יבואן מותגי אופנת פרימיום",
+   "logo": "https://buyme.co.il/files/siteNewLogo5715489.jpg"
+  },
+  {
+   "brand": null,
+   "name": "GANT",
+   "nameEn": "GANT",
+   "description": "מותג אופנה בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo5746403.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רפטינג נהר הירדן",
+   "nameEn": null,
+   "description": "שייט קיאקים ורפטינג",
+   "logo": "https://buyme.co.il/files/siteNewLogo26330.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BIMBA Y LOLA",
+   "nameEn": "BIMBA Y LOLA",
+   "description": "רשת אופנה בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573728.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Box and bellz",
+   "nameEn": "Box and bellz",
+   "description": "אימוני כושר בקבוצות קטנות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573911.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ENERGYM",
+   "nameEn": "ENERGYM",
+   "description": "רשת לציוד ספורט וכושר",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573938.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Just-Meat",
+   "nameEn": "Just-Meat",
+   "description": "רשת מסעדות של אוכל רחוב",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573871.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LULU VINTAGE",
+   "nameEn": "LULU VINTAGE",
+   "description": "בוטיק וינטג' ויד שניה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573945.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TIKTIK",
+   "nameEn": "TIKTIK",
+   "description": "חבילות ספורט והופעות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573764.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Under Armour",
+   "nameEn": "Under Armour",
+   "description": "מותג ספורט בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573768.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אלוף ספורט",
+   "nameEn": null,
+   "description": "רשת חנויות ספורט",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573716.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חבל ארץ טיולים",
+   "nameEn": null,
+   "description": "חברת טיולים והדרכות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573940.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מותק",
+   "nameEn": null,
+   "description": "סדנאות ועוגות שוקולד",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573799.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Mantra",
+   "nameEn": "Mantra",
+   "description": "מותג אופנה לגברים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573747.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Set Up",
+   "nameEn": "Set Up",
+   "description": "מתחם סטים לצילום עצמי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573434.jpg"
+  },
+  {
+   "brand": null,
+   "name": "צעצועי עוזי",
+   "nameEn": null,
+   "description": "צעצועים ומשחקים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573925.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת מכלול",
+   "nameEn": null,
+   "description": "רשת לציוד משרדי ויצירה",
+   "logo": "https://buyme.co.il/files/siteNewLogo9609424.jpg"
+  },
+  {
+   "brand": null,
+   "name": "iBags וקיפלינג",
+   "nameEn": null,
+   "description": "מגוון מותגי תיקים ומזוודות",
+   "logo": "https://buyme.co.il/files/siteNewLogo374968.jpg"
+  },
+  {
+   "brand": null,
+   "name": "IL MAKIAGE",
+   "nameEn": "IL MAKIAGE",
+   "description": "מותג איפור וטיפוח בינלאומי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo14642.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LASTER",
+   "nameEn": "LASTER",
+   "description": "מותג תיקים וארנקים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo2424515.jpg"
+  },
+  {
+   "brand": null,
+   "name": "OKINAWA",
+   "nameEn": "OKINAWA",
+   "description": "מסעדת סושי ואוכל אסייתי",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1232654.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Just Believe Jewelry",
+   "nameEn": "Just Believe Jewelry",
+   "description": "מותג תכשיטים מעוצבים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo3883220.jpg"
+  },
+  {
+   "brand": null,
+   "name": "תיק התיקים",
+   "nameEn": null,
+   "description": "רשת חנויות תיקים ומזוודות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1719.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Instablock",
+   "nameEn": "Instablock",
+   "description": "הדפסת תמונות על עץ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo7908813.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ZOHARA",
+   "nameEn": "ZOHARA",
+   "description": "גרביונים מעוצבים",
+   "logo": "https://buyme.co.il/files/siteNewLogo5984781.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דנה אשכנזי",
+   "nameEn": null,
+   "description": "מעצבת אופנת נשים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo4916360.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הולה",
+   "nameEn": null,
+   "description": "חנות לאירועים",
+   "logo": "https://buyme.co.il/files/siteNewLogo5767696.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מגדל דוד",
+   "nameEn": null,
+   "description": "מוזיאון ירושלים",
+   "logo": "https://buyme.co.il/files/siteNewLogo2870752.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לוצ'נה",
+   "nameEn": null,
+   "description": "מסעדה איטלקית חלבית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo7018171.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סטודיו בעלי המלאכה",
+   "nameEn": null,
+   "description": "דפוס רשת ידני",
+   "logo": "https://buyme.co.il/files/siteNewLogo5608051.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סיונרה",
+   "nameEn": null,
+   "description": "אסייתית כשרה",
+   "logo": "https://buyme.co.il/files/siteNewLogo5456666.jpg"
+  },
+  {
+   "brand": null,
+   "name": "417",
+   "nameEn": "417",
+   "description": "מותג טיפוח טבעוני ישראלי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573964.jpg"
+  },
+  {
+   "brand": null,
+   "name": "AIMEE",
+   "nameEn": "AIMEE",
+   "description": "מותג שמלות ערב",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573967.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Rip Curl",
+   "nameEn": "Rip Curl",
+   "description": "מותג ציוד גלישה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573231.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Bodymotion",
+   "nameEn": "Bodymotion",
+   "description": "סטודיו לפילאטיס מכשירים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573968.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BOGART",
+   "nameEn": "BOGART",
+   "description": "מותג אופנה לגברים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574013.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CAFE MAYER",
+   "nameEn": "CAFE MAYER",
+   "description": "קפה-ביסטרו שכונתי",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573769.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Camel Mountain",
+   "nameEn": "Camel Mountain",
+   "description": "תיקים ומזוודות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo16574613.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Choose Your Cookies",
+   "nameEn": "Choose Your Cookies",
+   "description": "עוגיות פרימיום במגוןן טעמים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573286.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CHRISTINA",
+   "nameEn": "CHRISTINA",
+   "description": "קוסמטיקה מקצועית לעור",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573744.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Crocs",
+   "nameEn": "Crocs",
+   "description": "מותג נעלי נוחות בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574003.jpg"
+  },
+  {
+   "brand": null,
+   "name": "DARYA",
+   "nameEn": "DARYA",
+   "description": "פריטים מעוצבים על בטון",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573591.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Don't tell Mama",
+   "nameEn": "Don't tell Mama",
+   "description": "מותג אופנה לנשים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo15892106.jpg"
+  },
+  {
+   "brand": null,
+   "name": "EATALIA",
+   "nameEn": "EATALIA",
+   "description": "מתחם אוכל איטלקי",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573922.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Eats Cafeteria",
+   "nameEn": "Eats Cafeteria",
+   "description": "בית קפה ומעדניה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573432.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Eye Glow",
+   "nameEn": "Eye Glow",
+   "description": "משקפי שמש",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573723.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Flying Tiger",
+   "nameEn": "Flying Tiger",
+   "description": "רשת חנויות עיצוב מדנמרק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573696.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Gaby's",
+   "nameEn": "Gaby's",
+   "description": "מעצבת תכשיטים בעבודת יד",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573429.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Intech",
+   "nameEn": "Intech",
+   "description": "אביזרי ומוצרי סלולר",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573933.jpg"
+  },
+  {
+   "brand": null,
+   "name": "INTER JEANS BY NYOU",
+   "nameEn": "INTER JEANS BY NYOU",
+   "description": "רשת אופנה בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573599.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JUV activewear",
+   "nameEn": "JUV activewear",
+   "description": "מותג בגדי ספורט לנשים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573520.jpg"
+  },
+  {
+   "brand": null,
+   "name": "KOA",
+   "nameEn": "KOA",
+   "description": "ערכות DIY",
+   "logo": "https://buyme.co.il/files/siteNewLogo9722346.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LEE",
+   "nameEn": "LEE",
+   "description": "מותג ג'ינס בינלאומי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573712.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MORAN GIL CAKERY",
+   "nameEn": "MORAN GIL CAKERY",
+   "description": "קונדיטוריית שף",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573924.jpg"
+  },
+  {
+   "brand": null,
+   "name": "NEW ERA",
+   "nameEn": "NEW ERA",
+   "description": "מותג כובעים ולייף סטייל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573713.jpg"
+  },
+  {
+   "brand": null,
+   "name": "REPLAY",
+   "nameEn": "REPLAY",
+   "description": "רשת אופנה בינלאומית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573595.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SECOND",
+   "nameEn": "SECOND",
+   "description": "בית אופנה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573404.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SHANI BAR",
+   "nameEn": "SHANI BAR",
+   "description": "מעצבת נעליים ותיקים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo11207397.jpg"
+  },
+  {
+   "brand": null,
+   "name": "She-Ra Jewelry",
+   "nameEn": "She-Ra Jewelry",
+   "description": "מעצבת תכשיטים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573313.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SHUGIS",
+   "nameEn": "SHUGIS",
+   "description": "אקססוריז עם פרצופים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573673.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Simbioze",
+   "nameEn": "Simbioze",
+   "description": "מותג קוסמטיקה טבעית מהאמזונס",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573684.jpg"
+  },
+  {
+   "brand": null,
+   "name": "STEVE MADDEN",
+   "nameEn": "STEVE MADDEN",
+   "description": "רשת נעליים בינלאומית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573596.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SWAGG",
+   "nameEn": "SWAGG",
+   "description": "גאדג'טים ו-lifestyle",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo14828296.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TALADA",
+   "nameEn": "TALADA",
+   "description": "תכשיטים עם תמונה מוצפנת",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573973.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TES- Leather Bags",
+   "nameEn": "TES- Leather Bags",
+   "description": "מותג תיקי עור",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573643.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TRES",
+   "nameEn": "TRES",
+   "description": "מותג אופנה לנשים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573622.jpg"
+  },
+  {
+   "brand": null,
+   "name": "USTABELLE",
+   "nameEn": "USTABELLE",
+   "description": "מותג אופנת בוטיק",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573796.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VOLT swimwear",
+   "nameEn": "VOLT swimwear",
+   "description": "מותג בגדי ים לנשים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573823.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Woman- מהפיכת הטיפוח הביתי",
+   "nameEn": null,
+   "description": "מכשירי טיפוח ביתיים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573433.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Wrangler",
+   "nameEn": "Wrangler",
+   "description": "מותג ג'ינס בינלאומי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573714.jpg"
+  },
+  {
+   "brand": null,
+   "name": "XRAY",
+   "nameEn": "XRAY",
+   "description": "מותג משקפי שמש וראייה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573603.jpg"
+  },
+  {
+   "brand": null,
+   "name": "outline",
+   "nameEn": "outline",
+   "description": "רשת לביגוד עבודה ושטח",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573931.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אגם",
+   "nameEn": null,
+   "description": "הוצאה לאור",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573797.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אדון קרלוס",
+   "nameEn": null,
+   "description": "אופנה ומתנות לטבעונים",
+   "logo": "https://buyme.co.il/files/siteNewLogo9912750.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Oomai Urban Sushi",
+   "nameEn": "Oomai Urban Sushi",
+   "description": "מעדניה יפנית וסושי בר",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573572.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אוריה עזרן",
+   "nameEn": null,
+   "description": "מעצבת שמלות ערב",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573439.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אושי אושי חיפה",
+   "nameEn": null,
+   "description": "רשת סושי ואוכל אסייתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo15277660.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אנסטסיה",
+   "nameEn": null,
+   "description": "בית קפה טבעוני",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573905.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ARTERRA",
+   "nameEn": "ARTERRA",
+   "description": "מותג תכשיטים אקולגיים בעבודת יד",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573685.jpg"
+  },
+  {
+   "brand": null,
+   "name": "את",
+   "nameEn": null,
+   "description": "רשת הלבשה תחתונה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573609.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ATA",
+   "nameEn": "ATA",
+   "description": "מותג אופנה ישראלי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573558.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בא מאהבה",
+   "nameEn": null,
+   "description": "רשת אופנה לנשים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573850.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BUMPERS",
+   "nameEn": "BUMPERS",
+   "description": "מותג הנעלה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573951.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בועז שטיין",
+   "nameEn": null,
+   "description": "מותג איפור",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573944.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ביג גרף",
+   "nameEn": null,
+   "description": "פתרונות דפוס דיגיטלי",
+   "logo": "https://buyme.co.il/files/siteNewLogo12511300.jpg"
+  },
+  {
+   "brand": null,
+   "name": "6 במאי",
+   "nameEn": null,
+   "description": "בית קפה שכונתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573555.jpg"
+  },
+  {
+   "brand": null,
+   "name": "GADE",
+   "nameEn": "GADE",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573644.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גורו זוזו",
+   "nameEn": null,
+   "description": "סיור אוזניות אורבני",
+   "logo": "https://buyme.co.il/files/siteNewLogo13821549.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גלידריית פינגוין",
+   "nameEn": null,
+   "description": "גלידרייה",
+   "logo": "https://buyme.co.il/files/siteNewLogo14746974.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Donna Victoria",
+   "nameEn": "Donna Victoria",
+   "description": "מותג הלבשה תחתונה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573608.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דנה ישראלי",
+   "nameEn": null,
+   "description": "סדנאות עיצוב ויצירת תוכן בדיגיטל",
+   "logo": "https://buyme.co.il/files/siteNewLogo14577052.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דניאלה להבי",
+   "nameEn": null,
+   "description": "מותג תיקים ונעליים בעיצוב ישראלי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573612.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Hackett",
+   "nameEn": "Hackett",
+   "description": "מותג אופנה לגברים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574014.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הרצל",
+   "nameEn": null,
+   "description": "בר-מסעדה וקפה",
+   "logo": "https://buyme.co.il/files/siteNewLogo11919172.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חנות בוטיק AYO",
+   "nameEn": null,
+   "description": "בוטיק פירטי עיצוב",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573548.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חניות פיזיות : TERMINAL X",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה ולייף סטייל",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574043.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כלבו LOVE",
+   "nameEn": null,
+   "description": "כל-בו יוקרתי המשלב מותגי על",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573989.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Monte Black",
+   "nameEn": "Monte Black",
+   "description": "מותג הלבשה תחתונה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573857.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מותגי קבוצת INTER JEANS",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה בינלאומיים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573601.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פינתי כפר עציון",
+   "nameEn": null,
+   "description": "מטבח מזרחי וגריל בשרים",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573661.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קפטן הוק",
+   "nameEn": null,
+   "description": "מסעדת דגים ופירות ים",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573317.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת שטרודל",
+   "nameEn": null,
+   "description": "בית קפה ומסעדה",
+   "logo": "https://buyme.co.il/files/siteNewLogo9825410.jpg"
+  },
+  {
+   "brand": null,
+   "name": "משקפי OBO",
+   "nameEn": null,
+   "description": "מותג משקפי שמש",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573651.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מתוקה",
+   "nameEn": null,
+   "description": "קונדיטוריה וקייטרינג",
+   "logo": "https://buyme.co.il/files/siteNewLogo13762902.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מתחת לעץ",
+   "nameEn": null,
+   "description": "בית קפה שכונתי ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573565.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Neta Efrati",
+   "nameEn": "Neta Efrati",
+   "description": "בוטיק בגדי ערב",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573703.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נערי האור",
+   "nameEn": null,
+   "description": "נרות וסבונים בייצור חברתי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573816.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Stylish",
+   "nameEn": "Stylish",
+   "description": "קורסי תפירה, אופנה ותדמיתנות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574031.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פנינה רוזנבלום",
+   "nameEn": null,
+   "description": "מותג טיפוח ולייף סטייל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573229.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פרלינים- שוקולד זה מתנה",
+   "nameEn": null,
+   "description": "מתנות משוקולד",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573535.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בוניטה דה מאס",
+   "nameEn": null,
+   "description": "רשת הלבשה תחתונה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1137770.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה זוריק",
+   "nameEn": null,
+   "description": "בית קפה שכונתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573942.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Rev Optic",
+   "nameEn": "Rev Optic",
+   "description": "מותג משקפי שמש וראייה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573526.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VARDINON",
+   "nameEn": "VARDINON",
+   "description": "רשת טקסטיל לבית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo4297547.jpg"
+  },
+  {
+   "brand": null,
+   "name": "WE BAGS",
+   "nameEn": "WE BAGS",
+   "description": "מגוון תיקים ומזוודות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573495.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מגוון מותגי קבוצת קסטרו הודיס",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573371.jpg"
+  },
+  {
+   "brand": null,
+   "name": "תכשיטי דנון",
+   "nameEn": null,
+   "description": "מותג תכשיטים ישראלי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573473.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ASK Q",
+   "nameEn": "ASK Q",
+   "description": "משחק שאלות שמחבר בין אנשים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574287.jpg"
+  },
+  {
+   "brand": null,
+   "name": "תכשיטי חביב",
+   "nameEn": null,
+   "description": "מותג תכשיטים מעוצבים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573515.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BAYTON",
+   "nameEn": "BAYTON",
+   "description": "מותג נעלי נוחות",
+   "logo": "https://buyme.co.il/files/siteNewLogo16811139.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Studio Cheha",
+   "nameEn": "Studio Cheha",
+   "description": "מנורות מעוצבות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574032.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ClaylaTLV",
+   "nameEn": "ClaylaTLV",
+   "description": "קליילה סטודיו לצביעת קרמיקה בתל אביב",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574334.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אנו",
+   "nameEn": null,
+   "description": "מוזיאון העם היהודי",
+   "logo": "https://buyme.co.il/files/siteNewLogo1966814.jpg"
+  },
+  {
+   "brand": null,
+   "name": "COLORIA TLV",
+   "nameEn": "COLORIA TLV",
+   "description": "סטודיו לצביעת קרמיקה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574189.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Daisy mei",
+   "nameEn": "Daisy mei",
+   "description": "אקססוריז לתינוקות ואמהות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574335.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מרכז תרבות נא לגעת",
+   "nameEn": null,
+   "description": "במה פורצת גבולות",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo400331.jpg"
+  },
+  {
+   "brand": null,
+   "name": "DKNY",
+   "nameEn": "DKNY",
+   "description": "רשת אופנה בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573411.jpg"
+  },
+  {
+   "brand": null,
+   "name": "THE NORTH FACE",
+   "nameEn": "THE NORTH FACE",
+   "description": "מותג טיולים ולייף סטייל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo3557126.jpg"
+  },
+  {
+   "brand": null,
+   "name": "DOLĆE MILA",
+   "nameEn": "DOLĆE MILA",
+   "description": "ג'לאטריה איטלקית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574391.jpg"
+  },
+  {
+   "brand": null,
+   "name": "החיות של דודו",
+   "nameEn": null,
+   "description": "מיזם חברתי למען בעלי חיים",
+   "logo": "https://buyme.co.il/files/siteNewLogo5778540.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ERA ACTIVE",
+   "nameEn": "ERA ACTIVE",
+   "description": "מותג בגדי ספורט לנשים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574308.jpg"
+  },
+  {
+   "brand": null,
+   "name": "G-CONCEPT",
+   "nameEn": "G-CONCEPT",
+   "description": "מגוון מותגי אופנה בינלאומיים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573741.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Burger Box כפר עציון",
+   "nameEn": null,
+   "description": "מסעדת המבורגרים כשרה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574050.jpg"
+  },
+  {
+   "brand": null,
+   "name": "GAL GONEN",
+   "nameEn": "GAL GONEN",
+   "description": "מותג איפור טבעוני",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574279.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Getaway by BUYME",
+   "nameEn": "Getaway by BUYME",
+   "description": "מותגי אופנה וחוויות בחו\"ל",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574095.jpg"
+  },
+  {
+   "brand": null,
+   "name": "GLOBAL BRANDS",
+   "nameEn": "GLOBAL BRANDS",
+   "description": "מגוון מותגי אופנה",
+   "logo": "https://buyme.co.il/files/siteNewLogo16685494.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Gon Surfing",
+   "nameEn": "Gon Surfing",
+   "description": "מותג אופנת גלישה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574145.jpg"
+  },
+  {
+   "brand": null,
+   "name": "GUESS",
+   "nameEn": "GUESS",
+   "description": "רשת אופנה בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo16685993.jpg"
+  },
+  {
+   "brand": null,
+   "name": "inhale exhale",
+   "nameEn": "inhale exhale",
+   "description": "מותג יוגה ולייפסטייל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574385.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גורדון פדגוגיה חדשנית",
+   "nameEn": null,
+   "description": "למידה באמצעות משחקים לכל המשפחה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573984.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LILY ROSE",
+   "nameEn": "LILY ROSE",
+   "description": "מותג קוסמטיקה טבעית ואקולוגית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574323.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חוות צהלה",
+   "nameEn": null,
+   "description": "רכיבה טיפולית וטיולי סוסים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574086.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MIRZA",
+   "nameEn": "MIRZA",
+   "description": "מותג אופנה לגברים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574056.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Mr. Pretzels",
+   "nameEn": "Mr. Pretzels",
+   "description": "רשת פרעצלס",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574326.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LOOCO",
+   "nameEn": "LOOCO",
+   "description": "מסעדה מקסיקנית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574123.jpg"
+  },
+  {
+   "brand": null,
+   "name": "NAAMAN",
+   "nameEn": "NAAMAN",
+   "description": "רשת כלי בית ומטבח",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo13436307.jpg"
+  },
+  {
+   "brand": null,
+   "name": "NOFAR MOR",
+   "nameEn": "NOFAR MOR",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574346.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Pozitive",
+   "nameEn": "Pozitive",
+   "description": "מותג פופים וכורסאות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574137.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SAM EDELMAN",
+   "nameEn": "SAM EDELMAN",
+   "description": "מותג נעלי נשים בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573739.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Spotlight Podcasts",
+   "nameEn": "Spotlight Podcasts",
+   "description": "פודקאסט אישי ותיעוד סיפורי חיים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574282.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SWEETWEET",
+   "nameEn": "SWEETWEET",
+   "description": "ממתקים ושוקולדים מכל העולם",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574196.jpg"
+  },
+  {
+   "brand": null,
+   "name": "תכשיטי MI-ALMA",
+   "nameEn": null,
+   "description": "תכשיטים אל זמניים לכל רגע בחיים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573763.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The Nest Shop",
+   "nameEn": "The Nest Shop",
+   "description": "בגדי תינוקות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574147.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VILEBREQUIN",
+   "nameEn": "VILEBREQUIN",
+   "description": "מותג בגדי ים יוקרתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573688.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארטפון",
+   "nameEn": null,
+   "description": "סדנאות צילום בסמארטפון",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574285.jpg"
+  },
+  {
+   "brand": null,
+   "name": "המדריך לתיכוניסט - ליאל אלי",
+   "nameEn": null,
+   "description": "ספר למתבגרים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574192.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חנות האוהדים של מכבי תל אביב",
+   "nameEn": null,
+   "description": "חנות האוהדים של מכבי תל אביב",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574344.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טיטניום",
+   "nameEn": null,
+   "description": "מותג מזוודות ותיקים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574217.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מדילנד",
+   "nameEn": null,
+   "description": "אתר צעצועים ומשחקים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574283.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מטאור",
+   "nameEn": null,
+   "description": "תצפיות כוכבים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574381.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ASAF & TOMER",
+   "nameEn": "ASAF & TOMER",
+   "description": "מותג תכשיטים מעוצבים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574379.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סטודיו הדובות",
+   "nameEn": null,
+   "description": "סטודיו לתרבות ואומנות בקיבוץ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574358.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ForeverTold",
+   "nameEn": "ForeverTold",
+   "description": "יומן זכרונות למשפחה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574384.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת Homestyle",
+   "nameEn": null,
+   "description": "רשת לעיצוב הבית",
+   "logo": "https://buyme.co.il/files/siteNewLogo15557052.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת MILA",
+   "nameEn": null,
+   "description": "ביסטרו-קפה אלגנטי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574388.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Biliblond",
+   "nameEn": "Biliblond",
+   "description": "בגדי ים לנשים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574400.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BONIC",
+   "nameEn": "BONIC",
+   "description": "מותג איפור וטיפוח",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574402.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Callisto Art",
+   "nameEn": "Callisto Art",
+   "description": "אמנות מקורית בעבודת יד",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574392.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CHILL",
+   "nameEn": "CHILL",
+   "description": "ריהוט לגינה ולבית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574409.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Eazy2gift",
+   "nameEn": "Eazy2gift",
+   "description": "מוצרי תינוקות וילדים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574272.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דביר טרקטורונים מעופפים",
+   "nameEn": null,
+   "description": "טיסה בטרקטורון מעופף",
+   "logo": "https://buyme.co.il/files/siteNewLogo24652.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Give a SMILE‎ by BUYME",
+   "nameEn": "Give a SMILE‎ by BUYME",
+   "description": "תרומה לפרויקטים חברתיים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574044.jpg"
+  },
+  {
+   "brand": null,
+   "name": "& Other Stories",
+   "nameEn": "& Other Stories",
+   "description": "מותג אופנה בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573401.jpg"
+  },
+  {
+   "brand": null,
+   "name": "IROBOT",
+   "nameEn": "IROBOT",
+   "description": "רובוטים חכמים לשאיבה ושטיפת רצפות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574411.jpg"
+  },
+  {
+   "brand": null,
+   "name": "A DAY IN A LIFE",
+   "nameEn": "A DAY IN A LIFE",
+   "description": "חוויות ומפגשים אישיים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574333.jpg"
+  },
+  {
+   "brand": null,
+   "name": "KITCHENEAT",
+   "nameEn": "KITCHENEAT",
+   "description": "מותג לייף סטייל לבית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574389.jpg"
+  },
+  {
+   "brand": null,
+   "name": "NEXTHEAT",
+   "nameEn": "NEXTHEAT",
+   "description": "נקסט היט קמינים ופתרונות חימום מתקדמים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574341.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ALALI",
+   "nameEn": "ALALI",
+   "description": "מסעדת שף בתל אביב",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574432.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Pelle Gift",
+   "nameEn": "Pelle Gift",
+   "description": "מתנות מעצימות ומעוצבות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574404.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ALTRA",
+   "nameEn": "ALTRA",
+   "description": "מותג נעלי ריצה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574447.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SEQUOIA",
+   "nameEn": "SEQUOIA",
+   "description": "תוספי תזונה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574397.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Belago איטלקית באגם",
+   "nameEn": null,
+   "description": "מטבח איטלקי עכשווי באווירה ייחודית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574435.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SWING",
+   "nameEn": "SWING",
+   "description": "מאווררי תקרה איכותיים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574340.jpg"
+  },
+  {
+   "brand": null,
+   "name": "byMemmis",
+   "nameEn": "byMemmis",
+   "description": "סדנאות בטון ושעווה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574419.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TULIP",
+   "nameEn": "TULIP",
+   "description": "Tulip Natural קוסמטיקה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574387.jpg"
+  },
+  {
+   "brand": null,
+   "name": "COCONUT LOVE",
+   "nameEn": "COCONUT LOVE",
+   "description": "מותג תכשיטים מעוצבים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574471.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סו סושי תל אביב",
+   "nameEn": null,
+   "description": "מסעדת סושי כשרה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574418.jpg"
+  },
+  {
+   "brand": null,
+   "name": "COS",
+   "nameEn": "COS",
+   "description": "מותג אופנה בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573400.jpg"
+  },
+  {
+   "brand": null,
+   "name": "עידו עמית תצפיות כוכבים",
+   "nameEn": null,
+   "description": "תצפיות כוכבים ואסטרונומיה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574422.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Desert HOM By Glow",
+   "nameEn": "Desert HOM By Glow",
+   "description": "גלמפינג בנווה מדבר בלב שמורת טבע",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574499.jpg"
+  },
+  {
+   "brand": null,
+   "name": "DREAME",
+   "nameEn": "DREAME",
+   "description": "טכנולוגיה חכמה לבית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574486.jpg"
+  },
+  {
+   "brand": null,
+   "name": "DRONDEN",
+   "nameEn": "DRONDEN",
+   "description": "רחפנים - צילום והדרכה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574496.jpg"
+  },
+  {
+   "brand": null,
+   "name": "FESTIVE",
+   "nameEn": "FESTIVE",
+   "description": "תכשיטים בעיצוב אישי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574359.jpg"
+  },
+  {
+   "brand": null,
+   "name": "FRANGELICO",
+   "nameEn": "FRANGELICO",
+   "description": "רשת מסעדות אסייתיות ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574331.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Good Morning Sunshine",
+   "nameEn": "Good Morning Sunshine",
+   "description": "רשת בייקרי מבית מאפיית בנדיקט ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574459.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Grinberg Burger",
+   "nameEn": "Grinberg Burger",
+   "description": "מסעדת המבורגרים פרימיום",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574492.jpg"
+  },
+  {
+   "brand": null,
+   "name": "H&M HOME",
+   "nameEn": "H&M HOME",
+   "description": "רשת לעיצוב הבית",
+   "logo": "https://buyme.co.il/files/siteNewLogo13943783.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Hili Toys",
+   "nameEn": "Hili Toys",
+   "description": "יבוא ושיווק מוצרי ילדים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574483.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Intimissimi",
+   "nameEn": "Intimissimi",
+   "description": "מותג איטלקי להלבשה תחתונה לנשים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574490.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Israel-2GO",
+   "nameEn": "Israel-2GO",
+   "description": "סיורי קולינאריה וחוויה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17429197.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JanSport",
+   "nameEn": "JanSport",
+   "description": "מותג תיקי גב",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo16609298.jpg"
+  },
+  {
+   "brand": null,
+   "name": "KUNI",
+   "nameEn": "KUNI",
+   "description": "מפיץ ריח חכם לבית  ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574431.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Marmor House",
+   "nameEn": "Marmor House",
+   "description": "עיצוב, נקיון, סדר וארגון",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574461.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Mekimi",
+   "nameEn": "Mekimi",
+   "description": "סטייל צנוע בווייב צעיר לנשים ולנערות.",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574454.jpg"
+  },
+  {
+   "brand": null,
+   "name": "NAGISA",
+   "nameEn": "NAGISA",
+   "description": "רשת מסעדות אסייתיות ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574332.jpg"
+  },
+  {
+   "brand": null,
+   "name": "NEWTON",
+   "nameEn": "NEWTON",
+   "description": "כסאות ארגונומיים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574426.jpg"
+  },
+  {
+   "brand": null,
+   "name": "orea",
+   "nameEn": "orea",
+   "description": "מותג תכשיטים מעוצבים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574479.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Outdoor",
+   "nameEn": "Outdoor",
+   "description": "ציוד לשטח",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574207.jpg"
+  },
+  {
+   "brand": null,
+   "name": "RESET",
+   "nameEn": "RESET",
+   "description": "מתחם אימוני כושר, יוגה ופילאטיס",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574424.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Salomon",
+   "nameEn": "Salomon",
+   "description": "אופנת וציוד ספורט צרפתי ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574206.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SANANDO",
+   "nameEn": "SANANDO",
+   "description": "מרחב של חוויות, וולנס, ריפוי, חופש ושלווה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574493.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SHAK IT",
+   "nameEn": "SHAK IT",
+   "description": "תכשיטי חריטה, אבני חן ואבני חודש לידה ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574514.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SHLOMIT ZIV ALVAS",
+   "nameEn": "SHLOMIT ZIV ALVAS",
+   "description": "מעצבת אופנת נשים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574469.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SIMMONS",
+   "nameEn": "SIMMONS",
+   "description": "מגוון מוצרים לעולמות השינה, הנוחות והאירוח",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574480.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SIMPLE AS THAT",
+   "nameEn": "SIMPLE AS THAT",
+   "description": "אתר פרחים וצמחיה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574380.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Slav&So | סריגה.יצירה.קהילה",
+   "nameEn": null,
+   "description": "קורסי סריגה, תיקים סרוגים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574328.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The clean dot",
+   "nameEn": "The clean dot",
+   "description": "מוצרי נקיון אקולוגיים, טבעוניים וקומפקטיים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574494.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The OM café",
+   "nameEn": "The OM café",
+   "description": "בית קפה מבית אורן משי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574518.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TicketTeams",
+   "nameEn": "TicketTeams",
+   "description": "אירועים בארץ ובעולם",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574463.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ZMRM",
+   "nameEn": "ZMRM",
+   "description": "משוברים לחופשה ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574470.jpg"
+  },
+  {
+   "brand": null,
+   "name": "איריסקו עגלת קפה",
+   "nameEn": null,
+   "description": "איריסקו | עגלת קפה | תל עדשים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574481.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארגז מהכפר",
+   "nameEn": null,
+   "description": "ארגז מהכפר- מארזי אוכל עד הבית ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574313.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דה קרינה שוקולד",
+   "nameEn": null,
+   "description": "מרכז מבקרים ושוקולד",
+   "logo": "https://buyme.co.il/files/siteNewLogo11547668.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הילולה",
+   "nameEn": null,
+   "description": "מסיבה, אירוח, הילולה ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574429.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הסושיה",
+   "nameEn": null,
+   "description": "רשת מסעדות אסייתיות ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574330.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הספר הכחול",
+   "nameEn": null,
+   "description": "התפתחות אישית דרך כתיבה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574466.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הראל קולדן- קורס לניהול כסף חכם",
+   "nameEn": null,
+   "description": "ייעוץ ואדריכלות פיננסית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574401.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חברת אופקים תיירות נופש",
+   "nameEn": null,
+   "description": "חבילות תיירת בארץ ובעולם",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574508.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מגוון מותגי קבוצת H&M",
+   "nameEn": null,
+   "description": "מגוון מותגי אופנה בינלאומיים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574458.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מקופלת",
+   "nameEn": null,
+   "description": "חנות משחקים מטריפה ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574216.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מקסיקנה",
+   "nameEn": null,
+   "description": "רשת מסעדות מקסיקני ",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574449.jpg"
+  },
+  {
+   "brand": null,
+   "name": "צמר שטיחים יפים",
+   "nameEn": null,
+   "description": "רשת שטיחים לבית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574363.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קל גב",
+   "nameEn": null,
+   "description": " תיקים לכל מטרה ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574198.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קשרי תעופה",
+   "nameEn": null,
+   "description": "קשרי תעופה נופש בארץ ובעולם ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574474.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MEN BY NORI",
+   "nameEn": "MEN BY NORI",
+   "description": "מותג אופנה לגברים ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574528.jpg"
+  },
+  {
+   "brand": null,
+   "name": "NORI KIDS",
+   "nameEn": "NORI KIDS",
+   "description": "מותג אופנה לילדים ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573637.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אורן משי",
+   "nameEn": null,
+   "description": " לחם- פטיסרי- קפה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574507.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רוזנבאום תכשיטים",
+   "nameEn": null,
+   "description": "תכשיטי זהב יהלומים ואבני חן ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574495.jpg"
+  },
+  {
+   "brand": null,
+   "name": "BYNETA",
+   "nameEn": "BYNETA",
+   "description": "Beauty, cosmetic & personal care",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574549.jpg"
+  },
+  {
+   "brand": null,
+   "name": "FLOW",
+   "nameEn": "FLOW",
+   "description": "מותג איפור וטיפוח",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574569.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LIDOR BAR",
+   "nameEn": "LIDOR BAR",
+   "description": "אופנה צנועה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574520.jpg"
+  },
+  {
+   "brand": null,
+   "name": "M32",
+   "nameEn": "M32",
+   "description": "The best burger in town ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574522.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Maika",
+   "nameEn": "Maika",
+   "description": "ציוד ומזון לבעלי חיים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574562.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MAIYAN CERAMIC",
+   "nameEn": "MAIYAN CERAMIC",
+   "description": " סטודיו קרמיקה בתל אביב",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574502.jpg"
+  },
+  {
+   "brand": null,
+   "name": "PALMERS",
+   "nameEn": "PALMERS",
+   "description": "יופי, קוסמטיקה וטיפוח אישי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574531.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Pasta Della Casa",
+   "nameEn": "Pasta Della Casa",
+   "description": "פסטה איטלקית טרייה",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574536.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Pretty Ballerinas",
+   "nameEn": "Pretty Ballerinas",
+   "description": "מותג נעליים ספרדי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574547.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Sunglass Hut",
+   "nameEn": "Sunglass Hut",
+   "description": "רשת משקפי שמש בינלאומית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573695.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אבני אהוה",
+   "nameEn": null,
+   "description": "מתנות בעיצוב אישי",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574515.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אולפני לירון",
+   "nameEn": null,
+   "description": " כוכב/ת מוזיקלי/ת ליום אחד באולפן הקלטות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574509.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אילוף בנועם",
+   "nameEn": null,
+   "description": "אילוף כלבים וייעוץ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574564.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בן אביטל מאלף כלבים",
+   "nameEn": null,
+   "description": "מאלף כלבים ובי״ס למאלפים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574541.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דנדי",
+   "nameEn": null,
+   "description": "פרחים, מעדנייה, בית מאפה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574552.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ויצק",
+   "nameEn": null,
+   "description": "מטבח מקומי במכון ויצמן ",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574532.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לילית קוסמטיקה",
+   "nameEn": null,
+   "description": "Beauty, cosmetic & personal care",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574550.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בורגראנץ'",
+   "nameEn": null,
+   "description": "רשת המבורגרים ומזון מהיר כשרה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573788.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מילאנו בייקרי",
+   "nameEn": null,
+   "description": "חוויית פטיסרי מוקפדת",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574519.jpg"
+  },
+  {
+   "brand": null,
+   "name": "HAPPY LEMON",
+   "nameEn": "HAPPY LEMON",
+   "description": "רשת חנויות לעיצוב הבית ומתנות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574582.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קולנוע יפו",
+   "nameEn": null,
+   "description": "Movie Theatre • Bar",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574554.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Ironline",
+   "nameEn": "Ironline",
+   "description": "ריהוט מתכת בצבעים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574566.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Motion Lab",
+   "nameEn": "Motion Lab",
+   "description": "חנות מקצועית לריצה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574511.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Nike",
+   "nameEn": "Nike",
+   "description": "מותג ספורט בינלאומי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574172.jpg"
+  },
+  {
+   "brand": null,
+   "name": "NORITAMY",
+   "nameEn": "NORITAMY",
+   "description": "תכשיטי יוקרה בעבודת יד",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574527.jpg"
+  },
+  {
+   "brand": null,
+   "name": "piece of nature",
+   "nameEn": "piece of nature",
+   "description": "חנות שוקולד איכותית",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574551.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Think and Drink",
+   "nameEn": "Think and Drink",
+   "description": "לאנשים שאוהבים לחשוב",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574576.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חן במטבח",
+   "nameEn": null,
+   "description": "אוכל טעים והגיוני",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574567.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לינויה",
+   "nameEn": null,
+   "description": "מטפחות מעוצבות",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574540.jpg"
+  },
+  {
+   "brand": null,
+   "name": "המעשנה",
+   "nameEn": null,
+   "description": "מסעדת בשרים מעושנים",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1237492.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מוזיאון יעקב אגם",
+   "nameEn": null,
+   "description": "מוזיאון לאמנות קינטית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574553.jpg"
+  },
+  {
+   "brand": null,
+   "name": "360 - עולם של חדשנות",
+   "nameEn": null,
+   "description": "חנות למוצרי חשמל, סלולר ואלקטרוניקה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574612.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סאן פדרו",
+   "nameEn": null,
+   "description": "מטבח מקסיקני כשר",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574579.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Era Jewelry",
+   "nameEn": "Era Jewelry",
+   "description": "מותג תכשיטים מעוצבים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574614.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Gambino retro X",
+   "nameEn": "Gambino retro X",
+   "description": "מותג משקפי שמש וראייה",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574593.jpg"
+  },
+  {
+   "brand": null,
+   "name": "JLY",
+   "nameEn": "JLY",
+   "description": "אופנה צנועה ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574580.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MORE FOOD",
+   "nameEn": "MORE FOOD",
+   "description": "חנויות אוכל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574583.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארנה טיקטס",
+   "nameEn": null,
+   "description": "חבילות ספורט והופעות בחו\"ל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574589.jpg"
+  },
+  {
+   "brand": null,
+   "name": "זמן צעצוע",
+   "nameEn": null,
+   "description": "מוזיאון צעצועים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574594.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ישראטויס",
+   "nameEn": null,
+   "description": "מותג צעצועים ומשחקים לילדים",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574232.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נוקטורנו בית וקפה",
+   "nameEn": null,
+   "description": "בית קפה שכונתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574588.jpg"
+  },
+  {
+   "brand": null,
+   "name": "mix&matcha",
+   "nameEn": "mix&matcha",
+   "description": "חנות למוצרי מאצ'ה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574615.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אומינו סושי ראשון לציון",
+   "nameEn": null,
+   "description": "מסעדת סושי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574065.jpg"
+  }
+ ]
+}

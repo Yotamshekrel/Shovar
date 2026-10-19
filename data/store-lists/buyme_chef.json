@@ -1,0 +1,676 @@
+{
+ "platform": "buyme",
+ "variant": "chef",
+ "source": "https://buyme.co.il/brands/752649",
+ "notes": "BUYME CHEF – chef restaurants.",
+ "updated": "2026-10-19",
+ "count": 82,
+ "stores": [
+  {
+   "brand": null,
+   "name": "ASA Izakaya",
+   "nameEn": "ASA Izakaya",
+   "description": "מסעדת שף אסייתית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574112.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SELAS",
+   "nameEn": "SELAS",
+   "description": "מסעדת שף אסייתי של אור גינזבורג",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo12852180.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Sinta Bar",
+   "nameEn": "Sinta Bar",
+   "description": "מסעדת שף בשרים",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo790510.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת MOSHIK& של השף מושיק רוט",
+   "nameEn": null,
+   "description": "מסעדת שף של מושיק רוט",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574227.jpg"
+  },
+  {
+   "brand": null,
+   "name": "צ'אקולי",
+   "nameEn": null,
+   "description": "מסעדת דגים ספרדית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574042.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת TYO",
+   "nameEn": null,
+   "description": "מסעדת שף יפנית באווירת לאונג’",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1173814.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TAIZU",
+   "nameEn": "TAIZU",
+   "description": "מסעדת שף של יובל בן נריה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo348972.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת תריסר",
+   "nameEn": null,
+   "description": "מסעדת שף עונתית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574047.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Mashya",
+   "nameEn": "Mashya",
+   "description": "מסעדת שף",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1146565.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קלאב מרין",
+   "nameEn": null,
+   "description": "מסעדת שף של אבי ביטון",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574598.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדות כרמים",
+   "nameEn": null,
+   "description": "מסעדות שף, צרפתית ים תיכונית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo752921.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Joya",
+   "nameEn": "Joya",
+   "description": "רשת מסעדות איטלקיות",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo349001.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CAPRI",
+   "nameEn": "CAPRI",
+   "description": "מסעדת בראסרי איטלקית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574303.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת Donna La Cucina",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574049.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת ג'ורג' וג'ון",
+   "nameEn": null,
+   "description": "מסעדת שף ישראלית מודרנית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo6813495.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת רשטא",
+   "nameEn": null,
+   "description": "מסעדת שף של מטבח ערבי אותנטי",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo7010175.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מרינה דלאל",
+   "nameEn": null,
+   "description": "מסעדה בניחוח ים תיכוני",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574187.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ALALI",
+   "nameEn": "ALALI",
+   "description": "מסעדת שף בתל אביב",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574432.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TAURUS SMOKEHOUSE",
+   "nameEn": "TAURUS SMOKEHOUSE",
+   "description": "מסעדת בשרים מעושנים",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574390.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO נתיבות",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573895.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת MILA",
+   "nameEn": null,
+   "description": "ביסטרו-קפה אלגנטי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574388.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סלון יווני",
+   "nameEn": null,
+   "description": "טברנות יווניות כשרות",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574209.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יאסו",
+   "nameEn": null,
+   "description": "טברנה יוונית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo872118.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Poupe'e",
+   "nameEn": "Poupe'e",
+   "description": "מסעדת שף כשרה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo13302410.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת דולפין ים",
+   "nameEn": null,
+   "description": "מסעדת דגים ובשרים כשרה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573190.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO כרמיאל",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo11672496.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Cafe Popular",
+   "nameEn": "Cafe Popular",
+   "description": "לאונג' ובר אוכל של השף אבי ביטון",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo6094111.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת רוז'",
+   "nameEn": null,
+   "description": "מסעדת שף עונתית, מקומית במלון פרא",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573628.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO באר שבע",
+   "nameEn": null,
+   "description": "מסעדה איטלקית כשרה",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo5041833.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ZO TLV",
+   "nameEn": "ZO TLV",
+   "description": "מסעדת שף אסייתית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574188.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Belago איטלקית באגם",
+   "nameEn": null,
+   "description": "מטבח איטלקי עכשווי באווירה ייחודית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574435.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ממבו מילאנו- מטבח איטלקי עכשווי",
+   "nameEn": null,
+   "description": "בר קולינרי איטלקי",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17473241.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Kalamata",
+   "nameEn": "Kalamata",
+   "description": "מסעדה יוונית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo13520788.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The Grill Room TLV",
+   "nameEn": "The Grill Room TLV",
+   "description": "מסעדת שף בשרית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574377.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חוות צוק- המסעדה",
+   "nameEn": null,
+   "description": "מסעדת שף של בשר מקומי",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo7811062.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רוזה אשדוד",
+   "nameEn": null,
+   "description": "מסעדת בשרים כשרה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574274.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת סופר המזרח",
+   "nameEn": null,
+   "description": "מסעדת שף אסייתית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573825.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Aberto",
+   "nameEn": "Aberto",
+   "description": "מסעדת ביסטרו עונתית מקומית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo4888880.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת טלביה",
+   "nameEn": null,
+   "description": "מסעדת שף- בראסרי אירופאי",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo10309941.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LUNEL",
+   "nameEn": "LUNEL",
+   "description": "בר קולינרי של השף ינון אלעל",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573329.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CHEZ VIVIE",
+   "nameEn": "CHEZ VIVIE",
+   "description": "בראסרי בהשראת המטבח הצרפתי איטלקי",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574002.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בלה בעמק",
+   "nameEn": null,
+   "description": "מטבח איטלקי ים תיכוני",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo371306.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת מינאטו",
+   "nameEn": null,
+   "description": "מסעדה יפנית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo19254.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בוצ'רי דה ברילוצ'ה",
+   "nameEn": null,
+   "description": "מסעדת בשרים ארגנטינאית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573307.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ג'קו סטריט",
+   "nameEn": null,
+   "description": "מסעדת שף כשרה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo368140.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אלנה במלון נורמן",
+   "nameEn": null,
+   "description": "מסעדת שף אירופאית-ים תיכונית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1174241.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO זיכרון יעקב",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo3657311.jpg"
+  },
+  {
+   "brand": null,
+   "name": "שגב",
+   "nameEn": null,
+   "description": "מגוון מסעדות של השף שגב משה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo320428.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Radler",
+   "nameEn": "Radler",
+   "description": "בראסרי מקומי עדכני",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573752.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CEZAR",
+   "nameEn": "CEZAR",
+   "description": "ביסטרו ובית קפה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574375.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת מונא",
+   "nameEn": null,
+   "description": "מסעדת ביסטרו שף",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1084055.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רביבה וסיליה",
+   "nameEn": null,
+   "description": "ביסטרו וקונדיטוריה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1022731.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קמפאי & CHI CHI",
+   "nameEn": null,
+   "description": "מסעדה אסייתית ובר קוקטיילים ",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo353677.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Pastel",
+   "nameEn": "Pastel",
+   "description": "מסעדת שף בהובלתו של השף טדי קגן ",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1543819.jpg"
+  },
+  {
+   "brand": null,
+   "name": "HELENA",
+   "nameEn": "HELENA",
+   "description": "בר יין וטאפאס עם ניחוח ספרדי",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573879.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Pomo",
+   "nameEn": "Pomo",
+   "description": "מסעדת שף איטלקית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo5457274.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דריה",
+   "nameEn": null,
+   "description": "מסעדת שף כשרה ים תיכונית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574005.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת גשן",
+   "nameEn": null,
+   "description": "מסעדת בשרים כשרה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo19897.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מריפוסה- מסעדת שף בקיסריה",
+   "nameEn": null,
+   "description": "מסעדת שף כשרה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo6999301.jpg"
+  },
+  {
+   "brand": null,
+   "name": "KoH Thai - התאילנדית בסמילנסקי",
+   "nameEn": null,
+   "description": "מטבח אסייתי וסושי בר כשר",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573594.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה נאפו",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573725.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בר איטליה",
+   "nameEn": null,
+   "description": "מסעדת בראסרי איטלקית בנתניה",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573268.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO ראשון לציון",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo11671453.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפאסה",
+   "nameEn": null,
+   "description": "בר טאפסים ים תיכוני",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo984978.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אסתר",
+   "nameEn": null,
+   "description": "מסעדת שף ים תיכונית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo845682.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ששון - אחוזה חיפה",
+   "nameEn": null,
+   "description": "בר קולינרי",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo799498.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גרקו והמעדניה היוונית של גרקו",
+   "nameEn": null,
+   "description": "מסעדה ומעדניה יוונית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo409496.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Claro",
+   "nameEn": "Claro",
+   "description": "מסעדת שף עונתית ",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1229712.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO קריות",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo13894665.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קימל בגלבוע",
+   "nameEn": null,
+   "description": "מסעדת שף של שאול בן-אדרת",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo2118256.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הטרקלין",
+   "nameEn": null,
+   "description": "ביסטרו בשר ויין",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo767384.jpg"
+  },
+  {
+   "brand": null,
+   "name": "התרנגול הכחול",
+   "nameEn": null,
+   "description": "מסעדת שף של שאול בן אדרת",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo815000.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אגוסטין",
+   "nameEn": null,
+   "description": "מסעדת בראסרי מודרנית",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573983.jpg"
+  },
+  {
+   "brand": null,
+   "name": "VIVINO חיפה",
+   "nameEn": null,
+   "description": "מסעדה איטלקית",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1602155.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה נואר",
+   "nameEn": null,
+   "description": "ביסטרו צרפתי קלאסי",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1291027.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Sebastian",
+   "nameEn": "Sebastian",
+   "description": "מסעדת ביסטרו",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1281290.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת יפו תל אביב",
+   "nameEn": null,
+   "description": "מסעדת שף של חיים כהן",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo764497.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת קיצ׳וקאי",
+   "nameEn": null,
+   "description": "איזקאיה של השף אור גינזבורג",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573807.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת a",
+   "nameEn": null,
+   "description": "מסעדת שף יפנית של יובל בן נריה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573456.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נולה",
+   "nameEn": null,
+   "description": "ארוחות שף וסדנאות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573457.jpg"
+  },
+  {
+   "brand": null,
+   "name": "DÉ FACTO",
+   "nameEn": "DÉ FACTO",
+   "description": "בר קוקטיילים ומסעדה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574597.jpg"
+  },
+  {
+   "brand": null,
+   "name": "POP & POPE",
+   "nameEn": "POP & POPE",
+   "description": "מסעדת שף וגלריה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574604.jpg"
+  }
+ ]
+}

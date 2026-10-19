@@ -6,6 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Button, Segmented, Text, TextField } from '@/components/ui';
 import { currencySymbol, formatMoney, parseAmountToMinor } from '@/domain/money';
 import { useI18n } from '@/i18n';
+import { useCelebrate } from '@/state/celebrate';
 import { useItem, useItemsStore } from '@/state/items';
 
 type Mode = 'spent' | 'remaining';
@@ -38,7 +39,11 @@ export default function BalanceSheet() {
     try {
       if (mode === 'spent') await recordUsage(item.id, parsed, note);
       else await setBalance(item.id, parsed, note);
-      router.back();
+      // Spending the last of the balance marks the card used: go home with the "used" celebration instead.
+      const used = after === 0;
+      if (used) router.dismissAll();
+      else router.back();
+      setTimeout(() => useCelebrate.getState().celebrate(used ? 'used' : 'confetti'), 350);
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
       setSaving(false);

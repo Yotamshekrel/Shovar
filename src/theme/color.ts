@@ -52,12 +52,33 @@ export function shade(hex: string, amount: number): string {
   return `#${[f(r), f(g), f(b)].map((c) => c.toString(16).padStart(2, '0')).join('')}`;
 }
 
-/** Tile color for a store: brand color when known, otherwise a stable hashed palette color. */
+/** [hue (0–360), saturation (0–1), lightness (0–1)] of a color. */
+function hsl(hex: string): [number, number, number] {
+  const [r, g, b] = parseHex(hex).map((c) => c / 255);
+  const max = Math.max(r, g, b);
+  const min = Math.min(r, g, b);
+  const d = max - min;
+  const l = (max + min) / 2;
+  if (d === 0) return [0, 0, l];
+  const s = d / (1 - Math.abs(2 * l - 1));
+  const h = max === r ? ((g - b) / d) % 6 : max === g ? (b - r) / d + 2 : (r - g) / d + 4;
+  return [(h * 60 + 360) % 360, s, l];
+}
+
+/** True for the green–teal range the app uses as its own accent (very dark greens read as near-black, so they don't count). */
+export function isAccentLike(hex: string): boolean {
+  const [h, s, l] = hsl(hex);
+  return h >= 135 && h <= 190 && s >= 0.3 && l >= 0.2;
+}
+
+/**
+ * Tile color for a store: brand color when known, otherwise a stable hashed palette color.
+ * Greens close to the app's accent are deepened so no card is mistaken for the total card on top.
+ */
 export function storeColor(storeName: string): string {
   const brand = brandColor(storeName);
-  if (brand) return brand;
-  const key = storeName.trim().toLowerCase();
-  return TILE_COLORS[hash(key) % TILE_COLORS.length];
+  const base = brand ?? TILE_COLORS[hash(storeName.trim().toLowerCase()) % TILE_COLORS.length];
+  return isAccentLike(base) ? shade(base, -0.7) : base;
 }
 
 export function storeInitials(storeName: string): string {

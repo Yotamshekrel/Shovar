@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
-import { Chip, Text } from '@/components/ui';
+import { Text } from '@/components/ui';
 import type { Item } from '@/domain/types';
 import { useI18n } from '@/i18n';
 import { getNetworkDef, networkIdFor, networkLabel, networkStoreName, networkStores } from '@/networks/registry';
 import { useTheme } from '@/theme/ThemeProvider';
+
+import { StoreAvatar } from './StoreAvatar';
 
 const COLLAPSED = 16;
 /** Chip lists this long are unreadable; the search screen answers "does it work at X?" better. */
@@ -35,7 +37,12 @@ export function AcceptedStores({ item }: { item: Item }) {
         </Text>
         <View style={styles.chips}>
           {shown.map((s) => (
-            <Chip key={s.key} label={networkStoreName(s, lang)} />
+            <View key={s.key} style={[styles.store, { backgroundColor: colors.surfaceAlt, borderRadius: radii.pill }]}>
+              <StoreAvatar name={s.name} names={[s.nameEn]} size={24} />
+              <Text variant="caption" numberOfLines={1} style={styles.storeName}>
+                {networkStoreName(s, lang)}
+              </Text>
+            </View>
           ))}
         </View>
         {stores.length > COLLAPSED ? (
@@ -60,4 +67,6 @@ const styles = StyleSheet.create({
   title: { paddingHorizontal: 4, letterSpacing: 0.4 },
   box: { padding: 14, gap: 12 },
   chips: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
+  store: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 5, paddingStart: 5, paddingEnd: 12, maxWidth: '100%' },
+  storeName: { flexShrink: 1 },
 });

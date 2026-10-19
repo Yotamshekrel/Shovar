@@ -1,0 +1,52 @@
+{
+ "platform": "hitechzone",
+ "variant": "truckzone",
+ "source": "https://www.htzone.co.il/voucher-zone/17",
+ "notes": "TruckZone: food trucks and cafés. onlineRedeem = terms say the shop's website only.",
+ "updated": "2026-10-19",
+ "count": 7,
+ "stores": [
+  {
+   "brand": null,
+   "name": "עגלת קפה לילו",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_305264834_503507345114942_6341492020647875431_n.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה דאז",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_קפה דאז לוגו.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "עגלת קפה קורטאדו",
+   "nameEn": "Cortado Cafe",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_10114526_1673527290969.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "עגלת קפה המנחמת",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/7_hamenahemet-profile.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה פלורה במשתלה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_הורדה.jpg"
+  },
+  {
+   "brand": null,
+   "name": "עגלת קפה - הפוכות",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/large-LOGO הפוכות.jpeg"
+  },
+  {
+   "brand": null,
+   "name": "משתלת יגור",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_יגור.png"
+  }
+ ]
+}

@@ -3,6 +3,9 @@ import { brandNames, findBrand } from '@/search/brands';
 import { compact } from '@/search/normalize';
 import { skeleton } from '@/search/phonetic';
 
+import bundled from './networks.json';
+import { LOADERS } from './lists';
+
 /**
  * Multi-store gift cards (BuyMe, Tav Zahav, Max, …): which stores accept them.
  *
@@ -17,49 +20,24 @@ export interface NetworkDef {
   label: { en: string; he: string };
   /** Compact data files merged into this network. */
   sources: string[];
+  /**
+   * Whether the list is a hand-picked set of chains (every physical entry is worth a places lookup) or a long tail
+   * of one-off venues (only chains that other lists also carry are). Defaults to "short lists are curated".
+   */
+  curated?: boolean;
 }
 
 export const NO_NETWORK = 'none';
 
-/** First entry per platform is its default. */
-export const NETWORKS: NetworkDef[] = [
-  { id: 'buyme_all', platform: 'buyme', label: { en: 'BuyMe ALL', he: 'BuyMe ALL' }, sources: ['buyme_all'] },
-  { id: 'buyme_total', platform: 'buyme', label: { en: 'BuyMe TOTAL', he: 'BuyMe TOTAL' }, sources: ['buyme_total'] },
-  { id: 'buyme_style', platform: 'buyme', label: { en: 'BuyMe STYLE', he: 'BuyMe STYLE' }, sources: ['buyme_style'] },
-  { id: 'buyme_brunch', platform: 'buyme', label: { en: 'BuyMe Brunch', he: 'BuyMe ברנץ׳' }, sources: ['buyme_brunch'] },
-  { id: 'tavzahav', platform: 'tavzahav', label: { en: 'Tav Zahav', he: 'תו הזהב' }, sources: ['tavzahav_shopping', 'tavzahav_online'] },
-  { id: 'max_giftcard', platform: 'max', label: { en: 'GiftCard', he: 'גיפטקארד' }, sources: ['max_giftcard'] },
-  { id: 'max_super', platform: 'max', label: { en: 'Super GiftCard', he: 'סופר גיפטקארד' }, sources: ['max_super_giftcard'] },
-  { id: 'max_executive', platform: 'max', label: { en: 'Executive', he: 'אקזקיוטיב' }, sources: ['max_executive'] },
-  { id: 'max_food', platform: 'max', label: { en: 'Food', he: 'אוכל' }, sources: ['max_food'] },
-  {
-    id: 'dreamcard',
-    platform: 'dreamcard',
-    label: { en: 'Dream Card', he: 'דרים קארד' },
-    sources: ['dreamcard_multipass_include', 'dreamcard_multipass_nosacks', 'dreamcard_without_multipass'],
-  },
-  { id: 'nofshonit', platform: 'nofshonit', label: { en: 'Nofshonit', he: 'נופשונית' }, sources: ['nofshonit_swish_plus'] },
-];
+/** Card families, in display order — the first one per platform is its default. Defined in networks.json so the catalog sync can add to it. */
+const BUNDLED_NETWORKS: NetworkDef[] = bundled.networks;
 
-/** Metro needs static require paths, so every data file is listed here (and loaded lazily). */
-const LOADERS: Record<string, () => RawList> = {
-  buyme_all: () => require('./data/buyme_all.json'),
-  buyme_brunch: () => require('./data/buyme_brunch.json'),
-  buyme_style: () => require('./data/buyme_style.json'),
-  buyme_total: () => require('./data/buyme_total.json'),
-  dreamcard_multipass_include: () => require('./data/dreamcard_multipass_include.json'),
-  dreamcard_multipass_nosacks: () => require('./data/dreamcard_multipass_nosacks.json'),
-  dreamcard_without_multipass: () => require('./data/dreamcard_without_multipass.json'),
-  max_executive: () => require('./data/max_executive.json'),
-  max_food: () => require('./data/max_food.json'),
-  max_giftcard: () => require('./data/max_giftcard.json'),
-  max_super_giftcard: () => require('./data/max_super_giftcard.json'),
-  nofshonit_swish_plus: () => require('./data/nofshonit_swish_plus.json'),
-  tavzahav_online: () => require('./data/tavzahav_online.json'),
-  tavzahav_shopping: () => require('./data/tavzahav_shopping.json'),
-};
+/** Cards added or changed by a downloaded catalog (see catalog.ts), on top of the bundled ones. */
+let networks: NetworkDef[] = BUNDLED_NETWORKS;
+/** Downloaded store lists, by source id; they win over the bundled copy of the same id. */
+let remoteLists = new Map<string, RawList>();
 
-interface RawList {
+export interface RawList {
   /** [name, nameEn | null, flags] with flags 1 = online-only, 2 = booking required. */
   stores: [string, string | null, number][];
 }
@@ -81,14 +59,18 @@ export interface NetworkStore {
 /** Lists this small are curated chain lists; larger ones (BuyMe ALL, Nofshonit) also hold hotels, spas, restaurants … */
 const CHAIN_LIST_MAX = 200;
 
-const defsById = new Map(NETWORKS.map((n) => [n.id, n]));
+function isCurated(def: NetworkDef, size: number): boolean {
+  return def.curated ?? size <= CHAIN_LIST_MAX;
+}
+
+let defsById = new Map(networks.map((n) => [n.id, n]));
 
 export function getNetworkDef(id: string | null | undefined): NetworkDef | null {
   return id ? (defsById.get(id) ?? null) : null;
 }
 
 export function networksForPlatform(brandId: string | null | undefined): NetworkDef[] {
-  return brandId ? NETWORKS.filter((n) => n.platform === brandId) : [];
+  return brandId ? networks.filter((n) => n.platform === brandId) : [];
 }
 
 export function defaultNetworkId(brandId: string | null | undefined): string | null {
@@ -165,10 +147,10 @@ const mergedCache = new Map<string, Merged[]>();
 function ensureBuilt(): void {
   if (skeletonKeys) return;
   skeletonKeys = new Map();
-  for (const def of NETWORKS) {
+  for (const def of networks) {
     const byKey = new Map<string, Merged>();
     for (const source of def.sources) {
-      const list = LOADERS[source]?.();
+      const list = remoteLists.get(source) ?? LOADERS[source]?.();
       if (!list) continue;
       for (const [name, nameEn, flags] of list.stores) {
         const key = resolveKey(name, nameEn, true);
@@ -200,11 +182,11 @@ function globalStats(): { chainKeys: Set<string>; popularity: Map<string, number
   if (chainKeys && popularity) return { chainKeys, popularity };
   chainKeys = new Set();
   popularity = new Map();
-  for (const def of NETWORKS) {
+  for (const def of networks) {
     const stores = loadMerged(def.id);
     for (const s of stores) {
       popularity.set(s.key, (popularity.get(s.key) ?? 0) + 1);
-      if (stores.length <= CHAIN_LIST_MAX && s.physical && !s.booking) chainKeys.add(s.key);
+      if (isCurated(def, stores.length) && s.physical && !s.booking) chainKeys.add(s.key);
     }
   }
   return { chainKeys, popularity };
@@ -219,7 +201,7 @@ export function networkStores(id: string | null | undefined): NetworkStore[] {
   if (cached) return cached;
   const merged = loadMerged(id);
   const stats = globalStats();
-  const curated = merged.length <= CHAIN_LIST_MAX;
+  const curated = isCurated(defsById.get(id)!, merged.length);
   const out = merged.map<NetworkStore>((m) => ({
     key: m.key,
     name: m.name,
@@ -236,4 +218,38 @@ export function networkStores(id: string | null | undefined): NetworkStore[] {
 /** Display name of a network store in the UI language. */
 export function networkStoreName(s: Pick<NetworkStore, 'name' | 'nameEn'>, lang: 'en' | 'he'): string {
   return lang === 'en' ? (s.nameEn ?? s.name) : s.name;
+}
+
+/** What a downloaded catalog changes: card families to add or replace, and the store lists they read. */
+export interface CatalogPatch {
+  networks: NetworkDef[];
+  lists: Record<string, RawList>;
+}
+
+const listeners = new Set<() => void>();
+
+/** Called after the catalog changed, so derived caches (search index) can be rebuilt. */
+export function onCatalogChanged(fn: () => void): () => void {
+  listeners.add(fn);
+  return () => listeners.delete(fn);
+}
+
+/** Makes `patch` the active catalog on top of the bundled one; `null` goes back to the bundled data. */
+export function applyCatalog(patch: CatalogPatch | null): void {
+  const byId = new Map(BUNDLED_NETWORKS.map((n) => [n.id, n]));
+  for (const n of patch?.networks ?? []) byId.set(n.id, n);
+  networks = [...byId.values()];
+  defsById = new Map(networks.map((n) => [n.id, n]));
+  remoteLists = new Map(Object.entries(patch?.lists ?? {}));
+  skeletonKeys = null;
+  chainKeys = null;
+  popularity = null;
+  mergedCache.clear();
+  storesCache.clear();
+  for (const fn of listeners) fn();
+}
+
+/** Every card family currently known: the bundled ones plus whatever a downloaded catalog added. */
+export function allNetworkDefs(): NetworkDef[] {
+  return networks;
 }

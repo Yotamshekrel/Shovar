@@ -1,7 +1,7 @@
 import { effectiveStatus } from '@/domain/status';
 import type { Item } from '@/domain/types';
 
-import { networkIdFor, networkStores } from '@/networks/registry';
+import { networkIdFor, networkStores, onCatalogChanged } from '@/networks/registry';
 
 import { BRANDS, brandById, brandNames, findBrand, type Brand } from './brands';
 import { MATCH_THRESHOLD, bestScore, prepareName, prepareQuery, type PreparedName } from './fuzzy';
@@ -33,6 +33,7 @@ const NETWORK_WEIGHT = 0.9;
 /** Lists hold hundreds of names, so only clear matches (exact, prefix, word, substring, same-sound) count — not typo guesses. */
 const NETWORK_MIN_SCORE = 0.69;
 const networkSearchCache = new Map<string, NetworkSearch>();
+onCatalogChanged(() => networkSearchCache.clear());
 
 function networkSearch(id: string): NetworkSearch {
   let cached = networkSearchCache.get(id);
@@ -125,10 +126,14 @@ export function suggestBrands(query: string, limit = 4): Brand[] {
   const q = prepareQuery(query);
   if (q.compact.length < 2) return [];
   brandIndex ??= BRANDS.map((brand) => ({ brand, names: brandNames(brand).map((n) => prepareName(n)) }));
-  return brandIndex
+  const scored = brandIndex
     .map((b) => ({ brand: b.brand, score: bestScore(q, b.names).score }))
     .filter((x) => x.score >= 0.6)
-    .sort((a, b) => b.score - a.score)
+    .sort((a, b) => b.score - a.score);
+  // Next to an exact match, brands that merely sound alike ("Zara" / "Azrieli") are noise.
+  const floor = (scored[0]?.score ?? 0) >= 0.95 ? 0.7 : 0;
+  return scored
+    .filter((x) => x.score >= floor)
     .slice(0, limit)
     .map((x) => x.brand);
 }

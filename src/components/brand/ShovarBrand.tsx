@@ -1,23 +1,16 @@
 import { StyleSheet, View } from 'react-native';
-import Svg, { Defs, G, LinearGradient, Path, Rect, Stop } from 'react-native-svg';
+import Svg, { Circle, Defs, G, LinearGradient, Path, Rect, Stop } from 'react-native-svg';
 
-import { BRAND, MARK_S, WORDMARK_EN, WORDMARK_HE } from '@/brand/paths';
+import { BRAND, WORDMARK_EN, WORDMARK_HE } from '@/brand/paths';
 import { useI18n } from '@/i18n';
 import { useTheme } from '@/theme/ThemeProvider';
 
 const TILE = 64;
-const S_SCALE = (TILE * 0.5) / MARK_S.height;
 
-/** App icon: the "s" in Unbounded on the green gradient (same artwork as assets/brand/mark.svg). */
+/** App icon: the tilted gift card on the green gradient (same artwork as assets/brand/mark.svg). */
 export function ShovarMark({ size = 34 }: { size?: number }) {
   return (
-    <Svg
-      width={size}
-      height={size}
-      viewBox={`0 0 ${TILE} ${TILE}`}
-      accessibilityElementsHidden
-      importantForAccessibility="no-hide-descendants"
-    >
+    <Svg width={size} height={size} viewBox={`0 0 ${TILE} ${TILE}`}>
       <Defs>
         <LinearGradient id="shovarMarkGradient" x1="0" y1="0" x2="1" y2="1">
           <Stop offset="0" stopColor={BRAND.gradientFrom} />
@@ -25,8 +18,11 @@ export function ShovarMark({ size = 34 }: { size?: number }) {
         </LinearGradient>
       </Defs>
       <Rect width={TILE} height={TILE} rx={16} fill="url(#shovarMarkGradient)" />
-      <G transform={`translate(${(TILE - MARK_S.width * S_SCALE) / 2} ${(TILE - MARK_S.height * S_SCALE) / 2}) scale(${S_SCALE})`}>
-        <Path d={MARK_S.d} fill="#fff" />
+      <G transform="rotate(-14 32 32)">
+        <Path d="M14 22a3 3 0 0 1 3-3h30a3 3 0 0 1 3 3v6a4 4 0 0 0 0 8v6a3 3 0 0 1-3 3H17a3 3 0 0 1-3-3v-6a4 4 0 0 0 0-8z" fill="#fff" />
+        <Path d="M19 27h14" stroke={BRAND.green} strokeWidth={3.2} strokeLinecap="round" />
+        <Path d="M19 33h9" stroke="#8FC9B5" strokeWidth={3.2} strokeLinecap="round" />
+        <Circle cx={44.5} cy={32} r={3.6} fill={BRAND.green} />
       </G>
     </Svg>
   );

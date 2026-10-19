@@ -42,8 +42,6 @@ function item(storeName: string, p: Partial<Item> = {}): Item {
     status: 'active',
     source: 'manual',
     locationMuted: false,
-    pinnedLat: null,
-    pinnedLng: null,
     createdAt: '2026-01-01T00:00:00Z',
     updatedAt: '2026-01-01T00:00:00Z',
     deletedAt: null,
@@ -226,12 +224,11 @@ describe('store queries and nearest credit', () => {
     expect(q.get('brand:zara')?.names).toEqual(expect.arrayContaining(['Zara', 'זארה']));
   });
 
-  it('finds the closest branch per card, including pinned locations', () => {
+  it('finds the closest branch per card', () => {
     const a = item('Zara');
-    const b = item('Local Shop', { pinnedLat: AZRIELI.lat + 0.001, pinnedLng: AZRIELI.lng });
     const c = item('Castro');
     const result = nearestCredit(
-      [a, b, c],
+      [a, c],
       [
         { storeKey: storeKey('Zara'), ...DIZENGOFF_CENTER },
         { storeKey: storeKey('Zara'), ...RAMAT_AVIV_MALL },
@@ -239,8 +236,8 @@ describe('store queries and nearest credit', () => {
       ],
       AZRIELI,
     );
-    expect(result.map((r) => r.item.storeName)).toEqual(['Local Shop', 'Zara']);
-    expect(result[1].distanceM).toBeLessThan(1700);
+    expect(result.map((r) => r.item.storeName)).toEqual(['Zara']);
+    expect(result[0].distanceM).toBeLessThan(1700);
   });
 });
 
@@ -349,7 +346,9 @@ describe('nearbyStores (what’s around me)', () => {
       { storeKey: storeKey('Zara'), address: 'Ramat Aviv', ...RAMAT_AVIV_MALL },
       { storeKey: storeKey('Castro'), address: 'Jerusalem', ...JERUSALEM },
     ];
-    const res = nearbyStores([z1, z2, far], places, DIZENGOFF_CENTER);
+    // Defaults to 1 km: the closest Zara (Azrieli) is further than that.
+    expect(nearbyStores([z1, z2, far], places, DIZENGOFF_CENTER)).toEqual([]);
+    const res = nearbyStores([z1, z2, far], places, DIZENGOFF_CENTER, 5000);
     expect(res).toHaveLength(1);
     expect(res[0].items).toHaveLength(2);
     expect(res[0].address).toBe('Azrieli');
@@ -360,7 +359,10 @@ describe('nearbyStores (what’s around me)', () => {
 describe('photon provider + chain (fast lookup)', () => {
   const photonBody = {
     features: [
-      { geometry: { coordinates: [34.7740308, 32.0839341] }, properties: { osm_type: 'N', osm_id: 1, name: 'צומת ספרים', street: 'דיזנגוף', city: 'תל אביב–יפו' } },
+      {
+        geometry: { coordinates: [34.7740308, 32.0839341] },
+        properties: { osm_type: 'N', osm_id: 1, name: 'צומת ספרים', street: 'דיזנגוף', city: 'תל אביב–יפו' },
+      },
       { geometry: { coordinates: [34.7745, 32.08] }, properties: { osm_type: 'W', osm_id: 2, name: 'רחוב צומת', city: 'תל אביב' } },
       { geometry: { coordinates: [35.2, 31.7] }, properties: { osm_type: 'N', osm_id: 3, name: 'צומת ספרים', city: 'ירושלים' } },
     ],
@@ -381,7 +383,11 @@ describe('photon provider + chain (fast lookup)', () => {
     expect(calls).toHaveLength(2); // Hebrew + Latin spelling in parallel
     expect(res).toHaveLength(1);
     expect(res[0].address).toBe('דיזנגוף, תל אביב–יפו');
-    const near = nearbyStores([item('צומת ספרים', { balanceMinor: 5000 })], res.map((p) => ({ storeKey: storeKey('צומת ספרים'), ...p })), DIZENGOFF_CENTER);
+    const near = nearbyStores(
+      [item('צומת ספרים', { balanceMinor: 5000 })],
+      res.map((p) => ({ storeKey: storeKey('צומת ספרים'), ...p })),
+      DIZENGOFF_CENTER,
+    );
     expect(near).toHaveLength(1);
     expect(near[0].distanceM).toBeGreaterThan(900);
     expect(near[0].distanceM).toBeLessThan(1000);
@@ -389,12 +395,35 @@ describe('photon provider + chain (fast lookup)', () => {
 
   it('falls through to the next provider on error or timeout, but trusts an empty answer', async () => {
     const q = { storeKey: 'x', names: ['x'] };
-    const failing = { name: 'osm' as const, searchStore: async () => { throw new Error('boom'); } };
-    const hanging = { name: 'osm' as const, searchStore: (_q: unknown, _c: unknown, _r: unknown, s?: AbortSignal) => new Promise<never>((_, rej) => s?.addEventListener('abort', () => rej(new Error('aborted')))) };
-    const good = { name: 'osm' as const, searchStore: async () => [{ id: 'osm:n/1', name: 'x', address: null, lat: 1, lng: 1, provider: 'osm' as const }] };
+    const failing = {
+      name: 'osm' as const,
+      searchStore: async () => {
+        throw new Error('boom');
+      },
+    };
+    const hanging = {
+      name: 'osm' as const,
+      searchStore: (_q: unknown, _c: unknown, _r: unknown, s?: AbortSignal) =>
+        new Promise<never>((_, rej) => s?.addEventListener('abort', () => rej(new Error('aborted')))),
+    };
+    const good = {
+      name: 'osm' as const,
+      searchStore: async () => [{ id: 'osm:n/1', name: 'x', address: null, lat: 1, lng: 1, provider: 'osm' as const }],
+    };
     const empty = { name: 'osm' as const, searchStore: async () => [] };
-    expect(await createChainProvider([{ provider: failing, timeoutMs: 50 }, { provider: hanging, timeoutMs: 50 }, { provider: good, timeoutMs: 50 }]).searchStore(q, AZRIELI, 1000)).toHaveLength(1);
-    expect(await createChainProvider([{ provider: empty, timeoutMs: 50 }, { provider: good, timeoutMs: 50 }]).searchStore(q, AZRIELI, 1000)).toHaveLength(0);
+    expect(
+      await createChainProvider([
+        { provider: failing, timeoutMs: 50 },
+        { provider: hanging, timeoutMs: 50 },
+        { provider: good, timeoutMs: 50 },
+      ]).searchStore(q, AZRIELI, 1000),
+    ).toHaveLength(1);
+    expect(
+      await createChainProvider([
+        { provider: empty, timeoutMs: 50 },
+        { provider: good, timeoutMs: 50 },
+      ]).searchStore(q, AZRIELI, 1000),
+    ).toHaveLength(0);
     await expect(createChainProvider([{ provider: failing, timeoutMs: 50 }]).searchStore(q, AZRIELI, 1000)).rejects.toThrow('boom');
   });
 });

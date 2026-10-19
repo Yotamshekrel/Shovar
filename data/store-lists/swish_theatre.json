@@ -1,0 +1,255 @@
+{
+ "platform": "nofshonit",
+ "variant": "theatre",
+ "source": "https://swish.co.il/home/all-gifts-giftcard/product-139213",
+ "notes": "Swish Theatre: theatres, shows and cultural venues. Names ending in \"אונליין\"/\"online\" are online stores.",
+ "updated": "2026-10-19",
+ "count": 35,
+ "stores": [
+  {
+   "brand": null,
+   "name": "סינמטק ירושלים",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/63d41611-4127-49b6-bea3-25d4fc3e5040.png"
+  },
+  {
+   "brand": null,
+   "name": "משה סימן טוב- שנות הקסם",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2205f69b-7d75-4b9b-a74c-e8d61a16a62d.png"
+  },
+  {
+   "brand": null,
+   "name": "התזמורת הסימפונית חיפה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9090afb3-4867-4bec-9ae0-d23d31b650b7.png"
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון הקאמרי תל אביב",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a71cc260-c7bd-4417-bef8-22926f391365.png"
+  },
+  {
+   "brand": null,
+   "name": "סינמטק חיפה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/53818bcd-b5a8-46d9-b69e-ff9bcb44131c.png"
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות נתניה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/230bc196-63aa-4a14-8531-db69c111de0b.png"
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות כרמיאל",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fe96b69e-82a6-4d98-940d-c8a862b11008.jpg"
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות נס ציונה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e3587a41-e09a-4153-a379-19a19fcb9c6e.png"
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות לוד",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f503b504-9be7-4d7f-8ae2-e70261e3969a.png"
+  },
+  {
+   "brand": null,
+   "name": "מרכז הבמה גני תקווה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/76e27963-9388-44eb-9736-b65538f9286d.jpg"
+  },
+  {
+   "brand": null,
+   "name": "תאטרון נדנדה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9a23ec5d-6ee3-4772-b363-9f8236c49428.png"
+  },
+  {
+   "brand": null,
+   "name": "מרכז נא לגעת",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6a5877d5-b17a-4d29-bcf0-2e158271db01.png"
+  },
+  {
+   "brand": null,
+   "name": "מדיטק חולון",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3ba2aa41-3f81-4cb2-b9cd-aa8abe3f39cf.png"
+  },
+  {
+   "brand": null,
+   "name": "משכן אומנויות הבמה אשדוד",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d6da48bd-a2b3-4f16-99ee-bb97f3aa2ead.png"
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון חיפה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/deb56ab2-9122-4d07-aeec-219a6a075cf3.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בית לסין",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/281cd7f5-8acb-416f-bcc3-0772de0a0a7e.jpg"
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות ראשון לציון",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e506c43a-d36f-445a-a892-66199243d82f.png"
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות נהריה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/009e5e65-c620-4354-b5df-321cf926563c.png"
+  },
+  {
+   "brand": null,
+   "name": "היכל התיאטרון מוצקין",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/55c228db-4928-4b1b-aad6-163266cd215e.jpg"
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון ירושלים",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b5051d83-d355-45d6-b41b-677727aaab6a.png"
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון באר שבע",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8bcb88f2-e17c-4b21-b91e-4705a56a6bcd.png"
+  },
+  {
+   "brand": null,
+   "name": "היכל אומנויות הבמה הרצליה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/241e69d9-7f5c-4c8a-9379-2044b17b388f.jpg"
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון רמלה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/98f964c9-f4bc-4e3b-be33-aa3c5ada7959.png"
+  },
+  {
+   "brand": null,
+   "name": "סינמטק תל אביב",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2770ef54-67d7-4090-bc3b-50fd4f8fe36e.png"
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות יבנה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/60c72ff5-27e8-40e3-b85e-41c755f76404.jpg"
+  },
+  {
+   "brand": null,
+   "name": "המרכז למוסיקה ירושלים",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1c89d00b-bac1-42a5-bfaa-ada0097a87da.png"
+  },
+  {
+   "brand": null,
+   "name": "התזמורת הסימפונית הישראלית ראשון לציון",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1c19fc7c-33ad-4771-8137-beddf75dd6a9.jpg"
+  },
+  {
+   "brand": null,
+   "name": "התיאטרון שלנו",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1d85c483-61cd-469a-b739-053ae4820e9e.png"
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון אספקלריא ירושלים",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/375142ff-0d44-4bc8-a5bd-7d16508d6845.jpg"
+  },
+  {
+   "brand": null,
+   "name": "תאטרון הבימה",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c20fc453-f73c-4fc5-b0a4-546a85a8c363.jpg"
+  },
+  {
+   "brand": null,
+   "name": "תיאטרון השחר",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/81d2d18b-eefa-47e9-b613-f2657cfd185a.png"
+  },
+  {
+   "brand": null,
+   "name": "הכרטיס מופעי בידור",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7ab266e5-30b7-4962-bee5-d72542ff99a9.png"
+  },
+  {
+   "brand": null,
+   "name": "הזירה הבין תחומית",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/174fa3bb-5391-4d94-8294-2d41f345939b.png"
+  },
+  {
+   "brand": null,
+   "name": "דיוות וג׳נטלמנים",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b005d099-b9d7-4bbe-89f7-4b3507063b35.png"
+  },
+  {
+   "brand": null,
+   "name": "היכל התרבות אור עקיבא",
+   "nameEn": null,
+   "category": "תרבות",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/926a86fa11584e2e92dc96852df31bd2.png"
+  }
+ ]
+}

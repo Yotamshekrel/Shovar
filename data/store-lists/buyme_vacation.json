@@ -1,0 +1,1296 @@
+{
+ "platform": "buyme",
+ "variant": "vacation",
+ "source": "https://buyme.co.il/brands/17573505",
+ "notes": "BUYME VACATION & SPA – hotels and spas.",
+ "updated": "2026-10-19",
+ "count": 180,
+ "stores": [
+  {
+   "brand": null,
+   "name": "רשת מלונות ישרוטל",
+   "nameEn": null,
+   "description": "רשת מלונות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574144.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון פרא",
+   "nameEn": null,
+   "description": "מלון בוטיק ללא ילדים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573626.jpg"
+  },
+  {
+   "brand": null,
+   "name": "3030",
+   "nameEn": "3030",
+   "description": "ספא & חמאם",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573513.jpg"
+  },
+  {
+   "brand": null,
+   "name": "THE Spa אינטרקונטיננטל ת\"א",
+   "nameEn": null,
+   "description": "ספא במלון יוקרה",
+   "logo": "https://buyme.co.il/files/siteNewLogo2032527.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Isla Spa",
+   "nameEn": "Isla Spa",
+   "description": "ספא במלון איסלה אילת",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574489.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארקיע",
+   "nameEn": null,
+   "description": "טיסות וחבילות נופש בארץ ובחו\"ל",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574175.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא OKOA מלון קמפינסקי",
+   "nameEn": null,
+   "description": "ספא במלון קמפינסקי ת\"א",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573580.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון דניאל וספא שיזן הרצליה",
+   "nameEn": null,
+   "description": "מלון עסקים ונופש",
+   "logo": "https://buyme.co.il/files/siteNewLogo1058572.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מגוון מלונות אפריקה ישראל",
+   "nameEn": null,
+   "description": "רשת מלונות בפריסה ארצית",
+   "logo": "https://buyme.co.il/files/siteNewLogo13824201.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלונות אטלס",
+   "nameEn": null,
+   "description": "רשת מלונות בוטיק",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo2349140.jpg"
+  },
+  {
+   "brand": null,
+   "name": "THE GEORGE SPA",
+   "nameEn": "THE GEORGE SPA",
+   "description": "ספא במלון The George",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574575.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא אלמונד",
+   "nameEn": null,
+   "description": "ספא בוטיק במלון אלמונד",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573853.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מנו ספנות",
+   "nameEn": null,
+   "description": "חבילות הפלגה וקרוזים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573976.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Jah Spa הרצליה",
+   "nameEn": null,
+   "description": "ספא במלון דן אכדיה הרצליה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573301.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חוות רום",
+   "nameEn": null,
+   "description": "ריזורט גלמפינג",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573961.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פרימה",
+   "nameEn": null,
+   "description": "רשת מלונות",
+   "logo": "https://buyme.co.il/files/siteNewLogo10778595.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- אתר אונליין",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574103.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון MOA",
+   "nameEn": null,
+   "description": "ריזורט וולנס",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574183.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Getaway by BUYME",
+   "nameEn": "Getaway by BUYME",
+   "description": "מותגי אופנה וחוויות בחו\"ל",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574095.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קשרי תעופה",
+   "nameEn": null,
+   "description": "קשרי תעופה נופש בארץ ובעולם ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574474.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LALUN חופשות בישראל",
+   "nameEn": null,
+   "description": "מגוון מלונות ברחבי הארץ",
+   "onlineRedeem": true,
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574193.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא SHEVA",
+   "nameEn": null,
+   "description": "מתחם בריאות וספא בסגנון תאילנדי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574151.jpg"
+  },
+  {
+   "brand": null,
+   "name": "MAYER HOUSE - HOTEL & SPA",
+   "nameEn": "MAYER HOUSE - HOTEL & SPA",
+   "description": "מלון וספא",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573510.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא גולף קיסריה",
+   "nameEn": null,
+   "description": "מתחם ספא וטיפולים",
+   "logo": "https://buyme.co.il/files/siteNewLogo5531871.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פתאל",
+   "nameEn": null,
+   "description": "רשת מלונות ",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1286825.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Kedem Spa",
+   "nameEn": "Kedem Spa",
+   "description": "מרכז וולנס וספא ביפו",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574076.jpg"
+  },
+  {
+   "brand": null,
+   "name": "L.RAPHAEL by Ronit Raphael",
+   "nameEn": "L.RAPHAEL by Ronit Raphael",
+   "description": "מתחם ספא וטיפולי ביוטי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574337.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלונות בראון מבית ישראל קנדה",
+   "nameEn": null,
+   "description": "רשת מלונות בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573542.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא טומוקו ג'פניס",
+   "nameEn": null,
+   "description": "ספא יפני",
+   "logo": "https://buyme.co.il/files/siteNewLogo307106.jpg"
+  },
+  {
+   "brand": null,
+   "name": "CARLTON Tel Aviv",
+   "nameEn": "CARLTON Tel Aviv",
+   "description": "חווית יוקרתית על קו החוף",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574376.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת מלונות מטיילים",
+   "nameEn": null,
+   "description": "מתחמי לינה בסמוך לאתרי טיול",
+   "logo": "https://buyme.co.il/files/siteNewLogo8048704.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אחוזת הספא",
+   "nameEn": null,
+   "description": "מתחם ספא ואירוח",
+   "logo": "https://buyme.co.il/files/siteNewLogo321452.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון קוקו",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo1420627.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון רד סי אילת",
+   "nameEn": null,
+   "description": "מלון ללא ילדים מבית מלונות ROXON",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574080.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Adam Hotels",
+   "nameEn": "Adam Hotels",
+   "description": "רשת מלונות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574179.jpg"
+  },
+  {
+   "brand": null,
+   "name": "זמארין",
+   "nameEn": null,
+   "description": "מלון בוטיק וספא",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573423.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלונות ג'ייקוב",
+   "nameEn": null,
+   "description": "רשת מלונות בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573581.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון האפנדי",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo389018.jpg"
+  },
+  {
+   "brand": null,
+   "name": "URBAN SPA TLV",
+   "nameEn": "URBAN SPA TLV",
+   "description": "מתחם ספא וטיפולים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573479.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא גלי כנרת",
+   "nameEn": null,
+   "description": "ספא במלון גלי כנרת",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573299.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Login Hotels",
+   "nameEn": "Login Hotels",
+   "description": "רשת מלונות תל-אביביים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573650.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דאיה גסטהאוס",
+   "nameEn": null,
+   "description": "בקתות אירוח",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573757.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא בית אורן",
+   "nameEn": null,
+   "description": "ספא בוטיק כפרי",
+   "logo": "https://buyme.co.il/files/siteNewLogo274981.jpg"
+  },
+  {
+   "brand": null,
+   "name": "slowness - קיבוץ מורן",
+   "nameEn": null,
+   "description": "מתחם אירוח ותנועה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573776.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Hotel Lear Sense",
+   "nameEn": "Hotel Lear Sense",
+   "description": "מלון בוטיק וספא",
+   "logo": "https://buyme.co.il/files/siteNewLogo6728124.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The Schumacher Hotel",
+   "nameEn": "The Schumacher Hotel",
+   "description": "מלון ללא ילדים",
+   "logo": "https://buyme.co.il/files/siteNewLogo9128882.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מנד'ומה",
+   "nameEn": null,
+   "description": "מתחם אירוח מדברי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573663.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הבית בלימן",
+   "nameEn": null,
+   "description": "מתחם וילות בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574184.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בייבי ליס",
+   "nameEn": null,
+   "description": "מלון יולדות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573773.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כפר הנופש דריה",
+   "nameEn": null,
+   "description": "כפר נופש מבית רשת המלונות נארה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574096.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- מלון Herods ת\"א",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo1859372.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת מלונות גרנד הוטלס",
+   "nameEn": null,
+   "description": "רשת מלונות",
+   "logo": "https://buyme.co.il/files/siteNewLogo2473090.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Jah Spa קיסריה",
+   "nameEn": null,
+   "description": "ספא במלון דן קיסריה",
+   "logo": "https://buyme.co.il/files/siteNewLogo9961382.jpg"
+  },
+  {
+   "brand": null,
+   "name": "INK HOTEL",
+   "nameEn": "INK HOTEL",
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574225.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Noor Glamping",
+   "nameEn": "Noor Glamping",
+   "description": "מתחם גלמפינג מדברי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574131.jpg"
+  },
+  {
+   "brand": null,
+   "name": "medical spa center",
+   "nameEn": "medical spa center",
+   "description": "מתחם ספא רפואי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574281.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ThaiTime",
+   "nameEn": "ThaiTime",
+   "description": "עיסוי תאילנדי מסורתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo9310857.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא ומלון ברדיצ'בסקי",
+   "nameEn": null,
+   "description": "מלון בוטיק וספא",
+   "logo": "https://buyme.co.il/files/siteNewLogo349578.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LEO ספא",
+   "nameEn": null,
+   "description": "וילת ספא בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573671.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלונות 7EVEN",
+   "nameEn": null,
+   "description": "רשת מלונות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574064.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא בהר - הרי ירושלים",
+   "nameEn": null,
+   "description": "ספא בוטיק פרטי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573953.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא דריה נבל דוד גליל ריזורט",
+   "nameEn": null,
+   "description": "ספא במלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573980.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון פולי האוס",
+   "nameEn": null,
+   "description": "מלון אורבני",
+   "logo": "https://buyme.co.il/files/siteNewLogo3125848.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SPA JLM",
+   "nameEn": "SPA JLM",
+   "description": "רשת בתי ספא",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574405.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא ומלון בוטיק שנקין תל אביב",
+   "nameEn": null,
+   "description": "מלון בוטיק וספא מבית מלונות Jacob",
+   "logo": "https://buyme.co.il/files/siteNewLogo2983907.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חברת אופקים תיירות נופש",
+   "nameEn": null,
+   "description": "חבילות תיירת בארץ ובעולם",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574508.jpg"
+  },
+  {
+   "brand": null,
+   "name": "mermaids house",
+   "nameEn": "mermaids house",
+   "description": "טיפולי וואטסו לנשים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574267.jpg"
+  },
+  {
+   "brand": null,
+   "name": "זאוספא רמת גן",
+   "nameEn": null,
+   "description": "מתחם ספא וטיפולים",
+   "logo": "https://buyme.co.il/files/siteNewLogo10871888.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא הבריאות שבפינוק",
+   "nameEn": null,
+   "description": "קליניקת בוטיק לעיסויים מקצועיים",
+   "logo": "https://buyme.co.il/files/siteNewLogo419510.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אוליאה | Olea",
+   "nameEn": null,
+   "description": "מתחם אירוח גליל עליון",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573279.jpg"
+  },
+  {
+   "brand": null,
+   "name": "צימרים גן העדן של ליאורה",
+   "nameEn": null,
+   "description": "מתחם צימרים",
+   "logo": "https://buyme.co.il/files/siteNewLogo5081469.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא ויה מאריס",
+   "nameEn": null,
+   "description": "ספא יוקרה במלון דיוויד טאואר",
+   "logo": "https://buyme.co.il/files/siteNewLogo3047161.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון ומוזיאון דונה גרציה",
+   "nameEn": null,
+   "description": "חוויה ברוח המאה ה-16",
+   "logo": "https://buyme.co.il/files/siteNewLogo6271102.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Jah Spa אילת",
+   "nameEn": null,
+   "description": "ספא במלון דן אילת",
+   "logo": "https://buyme.co.il/files/siteNewLogo9989295.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Alonella",
+   "nameEn": "Alonella",
+   "description": "מתחם צימרים לזוגות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573588.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יקב אסף",
+   "nameEn": null,
+   "description": "יקב משפחתי ואירוח כפרי",
+   "logo": "https://buyme.co.il/files/siteNewLogo1748345.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- מלון NYX הרצליה",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo10041960.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון SAUL",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo15542692.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Body and Soul",
+   "nameEn": "Body and Soul",
+   "description": "מתחם טיפולים ויופי",
+   "logo": "https://buyme.co.il/files/siteNewLogo386494.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ALBI HOTELS",
+   "nameEn": "ALBI HOTELS",
+   "description": "רשת מלונות בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573917.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ALAYA POLEG",
+   "nameEn": "ALAYA POLEG",
+   "description": "מתחם וולנס וריטריטים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573765.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Ananda Spa",
+   "nameEn": "Ananda Spa",
+   "description": "עיסוי תאילנדי מסורתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574142.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- מלון Gordon Beach ת\"א",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo10023774.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טיליה",
+   "nameEn": null,
+   "description": "קליניקה טיפולית",
+   "logo": "https://buyme.co.il/files/siteNewLogo1564210.jpg"
+  },
+  {
+   "brand": null,
+   "name": "DASI Boutique Experience",
+   "nameEn": "DASI Boutique Experience",
+   "description": "יחידות אירוח זוגיות במושב רמות",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574465.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אסטרל אילת",
+   "nameEn": null,
+   "description": "רשת מלונות נופש",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573972.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא דרך הגוף",
+   "nameEn": null,
+   "description": "ספא המתמחה בטיפול איורוודה Seed",
+   "logo": "https://buyme.co.il/files/siteNewLogo829195.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- מלון Herods הרצליה",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo10040339.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא טיפה אחרת",
+   "nameEn": null,
+   "description": "טיפולי וואטסו",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo376581.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Abraham Hostel",
+   "nameEn": "Abraham Hostel",
+   "description": "רשת אכסניות",
+   "logo": "https://buyme.co.il/files/siteNewLogo5244338.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אומנות המגע במים",
+   "nameEn": null,
+   "description": "טיפולי וואטסו",
+   "logo": "https://buyme.co.il/files/siteNewLogo5725226.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אחוזת ספא קיסר- קיסריה",
+   "nameEn": null,
+   "description": "ספא יוקרתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo321663.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון White Villa",
+   "nameEn": null,
+   "description": "מלון בוטיק בוילה עירונית-אירופאית",
+   "logo": "https://buyme.co.il/files/siteNewLogo2745267.jpg"
+  },
+  {
+   "brand": null,
+   "name": "A23",
+   "nameEn": "A23",
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo4737083.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון גורדון אין",
+   "nameEn": null,
+   "description": "הוסטל ואכסנייה",
+   "logo": "https://buyme.co.il/files/siteNewLogo2370996.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון משכנות רות דניאל",
+   "nameEn": null,
+   "description": "מלון המשלב אווירה עסקית והנאה",
+   "logo": "https://buyme.co.il/files/siteNewLogo7874328.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון שטרקמן ארנה",
+   "nameEn": null,
+   "description": "מלון בוטיק משפחתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo6605097.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא בית דרך חיים- נמל ת\"א",
+   "nameEn": null,
+   "description": "מתחם ספא וטיפולים",
+   "logo": "https://buyme.co.il/files/siteNewLogo1497098.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ShareSpa- מלון U Coral Beach אילת",
+   "nameEn": null,
+   "description": "רשת ספא בבתי מלון",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo9938283.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מנטרה - רעננה",
+   "nameEn": null,
+   "description": "ספא טיפולי",
+   "logo": "https://buyme.co.il/files/siteNewLogo326595.jpg"
+  },
+  {
+   "brand": null,
+   "name": "west and spa אשדוד",
+   "nameEn": null,
+   "description": "ספא במלון ווסט אשדוד",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573390.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא מטה במדבר",
+   "nameEn": null,
+   "description": "מתחם ספא וטיפולים",
+   "logo": "https://buyme.co.il/files/siteNewLogo799163.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סימני דרך",
+   "nameEn": null,
+   "description": "מרכז הילינג במים",
+   "logo": "https://buyme.co.il/files/siteNewLogo5413418.jpg"
+  },
+  {
+   "brand": null,
+   "name": "IZEN SPA",
+   "nameEn": "IZEN SPA",
+   "description": "מתחם ספא וטיפולים",
+   "logo": "https://buyme.co.il/files/siteNewLogo8725244.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארמאנני ספא",
+   "nameEn": null,
+   "description": "מתחם ספא במלון לאונרדו",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573529.jpg"
+  },
+  {
+   "brand": null,
+   "name": "וילה בכפר למרגלות הגלבוע",
+   "nameEn": null,
+   "description": "וילת אירוח יוקרתית למשפחות",
+   "logo": "https://buyme.co.il/files/siteNewLogo11381020.jpg"
+  },
+  {
+   "brand": null,
+   "name": "חמדתיה",
+   "nameEn": null,
+   "description": "אירוח בבית איכרים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573421.jpg"
+  },
+  {
+   "brand": null,
+   "name": "AIRTLV",
+   "nameEn": "AIRTLV",
+   "description": "דירות נופש",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573732.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון טריאסטה בוטיק",
+   "nameEn": null,
+   "description": "מלון בוטיק באווירה כפרית-איטלקית",
+   "logo": "https://buyme.co.il/files/siteNewLogo11104375.jpg"
+  },
+  {
+   "brand": null,
+   "name": "casa suzanna",
+   "nameEn": "casa suzanna",
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574132.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון עדן אין",
+   "nameEn": null,
+   "description": "מלון ירוק בטבע",
+   "logo": "https://buyme.co.il/files/siteNewLogo10155735.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Crown club",
+   "nameEn": "Crown club",
+   "description": "מתחם ספא ובריאות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573478.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Ruby",
+   "nameEn": "Ruby",
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo12938516.jpg"
+  },
+  {
+   "brand": null,
+   "name": "EVER LAB",
+   "nameEn": "EVER LAB",
+   "description": "מתחם וולנס טכנולוגי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573991.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רנומה",
+   "nameEn": null,
+   "description": "מלון ודירות יוקרה",
+   "logo": "https://buyme.co.il/files/siteNewLogo15063172.jpg"
+  },
+  {
+   "brand": null,
+   "name": "HOMY",
+   "nameEn": "HOMY",
+   "description": "דירות נופש בת\"א וירושלים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573778.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא פנינה בכרמל",
+   "nameEn": null,
+   "description": "ספא בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo11054466.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LA MONTIA",
+   "nameEn": "LA MONTIA",
+   "description": "סוויטות אירוח בין כרמים להרים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574199.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פלמינגו ספא",
+   "nameEn": null,
+   "description": "ספא בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo10685451.jpg"
+  },
+  {
+   "brand": null,
+   "name": "שרנא ספא הרצליה",
+   "nameEn": null,
+   "description": "מתחם ספא במלון השרון",
+   "logo": "https://buyme.co.il/files/siteNewLogo10871629.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LEOBUS",
+   "nameEn": "LEOBUS",
+   "description": "חווית לינה ייחודית בצפון",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573733.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Assemblage Boutique Hotel",
+   "nameEn": "Assemblage Boutique Hotel",
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573567.jpg"
+  },
+  {
+   "brand": null,
+   "name": "LORD TICKETS",
+   "nameEn": "LORD TICKETS",
+   "description": "כרטיסים לכל אירוע",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17573564.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SORA SPA",
+   "nameEn": "SORA SPA",
+   "description": "ספא במלון בראון",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574252.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Spa My Touch",
+   "nameEn": "Spa My Touch",
+   "description": "מתחם ספא וטיפולים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573698.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SPARADISE",
+   "nameEn": "SPARADISE",
+   "description": "ספא בוטיק במלון אינדיגו",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573926.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The Gutman Hotel",
+   "nameEn": "The Gutman Hotel",
+   "description": "מלון בוטיק יוקרתי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574152.jpg"
+  },
+  {
+   "brand": null,
+   "name": "The Savoy hotel tlv",
+   "nameEn": "The Savoy hotel tlv",
+   "description": "מלון בסגנון אירופאי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573910.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TIKTIK",
+   "nameEn": "TIKTIK",
+   "description": "חבילות ספורט והופעות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573764.jpg"
+  },
+  {
+   "brand": null,
+   "name": "WORLD8",
+   "nameEn": "WORLD8",
+   "description": "שירות e-SIM לגלישה בחו\"ל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574250.jpg"
+  },
+  {
+   "brand": null,
+   "name": "גלמפינג מיא",
+   "nameEn": null,
+   "description": "מתחם גלמפינג",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574098.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דריה ספא נתניה",
+   "nameEn": null,
+   "description": "ספא במלון נבל דוד נתניה ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573890.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הנחלה ברמות",
+   "nameEn": null,
+   "description": "סוויטות בוטיק לזוגות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573667.jpg"
+  },
+  {
+   "brand": null,
+   "name": "הספא במלון פרא",
+   "nameEn": null,
+   "description": "מתחם ספא במלון פרא",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573629.jpg"
+  },
+  {
+   "brand": null,
+   "name": "זמן ערבה",
+   "nameEn": null,
+   "description": "סוויטות במדבר",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573738.jpg"
+  },
+  {
+   "brand": null,
+   "name": "טוהר קליינר",
+   "nameEn": null,
+   "description": "טיפול במים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573672.jpg"
+  },
+  {
+   "brand": null,
+   "name": "יאלהרנט-הבית שלכם לחופשה",
+   "nameEn": null,
+   "description": "שירות השכרת דירות נופש",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573674.jpg"
+  },
+  {
+   "brand": null,
+   "name": "כפר הנוקדים",
+   "nameEn": null,
+   "description": "אירוח מדברי",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573767.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לוינסקי מרקט הוטל",
+   "nameEn": null,
+   "description": "מלון אורבני",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573798.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מילה חיפה",
+   "nameEn": null,
+   "description": "מלון בוטיק ללא ילדים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574243.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון בוטיק דוריה",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574325.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון הלני מלכה ירושלים",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573966.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון מולאן",
+   "nameEn": null,
+   "description": "מלון נופש ועסקים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574116.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון נוף",
+   "nameEn": null,
+   "description": "מלון מבית רשת נארה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574097.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון אורבן רמת גן",
+   "nameEn": null,
+   "description": "מלון אורבני מבית מלונות ROXON",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573314.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון דזרט ערד",
+   "nameEn": null,
+   "description": "מלון מבית מלונות ROXON",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573841.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רוקסון סי סאנד בת ים",
+   "nameEn": null,
+   "description": "מלון מבית מלונות ROXON",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573842.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רמדה אוליבייה נצרת",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573843.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון רפאל האוס",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573680.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלונות גולדן קראון",
+   "nameEn": null,
+   "description": "רשת מלונות בוטיק בצפון",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574275.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ממילא ויו - אורבן",
+   "nameEn": null,
+   "description": "מלון ודירות יוקרה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574181.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ממילא ויו סוויטס",
+   "nameEn": null,
+   "description": "דירות יוקרה בירושלים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573997.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נירוונה",
+   "nameEn": null,
+   "description": "ספא יפני",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573294.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא בריאה",
+   "nameEn": null,
+   "description": "מתחם ספא במלון בריאה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574208.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא רוקסון אורבן רמת גן",
+   "nameEn": null,
+   "description": "מתחם ספא במלון אורבן",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573666.jpg"
+  },
+  {
+   "brand": null,
+   "name": "עיינות ספיר",
+   "nameEn": null,
+   "description": "סוויטות אירוח כפריות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574201.jpg"
+  },
+  {
+   "brand": null,
+   "name": "עלמה",
+   "nameEn": null,
+   "description": "אמבטיות קרח למכירה וסדנאות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573820.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קאלמה ספא",
+   "nameEn": null,
+   "description": "מתחמי ספא יוקרתיים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573327.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ריביירה ספא",
+   "nameEn": null,
+   "description": "מתחם ספא וטיפולים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17573681.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון אמבסי",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574413.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון פורט",
+   "nameEn": null,
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574412.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Desert HOM By Glow",
+   "nameEn": "Desert HOM By Glow",
+   "description": "גלמפינג בנווה מדבר בלב שמורת טבע",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574499.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Head Spa Israel",
+   "nameEn": "Head Spa Israel",
+   "description": "The Art of Scalp Luxury",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574436.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SANANDO",
+   "nameEn": "SANANDO",
+   "description": "מרחב של חוויות, וולנס, ריפוי, חופש ושלווה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574493.jpg"
+  },
+  {
+   "brand": null,
+   "name": "TicketTeams",
+   "nameEn": "TicketTeams",
+   "description": "אירועים בארץ ובעולם",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574463.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ZMRM",
+   "nameEn": "ZMRM",
+   "description": "משוברים לחופשה ",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574470.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא אדמה",
+   "nameEn": null,
+   "description": "ממתם ספא וטיפולים ",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574456.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Playa Spa",
+   "nameEn": "Playa Spa",
+   "description": "מתחם ספא וטיפולים",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574339.jpg"
+  },
+  {
+   "brand": null,
+   "name": "SPA AKOYA",
+   "nameEn": "SPA AKOYA",
+   "description": "להתפנק בסגנון אקויה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574570.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא נאות",
+   "nameEn": null,
+   "description": "ספא בוטיק בקיסריה",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574537.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ABBA HOTEL",
+   "nameEn": "ABBA HOTEL",
+   "description": "מלון בוטיק",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574600.jpg"
+  },
+  {
+   "brand": null,
+   "name": "בקתה בלבן",
+   "nameEn": null,
+   "description": "צימרים במושב רמות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574587.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ארנה טיקטס",
+   "nameEn": null,
+   "description": "חבילות ספורט והופעות בחו\"ל",
+   "onlineRedeem": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574589.jpg"
+  },
+  {
+   "brand": null,
+   "name": "צימר חן",
+   "nameEn": null,
+   "description": "צימרים ברמת הגולן איכות פוגשת נוחות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574530.jpg"
+  },
+  {
+   "brand": null,
+   "name": "HOUSE OF JOY SPA",
+   "nameEn": "HOUSE OF JOY SPA",
+   "description": "המקום לרוגע יופי והתחדשות",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574563.jpg"
+  },
+  {
+   "brand": null,
+   "name": "On.Tour by Issta Sport",
+   "nameEn": "On.Tour by Issta Sport",
+   "description": "הופעות ופסטיבלים בעולם",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574591.jpg"
+  },
+  {
+   "brand": null,
+   "name": "איסתא אקטיב מבית איסתא ספורט",
+   "nameEn": null,
+   "description": "חופשות ספורט אקטיביות בארץ ובעולם",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574599.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון וספא סינרגיה עין גדי",
+   "nameEn": null,
+   "description": "עין גדי- מלון בשמורת טבע",
+   "bookingRequired": true,
+   "logo": "https://buyme.co.il/files/siteNewLogo17574555.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון מטרו הרצליה",
+   "nameEn": null,
+   "description": "מלון בוטיק בהרצליה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574560.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סופר קלאסיקו מבית איסתא ספורט",
+   "nameEn": null,
+   "description": "חבילות לסופר קלאסיקו בברצלונה",
+   "logo": "https://buyme.co.il/files/siteNewLogo17574639.jpg"
+  }
+ ]
+}

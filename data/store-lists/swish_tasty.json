@@ -1,0 +1,1830 @@
+{
+ "platform": "nofshonit",
+ "variant": "tasty",
+ "source": "https://swish.co.il/home/all-gifts-giftcard/product-110242",
+ "notes": "Swish Tasty: restaurants and cafés. Names ending in \"אונליין\"/\"online\" are online stores.",
+ "updated": "2026-10-19",
+ "count": 260,
+ "stores": [
+  {
+   "brand": null,
+   "name": "גשן",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2b62405b-bccb-440b-b2bf-71ba7f77d485.png"
+  },
+  {
+   "brand": null,
+   "name": "אנרג'וסר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/03791482-c63f-4859-b9e8-18db9a2f28b8.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סיאסטה קפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9f688034-3aea-47f5-8d1c-2ba063d09463.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סקובר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a83b0875-55c2-444c-951e-e28c38980bcb.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה נטו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/376f1c0c-c9ce-4fab-9649-593438fbafd9.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה פולה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/749a01e5-4409-42dc-8e0d-093ec56a1065.png"
+  },
+  {
+   "brand": null,
+   "name": "בורגר ראנץ",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/065adb3e-a3d9-4e42-b29e-d7daabd95ea5.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קזינו סן רמו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/51c1fdcf-bd63-4caf-bd36-38efbe89ac48.png"
+  },
+  {
+   "brand": null,
+   "name": "רנה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/bc617bef-f25f-433b-ac11-ead57cb891d5.png"
+  },
+  {
+   "brand": null,
+   "name": "בורגרים",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b928c7ed-6dd5-4f62-9298-e1e74877c3a0.png"
+  },
+  {
+   "brand": null,
+   "name": "la vaca loca",
+   "nameEn": "la vaca loca",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e500cf26-b044-43f8-bf11-70c839bff535.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה מנדרין",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d3cfd247-ca35-4dbf-b053-afe7c7898966.jpg"
+  },
+  {
+   "brand": null,
+   "name": "שטרודל",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8c7a3c49-015e-4de9-905c-80d184a87fb8.png"
+  },
+  {
+   "brand": null,
+   "name": "ווק אווי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ce32b75b-d0d4-4971-9aa6-1873f740540a.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נאפיס חולון",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0f086281-0eb4-4ce8-95ed-312b9248c905.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת מקסיקנה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/063e95aa23d64d8bb732da1091789a6b.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה קפית",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f1f1850e-430c-47a1-a46e-5b4789ac0b8a.jpg"
+  },
+  {
+   "brand": null,
+   "name": "איז קפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cfb17a6d-0ec4-4422-ab4a-799d585f6be8.jpg"
+  },
+  {
+   "brand": null,
+   "name": "נמסטה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/166e77d2-33e6-4e62-aaa2-4e831e540d54.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מועדון ארוחת הבוקר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f9009d03-3fae-4104-853d-450647e15199.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אינדירה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6be3e6b1-d621-4d2a-b087-0d423f327554.png"
+  },
+  {
+   "brand": null,
+   "name": "לה גופרה כרמיאל",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e1eba20a-56c1-4870-9b52-5013a451536a.png"
+  },
+  {
+   "brand": null,
+   "name": "הדרלה מעלות",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d61de7f4-3bc6-4b56-ac60-1ca55b3d1f93.jpg"
+  },
+  {
+   "brand": null,
+   "name": "פיצה עגבניה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/592cf9c6-cd0d-469d-ace3-574fd79bd638.png"
+  },
+  {
+   "brand": null,
+   "name": "ביגה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1d111302-3da9-402d-8fda-1eccaefe98be.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת אווז הזהב",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d622587c-8499-4dc6-b918-7a326ab64a62.jpg"
+  },
+  {
+   "brand": null,
+   "name": "Mikes Place",
+   "nameEn": "Mikes Place",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2968f357-0de2-4f64-b025-2eecce5a261b.jpg"
+  },
+  {
+   "brand": null,
+   "name": "איטלקיה בתחנה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2a6c7374-505b-4058-b5f3-daffd628df31.jpg"
+  },
+  {
+   "brand": null,
+   "name": "באבא יאגה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d767325c-82af-493a-ad24-1bde619f2010.png"
+  },
+  {
+   "brand": null,
+   "name": "בטר בורגר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/05afadaf-e96e-4392-8448-cf69eb365193.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אביבים בייקרי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8632c2c5-c5ab-486a-8a85-847395767be6.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דארנא",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7643111b-2560-414e-b475-f9e97204b07a.png"
+  },
+  {
+   "brand": null,
+   "name": "סושי בוקס",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3cd6c25e-4bcb-4e37-a191-69643c21a601.png"
+  },
+  {
+   "brand": null,
+   "name": "טל בורגר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/72fdd7e3-f648-4d73-88f9-ff84cd4df1af.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה לוגאנו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ac8d1664-40ae-417b-92d8-3774d8998842.png"
+  },
+  {
+   "brand": null,
+   "name": "נורי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f0f972f3-5152-43c8-9cf9-b33827f471ab.png"
+  },
+  {
+   "brand": null,
+   "name": "פטריקס מתחם התחנה ראשון לציון",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2a6f20ba-3339-48c6-a95e-7494972b7fe0.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מאפה נאמן",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/98a067f5-84b8-44d4-a5ac-f0d6c09b308d.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה נמרוד תל אביב",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/78056090-548b-4f94-919e-7116b2397068.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אסאדו במדבר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/36e2f643-335e-4b56-b189-d3c81feaccfc.png"
+  },
+  {
+   "brand": null,
+   "name": "לאר דו פאן",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9a835c25-1049-40f1-ae16-2b5bf9c35618.png"
+  },
+  {
+   "brand": null,
+   "name": "ברביס",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/32ec1701-4290-47da-8269-e28585611005.png"
+  },
+  {
+   "brand": null,
+   "name": "בליקר בייקרי אשדוד",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/63100a2c-43d8-4213-ada8-4c42dc03af63.png"
+  },
+  {
+   "brand": null,
+   "name": "פטריקס פתח תקווה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fadd4b82-c26e-4c36-8e48-2db454d5f6bb.jpg"
+  },
+  {
+   "brand": null,
+   "name": "רשת אגאדיר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9cdef008-82fb-4188-a012-b0bc870797e9.png"
+  },
+  {
+   "brand": null,
+   "name": "סמוראיו סושי בר עפולה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3c8c5fc9-893c-42cd-bee8-be441c774be1.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ג'אפן ג'אפן",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6d918f32-1df4-4bf9-8be0-b3a954d63191.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אל קפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/21fa3f99-1e81-468e-ade2-368a2f5045e0.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סיקריט בורגר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/08fcc984-c468-408e-9921-4e6394b14aa1.png"
+  },
+  {
+   "brand": null,
+   "name": "מיסטר פרצל",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/44fb740e553a421faa8a9e85f52ad275.png"
+  },
+  {
+   "brand": null,
+   "name": "פאב 55 אוכל ובירה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/bf4fa5e5-703d-4057-ab97-3c620d47c787.png"
+  },
+  {
+   "brand": null,
+   "name": "סולו סושי בר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/46ec12feaacb43029e60f6b3216a68ca.png"
+  },
+  {
+   "brand": null,
+   "name": "וארקדה אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8faa25520dc34e49810ad8e0c9a51584.png"
+  },
+  {
+   "brand": null,
+   "name": "הצדף ראשון לציון",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e955fd1f-894c-44b5-8f24-f6423d976e27.png"
+  },
+  {
+   "brand": null,
+   "name": "זוקו יגאל אלון",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7cf5b0c4-ed99-4e4e-a359-1f0e7561ba35.png"
+  },
+  {
+   "brand": null,
+   "name": "סדפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2dfeda1c-4d6f-4748-bd69-66c2234ccb4c.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה ללוש בראסרי באר שבע",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fd944570-9075-4461-bb5f-551bc99a393d.png"
+  },
+  {
+   "brand": null,
+   "name": "בורגר סטיישן",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/da1cb226-c51b-4b0c-95f3-84718121f3fb.png"
+  },
+  {
+   "brand": null,
+   "name": "נגיסה עפולה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5c10fab7-4850-414b-96a8-d57670543e7d.png"
+  },
+  {
+   "brand": null,
+   "name": "חצר עין כרם",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ec7093a8-af29-4048-9197-d06c71ee1217.png"
+  },
+  {
+   "brand": null,
+   "name": "גוסטינו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fb10ee21-5e34-45db-931f-0e7ea921204f.png"
+  },
+  {
+   "brand": null,
+   "name": "לולה הכשרה על הים",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c0095c8e-3ec8-418e-b62b-8f476290f2e5.png"
+  },
+  {
+   "brand": null,
+   "name": "פישנזון",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/959c92fd-ca9a-47aa-954c-9ac1f705cdf6.png"
+  },
+  {
+   "brand": null,
+   "name": "יאסו תל אביב",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7720f236-4ac3-4ffd-9360-8ca322fbb637.png"
+  },
+  {
+   "brand": null,
+   "name": "קאזה דו ברזיל אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a0fea461-b157-473c-bdc3-4a23fa5d3a73.png"
+  },
+  {
+   "brand": null,
+   "name": "קאסה דל פפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/efc559e7543947ae8073a80db3f2ba99.png"
+  },
+  {
+   "brand": null,
+   "name": "נולה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/bbd430b7-4b8f-43eb-abf3-92c82581137a.png"
+  },
+  {
+   "brand": null,
+   "name": "פיאצה גרנדה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/09e1acb4-c528-431b-8ce1-464d6c486803.png"
+  },
+  {
+   "brand": null,
+   "name": "Rendez-Vous",
+   "nameEn": "Rendez-Vous",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e698bb22-1673-4cab-8082-35f34ff07530.png"
+  },
+  {
+   "brand": null,
+   "name": "פלומינו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2f87ac7cbbb74086a91a597882b10447.png"
+  },
+  {
+   "brand": null,
+   "name": "רוסטרס",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/171def3499504010b286e060a8d95321.png"
+  },
+  {
+   "brand": null,
+   "name": "מבשלת בירה הגיבור",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6879c9fb-de49-4bad-948a-90f7c4742f09.png"
+  },
+  {
+   "brand": null,
+   "name": "בליקר בייקרי רמת גן",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b2f17159-be08-4f74-b5fe-813051883ebb.png"
+  },
+  {
+   "brand": null,
+   "name": "בליקר בייקרי כפר סבא",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b5e88f79-09c5-4ada-8414-8fb14866e6eb.png"
+  },
+  {
+   "brand": null,
+   "name": "בליקר בייקרי רעננה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b1ac42a9-546f-4349-8f26-9b9dd4fb2f1c.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה פיצה ואוירה בעמ",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1baf6d64-a022-4ca8-89ad-456d5f3959bb.png"
+  },
+  {
+   "brand": null,
+   "name": "מיה ביץ'",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/bf110441-3ea4-431a-933f-0857d70a3498.png"
+  },
+  {
+   "brand": null,
+   "name": "קאסה לונה אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d99a9974-7118-4dd9-9836-885a51932ceb.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה אופטימי Italian&Israeli Kitchen",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/db595f5a-6809-4d34-9a9f-97d3b35be684.png"
+  },
+  {
+   "brand": null,
+   "name": "מרינה ביי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d1efbb25-2967-4568-9b7f-4f024e348053.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת יומנגס",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b4c2fb0773c34b9fb4b3b36493682021.png"
+  },
+  {
+   "brand": null,
+   "name": "בשורה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ead401f2-54ca-4c0f-8d0c-513411399a4d.png"
+  },
+  {
+   "brand": null,
+   "name": "טגלוס",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/826c071e-937f-42ba-93d7-e108adaf0940.png"
+  },
+  {
+   "brand": null,
+   "name": "גסטה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b364605e-f0ed-45ef-99aa-818886028c07.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת פיצה סטורי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/82563276-2c46-45be-8b9e-3e50a7f3c399.png"
+  },
+  {
+   "brand": null,
+   "name": "יוגורטה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c27d3d19-e97c-4437-a7df-4714a444ce95.png"
+  },
+  {
+   "brand": null,
+   "name": "מתאו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/810e1463-167a-45e3-a2c9-a2ebacfba9cd.png"
+  },
+  {
+   "brand": null,
+   "name": "שוקו לולו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6959e2e8-d86a-472f-a17a-744cb560f342.png"
+  },
+  {
+   "brand": null,
+   "name": "פינתי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0e9edef78fc447029863548fc84d8437.png"
+  },
+  {
+   "brand": null,
+   "name": "אווז הזהב אקספרס",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fa649e9a10174122a9d22ac2a02dbc30.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לוקנדה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6f2111a6f30e454188932030089297f5.png"
+  },
+  {
+   "brand": null,
+   "name": "פאב הדובים",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f9a74cdf0fcb4a7ab191494c853ae8a1.png"
+  },
+  {
+   "brand": null,
+   "name": "באלי בורגר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5ec902bf-a407-4700-ab4c-a89e7c47d91d.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת דוקא",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cad3f596b03946cfa36ad538b0952280.png"
+  },
+  {
+   "brand": null,
+   "name": "הסושיה אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cd1b6d81-b7f6-489c-b86b-a3c8860a819b.png"
+  },
+  {
+   "brand": null,
+   "name": "פיקולו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/212fd575-0f28-433d-841d-42f513c7c7f5.png"
+  },
+  {
+   "brand": null,
+   "name": "קפטן הוק",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b5a4fcf244fd4f23a3b001368b95453c.png"
+  },
+  {
+   "brand": null,
+   "name": "צ׳וצ׳ו פאטיו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/96c84603-6d74-4a6c-971c-03cdb62d8e38.png"
+  },
+  {
+   "brand": null,
+   "name": "Belago",
+   "nameEn": "Belago",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/baa4db85-9041-4693-b6d4-bb0d0806b572.png"
+  },
+  {
+   "brand": null,
+   "name": "ראנץ' האוס ים המלח",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6423fe53-742b-4bba-93ab-0f77a2546f1d.png"
+  },
+  {
+   "brand": null,
+   "name": "ספרינקלס בייקרי TLV",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/6dce397a-0fc9-4b1e-8d9c-2c09b1b595b5.png"
+  },
+  {
+   "brand": null,
+   "name": "גנדי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9c181dc021be43d9869489be3ad11b60.png"
+  },
+  {
+   "brand": null,
+   "name": "Just Meat",
+   "nameEn": "Just Meat",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a2460625-73c2-4f15-95d3-737b566a8d4d.png"
+  },
+  {
+   "brand": null,
+   "name": "פסאו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cca7a003-a210-4091-93c9-f5abe7cb3899.png"
+  },
+  {
+   "brand": null,
+   "name": "שיפודים אקספרס אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b260d442-e32b-473b-86a9-7ab9c8577767.png"
+  },
+  {
+   "brand": null,
+   "name": "אומינו סושי - Umino Sushi",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ae28e4bd-199d-4236-b711-c108e46527a6.png"
+  },
+  {
+   "brand": null,
+   "name": "Us crispy chicken אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/88ca5dd8bc6141689440d218a02fb2d0.png"
+  },
+  {
+   "brand": null,
+   "name": "סומאק - מטבח גלילי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b07c2698-6c94-43ed-9c7a-a66a166a4e2f.png"
+  },
+  {
+   "brand": null,
+   "name": "לה קרנה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3144338e-9075-466e-9677-a31ffc44062f.png"
+  },
+  {
+   "brand": null,
+   "name": "מיט טיים",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cf7ed68c-b3d1-4186-a347-49a70ece586c.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת פלייגראונד",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2f2c919d-5df9-4146-8580-e1ab9982d218.png"
+  },
+  {
+   "brand": null,
+   "name": "החברים גריל ישראלי מהדרין",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2e09d492-e65a-43ee-b531-987b9f8daec2.png"
+  },
+  {
+   "brand": null,
+   "name": "פיקה בייקרי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/024c8190-f93f-4bd0-a9b7-b179556035b6.png"
+  },
+  {
+   "brand": null,
+   "name": "בליקר בייקרי קריית גת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7abbe779-e8d3-40f5-8e96-cf6d74d420e1.png"
+  },
+  {
+   "brand": null,
+   "name": "בורקס הבולגרי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1cb43137-a7fa-4377-a00e-005a61d14304.png"
+  },
+  {
+   "brand": null,
+   "name": "לצ'ה פטיסרי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2c08d550-3ba8-44e5-84b6-6f0438c5da01.png"
+  },
+  {
+   "brand": null,
+   "name": "חמנייה ברודצקי 17",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e29be7ef-6e2a-426a-ae1d-707b0f4121ac.png"
+  },
+  {
+   "brand": null,
+   "name": "בוקה אחד העם",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/84946ba8-2394-4705-b619-5e150b62969b.png"
+  },
+  {
+   "brand": null,
+   "name": "מכבי 40",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e4c02bb6-8ff0-460a-988b-7ae78d69c0fc.png"
+  },
+  {
+   "brand": null,
+   "name": "Villa MARE TLV",
+   "nameEn": "Villa MARE TLV",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1bae487699a34e5b984628c1fff2466a.png"
+  },
+  {
+   "brand": null,
+   "name": "שפרה- מעדניה מבית פועה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f6b72bab-d5f7-4820-9535-4a0ef20b5a8f.png"
+  },
+  {
+   "brand": null,
+   "name": "פועה- קפה ומסעדה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/37f4689e-0afc-49e1-bc83-3d6ba0939818.png"
+  },
+  {
+   "brand": null,
+   "name": "לימונצ'לו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5206b96e-4ade-4924-bc0b-e10b230e845b.png"
+  },
+  {
+   "brand": null,
+   "name": "Beezoo - קונדיטוריית בוטיק",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/158eea7c-b305-444b-b384-d5bdd5670285.png"
+  },
+  {
+   "brand": null,
+   "name": "יאן סושי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1d1d8dd3506f4533b187f39a44dfd20c.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה לוסיל",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9b1216bc-8497-4dc9-b979-db6753d688b9.png"
+  },
+  {
+   "brand": null,
+   "name": "בליקמח",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/eb6b257f-d41e-40ba-ae16-521f78ee2285.png"
+  },
+  {
+   "brand": null,
+   "name": "olive-ביסטרו ישראלי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/273bd632-8c8f-4ca6-9cde-5d02201da890.png"
+  },
+  {
+   "brand": null,
+   "name": "סמיר ברמלה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cce6da27-3460-4f7c-b9ff-5ea957599339.png"
+  },
+  {
+   "brand": null,
+   "name": "פראטלי נתניה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b002eb95-ac4d-4358-88e3-74371886e7ab.png"
+  },
+  {
+   "brand": null,
+   "name": "Patissereem בייקרי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f26e2695-0c1e-4e70-acf5-a558ce7e5539.png"
+  },
+  {
+   "brand": null,
+   "name": "שווארמה פלפלת המסעדה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9e02b873-b11d-483e-a2c4-794a9b82d6b0.png"
+  },
+  {
+   "brand": null,
+   "name": "WokStreet מרכז הכרמל",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5e361a69-9809-421f-83c4-855178c4b8ca.png"
+  },
+  {
+   "brand": null,
+   "name": "WokStreet רמבם",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e0db5362-2a39-4da0-bbcb-2b132bae15bd.png"
+  },
+  {
+   "brand": null,
+   "name": "ג'ויה - סושי גריל בר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/34ad46eb-576c-408c-b34d-6c4d3869ec3b.png"
+  },
+  {
+   "brand": null,
+   "name": "איל גוסטו חיפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c18a40d0-743e-48a6-9ae8-c83f7893e633.png"
+  },
+  {
+   "brand": null,
+   "name": "לוקו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/64234e7e-4090-4422-8425-22d8f89d095a.png"
+  },
+  {
+   "brand": null,
+   "name": "זוקו מגדלי לייף",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/139f7a75-8f23-48f7-9a2d-8e9181bf299d.png"
+  },
+  {
+   "brand": null,
+   "name": "בוכמנ׳ס פיצה מודיעין",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e418c1ed-6285-4b7d-825e-2d5f13493b74.png"
+  },
+  {
+   "brand": null,
+   "name": "קפטן בורגר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a64c7922-1c2b-4f59-a730-8d2ff578369f.png"
+  },
+  {
+   "brand": null,
+   "name": "burger box",
+   "nameEn": "burger box",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8bba315a-84ea-4711-acd9-23d0eba0ec26.png"
+  },
+  {
+   "brand": null,
+   "name": "אנטריקוטי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d86e0d746b044c9e8d2aa3aa0d7f06f9.png"
+  },
+  {
+   "brand": null,
+   "name": "סושי בוקס מודיעין",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0892b82c-4e2b-44f3-a8ae-e1a7fe08ce55.png"
+  },
+  {
+   "brand": null,
+   "name": "אנטיליה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0d0eaeb5f88e43958d6115e844febc23.png"
+  },
+  {
+   "brand": null,
+   "name": "המשביר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/dd84e4ba-275a-48ad-a2e3-a745579c5c9d.png"
+  },
+  {
+   "brand": null,
+   "name": "קאבלרו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b1c19ce3-36e6-4697-a5aa-ef52ba7d76d0.png"
+  },
+  {
+   "brand": null,
+   "name": "למפור",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/68be647a-3c2b-4bc0-a0d1-cd6b9bc714a2.png"
+  },
+  {
+   "brand": null,
+   "name": "בטר בורגר קרית אונו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1bb250c4-8fc0-42f6-8adf-b3f2f416da52.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בבא",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a5e7555a-b8ca-43f5-8c70-628823a94bb1.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת פיצה סנטרל",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/23e5952e93bb4096a8b9f812a1e5c50d.png"
+  },
+  {
+   "brand": null,
+   "name": "הודו הגדולה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/7a822bbb-a10d-4bfd-94f5-4a59c0b5ccd0.png"
+  },
+  {
+   "brand": null,
+   "name": "מאנקיס three monkeys pub",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/05061df4-bc34-45d3-9c12-010094d862f1.png"
+  },
+  {
+   "brand": null,
+   "name": "ראנץ האוס אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4686ee1f-127e-4c29-9d8b-d0ed426d02b6.png"
+  },
+  {
+   "brand": null,
+   "name": "אנג'לינה אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4db0ab1c-7ef1-4ac4-97fa-e329de356905.png"
+  },
+  {
+   "brand": null,
+   "name": "ג'אספר 08 jasper",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/25b26258-9052-4fde-a991-ba8c2faac307.png"
+  },
+  {
+   "brand": null,
+   "name": "ראנץ האוס מצפה הימים",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/40a5720f-fd45-4492-acf9-093dbc94fc1a.png"
+  },
+  {
+   "brand": null,
+   "name": "אוריינט טופ",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fb9359a6-fc16-49aa-8f45-2aeb87da40e6.png"
+  },
+  {
+   "brand": null,
+   "name": "ניני קאי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0e0b3f1e-3dee-4f1f-8f30-1b5ff8f3596a.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה בולבארד- cafe boulevard",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9a779e77-32fb-43a0-b0f9-a2f8b58f0393.png"
+  },
+  {
+   "brand": null,
+   "name": "גרקו ביץ אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/237a46b9-a611-480a-b074-674ba0a7a5bd.png"
+  },
+  {
+   "brand": null,
+   "name": "לוטם דרעי בייקרי וביסטרו שף",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c22701e3-61b5-4ded-b02a-6aac83ac1a3f.png"
+  },
+  {
+   "brand": null,
+   "name": "נגיסה לוד",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1612cc79-0b33-404a-b70f-25747a6a4601.png"
+  },
+  {
+   "brand": null,
+   "name": "ביגה פתח תקווה הקניון הגדול",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/66e9f2c4-7d64-449e-b830-c90a26e02700.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה שבע",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1c7fefbd-65c7-4914-baf4-95b2a853743f.png"
+  },
+  {
+   "brand": null,
+   "name": "סטלה בייקרי לוי אשכול קרית אונו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/796fb9cf-ab45-4969-81aa-47f7c1b42de9.png"
+  },
+  {
+   "brand": null,
+   "name": "סטלה בייקרי- שדרה האקדמאית אונו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/50640935-4b8b-4422-a51d-a979fd73b2f5.png"
+  },
+  {
+   "brand": null,
+   "name": "J17",
+   "nameEn": "J17",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/48c70697-f727-45c7-a140-aca5fb871e7f.png"
+  },
+  {
+   "brand": null,
+   "name": "פסטלה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/66469b19-025f-4f43-b25a-6ea6f255c37b.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת וניליה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8517b60a-fea1-4ff6-ac31-d69f66dbfb18.png"
+  },
+  {
+   "brand": null,
+   "name": "lunel",
+   "nameEn": "lunel",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5935382a-7717-478e-8bc2-1b1f104d3f1d.png"
+  },
+  {
+   "brand": null,
+   "name": "המבורגר הדיקטטור (אחי אילת)",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/46e107cd-aafe-48d8-a047-2a3bf1219e32.png"
+  },
+  {
+   "brand": null,
+   "name": "המבורגר הדיקטטור (מוריה)",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4079d7ed-18d0-4c43-8b7a-a1ee545cc28d.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בון גוסטו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9c955d85-559c-4480-880d-28a5ec1a2ef2.png"
+  },
+  {
+   "brand": null,
+   "name": "Secret Pizza",
+   "nameEn": "Secret Pizza",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/13a4db04-6f48-4bd2-86f3-b6a063a1d9ab.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת בזיליה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f7d5f68a-1491-4074-b070-4d4c18bdc7e2.png"
+  },
+  {
+   "brand": null,
+   "name": "מתוקו - MATOKO",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/38a201fa-66b5-4bb4-abe4-731b9f579d09.png"
+  },
+  {
+   "brand": null,
+   "name": "La Bera לה ברה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0ad1aab1-392c-4d58-a590-a1fe84ff80cb.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה ורה י-ם",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cd9a8a8f-ddb6-493d-a3c6-858a7adfa335.png"
+  },
+  {
+   "brand": null,
+   "name": "מרינה דלאל",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/57c37de6-34a8-4641-9c79-038e4e1c737f.png"
+  },
+  {
+   "brand": null,
+   "name": "מלון פרימה רויאל י-ם",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1fe9b2e0-3b81-4b2a-b1da-80b1c39d01f4.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה בסיבוב (עגלת קפה)",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/052a5635-6dc8-4c82-8f49-7a2fd880fccf.png"
+  },
+  {
+   "brand": null,
+   "name": "סלון יווני",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/cb2be4e6-bb5e-4e01-83e2-47c803f23f91.png"
+  },
+  {
+   "brand": null,
+   "name": "פאזל בורגר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/937d3c30-02d9-4e56-af23-ad9f59def906.png"
+  },
+  {
+   "brand": null,
+   "name": "מעדניית גליאנו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9e88571b-c2db-4612-9f1a-b0ab80e9ae93.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת רמונא הכשרה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5c92ca444a404d399821f484b23e3306.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת Greenz",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/974b8612-37bd-4295-ad6c-3778958cc5d1.png"
+  },
+  {
+   "brand": null,
+   "name": "רמונא הקטנה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f5dd490c-9451-46d1-9c85-473c66caec12.png"
+  },
+  {
+   "brand": null,
+   "name": "פרמזנו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3e36b37f-714f-40e7-ae1a-c2d4ff41424b.png"
+  },
+  {
+   "brand": null,
+   "name": "קאסה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f17ec481-7177-4235-a0a1-47ae4c8e8212.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת איטליינוס",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ee1168bf-aa6e-4d61-a986-fec042ef676b.png"
+  },
+  {
+   "brand": null,
+   "name": "רקל קונדיטוריה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/66e6a7a9-a47e-448c-8ca0-7b0979f277ef.png"
+  },
+  {
+   "brand": null,
+   "name": "פיצה רומא",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/10db3ba2-aff1-4f15-bf07-d7ce36eb2e2d.png"
+  },
+  {
+   "brand": null,
+   "name": "מעדני צ'ונה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1cf78294-91ab-4673-b23d-d5423ff27a23.png"
+  },
+  {
+   "brand": null,
+   "name": "Zeit fur Brot",
+   "nameEn": "Zeit fur Brot",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/72dd5306-f3ac-4782-a79e-b7e8443a42ca.png"
+  },
+  {
+   "brand": null,
+   "name": "pizzetta",
+   "nameEn": "pizzetta",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2c284b4a-5eb9-4396-a2dc-878dd5f37857.png"
+  },
+  {
+   "brand": null,
+   "name": "LISA - Beer Garden",
+   "nameEn": "LISA - Beer Garden",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/86923cf7-23f2-43e7-9230-3597a93da95b.png"
+  },
+  {
+   "brand": null,
+   "name": "Casa Bella ביסטרו ובר איטלקי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/971f6d25-315b-4280-9779-ed3645382148.png"
+  },
+  {
+   "brand": null,
+   "name": "לופו כפר סבא",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b566783f-d72d-472d-b846-ce33042daf4b.png"
+  },
+  {
+   "brand": null,
+   "name": "לחמשה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8096b4ca-2a92-4e6d-977b-a2095aaee7bc.png"
+  },
+  {
+   "brand": null,
+   "name": "מילאנו בייקרי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f22f69fa-393b-4804-b3a8-ae0ef7aa2b2c.png"
+  },
+  {
+   "brand": null,
+   "name": "מנזה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/28645049-ce7c-4f95-a8fd-9b63c0895896.png"
+  },
+  {
+   "brand": null,
+   "name": "בית קפה ארצי DELI",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0dc148fe-16d7-4c5e-a348-814f061443e7.png"
+  },
+  {
+   "brand": null,
+   "name": "לוצ'ה ערד",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c784b75e-6259-453d-88ab-10a4a1062cec.png"
+  },
+  {
+   "brand": null,
+   "name": "לה פטיסייר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/46e1d2cb-c954-40a9-9fc6-12e5dbd28057.png"
+  },
+  {
+   "brand": null,
+   "name": "קמפניה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f0957163-5d3d-4940-9b8b-4495e086ecf5.png"
+  },
+  {
+   "brand": null,
+   "name": "סורנטו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/802071ea-cdd7-4570-9625-e20cd118f3ed.png"
+  },
+  {
+   "brand": null,
+   "name": "DOMO",
+   "nameEn": "DOMO",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/082bfdd0-b978-4253-91a9-02589ee54284.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה פלור",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/654f3535-a4f6-43ec-9db3-742be513cedd.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת גרקו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c7fb5341-a977-4870-b465-cb24213c712c.png"
+  },
+  {
+   "brand": null,
+   "name": "פיצה שף",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0b68fcd9-7a72-466f-bbb7-b379af473805.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת בייגל קפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9d30c602-0793-4dea-856d-db8f7c1e80c5.png"
+  },
+  {
+   "brand": null,
+   "name": "ביאנקה אילת",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b214d2653a1a4368bd72db042401157a.png"
+  },
+  {
+   "brand": null,
+   "name": "Leo. Resto Bar",
+   "nameEn": "Leo. Resto Bar",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5bf7ec5860254f61975df6adc2a269ab.png"
+  },
+  {
+   "brand": null,
+   "name": "המבורגר הדיקטטור (התעשייה 11 חיפה)",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e9f52f9589ed457081a61d633915a458.png"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת לורנס",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/1de261596e584be4a1b141189edcf16c.png"
+  },
+  {
+   "brand": null,
+   "name": "שיסו",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/aecd48a20f9d4c63b1f63ec99b4fecf6.png"
+  },
+  {
+   "brand": null,
+   "name": "fuego",
+   "nameEn": "fuego",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/28bc38e860e6425ab91c8451ebe18505.png"
+  },
+  {
+   "brand": null,
+   "name": "ספייס האוס דיזינגוף",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3503e32bdaff427790e303c99632a8a6.png"
+  },
+  {
+   "brand": null,
+   "name": "MI VA - TLV",
+   "nameEn": "MI VA - TLV",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/8e68b5acc9ce4014a7e1ae9ea6dc1907.png"
+  },
+  {
+   "brand": null,
+   "name": "Alibi bar",
+   "nameEn": "Alibi bar",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/220c9f64507f4dc3894aa53e27baf34b.png"
+  },
+  {
+   "brand": null,
+   "name": "טורקיז שווארמה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/b3bc45c09de54931961ddf096992f8f8.png"
+  },
+  {
+   "brand": null,
+   "name": "שיפודי אלי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e6f637dff077496b8f06447e18ed4c28.png"
+  },
+  {
+   "brand": null,
+   "name": "Mila house",
+   "nameEn": "Mila house",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/36373cb825fb4d75a8a42f38de369188.png"
+  },
+  {
+   "brand": null,
+   "name": "NINNYO TLV",
+   "nameEn": "NINNYO TLV",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/de5ec789e9494cee8ef7b225b8ccc504.png"
+  },
+  {
+   "brand": null,
+   "name": "פטריקס חולון",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/068e9d23bd6c429390b07b197d95f381.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מסעדת טאלה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/bfbca0ce13d4412fb0cca8fc04f671d8.png"
+  },
+  {
+   "brand": null,
+   "name": "אלגו דולסה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5d81c0ae13f34d65aa660049e2864fc4.png"
+  },
+  {
+   "brand": null,
+   "name": "ג'טרו בורגר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/85faa4e9a3d04ed89a14a5ad94254cb5.png"
+  },
+  {
+   "brand": null,
+   "name": "M32",
+   "nameEn": "M32",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4e74ca98da4049f9badac5eac3f1915c.png"
+  },
+  {
+   "brand": null,
+   "name": "MEATUP- GRILL BURGER & MORE",
+   "nameEn": "MEATUP- GRILL BURGER & MORE",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4ca8f29e3423460984e65e88e4707e6a.png"
+  },
+  {
+   "brand": null,
+   "name": "לה תבור בייקרי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/3d11142d5997407fa5f70505f5a1904a.png"
+  },
+  {
+   "brand": null,
+   "name": "סושי בוקס באר יעקב",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/23a42874c8db4addae9c75d2cfc6a754.png"
+  },
+  {
+   "brand": null,
+   "name": "Nord 26",
+   "nameEn": "Nord 26",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/e5227a12bd814d7b80fe4fb01a75c2d9.png"
+  },
+  {
+   "brand": null,
+   "name": "סן פדרו- המקסיקנית הכשרה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a6d9b87dd7064b4994bf46255e8ef349.png"
+  },
+  {
+   "brand": null,
+   "name": "גרינברג בורגר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f4bb69d327544603bbc19936ec2521e0.png"
+  },
+  {
+   "brand": null,
+   "name": "Fantasia יס פלאנט ראשון",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/85b6a696b2544ae083b7411892584049.png"
+  },
+  {
+   "brand": null,
+   "name": "ג'קיס דיינר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/522d53343f4d48c2b896292e63f7cc13.png"
+  },
+  {
+   "brand": null,
+   "name": "המזווה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/850d109b8b1d4ea3ada366d27cd9c06a.png"
+  },
+  {
+   "brand": null,
+   "name": "קפה קפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d2ab51a0-3abd-4f78-ab3a-13895c84242d.png"
+  },
+  {
+   "brand": null,
+   "name": "גאטוס על המים",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/a99ae157-8918-4106-9dac-7537d7c78b11.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סינטה מסעדת בשרים",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/9b64eb42-1d2b-4642-b3e1-15103984b7f5.jpg"
+  },
+  {
+   "brand": null,
+   "name": "סואי סושי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c9a6a80d1f664ae4ab6357540ce4ab7b.png"
+  },
+  {
+   "brand": null,
+   "name": "בוצ'רי דה ברילוצ'ה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/5e394d22-3501-4c3d-92a9-626ef23251a1.png"
+  },
+  {
+   "brand": null,
+   "name": "גורילה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/18a31e8b-b7ec-4008-8bab-7257bd0ba757.png"
+  },
+  {
+   "brand": null,
+   "name": "אווזי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/ea881de8-acb5-49fc-8a3f-027ad708f071.png"
+  },
+  {
+   "brand": null,
+   "name": "חוות התבלינים בגלבוע",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fe64f6d2-2644-4ada-9140-3570fa6b5adc.jpg"
+  },
+  {
+   "brand": null,
+   "name": "אייר קפה איירפורט סיטי",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/39c4780c-33f6-4c60-8995-cd142283b690.png"
+  },
+  {
+   "brand": null,
+   "name": "מילקה קפה",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/14ef79c0-8da2-46c3-a2d9-21adc4c6e8dd.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ברד אנד ברקפסט",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/f57da78d-8cdb-419d-aca6-6e95dce68545.png"
+  },
+  {
+   "brand": null,
+   "name": "בוצרי אחוזת בשר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/0570aef1-8c00-4f58-bd2f-6744ba791530.jpg"
+  },
+  {
+   "brand": null,
+   "name": "קפה גרג",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/af57fcb5-edd8-4e1f-a274-ba20377fb7de.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לחם ארז",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d7918fe3-7952-476e-bdaf-0ae2bfb6cbb7.png"
+  },
+  {
+   "brand": null,
+   "name": "ריבר נודלס בר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/c15af6e1-fc37-45cd-9674-7ef8dd275f9f.jpg"
+  },
+  {
+   "brand": null,
+   "name": "איטלקיה בפשפשים",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/2a130bb2-ebfb-4166-92d3-5cd4c93b154e.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מקס ברנר",
+   "nameEn": null,
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/d0d0526b-30dc-490e-b82a-a2ed5be33faf.png"
+  },
+  {
+   "brand": null,
+   "name": "BLACK",
+   "nameEn": "BLACK",
+   "category": "מסעדות ובתי קפה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/41ffe9fb-0afc-40c8-8011-ed817f53cc79.jpg"
+  },
+  {
+   "brand": null,
+   "name": "לופ - LOOP",
+   "nameEn": null,
+   "category": "בילוי ופנאי",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/728eacac71dc49619b263f9780149439.png"
+  },
+  {
+   "brand": null,
+   "name": "יקב גוש עציון",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/4f093fbb-28a6-4229-83e0-133d4b419028.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מבשלת בירה מלכה",
+   "nameEn": null,
+   "category": "יקבים וקולינריה",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/558042a6-62a9-4cca-949d-5320e616646a.png"
+  },
+  {
+   "brand": null,
+   "name": "דומינוס פיצה אונליין",
+   "nameEn": null,
+   "category": "רכישה אונליין",
+   "logo": "https://pics.k4a.co.il/share/NewUploads/BusinessLogo/fef7e308-e459-4f4f-a713-8c7f47f7d395.png"
+  }
+ ]
+}

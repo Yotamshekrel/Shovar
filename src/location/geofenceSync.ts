@@ -21,11 +21,11 @@ function schedule(reason: string, delay = 1500) {
   }, delay);
 }
 
-/** Which stores/pins/mutes are relevant for geofences — refresh only when this changes. */
+/** Which stores/mutes are relevant for geofences — refresh only when this changes. */
 function signature(items: Item[]): string {
   return items
     .filter((i) => !i.deletedAt && i.status === 'active' && !i.locationMuted && i.balanceMinor !== 0)
-    .map((i) => `${storeKey(i.storeName)}@${i.pinnedLat ?? ''},${i.pinnedLng ?? ''}`)
+    .map((i) => storeKey(i.storeName))
     .sort()
     .join('|');
 }

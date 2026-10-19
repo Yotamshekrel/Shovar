@@ -10,7 +10,7 @@ import { expiryLabel } from '@/components/item/labels';
 import { SecretRow } from '@/components/item/SecretRow';
 import { AcceptedStores } from '@/components/item/AcceptedStores';
 import { StoreAvatar } from '@/components/item/StoreAvatar';
-import { Button, Divider, EmptyState, IconButton, ListRow, Section, Text, successFeedback } from '@/components/ui';
+import { Button, Divider, EmptyState, IconButton, ListRow, Section, Text } from '@/components/ui';
 import { formatDate } from '@/domain/dates';
 import { formatMoney } from '@/domain/money';
 import { effectiveStatus } from '@/domain/status';
@@ -19,12 +19,12 @@ import { useI18n } from '@/i18n';
 import { deleteAttachmentFile, persistAttachment } from '@/services/attachments';
 import { getServices } from '@/services/database';
 import { pickDocument } from '@/services/pickers';
-import { pinCurrentLocation } from '@/location/locationService';
 import { unlockForSecrets } from '@/services/security';
+import { useCelebrate } from '@/state/celebrate';
 import { useItem, useItemsStore } from '@/state/items';
 import { readableOn, shade, storeColor } from '@/theme/color';
 import { useTheme } from '@/theme/ThemeProvider';
-import { confirm, notify } from '@/utils/dialogs';
+import { confirm } from '@/utils/dialogs';
 
 export default function ItemDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -93,7 +93,10 @@ export default function ItemDetailScreen() {
       confirmText: t('detail.markUsed'),
       cancelText: t('common.cancel'),
     });
-    if (ok) await store.markUsed(item.id);
+    if (!ok) return;
+    await store.markUsed(item.id);
+    router.dismissAll();
+    setTimeout(() => useCelebrate.getState().celebrate('used'), 350);
   };
 
   const onAddAttachment = async () => {
@@ -102,16 +105,6 @@ export default function ItemDetailScreen() {
     const saved = await persistAttachment(res.attachment);
     await store.addAttachment(item.id, saved);
     reload();
-  };
-
-  const onPinLocation = async () => {
-    const pos = await pinCurrentLocation();
-    if (!pos) {
-      notify(t('detail.pinFailed'));
-      return;
-    }
-    await store.update(item.id, { pinnedLat: pos.lat, pinnedLng: pos.lng });
-    successFeedback();
   };
 
   const onRemoveAttachment = async (a: Attachment) => {
@@ -283,18 +276,6 @@ export default function ItemDetailScreen() {
             toggle={{ value: !item.locationMuted, onChange: (v) => store.update(item.id, { locationMuted: !v }) }}
             testID="detail-location-toggle"
           />
-          {!archived && !item.locationMuted ? (
-            <>
-              <Divider inset={60} />
-              <ListRow
-                icon={item.pinnedLat != null ? 'pin' : 'pin-outline'}
-                title={t('detail.pinLocation')}
-                subtitle={item.pinnedLat != null ? t('detail.pinnedLocation') : t('detail.pinLocationHint')}
-                onPress={onPinLocation}
-                testID="detail-pin-location"
-              />
-            </>
-          ) : null}
         </Section>
 
         <AcceptedStores item={item} />

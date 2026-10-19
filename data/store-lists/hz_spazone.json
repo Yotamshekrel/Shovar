@@ -1,0 +1,130 @@
+{
+ "platform": "hitechzone",
+ "variant": "spazone",
+ "source": "https://www.htzone.co.il/voucher-zone/3",
+ "notes": "SpaZone: spas. onlineRedeem = terms say the shop's website only.",
+ "updated": "2026-10-19",
+ "count": 20,
+ "stores": [
+  {
+   "brand": null,
+   "name": "אלמרה",
+   "nameEn": "Almera SPA",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_אלמרה.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא האפנדי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_25_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא אלוויט",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_אלוויט .png"
+  },
+  {
+   "brand": null,
+   "name": "מלונות קיסר פרמייר טבריה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_Caesar Premier Tiberias Logo Heb.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא קליניק",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_37_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא ניצה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_4534535.png"
+  },
+  {
+   "brand": null,
+   "name": "ספא קראון פלאזה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_7_image001.webp"
+  },
+  {
+   "brand": null,
+   "name": "רשת אננדה ספא - סניף נתניה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/4_24_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת אננדה ספא - סניף ת\"א הכרמל",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/5_24_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת אננדה ספא - סניף ת\"א בוגרש",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/6_24_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "רשת אננדה ספא - סניף ת\"א ישכון",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/7_24_ללא שם.png"
+  },
+  {
+   "brand": null,
+   "name": "מדיקל ספא סנטר",
+   "nameEn": "Medical Spa Center",
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_1734863084254299.webp"
+  },
+  {
+   "brand": null,
+   "name": "ספא לוטוס",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_Artboard 1 copy 7-100.jpg"
+  },
+  {
+   "brand": null,
+   "name": "דרים ספא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_לוגו דרים ספא.jpg"
+  },
+  {
+   "brand": null,
+   "name": "ספא בן עמי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/ספא בן עמי.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מטה במדבר",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_344763327_601349631927264_7410956231362150441_n.png"
+  },
+  {
+   "brand": null,
+   "name": "קאזה סוזנה",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_קאזה.png"
+  },
+  {
+   "brand": null,
+   "name": "אלאיה פולג",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/2_large-Copy of לוגו אלאיה-01.png"
+  },
+  {
+   "brand": null,
+   "name": "ארמאנני ספא",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/ARMANI.jpg"
+  },
+  {
+   "brand": null,
+   "name": "מלון האפנדי",
+   "nameEn": null,
+   "logo": "https://www.htzone.co.il/hz/images/voucher_zone/1_efendi-hotel.jpg"
+  }
+ ]
+}

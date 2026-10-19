@@ -26,13 +26,17 @@ export interface ItemFormValues {
 
 export type FormErrors = Partial<Record<keyof ItemFormValues, StringKey>>;
 
-export function validateItemForm(v: ItemFormValues): { errors: FormErrors; draft: ItemDraft | null } {
+export function validateItemForm(
+  v: ItemFormValues,
+  opts: { requireAmount?: boolean } = {},
+): { errors: FormErrors; draft: ItemDraft | null } {
   const errors: FormErrors = {};
   const storeName = v.storeName.trim();
   if (!storeName) errors.storeName = 'form.error.store';
 
   const amountMinor = v.amount.trim() ? parseAmountToMinor(v.amount, v.currency) : null;
   if (v.amount.trim() && amountMinor === null) errors.amount = 'form.error.amount';
+  else if (opts.requireAmount && !(amountMinor !== null && amountMinor > 0)) errors.amount = 'form.error.amountRequired';
 
   const balanceMinor = v.balance.trim() ? parseAmountToMinor(v.balance, v.currency) : null;
   if (v.balance.trim() && balanceMinor === null) errors.balance = 'form.error.amount';

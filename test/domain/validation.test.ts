@@ -22,6 +22,17 @@ const base: ItemFormValues = {
 };
 
 describe('validateItemForm', () => {
+  it('can require a real amount for new cards', () => {
+    for (const amount of ['', '0', '  ']) {
+      const { draft, errors } = validateItemForm({ ...base, amount }, { requireAmount: true });
+      expect(draft).toBeNull();
+      expect(errors.amount).toBe('form.error.amountRequired');
+    }
+    expect(validateItemForm({ ...base, amount: '5' }, { requireAmount: true }).draft?.amountMinor).toBe(500);
+    // Existing cards without an amount can still be edited.
+    expect(validateItemForm({ ...base, amount: '' }).draft).not.toBeNull();
+  });
+
   it('builds a draft with balance defaulting to amount', () => {
     const { draft, errors } = validateItemForm(base);
     expect(errors).toEqual({});
