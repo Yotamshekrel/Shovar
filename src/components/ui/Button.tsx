@@ -58,6 +58,7 @@ export function Button({
       accessibilityHint={accessibilityHint}
       accessibilityState={{ disabled: !!inactive, busy: !!loading }}
       disabled={inactive}
+      hitSlop={size === 'sm' ? { top: 4, bottom: 4, left: 4, right: 4 } : undefined}
       onPress={() => {
         tapFeedback();
         onPress?.();

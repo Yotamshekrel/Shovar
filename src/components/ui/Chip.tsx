@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { useTheme } from '@/theme/ThemeProvider';
 
-import { tapFeedback } from './haptics';
+import { selectionFeedback } from './haptics';
 import { Icon, type IconName } from './Icon';
 import { PressableScale } from './PressableScale';
 import { Text } from './Text';
@@ -27,12 +27,13 @@ export function Chip({
   return (
     <PressableScale
       pressedScale={0.95}
+      hitSlop={{ top: 4, bottom: 4, left: 2, right: 2 }}
       testID={testID}
       accessibilityRole="button"
       accessibilityState={{ selected: !!selected }}
       accessibilityLabel={label}
       onPress={() => {
-        tapFeedback();
+        selectionFeedback();
         onPress?.();
       }}
       style={({ pressed }) => [

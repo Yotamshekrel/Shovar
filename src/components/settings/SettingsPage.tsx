@@ -10,6 +10,7 @@ export function SettingsPage({ children }: { children: ReactNode }) {
   const insets = useSafeAreaInsets();
   return (
     <ScrollView
+      contentInsetAdjustmentBehavior="automatic"
       style={{ backgroundColor: colors.background }}
       contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + 32 }]}
     >

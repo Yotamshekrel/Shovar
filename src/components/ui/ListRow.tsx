@@ -3,7 +3,7 @@ import { Pressable, StyleSheet, Switch, View } from 'react-native';
 
 import { useTheme } from '@/theme/ThemeProvider';
 
-import { tapFeedback } from './haptics';
+import { selectionFeedback, tapFeedback } from './haptics';
 import { Icon, type IconName } from './Icon';
 import { Text } from './Text';
 
@@ -49,7 +49,10 @@ export function ListRow({ title, subtitle, icon, iconColor, value, onPress, chev
       {toggle ? (
         <Switch
           value={toggle.value}
-          onValueChange={toggle.onChange}
+          onValueChange={(v) => {
+            selectionFeedback();
+            toggle.onChange(v);
+          }}
           disabled={toggle.disabled}
           trackColor={{ true: colors.primary, false: colors.borderStrong }}
           accessibilityLabel={title}

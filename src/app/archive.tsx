@@ -22,6 +22,7 @@ export default function ArchiveScreen() {
   return (
     <View style={[styles.flex, { backgroundColor: colors.background }]}>
       <FlatList
+        contentInsetAdjustmentBehavior="automatic"
         data={archived}
         keyExtractor={(i) => i.id}
         contentContainerStyle={[styles.list, { paddingBottom: insets.bottom + 24 }]}
