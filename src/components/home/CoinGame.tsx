@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { I18nManager, Modal, PanResponder, StyleSheet, View, useWindowDimensions, type LayoutChangeEvent } from 'react-native';
+import { Modal, PanResponder, StyleSheet, View, useWindowDimensions, type LayoutChangeEvent } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Button, IconButton, Text, successFeedback, tapFeedback, warningFeedback } from '@/components/ui';
@@ -37,6 +37,8 @@ export function CoinGame({ visible, currency, onClose }: { visible: boolean; cur
   const { colors, radii } = useTheme();
   const { t } = useI18n();
   const insets = useSafeAreaInsets();
+  // Keep the wallet clear of the home indicator / Android gesture bar.
+  const walletBottom = WALLET_BOTTOM + insets.bottom;
   const { width, height } = useWindowDimensions();
   const [phase, setPhase] = useState<Phase>('ready');
   // The simulation lives in `drops`; `view` is the snapshot that gets rendered each frame.
@@ -57,7 +59,6 @@ export function CoinGame({ visible, currency, onClose }: { visible: boolean; cur
   const walletRef = useRef(0);
   const fieldH = useRef(0);
 
-  const place = (x: number, w: number) => (I18nManager.isRTL ? x - (width - w) : x);
   const moveWallet = useCallback(
     (pageX: number) => {
       setWalletX(Math.max(0, Math.min(width - WALLET_W, pageX - WALLET_W / 2)));
@@ -156,7 +157,7 @@ export function CoinGame({ visible, currency, onClose }: { visible: boolean; cur
       }
       const fh = fieldH.current || height;
       // Coins are swallowed at the wallet's mouth, a little below the top of its artwork.
-      const top = fh - WALLET_BOTTOM - WALLET_H + 14;
+      const top = fh - walletBottom - WALLET_H + 14;
       const wx = walletRef.current;
       const kept: Drop[] = [];
       for (const d of drops.current) {
@@ -174,7 +175,7 @@ export function CoinGame({ visible, currency, onClose }: { visible: boolean; cur
     };
     raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);
-  }, [phase, width, height, finish, collect]);
+  }, [phase, width, height, walletBottom, finish, collect]);
 
   const symbol = currencySymbol(currency);
   const seconds = Math.ceil(timeLeft / 1000);
@@ -204,7 +205,7 @@ export function CoinGame({ visible, currency, onClose }: { visible: boolean; cur
           </View>
         </View>
 
-        <View style={styles.field} onLayout={(e: LayoutChangeEvent) => (fieldH.current = e.nativeEvent.layout.height)} {...pan.panHandlers}>
+        <View style={styles.field} onLayout={(e: LayoutChangeEvent) => (fieldH.current = e.nativeEvent.layout.height)} {...(phase === 'playing' ? pan.panHandlers : null)}>
           {phase === 'playing'
             ? view.map((d) => {
                 const tax = d.kind === 'tax';
@@ -215,7 +216,7 @@ export function CoinGame({ visible, currency, onClose }: { visible: boolean; cur
                     style={[
                       styles.coin,
                       {
-                        transform: [{ translateX: place(d.x, COIN) }, { translateY: d.y }],
+                        transform: [{ translateX: d.x }, { translateY: d.y }],
                         backgroundColor: tax ? colors.danger : d.kind === 'gold' ? '#F5B342' : '#FFD66B',
                         borderColor: tax ? colors.danger : '#D9A21B',
                       },
@@ -232,7 +233,7 @@ export function CoinGame({ visible, currency, onClose }: { visible: boolean; cur
           {phase === 'playing' ? (
             <View
               pointerEvents="none"
-              style={[styles.wallet, { transform: [{ translateX: place(walletX, WALLET_W) }] }]}
+              style={[styles.wallet, { bottom: walletBottom, transform: [{ translateX: walletX }] }]}
             >
               <CoinWallet x={walletX} hit={hit} symbol={symbol} />
             </View>
@@ -260,18 +261,20 @@ const styles = StyleSheet.create({
   hud: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 8, paddingBottom: 8 },
   hudMiddle: { alignItems: 'center' },
   hudRight: { alignItems: 'flex-end', minWidth: 44, paddingEnd: 8 },
-  field: { flex: 1, overflow: 'hidden', justifyContent: 'center' },
+  // Always left-to-right: coins and the wallet are placed with physical x offsets, and iOS and Android
+  // disagree on how translateX behaves in an RTL (Hebrew) layout.
+  field: { flex: 1, overflow: 'hidden', justifyContent: 'center', direction: 'ltr' },
   wallet: {
     position: 'absolute',
     bottom: WALLET_BOTTOM,
-    start: 0,
+    left: 0,
     width: WALLET_W,
     height: WALLET_H,
   },
   coin: {
     position: 'absolute',
     top: 0,
-    start: 0,
+    left: 0,
     width: COIN,
     height: COIN,
     borderRadius: COIN / 2,
