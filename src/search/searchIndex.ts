@@ -1,9 +1,9 @@
 import { effectiveStatus } from '@/domain/status';
 import type { Item } from '@/domain/types';
 
-import { networkIdFor, networkStores, onCatalogChanged } from '@/networks/registry';
+import { allNetworkDefs, networkIdFor, networkStores, onCatalogChanged } from '@/networks/registry';
 
-import { BRANDS, brandById, brandNames, findBrand, type Brand } from './brands';
+import { BRANDS, brandById, brandNames, findBrand, type Brand, type StoreCategory } from './brands';
 import { MATCH_THRESHOLD, bestScore, prepareName, prepareQuery, type PreparedName } from './fuzzy';
 
 export interface IndexedItem {
@@ -136,4 +136,84 @@ export function suggestBrands(query: string, limit = 4): Brand[] {
     .filter((x) => x.score >= floor)
     .slice(0, limit)
     .map((x) => x.brand);
+}
+
+/** A store worth offering while the user types a name: a known brand, or a chain from the store lists. */
+export interface StoreSuggestion {
+  id: string;
+  name: string;
+  nameHe?: string;
+  category: StoreCategory | null;
+}
+
+interface CatalogEntry {
+  suggestion: StoreSuggestion;
+  names: PreparedName[];
+  popularity: number;
+}
+
+let catalogIndex: CatalogEntry[] | null = null;
+onCatalogChanged(() => {
+  catalogIndex = null;
+});
+
+function buildCatalogIndex(): CatalogEntry[] {
+  const seen = new Set<string>();
+  const out: CatalogEntry[] = [];
+  for (const def of allNetworkDefs()) {
+    for (const s of networkStores(def.id)) {
+      // Known brands are suggested from the brand list; one-off venues are not worth a suggestion.
+      if (seen.has(s.key) || s.key.startsWith('brand:') || !s.physical) continue;
+      seen.add(s.key);
+      const hebrewOnly = /[\u05d0-\u05ea]/.test(s.name);
+      const name = tidyCase(hebrewOnly && s.nameEn ? s.nameEn : s.name);
+      const nameHe = hebrewOnly && s.nameEn ? s.name : undefined;
+      out.push({
+        suggestion: { id: `store:${s.key}`, name, nameHe, category: null },
+        names: [name, nameHe, ...s.names].filter((n): n is string => !!n).map((n) => prepareName(n)),
+        popularity: s.popularity,
+      });
+    }
+  }
+  return out;
+}
+
+/** Brands first, then chains from the store lists ("Vans" has a logo and accepting cards but no brand entry). */
+export function suggestStores(query: string, limit = 4): StoreSuggestion[] {
+  const brands = suggestBrands(query, limit).map<StoreSuggestion>((b) => ({
+    id: b.id,
+    name: b.name,
+    nameHe: b.nameHe,
+    category: b.category,
+  }));
+  if (brands.length >= limit) return brands;
+  const q = prepareQuery(query);
+  catalogIndex ??= buildCatalogIndex();
+  const taken = new Set(brands.map((b) => compactKey(b.name)));
+  const extra = catalogIndex
+    .map((e) => ({ e, score: bestScore(q, e.names).score }))
+    .filter((x) => x.score >= 0.8 && !taken.has(compactKey(x.e.suggestion.name)))
+    .sort((a, b) => b.score - a.score || b.e.popularity - a.e.popularity)
+    .map((x) => x.e.suggestion);
+  const out = [...brands];
+  const typedHebrew = /[\u05d0-\u05ea]/.test(query);
+  for (const s of extra) {
+    if (out.length >= limit) break;
+    // Someone typing Latin letters is not after the Hebrew-only spelling of a store.
+    if (!typedHebrew && !s.nameHe && /[\u05d0-\u05ea]/.test(s.name)) continue;
+    // "VANS" and its Hebrew spelling are one store: skip a candidate that sounds like one already offered.
+    const sameAsOffered = out.some((o) => bestScore(prepareQuery(o.name), [prepareName(s.name)]).score >= 0.95);
+    if (!sameAsOffered) out.push(s);
+  }
+  return out;
+}
+
+function compactKey(name: string): string {
+  return prepareQuery(name).compact;
+}
+
+/** Store lists shout ("VANS"); show a Latin all-caps name as a name ("Vans"), but leave acronyms (H&M, AE) alone. */
+function tidyCase(name: string): string {
+  if (name.length < 4 || !/^[A-Z\s]+$/.test(name)) return name;
+  return name.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase());
 }

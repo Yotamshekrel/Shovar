@@ -11,7 +11,7 @@ import { type FormErrors, type ItemFormValues, validateItemForm } from '@/domain
 import { useI18n } from '@/i18n';
 import { networkLabel, networksForPlatform } from '@/networks/registry';
 import { STORE_CATEGORIES, findBrand } from '@/search/brands';
-import { suggestBrands } from '@/search/searchIndex';
+import { suggestStores } from '@/search/searchIndex';
 import type { DraftField, PendingAttachment } from '@/state/drafts';
 import { useTheme } from '@/theme/ThemeProvider';
 
@@ -82,7 +82,7 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
   const suggestions = useMemo(() => {
     if (!storeFocused || values.storeName.trim().length < 2) return [];
     const exact = findBrand(values.storeName);
-    return suggestBrands(values.storeName, 4).filter((b) => b.id !== exact?.id);
+    return suggestStores(values.storeName, 4).filter((b) => b.id !== exact?.id && b.name !== values.storeName.trim());
   }, [values.storeName, storeFocused]);
 
   // Multi-store cards (BuyMe, Max, …) come in several kinds with different store lists.
@@ -95,9 +95,9 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
     if (errors.storeName) setErrors((e) => ({ ...e, storeName: undefined }));
   };
 
-  const chooseBrand = (name: string, category: string) => {
+  const chooseBrand = (name: string, category: string | null) => {
     setStore(name);
-    if (!values.storeCategory) set('storeCategory', category);
+    if (!values.storeCategory && category) set('storeCategory', category);
     storeRef.current?.blur();
   };
 
@@ -406,7 +406,7 @@ export function ItemForm({ initial, mode, lowConfidence = [], attachments = [], 
           { paddingBottom: Math.max(insets.bottom, 12), borderTopColor: colors.border, backgroundColor: colors.background },
         ]}
       >
-        <Button testID="form-submit" title={submitLabel ?? t('common.save')} onPress={submit} loading={saving} fullWidth icon="checkmark" />
+        <Button testID="form-submit" title={submitLabel ?? t('common.save')} onPress={submit} loading={saving} fullWidth icon="checkmark" haptic={false} />
       </View>
     </KeyboardAvoidingView>
   );

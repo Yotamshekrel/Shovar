@@ -5,7 +5,7 @@ import Animated, { FadeInDown } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { StoreAvatar } from '@/components/item/StoreAvatar';
-import { Button, Chip, Icon, IconButton, type IconName, Text, successFeedback, tapFeedback, warningFeedback } from '@/components/ui';
+import { Button, Chip, Icon, IconButton, type IconName, Text, TextField, successFeedback, tapFeedback, warningFeedback } from '@/components/ui';
 import { addMonths, formatDate, todayIso } from '@/domain/dates';
 import { SUPPORTED_CURRENCIES, currencySymbol, formatMoney, parseAmountToMinor } from '@/domain/money';
 import type { ItemDraft, ItemType } from '@/domain/types';
@@ -13,7 +13,7 @@ import { type ItemFormValues, validateItemForm } from '@/domain/validation';
 import { useI18n, type StringKey } from '@/i18n';
 import { defaultNetworkId, networkLabel, networkStores, networksForPlatform } from '@/networks/registry';
 import { findBrand } from '@/search/brands';
-import { suggestBrands } from '@/search/searchIndex';
+import { suggestStores } from '@/search/searchIndex';
 import { useScannedCode } from '@/state/scannedCode';
 import { useTheme } from '@/theme/ThemeProvider';
 
@@ -45,6 +45,9 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
   const [saving, setSaving] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [storeFocused, setStoreFocused] = useState(false);
+  // Optional extras (PIN, link, notes) on the confirm screen.
+  const [showMore, setShowMore] = useState(false);
+  const [linkError, setLinkError] = useState(false);
   const storeRef = useRef<TextInput>(null);
 
   const step = STEPS[index];
@@ -119,7 +122,7 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
   const suggestions = useMemo(() => {
     if (!storeFocused || values.storeName.trim().length < 2) return [];
     const exact = findBrand(values.storeName);
-    return suggestBrands(values.storeName, 4).filter((b) => b.id !== exact?.id);
+    return suggestStores(values.storeName, 4).filter((b) => b.id !== exact?.id && b.name !== values.storeName.trim());
   }, [values.storeName, storeFocused]);
 
   const amountMinor = values.amount.trim() ? parseAmountToMinor(values.amount, values.currency) : null;
@@ -144,6 +147,11 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
     const { errors, draft } = validateItemForm({ ...values, balance: '' }, { requireAmount: true });
     if (!draft) {
       warningFeedback();
+      if (errors.linkUrl && !errors.storeName && !errors.amount) {
+        setShowMore(true);
+        setLinkError(true);
+        return;
+      }
       // Send the user to the first step that has a problem.
       goTo(errors.storeName ? 1 : 2);
       setFromConfirm(true);
@@ -290,7 +298,7 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
                 onPress={() => {
                   tapFeedback();
                   setStore(b.name);
-                  if (!values.storeCategory) set('storeCategory', b.category);
+                  if (!values.storeCategory && b.category) set('storeCategory', b.category);
                   storeRef.current?.blur();
                   // One tap is the answer — unless it is a multi-store card (BuyMe, Tav Zahav …): stay so its type and stores show.
                   if (networksForPlatform(b.id).length === 0) advanceSoon();
@@ -520,9 +528,56 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
             </Pressable>
           ))}
         </View>
-        <Text variant="footnote" tone="tertiary">
-          {t('wizard.confirm.more')}
-        </Text>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityState={{ expanded: showMore }}
+          onPress={() => {
+            tapFeedback();
+            setShowMore((v) => !v);
+          }}
+          style={styles.link}
+          testID="wizard-more"
+        >
+          <Icon name={showMore ? 'chevron-up' : 'add'} size={18} color={colors.primary} />
+          <Text variant="bodyStrong" tone="primary">
+            {showMore ? t('form.lessDetails') : t('wizard.confirm.addMore')}
+          </Text>
+        </Pressable>
+        {showMore ? (
+          <View style={styles.gap}>
+            <TextField
+              testID="wizard-pin"
+              label={t('form.pin')}
+              value={values.pin}
+              onChangeText={(v) => set('pin', v)}
+              keyboardType="number-pad"
+              autoCorrect={false}
+              mono
+            />
+            <TextField
+              testID="wizard-link"
+              label={t('form.link')}
+              placeholder={t('form.linkPlaceholder')}
+              value={values.linkUrl}
+              onChangeText={(v) => {
+                set('linkUrl', v);
+                setLinkError(false);
+              }}
+              error={linkError ? t('form.error.link') : null}
+              keyboardType="url"
+              autoCapitalize="none"
+              autoCorrect={false}
+            />
+            <TextField
+              testID="wizard-notes"
+              label={t('form.notes')}
+              placeholder={t('form.notesPlaceholder')}
+              value={values.notes}
+              onChangeText={(v) => set('notes', v)}
+              multiline
+            />
+          </View>
+        ) : null}
         {submitError ? (
           <Text tone="danger" variant="callout">
             {submitError}
@@ -562,7 +617,7 @@ export function AddWizard({ initial, onSubmit }: AddWizardProps) {
             { paddingBottom: Math.max(insets.bottom, 12), borderTopColor: colors.border, backgroundColor: colors.background },
           ]}
         >
-          <Button testID="wizard-save" title={t('wizard.save')} icon="checkmark" onPress={save} loading={saving} fullWidth />
+          <Button testID="wizard-save" title={t('wizard.save')} icon="checkmark" onPress={save} loading={saving} fullWidth haptic={false} />
         </View>
       ) : null}
     </View>
@@ -581,7 +636,7 @@ const styles = StyleSheet.create({
   chips: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
   headerTitle: { alignItems: 'center', maxWidth: 240 },
   currencySign: { fontSize: 30, lineHeight: 36 },
-  link: { alignSelf: 'flex-start', paddingVertical: 6 },
+  link: { alignSelf: 'flex-start', paddingVertical: 6, flexDirection: 'row', alignItems: 'center', gap: 6 },
   typeColumn: { flex: 1, gap: 12 },
   typeTile: { flex: 1, padding: 22, borderWidth: 1.5, alignItems: 'center', justifyContent: 'center', gap: 18 },
   expiryGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 12 },

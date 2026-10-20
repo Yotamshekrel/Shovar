@@ -22,6 +22,8 @@ export interface ButtonProps {
   style?: StyleProp<ViewStyle>;
   accessibilityHint?: string;
   testID?: string;
+  /** Off for buttons that play their own feedback once the action is done (Save). */
+  haptic?: boolean;
 }
 
 const HEIGHT: Record<ButtonSize, number> = { lg: 54, md: 46, sm: 36 };
@@ -38,6 +40,7 @@ export function Button({
   style,
   accessibilityHint,
   testID,
+  haptic = true,
 }: ButtonProps) {
   const { colors, radii } = useTheme();
   const palette = {
@@ -60,7 +63,7 @@ export function Button({
       disabled={inactive}
       hitSlop={size === 'sm' ? { top: 4, bottom: 4, left: 4, right: 4 } : undefined}
       onPress={() => {
-        tapFeedback();
+        if (haptic) tapFeedback();
         onPress?.();
       }}
       style={({ pressed }) => [

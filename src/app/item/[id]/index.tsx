@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { Linking, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { AttachmentStrip } from '@/components/item/Attachments';
+import { AttachmentPreview, AttachmentStrip } from '@/components/item/Attachments';
 import { HistoryList } from '@/components/item/HistoryList';
 import { expiryLabel } from '@/components/item/labels';
 import { SecretRow } from '@/components/item/SecretRow';
@@ -21,6 +21,7 @@ import { getServices } from '@/services/database';
 import { pickDocument } from '@/services/pickers';
 import { unlockForSecrets } from '@/services/security';
 import { useCelebrate } from '@/state/celebrate';
+import type { PendingAttachment } from '@/state/drafts';
 import { useItem, useItemsStore } from '@/state/items';
 import { readableOn, shade, storeColor } from '@/theme/color';
 import { useTheme } from '@/theme/ThemeProvider';
@@ -36,6 +37,10 @@ export default function ItemDetailScreen() {
   const [secrets, setSecrets] = useState<{ code: string | null; pin: string | null }>({ code: null, pin: null });
   const [events, setEvents] = useState<BalanceEvent[]>([]);
   const [attachments, setAttachments] = useState<Attachment[]>([]);
+
+  // A picked file is previewed first, and only attached once the user confirms it.
+  const [picked, setPicked] = useState<PendingAttachment | null>(null);
+  const [attaching, setAttaching] = useState(false);
 
   const [reloadKey, setReloadKey] = useState(0);
   const reload = () => setReloadKey((k) => k + 1);
@@ -120,13 +125,27 @@ export default function ItemDetailScreen() {
   const onAddAttachment = async () => {
     try {
       const res = await pickDocument('receipt');
-      if (res.status !== 'picked') return;
-      const saved = await persistAttachment(res.attachment);
+      if (res.status === 'picked') setPicked(res.attachment);
+    } catch (e) {
+      console.warn('[detail] pick attachment failed', e);
+      notify(t('detail.attachmentFailed'));
+    }
+  };
+
+  const onConfirmAttachment = async () => {
+    if (!picked) return;
+    setAttaching(true);
+    try {
+      const saved = await persistAttachment(picked);
       await store.addAttachment(item.id, saved);
+      setPicked(null);
       reload();
     } catch (e) {
       console.warn('[detail] add attachment failed', e);
+      setPicked(null);
       notify(t('detail.attachmentFailed'));
+    } finally {
+      setAttaching(false);
     }
   };
 
@@ -316,6 +335,17 @@ export default function ItemDetailScreen() {
             {t('detail.attachments').toUpperCase()}
           </Text>
           <AttachmentStrip attachments={attachments} onAdd={onAddAttachment} onRemove={onRemoveAttachment} />
+          <AttachmentPreview
+            pending={picked}
+            busy={attaching}
+            onConfirm={onConfirmAttachment}
+            onCancel={() => setPicked(null)}
+            onChooseAnother={() => {
+              setPicked(null);
+              // Let the preview finish closing before the system picker is presented over it.
+              setTimeout(onAddAttachment, 350);
+            }}
+          />
         </View>
 
         {events.length > 0 ? (

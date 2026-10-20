@@ -1,13 +1,16 @@
 import { LinearGradient } from 'expo-linear-gradient';
+import { useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import Svg, { Circle, Line } from 'react-native-svg';
 
 import { BRAND } from '@/brand/paths';
-import { Icon, Text } from '@/components/ui';
+import { Icon, Text, successFeedback } from '@/components/ui';
 import { formatMoney } from '@/domain/money';
 import { useI18n } from '@/i18n';
 import { shade } from '@/theme/color';
 import { useTheme } from '@/theme/ThemeProvider';
+
+import { CoinGame } from './CoinGame';
 
 const RING_RADII = [34, 62, 90, 118, 146];
 const RING_BOX = 300;
@@ -28,6 +31,19 @@ export function TotalCard({ totals, count, expiringCount, onPressExpiring }: Tot
   const { t, locale } = useI18n();
   const fg = colors.textOnPrimary;
   const main = totals[0];
+
+  // Easter egg: tap the total rapidly (7 taps within 2.5 seconds) to play a little game.
+  const taps = useRef<number[]>([]);
+  const [playing, setPlaying] = useState(false);
+  const onAmountTap = () => {
+    const now = Date.now();
+    taps.current = [...taps.current.filter((x) => now - x < 2500), now];
+    if (taps.current.length >= 7) {
+      taps.current = [];
+      successFeedback();
+      setPlaying(true);
+    }
+  };
 
   return (
     <View style={[styles.shadow, { borderRadius: radii.card, backgroundColor: colors.primary, shadowColor: colors.primary }]}>
@@ -75,9 +91,12 @@ export function TotalCard({ totals, count, expiringCount, onPressExpiring }: Tot
           </Text>
         </View>
 
-        <Text variant="display" numeric color={fg} testID="total-value" adjustsFontSizeToFit numberOfLines={1} style={styles.amount}>
-          {main ? formatMoney(main.totalMinor, main.currency, locale) : formatMoney(0, 'ILS', locale)}
-        </Text>
+        <Pressable onPress={onAmountTap} accessible={false}>
+          <Text variant="display" numeric color={fg} testID="total-value" adjustsFontSizeToFit numberOfLines={1} style={styles.amount}>
+            {main ? formatMoney(main.totalMinor, main.currency, locale) : formatMoney(0, 'ILS', locale)}
+          </Text>
+        </Pressable>
+        <CoinGame visible={playing} currency={main?.currency ?? 'ILS'} onClose={() => setPlaying(false)} />
 
         {/* Ticket perforation with side notches cut out of the card. */}
         <View style={styles.perforation}>
